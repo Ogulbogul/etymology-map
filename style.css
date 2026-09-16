@@ -294,7 +294,6 @@ header h1 {
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--panel-bg);
-  overflow: hidden;
 }
 
 .wordlist-filter {
@@ -305,6 +304,7 @@ header h1 {
   padding: 10px 12px;
   border-bottom: 1px solid var(--border);
   background: var(--toolbar-bg);
+  border-radius: 10px 10px 0 0;
 }
 
 .wordlist-filter label {
@@ -369,6 +369,7 @@ header h1 {
   grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
   gap: 6px;
   padding: 12px;
+  border-radius: 0 0 10px 10px;
 }
 
 .wordlist-grid.empty {
