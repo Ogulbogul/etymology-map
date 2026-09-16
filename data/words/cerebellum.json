@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cerebellum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally little brain, a diminutive of cerebrum",
+      "meaning": "a little brain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cerebellum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the part of the brain coordinating movement",
+      "meaning": "the part of the brain coordinating movement and balance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the part of the brain at the back of the skull, coordinating movement and balance"
+}

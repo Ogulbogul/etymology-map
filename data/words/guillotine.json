@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Joseph-Ignace Guillotin",
+      "lang": "French",
+      "era": "1780s",
+      "note": "a French physician who advocated for a quicker, more humane execution device",
+      "meaning": "a physician's name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "guillotine",
+      "lang": "English",
+      "era": "1790s",
+      "note": "adopted directly as the device became infamous during the French Revolution",
+      "meaning": "a device for beheading by a falling blade",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device with a heavy blade for beheading, or a paper-cutting tool"
+}

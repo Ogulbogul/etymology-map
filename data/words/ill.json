@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "illr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "bad, evil, describing a poor state of being",
+      "meaning": "bad, evil",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "ill",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed to mean specifically unwell or unhealthy",
+      "meaning": "unwell, sick",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unwell, sick, or of poor quality"
+}

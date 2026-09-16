@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sexta hora",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally \"the sixth hour\" (counted from dawn, i.e. midday)",
+      "meaning": "the sixth hour, midday",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "siesta",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "came to mean the midday rest taken during the day's heat",
+      "meaning": "a midday nap or rest",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "siesta",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through contact with Spanish culture",
+      "meaning": "a short nap, especially after midday",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short nap taken in the afternoon, especially in hot climates"
+}

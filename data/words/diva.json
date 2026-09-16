@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "diva",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"goddess\", the feminine of \"divus\" (divine)",
+      "meaning": "goddess",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diva",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "applied admiringly to a celebrated female opera singer",
+      "meaning": "a celebrated female singer",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "diva",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted directly from Italian, later broadened",
+      "meaning": "a celebrated and sometimes temperamental performer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a celebrated female singer or performer, sometimes seen as demanding"
+}

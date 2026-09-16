@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ḥashīshī",
+      "lang": "Arabic",
+      "era": "c. 1100s",
+      "note": "a nickname for members of the Nizari Ismaili sect based at Alamut",
+      "meaning": "hashish user",
+      "lat": 36.46,
+      "lon": 50.0
+    },
+    {
+      "word": "assassinus",
+      "lang": "Medieval Latin",
+      "era": "c. 1200s",
+      "note": "crusaders in the Levant carried the term back to Europe",
+      "meaning": "a member of the secretive killer sect",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "assassino",
+      "lang": "Italian",
+      "era": "c. 1300s",
+      "note": "generalized from the sect's name to any hired killer",
+      "meaning": "a murderer for hire",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "assassin",
+      "lang": "English",
+      "era": "c. 1530s",
+      "note": "borrowed via Italian accounts of the Crusades",
+      "meaning": "a murderer, especially of a political figure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who murders a prominent person, often for political or religious motives"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hang",
+      "meaning": "to hang",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pendulus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hanging, from pendere",
+      "meaning": "hanging",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pendulum",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "formed from pendulus for a weight that swings freely from a fixed point",
+      "meaning": "a weight that swings freely from a fixed point",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pendulum",
+      "lang": "English",
+      "era": "1660s",
+      "note": "adopted directly for a weight that swings back and forth under gravity",
+      "meaning": "a weight that swings back and forth under gravity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a weight suspended so it swings freely back and forth, as in a clock"
+}

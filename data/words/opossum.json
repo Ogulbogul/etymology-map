@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aposoum",
+      "lang": "Powhatan",
+      "era": "pre-1600s",
+      "note": "literally \"white animal/dog\"",
+      "meaning": "opossum",
+      "lat": 37.21,
+      "lon": -76.78
+    },
+    {
+      "word": "opossum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in Virginia",
+      "meaning": "the pouched marsupial",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a small marsupial native to the Americas, known for \"playing dead\""
+}

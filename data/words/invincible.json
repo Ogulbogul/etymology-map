@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "invincibilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "unable to be conquered, from in- (not) and vincere (to conquer)",
+      "meaning": "unable to be conquered",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "invincible",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something too powerful to be defeated",
+      "meaning": "too powerful to be defeated or overcome",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "too powerful to be defeated, overcome, or destroyed"
+}

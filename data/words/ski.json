@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skid",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a split piece of wood, used for sliding over snow",
+      "meaning": "a split piece of wood",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "ski",
+      "lang": "Norwegian",
+      "era": "1700s",
+      "note": "settled in Norwegian for the long wooden snow-runner",
+      "meaning": "a long wooden runner for gliding over snow",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "ski",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted directly as the sport gained popularity abroad",
+      "meaning": "a runner for gliding over snow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long narrow runner for gliding over snow, or the sport of using them"
+}

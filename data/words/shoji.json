@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shoji",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "a sliding screen of translucent paper over a wooden frame",
+      "meaning": "a paper sliding screen",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shoji",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Japanese architecture and design became known internationally",
+      "meaning": "a traditional Japanese sliding paper screen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese sliding door or screen made of translucent paper"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yoğurt",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "from \"yoğurmak\", to knead or thicken",
+      "meaning": "thickened, fermented milk",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "yogurt",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through travelers' accounts of Ottoman Turkish cuisine",
+      "meaning": "fermented milk food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thick, fermented dairy product made from milk"
+}

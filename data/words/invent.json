@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "invenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come upon, to find, from in- (upon) and venire (to come)",
+      "meaning": "to come upon, to find",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "invent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for creating something new",
+      "meaning": "to create or design something new",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to create or design something that did not exist before"
+}

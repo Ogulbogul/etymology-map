@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "amethystos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally not drunken, from the belief the purple stone warded off intoxication",
+      "meaning": "not intoxicated",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "amethyst",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the purple quartz gemstone",
+      "meaning": "a purple variety of quartz",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a purple variety of quartz used as a gemstone"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "criquet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a stick, possibly related to a game played with a stick and ball",
+      "meaning": "a stick",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cricket",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English name for the bat-and-ball sport",
+      "meaning": "a bat-and-ball team sport",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bat-and-ball team sport, especially popular in Britain and its former colonies"
+}

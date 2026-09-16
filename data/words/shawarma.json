@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cevirme",
+      "lang": "Turkish",
+      "era": "ottoman",
+      "note": "turning, from cevirmek (to turn), describing meat roasted on a turning spit",
+      "meaning": "turning",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "shawarma",
+      "lang": "Levantine Arabic",
+      "era": "1900s",
+      "note": "adapted into Arabic for meat sliced from a vertical rotating spit",
+      "meaning": "meat sliced from a rotating spit",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "shawarma",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the spit-roasted wrapped meat dish",
+      "meaning": "a dish of spit-roasted meat sliced and served in flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of meat cooked on a vertical rotating spit and sliced into a wrap"
+}

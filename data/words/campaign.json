@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "campania",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "open country, flat farmland, from campus (a field)",
+      "meaning": "open country",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "campagne",
+      "lang": "French",
+      "era": "1600s",
+      "note": "narrowed in French to describe an army's operations conducted in open country",
+      "meaning": "a military operation in open country",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "campaign",
+      "lang": "English",
+      "era": "1640s",
+      "note": "broadened from military operations to any organized effort toward a goal",
+      "meaning": "an organized effort to achieve a particular goal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized course of action to achieve a political, military, or commercial goal"
+}

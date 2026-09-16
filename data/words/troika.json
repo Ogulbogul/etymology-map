@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "troika",
+      "lang": "Russian",
+      "era": "1700s-1800s",
+      "note": "from \"tri\" (three), a carriage drawn by three horses abreast",
+      "meaning": "a three-horse carriage",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "troika",
+      "lang": "English",
+      "era": "1900s",
+      "note": "extended metaphorically to any group of three in leadership",
+      "meaning": "a group of three working together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of three people or things, especially working together in leadership"
+}

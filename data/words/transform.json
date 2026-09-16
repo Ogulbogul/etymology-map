@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "forma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shape, mold, combined with trans- (across)",
+      "meaning": "shape, mold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transformare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to change shape completely, from trans- and formare",
+      "meaning": "to change shape completely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transformer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for changing something into a different form",
+      "meaning": "to change something into a different form",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "transform",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for changing something completely in form or character",
+      "meaning": "to change something completely in form or character",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to change something completely in form, appearance, or character"
+}

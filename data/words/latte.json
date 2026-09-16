@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caffe latte",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "literally milk coffee, espresso mixed with steamed milk",
+      "meaning": "milk coffee",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "latte",
+      "lang": "English",
+      "era": "1980s",
+      "note": "shortened and adopted as the name for the espresso-and-milk drink",
+      "meaning": "coffee made with espresso and steamed milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a coffee drink made with espresso and steamed milk"
+}

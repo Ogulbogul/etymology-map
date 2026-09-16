@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pashm",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meaning \"wool\", especially fine goat down",
+      "meaning": "fine wool",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "pashmina",
+      "lang": "Kashmiri/Hindi",
+      "era": "medieval",
+      "note": "the fine wool woven into luxurious shawls in Kashmir",
+      "meaning": "fine cashmere wool shawl",
+      "lat": 34.08,
+      "lon": 74.8
+    },
+    {
+      "word": "pashmina",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the fine wool shawls gained international popularity",
+      "meaning": "a fine wool shawl",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fine, soft wool shawl, traditionally made from Kashmiri goat down"
+}

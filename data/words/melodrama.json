@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "melos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a song, combined with French drame (drama)",
+      "meaning": "a song",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "melodrame",
+      "lang": "French",
+      "era": "1770s",
+      "note": "coined for a stage play combining spoken drama with music",
+      "meaning": "a play combining drama and music",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "melodrama",
+      "lang": "English",
+      "era": "1800s",
+      "note": "broadened to mean a sensational, exaggerated dramatic style",
+      "meaning": "a sensational, exaggerated dramatic story",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sensational dramatic story with exaggerated emotion, characters, or events"
+}

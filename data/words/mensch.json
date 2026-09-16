@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Mensch",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"a human being\" or \"person\"",
+      "meaning": "a human being",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "mentsh",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "narrowed to mean a person of integrity and honor",
+      "meaning": "a person of integrity",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "mensch",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities",
+      "meaning": "a person of integrity and honor",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a person of integrity and honor, someone admirable and decent"
+}

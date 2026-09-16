@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "motio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a moving, a movement, from movere (to move)",
+      "meaning": "a moving, a movement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "motion",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the act or process of moving",
+      "meaning": "the act or process of moving",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act or process of moving, or a formal proposal in a meeting"
+}

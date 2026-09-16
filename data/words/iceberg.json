@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ijsberg",
+      "lang": "Dutch",
+      "era": "1700s",
+      "note": "literally ice mountain, from ijs (ice) and berg (mountain)",
+      "meaning": "ice mountain",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "iceberg",
+      "lang": "English",
+      "era": "1770s",
+      "note": "settled as the English word for a large floating mass of ice",
+      "meaning": "a large floating mass of ice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large floating mass of ice broken off from a glacier or ice sheet"
+}

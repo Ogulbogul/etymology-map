@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ad saltus",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "literally to a leap, from ad- (to) and saltus (a leap)",
+      "meaning": "a leaping attack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "asaut",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a sudden violent attack",
+      "meaning": "a sudden violent attack",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "assault",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a violent physical attack",
+      "meaning": "a violent physical attack",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sudden violent physical attack on someone"
+}

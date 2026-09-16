@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ploutos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "wealth, riches, combined with kratos (power)",
+      "meaning": "wealth, riches",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "plutocracy",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for government by the wealthy",
+      "meaning": "government or control by the wealthy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a society or system governed or controlled by the wealthy"
+}

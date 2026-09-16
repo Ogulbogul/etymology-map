@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rete",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "net, describing the web-like network of light-sensitive tissue",
+      "meaning": "net",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retina",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "formed from rete (net) for the light-sensitive layer at the back of the eye",
+      "meaning": "the light-sensitive layer at the back of the eye",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retina",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly for the eye's light-sensitive inner layer",
+      "meaning": "the light-sensitive layer at the back of the eye",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the light-sensitive layer of tissue at the back of the eye"
+}

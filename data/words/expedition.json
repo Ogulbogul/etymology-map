@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "expedire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally to free the feet, from ex- (out) and pes (foot), meaning to prepare or set out",
+      "meaning": "to free the feet, to prepare for a journey",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "expedition",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a journey undertaken for a specific purpose",
+      "meaning": "a journey undertaken for a specific purpose",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a journey undertaken by a group for a specific purpose, such as exploration"
+}

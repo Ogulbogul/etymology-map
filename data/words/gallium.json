@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Gallia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Latin name for France, honoring the element's discoverer's homeland",
+      "meaning": "Gaul, France",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gallium",
+      "lang": "English",
+      "era": "1875",
+      "note": "named by its French discoverer after his home country",
+      "meaning": "a soft, silvery metal that melts near room temperature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, silvery metallic element that melts just above room temperature"
+}

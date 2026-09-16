@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "metaphora",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a carrying over, from meta (over) and pherein (to carry)",
+      "meaning": "a transfer, a carrying over",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "metaphore",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French rhetorical vocabulary",
+      "meaning": "a figure of speech comparing two things",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "metaphor",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a figure of speech applying a word to something it doesn't literally denote",
+      "meaning": "a figure of speech applying a word to something not literally applicable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a figure of speech describing something by comparing it to something else"
+}

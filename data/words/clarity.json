@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "clarus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "clear, bright",
+      "meaning": "clear, bright",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "claritas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "clearness, brightness, from clarus",
+      "meaning": "clearness, brightness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clarity",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the quality of being clear and easy to understand",
+      "meaning": "the quality of being clear and easy to understand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the quality of being clear, transparent, or easy to understand"
+}

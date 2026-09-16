@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "laqueus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"noose, snare\"",
+      "meaning": "noose, snare",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lazo",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "kept the meaning of a rope loop or snare",
+      "meaning": "a rope loop, noose",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "lasso",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking cowboys in the American West",
+      "meaning": "a roped noose used to catch animals",
+      "lat": 39.55,
+      "lon": -105.78
+    }
+  ],
+  "current_meaning": "a long rope with a running noose, used to catch livestock"
+}

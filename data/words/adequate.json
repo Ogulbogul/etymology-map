@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aequus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "equal, even, combined with ad- (to)",
+      "meaning": "equal, even",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adaequare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make equal to, from ad- and aequus",
+      "meaning": "to make equal to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adequate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something sufficient for a particular purpose",
+      "meaning": "sufficient or satisfactory for a particular purpose",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "satisfactory or sufficient in quality or quantity for a particular purpose"
+}

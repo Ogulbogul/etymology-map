@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "glinta",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "to shine briefly, to flash with light",
+      "meaning": "to shine briefly",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "glint",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a brief flash of light",
+      "meaning": "a brief flash of light",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, brief flash of light or brightness"
+}

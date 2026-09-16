@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pizza",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "possibly from Lombardic \"bizzo\" (bite) or Greek \"pitta\" (flatbread)",
+      "meaning": "flatbread",
+      "lat": 40.85,
+      "lon": 14.27
+    },
+    {
+      "word": "pizza",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "brought to the US by Italian immigrants",
+      "meaning": "a flatbread topped dish",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a baked dish of flattened bread topped with sauce, cheese, and other toppings"
+}

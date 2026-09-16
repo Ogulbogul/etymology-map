@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kasta",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to throw, the root behind casting a net, a vote, or actors in roles",
+      "meaning": "to throw",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "cast",
+      "lang": "English",
+      "era": "1200s",
+      "note": "broadened over time from throwing to assigning roles or shaping material",
+      "meaning": "to throw, or to assign roles, or to shape molten material",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to throw something, assign performers to roles, or shape molten material in a mold"
+}

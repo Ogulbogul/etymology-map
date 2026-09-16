@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "scire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to know",
+      "meaning": "to know",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scientia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "knowledge, from scire (to know)",
+      "meaning": "knowledge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "science",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for organized knowledge",
+      "meaning": "organized knowledge",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "science",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the systematic study of the natural world",
+      "meaning": "the systematic study of the structure and behavior of the natural world",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the systematic study of the structure and behavior of the natural and physical world"
+}

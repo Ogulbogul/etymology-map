@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "srngaveram",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally horn-shaped, describing the root",
+      "meaning": "the ginger root",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "zingiberis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted via overland spice trade",
+      "meaning": "ginger",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "zingiber",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried across the Roman spice trade",
+      "meaning": "ginger",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gingivre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "reshaped by folk association with other words",
+      "meaning": "ginger",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ginger",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled into its modern English form",
+      "meaning": "the spicy root",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pungent, spicy root used as a spice and in traditional medicine"
+}

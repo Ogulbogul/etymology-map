@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sit",
+      "meaning": "to sit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sedentarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "sitting much, inactive, from sedere",
+      "meaning": "sitting much, inactive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sedentary",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for spending much time seated and inactive",
+      "meaning": "spending much time seated and physically inactive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "characterized by much sitting and little physical activity"
+}

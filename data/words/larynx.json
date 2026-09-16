@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "larynx",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the upper part of the windpipe, containing the vocal cords",
+      "meaning": "the voice box",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "larynx",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly as the medical term for the voice box",
+      "meaning": "the voice box, containing the vocal cords",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the part of the throat containing the vocal cords, the voice box"
+}

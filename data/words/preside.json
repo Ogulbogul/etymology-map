@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "prae sedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sit before, from prae- (before) and sedere (to sit)",
+      "meaning": "to sit before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "presider",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for being in charge of a meeting or event",
+      "meaning": "to be in charge of a meeting or event",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "preside",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for having authority over a meeting or proceeding",
+      "meaning": "to have authority over a meeting or proceeding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to be in a position of authority over a meeting, ceremony, or organization"
+}

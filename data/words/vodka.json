@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "voda",
+      "lang": "Slavic",
+      "era": "ancient",
+      "note": "the common Slavic root word for water",
+      "meaning": "water",
+      "lat": 52.0,
+      "lon": 25.0
+    },
+    {
+      "word": "vodka",
+      "lang": "Russian",
+      "era": "1400s-1500s",
+      "note": "literally \"little water\", a diminutive of voda",
+      "meaning": "distilled grain spirit",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "vodka",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted as Russian and Polish spirits reached Western Europe",
+      "meaning": "the clear distilled spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a clear distilled spirit made from grain or potatoes"
+}

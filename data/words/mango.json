@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mankay",
+      "lang": "Tamil/Malayalam",
+      "era": "ancient",
+      "note": "man (mango tree) plus kay (fruit)",
+      "meaning": "mango fruit",
+      "lat": 9.93,
+      "lon": 76.26
+    },
+    {
+      "word": "manga",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "adopted by Portuguese traders on the Malabar coast",
+      "meaning": "mango fruit",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "mango",
+      "lang": "English",
+      "era": "1600s",
+      "note": "spread through Portuguese and Dutch trade networks",
+      "meaning": "the tropical mango fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet tropical fruit with orange flesh and a large flat seed"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kanji",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "literally Han characters, the Chinese-derived characters used in Japanese writing",
+      "meaning": "Chinese-derived written characters",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kanji",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly by linguists and students of Japanese",
+      "meaning": "the Chinese-derived characters used in Japanese writing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Chinese-derived logographic characters used in Japanese writing"
+}

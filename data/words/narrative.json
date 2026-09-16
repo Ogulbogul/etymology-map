@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "narrare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to tell, to relate a story",
+      "meaning": "to tell, to relate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "narrative",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a spoken or written account of events",
+      "meaning": "a spoken or written account of connected events",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spoken or written account of connected events, a story"
+}

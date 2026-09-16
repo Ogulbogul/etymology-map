@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "conferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring together, to compare, from com- (together) and ferre (to carry)",
+      "meaning": "to bring together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confer",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for discussing something with others, or granting something",
+      "meaning": "to discuss something with others, or to grant something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to discuss something with others to reach a decision, or to grant a right or title"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "traicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to throw across, from trans- (across) and iacere (to throw), with irregular past participle trajectus",
+      "meaning": "to throw across",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "trajectoria",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "formed for the path of a body moving through space",
+      "meaning": "the path of a moving body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "trajectory",
+      "lang": "English",
+      "era": "1690s",
+      "note": "settled as the English word for the curved path an object follows",
+      "meaning": "the curved path an object follows through space",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the path followed by an object moving through space, or a general course of development"
+}

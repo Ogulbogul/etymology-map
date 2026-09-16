@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "flytja",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to convey, to move from one place to another",
+      "meaning": "to move, to convey",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "flit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for moving quickly and lightly",
+      "meaning": "to move quickly and lightly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move quickly and lightly from one place or thing to another"
+}

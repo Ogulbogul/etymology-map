@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "neptis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a granddaughter, the feminine counterpart to nepos",
+      "meaning": "a granddaughter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "niece",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "narrowed in French to mean specifically a sibling's daughter",
+      "meaning": "a sibling's daughter",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "niece",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a sibling's daughter",
+      "meaning": "the daughter of one's sibling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the daughter of one's sibling or sibling-in-law"
+}

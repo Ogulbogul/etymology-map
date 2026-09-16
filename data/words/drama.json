@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "drama",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"action\" or \"a deed\", from \"dran\" (to do)",
+      "meaning": "an action, a deed",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "drama",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for a theatrical composition",
+      "meaning": "a theatrical performance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "drama",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English word for theatrical works",
+      "meaning": "a play or theatrical work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a play for theater, or an intense, emotional situation"
+}

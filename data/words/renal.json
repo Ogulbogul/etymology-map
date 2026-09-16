@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "renalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to the kidneys, from renes (kidneys)",
+      "meaning": "relating to the kidneys",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "renal",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the medical word for anything relating to the kidneys",
+      "meaning": "relating to the kidneys",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the kidneys"
+}

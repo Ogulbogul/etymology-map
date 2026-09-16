@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flectere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bend, combined with in- (into)",
+      "meaning": "to bend",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inflectere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bend in, to modulate, from in- and flectere",
+      "meaning": "to bend in, to modulate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inflect",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for changing the pitch of one's voice, or a word's form",
+      "meaning": "to change the pitch of one's voice, or a word's grammatical form",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to change the tone or pitch of one's voice, or to change the form of a word grammatically"
+}

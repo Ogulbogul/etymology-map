@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Pallas",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an epithet of the goddess Athena, later the name of a newly discovered asteroid",
+      "meaning": "a name of the goddess Athena",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "palladium",
+      "lang": "English",
+      "era": "1803",
+      "note": "named by its discoverer after the recently discovered asteroid Pallas",
+      "meaning": "a soft, silvery-white metallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, silvery-white metallic element used in catalytic converters and jewelry"
+}

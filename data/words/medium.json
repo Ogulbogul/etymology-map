@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "medium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the middle, a neuter form of medius",
+      "meaning": "the middle, a middle ground",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "medium",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a means through which something is conveyed",
+      "meaning": "a means by which something is communicated or expressed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a means by which something is communicated, expressed, or achieved"
+}

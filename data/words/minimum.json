@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "minimus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "smallest, the superlative of parvus (small)",
+      "meaning": "smallest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "minimum",
+      "lang": "English",
+      "era": "1660s",
+      "note": "adopted directly for the smallest possible amount",
+      "meaning": "the smallest possible amount or degree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the smallest amount, value, or degree possible"
+}

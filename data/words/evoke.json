@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "evocare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to call out, to summon forth, from ex- (out) and vocare (to call)",
+      "meaning": "to call out, to summon forth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "evoke",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for bringing a feeling or memory to mind",
+      "meaning": "to bring a feeling, memory, or image to mind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to bring a feeling, memory, or image to mind"
+}

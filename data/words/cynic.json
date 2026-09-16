@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kynikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally dog-like, describing a school of philosophers who scorned comfort",
+      "meaning": "dog-like",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cynic",
+      "lang": "English",
+      "era": "1500s",
+      "note": "narrowed to describe someone distrustful of others' motives",
+      "meaning": "one distrustful of others' sincerity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who distrusts the sincerity or motives of others"
+}

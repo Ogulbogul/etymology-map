@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anarkhia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally without a ruler",
+      "meaning": "absence of a ruler",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "anarchy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a society without government",
+      "meaning": "absence of government or order",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of disorder due to absence of authority"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aptus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "fit, suitable, combined with ad- (to)",
+      "meaning": "fit, suitable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adaptare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fit to, from ad- and aptare (frequentative of apere, to fasten)",
+      "meaning": "to fit to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adapt",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for adjusting something to suit new conditions",
+      "meaning": "to adjust something to suit new conditions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to adjust or modify something to suit new conditions or a new purpose"
+}

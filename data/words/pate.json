@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pasta",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "paste, dough, the shared root behind pasta and pate",
+      "meaning": "paste, dough",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pate",
+      "lang": "French",
+      "era": "medieval",
+      "note": "settled in French for a savory paste of ground meat or liver",
+      "meaning": "a savory paste of ground meat or liver",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pate",
+      "lang": "English",
+      "era": "1706",
+      "note": "adopted directly for the rich, savory spreadable paste",
+      "meaning": "a rich, savory paste of ground meat, fish, or vegetables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rich, savory paste made from ground meat, fish, or vegetables"
+}

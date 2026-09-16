@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mangus",
+      "lang": "Marathi/Telugu",
+      "era": "medieval",
+      "note": "the name for the small, snake-hunting mammal",
+      "meaning": "mongoose",
+      "lat": 18.52,
+      "lon": 73.86
+    },
+    {
+      "word": "mongoose",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through British colonial contact in India",
+      "meaning": "the small carnivorous mammal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, agile mammal known for its ability to kill venomous snakes"
+}

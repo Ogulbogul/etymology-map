@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "braguinha",
+      "lang": "Portuguese",
+      "era": "1879",
+      "note": "a small guitar-like instrument brought by Madeiran immigrants",
+      "meaning": "small four-stringed guitar",
+      "lat": 32.75,
+      "lon": -17.0
+    },
+    {
+      "word": "ʻukulele",
+      "lang": "Hawaiian",
+      "era": "1880s",
+      "note": "literally \"jumping flea\", describing the player's quick finger movements",
+      "meaning": "jumping flea",
+      "lat": 21.31,
+      "lon": -157.86
+    },
+    {
+      "word": "ukulele",
+      "lang": "English",
+      "era": "1900s",
+      "note": "spread internationally as the instrument gained popularity",
+      "meaning": "the small four-stringed instrument",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "a small four-stringed guitar-like instrument"
+}

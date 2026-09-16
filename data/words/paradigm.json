@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "paradeigma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a pattern shown side by side, from para (beside) and deiknynai (to show)",
+      "meaning": "a pattern, an example",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "paradigm",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for a typical example or pattern",
+      "meaning": "a typical example or pattern of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a typical example or accepted model of thought or practice"
+}

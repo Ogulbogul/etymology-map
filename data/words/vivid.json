@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vivere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to live",
+      "meaning": "to live",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vividus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "full of life, lively, from vivere",
+      "meaning": "full of life, lively",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vivid",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something producing strong, clear images or colors",
+      "meaning": "producing strong, clear images or colors",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "producing powerful, clear feelings or images in the mind, or brightly colored"
+}

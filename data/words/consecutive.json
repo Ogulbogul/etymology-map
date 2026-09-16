@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow, combined with com- (thoroughly)",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow closely, from com- and sequi, with irregular past participle consecutus",
+      "meaning": "to follow closely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consecutive",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for things following one another without interruption",
+      "meaning": "following one after another without interruption",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "following one after another in sequence, without interruption"
+}

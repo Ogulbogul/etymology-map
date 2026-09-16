@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blund",
+      "lang": "Frankish",
+      "era": "medieval",
+      "note": "a Germanic word for a light, yellowish color",
+      "meaning": "light-colored, yellowish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "blond",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted the Germanic color term for fair hair",
+      "meaning": "fair-haired",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "blonde",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted directly from French",
+      "meaning": "having light-colored hair",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having light-colored or golden hair"
+}

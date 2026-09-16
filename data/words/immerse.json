@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to dip, to plunge, combined with in- (into)",
+      "meaning": "to dip, to plunge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "immergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to plunge into, from in- and mergere, with irregular past participle immersus",
+      "meaning": "to plunge into",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "immerse",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for dipping something completely into a liquid or activity",
+      "meaning": "to dip something completely into a liquid or activity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to completely involve or absorb someone in an activity, or to dip something into a liquid"
+}

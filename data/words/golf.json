@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kolf",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"club\" or \"bat\", used in a stick-and-ball game",
+      "meaning": "a club, stick-and-ball game",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "golf",
+      "lang": "Scots",
+      "era": "medieval",
+      "note": "developed into the distinct Scottish stick-and-ball game",
+      "meaning": "the stick-and-ball game",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "golf",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "spread from Scotland across the English-speaking world",
+      "meaning": "a sport played by hitting a ball into holes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sport in which players hit a ball into a series of holes using clubs"
+}

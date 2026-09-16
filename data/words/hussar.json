@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "huszár",
+      "lang": "Hungarian",
+      "era": "medieval",
+      "note": "possibly from Old Serbian \"husar\" (raider, from Latin \"cursarius\", corsair)",
+      "meaning": "a raider, light cavalryman",
+      "lat": 47.5,
+      "lon": 19.04
+    },
+    {
+      "word": "hussar",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted through European contact with Hungarian light cavalry",
+      "meaning": "a member of a light cavalry unit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "historically, a soldier in a light cavalry regiment, known for elaborate uniforms"
+}

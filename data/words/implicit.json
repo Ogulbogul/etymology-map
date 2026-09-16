@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "implicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fold in, to entangle, from in- (in) and plicare (to fold)",
+      "meaning": "to fold in, to entangle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "implicit",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English word for something suggested without being directly stated",
+      "meaning": "implied though not plainly stated",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "implied or suggested, though not directly expressed"
+}

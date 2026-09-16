@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deficere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make down from, to fail, to lack, from de- (down) and facere (to make)",
+      "meaning": "to fail, to lack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deficient",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for lacking something necessary",
+      "meaning": "lacking something necessary or required",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lacking an essential quality or element that is required"
+}

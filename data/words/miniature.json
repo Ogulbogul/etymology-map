@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "minium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "red lead pigment, used by scribes to highlight initial letters in manuscripts",
+      "meaning": "red lead pigment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "miniatura",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for the art of illustrating manuscripts with small, detailed pictures",
+      "meaning": "small, detailed manuscript illustration",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "miniature",
+      "lang": "English",
+      "era": "1580s",
+      "note": "reinterpreted through association with minus (small) to mean anything tiny",
+      "meaning": "a very small version of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a very small version or representation of something"
+}

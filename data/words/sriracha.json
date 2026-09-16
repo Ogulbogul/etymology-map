@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Si Racha",
+      "lang": "Thai",
+      "era": "1900s",
+      "note": "a coastal town in Thailand where the spicy chili sauce was first made",
+      "meaning": "a Thai coastal town name",
+      "lat": 13.17,
+      "lon": 100.93
+    },
+    {
+      "word": "sriracha",
+      "lang": "English",
+      "era": "1980s",
+      "note": "adopted directly for the spicy, garlicky chili sauce named after the town",
+      "meaning": "a spicy, garlicky chili sauce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spicy, garlicky chili sauce named after its town of origin in Thailand"
+}

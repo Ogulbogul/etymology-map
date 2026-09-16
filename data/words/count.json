@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "comes",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a companion, an attendant, especially of an emperor or provincial governor",
+      "meaning": "a companion, an attendant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conte",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "settled in French as a noble title for a territorial ruler",
+      "meaning": "a nobleman ruling a territory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "count",
+      "lang": "English",
+      "era": "1300s",
+      "note": "adopted as the English title for a continental European nobleman",
+      "meaning": "a European nobleman ranking below a duke",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a European nobleman ranking below a duke and above a baron"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "golem",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "meaning \"shapeless mass\" or \"unfinished substance\"",
+      "meaning": "a shapeless mass",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "goylem",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "applied to legends of an animated being made from clay",
+      "meaning": "an animated clay figure",
+      "lat": 50.09,
+      "lon": 14.42
+    },
+    {
+      "word": "golem",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through Jewish folklore, especially the legend of Prague",
+      "meaning": "an artificial being brought to life",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in Jewish folklore, an artificial being made from clay and brought to life"
+}

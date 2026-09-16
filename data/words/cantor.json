@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "canere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sing",
+      "meaning": "to sing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cantor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a singer, from canere",
+      "meaning": "a singer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cantor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly for a person who leads religious singing",
+      "meaning": "a person who leads religious singing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who leads liturgical singing, especially in a synagogue or church"
+}

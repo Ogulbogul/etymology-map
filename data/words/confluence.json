@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "confluere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to flow together, from com- (together) and fluere (to flow)",
+      "meaning": "to flow together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confluence",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the point where two rivers or things meet",
+      "meaning": "the point where two rivers or things meet and combine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the point where two rivers meet, or the coming together of ideas or factors"
+}

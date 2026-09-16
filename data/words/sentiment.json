@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sentire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to feel, to perceive",
+      "meaning": "to feel, to perceive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sentiment",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a feeling or opinion",
+      "meaning": "a feeling or opinion, especially a tender one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a view, feeling, or opinion, especially one that is tender or sentimental"
+}

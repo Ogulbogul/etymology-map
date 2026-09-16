@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nashn",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "meaning \"to nibble\" or \"snack\"",
+      "meaning": "to nibble, snack",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "nosh",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities",
+      "meaning": "to eat a snack, or the snack itself",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a light snack, or to eat one"
+}

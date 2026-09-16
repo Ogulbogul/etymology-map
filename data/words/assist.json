@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand, to place, combined with ad- (by, near)",
+      "meaning": "to stand, to place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "assistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand by, to help, from ad- and sistere",
+      "meaning": "to stand by, to help",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "assist",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for helping someone with a task",
+      "meaning": "to help someone with a task",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to help someone by sharing the work or by providing what is needed"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "agora",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an open marketplace or gathering place",
+      "meaning": "marketplace, open space",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phobos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "fear, panic",
+      "meaning": "fear",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "agoraphobie",
+      "lang": "German",
+      "era": "1871",
+      "note": "coined by psychiatrist Carl Westphal from Greek agora (open space) and phobos (fear)",
+      "meaning": "fear of open or public spaces",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "agoraphobia",
+      "lang": "English",
+      "era": "1873",
+      "note": "adopted from German for the fear of open or crowded spaces",
+      "meaning": "fear of open or crowded public spaces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an extreme fear of open, crowded, or public spaces"
+}

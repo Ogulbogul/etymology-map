@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hoggva",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to chop, to hew, related to cutting a deal back and forth",
+      "meaning": "to chop, to hew",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "haggle",
+      "lang": "English",
+      "era": "1500s",
+      "note": "narrowed to mean bargaining persistently over a price",
+      "meaning": "to bargain persistently over a price",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to bargain persistently over the terms of a deal, especially a price"
+}

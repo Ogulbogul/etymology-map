@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "jinni",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a supernatural spirit in Arabian folklore",
+      "meaning": "a supernatural spirit",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "génie",
+      "lang": "French",
+      "era": "1700s",
+      "note": "translators of \"One Thousand and One Nights\" conflated it with the Latin \"genius\"",
+      "meaning": "a magical spirit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "genie",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted from French translations of Arabian tales",
+      "meaning": "a magical wish-granting spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a magical spirit, often depicted as granting wishes"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vivace",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally lively, vivacious, from Latin vivax (lively, long-lived)",
+      "meaning": "lively, vivacious",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vivace",
+      "lang": "English",
+      "era": "1740s",
+      "note": "adopted directly as a fast, lively tempo marking",
+      "meaning": "a fast, lively musical tempo",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a musical direction to play in a lively, brisk manner"
+}

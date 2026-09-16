@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Organzi",
+      "lang": "Uzbek/Persian",
+      "era": "medieval",
+      "note": "possibly linked to a Central Asian region along the Silk Road silk trade routes",
+      "meaning": "relating to a Central Asian trade region",
+      "lat": 41.31,
+      "lon": 69.24
+    },
+    {
+      "word": "organza",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English word for the sheer, crisp silk-like fabric",
+      "meaning": "a sheer, crisp fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin, sheer, crisp fabric made of silk or synthetic fiber"
+}

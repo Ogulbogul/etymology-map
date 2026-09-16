@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ornare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to equip, to embellish",
+      "meaning": "to equip, to embellish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ornamentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "equipment, embellishment, from ornare",
+      "meaning": "equipment, embellishment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ornament",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an object used to decorate something",
+      "meaning": "an object used to decorate something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object used to decorate something, especially for its beauty rather than usefulness"
+}

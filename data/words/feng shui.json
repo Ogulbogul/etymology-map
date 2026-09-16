@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "feng + shui",
+      "lang": "Chinese",
+      "era": "ancient",
+      "note": "combining \"feng\" (wind) and \"shui\" (water)",
+      "meaning": "wind and water",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "feng shui",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the practice of spatial arrangement spread internationally",
+      "meaning": "the practice of arranging spaces for harmony",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Chinese practice of arranging spaces to achieve harmony and balance"
+}

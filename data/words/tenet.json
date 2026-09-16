@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tenere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold",
+      "meaning": "to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tenet",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "he or she holds, used for a principle firmly held as true",
+      "meaning": "he or she holds",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tenet",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for a principle or belief held to be true",
+      "meaning": "a principle or belief held to be true",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a principle or belief held to be true, especially by a group"
+}

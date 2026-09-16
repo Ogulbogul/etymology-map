@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vista",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "literally a view, a sight, from vedere (to see)",
+      "meaning": "a view, a sight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vista",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted directly for a pleasing or expansive view",
+      "meaning": "a pleasing or expansive view",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pleasing or expansive view, especially seen from a distance"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kozhikode",
+      "lang": "Malayalam",
+      "era": "medieval",
+      "note": "the name of the Indian port city also known as Calicut",
+      "meaning": "the city of Calicut",
+      "lat": 11.26,
+      "lon": 75.78
+    },
+    {
+      "word": "calico",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "named the plain cotton cloth first imported from that port",
+      "meaning": "a plain, printed cotton cloth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a plain-woven, often printed cotton fabric"
+}

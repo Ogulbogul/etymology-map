@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tabula rasa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "scraped tablet, from tabula (writing tablet) and rasus (scraped)",
+      "meaning": "a scraped, blank writing tablet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tabula rasa",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted into English philosophical vocabulary for a mind free of preconceptions",
+      "meaning": "a mind with no preconceived ideas, like a blank slate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the mind before it receives outside impressions, seen as a blank slate"
+}

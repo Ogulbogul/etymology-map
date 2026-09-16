@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prana",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally breath, life force, a central concept in Hindu and yogic philosophy",
+      "meaning": "breath, life force",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "prana",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly by scholars of Hindu philosophy and yoga practice",
+      "meaning": "the vital life force in Hindu and yogic philosophy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the vital life force or breath energy in Hindu and yogic philosophy"
+}

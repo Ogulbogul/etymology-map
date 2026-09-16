@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "provocare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to call forth, to challenge, from pro- (forth) and vocare (to call)",
+      "meaning": "to call forth, to challenge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "provoke",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for stirring up a reaction, often anger",
+      "meaning": "to stir up a strong reaction, often anger",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stir up a strong reaction or feeling, often anger, in someone"
+}

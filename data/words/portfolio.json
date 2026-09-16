@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "portafoglio",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "literally carry-leaf, a case for carrying loose papers, from portare (to carry) and foglio (leaf)",
+      "meaning": "a case for carrying papers",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "portfolio",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for a case of documents, later a collection of investments or work",
+      "meaning": "a case of documents, or a collection of investments or work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of documents, work samples, or financial investments"
+}

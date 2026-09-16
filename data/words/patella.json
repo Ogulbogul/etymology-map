@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "patella",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a small pan, a diminutive of patina (a shallow dish), describing the bone's flat, rounded shape",
+      "meaning": "a small pan",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "patella",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly as the anatomical word for the kneecap",
+      "meaning": "the kneecap",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the kneecap, a small bone protecting the front of the knee joint"
+}

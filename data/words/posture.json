@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to place, to put, with irregular past participle positus",
+      "meaning": "to place, to put",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "positura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a placing, a position of the body, from ponere",
+      "meaning": "a placing, a position of the body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "posture",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for the way the body is held",
+      "meaning": "the way the body is held",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "posture",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the position in which someone holds their body",
+      "meaning": "the position in which someone holds their body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the position in which someone holds their body, or an attitude toward a situation"
+}

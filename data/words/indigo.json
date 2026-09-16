@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "indikon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"the Indian [dye]\", from the source of the blue dye",
+      "meaning": "the Indian dye",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "indicum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Roman trade with South Asia",
+      "meaning": "indigo dye",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "indigo",
+      "lang": "Spanish/Portuguese",
+      "era": "medieval",
+      "note": "spread through Iberian trade networks",
+      "meaning": "indigo dye",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "indigo",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English name for the blue dye and color",
+      "meaning": "a deep blue dye or color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep blue dye, or the color between blue and violet"
+}

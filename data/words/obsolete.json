@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "obsolescere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to grow old, to fall into disuse, from ob- (away) and solescere (to become customary)",
+      "meaning": "to fall into disuse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obsolete",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for something no longer in use",
+      "meaning": "no longer produced or used, out of date",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "no longer produced, used, or needed, having been replaced by something newer"
+}

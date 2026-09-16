@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bean sí",
+      "lang": "Irish",
+      "era": "medieval",
+      "note": "literally \"woman of the fairy mound\"",
+      "meaning": "a fairy woman",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "banshee",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted through the spread of Irish folklore",
+      "meaning": "a wailing female spirit who foretells death",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in Irish folklore, a female spirit whose wailing foretells a death"
+}

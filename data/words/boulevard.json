@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bolwerc",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a bulwark or rampart, later the wide road built atop demolished fortifications",
+      "meaning": "a rampart, fortification",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "boulevard",
+      "lang": "French",
+      "era": "1700s",
+      "note": "adopted into French for the wide tree-lined avenues that replaced city walls",
+      "meaning": "a wide, tree-lined avenue",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "boulevard",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English word for a broad, often tree-lined street",
+      "meaning": "a broad, often tree-lined street",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a broad, often tree-lined street or avenue"
+}

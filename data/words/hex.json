@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Hexe",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"a witch\"",
+      "meaning": "a witch",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "hex",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Pennsylvania German communities in the US",
+      "meaning": "a magic spell or curse",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a magic spell, or to cast one on someone"
+}

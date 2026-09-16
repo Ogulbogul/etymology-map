@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "consentire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to agree, to feel together, from com- (together) and sentire (to feel)",
+      "meaning": "to agree, to feel together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consensus",
+      "lang": "English",
+      "era": "1854",
+      "note": "adopted directly for general agreement among a group",
+      "meaning": "general agreement among a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "general agreement reached among a group of people"
+}

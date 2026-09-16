@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khaos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the formless void that existed before the ordered universe",
+      "meaning": "a formless void",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chaos",
+      "lang": "English",
+      "era": "1400s",
+      "note": "broadened from the primordial void to any state of utter disorder",
+      "meaning": "a state of complete disorder and confusion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "complete disorder and confusion"
+}

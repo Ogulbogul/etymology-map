@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kobold",
+      "lang": "German",
+      "era": "medieval",
+      "note": "a mischievous goblin blamed by miners for the ore's toxic, worthless-seeming nature",
+      "meaning": "a goblin, sprite",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "cobalt",
+      "lang": "English",
+      "era": "1680s",
+      "note": "settled as the name for the metallic element once its blue pigment proved valuable",
+      "meaning": "a hard silvery-blue metallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard, silvery-blue metallic element, or the deep blue color derived from it"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kathedra",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"a seat\", especially a bishop's official chair",
+      "meaning": "a seat, a bishop's chair",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cathedra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through early Christian church organization",
+      "meaning": "a bishop's official seat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cathedral",
+      "lang": "English",
+      "era": "medieval",
+      "note": "came to name the church housing the bishop's seat",
+      "meaning": "the principal church of a diocese",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the main church of a diocese, containing the bishop's official seat"
+}

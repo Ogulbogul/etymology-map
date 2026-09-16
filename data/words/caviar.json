@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khaviar",
+      "lang": "Turkish/Persian",
+      "era": "medieval",
+      "note": "the salted roe of sturgeon, prized as a delicacy",
+      "meaning": "salted fish roe",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "caviar",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the luxury delicacy",
+      "meaning": "salted sturgeon roe eaten as a delicacy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the salted roe of sturgeon or other fish, eaten as a delicacy"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "leon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "lion",
+      "meaning": "lion",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "leo",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the big cat",
+      "meaning": "lion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lion",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the same animal",
+      "meaning": "lion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lion",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the big cat",
+      "meaning": "a large tawny big cat native to Africa",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, tawny wild cat native to Africa, known for its mane and roar"
+}

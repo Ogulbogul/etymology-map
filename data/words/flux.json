@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fluxus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a flowing, from fluere (to flow)",
+      "meaning": "a flowing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "flux",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for continuous change or flow",
+      "meaning": "continuous change, or a state of flow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "continuous change, or a state of ongoing movement and flow"
+}

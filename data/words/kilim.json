@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kilim",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "a flat, tapestry-woven rug or carpet, traditional across Central Asia and the Middle East",
+      "meaning": "a flat-woven rug",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "kilim",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the distinctive flat-woven textile",
+      "meaning": "a flat, tapestry-woven rug",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat, tapestry-woven rug or carpet, traditional to Central Asia and the Middle East"
+}

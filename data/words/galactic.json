@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "galaxias",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "milky, relating to the Milky Way",
+      "meaning": "milky",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "galactic",
+      "lang": "English",
+      "era": "1848",
+      "note": "settled as the astronomical word for anything relating to a galaxy",
+      "meaning": "relating to a galaxy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a galaxy, especially the Milky Way"
+}

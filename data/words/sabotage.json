@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sabot",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a wooden clog worn by peasant workers",
+      "meaning": "a wooden shoe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sabotage",
+      "lang": "French",
+      "era": "1890s",
+      "note": "coined for deliberate damage, possibly from disgruntled workers jamming machinery with their clogs",
+      "meaning": "deliberate destruction or obstruction",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sabotage",
+      "lang": "English",
+      "era": "1910s",
+      "note": "adopted directly for deliberate damage or disruption",
+      "meaning": "deliberate damage or disruption to hinder an effort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "deliberate action to obstruct, damage, or hinder something"
+}

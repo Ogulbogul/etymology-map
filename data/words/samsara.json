@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "samsara",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally flowing through, the cycle of death and rebirth in Hindu and Buddhist belief",
+      "meaning": "the cycle of rebirth",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "samsara",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly by scholars of Hindu and Buddhist philosophy",
+      "meaning": "the cycle of death and rebirth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the cycle of death and rebirth in Hindu, Buddhist, and Jain belief"
+}

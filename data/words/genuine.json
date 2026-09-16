@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "genuinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "natural, native, related to genu (knee), from an ancient custom of a father acknowledging a child on his knee",
+      "meaning": "natural, native, innate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "genuine",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English word for authentic and real",
+      "meaning": "authentic and real, not fake or counterfeit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "authentic and real, not fake or counterfeit"
+}

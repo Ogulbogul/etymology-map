@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "rogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to ask, combined with sub- (in place of)",
+      "meaning": "to ask",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subrogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to elect as a substitute, from sub- and rogare",
+      "meaning": "to elect as a substitute",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "surrogatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "substituted, appointed in place of another, from subrogare",
+      "meaning": "substituted, appointed in place of another",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "surrogate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a substitute acting in place of another",
+      "meaning": "a substitute acting in place of another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or thing that acts as a substitute for another"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mandare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to command, to entrust, from manus (hand) and dare (to give)",
+      "meaning": "to command, to entrust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mandate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for an official command or authorization",
+      "meaning": "an official command or authorization to act",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official command or authorization, especially one given by voters to elected officials"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "schizzo",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "meaning \"a splash\" or \"a hastily made drawing\"",
+      "meaning": "a splash, a rough drawing",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "schets",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "adopted through contact with Italian art theory",
+      "meaning": "a rough drawing",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "sketch",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from Dutch",
+      "meaning": "a quick, rough drawing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quick, rough drawing, or a brief comedic performance"
+}

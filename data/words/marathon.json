@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Marathon",
+      "lang": "Greek",
+      "era": "c. 490 BC",
+      "note": "the site of a famous battle; legend says a runner raced from there to Athens to announce victory",
+      "meaning": "a town near Athens",
+      "lat": 38.15,
+      "lon": 23.97
+    },
+    {
+      "word": "marathon",
+      "lang": "English",
+      "era": "1896",
+      "note": "adopted for the long-distance race at the first modern Olympics",
+      "meaning": "a long-distance running race",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long-distance running race of just over 26 miles, or any long, demanding event"
+}

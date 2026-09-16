@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "polis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a city, a state, the root behind matters of civic governance",
+      "meaning": "a city, a state",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "police",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for civil administration and governance",
+      "meaning": "civil administration",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "policy",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a course of action adopted by a government or organization",
+      "meaning": "a course of action adopted by a government or organization",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a course of action adopted by a government, business, or individual"
+}

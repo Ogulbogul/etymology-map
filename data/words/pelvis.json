@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pelvis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a basin, describing the bowl-shaped bone structure",
+      "meaning": "a basin",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pelvis",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the basin-shaped bone structure at the hip",
+      "meaning": "the basin-shaped bone structure at the base of the spine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the bowl-shaped bone structure at the base of the spine"
+}

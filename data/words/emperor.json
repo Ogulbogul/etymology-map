@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "imperator",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a commander, from imperare (to command)",
+      "meaning": "a commander",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "empereor",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French as the title for a supreme ruler",
+      "meaning": "a supreme ruler",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "emperor",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the ruler of an empire",
+      "meaning": "the ruler of an empire",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sovereign ruler of an empire"
+}

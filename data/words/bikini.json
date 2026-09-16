@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Bikini Atoll",
+      "lang": "Marshallese",
+      "era": "1946",
+      "note": "a Pacific atoll used for nuclear testing shortly before the swimsuit's debut",
+      "meaning": "a Pacific atoll name",
+      "lat": 11.6,
+      "lon": 165.38
+    },
+    {
+      "word": "bikini",
+      "lang": "French",
+      "era": "1946",
+      "note": "named by a French designer for the swimsuit's supposedly explosive social impact",
+      "meaning": "a two-piece swimsuit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bikini",
+      "lang": "English",
+      "era": "1948",
+      "note": "adopted directly as the two-piece swimsuit spread internationally",
+      "meaning": "a two-piece swimsuit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a two-piece swimsuit for women"
+}

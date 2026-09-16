@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bushido",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "literally the way of the warrior, the samurai code of honor",
+      "meaning": "the way of the warrior",
+      "lat": 35.01,
+      "lon": 135.77
+    },
+    {
+      "word": "bushido",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted by Western writers describing samurai ethical codes",
+      "meaning": "the traditional samurai code of honor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the traditional code of honor and morality of the Japanese samurai"
+}

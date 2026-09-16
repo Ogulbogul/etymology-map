@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "vivere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to live, combined with super- (over, beyond)",
+      "meaning": "to live",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supervivere",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "to live beyond, to outlive, from super- (beyond) and vivere (to live)",
+      "meaning": "to live beyond, to outlive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "survivre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for continuing to live after an event",
+      "meaning": "to continue to live after an event",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "survive",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for continuing to live despite hardship or danger",
+      "meaning": "to continue to live despite hardship or danger",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to continue living or existing despite hardship, danger, or difficulty"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "torquere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to twist, combined with ex- (out)",
+      "meaning": "to twist",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extorquere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to twist out, to wrench away, from ex- and torquere",
+      "meaning": "to twist out, to wrench away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extort",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for obtaining something through force or threats",
+      "meaning": "to obtain something through force, threats, or intimidation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to obtain something from someone through force, threats, or intimidation"
+}

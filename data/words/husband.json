@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "husbondi",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally house dweller, from hus (house) and bondi (dweller, farmer)",
+      "meaning": "the master of a household",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "husband",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed over time to mean specifically a married man",
+      "meaning": "a married man",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a married man, in relation to his spouse"
+}

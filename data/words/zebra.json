@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "equiferus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally \"wild horse\"",
+      "meaning": "wild horse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "zebro",
+      "lang": "Portuguese",
+      "era": "medieval",
+      "note": "adopted through Portuguese contact with African wildlife",
+      "meaning": "a striped wild horse",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "zebra",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Portuguese",
+      "meaning": "a striped African wild equine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a striped African wild equine related to the horse"
+}

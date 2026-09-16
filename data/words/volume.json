@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "volvere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to roll, giving rise to volumen (a roll, a scroll)",
+      "meaning": "to roll",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "volumen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a roll of writing, a scroll, from volvere",
+      "meaning": "a roll of writing, a scroll",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "volume",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a scroll or bound book",
+      "meaning": "a scroll or bound book",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "volume",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a book, or an amount of space or loudness",
+      "meaning": "a book, or an amount of space or loudness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a book, the amount of space something occupies, or the loudness of a sound"
+}

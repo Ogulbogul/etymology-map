@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "grex",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "flock, herd, combined with com- (together)",
+      "meaning": "flock, herd",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "congregare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to gather into a flock, from com- and grex",
+      "meaning": "to gather into a flock",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "congregate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for gathering together as a group",
+      "meaning": "to gather together as a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to gather together in a group, especially for a shared purpose"
+}

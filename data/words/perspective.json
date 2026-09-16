@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "perspicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look through, to see clearly, from per- (through) and specere (to look)",
+      "meaning": "to look through, to see clearly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perspectiva",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "the science of optics, from perspicere",
+      "meaning": "the science of optics",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perspective",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a particular way of viewing things",
+      "meaning": "a particular way of viewing or considering things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular attitude toward or way of regarding something, or the art of representing depth"
+}

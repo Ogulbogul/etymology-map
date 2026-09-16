@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "schipper",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "one who commands a ship, from schip (ship)",
+      "meaning": "the captain of a ship",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "skipper",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the captain of a small ship or boat",
+      "meaning": "the captain of a small ship or boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the captain of a small ship or boat, or the leader of a team"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "genesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "meaning \"origin\" or \"creation\", from \"gignesthai\" (to be born)",
+      "meaning": "origin, birth",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "genesis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted as the name of the Bible's first book",
+      "meaning": "the origin of the world",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "genesis",
+      "lang": "English",
+      "era": "medieval",
+      "note": "broadened to mean the origin of anything",
+      "meaning": "the origin or formation of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the origin or formation of something"
+}

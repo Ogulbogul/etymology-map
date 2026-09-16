@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "meridianus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally of midday, from medius (middle) and dies (day)",
+      "meaning": "relating to midday",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "meridian",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for a line of longitude, once tied to the sun's midday position",
+      "meaning": "a line of longitude",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an imaginary line of longitude running from pole to pole"
+}

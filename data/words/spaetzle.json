@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Spatz",
+      "lang": "German",
+      "era": "medieval",
+      "note": "literally little sparrow, a playful name for the small, irregular egg noodle",
+      "meaning": "a little sparrow",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "spaetzle",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the small, soft egg noodle of southern Germany and Austria",
+      "meaning": "a small, soft egg noodle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, soft egg noodle traditional to southern Germany and Austria"
+}

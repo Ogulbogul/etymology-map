@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fournir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to furnish, to accomplish, combined with par- (thoroughly)",
+      "meaning": "to furnish, to accomplish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "parfournir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to complete thoroughly, from par- and fournir",
+      "meaning": "to complete thoroughly",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "performen",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "altered by association with the word form, for carrying out a task",
+      "meaning": "to carry out a task",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "perform",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for carrying out an action or entertaining an audience",
+      "meaning": "to carry out an action, or to entertain an audience",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to carry out an action or task, or to entertain an audience"
+}

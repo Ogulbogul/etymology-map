@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "embolos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a wedge, something thrown in, from en- (in) and ballein (to throw)",
+      "meaning": "a wedge, an insertion",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "embolism",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the medical word for a blockage in a blood vessel",
+      "meaning": "a blockage in a blood vessel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the obstruction of a blood vessel by a clot or other blockage"
+}

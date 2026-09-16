@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carta",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a letter, a document, especially one formalizing an agreement between rivals",
+      "meaning": "a letter, a formal document",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cartel",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried into French for a written agreement between opposing parties",
+      "meaning": "a written agreement, especially between rivals",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cartel",
+      "lang": "English",
+      "era": "1900s",
+      "note": "narrowed to mean businesses or groups colluding to control a market",
+      "meaning": "a group colluding to control a market",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an alliance of businesses or groups formed to limit competition and control a market"
+}

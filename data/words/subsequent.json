@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "subsequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow closely after, from sub- (under, after) and sequi (to follow)",
+      "meaning": "to follow after",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subsequent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for coming after something in time",
+      "meaning": "coming after something in time, following",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "coming after something else in time; following"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "excludere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to close out, to shut out, from ex- (out) and claudere (to close)",
+      "meaning": "to close out, to shut out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exclude",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for keeping someone or something out",
+      "meaning": "to keep someone or something out or apart",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to deliberately keep someone or something out or from participating"
+}

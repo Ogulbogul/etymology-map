@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dingi",
+      "lang": "Bengali/Hindi",
+      "era": "medieval",
+      "note": "a small river boat used in South Asia",
+      "meaning": "a small boat",
+      "lat": 22.57,
+      "lon": 88.36
+    },
+    {
+      "word": "dinghy",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through British colonial contact in India",
+      "meaning": "a small open boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small open boat, often carried aboard a larger vessel"
+}

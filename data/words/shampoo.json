@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chāmpo",
+      "lang": "Hindi",
+      "era": "1700s",
+      "note": "from \"chāmpnā\", to press or knead the body",
+      "meaning": "to massage",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "shampoo",
+      "lang": "English",
+      "era": "1762",
+      "note": "British visitors adopted the practice and word from Indian bathhouses",
+      "meaning": "to massage the body while bathing",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "shampoo",
+      "lang": "English",
+      "era": "1860s",
+      "note": "narrowed over time to mean washing the hair specifically",
+      "meaning": "a liquid soap for washing hair",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a liquid or cream product used to wash hair"
+}

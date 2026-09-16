@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fascinare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bewitch, to cast a spell using the evil eye",
+      "meaning": "to bewitch, to enchant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fascinate",
+      "lang": "English",
+      "era": "1590s",
+      "note": "broadened from casting a magical spell to captivating someone's attention",
+      "meaning": "to captivate someone's attention and interest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to captivate someone's interest or attention intensely"
+}

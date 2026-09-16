@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tapa",
+      "lang": "Polynesian",
+      "era": "ancient",
+      "note": "a cloth made from beaten tree bark",
+      "meaning": "bark cloth",
+      "lat": -17.65,
+      "lon": -149.43
+    },
+    {
+      "word": "tapa",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted through European contact with the Pacific Islands",
+      "meaning": "traditional bark cloth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Pacific Islander cloth made from beaten tree bark"
+}

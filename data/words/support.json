@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "supportare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry under, to bear up, from sub- (under) and portare (to carry)",
+      "meaning": "to carry under, to bear up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "support",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for holding something up, or providing help",
+      "meaning": "to hold something up, or to provide help or encouragement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to hold something up, or to provide help, encouragement, or approval"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "inscribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write into, to engrave, from in- (into) and scribere (to write)",
+      "meaning": "to write into, to engrave",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inscribe",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the English word for writing or engraving something onto a surface",
+      "meaning": "to write or engrave something onto a surface",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to write or engrave words onto a surface, such as stone or a book"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "protagonistes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally the first actor, from protos (first) and agonistes (actor, combatant)",
+      "meaning": "the first combatant, the lead actor",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "protagonist",
+      "lang": "English",
+      "era": "1670s",
+      "note": "settled as the English word for the main character of a story",
+      "meaning": "the main character of a story",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the main character in a story, play, or film"
+}

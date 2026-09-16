@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stethos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "chest, combined with skopein (to look at, examine)",
+      "meaning": "chest",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "stethoscope",
+      "lang": "French",
+      "era": "1819",
+      "note": "coined by physician Rene Laennec from Greek stethos (chest) and skopein (to examine)",
+      "meaning": "chest-examiner",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "stethoscope",
+      "lang": "English",
+      "era": "1820",
+      "note": "adopted from French for the instrument used to listen to the chest",
+      "meaning": "an instrument for listening to sounds within the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medical instrument used to listen to sounds inside the body, especially the heart and lungs"
+}

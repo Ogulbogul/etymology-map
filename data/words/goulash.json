@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gulyás",
+      "lang": "Hungarian",
+      "era": "medieval",
+      "note": "literally \"herdsman\", the stew traditionally cooked by cattle herders",
+      "meaning": "a herdsman; herdsman's stew",
+      "lat": 47.5,
+      "lon": 19.04
+    },
+    {
+      "word": "goulash",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Hungarian for the meat and paprika stew",
+      "meaning": "a rich stew of meat, vegetables, and paprika",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rich stew of meat and vegetables, seasoned with paprika"
+}

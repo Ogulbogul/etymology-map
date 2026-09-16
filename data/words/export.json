@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "exportare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry out, from ex- (out) and portare (to carry)",
+      "meaning": "to carry out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "export",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for sending goods to another country for sale",
+      "meaning": "to send goods to another country for sale",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to send goods or services to another country for sale"
+}

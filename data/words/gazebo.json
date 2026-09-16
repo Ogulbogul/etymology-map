@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gaze",
+      "lang": "English",
+      "era": "1750s",
+      "note": "combined jokingly with a mock-Latin future-tense ending, meaning I shall see",
+      "meaning": "I shall gaze, I shall see",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "gazebo",
+      "lang": "English",
+      "era": "1752",
+      "note": "settled as the whimsical name for a small garden structure offering a view",
+      "meaning": "a small garden structure offering a view",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, roofed structure in a garden, offering a pleasant view"
+}

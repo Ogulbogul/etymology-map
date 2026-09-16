@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kinema",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "movement, the root behind moving pictures",
+      "meaning": "movement",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cinematographe",
+      "lang": "French",
+      "era": "1890s",
+      "note": "coined by the Lumiere brothers for their motion-picture projector",
+      "meaning": "a motion-picture projector",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cinema",
+      "lang": "English",
+      "era": "1900s",
+      "note": "shortened and settled as the word for the movies",
+      "meaning": "motion pictures, or a movie theater",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the art of motion pictures, or a movie theater"
+}

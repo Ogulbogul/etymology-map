@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mockasin",
+      "lang": "Powhatan (Algonquian)",
+      "era": "pre-1600s",
+      "note": "a soft leather shoe made from a single piece of hide",
+      "meaning": "a soft leather shoe",
+      "lat": 37.21,
+      "lon": -76.78
+    },
+    {
+      "word": "moccasin",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in Virginia",
+      "meaning": "a soft, flat leather shoe",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a soft leather shoe traditionally made and worn by Native Americans"
+}

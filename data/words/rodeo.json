@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rodear",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"to go around\", describing herding cattle",
+      "meaning": "to round up, encircle",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "rodeo",
+      "lang": "Mexican Spanish",
+      "era": "1700s",
+      "note": "a cattle roundup and the skills displayed there",
+      "meaning": "a cattle roundup",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "rodeo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking ranchers in the American West",
+      "meaning": "a competitive event of ranching skills",
+      "lat": 39.55,
+      "lon": -105.78
+    }
+  ],
+  "current_meaning": "a competitive sporting event featuring cattle- and horse-handling skills"
+}

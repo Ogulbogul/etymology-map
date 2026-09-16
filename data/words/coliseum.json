@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "colosseus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "colossal, huge, named for a massive nearby statue rather than the amphitheater's own size",
+      "meaning": "colossal, huge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coliseum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted as the general word for a large stadium or arena",
+      "meaning": "a large stadium or arena",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large stadium or arena used for sports and entertainment"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "status quo",
+      "lang": "Latin",
+      "era": "medieval",
+      "note": "literally the state in which, referring to the existing state of affairs",
+      "meaning": "the existing state of affairs",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "status quo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the current or existing condition of things",
+      "meaning": "the existing state of affairs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the existing state of affairs, especially regarding social or political issues"
+}

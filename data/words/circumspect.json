@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "circumspicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look around, from circum- (around) and specere (to look)",
+      "meaning": "to look around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumspectus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "cautious, watchful, from circumspicere",
+      "meaning": "cautious, watchful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumspect",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for being wary and careful about consequences",
+      "meaning": "wary and careful about consequences",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cautious and careful to consider all circumstances before acting"
+}

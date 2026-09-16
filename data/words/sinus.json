@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a curve, a fold, or a hollow",
+      "meaning": "a curve, a hollow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sinus",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly for the hollow cavities in the skull",
+      "meaning": "an air-filled cavity in the skull",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an air-filled cavity in the skull, connected to the nasal passages"
+}

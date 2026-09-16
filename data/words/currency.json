@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "currens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "running, flowing, from currere (to run), describing money circulating through use",
+      "meaning": "running, flowing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "currency",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for money in circulation",
+      "meaning": "money in circulation within a country",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a system of money in general use within a particular country"
+}

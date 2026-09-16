@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "broccolo",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "the flowering top of a cabbage, a diminutive of brocco (a small nail, sprout)",
+      "meaning": "a small sprout or shoot",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "broccoli",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the green vegetable",
+      "meaning": "a green vegetable with edible flower heads",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a green vegetable with a dense cluster of edible flower buds"
+}

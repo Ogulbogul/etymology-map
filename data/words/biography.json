@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "life, combined with graphein (to write) for a written life story",
+      "meaning": "life",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "biography",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for a written account of a person's life",
+      "meaning": "a written account of a person's life",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a written account of another person's life"
+}

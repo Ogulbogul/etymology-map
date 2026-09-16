@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "occurrere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to run toward, to meet, from ob- (toward) and currere (to run)",
+      "meaning": "to run toward, to meet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "occur",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for happening or taking place",
+      "meaning": "to happen or take place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to happen, or to come to mind"
+}

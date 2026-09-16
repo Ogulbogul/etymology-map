@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "liquifacere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make liquid, from liquere (to be fluid) and facere (to make)",
+      "meaning": "to make liquid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "liqueur",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for a sweet, flavored spirit",
+      "meaning": "a sweet, flavored alcoholic spirit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "liqueur",
+      "lang": "English",
+      "era": "1742",
+      "note": "adopted directly for the sweet, flavored after-dinner spirit",
+      "meaning": "a sweet, flavored alcoholic spirit, often served after a meal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong, sweet, flavored alcoholic spirit, typically served after a meal"
+}

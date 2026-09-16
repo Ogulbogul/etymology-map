@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "borshch",
+      "lang": "Ukrainian/Russian",
+      "era": "medieval",
+      "note": "a soup traditionally made from fermented beets",
+      "meaning": "beet soup",
+      "lat": 50.45,
+      "lon": 30.52
+    },
+    {
+      "word": "borscht",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted by English speakers through Eastern European Jewish immigrant communities",
+      "meaning": "a beet-based soup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soup made primarily from beets, popular across Eastern Europe"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "snoepen",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"to eat sweets secretly\"",
+      "meaning": "to eat sweets in secret",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "snoop",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Dutch settlers in colonial America, broadened to secret prying",
+      "meaning": "to pry into someone's affairs secretly",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "to investigate or pry into someone's private affairs secretly"
+}

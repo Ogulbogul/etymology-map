@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "jacet",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "it lies, from jacere (to lie), used in legal Latin for where a case rests",
+      "meaning": "it lies",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gist",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "from the legal phrase cest action gist (this action lies), naming the real basis of a lawsuit",
+      "meaning": "the real basis of a legal case",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "gist",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for the essential point or main substance of something",
+      "meaning": "the essential point or main substance of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the essential point or main substance of an argument, speech, or piece of writing"
+}

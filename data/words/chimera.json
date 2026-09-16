@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khimaira",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a fire-breathing monster with a lion's head, goat's body, and serpent's tail",
+      "meaning": "a mythical fire-breathing hybrid monster",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chimera",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from the monster itself to any wildly fanciful idea",
+      "meaning": "an unrealistic or fantastical idea, or a hybrid creature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fanciful, unrealistic idea, or an organism with mixed genetic origins"
+}

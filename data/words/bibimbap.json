@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bibim",
+      "lang": "Korean",
+      "era": "unknown",
+      "note": "mixed, combined with bap (cooked rice)",
+      "meaning": "mixed",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "bibimbap",
+      "lang": "Korean",
+      "era": "unknown",
+      "note": "mixed rice, a dish of rice topped with vegetables, meat, and egg, mixed before eating",
+      "meaning": "mixed rice",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "bibimbap",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted directly for the Korean mixed-rice dish",
+      "meaning": "a Korean dish of rice mixed with vegetables, meat, and egg",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Korean dish of warm rice topped with vegetables, meat, and egg, mixed together before eating"
+}

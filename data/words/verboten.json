@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "verbieten",
+      "lang": "German",
+      "era": "medieval",
+      "note": "to forbid",
+      "meaning": "to forbid",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "verboten",
+      "lang": "German",
+      "era": "1600s",
+      "note": "past participle of verbieten, meaning forbidden",
+      "meaning": "forbidden",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "verboten",
+      "lang": "English",
+      "era": "1912",
+      "note": "adopted directly into English for something strictly forbidden",
+      "meaning": "strictly forbidden, especially by authority",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strictly forbidden, especially by an authority or set of rules"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "virus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally poison, slimy liquid, applied to any harmful agent",
+      "meaning": "poison, venom",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "virus",
+      "lang": "English",
+      "era": "1890s",
+      "note": "narrowed to mean the microscopic infectious agent once discovered",
+      "meaning": "a microscopic infectious agent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a microscopic infectious agent that replicates inside living cells"
+}

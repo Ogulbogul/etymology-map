@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "panko",
+      "lang": "Japanese",
+      "era": "modern",
+      "note": "literally bread flour, coarse breadcrumbs used for a crisp coating",
+      "meaning": "coarse breadcrumbs",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "panko",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted by English-speaking cooks for the light, crispy breadcrumb",
+      "meaning": "coarse, light Japanese-style breadcrumbs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "coarse, light breadcrumbs used for a crisp fried coating"
+}

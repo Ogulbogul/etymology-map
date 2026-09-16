@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "exire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to go out, from ex- (out) and ire (to go)",
+      "meaning": "to go out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exit",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "he or she goes out, a stage direction marking a character's departure",
+      "meaning": "he or she goes out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exit",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for a way out or the act of leaving",
+      "meaning": "a way out, or the act of leaving",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a way out of a place, or the act of leaving"
+}

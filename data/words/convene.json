@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "convenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come together, from com- (together) and venire (to come)",
+      "meaning": "to come together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "convene",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for gathering together for a meeting",
+      "meaning": "to come together for a formal meeting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come together for a meeting, or to call people together"
+}

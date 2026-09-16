@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fidare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"to trust\"",
+      "meaning": "to trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fiancer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meaning \"to promise\" or \"betroth\"",
+      "meaning": "to betroth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fiancée",
+      "lang": "French",
+      "era": "1800s",
+      "note": "the feminine form for a woman engaged to be married",
+      "meaning": "a woman engaged to be married",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fiancee",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from French",
+      "meaning": "a woman engaged to be married",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a woman who is engaged to be married"
+}

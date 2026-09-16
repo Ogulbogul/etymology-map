@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "garer",
+      "lang": "French",
+      "era": "medieval",
+      "note": "meaning \"to shelter\" or \"to dock a boat\"",
+      "meaning": "to shelter, to dock",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "garage",
+      "lang": "French",
+      "era": "1900s",
+      "note": "applied to a shelter for the newly invented automobile",
+      "meaning": "a shelter for a vehicle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "garage",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from French as automobiles spread",
+      "meaning": "a building for storing or repairing a vehicle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building used for storing or repairing motor vehicles"
+}

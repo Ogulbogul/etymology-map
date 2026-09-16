@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nitron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "natron, a naturally occurring soda-like mineral",
+      "meaning": "soda, natron",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "nitrogene",
+      "lang": "French",
+      "era": "1790",
+      "note": "coined by Chaptal from Greek nitron and -gene (producer), for the gas found in nitre",
+      "meaning": "nitre-producer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nitrogen",
+      "lang": "English",
+      "era": "1794",
+      "note": "adopted from French for the colorless, mostly inert gas",
+      "meaning": "a colorless, mostly inert gas",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a colorless, odorless gas that makes up most of Earth's atmosphere"
+}

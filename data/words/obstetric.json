@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "obstetrix",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a midwife, from obstare (to stand before, be present)",
+      "meaning": "a midwife",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obstetric",
+      "lang": "English",
+      "era": "1740s",
+      "note": "settled as the medical word for the care of childbirth",
+      "meaning": "relating to pregnancy and childbirth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to pregnancy, childbirth, and the period following"
+}

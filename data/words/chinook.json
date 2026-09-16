@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Tsinuk",
+      "lang": "Chinookan",
+      "era": "ancient",
+      "note": "the name of a Native American people of the Pacific Northwest",
+      "meaning": "the Chinook people",
+      "lat": 46.19,
+      "lon": -123.93
+    },
+    {
+      "word": "chinook",
+      "lang": "English",
+      "era": "1800s",
+      "note": "named after the people, applied to a warm wind from their homeland's direction",
+      "meaning": "a warm wind off the Pacific",
+      "lat": 45.5,
+      "lon": -122.68
+    }
+  ],
+  "current_meaning": "a warm, dry wind that descends the eastern side of mountain ranges"
+}

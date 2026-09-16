@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fluidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "flowing, from fluere (to flow)",
+      "meaning": "flowing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fluid",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a substance that flows",
+      "meaning": "a substance that flows, such as a liquid or gas",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance, such as a liquid or gas, that flows and takes the shape of its container"
+}

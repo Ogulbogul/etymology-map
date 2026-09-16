@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nyami",
+      "lang": "Wolof/Fulani",
+      "era": "1500s",
+      "note": "literally to eat, describing the starchy root eaten across West Africa",
+      "meaning": "to eat",
+      "lat": 14.72,
+      "lon": -17.47
+    },
+    {
+      "word": "yam",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for the starchy tuber",
+      "meaning": "a starchy edible tuber",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a starchy edible tuber grown in tropical regions"
+}

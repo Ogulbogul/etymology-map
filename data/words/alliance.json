@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "alligare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bind to, from ad- (to) and ligare (to bind)",
+      "meaning": "to bind to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aliance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a formal bond between parties",
+      "meaning": "a formal bond between parties",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "alliance",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a formal agreement of cooperation",
+      "meaning": "a formal agreement of cooperation between parties",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal agreement or union between two or more parties for mutual benefit"
+}

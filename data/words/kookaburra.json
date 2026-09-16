@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "guuguubarra",
+      "lang": "Wiradjuri",
+      "era": "1800s",
+      "note": "an imitation of the bird's distinctive laughing call",
+      "meaning": "the laughing kingfisher",
+      "lat": -35.12,
+      "lon": 147.37
+    },
+    {
+      "word": "kookaburra",
+      "lang": "English",
+      "era": "1830s",
+      "note": "adopted directly for the large, laughing Australian kingfisher",
+      "meaning": "a large Australian kingfisher known for its laughing call",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large Australian kingfisher known for its call resembling raucous laughter"
+}

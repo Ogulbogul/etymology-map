@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "byrth",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "the act of being born, replacing an earlier native English form",
+      "meaning": "the act of being born",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "birth",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for coming into life",
+      "meaning": "the emergence of a new individual from its mother",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the emergence of a baby or young animal from its mother's body"
+}

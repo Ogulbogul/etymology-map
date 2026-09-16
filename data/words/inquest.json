@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "quaerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek, combined with in- (into)",
+      "meaning": "to seek",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inquirere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek into, to investigate, from in- and quaerere",
+      "meaning": "to seek into, to investigate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "enqueste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a formal investigation",
+      "meaning": "a formal investigation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "inquest",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a formal investigation, especially into a death",
+      "meaning": "a formal investigation, especially into the cause of a death",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official investigation, especially into the cause of a person's death"
+}

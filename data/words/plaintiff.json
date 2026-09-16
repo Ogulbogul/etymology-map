@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "plangere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lament, to strike the breast in grief",
+      "meaning": "to lament, to complain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plaintif",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into legal French for one bringing a complaint before a court",
+      "meaning": "one who complains, especially in court",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "plaintiff",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the party who initiates a lawsuit",
+      "meaning": "the party who brings a case against another in court",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who brings a legal case against another in a court of law"
+}

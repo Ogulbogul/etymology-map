@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "urbs",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "city",
+      "meaning": "city",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "urbanus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the city, from urbs",
+      "meaning": "of the city",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "urban",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something relating to a city or town",
+      "meaning": "relating to a city or densely populated area",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a city or densely populated area"
+}

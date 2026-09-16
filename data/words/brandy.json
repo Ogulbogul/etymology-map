@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "branden",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"to burn\", referring to distillation over fire",
+      "meaning": "to burn",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "brandewijn",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "literally \"burnt wine\", a distilled wine spirit",
+      "meaning": "burnt wine, a distilled spirit",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "brandy",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "shortened from the Dutch term",
+      "meaning": "a spirit distilled from wine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong alcoholic spirit distilled from wine or fermented fruit juice"
+}

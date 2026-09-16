@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wasabi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "a pungent green root used as a condiment, related to horseradish",
+      "meaning": "the wasabi plant",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "wasabi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Japanese cuisine spread internationally",
+      "meaning": "a pungent green condiment made from the wasabi root",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pungent green Japanese condiment made from a root related to horseradish"
+}

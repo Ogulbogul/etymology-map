@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tangere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to touch",
+      "meaning": "to touch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tangent",
+      "lang": "English",
+      "era": "1590s",
+      "note": "adopted directly for a line touching a curve at a single point",
+      "meaning": "a line touching a curve at a single point",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a straight line that touches a curve at a single point without crossing it"
+}

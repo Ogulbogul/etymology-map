@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tele",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "far off, combined with gramma (something written)",
+      "meaning": "far off",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "telegram",
+      "lang": "English",
+      "era": "1852",
+      "note": "coined in the United States from Greek tele (far) and gramma (written thing) for a message sent by telegraph",
+      "meaning": "a message sent by telegraph",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a message transmitted by telegraph and printed for delivery"
+}

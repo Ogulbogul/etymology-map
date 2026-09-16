@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to blow, combined with de- (down, away)",
+      "meaning": "to blow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deflare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to blow away, a root used to form the reverse of inflare",
+      "meaning": "to blow away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deflate",
+      "lang": "English",
+      "era": "1891",
+      "note": "coined as the opposite of inflate, for letting air or gas out of something",
+      "meaning": "to let air or gas out of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to release air or gas from something, or to reduce someone's confidence"
+}

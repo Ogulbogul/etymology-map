@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "protos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "first, describing the first identified positively charged subatomic particle",
+      "meaning": "first",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "proton",
+      "lang": "English",
+      "era": "1920",
+      "note": "coined by physicist Ernest Rutherford for the positively charged nuclear particle",
+      "meaning": "a positively charged subatomic particle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stable subatomic particle with a positive electric charge, found in atomic nuclei"
+}

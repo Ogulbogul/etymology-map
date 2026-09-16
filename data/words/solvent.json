@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "solvere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to loosen, to dissolve, to pay off",
+      "meaning": "to loosen, to dissolve, to pay off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solvens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "dissolving, paying off, present participle of solvere",
+      "meaning": "dissolving, paying off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solvent",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a substance that dissolves others, or having enough money to pay debts",
+      "meaning": "a dissolving substance, or having enough money to pay debts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance that dissolves another, or having enough money to cover one's debts"
+}

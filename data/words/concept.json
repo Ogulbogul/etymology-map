@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "concipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take together, to conceive, from com- (together) and capere (to take)",
+      "meaning": "to take together, to conceive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concept",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the English word for an abstract idea",
+      "meaning": "an abstract idea or general notion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an abstract idea or general notion formed in the mind"
+}

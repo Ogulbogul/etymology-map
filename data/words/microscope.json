@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mikros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "small, combined with skopein (to view) for viewing tiny things",
+      "meaning": "small",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "microscope",
+      "lang": "English",
+      "era": "1650s",
+      "note": "coined for the new instrument revealing the invisibly small",
+      "meaning": "an instrument for viewing tiny objects",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instrument used to view objects too small for the naked eye"
+}

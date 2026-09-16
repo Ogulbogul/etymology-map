@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "advocare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to call to one's aid, from ad- (to) and vocare (to call)",
+      "meaning": "to call to one's aid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "advocate",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for one who speaks in support of a cause or person",
+      "meaning": "a person who publicly supports a cause, or to support it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who publicly supports a cause, or to publicly recommend something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "eikon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an image or likeness, especially a religious image",
+      "meaning": "an image, likeness",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "icon",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled first for religious images, later any symbolic figure",
+      "meaning": "a symbolic image or revered figure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or thing regarded as a representative symbol, or a small screen symbol"
+}

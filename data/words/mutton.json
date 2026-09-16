@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "multo",
+      "lang": "Gaulish/Latin",
+      "era": "ancient",
+      "note": "a Gaulish-derived word for sheep used in Vulgar Latin",
+      "meaning": "sheep",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "moton",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for both the sheep and its meat",
+      "meaning": "sheep, mutton",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mutton",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted for the meat, while \"sheep\" stayed the native English word for the animal",
+      "meaning": "the meat of sheep",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the meat of a mature sheep"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nostos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a homecoming, combined with algos (pain) for the pain of homesickness",
+      "meaning": "a homecoming",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "nostalgia",
+      "lang": "English",
+      "era": "1770s",
+      "note": "coined by a Swiss doctor for severe homesickness, later broadened to wistful longing",
+      "meaning": "severe homesickness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wistful longing for the past"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gilaa",
+      "lang": "Yuwaalaraay",
+      "era": "1800s",
+      "note": "the name for the pink-and-grey cockatoo common across Australia",
+      "meaning": "a pink and grey cockatoo",
+      "lat": -29.46,
+      "lon": 149.84
+    },
+    {
+      "word": "galah",
+      "lang": "English",
+      "era": "1840s",
+      "note": "adopted directly for the bird, later slang for a foolish person",
+      "meaning": "a pink and grey Australian cockatoo, or informally a fool",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pink and grey Australian cockatoo, or informally, a foolish person"
+}

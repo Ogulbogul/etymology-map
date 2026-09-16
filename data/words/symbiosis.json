@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "symbiosis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally living together, from syn (together) and bios (life)",
+      "meaning": "living together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "symbiosis",
+      "lang": "English",
+      "era": "1876",
+      "note": "adopted by biologists for a close, mutually beneficial relationship between organisms",
+      "meaning": "a close, interdependent relationship between organisms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a close, often mutually beneficial relationship between different organisms"
+}

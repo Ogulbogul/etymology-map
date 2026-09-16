@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kielhalen",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "combining \"kiel\" (keel) and \"halen\" (to haul), a maritime punishment",
+      "meaning": "to haul under a ship's keel",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "keelhaul",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Dutch naval discipline",
+      "meaning": "to punish by dragging under a ship's keel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to severely rebuke someone, from the historical naval punishment of dragging under a ship"
+}

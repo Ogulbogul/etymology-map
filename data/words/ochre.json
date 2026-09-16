@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "okhra",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "pale yellow, describing the earthy natural pigment",
+      "meaning": "pale yellow",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ocre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried through Latin into French pigment vocabulary",
+      "meaning": "an earthy yellow-brown pigment",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ochre",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the natural earthy pigment",
+      "meaning": "a natural earthy pigment ranging from yellow to brown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a natural earthy pigment ranging from pale yellow to brownish orange"
+}

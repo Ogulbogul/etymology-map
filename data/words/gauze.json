@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Ghazza",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the city of Gaza, a noted center of fine fabric weaving",
+      "meaning": "the city of Gaza",
+      "lat": 31.5,
+      "lon": 34.47
+    },
+    {
+      "word": "gaze",
+      "lang": "French",
+      "era": "medieval",
+      "note": "named the thin, loosely woven fabric after the city",
+      "meaning": "a thin, sheer fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gauze",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted directly from French",
+      "meaning": "a thin, loosely woven fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin, loosely woven fabric, often used for bandages"
+}

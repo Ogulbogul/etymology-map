@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kvetshn",
+      "lang": "Yiddish",
+      "era": "1800s",
+      "note": "literally to squeeze or press, extended to mean to complain",
+      "meaning": "to squeeze, to complain",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "kvetch",
+      "lang": "English",
+      "era": "1950s",
+      "note": "adopted through American Yiddish-speaking Jewish communities",
+      "meaning": "to complain persistently",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to complain persistently, or a person who complains habitually"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "subicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to throw under, from sub- (under) and iacere (to throw)",
+      "meaning": "to throw under, to place beneath",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subject",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something placed under authority or consideration",
+      "meaning": "under the authority of another, or a topic of discussion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a topic being discussed or studied, or a person under the authority of a ruler"
+}

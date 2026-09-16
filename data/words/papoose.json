@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "papoos",
+      "lang": "Narragansett",
+      "era": "pre-1600s",
+      "note": "meaning \"child\" or \"infant\"",
+      "meaning": "a child, infant",
+      "lat": 41.58,
+      "lon": -71.48
+    },
+    {
+      "word": "papoose",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in New England",
+      "meaning": "a Native American infant, or its carrier",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a Native American infant, or a carrier used to transport a baby"
+}

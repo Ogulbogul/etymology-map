@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "beita",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to cause to bite, food used to lure fish or animals",
+      "meaning": "to cause to bite",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "bait",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for food used to lure prey",
+      "meaning": "food used to lure fish, animals, or people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "food used to lure fish or animals, or something used to tempt someone"
+}

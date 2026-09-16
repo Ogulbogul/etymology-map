@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kruisen",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"to cross\" or \"sail to and fro\"",
+      "meaning": "to cross, sail back and forth",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "cruise",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from Dutch maritime vocabulary",
+      "meaning": "to sail for pleasure or patrol",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to sail or travel for pleasure, or a voyage taken for leisure"
+}

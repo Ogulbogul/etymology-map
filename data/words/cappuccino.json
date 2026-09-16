@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cappuccino",
+      "lang": "Italian",
+      "era": "1900s",
+      "note": "named for the brown-hooded robes of Capuchin friars, resembling the drink's color",
+      "meaning": "relating to the Capuchin order",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cappuccino",
+      "lang": "English",
+      "era": "1940s",
+      "note": "adopted directly for the espresso drink topped with foamed milk",
+      "meaning": "espresso topped with steamed, foamed milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a coffee drink made with espresso, steamed milk, and milk foam"
+}

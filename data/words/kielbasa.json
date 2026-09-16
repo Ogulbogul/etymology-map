@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kielbasa",
+      "lang": "Polish",
+      "era": "medieval",
+      "note": "the general Polish word for sausage",
+      "meaning": "sausage",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "kielbasa",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Polish immigrant communities for the specific smoked sausage",
+      "meaning": "a smoked Polish sausage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a smoked sausage of Polish origin"
+}

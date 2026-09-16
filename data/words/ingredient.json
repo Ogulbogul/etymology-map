@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ingredi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to enter into, to go in, from in- (in) and gradi (to walk, to step)",
+      "meaning": "to enter into, to go in",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ingredient",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a component entering into a mixture",
+      "meaning": "a component that enters into a mixture or dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a component that combines with others to make a dish or mixture"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "prae decessor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one who withdraws before, from prae- (before) and decedere (to withdraw, from de- and cedere)",
+      "meaning": "one who withdraws before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "predecesseur",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a person who held a position before another",
+      "meaning": "a person who held a position before another",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "predecessor",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a person who held a position before another",
+      "meaning": "a person who held a position or office before another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who held a position or office before the current holder"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "habitat",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally it dwells, from habitare (to dwell)",
+      "meaning": "it dwells",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "habitat",
+      "lang": "English",
+      "era": "1760s",
+      "note": "adopted by naturalists for the natural environment of an organism",
+      "meaning": "the natural environment of an organism",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the natural environment in which an organism normally lives"
+}

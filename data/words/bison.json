@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bison",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a wild ox, likely borrowed from a Germanic or Thracian source",
+      "meaning": "a wild ox",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "bison",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the wild ox native to European forests",
+      "meaning": "a wild ox",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bison",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the large shaggy-headed wild ox",
+      "meaning": "a large shaggy-headed wild ox",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, shaggy-headed wild ox native to North America and Europe"
+}

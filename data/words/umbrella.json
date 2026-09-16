@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "umbra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"shade\" or \"shadow\"",
+      "meaning": "shade, shadow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ombrella",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a diminutive meaning \"little shade\", a portable sunshade",
+      "meaning": "a little shade; a sunshade",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "umbrella",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Italian, later used against rain",
+      "meaning": "a folding device for protection from rain or sun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a folding device with a canopy used for protection from rain or sun"
+}

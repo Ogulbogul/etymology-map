@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rahat",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"palm of the hand\", used to strike a ball",
+      "meaning": "palm of the hand",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "raquette",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "applied to the handheld device used in ball games",
+      "meaning": "a handheld bat for striking a ball",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "racket",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for the sports implement",
+      "meaning": "a strung frame used to hit a ball in sports",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strung, handheld frame used to strike a ball in sports like tennis"
+}

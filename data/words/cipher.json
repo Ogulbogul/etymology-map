@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sifr",
+      "lang": "Arabic",
+      "era": "c. 800s",
+      "note": "meaning \"empty\", the Arabic word for zero",
+      "meaning": "zero, empty",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "cifre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through the spread of Arabic numerals in Europe",
+      "meaning": "zero; a secret code",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cipher",
+      "lang": "English",
+      "era": "medieval",
+      "note": "broadened to mean a coded message as well as zero",
+      "meaning": "a code, or the numeral zero",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a method of secret writing, or a person or thing of no importance"
+}

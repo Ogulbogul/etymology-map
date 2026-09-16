@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "eludere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to escape by trick, to play out, from ex- (out) and ludere (to play)",
+      "meaning": "to escape by trick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "elude",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for escaping or avoiding something skillfully",
+      "meaning": "to escape or avoid something skillfully",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to skillfully escape, avoid, or evade something"
+}

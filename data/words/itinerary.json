@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "iter",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a journey, a road, a way",
+      "meaning": "a journey, a road",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "itinerary",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a planned route or schedule of a journey",
+      "meaning": "a planned route or schedule for a journey",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a planned route or detailed schedule for a journey"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ezel",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "literally \"donkey\", describing the sturdy wooden frame",
+      "meaning": "donkey; a supporting frame",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "easel",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Dutch for the artist's frame",
+      "meaning": "a frame for supporting an artist's canvas",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stand or frame used to support an artist's canvas or a display board"
+}

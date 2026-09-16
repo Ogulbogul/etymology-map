@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "im ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to place upon, from in- (upon) and ponere (to place)",
+      "meaning": "to place upon",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "imposer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for forcing something upon someone",
+      "meaning": "to force something upon someone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "impose",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for forcing something to be accepted",
+      "meaning": "to force something to be accepted or applied",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to force a rule, tax, belief, or burden upon someone"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "verus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "true",
+      "meaning": "true",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verax",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "truthful, speaking the truth, from verus",
+      "meaning": "truthful, speaking the truth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "veracity",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for conformity to truth or accuracy",
+      "meaning": "conformity to truth or accuracy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the quality of being truthful, accurate, or conforming to fact"
+}

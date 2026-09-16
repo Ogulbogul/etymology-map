@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lagu",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally something laid down, a rule fixed by authority",
+      "meaning": "something laid down, a rule",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "law",
+      "lang": "English",
+      "era": "1000s",
+      "note": "settled as the English word for a binding rule of conduct",
+      "meaning": "a binding rule of conduct",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a system of rules a community recognizes as binding"
+}

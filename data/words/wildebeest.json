@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wild beest",
+      "lang": "Afrikaans/Dutch",
+      "era": "1700s",
+      "note": "combining \"wild\" (wild) and \"beest\" (beast)",
+      "meaning": "wild beast",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "wildebeest",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Afrikaans",
+      "meaning": "a large African antelope, also called a gnu",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large African antelope with a curved mane and horns, also called a gnu"
+}

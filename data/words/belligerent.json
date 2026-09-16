@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bellum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "war, combined with gerere (to wage, to carry on)",
+      "meaning": "war",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "belligerent",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for someone hostile and ready to fight",
+      "meaning": "hostile and ready to fight",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "hostile and aggressive, or actively engaged in war"
+}

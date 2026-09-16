@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "iactare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to throw repeatedly",
+      "meaning": "to throw repeatedly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "iactatio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a throwing, from iactare",
+      "meaning": "a throwing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "getteson",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "carried into legal French for throwing cargo overboard to lighten a ship",
+      "meaning": "throwing cargo overboard to lighten a ship",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "jettison",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for throwing something away, especially to lighten a load",
+      "meaning": "to throw something away, especially to lighten a load",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to throw something overboard or discard it, especially to lighten a load"
+}

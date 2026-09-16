@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "rogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to ask, combined with ad- (to)",
+      "meaning": "to ask",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arrogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to claim for oneself, from ad- (to) and rogare (to ask)",
+      "meaning": "to claim for oneself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arrogans",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "claiming too much for oneself, present participle of arrogare",
+      "meaning": "claiming too much for oneself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arrogant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for having an exaggerated sense of one's own importance",
+      "meaning": "having an exaggerated sense of one's own importance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having an exaggerated sense of one's own importance or abilities"
+}

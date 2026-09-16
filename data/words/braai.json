@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "braai",
+      "lang": "Afrikaans",
+      "era": "1800s",
+      "note": "shortened from braaivleis, literally roast meat, a social barbecue gathering",
+      "meaning": "roast meat, a barbecue",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "braai",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly into South African English for the barbecue tradition",
+      "meaning": "a barbecue, especially as a social gathering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a barbecue, especially as a social occasion, in South African English"
+}

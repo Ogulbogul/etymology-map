@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fictio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a shaping, a forming, from fingere (to shape, to form)",
+      "meaning": "a shaping, a forming",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fiction",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for invented, imaginative narrative",
+      "meaning": "literature describing imaginary events and people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "literature that describes imaginary events and people, rather than real ones"
+}

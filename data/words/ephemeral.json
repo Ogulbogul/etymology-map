@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ephemeros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally lasting only a day, from epi- (on) and hemera (day)",
+      "meaning": "lasting only a day",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ephemeral",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for something short-lived",
+      "meaning": "lasting for a very short time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lasting for a very short time"
+}

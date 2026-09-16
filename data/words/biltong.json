@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bil",
+      "lang": "Dutch/Afrikaans",
+      "era": "1700s",
+      "note": "a buttock or rump, combined with tong (a strip or tongue), describing strips of dried meat",
+      "meaning": "a strip of rump meat",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "biltong",
+      "lang": "English",
+      "era": "1815",
+      "note": "adopted directly for the dried, cured meat snack of southern Africa",
+      "meaning": "dried, cured strips of meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dried, cured strips of meat, a popular snack in southern Africa"
+}

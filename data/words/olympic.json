@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Olympia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the sanctuary in Greece where the ancient athletic games were held",
+      "meaning": "the site of the ancient games",
+      "lat": 37.64,
+      "lon": 21.63
+    },
+    {
+      "word": "olympic",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted when the modern international games were revived in 1896",
+      "meaning": "relating to the international athletic games",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the Olympic Games, an international multi-sport event"
+}

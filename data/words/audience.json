@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "audire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hear",
+      "meaning": "to hear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audientia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a hearing, a listening, from audire",
+      "meaning": "a hearing, a listening",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audience",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a formal hearing or gathering of listeners",
+      "meaning": "a formal hearing, or a gathering of listeners",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "audience",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a group of listeners or spectators",
+      "meaning": "a group of listeners or spectators",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of people gathered to watch or listen to a performance, speech, or work"
+}

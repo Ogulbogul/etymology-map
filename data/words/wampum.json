@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wampumpeag",
+      "lang": "Massachusett",
+      "era": "pre-1600s",
+      "note": "literally \"white strings [of shell beads]\"",
+      "meaning": "strings of shell beads",
+      "lat": 42.36,
+      "lon": -71.06
+    },
+    {
+      "word": "wampum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "shortened by English colonists in New England",
+      "meaning": "shell beads used as currency or ornament",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "traditional shell beads used by Native Americans as currency, ornamentation, or ceremony"
+}

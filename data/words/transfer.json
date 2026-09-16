@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "transferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry across, from trans- (across) and ferre (to carry)",
+      "meaning": "to carry across",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transfer",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for moving something from one place to another",
+      "meaning": "to move something from one place, person, or use to another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move or pass something from one place, person, or condition to another"
+}

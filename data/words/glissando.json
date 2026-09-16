@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "glissando",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "from French glisser (to glide), describing a sliding run of notes",
+      "meaning": "sliding, gliding",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "glissando",
+      "lang": "English",
+      "era": "1850s",
+      "note": "adopted directly for a smooth slide between two pitches",
+      "meaning": "a sliding glide between two musical pitches",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a continuous slide upward or downward between two musical notes"
+}

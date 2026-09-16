@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "terra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "earth, the root behind an earthenware cooking dish",
+      "meaning": "earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terrine",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for an earthenware dish, and the layered pate cooked in it",
+      "meaning": "an earthenware dish, or a layered pate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "terrine",
+      "lang": "English",
+      "era": "1877",
+      "note": "adopted directly for the dish or the layered meat or vegetable preparation",
+      "meaning": "a dish of layered meat, fish, or vegetables set in a mold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of coarsely chopped meat, fish, or vegetables, cooked and served in a mold"
+}

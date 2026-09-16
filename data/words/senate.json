@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "senatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a council of elders, from senex (old man)",
+      "meaning": "a council of elders",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "senate",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a governing legislative council",
+      "meaning": "a governing or legislative council",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a governing or legislative body, especially the upper house of some parliaments"
+}

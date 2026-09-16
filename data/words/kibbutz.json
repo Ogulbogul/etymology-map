@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kibbutz",
+      "lang": "Hebrew",
+      "era": "1900s",
+      "note": "literally a gathering, a collective farming community in Israel",
+      "meaning": "a gathering, a collective community",
+      "lat": 32.08,
+      "lon": 34.78
+    },
+    {
+      "word": "kibbutz",
+      "lang": "English",
+      "era": "1930s",
+      "note": "adopted directly for the communal settlements of early Zionist settlers",
+      "meaning": "an Israeli collective community, especially a farming settlement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a communal settlement in Israel, traditionally based on agriculture"
+}

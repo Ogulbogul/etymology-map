@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "batik",
+      "lang": "Javanese",
+      "era": "medieval",
+      "note": "possibly from \"tik\" (to dot), describing the wax-resist dyeing technique",
+      "meaning": "a wax-resist dyeing technique",
+      "lat": -7.15,
+      "lon": 110.14
+    },
+    {
+      "word": "batik",
+      "lang": "Dutch",
+      "era": "1600s-1700s",
+      "note": "adopted through Dutch colonial contact in Indonesia",
+      "meaning": "wax-resist dyed fabric",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "batik",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Dutch colonial trade",
+      "meaning": "a technique of dyeing fabric using wax resist",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a technique of dyeing fabric by applying wax to areas that resist the dye"
+}

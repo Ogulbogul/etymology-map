@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yogin",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "one who practices yoga, from yoga (union, discipline)",
+      "meaning": "a practitioner of yoga",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "yogi",
+      "lang": "English",
+      "era": "1820s",
+      "note": "adopted directly for a practitioner of yoga or Hindu ascetic discipline",
+      "meaning": "a practitioner of yoga",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who practices yoga, especially as a spiritual discipline"
+}

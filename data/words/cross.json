@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "crux",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the wooden structure used for crucifixion, later a symbol of Christian faith",
+      "meaning": "a crucifix, a wooden frame",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cros",
+      "lang": "Old Irish",
+      "era": "medieval",
+      "note": "carried through early Christian missionary contact into Irish",
+      "meaning": "a Christian cross symbol",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "kross",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "adopted from Irish contact and carried into English through Scandinavian settlement",
+      "meaning": "a cross-shaped symbol",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "cross",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the standard English word for the cross shape and symbol",
+      "meaning": "an intersection of two lines, or the Christian symbol",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a shape formed by two intersecting lines, especially as a religious symbol"
+}

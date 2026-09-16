@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gula",
+      "lang": "Dharug",
+      "era": "ancient",
+      "note": "the name for the tree-dwelling marsupial of eastern Australia",
+      "meaning": "the koala",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "koala",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly by British settlers in New South Wales",
+      "meaning": "a tree-dwelling Australian marsupial",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tree-dwelling Australian marsupial with grey fur, feeding on eucalyptus leaves"
+}

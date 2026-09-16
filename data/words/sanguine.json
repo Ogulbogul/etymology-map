@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sanguis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "blood",
+      "meaning": "blood",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sanguineus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "bloody, blood-red, from sanguis",
+      "meaning": "bloody, blood-red",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sanguin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the blood-red color, later associated with a cheerful temperament",
+      "meaning": "blood-red, a cheerful temperament",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sanguine",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for being optimistic and confident",
+      "meaning": "optimistic and confident, especially in a difficult situation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "optimistic and confident, especially in a difficult or uncertain situation"
+}

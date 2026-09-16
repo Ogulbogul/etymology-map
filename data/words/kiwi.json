@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kiwi",
+      "lang": "Maori",
+      "era": "ancient",
+      "note": "an imitative name for the flightless bird's call",
+      "meaning": "the kiwi bird",
+      "lat": -36.85,
+      "lon": 174.76
+    },
+    {
+      "word": "kiwi",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted for the bird, later for the fruit and as a nickname for New Zealanders",
+      "meaning": "a flightless New Zealand bird",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small flightless bird native to New Zealand, or informally, a New Zealander"
+}

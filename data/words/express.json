@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "exprimere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to press out, from ex- (out) and premere (to press)",
+      "meaning": "to press out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "expresser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for squeezing something out or stating clearly",
+      "meaning": "to squeeze out, to state clearly",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "express",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for conveying thoughts or feelings",
+      "meaning": "to convey thoughts or feelings in words or actions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to convey thoughts or feelings, or something sent or done rapidly"
+}

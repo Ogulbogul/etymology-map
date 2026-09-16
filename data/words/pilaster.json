@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pila",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a pillar, a pier",
+      "meaning": "a pillar",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pilastro",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "settled in Italian for a rectangular column projecting from a wall",
+      "meaning": "a rectangular column set into a wall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pilaster",
+      "lang": "English",
+      "era": "1570s",
+      "note": "adopted directly for the decorative flattened column",
+      "meaning": "a rectangular column projecting slightly from a wall",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rectangular architectural column that projects slightly from a wall"
+}

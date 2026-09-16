@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mukhayyar",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally chosen or select, describing fine goat-hair cloth",
+      "meaning": "select, choice cloth",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "mohair",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for fine cloth woven from Angora goat hair",
+      "meaning": "fabric woven from Angora goat hair",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fabric or yarn made from the hair of the Angora goat"
+}

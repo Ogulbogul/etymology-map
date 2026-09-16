@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "heill",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "whole, healthy, used as a greeting wishing good health",
+      "meaning": "whole, healthy",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "hail",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English greeting and verb meaning to call out to someone",
+      "meaning": "to greet or call out to someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to greet or acclaim someone enthusiastically, or to call out to attract attention"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "casta",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "literally lineage or breed, applied by Portuguese traders to India's social divisions",
+      "meaning": "lineage, breed, race",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "caste",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a hereditary social division",
+      "meaning": "a hereditary social class",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hereditary social class, especially within Hindu society"
+}

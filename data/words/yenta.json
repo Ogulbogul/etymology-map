@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yente",
+      "lang": "Yiddish",
+      "era": "1800s",
+      "note": "originally a woman's given name, later applied to a gossipy, meddlesome woman",
+      "meaning": "a woman's name, later a gossip",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "yenta",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted through Yiddish-speaking Jewish communities into American English",
+      "meaning": "a gossipy or meddlesome woman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a gossipy or meddlesome woman, especially one who is a matchmaker"
+}

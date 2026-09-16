@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fides",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "faith, trust, combined with per- (through, used to mean against)",
+      "meaning": "faith, trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perfidia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "treachery, breaking of faith, from per- and fides",
+      "meaning": "treachery, breaking of faith",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perfidy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for deceitfulness and untrustworthiness",
+      "meaning": "deceitfulness and untrustworthiness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "deliberate breach of trust or faith, deceitfulness"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vice versa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the position being reversed, from vicis (change, turn) and versus (turned)",
+      "meaning": "the order being turned around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vice versa",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly into English for the reverse of a stated case",
+      "meaning": "with the order reversed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "with the main items in the previous statement reversed"
+}

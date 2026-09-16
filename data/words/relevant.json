@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "levis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "light, not heavy, giving rise to relevare (to lift up again)",
+      "meaning": "light, not heavy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "relevare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lift up again, to be pertinent, from re- and levis",
+      "meaning": "to lift up again, to be pertinent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "relevant",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the English word for something closely connected to the matter at hand",
+      "meaning": "closely connected to the matter at hand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "closely connected or appropriate to the matter being considered"
+}

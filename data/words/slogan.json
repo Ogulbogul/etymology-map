@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sluagh-ghairm",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "literally \"army cry\", used to rally Highland clans in battle",
+      "meaning": "battle cry, war cry",
+      "lat": 57.15,
+      "lon": -4.7
+    },
+    {
+      "word": "slogorne",
+      "lang": "Scots",
+      "era": "1500s",
+      "note": "adapted into Lowland Scots from Gaelic",
+      "meaning": "a rallying cry",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "slogan",
+      "lang": "English",
+      "era": "1700s",
+      "note": "broadened from a battle cry to any distinctive catchphrase",
+      "meaning": "a memorable advertising or political phrase",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short, memorable phrase used in advertising or to express a position"
+}

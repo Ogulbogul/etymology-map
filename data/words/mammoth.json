@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mangont",
+      "lang": "Siberian (Yakut)",
+      "era": "pre-1600s",
+      "note": "a folk term for the tusked remains found frozen in the permafrost",
+      "meaning": "creature believed to burrow underground",
+      "lat": 66.0,
+      "lon": 129.0
+    },
+    {
+      "word": "mamont",
+      "lang": "Russian",
+      "era": "1600s-1700s",
+      "note": "adopted from Siberian accounts of the giant tusks and bones",
+      "meaning": "the extinct tusked animal",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "mammoth",
+      "lang": "English",
+      "era": "1700s",
+      "note": "later also used to describe anything of huge size",
+      "meaning": "the extinct woolly elephant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an extinct, elephant-like mammal with long tusks and thick fur; informally, anything huge"
+}

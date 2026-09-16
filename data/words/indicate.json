@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "indicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to point out, to declare, from in- (toward) and dicare (to proclaim)",
+      "meaning": "to point out, to declare",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "indicate",
+      "lang": "English",
+      "era": "1640s",
+      "note": "settled as the English word for pointing out or showing something",
+      "meaning": "to point out or show something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to point out or show that something is the case"
+}

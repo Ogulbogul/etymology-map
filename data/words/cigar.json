@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cigarro",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "possibly from a Mayan word for smoking tobacco leaves",
+      "meaning": "a rolled tobacco leaf for smoking",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "cigar",
+      "lang": "English",
+      "era": "1730s",
+      "note": "settled as the English word for the rolled tobacco product",
+      "meaning": "a roll of tobacco leaves for smoking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a roll of cured tobacco leaves for smoking"
+}

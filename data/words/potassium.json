@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "potaschen",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "pot ashes, describing the substance leached from wood ash in pots",
+      "meaning": "pot ashes",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "potash",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the ash-derived alkaline substance",
+      "meaning": "an alkaline substance derived from wood ash",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "potassium",
+      "lang": "English",
+      "era": "1807",
+      "note": "coined by Humphry Davy with a New Latin -ium ending after isolating the element from potash",
+      "meaning": "the metallic element isolated from potash",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, silvery-white metallic chemical element essential to living cells"
+}

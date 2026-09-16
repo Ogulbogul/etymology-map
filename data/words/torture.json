@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "torquere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to twist",
+      "meaning": "to twist",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tortura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a twisting, torment, from torquere",
+      "meaning": "a twisting, torment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "torture",
+      "lang": "French",
+      "era": "1400s",
+      "note": "carried into French for the deliberate infliction of severe pain",
+      "meaning": "the deliberate infliction of severe pain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "torture",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the deliberate infliction of severe pain",
+      "meaning": "the deliberate infliction of severe pain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the deliberate infliction of severe pain as punishment or coercion"
+}

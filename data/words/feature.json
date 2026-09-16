@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "facere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make, to do",
+      "meaning": "to make, to do",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "factura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a making, a formation, from facere",
+      "meaning": "a making, a formation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feture",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the shape or form of something, especially the face",
+      "meaning": "the shape or form of something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "feature",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a distinctive part or characteristic",
+      "meaning": "a distinctive part or characteristic of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a distinctive part or characteristic of something, or a prominent article or film"
+}

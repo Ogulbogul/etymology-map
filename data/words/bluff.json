@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bluffen",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"to boast\" or \"brag\"",
+      "meaning": "to boast, brag",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "bluff",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted especially through American card-game slang",
+      "meaning": "to deceive by a false show of confidence",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "to deceive someone by pretending confidence or strength one does not have"
+}

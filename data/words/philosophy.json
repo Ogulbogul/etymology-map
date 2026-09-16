@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "philosophia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"love of wisdom\"",
+      "meaning": "love of wisdom",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "philosophia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek influence on Roman education",
+      "meaning": "the study of wisdom and knowledge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "filosofie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the discipline's name into French",
+      "meaning": "philosophy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "philosophy",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for the discipline",
+      "meaning": "the study of fundamental questions about existence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of fundamental questions about existence, knowledge, and ethics"
+}

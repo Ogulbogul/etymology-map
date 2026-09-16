@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "dia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "through, across, combined with metron (measure)",
+      "meaning": "through, across",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "diametrus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the line measuring across a circle",
+      "meaning": "the line measuring across a circle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diametre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the same measurement",
+      "meaning": "the measurement across a circle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "diameter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the measurement across a circle",
+      "meaning": "the straight line measurement across a circle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a straight line passing through the center of a circle, connecting two points on its edge"
+}

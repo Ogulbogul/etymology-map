@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "orbis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a circle or ring, the root of anything circular",
+      "meaning": "a circle, ring",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "orbit",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for the curved path of one body around another",
+      "meaning": "the path of one body around another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the curved path of an object around a star, planet, or moon"
+}

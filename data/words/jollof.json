@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Jolof",
+      "lang": "Wolof",
+      "era": "medieval",
+      "note": "named for the historic Jolof Empire of West Africa",
+      "meaning": "the Jolof Empire",
+      "lat": 14.72,
+      "lon": -17.47
+    },
+    {
+      "word": "jollof",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the popular West African spiced rice dish",
+      "meaning": "a spiced West African rice dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a popular West African dish of rice cooked in a spiced tomato sauce"
+}

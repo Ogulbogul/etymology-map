@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "freknur",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "small spots on the skin, especially from sun exposure",
+      "meaning": "small skin spots",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "freckle",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the small pigmented skin spots",
+      "meaning": "a small pigmented spot on the skin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small brownish spot on the skin, often caused by sun exposure"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flectere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bend, combined with circum- (around)",
+      "meaning": "to bend",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumflectere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bend around, from circum- and flectere, with irregular past participle circumflexus",
+      "meaning": "to bend around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumflex",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for the curved accent mark used over vowels",
+      "meaning": "the curved accent mark used over vowels",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a curved accent mark placed over a vowel in certain languages"
+}

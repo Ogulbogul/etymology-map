@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chronos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "time, combined with metron (measure)",
+      "meaning": "time",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chronometer",
+      "lang": "English",
+      "era": "1735",
+      "note": "coined from Greek chronos (time) and metron (measure) for a precise timekeeping instrument",
+      "meaning": "a precise timekeeping instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instrument for measuring time with great precision, especially at sea"
+}

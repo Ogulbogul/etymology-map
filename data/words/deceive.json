@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "decipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to ensnare, to catch, from de- (down) and capere (to take)",
+      "meaning": "to ensnare, to catch by trickery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deceivre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for misleading someone through trickery",
+      "meaning": "to mislead through trickery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "deceive",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for making someone believe something untrue",
+      "meaning": "to make someone believe something untrue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to deliberately cause someone to believe something that is not true"
+}

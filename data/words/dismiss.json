@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dimittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send away, from dis- (apart) and mittere (to send)",
+      "meaning": "to send away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dismiss",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for sending someone away or rejecting an idea",
+      "meaning": "to send someone away, or to reject an idea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to send someone away, remove them from a position, or reject an idea without consideration"
+}

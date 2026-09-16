@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "figere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fix, to fasten, with irregular past participle fixus",
+      "meaning": "to fix, to fasten",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fixer",
+      "lang": "French",
+      "era": "1400s",
+      "note": "carried into French for making something firmly attached or settled",
+      "meaning": "to make something firmly attached or settled",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fix",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for repairing or making something firm and stable",
+      "meaning": "to repair something, or to make it firm and stable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to repair something, or to fasten it firmly in place"
+}

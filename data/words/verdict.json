@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vere dictum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally truly said, from verus (true) and dictum (said)",
+      "meaning": "truly said",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verdit",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "carried into legal French for a jury's formal decision",
+      "meaning": "a jury's formal decision",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "verdict",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a jury's formal decision",
+      "meaning": "a jury's formal decision on a matter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a decision on a disputed issue, especially by a jury in a court case"
+}

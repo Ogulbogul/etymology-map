@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "geta",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to obtain, to reach, to be able to do something",
+      "meaning": "to obtain, to reach",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "get",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for obtaining or receiving something",
+      "meaning": "to come to have or receive something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come to possess, receive, or obtain something"
+}

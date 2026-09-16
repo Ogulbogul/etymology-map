@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "klippa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to cut, to shear",
+      "meaning": "to cut",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "clip",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for cutting or fastening something",
+      "meaning": "to cut something short, or to fasten with a device",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to cut something short, or a device used to fasten things together"
+}

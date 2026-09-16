@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "katharsis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a cleansing, a purification, from kathairein (to purify)",
+      "meaning": "a cleansing, purification",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "catharsis",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted for the emotional release and purification felt after intense experience, first described by Aristotle",
+      "meaning": "emotional release and relief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a release of strong emotions, resulting in a feeling of relief"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "praemium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a reward, a prize, from prae (before) and emere (to take, buy)",
+      "meaning": "a reward, a prize",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "premium",
+      "lang": "English",
+      "era": "1600s",
+      "note": "narrowed to mean an amount paid for insurance, or an added charge for quality",
+      "meaning": "an amount paid for insurance, or extra value",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an amount paid for insurance, or a high price reflecting extra value"
+}

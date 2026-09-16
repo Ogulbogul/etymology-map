@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "metallum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "metal, the material from which commemorative discs were struck",
+      "meaning": "metal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "medaglia",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for a metal disc awarded or worn as a token",
+      "meaning": "a metal disc awarded as a token",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "medal",
+      "lang": "English",
+      "era": "1580s",
+      "note": "adopted directly for a metal disc awarded for achievement",
+      "meaning": "a metal disc awarded for achievement or bravery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a metal disc awarded for an achievement, victory, or act of bravery"
+}

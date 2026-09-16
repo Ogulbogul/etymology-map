@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vrijbuiter",
+      "lang": "Dutch",
+      "era": "1500s",
+      "note": "literally free booty-taker, from vrij (free) and buit (booty)",
+      "meaning": "one who freely takes plunder",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "freebooter",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for a pirate or plunderer",
+      "meaning": "a pirate or lawless plunderer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pirate or someone who plunders and pillages without authorization"
+}

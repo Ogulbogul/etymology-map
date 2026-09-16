@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Jodhpur",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the name of a city in Rajasthan, India, known for its riding breeches",
+      "meaning": "the city of Jodhpur",
+      "lat": 26.24,
+      "lon": 73.02
+    },
+    {
+      "word": "jodhpurs",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted by the British for the distinctive flared riding trousers",
+      "meaning": "flared riding trousers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "tight-fitting trousers flared at the hips, worn for horseback riding"
+}

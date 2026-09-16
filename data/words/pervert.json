@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pervertere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to turn completely around, to overturn, from per- (thoroughly) and vertere (to turn)",
+      "meaning": "to turn completely around, to overturn",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pervert",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for turning something away from its proper use or meaning",
+      "meaning": "to turn something away from its proper use or meaning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to distort something from its original meaning or purpose"
+}

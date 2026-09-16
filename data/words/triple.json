@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "triplus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "threefold, from tri- (three)",
+      "meaning": "threefold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "triple",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for three times the amount",
+      "meaning": "three times the amount, size, or number",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "three times the amount, size, or number of something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "templum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a consecrated space set apart for religious observance",
+      "meaning": "a consecrated sacred space",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "temple",
+      "lang": "English",
+      "era": "1000s",
+      "note": "settled as the English word for a building dedicated to worship",
+      "meaning": "a building dedicated to the worship of a deity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building dedicated to the worship of a god or gods"
+}

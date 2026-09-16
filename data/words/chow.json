@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chow chow",
+      "lang": "Chinese Pidgin English",
+      "era": "1800s",
+      "note": "a term used in Chinese port trade for mixed goods or food",
+      "meaning": "mixed goods, food",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "chow",
+      "lang": "English",
+      "era": "1850s",
+      "note": "settled in informal English as a word for food",
+      "meaning": "food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "informal word for food"
+}

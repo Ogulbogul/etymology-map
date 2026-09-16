@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "guiriot",
+      "lang": "West African/French",
+      "era": "medieval",
+      "note": "a hereditary storyteller, musician, and oral historian of West Africa",
+      "meaning": "a storyteller and oral historian",
+      "lat": 14.72,
+      "lon": -17.47
+    },
+    {
+      "word": "griot",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly by scholars and writers describing West African oral tradition",
+      "meaning": "a West African storyteller and oral historian",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a West African storyteller, musician, and oral historian"
+}

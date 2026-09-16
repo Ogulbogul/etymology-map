@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kaa'puera",
+      "lang": "Tupi",
+      "era": "medieval",
+      "note": "possibly referring to cleared forest land where the art form developed",
+      "meaning": "cleared bush land",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "capoeira",
+      "lang": "Portuguese",
+      "era": "1700s-1800s",
+      "note": "developed by enslaved Africans in Brazil, blending dance, music, and martial arts",
+      "meaning": "a Brazilian martial art and dance",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "capoeira",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the art form spread internationally",
+      "meaning": "a Brazilian martial art combining dance, acrobatics, and music",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Brazilian martial art that combines elements of dance, acrobatics, and music"
+}

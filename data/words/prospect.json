@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prospicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look forward, from pro- (forward) and specere (to look)",
+      "meaning": "to look forward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prospect",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a possibility or expectation of future success",
+      "meaning": "the possibility of future success or something happening",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the possibility of something happening in the future, or a wide view"
+}

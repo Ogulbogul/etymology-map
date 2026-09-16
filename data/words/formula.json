@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "forma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shape, mold",
+      "meaning": "shape, mold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a small form, a fixed rule or pattern, diminutive of forma",
+      "meaning": "a small form, a fixed rule or pattern",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formula",
+      "lang": "English",
+      "era": "1630s",
+      "note": "settled as the English word for a fixed set of symbols or a set method",
+      "meaning": "a fixed set of symbols expressing a rule, or a set method",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mathematical rule expressed in symbols, or a fixed method for achieving something"
+}

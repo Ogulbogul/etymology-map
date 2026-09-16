@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "quadru",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "four, combined with plicare (to fold)",
+      "meaning": "four",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "quadruple",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for four times the amount",
+      "meaning": "four times the amount, size, or number",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "four times the amount, size, or number of something"
+}

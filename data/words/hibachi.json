@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hi + bachi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "combining \"hi\" (fire) and \"hachi\" (bowl)",
+      "meaning": "a fire bowl",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "hibachi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted for a small charcoal grill or heating device",
+      "meaning": "a small charcoal grill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, portable charcoal grill or heating device"
+}

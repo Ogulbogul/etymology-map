@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "nasci",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to be born",
+      "meaning": "to be born",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "natura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "birth, character, the essential qualities of a thing, from nasci (to be born)",
+      "meaning": "birth, essential character",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nature",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the physical world and inherent character",
+      "meaning": "the physical world, or inherent character",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nature",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the physical world and inherent qualities",
+      "meaning": "the physical world, or the inherent qualities of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the physical world, or the inherent qualities and character of something"
+}

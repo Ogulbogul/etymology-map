@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "harim",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"forbidden\" or \"sacred place\"",
+      "meaning": "forbidden place, sanctuary",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "harem",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "the private, secluded family quarters of a household",
+      "meaning": "the private family quarters",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "harem",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through European accounts of Ottoman households",
+      "meaning": "the private living quarters of women in a Muslim household",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "historically, the private quarters of women in a Muslim household; loosely, a group of women associated with one man"
+}

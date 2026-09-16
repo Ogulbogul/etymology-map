@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "insomnis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "sleepless, from in- (without) and somnus (sleep)",
+      "meaning": "sleepless",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "insomnia",
+      "lang": "English",
+      "era": "1620s",
+      "note": "settled as the medical word for the inability to sleep",
+      "meaning": "a persistent inability to sleep",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a persistent difficulty falling or staying asleep"
+}

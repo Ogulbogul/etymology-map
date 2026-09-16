@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "platea",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"a broad street\" or \"open space\"",
+      "meaning": "a broad street, open space",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "piazza",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named the open public square found in Italian towns",
+      "meaning": "a public square",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "piazza",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "a public square, especially in an Italian town",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a public square or marketplace, especially in an Italian town or city"
+}

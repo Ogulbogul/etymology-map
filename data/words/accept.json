@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "acceptare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take willingly, from ad- (to) and capere (to take)",
+      "meaning": "to take willingly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accept",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for willingly receiving something offered",
+      "meaning": "to willingly receive something offered",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to willingly receive or agree to something offered"
+}

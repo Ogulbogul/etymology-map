@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tannur",
+      "lang": "Arabic/Persian",
+      "era": "ancient",
+      "note": "an ancient word for a clay oven",
+      "meaning": "a clay oven",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "tandur",
+      "lang": "Punjabi/Hindi",
+      "era": "medieval",
+      "note": "the traditional clay oven used across South Asia",
+      "meaning": "a clay oven",
+      "lat": 31.63,
+      "lon": 74.87
+    },
+    {
+      "word": "tandoor",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as tandoori cooking spread internationally",
+      "meaning": "a cylindrical clay oven",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cylindrical clay oven used for baking bread and roasting meat"
+}

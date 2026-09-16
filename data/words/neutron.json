@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "neuter",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "neither, neutral, describing the particle's lack of electric charge",
+      "meaning": "neither, neutral",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "neutron",
+      "lang": "English",
+      "era": "1921",
+      "note": "coined for the electrically neutral subatomic particle",
+      "meaning": "an electrically neutral subatomic particle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a subatomic particle with no electric charge, found in atomic nuclei"
+}

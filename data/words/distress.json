@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "distringere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw apart, to afflict, from dis- (apart) and stringere (to draw tight)",
+      "meaning": "to draw apart, to afflict",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "destresse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for great suffering or hardship",
+      "meaning": "great suffering or hardship",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "distress",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for extreme anxiety, sorrow, or danger",
+      "meaning": "extreme anxiety, sorrow, pain, or danger",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "extreme anxiety, sorrow, or suffering, or a state of danger or difficulty"
+}

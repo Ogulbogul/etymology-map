@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "blin",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "a small, thin pancake, traditionally made from buckwheat flour",
+      "meaning": "a small pancake",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "blini",
+      "lang": "English",
+      "era": "1824",
+      "note": "adopted directly for the small Russian pancakes, often topped with caviar",
+      "meaning": "small Russian pancakes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "small Russian pancakes, traditionally made with buckwheat flour"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "distendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stretch apart, from dis- (apart) and tendere (to stretch)",
+      "meaning": "to stretch apart",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "distend",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for swelling out by internal pressure",
+      "meaning": "to swell out by pressure from within",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to swell or bulge out due to pressure from within"
+}

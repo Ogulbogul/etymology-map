@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "satelles",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an attendant or bodyguard accompanying an important person",
+      "meaning": "an attendant, a bodyguard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "satellite",
+      "lang": "English",
+      "era": "1600s",
+      "note": "applied by astronomers to a body orbiting a planet, later an artificial orbiting device",
+      "meaning": "a body orbiting a larger one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a natural or artificial body orbiting a planet or star"
+}

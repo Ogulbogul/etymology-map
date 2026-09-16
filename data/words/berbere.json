@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "berbere",
+      "lang": "Amharic",
+      "era": "medieval",
+      "note": "a spice blend central to Ethiopian and Eritrean cooking",
+      "meaning": "a spicy seasoning blend",
+      "lat": 9.03,
+      "lon": 38.74
+    },
+    {
+      "word": "berbere",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Ethiopian cuisine became known internationally",
+      "meaning": "a spicy Ethiopian and Eritrean seasoning blend",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spicy seasoning blend central to Ethiopian and Eritrean cuisine"
+}

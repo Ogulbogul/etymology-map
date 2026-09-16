@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "luchorpan",
+      "lang": "Old Irish",
+      "era": "ancient",
+      "note": "possibly combining \"lu\" (small) and \"corp\" (body)",
+      "meaning": "a small-bodied being",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "leipreachán",
+      "lang": "Irish",
+      "era": "medieval",
+      "note": "the name for the mischievous fairy shoemaker of folklore",
+      "meaning": "a mischievous fairy",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "leprechaun",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted through the spread of Irish folklore",
+      "meaning": "a small, mischievous fairy in Irish folklore",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, mischievous fairy in Irish folklore, often depicted guarding gold"
+}

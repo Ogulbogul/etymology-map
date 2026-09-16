@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "motivus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "moving, causing motion, from movere (to move)",
+      "meaning": "causing motion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "motive",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the reason behind an action",
+      "meaning": "the reason behind a person's action",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a reason for a person's action or behavior"
+}

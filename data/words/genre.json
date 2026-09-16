@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "genus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"kind\" or \"type\"",
+      "meaning": "kind, type",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "genre",
+      "lang": "French",
+      "era": "medieval",
+      "note": "kept the meaning of a kind or category",
+      "meaning": "a kind, category",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "genre",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted for categories of art, music, and literature",
+      "meaning": "a category of artistic work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a category of artistic, musical, or literary composition"
+}

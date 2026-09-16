@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kakatuwa",
+      "lang": "Malay",
+      "era": "1600s",
+      "note": "the name for the crested parrot native to the region",
+      "meaning": "the crested cockatoo",
+      "lat": -6.21,
+      "lon": 106.85
+    },
+    {
+      "word": "cockatoo",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted directly by English-speaking traders and naturalists",
+      "meaning": "a crested parrot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a crested parrot native to Australia and nearby islands"
+}

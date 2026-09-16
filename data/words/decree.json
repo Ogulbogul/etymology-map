@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "cernere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sift, to distinguish, combined with de- (thoroughly)",
+      "meaning": "to sift, to distinguish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decernere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to decide, to determine, from de- and cernere",
+      "meaning": "to decide, to determine",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decretum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a thing decided, an official order, from decernere",
+      "meaning": "a thing decided, an official order",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decree",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an official order issued by an authority",
+      "meaning": "an official order issued by an authority",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official order or decision issued by a legal or religious authority"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "crimen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a crime, an accusation",
+      "meaning": "a crime, an accusation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "criminology",
+      "lang": "English",
+      "era": "1890",
+      "note": "coined by combining Latin crimen with Greek logos for the scientific study of crime",
+      "meaning": "the scientific study of crime",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the scientific study of crime, criminals, and the criminal justice system"
+}

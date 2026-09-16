@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "colligere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to gather together, from com- (together) and legere (to gather)",
+      "meaning": "to gather together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "collect",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for bringing things together into a group",
+      "meaning": "to bring things together into a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to bring things together into a group, or to gather items as a hobby"
+}

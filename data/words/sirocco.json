@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sharq",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"east\", describing the direction of the desert wind",
+      "meaning": "east",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "scirocco",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named the hot wind blowing from North Africa",
+      "meaning": "a hot desert wind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sirocco",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "a hot wind from the Sahara reaching Southern Europe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot, dry wind blowing from North Africa across the Mediterranean"
+}

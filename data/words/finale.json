@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "finalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"of the end\"",
+      "meaning": "final, of the end",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "finale",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "named the concluding movement or scene of a musical work",
+      "meaning": "the final movement or scene",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "finale",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted directly from Italian",
+      "meaning": "the last part of a performance or event",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the last part of a performance, event, or series"
+}

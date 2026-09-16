@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "differre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry away, to put off, from dis- (apart) and ferre (to carry)",
+      "meaning": "to carry apart, to postpone",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "defer",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for postponing something, or yielding to another's judgment",
+      "meaning": "to postpone something, or to yield to another's judgment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to postpone an action, or to yield respectfully to another's opinion or decision"
+}

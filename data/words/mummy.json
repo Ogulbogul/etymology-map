@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "mumiya",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "referring to bitumen, a substance associated with embalming",
+      "meaning": "bitumen, embalming substance",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "mumiya",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "applied to preserved bodies treated with such substances",
+      "meaning": "an embalmed body",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "mumia",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted through Arabic medical texts describing preserved remains",
+      "meaning": "a preserved body",
+      "lat": 39.86,
+      "lon": -4.02
+    },
+    {
+      "word": "mummy",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for a preserved corpse",
+      "meaning": "a preserved, embalmed body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a body, especially of a human, preserved after death by embalming"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tae + kwon + do",
+      "lang": "Korean",
+      "era": "1950s",
+      "note": "combining \"tae\" (kick), \"kwon\" (fist), and \"do\" (way)",
+      "meaning": "the way of the foot and fist",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "taekwondo",
+      "lang": "English",
+      "era": "1960s-1970s",
+      "note": "adopted as the martial art became an internationally recognized sport",
+      "meaning": "a Korean martial art emphasizing kicks",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Korean martial art and Olympic sport known for its emphasis on kicking"
+}

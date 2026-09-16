@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "delicatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"delicate\" or \"pleasing\"",
+      "meaning": "delicate, pleasing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "délicatesse",
+      "lang": "French",
+      "era": "1600s",
+      "note": "came to mean a delicacy or fine food",
+      "meaning": "a fine delicacy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "Delikatessen",
+      "lang": "German",
+      "era": "1800s",
+      "note": "adopted as the plural word for fine prepared foods and the shop selling them",
+      "meaning": "fine prepared foods; a shop selling them",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "delicatessen",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through German immigrant communities in the US",
+      "meaning": "a shop selling prepared foods and delicacies",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a shop selling prepared foods, cold cuts, and delicacies"
+}

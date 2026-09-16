@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nativus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "natural, native, innate, from nasci (to be born)",
+      "meaning": "natural, innate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "naif",
+      "lang": "French",
+      "era": "medieval",
+      "note": "narrowed in French to mean natural in the sense of innocent, unspoiled",
+      "meaning": "natural, innocent, unaffected",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "naive",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for innocent, unworldly simplicity",
+      "meaning": "showing a lack of experience or worldly wisdom",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing a lack of experience, wisdom, or judgment, in an innocent way"
+}

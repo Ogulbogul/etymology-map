@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "trahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to pull, to draw",
+      "meaning": "to pull, to draw",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tractor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a puller, a dragger, from trahere",
+      "meaning": "a puller, a dragger",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tractor",
+      "lang": "English",
+      "era": "1856",
+      "note": "adopted for a powerful vehicle used to pull farm equipment",
+      "meaning": "a powerful vehicle used to pull farm equipment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a powerful motor vehicle used to pull farm equipment or heavy loads"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "quantum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally how much, how great, a neuter form of quantus",
+      "meaning": "how much, how great",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "quantum",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted by physicist Max Planck for the smallest discrete unit of energy",
+      "meaning": "a discrete unit of energy or physical quantity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the minimum discrete amount of a physical quantity, especially energy"
+}

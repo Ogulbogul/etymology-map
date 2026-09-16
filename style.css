@@ -1,0 +1,1101 @@
+:root {
+  --bg: #fafaf8;
+  --panel-bg: #ffffff;
+  --toolbar-bg: #fcfbf9;
+  --border: #e3e1db;
+  --text: #2a2a28;
+  --text-dim: #6b6a64;
+  --accent: #b3541e;
+  --accent-hover: #9a4718;
+  --accent-soft: #f3e3d3;
+  --pin: #b3541e;
+  --pin-active: #d94f2f;
+  --land: #eae7de;
+  --land-border: #d3cfc3;
+  --overlay: rgba(20, 18, 15, 0.5);
+  --shadow: rgba(0, 0, 0, 0.2);
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Dark palette: follows the OS setting by default, and can be forced
+   either way via the header toggle (which stamps data-theme on <html>). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17140f;
+    --panel-bg: #211d17;
+    --toolbar-bg: #1c1811;
+    --border: #3a352c;
+    --text: #f1ece2;
+    --text-dim: #a89e8c;
+    --accent: #e2934f;
+    --accent-hover: #f0a768;
+    --accent-soft: rgba(226, 147, 79, 0.18);
+    --pin: #e2934f;
+    --pin-active: #ff7a52;
+    --land: #2b271e;
+    --land-border: #423c30;
+    --overlay: rgba(0, 0, 0, 0.6);
+    --shadow: rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #17140f;
+  --panel-bg: #211d17;
+  --toolbar-bg: #1c1811;
+  --border: #3a352c;
+  --text: #f1ece2;
+  --text-dim: #a89e8c;
+  --accent: #e2934f;
+  --accent-hover: #f0a768;
+  --accent-soft: rgba(226, 147, 79, 0.18);
+  --pin: #e2934f;
+  --pin-active: #ff7a52;
+  --land: #2b271e;
+  --land-border: #423c30;
+  --overlay: rgba(0, 0, 0, 0.6);
+  --shadow: rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.theme-toggle {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent);
+}
+
+.tagline {
+  margin: 0 0 20px;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  max-width: 620px;
+  flex-wrap: wrap;
+}
+
+.input-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+#word-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-bg);
+  color: var(--text);
+}
+
+#word-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Autocomplete dropdown: anchored to the input alone (not the whole
+   search bar), so it doesn't overlap the Trace button. */
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--panel-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px var(--shadow);
+  z-index: 20;
+}
+
+.autocomplete-item {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  color: var(--text);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.primary-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.primary-btn:hover { background: var(--accent-hover); }
+
+.hint {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.message {
+  margin-top: 14px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.92rem;
+  max-width: 480px;
+}
+
+.message-suggestions {
+  font-weight: 400;
+}
+
+.suggestion-link {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.suggestion-link:hover {
+  color: var(--accent-hover);
+}
+
+/* Search actions row: word list toggle + surprise me, sit below the
+   search bar so they're always visible without crowding it. */
+.search-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Sized to sit flush with Trace (same height/font), but kept visually
+   secondary: an outlined accent button rather than Trace's solid fill,
+   so it's clearly the lesser of the two actions while still standing out. */
+.search-bar-secondary-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.search-bar-secondary-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.secondary-btn .btn-icon {
+  font-size: 0.95em;
+}
+
+.secondary-btn .chevron {
+  font-size: 0.75em;
+  color: var(--text-dim);
+  transition: transform 0.15s ease;
+}
+
+#wordlist-toggle-btn[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+}
+
+/* Collapsible word list: capped height with its own scroll so it stays
+   compact and inviting rather than sprawling down the page. */
+.wordlist-panel {
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel-bg);
+  overflow: hidden;
+}
+
+.wordlist-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--toolbar-bg);
+}
+
+.wordlist-filter label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+.wordlist-filter select {
+  flex: 0 1 auto;
+  min-width: 0;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  font-size: 0.83rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.wordlist-filter select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Typing here narrows the (long, ~140-entry) origin list instead of
+   having to scroll the select to find one. */
+.origin-search-wrap {
+  position: relative;
+  flex: 1 1 130px;
+  min-width: 100px;
+}
+
+.origin-search-wrap input {
+  width: 100%;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  font-size: 0.83rem;
+  font-family: inherit;
+}
+
+.origin-search-wrap input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.wordlist-count {
+  margin-left: auto;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.wordlist-grid {
+  max-height: 240px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+  gap: 6px;
+  padding: 12px;
+}
+
+.wordlist-grid.empty {
+  display: block;
+  padding: 24px 12px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.wordlist-item {
+  padding: 6px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.83rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wordlist-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* Related words: shown on a word's own page, linking to other entries
+   that share its origin language, so a permalink page isn't a dead end. */
+.related-words {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.related-words-title {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.related-words-title span {
+  color: var(--accent);
+}
+
+.related-words-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+  gap: 6px;
+}
+
+.related-word-item {
+  display: block;
+  padding: 6px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.83rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.related-word-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* Result header: word title + breadcrumb trail, sits above both columns
+   so the overall journey and today's meaning are visible at a glance. */
+.result-header {
+  margin: 28px 0 4px;
+}
+
+.result-word {
+  margin: 0 0 6px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: -0.01em;
+}
+
+/* Today's meaning, right under the title, styled like the stage cards'
+   own meaning line (normal weight, italic) rather than a bold badge. */
+.current-meaning {
+  margin: 0 0 14px;
+}
+
+.journey-meta {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.partial-notice {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.partial-notice a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.partial-notice a:hover {
+  text-decoration: underline;
+}
+
+.share-btn {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+  background: var(--panel-bg);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn:hover {
+  background: var(--accent-soft);
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.icon-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.icon-btn.copied {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.result-trail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.92rem;
+}
+
+.trail-item {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 7px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.trail-item:hover,
+.trail-item.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.trail-arrow {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+main#result {
+  display: flex;
+  gap: 20px;
+  margin-top: 14px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.panel {
+  flex: 0 0 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Timeline-style stage rows: a numbered marker connected by a vertical
+   line, so the succession of stages reads clearly top-to-bottom. */
+.stop-row {
+  position: relative;
+  display: flex;
+  gap: 12px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.stop-row:last-child { padding-bottom: 0; }
+
+.stop-marker {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.stop-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--panel-bg);
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.stop-row:hover .stop-circle,
+.stop-row.active .stop-circle {
+  background: var(--accent);
+  color: #fff;
+}
+
+.stop-connector {
+  position: absolute;
+  top: 30px;
+  bottom: -16px;
+  left: 14px;
+  width: 2px;
+  background: var(--border);
+}
+
+.stop-row:last-child .stop-connector { display: none; }
+
+.stop-card {
+  flex: 1;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  min-width: 0;
+}
+
+.stop-row:hover .stop-card,
+.stop-row.active .stop-card {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.stop-order {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+.stop-word {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 2px 0;
+}
+
+.stop-lang-era {
+  font-size: 0.82rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.stop-meaning {
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.stop-note {
+  font-size: 0.84rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.map-wrap {
+  flex: 1 1 480px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--panel-bg);
+  overflow: hidden;
+  min-width: 320px;
+}
+
+.map-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--toolbar-bg);
+  min-height: 44px;
+  flex-wrap: wrap;
+}
+
+/* Groups zoom + share/copy-link together on the map's own toolbar, so
+   they read as controls for the map card rather than the page header. */
+.map-toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.toolbar-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+.badge-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+
+.badge-text {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text);
+}
+
+.zoom-controls {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.zoom-controls button {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom-controls button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.map-canvas {
+  position: relative;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.map-canvas.dragging { cursor: grabbing; }
+
+#map {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-hint {
+  padding: 5px 12px;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  text-align: right;
+  border-top: 1px solid var(--border);
+}
+
+.land-path {
+  fill: var(--land);
+  stroke: var(--land-border);
+  stroke-width: 0.5;
+}
+
+.route-line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-dasharray: 5 4;
+  opacity: 0.75;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Direction arrow at the midpoint of each route line. Lives outside the
+   zoom-layer (like pins) and is repositioned/kept at a constant screen
+   size on every pan/zoom, so it stays clearly visible at any zoom level
+   instead of being sized by the map's own scale. Drawn as an open
+   chevron (like a ">" symbol) rather than a filled triangle, so at a
+   glance it can't be mistaken for a pin dot. */
+.route-arrow {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.75px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pin-dot {
+  fill: var(--pin);
+  stroke: var(--bg);
+  stroke-width: 1.75;
+  transition: r 0.12s ease, fill 0.12s ease;
+}
+
+.pin-group.active .pin-dot {
+  fill: var(--pin-active);
+  r: 9.5;
+}
+
+.pin-label {
+  font-size: 14px;
+  fill: var(--text);
+  font-weight: 600;
+  paint-order: stroke;
+  stroke: var(--bg);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.pin-group { cursor: pointer; }
+
+/* Share card modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-overlay[hidden] { display: none; }
+
+.modal-card {
+  position: relative;
+  background: var(--panel-bg);
+  border-radius: 14px;
+  padding: 24px;
+  max-width: 640px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+  box-shadow: 0 10px 40px var(--shadow);
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text-dim);
+  padding: 4px;
+}
+
+.modal-close:hover { color: var(--text); }
+
+.modal-title {
+  margin: 0 0 14px;
+  font-size: 1.1rem;
+  padding-right: 24px;
+}
+
+.modal-preview-wrap {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  background: var(--border);
+  line-height: 0;
+}
+
+#share-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.modal-btn {
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.modal-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.modal-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.modal-btn:disabled:hover {
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.modal-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.modal-btn.primary:hover {
+  background: var(--accent-hover);
+  color: #fff;
+}
+
+.modal-theme-toggle {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.modal-theme-btn {
+  padding: 7px 18px;
+  border: none;
+  background: var(--panel-bg);
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal-theme-btn + .modal-theme-btn {
+  border-left: 1px solid var(--border);
+}
+
+.modal-theme-btn:hover {
+  color: var(--accent);
+}
+
+.modal-theme-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.modal-status {
+  margin: 12px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+/* Shared chrome for static content pages (About, Privacy Policy): a
+   brand link standing in for the app's own h1, a simple prose column,
+   and a footer tying every page back together. */
+.site-brand {
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-brand:hover {
+  color: var(--accent);
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 4px 0 20px;
+  padding: 9px 18px;
+  border-radius: 9px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.back-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.back-link-arrow {
+  color: var(--accent);
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.doc-main {
+  max-width: 720px;
+  margin-top: 12px;
+}
+
+.doc-main h1 {
+  margin: 0 0 4px;
+  font-size: 1.7rem;
+  letter-spacing: -0.01em;
+}
+
+.doc-main h2 {
+  font-size: 1.15rem;
+  margin: 28px 0 10px;
+  letter-spacing: -0.01em;
+}
+
+.doc-main p {
+  margin: 0 0 14px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.doc-main ul {
+  margin: 0 0 14px;
+  padding-left: 20px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.doc-main li {
+  margin-bottom: 6px;
+}
+
+.doc-main a {
+  color: var(--accent);
+}
+
+.doc-meta {
+  font-size: 0.82rem;
+  color: var(--text-dim) !important;
+  margin: 0 0 24px !important;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.site-footer a {
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .panel { flex: 1 1 100%; }
+  .map-wrap { flex: 1 1 100%; order: -1; }
+}

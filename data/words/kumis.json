@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "qymyz",
+      "lang": "Turkic",
+      "era": "medieval",
+      "note": "a fermented drink made from mare's milk, traditional across the Central Asian steppe",
+      "meaning": "fermented mare's milk",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "kumis",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly by European travelers describing Central Asian nomadic life",
+      "meaning": "a fermented drink made from mare's milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fermented dairy drink traditionally made from mare's milk in Central Asia"
+}

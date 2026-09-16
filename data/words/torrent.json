@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "torrens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "boiling, roaring, from torrere (to parch, to burn)",
+      "meaning": "boiling, rushing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "torrent",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a fast-moving, turbulent stream",
+      "meaning": "a fast-moving, turbulent stream of liquid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fast-moving, turbulent stream of liquid, or a forceful outpouring"
+}

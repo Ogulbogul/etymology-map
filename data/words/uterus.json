@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "uterus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the womb, the organ in which offspring develop before birth",
+      "meaning": "the womb",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "uterus",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly as the medical term for the womb",
+      "meaning": "the womb",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the female reproductive organ in which offspring develop before birth"
+}

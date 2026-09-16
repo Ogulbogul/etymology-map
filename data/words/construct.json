@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "construere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to build together, from com- (together) and struere (to build)",
+      "meaning": "to build together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "construct",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for building or assembling something",
+      "meaning": "to build or assemble something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to build or assemble something, especially a structure or system"
+}

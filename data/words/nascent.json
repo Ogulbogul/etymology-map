@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nasci",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to be born",
+      "meaning": "to be born",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nascens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "being born, coming into existence, present participle of nasci",
+      "meaning": "being born, coming into existence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nascent",
+      "lang": "English",
+      "era": "1620s",
+      "note": "settled as the English word for something just coming into existence",
+      "meaning": "just coming into existence, beginning to develop",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "just beginning to exist or develop"
+}

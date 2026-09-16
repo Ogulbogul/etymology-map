@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "apere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fasten, to attach",
+      "meaning": "to fasten, to attach",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aptus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "fit, suitable, well-attached, from apere",
+      "meaning": "fit, suitable, well-attached",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "apt",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something appropriate or likely",
+      "meaning": "appropriate, or likely to do something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "appropriate in the circumstances, or having a tendency to do something"
+}

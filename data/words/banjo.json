@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mbanza",
+      "lang": "Kimbundu",
+      "era": "medieval",
+      "note": "a stringed instrument of Central African origin",
+      "meaning": "a stringed instrument",
+      "lat": -8.84,
+      "lon": 13.23
+    },
+    {
+      "word": "banza",
+      "lang": "Caribbean Creole",
+      "era": "1600s-1700s",
+      "note": "carried by enslaved Africans to the Caribbean and adapted",
+      "meaning": "a stringed folk instrument",
+      "lat": 18.97,
+      "lon": -72.28
+    },
+    {
+      "word": "banjo",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted into American folk and popular music",
+      "meaning": "a stringed instrument with a round body",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a stringed musical instrument with a long neck and a round, drum-like body"
+}

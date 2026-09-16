@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "legere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to read",
+      "meaning": "to read",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "legible",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for writing that can be easily read",
+      "meaning": "able to be read clearly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clear enough to be read easily"
+}

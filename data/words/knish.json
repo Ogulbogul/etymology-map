@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "knysh",
+      "lang": "Ukrainian/Polish",
+      "era": "medieval",
+      "note": "a filled dumpling or pastry from Eastern Europe",
+      "meaning": "a filled dumpling",
+      "lat": 50.45,
+      "lon": 30.52
+    },
+    {
+      "word": "knish",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "adopted into Ashkenazi Jewish cuisine in Eastern Europe",
+      "meaning": "a filled dough pastry",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "knish",
+      "lang": "English",
+      "era": "1900s",
+      "note": "brought to New York by Ashkenazi Jewish immigrants",
+      "meaning": "a baked or fried dumpling with a savory filling",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a baked or fried dumpling filled with potato, meat, or cheese"
+}

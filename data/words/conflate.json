@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to blow, combined with com- (together)",
+      "meaning": "to blow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conflare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to blow together, to fuse, from com- and flare",
+      "meaning": "to blow together, to fuse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conflate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for combining two or more things into one",
+      "meaning": "to combine two or more things into one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to combine two or more separate things, especially ideas or texts, into one"
+}

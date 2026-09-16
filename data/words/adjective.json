@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "adicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to add to, to throw toward, from ad- (to) and iacere (to throw), with irregular past participle adjectus",
+      "meaning": "to add to, to throw toward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adjectivum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a word added to a noun, from adicere",
+      "meaning": "a word added to a noun",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adjective",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a word describing a noun",
+      "meaning": "a word that describes or modifies a noun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word that describes or modifies a noun"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gradus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a step, the root behind change occurring step by step",
+      "meaning": "a step",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gradual",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something happening slowly, step by step",
+      "meaning": "happening slowly, step by step",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "happening or changing slowly, over a period of time"
+}

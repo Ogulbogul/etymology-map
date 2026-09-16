@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "resentire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to feel again, to feel strongly, from re- (again) and sentire (to feel)",
+      "meaning": "to feel strongly again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "resent",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for feeling bitter about an unfair treatment",
+      "meaning": "to feel bitter about being treated unfairly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to feel bitterness or indignation at being treated unfairly"
+}

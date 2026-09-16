@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "perspirare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to breathe through, from per- (through) and spirare (to breathe)",
+      "meaning": "to breathe through",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perspire",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for sweating",
+      "meaning": "to sweat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to sweat, especially from heat, exercise, or nervousness"
+}

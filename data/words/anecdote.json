@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anekdota",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally unpublished things, from an- (not) and ekdotos (published)",
+      "meaning": "unpublished things",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "anecdote",
+      "lang": "English",
+      "era": "1670s",
+      "note": "broadened from secret historical accounts to any short, entertaining story",
+      "meaning": "a short, entertaining account of an incident",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short, entertaining story about a real incident or person"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "habere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to have, giving rise to habitare (to dwell, frequentative of habere)",
+      "meaning": "to have",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inhabitare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to dwell in, from in- and habitare",
+      "meaning": "to dwell in",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inhabit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for living in or occupying a place",
+      "meaning": "to live in or occupy a place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to live in or occupy a particular place"
+}

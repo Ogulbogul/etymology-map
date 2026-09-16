@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "cernere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sift, to distinguish, combined with dis- (apart)",
+      "meaning": "to sift, to distinguish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "discernere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sift apart, to discern, from dis- and cernere, with irregular past participle discretus",
+      "meaning": "to sift apart, to discern",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "discret",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for someone careful and wise in speech",
+      "meaning": "careful and wise in speech",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "discreet",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for being careful to avoid embarrassment or attention",
+      "meaning": "careful to avoid embarrassment or unwanted attention",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "careful and judicious in speech or behavior, avoiding unwanted attention"
+}

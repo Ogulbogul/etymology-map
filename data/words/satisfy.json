@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "satisfacere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make enough, from satis (enough) and facere (to make)",
+      "meaning": "to make enough, to fulfill",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "satisfy",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for fulfilling a need or desire",
+      "meaning": "to fulfill a need, expectation, or desire",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fulfill the needs, expectations, or desires of someone"
+}

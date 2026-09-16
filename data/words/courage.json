@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "heart",
+      "meaning": "heart",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the heart as the seat of feelings, spirit, bravery, from cor",
+      "meaning": "spirit, bravery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "courage",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the ability to face fear or difficulty",
+      "meaning": "the ability to face fear, danger, or difficulty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the ability to face fear, danger, or difficulty without being overcome by it"
+}

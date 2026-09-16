@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "retrospicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look back, from retro- (backward) and specere (to look)",
+      "meaning": "to look backward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retrospect",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for looking back on past events",
+      "meaning": "a survey or review of past events",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a survey or review of past events, often revealing new understanding"
+}

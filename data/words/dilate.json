@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry, to bear, with irregular past participle latus",
+      "meaning": "to carry, to bear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dilatare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to spread out, to widen, from dis- (apart) and latus (borne, carried)",
+      "meaning": "to spread out, to widen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dilate",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for becoming wider or more open",
+      "meaning": "to become wider or more open",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make or become wider, larger, or more open"
+}

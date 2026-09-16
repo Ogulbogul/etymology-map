@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mons",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a mountain, a large mass of rock and earth",
+      "meaning": "a mountain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "montaigne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a large natural elevation of land",
+      "meaning": "a large elevation of land",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mountain",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a large natural elevation of land",
+      "meaning": "a large natural elevation of land",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large natural elevation of land, higher and steeper than a hill"
+}

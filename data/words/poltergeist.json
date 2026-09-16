@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "poltern",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"to make noise\" or \"rumble\"",
+      "meaning": "to make noise",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Poltergeist",
+      "lang": "German",
+      "era": "1700s",
+      "note": "combining \"poltern\" with \"Geist\" (ghost), a noisy spirit",
+      "meaning": "a noisy ghost",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "poltergeist",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from German",
+      "meaning": "a ghost said to cause physical disturbances",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a ghost or spirit blamed for noises and physical disturbances"
+}

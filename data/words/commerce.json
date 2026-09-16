@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "commercium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "trade, from com- (together) and merx (merchandise)",
+      "meaning": "trade",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "commerce",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for the buying and selling of goods",
+      "meaning": "the activity of buying and selling goods",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the activity of buying and selling goods and services"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Parma",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a city in northern Italy famous for its hard, aged cheese",
+      "meaning": "an Italian city name",
+      "lat": 44.8,
+      "lon": 10.33
+    },
+    {
+      "word": "parmesan",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly for the hard, aged cheese named after the city",
+      "meaning": "a hard, aged Italian cheese",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard, granular Italian cheese, traditionally aged and grated"
+}

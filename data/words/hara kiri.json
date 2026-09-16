@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hara + kiri",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "combining \"hara\" (belly) and \"kiri\" (cutting)",
+      "meaning": "belly cutting",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "hara-kiri",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted as Western contact with Japan increased",
+      "meaning": "ritual suicide by disembowelment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "ritual suicide by disembowelment, traditionally practiced by samurai"
+}

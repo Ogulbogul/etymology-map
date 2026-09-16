@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "praetexere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to weave in front, from prae- (in front) and texere (to weave)",
+      "meaning": "to weave in front, to disguise",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pretext",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a false reason given to conceal the true one",
+      "meaning": "a false reason given to conceal the true motive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a false reason given to justify an action, concealing the true motive"
+}

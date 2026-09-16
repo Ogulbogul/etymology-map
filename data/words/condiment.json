@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "condire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to preserve, to season, to pickle",
+      "meaning": "to preserve, to season",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "condiment",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a seasoning or sauce added to food",
+      "meaning": "a seasoning or sauce added to food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a seasoning or sauce added to food to enhance its flavor"
+}

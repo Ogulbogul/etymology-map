@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "yobel",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "meaning \"a ram's horn trumpet\", used to announce a special anniversary year",
+      "meaning": "a ram's horn trumpet",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "iobelaios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted through the Septuagint for the fiftieth-year celebration",
+      "meaning": "the year of celebration",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "iubilaeus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "reshaped by association with \"iubilare\" (to shout for joy)",
+      "meaning": "a year of celebration",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "jubilee",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for a special anniversary celebration",
+      "meaning": "a special anniversary celebration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a special anniversary celebration, especially marking 25 or 50 years"
+}

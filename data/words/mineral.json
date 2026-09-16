@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "minera",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "an ore, a mine",
+      "meaning": "an ore, a mine",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mineral",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a naturally occurring solid substance",
+      "meaning": "a naturally occurring solid inorganic substance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a naturally occurring solid substance formed through geological processes"
+}

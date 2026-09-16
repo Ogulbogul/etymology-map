@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "semper fidelis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "always faithful, from semper (always) and fidelis (faithful)",
+      "meaning": "always faithful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "semper fidelis",
+      "lang": "English",
+      "era": "1883",
+      "note": "adopted into English as a motto, notably by the United States Marine Corps",
+      "meaning": "a motto meaning always loyal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "always faithful, used as a motto expressing constant loyalty"
+}

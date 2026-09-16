@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "iungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to join, to yoke together",
+      "meaning": "to join, to yoke together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "joindre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for connecting two things together",
+      "meaning": "to connect two things together",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "join",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for connecting or linking things together",
+      "meaning": "to connect or link things together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to connect or link two or more things together, or to become a member of a group"
+}

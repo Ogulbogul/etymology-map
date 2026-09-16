@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "temperare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to mix in proportion, to temper",
+      "meaning": "to mix in proper proportion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tempera",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "settled in Italian for paint made by mixing pigment with egg or another binder",
+      "meaning": "paint made with an egg or glue binder",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tempera",
+      "lang": "English",
+      "era": "1849",
+      "note": "adopted directly for the fast-drying paint medium",
+      "meaning": "paint made from pigment mixed with a water-soluble binder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a painting medium made by mixing pigment with a water-soluble binder, often egg"
+}

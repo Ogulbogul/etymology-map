@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "skal",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a bowl or drinking cup, later the pan of a weighing balance",
+      "meaning": "a bowl, a cup",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "scale",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a weighing instrument, later a measuring gradation",
+      "meaning": "an instrument for weighing, or a graded measuring system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instrument for weighing, or a graded system of measurement"
+}

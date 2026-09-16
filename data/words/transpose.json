@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "trans ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to place across, to move, from trans- (across) and ponere (to place)",
+      "meaning": "to place across, to move",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transposer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for changing the order or position of things",
+      "meaning": "to change the order or position of things",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "transpose",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for switching the position or order of two things",
+      "meaning": "to switch the position or order of two things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to switch the position or order of two or more things, or to change the key of music"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "continere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold together, to contain, from com- (together) and tenere (to hold)",
+      "meaning": "to hold together, to contain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "content",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for what is contained, or a state of satisfaction",
+      "meaning": "what is held within something, or a state of satisfaction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the material contained within something, or a feeling of peaceful satisfaction"
+}

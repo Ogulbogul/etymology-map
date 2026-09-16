@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "haikai",
+      "lang": "Japanese",
+      "era": "1600s",
+      "note": "a playful linked-verse poetry form, later shortened to a standalone three-line poem",
+      "meaning": "playful linked verse",
+      "lat": 35.01,
+      "lon": 135.77
+    },
+    {
+      "word": "haiku",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the concise three-line poetic form",
+      "meaning": "a three-line Japanese poem of seventeen syllables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese poem of three lines, traditionally following a five-seven-five syllable pattern"
+}

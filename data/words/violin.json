@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vitula",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "possibly related to a goddess of joy and celebration, or to a stringed instrument",
+      "meaning": "a stringed instrument, or joy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "violino",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a diminutive form settled in Italian for the small, high-pitched bowed instrument",
+      "meaning": "a small bowed stringed instrument",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "violin",
+      "lang": "English",
+      "era": "1570s",
+      "note": "adopted directly for the four-stringed bowed instrument",
+      "meaning": "a four-stringed bowed musical instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a four-stringed musical instrument played with a bow"
+}

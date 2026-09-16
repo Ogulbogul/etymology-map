@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Jerez",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a town in southern Spain famous for its fortified wine",
+      "meaning": "a Spanish town name",
+      "lat": 36.68,
+      "lon": -6.14
+    },
+    {
+      "word": "sherris",
+      "lang": "English",
+      "era": "1530s",
+      "note": "misheard as a plural form and reshaped into a new singular word",
+      "meaning": "a fortified wine from Jerez",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fortified wine, traditionally from the Jerez region of Spain"
+}

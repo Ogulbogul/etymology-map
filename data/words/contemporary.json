@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "con",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "together with, combined with tempus (time)",
+      "meaning": "together with",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contemporary",
+      "lang": "English",
+      "era": "1630s",
+      "note": "settled as the English word for something existing in the same time period",
+      "meaning": "existing or occurring in the same time period",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "belonging to or existing in the present time, or the same time period as something else"
+}

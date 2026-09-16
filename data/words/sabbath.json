@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "shabbat",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "from \"shabat\" (to rest), the seventh day of rest",
+      "meaning": "rest, the day of rest",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "sabbaton",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted through the Septuagint's Greek translation of scripture",
+      "meaning": "the day of rest",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sabbatum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried through Christian scripture and liturgy",
+      "meaning": "the day of rest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sabbath",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the weekly day of rest and worship",
+      "meaning": "a day of rest and worship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a day of rest and religious observance, kept weekly by Jews and some Christians"
+}

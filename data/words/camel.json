@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gamal",
+      "lang": "Semitic",
+      "era": "ancient",
+      "note": "the general root for the desert-dwelling pack animal across Semitic languages",
+      "meaning": "a camel",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "kamelos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted through trade contact with Semitic-speaking peoples",
+      "meaning": "a camel",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "camel",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the desert-dwelling pack animal",
+      "meaning": "a large desert-dwelling mammal with one or two humps",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, humped mammal adapted for desert travel"
+}

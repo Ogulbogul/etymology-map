@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "atorner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to appoint, to assign, from a- (to) and torner (to turn)",
+      "meaning": "to appoint, to assign",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attorney",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for one legally appointed to act for another",
+      "meaning": "a person legally appointed to act on another's behalf",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person legally qualified to act on behalf of another, especially a lawyer"
+}

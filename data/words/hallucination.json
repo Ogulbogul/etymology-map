@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "alucinari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to wander in mind, to dream while awake",
+      "meaning": "to wander in mind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hallucination",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for perceiving something not actually present",
+      "meaning": "perceiving something that isn't actually present",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the perception of something not actually present, often a symptom of illness"
+}

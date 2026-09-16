@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy | Etymology Map</title>
+<meta name="description" content="What data Etymology Map collects (and doesn't), how local storage is used, and how third-party services including advertising may be involved." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-top">
+        <a href="index.html" class="site-brand">Etymology Map</a>
+        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+      </div>
+    </header>
+
+    <main class="doc-main">
+      <a class="back-link" href="index.html">
+        <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to Etymology Map
+      </a>
+      <h1>Privacy Policy</h1>
+      <p class="doc-meta">Last updated: <!-- TODO: set the real date before publishing -->[date]</p>
+
+      <h2>Overview</h2>
+      <p>
+        Etymology Map is a static website with no user accounts and no server-side database. This policy explains
+        the little data that is involved in using the site, and what may change if the site starts showing
+        advertising.
+      </p>
+
+      <h2>What's stored in your browser</h2>
+      <p>
+        The site saves one small preference (whether you've chosen light or dark mode) using your
+        browser's local storage. This stays on your device, is never transmitted anywhere, and is used solely to
+        remember your preference on your next visit. You can clear it at any time by clearing your browser's site
+        data for this page.
+      </p>
+
+      <h2>What we don't collect</h2>
+      <p>
+        We don't run analytics, we don't require sign-in, and we don't operate a backend server that logs your
+        activity on the site. There are no accounts, no forms that collect personal information, and no cookies set
+        by this site itself.
+      </p>
+
+      <h2>Third-party content delivery</h2>
+      <p>
+        The interactive map is rendered using open-source libraries and world map data loaded from third-party
+        content delivery networks (CDNs). Loading these files means your browser makes a direct request to those
+        CDN providers, who may log standard web server information such as IP address and request time, per their
+        own operating practices, independent of this site.
+      </p>
+
+      <h2>Advertising</h2>
+      <p>
+        This site may show advertisements served by Google and other third-party advertising vendors. These vendors
+        may use cookies or similar technologies to serve ads based on your prior visits to this site or other
+        websites, in order to show you more relevant advertising. You can learn more about how Google uses this
+        information, and opt out of personalized advertising, at
+        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.
+      </p>
+
+      <h2>Children's privacy</h2>
+      <p>
+        This site is not directed at children under 13, and we do not knowingly collect personal information from
+        children.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If this policy changes (for example, when advertising is enabled), the "last updated" date
+        above will be revised to reflect that.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy can be sent to
+        <a href="mailto:your-email@example.com">your-email@example.com</a><!-- TODO: replace with your real contact address before publishing -->.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <a href="index.html">Etymology Map</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var THEME_KEY = "etymology-map-theme";
+      var btn = document.getElementById("theme-toggle-btn");
+
+      function isDarkActive() {
+        var explicit = document.documentElement.getAttribute("data-theme");
+        if (explicit === "dark") return true;
+        if (explicit === "light") return false;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+
+      function applyTheme(theme) {
+        if (theme === "dark" || theme === "light") {
+          document.documentElement.setAttribute("data-theme", theme);
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+        }
+        var dark = isDarkActive();
+        btn.textContent = dark ? "☀️" : "🌙";
+        btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      }
+
+      var stored = null;
+      try {
+        stored = localStorage.getItem(THEME_KEY);
+      } catch (err) {
+        stored = null;
+      }
+      applyTheme(stored);
+
+      btn.addEventListener("click", function () {
+        var next = isDarkActive() ? "light" : "dark";
+        try {
+          localStorage.setItem(THEME_KEY, next);
+        } catch (err) {}
+        applyTheme(next);
+      });
+    })();
+  </script>
+</body>
+</html>

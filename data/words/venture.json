@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "venire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come, the root behind adventure (ad- + venire, to arrive)",
+      "meaning": "to come",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aventure",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a risky undertaking or chance occurrence",
+      "meaning": "a risky undertaking, a chance occurrence",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "venture",
+      "lang": "English",
+      "era": "1400s",
+      "note": "shortened from adventure and settled as the English word for a risky undertaking",
+      "meaning": "a risky or daring undertaking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a risky or daring undertaking, especially a business enterprise"
+}

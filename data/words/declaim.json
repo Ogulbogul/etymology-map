@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "declamare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to practice public speaking, to shout out, from de- (thoroughly) and clamare (to shout)",
+      "meaning": "to practice public speaking, to shout out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "declaim",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for speaking dramatically and forcefully in public",
+      "meaning": "to speak dramatically and forcefully in public",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to speak or deliver a speech dramatically and forcefully"
+}

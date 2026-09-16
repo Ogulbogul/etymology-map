@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maskhara",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a buffoon or someone in disguise for mockery",
+      "meaning": "a jester, a disguised person",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "maschera",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "carried into Italian for a face covering worn in performance",
+      "meaning": "a face covering",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mask",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a face covering",
+      "meaning": "a covering worn over the face",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a covering worn over the face for protection, disguise, or performance"
+}

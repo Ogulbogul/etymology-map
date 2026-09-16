@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tatami",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "a woven straw floor mat",
+      "meaning": "a straw floor mat",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "tatami",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted as Western contact with Japan increased",
+      "meaning": "a traditional Japanese woven floor mat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese floor mat woven from rice straw"
+}

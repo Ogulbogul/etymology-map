@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deka",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "ten, the root of a group of ten",
+      "meaning": "ten",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "decade",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English word for a period of ten years",
+      "meaning": "a period of ten years",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a period of ten years"
+}

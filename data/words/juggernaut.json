@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Jagannātha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally \"Lord of the World\", a name for the Hindu deity Krishna/Vishnu",
+      "meaning": "Lord of the World",
+      "lat": 19.8,
+      "lon": 85.83
+    },
+    {
+      "word": "juggernaut",
+      "lang": "Hindi/English",
+      "era": "1600s",
+      "note": "British observers described the massive temple cart of this deity crushing devotees in its path",
+      "meaning": "the massive temple cart of Jagannath",
+      "lat": 19.8,
+      "lon": 85.83
+    },
+    {
+      "word": "juggernaut",
+      "lang": "English",
+      "era": "1800s",
+      "note": "generalized to mean any unstoppable, crushing force",
+      "meaning": "an overwhelming, unstoppable force",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a huge, powerful force or institution that crushes everything in its path"
+}

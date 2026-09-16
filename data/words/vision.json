@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "videre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to see",
+      "meaning": "to see",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vision",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the ability to see, or a mental image of the future",
+      "meaning": "the ability to see, or a mental image of the future",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the ability to see, or the capacity to imagine future possibilities"
+}

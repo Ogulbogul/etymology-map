@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sub poena",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally under penalty, the warning attached to a legal order to appear",
+      "meaning": "under penalty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subpoena",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly for a legal order requiring court attendance",
+      "meaning": "a legal order requiring attendance or testimony in court",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a legal order requiring a person to attend court or produce evidence"
+}

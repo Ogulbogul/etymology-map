@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mazurek",
+      "lang": "Polish",
+      "era": "medieval",
+      "note": "literally \"a woman of Mazovia\", the central Polish region where the dance originated",
+      "meaning": "a dance from Mazovia",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "mazurka",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted as the lively folk dance spread across Europe",
+      "meaning": "a lively Polish folk dance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lively Polish folk dance in triple time, or the music for it"
+}

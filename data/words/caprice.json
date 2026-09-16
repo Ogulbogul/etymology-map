@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capo riccio",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "possibly literally hedgehog head, describing hair standing on end from a sudden fright",
+      "meaning": "a hedgehog's head, a sudden fright",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "caprice",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried into French for a sudden, unpredictable change of mind",
+      "meaning": "a sudden, unpredictable whim",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "caprice",
+      "lang": "English",
+      "era": "1660s",
+      "note": "settled as the English word for a sudden, impulsive change of mind",
+      "meaning": "a sudden, unpredictable change of mind or behavior",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sudden, unpredictable change of mind or behavior"
+}

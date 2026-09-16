@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "abaka",
+      "lang": "Tagalog/Bikol",
+      "era": "medieval",
+      "note": "a banana-family plant whose leaf fiber is woven into rope and fabric",
+      "meaning": "a fiber-producing plant",
+      "lat": 14.6,
+      "lon": 120.98
+    },
+    {
+      "word": "abaca",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the durable plant fiber, also called Manila hemp",
+      "meaning": "a strong plant fiber used for rope and fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong fiber from a banana-family plant, used for rope and fabric, also called Manila hemp"
+}

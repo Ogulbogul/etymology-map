@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sub ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to put under, to substitute, from sub- (under) and ponere (to place)",
+      "meaning": "to put under",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supposer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for assuming something to be true",
+      "meaning": "to assume something to be true",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "suppose",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for assuming something without proof",
+      "meaning": "to assume something without proof",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to assume that something is true, without certain knowledge"
+}

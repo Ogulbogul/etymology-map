@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "guru",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally \"heavy, weighty\", describing one weighty with wisdom",
+      "meaning": "teacher, spiritual guide",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "guru",
+      "lang": "English",
+      "era": "c. 1800s",
+      "note": "picked up through British colonial contact with India",
+      "meaning": "a Hindu or Sikh spiritual teacher",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "guru",
+      "lang": "English",
+      "era": "1960s",
+      "note": "broadened during Western counterculture to mean any expert",
+      "meaning": "an influential expert or mentor",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "a spiritual teacher, or an influential expert in a field"
+}

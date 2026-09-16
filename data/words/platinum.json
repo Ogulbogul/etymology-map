@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "platina",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "literally little silver, a diminutive of plata (silver), describing the pale metal",
+      "meaning": "little silver",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "platinum",
+      "lang": "English",
+      "era": "1812",
+      "note": "settled as the English name for the precious silvery-white metal",
+      "meaning": "a dense, precious silvery-white metal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dense, precious silvery-white metallic element"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bossa",
+      "lang": "Portuguese",
+      "era": "1950s",
+      "note": "Brazilian slang meaning \"a trend\" or \"flair\"",
+      "meaning": "a flair, trend",
+      "lat": -22.91,
+      "lon": -43.17
+    },
+    {
+      "word": "bossa nova",
+      "lang": "Portuguese",
+      "era": "1950s-1960s",
+      "note": "literally \"new trend\", a mellow fusion of samba and jazz",
+      "meaning": "a new musical trend",
+      "lat": -22.91,
+      "lon": -43.17
+    },
+    {
+      "word": "bossa nova",
+      "lang": "English",
+      "era": "1960s",
+      "note": "adopted as the genre became internationally popular",
+      "meaning": "a mellow Brazilian music genre blending samba and jazz",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mellow, jazz-influenced style of Brazilian popular music"
+}

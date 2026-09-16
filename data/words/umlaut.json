@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "um",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"around\" or \"changed\"",
+      "meaning": "around, changed",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Umlaut",
+      "lang": "German",
+      "era": "1800s",
+      "note": "combining \"um\" with \"Laut\" (sound), a vowel sound-change mark",
+      "meaning": "a changed vowel sound",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "umlaut",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted directly from German linguistics",
+      "meaning": "a diacritical mark over a vowel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the two dots placed over a vowel to indicate a change in its pronunciation"
+}

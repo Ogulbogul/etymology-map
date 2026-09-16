@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Zeit",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"time\"",
+      "meaning": "time",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Zeitgeist",
+      "lang": "German",
+      "era": "1800s",
+      "note": "combining \"Zeit\" with \"Geist\" (spirit), coined in German philosophy",
+      "meaning": "the spirit of the age",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "zeitgeist",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from German philosophical writing",
+      "meaning": "the defining mood or spirit of a particular period",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the defining spirit or mood of a particular period in history"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "doppel",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"double\"",
+      "meaning": "double",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Doppelgänger",
+      "lang": "German",
+      "era": "1700s",
+      "note": "combining \"doppel\" with \"Gänger\" (goer), a ghostly double of a living person",
+      "meaning": "a ghostly double",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "doppelganger",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from German",
+      "meaning": "a look-alike or double of a living person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a look-alike or double of a living person"
+}

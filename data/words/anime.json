@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "animation",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "the general term for the art of moving drawings",
+      "meaning": "the art of animated film",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "anime",
+      "lang": "Japanese",
+      "era": "1900s",
+      "note": "borrowed and clipped from English \"animation\"",
+      "meaning": "animated film or television",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "anime",
+      "lang": "English",
+      "era": "1980s-1990s",
+      "note": "re-borrowed into English with a narrower meaning",
+      "meaning": "Japanese-style animation",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a style of animation originating in Japan, often aimed at teens and adults"
+}

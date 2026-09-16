@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "coller",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to glue, to stick together",
+      "meaning": "to glue",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "collage",
+      "lang": "English",
+      "era": "1919",
+      "note": "adopted for the artistic technique of assembling glued materials into one work",
+      "meaning": "an artwork made from assembled, glued materials",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an artwork made by assembling different materials glued onto a surface"
+}

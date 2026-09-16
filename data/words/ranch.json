@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rancho",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a group messing together, a small farm",
+      "meaning": "a mess of people, a small farm",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "rancho",
+      "lang": "Mexican Spanish",
+      "era": "1700s",
+      "note": "came to mean a large cattle-raising estate",
+      "meaning": "a cattle estate",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "ranch",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking settlers in the American West",
+      "meaning": "a large farm for raising livestock",
+      "lat": 39.55,
+      "lon": -105.78
+    }
+  ],
+  "current_meaning": "a large farm, especially one used for raising livestock"
+}

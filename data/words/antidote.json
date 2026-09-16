@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "antidoton",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally given against, a remedy given to counter poison",
+      "meaning": "remedy given against something",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "antidote",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for a poison's counter-remedy",
+      "meaning": "a remedy that counteracts poison",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a remedy to counteract a poison or a harmful influence"
+}

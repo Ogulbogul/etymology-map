@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "iungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"to join\"",
+      "meaning": "to join, unite",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "junta",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "came to mean a council or assembly",
+      "meaning": "a council, assembly",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "junta",
+      "lang": "English",
+      "era": "1600s-1800s",
+      "note": "narrowed to mean a military or political ruling group",
+      "meaning": "a group ruling a country, often after a coup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a military or political group that rules a country, especially after seizing power"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chaebol",
+      "lang": "Korean",
+      "era": "1900s",
+      "note": "literally wealth clan, a large family-controlled business conglomerate",
+      "meaning": "a family-controlled business conglomerate",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "chaebol",
+      "lang": "English",
+      "era": "1980s",
+      "note": "adopted by economists and journalists describing South Korea's industrial giants",
+      "meaning": "a large South Korean family-run business conglomerate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large South Korean business conglomerate typically controlled by one family"
+}

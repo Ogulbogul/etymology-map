@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "orkhis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a testicle, from the shape of the plant's paired root tubers",
+      "meaning": "a testicle",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "orchid",
+      "lang": "English",
+      "era": "1845",
+      "note": "coined by botanists for the distinctive flowering plant family",
+      "meaning": "a distinctive flowering plant with complex blooms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flowering plant known for its complex, often colorful blooms"
+}

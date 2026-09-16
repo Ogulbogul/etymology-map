@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "s-ciavo",
+      "lang": "Venetian Italian",
+      "era": "medieval",
+      "note": "literally your slave, a humble greeting offering oneself in service",
+      "meaning": "I am your servant",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "ciao",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "worn down into a casual greeting used both for hello and goodbye",
+      "meaning": "an informal greeting or farewell",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ciao",
+      "lang": "English",
+      "era": "1929",
+      "note": "adopted directly as a casual, friendly greeting",
+      "meaning": "an informal greeting or farewell",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an informal greeting or farewell, used both for hello and goodbye"
+}

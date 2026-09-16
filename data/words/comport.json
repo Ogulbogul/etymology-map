@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "comportare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring together, to carry, from com- (together) and portare (to carry)",
+      "meaning": "to bring together, to carry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "comporter",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for behaving in a particular manner",
+      "meaning": "to behave in a particular manner",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "comport",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for behaving in a particular way, or being consistent with",
+      "meaning": "to behave in a particular way, or to be consistent with something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to behave in a particular way, or to be consistent with something expected"
+}

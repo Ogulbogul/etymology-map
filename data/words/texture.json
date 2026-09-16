@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "textura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a weaving, a web, from texere (to weave)",
+      "meaning": "a weaving, a web",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "texture",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the feel or structure of a surface or material",
+      "meaning": "the feel or structure of a surface or material",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the feel, appearance, or consistency of a surface or material"
+}

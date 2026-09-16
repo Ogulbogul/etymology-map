@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "amphibios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally having a double life, from amphi (both) and bios (life)",
+      "meaning": "living a double life",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "amphibian",
+      "lang": "English",
+      "era": "1630s",
+      "note": "adopted by biologists for animals living both in water and on land",
+      "meaning": "an animal living both in water and on land",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cold-blooded animal that lives both in water and on land, such as a frog"
+}

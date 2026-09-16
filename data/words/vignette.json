@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vigne",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a vine, since early decorative borders were designed with vine-leaf patterns",
+      "meaning": "a vine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vignette",
+      "lang": "English",
+      "era": "1700s",
+      "note": "broadened from a decorative border to a short, evocative literary sketch",
+      "meaning": "a short, evocative descriptive scene or sketch",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short, evocative piece of writing, or a small decorative illustration"
+}

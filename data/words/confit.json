@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "confire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to preserve, from Latin conficere (to prepare, put together)",
+      "meaning": "to preserve",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "confit",
+      "lang": "French",
+      "era": "1600s",
+      "note": "settled in French for meat slow-cooked and preserved in its own fat",
+      "meaning": "meat preserved by slow cooking in fat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "confit",
+      "lang": "English",
+      "era": "1928",
+      "note": "adopted directly for the slow-cooked, preserved dish",
+      "meaning": "food slow-cooked and preserved, especially in fat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "food, especially meat, cooked slowly and preserved, traditionally in its own fat"
+}

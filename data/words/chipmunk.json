@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ajidamoo",
+      "lang": "Ojibwe",
+      "era": "pre-1800s",
+      "note": "literally \"one who descends trees headfirst\"",
+      "meaning": "red squirrel/chipmunk",
+      "lat": 46.5,
+      "lon": -87.4
+    },
+    {
+      "word": "chipmunk",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English settlers in the Great Lakes region",
+      "meaning": "the small striped ground squirrel",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a small striped rodent related to squirrels"
+}

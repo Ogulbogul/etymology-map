@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "absolutus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "loosened, unrestricted, from ab- (away) and solvere (to loosen)",
+      "meaning": "loosened, unrestricted",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "absolute",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something complete and unrestricted",
+      "meaning": "complete, total, and unrestricted",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "complete and total, without exception or qualification"
+}

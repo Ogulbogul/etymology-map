@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "elektron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "amber, which produces static charge when rubbed",
+      "meaning": "amber",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "electricus",
+      "lang": "Latin",
+      "era": "1600s",
+      "note": "coined by scientist William Gilbert from the Greek word for amber",
+      "meaning": "having properties like rubbed amber",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "electric",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for the new phenomenon of electricity",
+      "meaning": "relating to electricity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to electricity, or full of excitement and energy"
+}

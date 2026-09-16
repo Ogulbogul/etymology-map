@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stringere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw tight, to bind",
+      "meaning": "to draw tight, to bind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estresse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "narrowness, oppression, from a shortened form related to stringere",
+      "meaning": "narrowness, oppression",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "stress",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for mental or emotional strain, shortened from distress",
+      "meaning": "mental or emotional strain, or physical pressure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "mental or emotional strain, or physical force exerted on an object"
+}

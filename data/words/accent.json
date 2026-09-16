@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "canere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sing, giving rise to cantus (a song, a tone)",
+      "meaning": "to sing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accentus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a tone added to speech, from ad- (to) and cantus (song)",
+      "meaning": "a tone added to speech",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accent",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a distinctive way of pronouncing words",
+      "meaning": "a distinctive way of pronouncing words",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "accent",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a distinctive way of pronouncing speech",
+      "meaning": "a distinctive way of pronouncing words, associated with a region or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a distinctive way of pronouncing words, associated with a country, region, or social group"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "presbyteros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"elder\"",
+      "meaning": "an elder",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "presbyter",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through early Christian church organization",
+      "meaning": "a church elder",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "preost",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "worn down through everyday pronunciation",
+      "meaning": "a religious minister",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person authorized to perform religious rites, especially in Christian churches"
+}

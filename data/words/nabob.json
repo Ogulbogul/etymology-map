@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nawab",
+      "lang": "Urdu/Hindi",
+      "era": "medieval",
+      "note": "a title for a Mughal provincial governor",
+      "meaning": "a provincial governor",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "nabob",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted by the British to describe wealthy men who made fortunes in India",
+      "meaning": "a person of great wealth or importance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person of great wealth or high status, especially one made rich quickly"
+}

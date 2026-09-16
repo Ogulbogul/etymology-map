@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Dachs",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"badger\"",
+      "meaning": "badger",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Dachshund",
+      "lang": "German",
+      "era": "1700s",
+      "note": "combining \"Dachs\" with \"Hund\" (dog), bred to hunt badgers",
+      "meaning": "a badger dog",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "dachshund",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from German",
+      "meaning": "a long-bodied, short-legged dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dog breed with a long body and short legs, originally bred to hunt badgers"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "metallon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mine, that which is quarried or dug up",
+      "meaning": "a mine, ore",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "metal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a hard, shiny, conductive material",
+      "meaning": "a hard, shiny, conductive material such as iron or gold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard, shiny material, typically conducting heat and electricity, such as iron or gold"
+}

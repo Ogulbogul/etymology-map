@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tamr hindi",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally the Indian date, describing the sweet-sour fruit pod",
+      "meaning": "the Indian date",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "tamarind",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for the tangy tropical fruit",
+      "meaning": "a tangy tropical fruit pod",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tropical fruit with a tangy, sweet-sour pulp used in cooking"
+}

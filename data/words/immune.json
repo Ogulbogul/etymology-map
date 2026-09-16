@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "immunis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "exempt from public service or duty, from in- (not) and munis (duty, service)",
+      "meaning": "exempt from duty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "immune",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed to mean exempt or protected from disease or harm",
+      "meaning": "protected from disease, harm, or an obligation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "protected against a disease or harmful influence, especially through the immune system"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "poke",
+      "lang": "Hawaiian",
+      "era": "ancient",
+      "note": "literally to slice or cut crosswise, describing cubed raw fish",
+      "meaning": "to slice crosswise",
+      "lat": 21.31,
+      "lon": -157.86
+    },
+    {
+      "word": "poke",
+      "lang": "English",
+      "era": "1970s",
+      "note": "adopted directly for the Hawaiian dish of marinated, cubed raw fish",
+      "meaning": "a Hawaiian dish of marinated, cubed raw fish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Hawaiian dish of marinated, cubed raw fish, typically served over rice"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pain de mie",
+      "lang": "French",
+      "era": "1800s",
+      "note": "literally \"crumb bread\", a soft white loaf introduced during French colonization",
+      "meaning": "soft white bread",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "banh mi",
+      "lang": "Vietnamese",
+      "era": "1900s",
+      "note": "adapted the French loaf into a distinctive Vietnamese sandwich",
+      "meaning": "bread; a Vietnamese sandwich",
+      "lat": 21.03,
+      "lon": 105.85
+    },
+    {
+      "word": "banh mi",
+      "lang": "English",
+      "era": "2000s",
+      "note": "adopted as Vietnamese cuisine spread internationally",
+      "meaning": "a Vietnamese sandwich on a baguette",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Vietnamese sandwich served on a baguette, filled with meat and vegetables"
+}

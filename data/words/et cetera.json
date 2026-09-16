@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "et cetera",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "and the rest, from et (and) and cetera (the remaining things)",
+      "meaning": "and the rest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "et cetera",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly into English for an unspecified continuation of a list",
+      "meaning": "and other similar things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "and other similar things not mentioned, used to shorten a list"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "clementia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "mildness, mercy, from clemens (mild, merciful)",
+      "meaning": "mildness, mercy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clemency",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for mercy shown to an offender",
+      "meaning": "mercy shown toward an offender",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "mercy shown, especially by someone with authority to punish"
+}

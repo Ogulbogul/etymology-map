@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "figere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fix, to fasten, combined with sub- (underneath)",
+      "meaning": "to fix, to fasten",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suffigere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fasten underneath, from sub- and figere",
+      "meaning": "to fasten underneath",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suffix",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for letters added to the end of a word",
+      "meaning": "letters or a syllable added to the end of a word",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a letter or group of letters added to the end of a word to change its meaning or form"
+}

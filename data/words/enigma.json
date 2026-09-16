@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ainigma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "meaning \"a riddle\" or \"dark saying\"",
+      "meaning": "a riddle",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "aenigma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek rhetorical tradition",
+      "meaning": "a riddle, puzzle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "enigme",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried the term into French",
+      "meaning": "a puzzle, mystery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enigma",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something puzzling",
+      "meaning": "a puzzling or mysterious thing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or thing that is mysterious or difficult to understand"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yeni cheri",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "literally new soldier, an elite infantry corps of the Ottoman army",
+      "meaning": "new soldier",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "janissary",
+      "lang": "English",
+      "era": "1520s",
+      "note": "adopted directly for the elite Ottoman infantry soldiers",
+      "meaning": "a member of the Ottoman elite infantry corps",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "historically, a member of the elite Ottoman Turkish infantry"
+}

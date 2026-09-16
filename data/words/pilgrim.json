@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "peregrinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a foreigner, a traveler, from per- (through) and ager (field, land)",
+      "meaning": "a foreigner, a traveler",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pelegrin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a traveler on a religious journey",
+      "meaning": "a religious traveler",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pilgrim",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for someone journeying to a sacred place",
+      "meaning": "a person who travels to a sacred place for religious reasons",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who journeys to a sacred place for religious reasons"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "consentire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to feel together, to agree, from com- (together) and sentire (to feel)",
+      "meaning": "to feel together, to agree",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consent",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for giving permission for something",
+      "meaning": "to give permission for something to happen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "permission for something to happen, or agreement to do something"
+}

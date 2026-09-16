@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "krokr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a hook, a bend, something curved",
+      "meaning": "a hook, a bend",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "crook",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a bent or hooked object, later a dishonest person",
+      "meaning": "a hooked staff, or informally, a dishonest person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bend or hook in something, or informally, a dishonest person"
+}

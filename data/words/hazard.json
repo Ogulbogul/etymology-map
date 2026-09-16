@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "az-zahr",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"the die\" (for playing dice)",
+      "meaning": "the die, dice",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "azar",
+      "lang": "Old Spanish",
+      "era": "medieval",
+      "note": "adopted for a dice game, and later, chance itself",
+      "meaning": "chance, a dice game",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "hasard",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spread to mean chance or risk more generally",
+      "meaning": "chance, risk",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hazard",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled to mean a source of danger or risk",
+      "meaning": "a danger or risk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a danger or risk, or a source of potential harm"
+}

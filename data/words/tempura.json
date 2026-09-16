@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tempero",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "meaning \"seasoning\", possibly linked to Lenten fasting practices of frying fish and vegetables",
+      "meaning": "seasoning",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "tempura",
+      "lang": "Japanese",
+      "era": "1600s",
+      "note": "adopted by Japanese cooks from Portuguese missionaries and traders",
+      "meaning": "battered, deep-fried food",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "tempura",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Japanese cuisine spread internationally",
+      "meaning": "lightly battered, deep-fried seafood or vegetables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese dish of seafood or vegetables, battered and deep-fried"
+}

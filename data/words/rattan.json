@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rotan",
+      "lang": "Malay",
+      "era": "1600s",
+      "note": "the flexible climbing palm used for weaving and furniture",
+      "meaning": "a climbing palm vine",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "rattan",
+      "lang": "English",
+      "era": "1660s",
+      "note": "adopted directly for the material used in wickerwork",
+      "meaning": "a flexible material woven from palm stems",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a climbing palm whose stems are used for wickerwork and furniture"
+}

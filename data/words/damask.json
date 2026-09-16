@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Dimashq",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the city of Damascus",
+      "meaning": "the city of Damascus",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "damas",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "named a richly patterned woven fabric after the city",
+      "meaning": "a patterned woven fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "damask",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the fabric and its weave",
+      "meaning": "a reversible, patterned woven fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rich, reversible fabric woven with an elaborate pattern"
+}

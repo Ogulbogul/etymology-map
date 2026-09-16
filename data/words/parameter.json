@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "para",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "beside, combined with metron (measure)",
+      "meaning": "beside",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "parameter",
+      "lang": "New Latin",
+      "era": "1650s",
+      "note": "formed from Greek para (beside) and metron (measure) for a measurable quantity defining a system",
+      "meaning": "a measurable quantity defining a system",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parameter",
+      "lang": "English",
+      "era": "1650s",
+      "note": "adopted directly for a defining measurable factor",
+      "meaning": "a factor that defines or limits a system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a measurable factor that defines or limits a system or situation"
+}

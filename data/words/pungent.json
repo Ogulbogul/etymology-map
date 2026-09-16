@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to prick, to pierce",
+      "meaning": "to prick, to pierce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pungens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "pricking, stinging, present participle of pungere",
+      "meaning": "pricking, stinging",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pungent",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a sharp, strong smell or taste",
+      "meaning": "having a sharp, strong smell or taste",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a sharply strong smell or taste"
+}

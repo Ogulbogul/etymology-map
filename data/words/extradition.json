@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ex traditio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a handing over from, from ex- (out) and tradere (to hand over)",
+      "meaning": "a handing over",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extradition",
+      "lang": "French",
+      "era": "1800s",
+      "note": "coined in French for the formal surrender of a fugitive to another jurisdiction",
+      "meaning": "the formal handover of a fugitive between jurisdictions",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "extradition",
+      "lang": "English",
+      "era": "1830s",
+      "note": "adopted directly for the legal surrender of a fugitive to another country",
+      "meaning": "the surrender of a fugitive to another jurisdiction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the surrender of a person accused of a crime to the jurisdiction where it occurred"
+}

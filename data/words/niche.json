@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"nest\"",
+      "meaning": "nest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "niche",
+      "lang": "French",
+      "era": "medieval",
+      "note": "came to mean a recessed space in a wall, like a nest",
+      "meaning": "a recessed wall space",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "niche",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from French, later broadened figuratively",
+      "meaning": "a specialized position or role suited to someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a specialized segment of the market, or a role particularly suited to someone"
+}

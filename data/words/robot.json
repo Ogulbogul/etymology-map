@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "robota",
+      "lang": "Czech",
+      "era": "1920",
+      "note": "coined by Karel Čapek for his play R.U.R., meaning forced labor",
+      "meaning": "forced labor, drudgery",
+      "lat": 50.09,
+      "lon": 14.42
+    },
+    {
+      "word": "robot",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted directly into English after the play's international success",
+      "meaning": "an artificial worker or machine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a machine capable of automatically carrying out physical tasks"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "matzah",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "unleavened bread eaten during Passover",
+      "meaning": "unleavened bread",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "matse",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "kept as the everyday word for the flatbread",
+      "meaning": "unleavened flatbread",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "matzo",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities",
+      "meaning": "a flat, unleavened bread",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a flat, unleavened bread traditionally eaten during Passover"
+}

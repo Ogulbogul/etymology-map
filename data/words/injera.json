@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "injera",
+      "lang": "Amharic",
+      "era": "medieval",
+      "note": "a spongy sourdough flatbread made from teff flour, central to Ethiopian cuisine",
+      "meaning": "sourdough flatbread",
+      "lat": 9.03,
+      "lon": 38.74
+    },
+    {
+      "word": "injera",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Ethiopian cuisine became known internationally",
+      "meaning": "a spongy Ethiopian sourdough flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spongy Ethiopian sourdough flatbread made from teff flour"
+}

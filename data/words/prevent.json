@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "praevenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come before, to anticipate, from prae- (before) and venire (to come)",
+      "meaning": "to come before, to anticipate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prevent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for stopping something from happening",
+      "meaning": "to stop something from happening",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep something from happening"
+}

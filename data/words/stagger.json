@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stakra",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to push, to cause to totter unsteadily",
+      "meaning": "to totter, to reel",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "stagger",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for walking unsteadily",
+      "meaning": "to walk or move unsteadily",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to walk or move unsteadily, as if about to fall, or to arrange things at intervals"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "secuta",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "a following, a set of things that go together, from sequi",
+      "meaning": "a following, a matching set",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suite",
+      "lang": "French",
+      "era": "1600s",
+      "note": "kept its French spelling for a connected set of rooms or things",
+      "meaning": "a connected set of rooms or things",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "suite",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted from French for a set of connected rooms, or a musical set",
+      "meaning": "a set of connected rooms, or a related set of musical pieces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a set of connected rooms, especially in a hotel, or a set of related musical pieces"
+}

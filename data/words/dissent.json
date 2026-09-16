@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dissentire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to feel apart, to disagree, from dis- (apart) and sentire (to feel)",
+      "meaning": "to feel apart, to disagree",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dissent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for holding a different opinion from the majority",
+      "meaning": "to hold or express opinions different from the majority",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to hold or express opinions that differ from those officially or generally accepted"
+}

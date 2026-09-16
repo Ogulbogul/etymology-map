@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sub iugum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "under the yoke, from sub- (under) and iugum (yoke, related to iungere, to join)",
+      "meaning": "under the yoke",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subiugare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring under the yoke, to conquer, from sub- and iugum",
+      "meaning": "to bring under the yoke, to conquer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subjugate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for bringing someone under domination or control",
+      "meaning": "to bring someone under domination or control",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to bring a person or group under domination or control by force"
+}

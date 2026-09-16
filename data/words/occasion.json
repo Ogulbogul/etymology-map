@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "cadere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fall, combined with ob- (toward)",
+      "meaning": "to fall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "occasio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a falling toward, a favorable moment, from ob- and cadere",
+      "meaning": "a falling toward, a favorable moment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "occasion",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a particular time or event",
+      "meaning": "a particular time or event",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "occasion",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a particular time or special event",
+      "meaning": "a particular time, or a special event",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular time or event, especially a special or noteworthy one"
+}

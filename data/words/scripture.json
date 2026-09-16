@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "scribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write",
+      "meaning": "to write",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scriptura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a writing, especially sacred writing, from scribere",
+      "meaning": "a writing, especially sacred writing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "escriture",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for sacred written texts",
+      "meaning": "sacred written texts",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scripture",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for sacred religious writings",
+      "meaning": "sacred religious writings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sacred writings of a religion, especially the Christian Bible"
+}

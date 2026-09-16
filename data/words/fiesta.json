@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "festa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"festival\"",
+      "meaning": "festival",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fiesta",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "kept the meaning of a religious or public celebration",
+      "meaning": "a festival, celebration",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "fiesta",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Spanish contact in the Americas",
+      "meaning": "a lively celebration or party",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "a festival or lively celebration"
+}

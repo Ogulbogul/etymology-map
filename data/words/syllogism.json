@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "syllogismos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a reasoning together, from syn (together) and logizesthai (to reason)",
+      "meaning": "a reasoning together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "syllogism",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the logical term for a deductive argument with two premises",
+      "meaning": "a deductive argument with two premises and a conclusion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a form of logical reasoning where a conclusion is drawn from two given premises"
+}

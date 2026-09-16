@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sake",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "the general word for alcoholic drink, narrowed to mean fermented rice wine",
+      "meaning": "alcoholic drink, rice wine",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "sake",
+      "lang": "English",
+      "era": "1687",
+      "note": "adopted directly for the fermented Japanese rice beverage",
+      "meaning": "a fermented Japanese rice beverage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fermented Japanese alcoholic beverage made from rice"
+}

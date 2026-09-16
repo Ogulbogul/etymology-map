@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "platys",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "flat, combined with pous (foot) to name the flat-footed animal",
+      "meaning": "flat",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "platypus",
+      "lang": "New Latin",
+      "era": "1799",
+      "note": "coined from Greek platys (flat) and pous (foot) for the newly described egg-laying mammal",
+      "meaning": "flat-foot",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "platypus",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the duck-billed, egg-laying mammal",
+      "meaning": "a duck-billed, egg-laying mammal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a duck-billed, egg-laying mammal native to Australia"
+}

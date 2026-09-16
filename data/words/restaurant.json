@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "restaurare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to rebuild, to renew, from re- (again) and staurare (to erect, related to stare)",
+      "meaning": "to rebuild, to renew",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "restaurer",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried into French for restoring strength, especially through food",
+      "meaning": "to restore strength, especially through food",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "restaurant",
+      "lang": "French",
+      "era": "1765",
+      "note": "a restorative food or broth, later a place serving such food, present participle of restaurer",
+      "meaning": "a place serving restorative food",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "restaurant",
+      "lang": "English",
+      "era": "1827",
+      "note": "adopted directly for an establishment where meals are served",
+      "meaning": "an establishment where meals are served to customers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a business establishment where meals are prepared and served to paying customers"
+}

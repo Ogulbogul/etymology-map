@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deprimere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to press down, from de- (down) and premere (to press)",
+      "meaning": "to press down",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "depress",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for pushing something down or lowering spirits",
+      "meaning": "to push something down, or to lower spirits",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make someone feel sad and without energy, or to press something down"
+}

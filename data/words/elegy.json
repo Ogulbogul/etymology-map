@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "elegeia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mournful poem, from elegos (a song of lament)",
+      "meaning": "a song of mourning",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "elegy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a poem of serious reflection, typically mourning the dead",
+      "meaning": "a poem of mourning or serious reflection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a poem or song expressing sorrow, especially for someone who has died"
+}

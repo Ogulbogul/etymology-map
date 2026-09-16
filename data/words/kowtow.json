@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ke tou",
+      "lang": "Chinese",
+      "era": "ancient",
+      "note": "literally \"knock the head\", a gesture of deep respect or submission",
+      "meaning": "to knock one's head on the ground",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "kowtow",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through European contact with Chinese imperial court customs",
+      "meaning": "to act in an excessively submissive manner",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to act in an excessively submissive or deferential manner"
+}

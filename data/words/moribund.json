@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mori",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to die",
+      "meaning": "to die",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "moribundus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "dying, at the point of death, from mori (to die)",
+      "meaning": "dying, at the point of death",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "moribund",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for something in a dying or declining state",
+      "meaning": "in a dying or declining state",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in a state of decline, at the point of death or ending"
+}

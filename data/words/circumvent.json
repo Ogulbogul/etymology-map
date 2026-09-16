@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "circumvenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come around, to surround, to outwit, from circum- (around) and venire (to come)",
+      "meaning": "to come around, to outwit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumvent",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for finding a way around an obstacle or rule",
+      "meaning": "to find a way around an obstacle, rule, or difficulty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to find a way around an obstacle, rule, or difficulty, often cleverly"
+}

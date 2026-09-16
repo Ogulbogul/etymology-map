@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "daikon",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "literally large root, a large mild white radish",
+      "meaning": "a large root",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "daikon",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Japanese cuisine spread internationally",
+      "meaning": "a large, mild white radish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, mild white radish used widely in East Asian cooking"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "xicamatl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "the name for the crisp, edible root vegetable",
+      "meaning": "jicama root",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "jicama",
+      "lang": "Spanish",
+      "era": "1500s-1600s",
+      "note": "adopted from Nahuatl via Spanish colonial contact in Mexico",
+      "meaning": "jicama root",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "jicama",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the vegetable became known in American cuisine",
+      "meaning": "a crisp, sweet root vegetable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a crisp, sweet-tasting root vegetable used raw or cooked"
+}

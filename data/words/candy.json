@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "khaṇḍa",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "referred to a piece or crystal of raw sugar",
+      "meaning": "piece of sugar",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "qandī",
+      "lang": "Persian/Arabic",
+      "era": "medieval",
+      "note": "described sugar crystallized into candied form",
+      "meaning": "candied, crystallized sugar",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "sucre candi",
+      "lang": "Old French",
+      "era": "c. 1200s",
+      "note": "described a specific sugar-candy confection",
+      "meaning": "candied sugar",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "candy",
+      "lang": "English",
+      "era": "c. 1300s",
+      "note": "broadened over time to cover sweets in general",
+      "meaning": "a sweet made from sugar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet confection made primarily of sugar"
+}

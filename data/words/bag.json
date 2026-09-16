@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "baggi",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a container made of flexible material for carrying things",
+      "meaning": "a bag, sack",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "bag",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for a flexible carrying container",
+      "meaning": "a flexible container for carrying things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flexible container used for carrying or holding things"
+}

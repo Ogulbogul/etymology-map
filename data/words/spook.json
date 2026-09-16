@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spook",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "the Dutch word for a ghost",
+      "meaning": "a ghost",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "spook",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Dutch settlers in colonial America",
+      "meaning": "a ghost or specter",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a ghost or specter, or (informally) to frighten someone"
+}

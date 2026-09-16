@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kynda",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to set fire to, to light",
+      "meaning": "to set fire to",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "kindle",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for starting a fire or stirring emotion",
+      "meaning": "to start a fire, or to arouse a feeling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to start a fire burning, or to arouse strong feelings"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lynx",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "possibly related to leukos (bright), describing the animal's gleaming eyes",
+      "meaning": "the wildcat with gleaming eyes",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "lynx",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the same wildcat",
+      "meaning": "wildcat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lynx",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the tufted-ear wildcat",
+      "meaning": "a tufted-ear wildcat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wildcat with tufted ears and a short tail, found across the northern hemisphere"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anti bios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "against life, describing a substance that destroys harmful microorganisms",
+      "meaning": "against life",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "antibiotic",
+      "lang": "English",
+      "era": "1940s",
+      "note": "coined once penicillin and similar drugs made the concept medically real",
+      "meaning": "a drug that destroys or inhibits bacteria",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medicine that destroys or inhibits the growth of bacteria"
+}

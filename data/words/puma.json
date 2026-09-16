@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "puma",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "the Quechua name for the mountain lion",
+      "meaning": "puma, mountain lion",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "puma",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "adopted after Spanish contact with the Andes",
+      "meaning": "puma",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "puma",
+      "lang": "English",
+      "era": "1700s",
+      "note": "borrowed directly from Spanish",
+      "meaning": "the large wild cat of the Americas",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large wild cat native to the Americas, also called a cougar or mountain lion"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dedicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to declare thoroughly, to consecrate, from de- (thoroughly) and dicare (to proclaim)",
+      "meaning": "to declare, to consecrate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dedicate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for devoting something to a purpose or person",
+      "meaning": "to devote something to a particular purpose or person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to devote time, effort, or a work to a particular purpose or person"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mythos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a story, a narrative, combined with logos (study)",
+      "meaning": "a story, a narrative",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "mythology",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a body of traditional stories, or their study",
+      "meaning": "a body of traditional stories, or their study",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of traditional stories of a culture, or the study of such stories"
+}

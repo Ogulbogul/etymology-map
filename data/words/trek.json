@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "trekken",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "meaning \"to pull\" or \"to journey\"",
+      "meaning": "to pull, journey",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "trek",
+      "lang": "Afrikaans",
+      "era": "1800s",
+      "note": "applied to the long ox-wagon migrations of Boer settlers",
+      "meaning": "a long, arduous journey",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "trek",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through contact with southern Africa",
+      "meaning": "a long, difficult journey, especially on foot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long, arduous journey, especially made on foot"
+}

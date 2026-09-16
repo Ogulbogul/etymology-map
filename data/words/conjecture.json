@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "conicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to throw together, to guess, from com- (together) and iacere (to throw), with irregular past participle conjectus",
+      "meaning": "to throw together, to guess",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conjectura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a guess, an inference, from conicere",
+      "meaning": "a guess, an inference",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conjecture",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an opinion formed without sufficient evidence",
+      "meaning": "an opinion or guess formed without sufficient evidence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an opinion or conclusion formed on the basis of incomplete information"
+}

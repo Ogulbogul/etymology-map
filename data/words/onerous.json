@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "onus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "burden, load",
+      "meaning": "burden, load",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "onerosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "burdensome, from onus",
+      "meaning": "burdensome",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "onereus",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for something heavy or difficult to bear",
+      "meaning": "heavy or difficult to bear",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "onerous",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something involving great effort or difficulty",
+      "meaning": "involving great effort or difficulty, burdensome",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "involving a great deal of effort, trouble, or difficulty"
+}

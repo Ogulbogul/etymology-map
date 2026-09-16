@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shash",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a fine muslin cloth, often wound as a turban",
+      "meaning": "muslin cloth, turban wrap",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "sash",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted for a band of cloth worn around the waist or over the shoulder",
+      "meaning": "a decorative band of cloth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a decorative band of cloth worn around the waist or over one shoulder"
+}

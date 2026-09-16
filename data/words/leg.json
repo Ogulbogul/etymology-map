@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "leggr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "replaced the native English word shank in everyday use",
+      "meaning": "a leg",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "leg",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for the limb",
+      "meaning": "a limb used for standing and walking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the limbs used for standing, walking, and running"
+}

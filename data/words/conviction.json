@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "vincere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to conquer, combined with com- (thoroughly)",
+      "meaning": "to conquer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "convincere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to conquer thoroughly, to prove wrong, from com- and vincere",
+      "meaning": "to conquer thoroughly, to prove wrong",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "convictio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a proving guilty, a firm belief, from convincere",
+      "meaning": "a proving guilty, a firm belief",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conviction",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a firm belief, or a formal declaration of guilt",
+      "meaning": "a firm belief, or a formal declaration of guilt in court",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a firmly held belief, or a formal finding of guilt in a court of law"
+}

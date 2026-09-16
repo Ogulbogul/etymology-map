@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cul-de-sac",
+      "lang": "French",
+      "era": "1700s",
+      "note": "literally bottom of a bag, describing a dead-end passage",
+      "meaning": "the bottom of a bag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cul-de-sac",
+      "lang": "English",
+      "era": "1738",
+      "note": "adopted directly for a street closed at one end",
+      "meaning": "a street closed at one end",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a street or passage closed at one end, a dead end"
+}

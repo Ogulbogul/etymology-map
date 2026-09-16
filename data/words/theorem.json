@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "theorema",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a thing to be looked at or considered, from theorein (to look at)",
+      "meaning": "a thing to be considered",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "theorem",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a statement proven from other established statements",
+      "meaning": "a statement proven true through logical argument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mathematical statement proven true through logical reasoning"
+}

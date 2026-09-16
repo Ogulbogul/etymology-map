@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "thipi",
+      "lang": "Lakota (Sioux)",
+      "era": "pre-1700s",
+      "note": "meaning \"a dwelling\", a portable conical tent",
+      "meaning": "a dwelling, tent",
+      "lat": 44.5,
+      "lon": -100.0
+    },
+    {
+      "word": "tepee",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted through contact with the Plains peoples of North America",
+      "meaning": "a conical tent traditionally made of animal skins",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a portable, conical tent traditionally used by Plains Native American peoples"
+}

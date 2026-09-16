@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Nicolas Chauvin",
+      "lang": "French",
+      "era": "1800s",
+      "note": "a soldier famed, likely apocryphally, for his excessive devotion to Napoleon and France",
+      "meaning": "a soldier's name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chauvinism",
+      "lang": "English",
+      "era": "1870s",
+      "note": "coined from the name for excessive, unreasoning patriotism or group loyalty",
+      "meaning": "excessive or biased loyalty to one's own group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "excessive or prejudiced devotion to one's own group, cause, or gender"
+}

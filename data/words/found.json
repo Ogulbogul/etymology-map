@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fundus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "bottom, base, giving rise to fundare (to lay a foundation)",
+      "meaning": "bottom, base",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fonder",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for establishing something on a solid base",
+      "meaning": "to establish something on a solid base",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "found",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for establishing an organization or institution",
+      "meaning": "to establish an organization or institution",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to establish or set up an organization, institution, or settlement"
+}

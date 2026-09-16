@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "verbatim",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "word for word, from verbum (word)",
+      "meaning": "word for word",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verbatim",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly into English for something repeated in exactly the same words",
+      "meaning": "in exactly the same words",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in exactly the same words as were used originally"
+}

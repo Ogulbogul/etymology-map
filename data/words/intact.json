@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tangere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to touch, with irregular past participle tactus",
+      "meaning": "to touch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intactus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "untouched, whole, from in- (not) and tactus (touched)",
+      "meaning": "untouched, whole",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intact",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something remaining whole and undamaged",
+      "meaning": "remaining whole and undamaged",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "remaining complete and undamaged, not broken or diminished"
+}

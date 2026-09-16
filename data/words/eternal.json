@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aeternus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "everlasting, from aevum (an age, eternity)",
+      "meaning": "everlasting",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "eternal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for lasting forever, without beginning or end",
+      "meaning": "lasting forever, without beginning or end",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lasting forever, without beginning or end"
+}

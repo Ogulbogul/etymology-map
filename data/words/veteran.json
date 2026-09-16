@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vetus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "old, aged",
+      "meaning": "old, aged",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "veteran",
+      "lang": "English",
+      "era": "1510s",
+      "note": "settled as the English word for someone with long experience, especially in the military",
+      "meaning": "a person with long experience, especially a former soldier",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person with long experience in a field, especially a former member of the armed forces"
+}

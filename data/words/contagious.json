@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "contingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to touch closely, from com- (together) and tangere (to touch)",
+      "meaning": "to touch closely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contagio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a touching together, infection spread by contact, from contingere",
+      "meaning": "infection spread by contact",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contagious",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a disease spread by contact, or something that spreads easily",
+      "meaning": "spread by direct or indirect contact, or easily spreading",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "spreading from one person to another through contact, or easily spreading"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "Zaytun",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the Chinese port city of Quanzhou",
+      "meaning": "the port city of Quanzhou",
+      "lat": 24.87,
+      "lon": 118.68
+    },
+    {
+      "word": "zaytuni",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "described the glossy silk fabric exported from that port",
+      "meaning": "silk from Quanzhou",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "satin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through Mediterranean silk trade",
+      "meaning": "a glossy silk weave",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "satin",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the fabric weave",
+      "meaning": "a smooth, glossy fabric weave",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a smooth, glossy fabric woven with a distinctive shiny surface"
+}

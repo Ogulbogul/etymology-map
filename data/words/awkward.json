@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "afugr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "turned the wrong way, backwards",
+      "meaning": "turned backwards, contrary",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "awkward",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for clumsy or socially uncomfortable",
+      "meaning": "clumsy or socially uncomfortable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "causing difficulty, embarrassment, or lacking social ease"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pierogi",
+      "lang": "Polish",
+      "era": "medieval",
+      "note": "dumplings filled with potato, cheese, or meat, a staple of Polish cuisine",
+      "meaning": "filled dumplings",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "pierogi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted by English speakers through Polish immigrant communities",
+      "meaning": "filled Polish dumplings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "boiled or fried dumplings filled with potato, cheese, or meat"
+}

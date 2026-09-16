@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pressura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a pressing, from premere (to press)",
+      "meaning": "a pressing, squeezing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pressure",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the physics word for force applied over an area",
+      "meaning": "force applied over a given area",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the force exerted over a given area, or a feeling of stress"
+}

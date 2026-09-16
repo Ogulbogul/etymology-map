@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Schick",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"skill\" or \"aptness\"",
+      "meaning": "skill, tact",
+      "lat": 50.94,
+      "lon": 6.96
+    },
+    {
+      "word": "chic",
+      "lang": "French",
+      "era": "1800s",
+      "note": "adopted to describe stylish elegance",
+      "meaning": "stylish elegance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chic",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed directly from French",
+      "meaning": "stylish and fashionable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "elegantly and stylishly fashionable"
+}

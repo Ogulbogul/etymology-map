@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "revertere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to turn back, from re- (back) and vertere (to turn)",
+      "meaning": "to turn back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "revert",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for returning to a previous state",
+      "meaning": "to return to a previous state or condition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to return to a previous state, condition, or practice"
+}

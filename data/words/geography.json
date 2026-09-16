@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ge",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "earth, combined with graphein (to write) for describing the earth",
+      "meaning": "earth",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "geographie",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried into French for the study of the earth's features",
+      "meaning": "the study of the earth's features",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "geography",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English name for the science",
+      "meaning": "the study of the earth's physical features",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of the earth's physical features and human activity"
+}

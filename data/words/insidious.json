@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sit, giving rise to insidere (to sit in wait, to lie in ambush)",
+      "meaning": "to sit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "insidiosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "lying in wait, deceitful, from insidiae (an ambush, from insidere)",
+      "meaning": "lying in wait, deceitful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "insidious",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for something proceeding harmfully but gradually or subtly",
+      "meaning": "proceeding harmfully but gradually or subtly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "proceeding in a harmful way that is gradual, subtle, and hard to notice"
+}

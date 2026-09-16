@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "acquirere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek to obtain, from ad- (to) and quaerere (to seek)",
+      "meaning": "to seek to obtain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "acquire",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for gaining possession of something",
+      "meaning": "to gain possession of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to gain possession of something, especially through one's own effort"
+}

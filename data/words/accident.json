@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "accidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fall toward, to happen, from ad- (toward) and cadere (to fall)",
+      "meaning": "to happen, to fall toward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accident",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an unexpected, unfortunate event",
+      "meaning": "an unexpected and unintentional event, often unfortunate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unfortunate event that happens unexpectedly and unintentionally"
+}

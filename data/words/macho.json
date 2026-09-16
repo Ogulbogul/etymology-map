@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "masculus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"male\"",
+      "meaning": "male",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "macho",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"male\" and later, exaggerated masculinity",
+      "meaning": "male; exaggeratedly masculine",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "macho",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through contact with Spanish and Mexican-American culture",
+      "meaning": "exaggeratedly or aggressively masculine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing exaggerated or aggressive masculine pride"
+}

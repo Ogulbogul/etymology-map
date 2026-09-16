@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to prick, to pierce, with irregular past participle punctus",
+      "meaning": "to prick, to pierce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "punctum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a prick, a small mark, from pungere",
+      "meaning": "a prick, a small mark",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "point",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a sharp end, or a precise location",
+      "meaning": "a sharp end, or a precise location",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "point",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a sharp end, a precise spot, or a main idea",
+      "meaning": "a sharp end, a precise spot, or a main idea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sharp tip, a precise location, or the main idea of something"
+}

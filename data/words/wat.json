@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wat",
+      "lang": "Amharic",
+      "era": "medieval",
+      "note": "a thick, spicy stew central to Ethiopian and Eritrean cuisine",
+      "meaning": "a spicy stew",
+      "lat": 9.03,
+      "lon": 38.74
+    },
+    {
+      "word": "wat",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Ethiopian cuisine became known internationally",
+      "meaning": "a thick, spicy Ethiopian stew",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thick, spicy stew central to Ethiopian and Eritrean cuisine, often served with injera"
+}

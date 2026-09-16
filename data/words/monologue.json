@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "monos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "single, alone, combined with logos (speech)",
+      "meaning": "alone, single",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "monologue",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a long speech by a single speaker",
+      "meaning": "a long speech given by a single person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long speech delivered by a single person, especially in a play or performance"
+}

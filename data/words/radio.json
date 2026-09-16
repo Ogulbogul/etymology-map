@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "radius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a ray, a spoke, the root behind radiating waves",
+      "meaning": "a ray, a beam",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "radio",
+      "lang": "English",
+      "era": "1897",
+      "note": "coined for the technology transmitting signals via radiating electromagnetic waves",
+      "meaning": "a technology for transmitting sound via electromagnetic waves",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a technology and device for transmitting and receiving sound via electromagnetic waves"
+}

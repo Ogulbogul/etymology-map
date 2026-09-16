@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pan",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "all, combined with kreas (flesh)",
+      "meaning": "all",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pankreas",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "all flesh, describing the glandular organ's uniform fleshy texture",
+      "meaning": "all flesh",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pancreas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin anatomical vocabulary",
+      "meaning": "the glandular organ",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pancreas",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for the digestive and endocrine gland",
+      "meaning": "a gland behind the stomach that aids digestion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a gland behind the stomach that produces digestive enzymes and insulin"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vice comes",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "literally deputy count, from vice- (in place of) and comes (count)",
+      "meaning": "a deputy count",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "viscounte",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "settled in French for a nobleman ranking just below a count",
+      "meaning": "a nobleman below a count",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "viscount",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted as the English title for a nobleman ranking below an earl",
+      "meaning": "a nobleman ranking below an earl and above a baron",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nobleman ranking below an earl or count and above a baron"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "depositum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"a thing deposited\"",
+      "meaning": "a deposit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dépôt",
+      "lang": "French",
+      "era": "medieval",
+      "note": "came to mean a storage place or warehouse",
+      "meaning": "a storage place",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "depot",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted for a storage facility or transit station",
+      "meaning": "a storage facility or transit station",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place for storing goods, or a small train or bus station"
+}

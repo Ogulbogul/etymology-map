@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "til",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to, until, marking an endpoint in time or space",
+      "meaning": "to, until",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "till",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for up to a point in time",
+      "meaning": "up until a specified time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "up to the time of, until"
+}

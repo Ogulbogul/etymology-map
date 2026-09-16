@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "otaku",
+      "lang": "Japanese",
+      "era": "1980s",
+      "note": "originally a formal word for your house, later applied to obsessive hobbyists who rarely left home",
+      "meaning": "your house, formally",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "otaku",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted directly for a person with an obsessive interest, especially in anime or manga",
+      "meaning": "a person with an obsessive interest in a hobby",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person with an obsessive interest in a particular hobby, especially anime or manga"
+}

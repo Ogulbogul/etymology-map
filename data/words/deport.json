@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deportare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry away, from de- (away) and portare (to carry)",
+      "meaning": "to carry away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deport",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for expelling a foreigner from a country",
+      "meaning": "to expel a foreigner from a country",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to expel a foreign national from a country, typically for violating immigration law"
+}

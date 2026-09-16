@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flasco",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"a bottle\" or \"flask\"",
+      "meaning": "a bottle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fiasco",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "a theatrical phrase \"fare fiasco\" (to make a bottle) meant to fail on stage",
+      "meaning": "a complete failure",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "fiasco",
+      "lang": "French/English",
+      "era": "1800s",
+      "note": "adopted through French theatrical slang",
+      "meaning": "an embarrassing and complete failure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a complete and embarrassing failure"
+}

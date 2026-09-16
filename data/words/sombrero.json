@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sombra",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"shade\"",
+      "meaning": "shade",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "sombrero",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "named the broad-brimmed hat that provides shade",
+      "meaning": "a broad-brimmed hat",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "sombrero",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through contact with Mexican and Spanish culture",
+      "meaning": "a broad-brimmed straw or felt hat",
+      "lat": 19.43,
+      "lon": -99.13
+    }
+  ],
+  "current_meaning": "a broad-brimmed hat, traditionally worn in Mexico and the American Southwest"
+}

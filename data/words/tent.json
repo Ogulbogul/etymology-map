@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stretch, describing fabric stretched over poles for shelter",
+      "meaning": "to stretch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tente",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a portable shelter of stretched fabric",
+      "meaning": "a portable shelter of stretched fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tent",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a portable fabric shelter",
+      "meaning": "a portable shelter made of fabric stretched over a frame",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a portable shelter made of fabric stretched over a supporting frame"
+}

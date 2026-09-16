@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "thermos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "hot, combined with statos (standing, stationary)",
+      "meaning": "hot",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "thermostat",
+      "lang": "English",
+      "era": "1830",
+      "note": "coined from Greek thermos (hot) and statos (standing) for a device that keeps temperature steady",
+      "meaning": "a device that keeps temperature steady",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device that automatically regulates temperature"
+}

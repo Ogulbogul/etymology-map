@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "iaspis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the name for an opaque, colorful variety of quartz",
+      "meaning": "an opaque colored stone",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "jaspre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French gemstone vocabulary",
+      "meaning": "an opaque colored gemstone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "jasper",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the opaque, patterned quartz",
+      "meaning": "an opaque, patterned variety of quartz",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an opaque, often patterned variety of quartz used as a gemstone"
+}

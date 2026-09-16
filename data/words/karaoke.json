@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "karaoke",
+      "lang": "Japanese",
+      "era": "1970s",
+      "note": "blends \"kara\" (empty) with a clipped form of \"okesutora\" (orchestra)",
+      "meaning": "empty orchestra",
+      "lat": 34.69,
+      "lon": 135.19
+    },
+    {
+      "word": "karaoke",
+      "lang": "English",
+      "era": "1980s",
+      "note": "spread internationally with karaoke bars and machines",
+      "meaning": "singing along to pre-recorded backing music",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "entertainment where people sing along to recorded backing music"
+}

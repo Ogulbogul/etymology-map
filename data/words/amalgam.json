@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-malgham",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a softening ointment, used in alchemical texts for metal mixtures",
+      "meaning": "a softening substance",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "amalgame",
+      "lang": "Medieval Latin/French",
+      "era": "medieval",
+      "note": "carried into European alchemical vocabulary for mercury-metal mixtures",
+      "meaning": "a mixture of mercury with another metal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "amalgam",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for any blended mixture",
+      "meaning": "a mixture or blend of different elements",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mixture or blend of different elements or substances"
+}

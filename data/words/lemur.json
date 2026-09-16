@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lemures",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the restless spirits of the dead in Roman belief",
+      "meaning": "spirits of the dead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lemur",
+      "lang": "New Latin",
+      "era": "1758",
+      "note": "coined by Linnaeus for the wide-eyed nocturnal primate, evoking ghostly spirits",
+      "meaning": "a wide-eyed nocturnal primate",
+      "lat": 59.86,
+      "lon": 17.64
+    },
+    {
+      "word": "lemur",
+      "lang": "English",
+      "era": "1795",
+      "note": "adopted directly for the nocturnal primate native to Madagascar",
+      "meaning": "a nocturnal primate native to Madagascar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wide-eyed, nocturnal primate native to Madagascar"
+}

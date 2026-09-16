@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "penzai",
+      "lang": "Chinese",
+      "era": "ancient",
+      "note": "literally \"tray planting\", the origin of the miniature tree art",
+      "meaning": "tray planting",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "bonsai",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "adopted and refined the art of miniature potted trees",
+      "meaning": "tray-planted miniature tree",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "bonsai",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from Japanese",
+      "meaning": "a miniature, artistically shaped potted tree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the art of growing miniature, artistically shaped trees in containers"
+}

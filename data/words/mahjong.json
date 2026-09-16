@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ma que",
+      "lang": "Chinese",
+      "era": "1800s",
+      "note": "literally \"sparrow\", possibly describing the clicking sound of the tiles",
+      "meaning": "sparrow",
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    {
+      "word": "mahjong",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted as the tile-based game became a fad in the West",
+      "meaning": "a tile-based game for four players",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tile-based game for four players, originating in China"
+}

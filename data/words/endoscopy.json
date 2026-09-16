@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "endon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "within, inside, combined with skopein (to view)",
+      "meaning": "within, inside",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "endoscopy",
+      "lang": "English",
+      "era": "1870s",
+      "note": "coined for the medical procedure of viewing inside the body",
+      "meaning": "a medical procedure for viewing inside the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medical procedure using an instrument to view the inside of the body"
+}

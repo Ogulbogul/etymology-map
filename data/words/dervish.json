@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "darvish",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "a Sufi Muslim ascetic known for whirling meditative dance",
+      "meaning": "a poor mendicant, a Sufi ascetic",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    {
+      "word": "dervish",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly for the whirling Sufi mystics of the Ottoman world",
+      "meaning": "a member of a Sufi order known for ecstatic dance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a member of a Sufi Muslim order known for ascetic practice and whirling dance"
+}

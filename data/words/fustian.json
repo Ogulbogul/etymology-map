@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-Fustat",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the old capital city near Cairo where a coarse cloth was made",
+      "meaning": "the city of Fustat, near Cairo",
+      "lat": 30.0,
+      "lon": 31.23
+    },
+    {
+      "word": "fustaigne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "named the sturdy cotton-and-linen fabric after the city",
+      "meaning": "a coarse cotton and linen cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fustian",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the sturdy fabric",
+      "meaning": "a thick, twilled cotton fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thick, sturdy cotton fabric, or (figuratively) pompous language"
+}

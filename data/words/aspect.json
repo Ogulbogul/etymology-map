@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aspicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look at, from ad- (at) and specere (to look)",
+      "meaning": "to look at",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aspect",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a particular part or feature of something",
+      "meaning": "a particular part or feature of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular part or feature of a situation, idea, or object"
+}

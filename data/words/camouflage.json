@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "camuffare",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "meaning \"to disguise\"",
+      "meaning": "to disguise",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "camoufler",
+      "lang": "French",
+      "era": "1800s",
+      "note": "adopted into French theatrical and slang usage",
+      "meaning": "to disguise, to puff smoke in someone's face",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "camouflage",
+      "lang": "English",
+      "era": "1917",
+      "note": "adopted during World War I for military concealment techniques",
+      "meaning": "disguise or concealment through coloring and pattern",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the disguising of military personnel or equipment to blend with surroundings"
+}

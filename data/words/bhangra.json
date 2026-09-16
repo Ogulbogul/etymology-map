@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bhangra",
+      "lang": "Punjabi",
+      "era": "medieval",
+      "note": "a lively folk dance and music style originating from harvest celebrations in Punjab",
+      "meaning": "a Punjabi harvest dance",
+      "lat": 30.9,
+      "lon": 75.86
+    },
+    {
+      "word": "bhangra",
+      "lang": "English",
+      "era": "1980s",
+      "note": "adopted directly as the energetic music and dance style spread internationally",
+      "meaning": "a lively Punjabi folk dance and music style",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lively style of Punjabi folk music and dance, associated with harvest celebrations"
+}

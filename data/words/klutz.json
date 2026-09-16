@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "klots",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "literally \"a wooden beam\" or \"block\"",
+      "meaning": "a wooden block",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "klutz",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities",
+      "meaning": "a clumsy, awkward person",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a clumsy or awkward person"
+}

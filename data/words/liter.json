@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "litra",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a unit of weight, later adapted for a unit of liquid volume",
+      "meaning": "a unit of weight",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "litre",
+      "lang": "French",
+      "era": "1790s",
+      "note": "adopted in French during the Revolution's creation of the metric system",
+      "meaning": "the base unit of volume in the metric system",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "liter",
+      "lang": "English",
+      "era": "1810",
+      "note": "settled as the English spelling for the metric unit of liquid volume",
+      "meaning": "the base unit of volume in the metric system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a metric unit of volume, especially for liquids"
+}

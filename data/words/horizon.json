@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "horizon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from \"horizein\" (to bound, limit)",
+      "meaning": "the bounding line",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "horizon",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek astronomical writing",
+      "meaning": "the line bounding the visible earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "orizon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the astronomical term into French",
+      "meaning": "the horizon line",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "horizon",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for the visible boundary of earth and sky",
+      "meaning": "the line where the earth meets the sky",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the line at which the earth's surface and the sky appear to meet"
+}

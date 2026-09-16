@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cadere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fall, giving rise to casus (a fall, an event, an instance)",
+      "meaning": "to fall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cas",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a particular instance or situation",
+      "meaning": "a particular instance or situation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "case",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a particular instance, situation, or legal matter",
+      "meaning": "a particular instance, situation, or legal matter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular instance or situation, or a matter under investigation or in court"
+}

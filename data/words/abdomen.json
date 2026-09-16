@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "abdomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the belly, the fatty part of the body",
+      "meaning": "the belly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "abdomen",
+      "lang": "English",
+      "era": "1540s",
+      "note": "adopted directly as the anatomical word for the belly region",
+      "meaning": "the belly region of the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the part of the body between the chest and pelvis, containing the digestive organs"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "salame",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a cured sausage, from sale (salt), the preservation method",
+      "meaning": "salted, cured sausage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "salami",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the cured sausage",
+      "meaning": "a cured, seasoned sausage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cured, air-dried sausage, typically seasoned and salted"
+}

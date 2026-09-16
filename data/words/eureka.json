@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "heureka",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally I have found it, famously exclaimed by Archimedes upon a sudden discovery",
+      "meaning": "I have found it",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "eureka",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly as an exclamation of triumphant discovery",
+      "meaning": "an exclamation of triumphant discovery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an exclamation of joy or satisfaction upon finding or discovering something"
+}

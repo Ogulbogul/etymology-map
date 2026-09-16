@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vivere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to live, combined with re- (again)",
+      "meaning": "to live",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "revivere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to live again, from re- (again) and vivere (to live)",
+      "meaning": "to live again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "revive",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for restoring something to life or activity",
+      "meaning": "to restore something to life, activity, or vigor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to restore someone or something to life, activity, or good health"
+}

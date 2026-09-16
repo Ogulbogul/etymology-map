@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cannabis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "hemp, the plant whose coarse fiber was woven into heavy cloth",
+      "meaning": "hemp",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "canevas",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the coarse hemp-woven fabric",
+      "meaning": "a coarse hemp fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "canvas",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the heavy woven fabric used for sails and painting",
+      "meaning": "a heavy, coarse woven fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong, coarse fabric used for sails, tents, and painting surfaces"
+}

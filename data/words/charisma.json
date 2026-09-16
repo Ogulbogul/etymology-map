@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kharisma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a favor, a divine gift, from kharis (grace)",
+      "meaning": "a gift of grace",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "charisma",
+      "lang": "English",
+      "era": "1640s",
+      "note": "broadened from a divinely granted gift to a compelling personal quality",
+      "meaning": "a compelling charm or magnetism",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a compelling attractiveness or charm that inspires devotion in others"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "laks",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "meaning \"salmon\", from an old Germanic root",
+      "meaning": "salmon",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "lox",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities, especially for cured salmon",
+      "meaning": "brine-cured salmon",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "salmon that has been cured in a brine solution"
+}

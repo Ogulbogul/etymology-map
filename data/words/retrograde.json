@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "retro gradi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to go backward, from retro- (backward) and gradi (to step, to walk)",
+      "meaning": "to go backward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retrogradus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "moving backward, from retrogradi",
+      "meaning": "moving backward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retrograde",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for moving backward or reverting to an earlier state",
+      "meaning": "moving backward, or reverting to an earlier and worse state",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "moving backward, or reverting to a former and typically worse state"
+}

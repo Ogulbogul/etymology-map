@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tilasm",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "an object marked with magical signs, believed to bring luck or protection, from Greek telesma (completion, rite)",
+      "meaning": "a magical protective object",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "talisman",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried into French for an object believed to have magical power",
+      "meaning": "a magical protective charm",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "talisman",
+      "lang": "English",
+      "era": "1630s",
+      "note": "settled as the English word for a lucky charm",
+      "meaning": "an object believed to bring luck or protection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object believed to bring good luck or magical protection"
+}

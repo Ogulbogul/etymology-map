@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "punctus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a point, from pungere (to prick, to puncture)",
+      "meaning": "a point",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "punctual",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed from relating to a precise point to arriving exactly on time",
+      "meaning": "arriving or acting exactly at the expected time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "arriving, acting, or doing something at the exact expected time"
+}

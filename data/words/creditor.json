@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "credere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to believe, to trust, with irregular past participle creditus",
+      "meaning": "to believe, to trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "creditor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one to whom something is entrusted, a lender, from credere",
+      "meaning": "one to whom something is entrusted, a lender",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "creditor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a person or institution to whom money is owed",
+      "meaning": "a person or institution to whom money is owed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or institution to whom money is owed"
+}

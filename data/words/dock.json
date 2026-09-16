@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dok",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a channel or basin where ships are loaded and repaired",
+      "meaning": "a ship basin",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "dock",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly from Dutch maritime vocabulary",
+      "meaning": "a structure for loading and unloading ships",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a structure built along a waterfront for loading, unloading, or repairing ships"
+}

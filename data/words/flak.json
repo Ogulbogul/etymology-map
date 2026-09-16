@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Fliegerabwehrkanone",
+      "lang": "German",
+      "era": "1930s",
+      "note": "an acronym meaning \"aircraft defense cannon\"",
+      "meaning": "anti-aircraft cannon",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Flak",
+      "lang": "German",
+      "era": "1930s-1940s",
+      "note": "shortened to the acronym for anti-aircraft fire",
+      "meaning": "anti-aircraft fire",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "flak",
+      "lang": "English",
+      "era": "1940s",
+      "note": "adopted during World War II, later used figuratively",
+      "meaning": "anti-aircraft fire; harsh criticism",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "anti-aircraft fire, or harsh criticism directed at someone"
+}

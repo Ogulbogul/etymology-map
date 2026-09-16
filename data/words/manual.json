@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "manus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hand",
+      "meaning": "hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manualis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the hand, from manus",
+      "meaning": "of the hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manual",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something operated by hand, or a handbook",
+      "meaning": "operated by hand, or a handbook of instructions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "operated by hand rather than automatically, or a book of instructions"
+}

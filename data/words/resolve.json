@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "resolvere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to loosen back, to settle, from re- (back) and solvere (to loosen)",
+      "meaning": "to loosen, to settle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "resolve",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for finding a solution, or firmly deciding something",
+      "meaning": "to find a solution, or to firmly decide something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to find a solution to a problem, or to make a firm decision"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "laubja",
+      "lang": "Old High German",
+      "era": "medieval",
+      "note": "an arbor, a leafy shelter, the root behind a covered gallery",
+      "meaning": "an arbor, a shelter",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "loggia",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for an open-sided gallery or corridor",
+      "meaning": "an open-sided covered gallery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "loggia",
+      "lang": "English",
+      "era": "1740s",
+      "note": "adopted directly for the open-sided architectural gallery",
+      "meaning": "an open-sided covered gallery or corridor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a covered exterior gallery or corridor, open on one or more sides"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "houd vast",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "literally hold fast, a nautical command to stop or hold firm",
+      "meaning": "hold fast",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "avast",
+      "lang": "English",
+      "era": "1680s",
+      "note": "adopted directly into English sailors' vocabulary as a command to stop",
+      "meaning": "a nautical command meaning stop or cease",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nautical command meaning stop or cease an action"
+}

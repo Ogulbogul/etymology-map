@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fundus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "bottom, base, combined with pro- (forth)",
+      "meaning": "bottom, base",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "profundus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "deep, from pro- (forth) and fundus (bottom)",
+      "meaning": "deep",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "profund",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for something intellectually or emotionally deep",
+      "meaning": "intellectually or emotionally deep",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "profound",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something very deep or intense",
+      "meaning": "very deep, intense, or insightful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having or showing great insight or depth, or very deeply felt"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "secundarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the second rank, from secundus (second, following)",
+      "meaning": "of the second rank",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "secondary",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something second in importance or order",
+      "meaning": "second in importance, order, or sequence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "coming after the first, or of secondary importance"
+}

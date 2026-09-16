@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "persona non grata",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an unwelcome person, from persona (person), non (not), and gratus (pleasing)",
+      "meaning": "an unwelcome person",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "persona non grata",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English diplomatic vocabulary for an unwelcome individual",
+      "meaning": "a person who is not welcome, especially in a diplomatic context",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who is not welcome somewhere, especially in a diplomatic setting"
+}

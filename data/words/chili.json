@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chilli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "the Nahuatl name for the hot pepper",
+      "meaning": "chili pepper",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chile",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "adopted from Nahuatl via Spanish colonial contact",
+      "meaning": "chili pepper",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "chili",
+      "lang": "English",
+      "era": "1600s",
+      "note": "borrowed from Spanish",
+      "meaning": "the hot pepper, or a dish made with it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot-tasting pepper, or a spicy dish made with peppers and meat or beans"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "flatr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "level, even, without curves or bumps",
+      "meaning": "level, even",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "flat",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the standard English word for a level surface, later an apartment",
+      "meaning": "level and smooth, or a single-story apartment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a level, even surface, or a self-contained apartment"
+}

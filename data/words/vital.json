@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vita",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "life, from vivere (to live)",
+      "meaning": "life",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vitalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of life, essential to life, from vita",
+      "meaning": "of life, essential to life",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vital",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something absolutely necessary or full of life",
+      "meaning": "absolutely necessary, or full of life and energy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "absolutely necessary or essential, or full of energy and life"
+}

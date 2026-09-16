@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rotabagge",
+      "lang": "Swedish (dialect)",
+      "era": "1700s",
+      "note": "combining \"rot\" (root) and \"bagge\" (a lump), the root vegetable",
+      "meaning": "a root vegetable",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "rutabaga",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Swedish dialect",
+      "meaning": "a large, edible root vegetable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, round root vegetable, also called a swede or Swedish turnip"
+}

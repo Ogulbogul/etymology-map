@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fondre",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to melt",
+      "meaning": "to melt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fondue",
+      "lang": "Swiss French",
+      "era": "1700s",
+      "note": "settled in Swiss French for a dish of melted cheese shared communally",
+      "meaning": "a dish of melted cheese",
+      "lat": 46.5,
+      "lon": 7.5
+    },
+    {
+      "word": "fondue",
+      "lang": "English",
+      "era": "1878",
+      "note": "adopted directly for the melted, communal dish",
+      "meaning": "a dish of melted cheese or chocolate for dipping food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of melted cheese or chocolate, into which food is dipped"
+}

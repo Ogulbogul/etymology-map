@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "obicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to throw against, to present, with irregular past participle objectus",
+      "meaning": "to throw against, to present",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "objectivus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "relating to something presented to the mind, from objectus",
+      "meaning": "relating to something presented to the mind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "objective",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something based on facts, or a goal aimed at",
+      "meaning": "based on facts rather than feelings, or a goal aimed at",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "based on facts rather than personal feelings, or a goal that one aims to achieve"
+}

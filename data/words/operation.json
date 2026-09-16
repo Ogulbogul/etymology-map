@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "opus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "work, giving rise to operari (to work)",
+      "meaning": "work",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "operatio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a working, an action, from operari",
+      "meaning": "a working, an action",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "operation",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a process of working, or a surgical procedure",
+      "meaning": "a process of working, or a surgical procedure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized activity or process, or a surgical procedure"
+}

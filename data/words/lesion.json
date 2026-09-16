@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "laesio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an injury, a hurting, from laedere (to injure)",
+      "meaning": "an injury, a hurt",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lesion",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the medical word for a region of damaged tissue",
+      "meaning": "an area of damaged or abnormal tissue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a region of tissue that has been damaged by injury or disease"
+}

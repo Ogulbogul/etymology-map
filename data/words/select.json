@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "seligere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to choose apart, to pick out, from se- (apart) and legere (to choose)",
+      "meaning": "to choose apart, to pick out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "select",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for carefully choosing from a group",
+      "meaning": "to carefully choose from a group of options",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to carefully choose someone or something from a group"
+}

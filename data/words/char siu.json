@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cha siu",
+      "lang": "Cantonese",
+      "era": "medieval",
+      "note": "literally fork roasted, describing meat skewered and roasted over fire",
+      "meaning": "fork roasted",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "char siu",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the sweet, roasted Cantonese barbecue pork",
+      "meaning": "sweet, roasted Cantonese barbecue pork",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Cantonese style of barbecue pork, glazed and roasted until sweet and caramelized"
+}

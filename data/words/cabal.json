@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "qabbalah",
+      "lang": "Hebrew",
+      "era": "medieval",
+      "note": "literally tradition or received knowledge, referring to Jewish mystical teaching",
+      "meaning": "a received tradition, mystical teaching",
+      "lat": 31.77,
+      "lon": 35.21
+    },
+    {
+      "word": "cabale",
+      "lang": "French",
+      "era": "1500s",
+      "note": "broadened in French to mean any secret intrigue or scheme",
+      "meaning": "a secret scheme or intrigue",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cabal",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a secret political faction",
+      "meaning": "a secret political faction or conspiracy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a secret group of people plotting together, especially in politics"
+}

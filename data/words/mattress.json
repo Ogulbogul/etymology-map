@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "al-matrah",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"the place where something is thrown down\"",
+      "meaning": "cushion, place to lie down",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "materasso",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "adopted through Sicilian and Crusader-era trade contact",
+      "meaning": "mattress",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "materas",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "carried the padded sleeping surface into French",
+      "meaning": "mattress",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mattress",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a bed's padded surface",
+      "meaning": "a padded surface for sleeping",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a padded, often springy pad used on a bed for sleeping"
+}

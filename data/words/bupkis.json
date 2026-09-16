@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bobkes",
+      "lang": "Yiddish",
+      "era": "1800s",
+      "note": "literally goat droppings, used to mean something utterly worthless",
+      "meaning": "goat droppings, nothing of value",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "bupkis",
+      "lang": "English",
+      "era": "1930s",
+      "note": "adopted through Yiddish-speaking Jewish communities into American English",
+      "meaning": "absolutely nothing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "absolutely nothing, especially something worthless or trivial"
+}

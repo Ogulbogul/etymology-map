@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "envelopper",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meaning \"to wrap up\" or \"enclose\"",
+      "meaning": "to wrap, enclose",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enveloppe",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the noun form for a wrapping or covering",
+      "meaning": "a wrapping, covering",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "envelope",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted for the paper wrapping used for letters",
+      "meaning": "a paper covering for a letter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat paper container used to enclose a letter or document"
+}

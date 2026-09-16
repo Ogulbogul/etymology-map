@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "battuere",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "to beat, to strike",
+      "meaning": "to beat, to strike",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bataille",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for an armed fight between opposing forces",
+      "meaning": "an armed fight",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "battle",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a fight between armed forces",
+      "meaning": "a fight between armed forces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sustained fight between large organized armed forces"
+}

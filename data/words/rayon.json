@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rai",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a ray of light, the root behind a fabric named for its light-reflecting sheen",
+      "meaning": "a ray, a beam of light",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rayon",
+      "lang": "English",
+      "era": "1924",
+      "note": "coined as a trade name from ray, describing the fabric's lustrous sheen",
+      "meaning": "a semi-synthetic fiber made from cellulose",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a semi-synthetic fiber made from regenerated cellulose"
+}

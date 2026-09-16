@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "feitico",
+      "lang": "Portuguese",
+      "era": "1400s",
+      "note": "an object believed to have magical power, from Latin facticius (artificial, made)",
+      "meaning": "a charm or magical object",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "fetiche",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried into French through accounts of West African religious objects",
+      "meaning": "an object believed to hold spiritual power",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fetish",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word, later broadened to any object of obsessive focus",
+      "meaning": "an object of obsessive attention or reverence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object of excessive or irrational devotion or focus"
+}

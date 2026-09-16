@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Blitz",
+      "lang": "German",
+      "era": "medieval",
+      "note": "lightning, combined with Krieg (war)",
+      "meaning": "lightning",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "blitzkrieg",
+      "lang": "German",
+      "era": "1935",
+      "note": "coined for a military strategy of fast, overwhelming surprise attacks",
+      "meaning": "a fast, overwhelming military attack",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "blitzkrieg",
+      "lang": "English",
+      "era": "1939",
+      "note": "adopted directly as the German military tactic became known worldwide",
+      "meaning": "a rapid, intensive military attack",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an intense, rapid military offensive intended to secure a swift victory"
+}

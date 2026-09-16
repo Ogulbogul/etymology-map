@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kalua",
+      "lang": "Hawaiian",
+      "era": "ancient",
+      "note": "literally to cook in an underground oven, a traditional method using heated stones",
+      "meaning": "to cook in an underground oven",
+      "lat": 21.31,
+      "lon": -157.86
+    },
+    {
+      "word": "kalua",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the traditional Hawaiian method of pit-cooking, especially pork",
+      "meaning": "food cooked in a traditional Hawaiian underground oven",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Hawaiian cooking method using an underground oven, or food prepared this way"
+}

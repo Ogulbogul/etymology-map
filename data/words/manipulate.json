@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "manus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hand, combined with plere (to fill) to form manipulus (a handful)",
+      "meaning": "hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manipuler",
+      "lang": "French",
+      "era": "1700s",
+      "note": "formed for handling objects skillfully, especially in chemistry",
+      "meaning": "to handle objects skillfully",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "manipulate",
+      "lang": "English",
+      "era": "1820s",
+      "note": "adopted from French for handling skillfully, or influencing someone unfairly",
+      "meaning": "to handle skillfully, or to influence someone unfairly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to handle or control something skillfully, or to influence someone unfairly"
+}

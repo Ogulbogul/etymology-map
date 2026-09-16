@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "salsus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally salted, from sal (salt), describing a seasoned liquid condiment",
+      "meaning": "salted",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sauce",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a liquid condiment served with food",
+      "meaning": "a liquid condiment served with food",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sauce",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a flavorful liquid accompaniment to food",
+      "meaning": "a flavorful liquid or semi-liquid accompaniment to food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a liquid or semi-liquid preparation served with food to add flavor or moisture"
+}

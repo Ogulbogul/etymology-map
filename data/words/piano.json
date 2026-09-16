@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pianoforte",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally \"soft-loud\", describing the instrument's dynamic range",
+      "meaning": "soft-loud, the keyboard instrument",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "piano",
+      "lang": "English",
+      "era": "1800s",
+      "note": "shortened from \"pianoforte\" in everyday use",
+      "meaning": "the keyboard instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large keyboard musical instrument with hammer-struck strings"
+}

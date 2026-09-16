@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wiki",
+      "lang": "Hawaiian",
+      "era": "ancient",
+      "note": "meaning \"quick\" or \"fast\"",
+      "meaning": "quick, fast",
+      "lat": 21.31,
+      "lon": -157.86
+    },
+    {
+      "word": "wiki",
+      "lang": "English",
+      "era": "1995",
+      "note": "adopted for quickly editable collaborative websites",
+      "meaning": "a collaboratively editable website",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a website that allows collaborative editing of its content by users"
+}

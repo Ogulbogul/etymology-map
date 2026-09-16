@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "empanar",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "to wrap in bread or pastry, from pan (bread)",
+      "meaning": "to wrap in bread or pastry",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "empanada",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the baked or fried stuffed pastry",
+      "meaning": "a baked or fried pastry filled with meat or vegetables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a baked or fried pastry filled with meat, cheese, or vegetables"
+}

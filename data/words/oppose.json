@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ob ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to put against, from ob- (against) and ponere (to place)",
+      "meaning": "to put against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "opposer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for standing against something",
+      "meaning": "to stand against something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "oppose",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for actively disagreeing with or resisting something",
+      "meaning": "to actively disagree with or resist something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to actively disagree with, resist, or take a stand against something"
+}

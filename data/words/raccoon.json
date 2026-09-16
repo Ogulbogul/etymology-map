@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aroughcun",
+      "lang": "Powhatan",
+      "era": "pre-1600s",
+      "note": "literally \"one who scratches with the hands\"",
+      "meaning": "raccoon",
+      "lat": 37.21,
+      "lon": -76.78
+    },
+    {
+      "word": "raccoon",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in Virginia",
+      "meaning": "the small nocturnal mammal",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a small, nocturnal North American mammal with a masked face and ringed tail"
+}

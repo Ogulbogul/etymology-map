@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fluere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to flow, combined with super- (over)",
+      "meaning": "to flow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "superfluus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "overflowing, unnecessary, from super- and fluere",
+      "meaning": "overflowing, unnecessary",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "superfluous",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something unnecessary because more than what is needed",
+      "meaning": "unnecessary because more than what is needed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unnecessary, especially because more than what is needed"
+}

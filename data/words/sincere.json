@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sincerus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly literally without wax, from sine (without) and cera (wax), describing pottery unblemished by wax repairs",
+      "meaning": "pure, unblemished, without wax",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sincere",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for genuine, honest feeling",
+      "meaning": "free from pretense or deceit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "free from pretense or deceit, genuinely honest"
+}

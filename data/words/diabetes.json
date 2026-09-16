@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "diabetes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a passing through, a siphon, from diabainein (to pass through)",
+      "meaning": "a siphon, a passing through",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "diabetes",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the medical word for the condition marked by excessive urination",
+      "meaning": "a condition affecting blood sugar regulation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a chronic condition in which the body cannot properly regulate blood sugar"
+}

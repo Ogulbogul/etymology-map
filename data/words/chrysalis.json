@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khrysallis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "related to khrysos (gold), describing the golden sheen of some pupal cases",
+      "meaning": "a gold-colored casing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chrysalis",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a butterfly's protective pupal case",
+      "meaning": "the protective casing of a developing butterfly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the hard protective casing of a butterfly or moth pupa"
+}

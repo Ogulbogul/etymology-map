@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "plunderen",
+      "lang": "Dutch/German",
+      "era": "medieval",
+      "note": "meaning \"to rob of household goods\", from \"plunder\" (household items)",
+      "meaning": "to strip a household of goods",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "plunder",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted during the Thirty Years' War through military contact",
+      "meaning": "to rob by force, especially during war",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to rob a place or person by force, especially during war or chaos"
+}

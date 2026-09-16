@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Strontian",
+      "lang": "Scottish Gaelic",
+      "era": "1790s",
+      "note": "a village in Scotland where the mineral containing the element was discovered",
+      "meaning": "a Scottish village name",
+      "lat": 56.69,
+      "lon": -5.57
+    },
+    {
+      "word": "strontium",
+      "lang": "English",
+      "era": "1808",
+      "note": "named for the village where the mineral was first found",
+      "meaning": "a soft, silvery-yellow reactive metal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, silvery-yellow reactive metallic element"
+}

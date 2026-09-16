@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carne levare",
+      "lang": "Latin",
+      "era": "medieval",
+      "note": "literally \"to remove meat\", marking the start of Lent's fasting",
+      "meaning": "to remove meat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carnevale",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named the festive period before Lent's fasting began",
+      "meaning": "the festive pre-Lenten season",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "carnival",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "a festive public celebration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a public festival or celebration, often with music, costumes, and parades"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sukoshi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "meaning \"a little\" or \"a small amount\"",
+      "meaning": "a little bit",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "skosh",
+      "lang": "English",
+      "era": "1950s",
+      "note": "adopted by American servicemen stationed in Japan",
+      "meaning": "a small amount",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small amount; a little bit"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "referre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to refer, to carry back, from re- (back) and ferre (to carry)",
+      "meaning": "to refer back, to report",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "referee",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for one to whom a matter is referred for a decision",
+      "meaning": "an official who enforces the rules in a sport or contest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official who oversees a game or contest, enforcing its rules"
+}

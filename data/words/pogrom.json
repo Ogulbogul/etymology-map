@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pogrom",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "literally devastation, used for violent riots against Jewish communities",
+      "meaning": "devastation, destruction",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "pogrom",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted into English to describe organized violent persecution",
+      "meaning": "organized violent persecution of an ethnic group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized massacre or persecution of an ethnic or religious group"
+}

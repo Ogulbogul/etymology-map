@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "obsidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to besiege, from ob- (against) and sedere (to sit)",
+      "meaning": "to besiege",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obsession",
+      "lang": "English",
+      "era": "1500s",
+      "note": "broadened from being besieged by a hostile spirit to a persistent, intrusive preoccupation",
+      "meaning": "a persistent, intrusive preoccupation with something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a persistent, intrusive thought or preoccupation with something"
+}

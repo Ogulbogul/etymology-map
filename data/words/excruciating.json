@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "excruciare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally to torment from the cross, from ex- (out of) and crux (cross)",
+      "meaning": "to torture, to crucify",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "excruciating",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for intensely painful suffering",
+      "meaning": "intensely painful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "intensely painful, causing extreme suffering"
+}

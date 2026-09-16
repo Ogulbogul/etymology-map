@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "iners",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally unskilled, idle, from in- (without) and ars (skill)",
+      "meaning": "idle, unskilled",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inertia",
+      "lang": "English",
+      "era": "1710s",
+      "note": "adopted by physicists for a body's resistance to a change in motion",
+      "meaning": "resistance to a change in motion or state",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the tendency of an object to resist a change in its state of motion"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "densitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "thickness, compactness, from densus (thick, dense)",
+      "meaning": "thickness, compactness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "density",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the physics word for mass per unit volume",
+      "meaning": "the mass of a substance per unit volume",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the mass of a substance per unit of volume"
+}

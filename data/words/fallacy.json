@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fallere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to deceive, to trick",
+      "meaning": "to deceive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fallacy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a mistaken belief based on unsound reasoning",
+      "meaning": "a mistaken belief based on unsound reasoning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mistaken belief, especially one based on unsound or flawed reasoning"
+}

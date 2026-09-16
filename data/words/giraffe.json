@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "zarāfa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "possibly from an East African source, describing the tall animal",
+      "meaning": "giraffe",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "giraffa",
+      "lang": "Italian",
+      "era": "c. 1400s",
+      "note": "entered Europe alongside giraffes gifted to Italian courts",
+      "meaning": "giraffe",
+      "lat": 43.77,
+      "lon": 11.25
+    },
+    {
+      "word": "girafe",
+      "lang": "French",
+      "era": "c. 1500s",
+      "note": "spelling shifted slightly as it passed through French",
+      "meaning": "giraffe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "giraffe",
+      "lang": "English",
+      "era": "c. 1600s",
+      "note": "replaced the earlier English word \"camelopard\"",
+      "meaning": "the giraffe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tall African mammal with a very long neck and spotted coat"
+}

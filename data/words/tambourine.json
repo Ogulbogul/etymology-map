@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tunbur",
+      "lang": "Arabic/Persian",
+      "era": "medieval",
+      "note": "a stringed or percussion instrument, root of several drum names",
+      "meaning": "a musical instrument",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "tambourin",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for the small hand-held drum with jingling discs",
+      "meaning": "a small hand-held drum with jingles",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tambourine",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the percussion instrument",
+      "meaning": "a small hand-held drum with jingling discs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small percussion instrument with jingling metal discs around a frame"
+}

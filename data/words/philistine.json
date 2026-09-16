@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Plishtim",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "an ancient people who settled along the coast of Canaan, frequent rivals of the Israelites",
+      "meaning": "a member of the Philistine people",
+      "lat": 31.77,
+      "lon": 35.21
+    },
+    {
+      "word": "philistine",
+      "lang": "English",
+      "era": "1600s",
+      "note": "broadened by German students' slang into a word for someone hostile to culture and learning",
+      "meaning": "a person hostile or indifferent to culture and the arts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who is indifferent or hostile to art, literature, and culture"
+}

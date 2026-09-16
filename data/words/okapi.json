@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "okapi",
+      "lang": "Mbuti",
+      "era": "ancient",
+      "note": "the Congolese name for the forest-dwelling relative of the giraffe",
+      "meaning": "okapi",
+      "lat": 0.5,
+      "lon": 25.5
+    },
+    {
+      "word": "okapi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the elusive animal was formally described by Western science",
+      "meaning": "a forest-dwelling relative of the giraffe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a forest-dwelling mammal related to the giraffe, native to the Congo Basin"
+}

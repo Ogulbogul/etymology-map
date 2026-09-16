@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "skamt",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "short, brief, insufficient in amount",
+      "meaning": "short, insufficient",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "scant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for barely sufficient in amount",
+      "meaning": "barely sufficient, meager",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "barely sufficient or adequate in amount"
+}

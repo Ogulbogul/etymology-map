@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ganglion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "originally a tumor or swelling beneath the skin",
+      "meaning": "a swelling, a knot",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ganglion",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the medical word for a cluster of nerve cell bodies",
+      "meaning": "a cluster of nerve cell bodies",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cluster of nerve cell bodies outside the central nervous system"
+}

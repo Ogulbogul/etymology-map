@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pizzicato",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "from pizzicare (to pluck), describing strings plucked rather than bowed",
+      "meaning": "plucked",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pizzicato",
+      "lang": "English",
+      "era": "1750s",
+      "note": "adopted directly as a performance direction for string instruments",
+      "meaning": "played by plucking the strings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a musical direction to pluck the strings of an instrument rather than bow them"
+}

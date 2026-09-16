@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "adventus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an arrival, a coming, from ad- (to) and venire (to come)",
+      "meaning": "an arrival, a coming",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "advent",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the English word for the arrival of something significant",
+      "meaning": "the arrival or coming of something significant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the arrival of a notable person, thing, or event"
+}

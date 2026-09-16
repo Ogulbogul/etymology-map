@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mos",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "custom, manner, the plural mores meaning customs or morals",
+      "meaning": "custom, manner",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "moral",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for principles of right and wrong behavior",
+      "meaning": "relating to principles of right and wrong behavior",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to principles of right and wrong behavior"
+}

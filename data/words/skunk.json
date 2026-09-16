@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "squunck",
+      "lang": "Massachusett",
+      "era": "pre-1600s",
+      "note": "literally \"one who urinates\", describing its scent gland",
+      "meaning": "the striped, foul-smelling mammal",
+      "lat": 42.36,
+      "lon": -71.06
+    },
+    {
+      "word": "skunk",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in New England",
+      "meaning": "the black-and-white striped mammal",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a small mammal known for spraying a foul-smelling liquid when threatened"
+}

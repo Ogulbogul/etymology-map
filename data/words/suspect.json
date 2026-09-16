@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "suspicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to look up from below, to mistrust secretly, from sub- (up from below) and specere (to look)",
+      "meaning": "to mistrust secretly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suspect",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for believing something without proof",
+      "meaning": "to believe something is true without proof",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to believe someone is guilty or something is true without proof"
+}

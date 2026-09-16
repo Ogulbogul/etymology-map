@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "labyrinthos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the maze built to contain the mythical Minotaur on Crete",
+      "meaning": "a maze, especially the Minotaur's maze",
+      "lat": 35.34,
+      "lon": 25.13
+    },
+    {
+      "word": "labyrinth",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for any complex, maze-like structure",
+      "meaning": "a complex, maze-like structure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an intricate, maze-like network of paths or passages"
+}

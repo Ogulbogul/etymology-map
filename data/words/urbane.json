@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "urbs",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "city, giving rise to urbanus (of the city, sophisticated)",
+      "meaning": "city",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "urbanus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the city, refined in manner, from urbs",
+      "meaning": "of the city, refined in manner",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "urbane",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for someone courteous and refined in manner",
+      "meaning": "courteous and refined in manner, especially due to worldly experience",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "suave, courteous, and refined in manner, especially due to wide social experience"
+}

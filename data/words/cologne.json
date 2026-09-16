@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Colonia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Roman name for the German city, meaning \"colony\"",
+      "meaning": "a Roman colony, the city of Cologne",
+      "lat": 50.94,
+      "lon": 6.96
+    },
+    {
+      "word": "eau de Cologne",
+      "lang": "French",
+      "era": "1700s",
+      "note": "an Italian perfumer in the city created a famous scented water",
+      "meaning": "water of Cologne, a scented water",
+      "lat": 50.94,
+      "lon": 6.96
+    },
+    {
+      "word": "cologne",
+      "lang": "English",
+      "era": "1800s",
+      "note": "shortened from the French phrase for the fragrance",
+      "meaning": "a lightly scented perfume",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lightly scented perfume, originally made in the German city of Cologne"
+}

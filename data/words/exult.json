@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "salire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to jump, to leap, combined with ex- (out)",
+      "meaning": "to jump, to leap",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exsultare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to leap up for joy, to rejoice, from ex- and salire",
+      "meaning": "to leap up for joy, to rejoice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exult",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for showing great happiness or triumph",
+      "meaning": "to show great happiness or triumph",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to show or feel great happiness or triumphant joy"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kalla",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to cry out, to summon loudly",
+      "meaning": "to cry out, to summon",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "call",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the standard English word for summoning or naming someone",
+      "meaning": "to summon, name, or telephone someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to summon someone, give something a name, or telephone someone"
+}

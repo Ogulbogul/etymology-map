@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "supplicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to kneel down, to beg humbly, from sub- (under) and plicare (to fold)",
+      "meaning": "to kneel down, to beg humbly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supplicate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for asking for something humbly and earnestly",
+      "meaning": "to ask for something humbly and earnestly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to ask for something humbly and earnestly, as in prayer or a plea"
+}

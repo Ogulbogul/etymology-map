@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kosmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "order, the universe seen as an ordered whole",
+      "meaning": "order, the universe",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cosmic",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for anything relating to the universe",
+      "meaning": "relating to the universe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the universe or cosmos, especially as distinct from earth"
+}

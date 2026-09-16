@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "meteoros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "lofty, high in the air, from meta- (beyond) and aeirein (to lift)",
+      "meaning": "lofty, high in the air",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "meteorum",
+      "lang": "New Latin",
+      "era": "medieval",
+      "note": "carried into scholarly Latin for atmospheric phenomena, including streaking lights",
+      "meaning": "an atmospheric phenomenon",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "meteor",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the English word for a streak of light from a body burning in the atmosphere",
+      "meaning": "a streak of light from a body burning up in the atmosphere",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small body from space that burns up as a streak of light entering the atmosphere"
+}

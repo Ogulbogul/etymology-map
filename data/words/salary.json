@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "salarium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an allowance given to Roman soldiers, traditionally linked to the price of salt",
+      "meaning": "salt-money, an allowance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "salaire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for regular payment for work",
+      "meaning": "regular payment for work",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "salary",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for fixed regular pay",
+      "meaning": "fixed regular payment for work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fixed regular payment made by an employer for work performed"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rotella",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a small wheel, a diminutive of rota (wheel)",
+      "meaning": "a small wheel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "roulette",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for the spinning wheel game of chance",
+      "meaning": "a spinning wheel game of chance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "roulette",
+      "lang": "English",
+      "era": "1745",
+      "note": "adopted directly for the casino game played with a spinning wheel",
+      "meaning": "a casino game played with a spinning numbered wheel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a casino gambling game in which a ball is spun around a numbered wheel"
+}

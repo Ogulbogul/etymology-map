@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "histanai",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "to stand, to cause to stand",
+      "meaning": "to stand",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "statikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "causing to stand still, weighing, from histanai",
+      "meaning": "causing to stand still, weighing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "staticus",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "carried into scholarly Latin for the science of bodies at rest",
+      "meaning": "relating to bodies at rest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "static",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something not moving or changing",
+      "meaning": "not moving, changing, or progressing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not moving or changing, or interference in an electronic signal"
+}

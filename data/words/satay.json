@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sate",
+      "lang": "Malay/Indonesian",
+      "era": "medieval",
+      "note": "skewered, grilled meat served with a peanut sauce",
+      "meaning": "skewered grilled meat",
+      "lat": -6.21,
+      "lon": 106.85
+    },
+    {
+      "word": "satay",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Southeast Asian cuisine spread internationally",
+      "meaning": "skewered, grilled meat served with sauce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "skewered, grilled meat, typically served with a spiced peanut sauce"
+}

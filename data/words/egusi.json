@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "egusi",
+      "lang": "Yoruba/Igbo",
+      "era": "medieval",
+      "note": "the ground seeds of a melon plant, used to thicken West African soups",
+      "meaning": "ground melon seeds",
+      "lat": 6.52,
+      "lon": 3.38
+    },
+    {
+      "word": "egusi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as West African cuisine became known internationally",
+      "meaning": "a West African soup thickened with ground melon seeds",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a West African soup made with ground melon seeds, often with meat and leafy greens"
+}

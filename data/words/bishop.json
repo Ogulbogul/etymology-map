@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "episkopos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"overseer\"",
+      "meaning": "an overseer",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "episcopus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Christian church organization",
+      "meaning": "a church overseer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "biscop",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "worn down through everyday pronunciation",
+      "meaning": "a senior church official",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a senior member of the Christian clergy, in charge of a diocese"
+}

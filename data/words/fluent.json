@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fluere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to flow",
+      "meaning": "to flow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fluent",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for speaking smoothly and easily",
+      "meaning": "able to speak or write smoothly and easily",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to speak, write, or move smoothly and with ease"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "claudere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to close, to shut, with irregular past participle clausus",
+      "meaning": "to close, to shut",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clore",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the act of shutting something",
+      "meaning": "the act of shutting something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "closure",
+      "lang": "English",
+      "era": "1300s",
+      "note": "formed with the English suffix -ure for the act of closing something, or a sense of resolution",
+      "meaning": "the act of closing something, or a sense of resolution",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act of closing something, or a feeling of emotional resolution"
+}

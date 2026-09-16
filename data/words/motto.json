@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "muttum",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "meaning \"a grunt\" or \"a word\"",
+      "meaning": "a word, utterance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "motto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "came to mean a short guiding phrase",
+      "meaning": "a guiding phrase",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "motto",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "a short phrase expressing a guiding belief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short phrase expressing a guiding principle or belief"
+}

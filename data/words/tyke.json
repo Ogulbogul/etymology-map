@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tik",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a female dog, later used dismissively for a mongrel",
+      "meaning": "a female dog",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "tyke",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from a mongrel dog to an affectionate term for a small child",
+      "meaning": "a small, mischievous child",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, often mischievous child, used affectionately"
+}

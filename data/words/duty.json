@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "debere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to owe, giving rise to Old French deu (owed, due)",
+      "meaning": "to owe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deu",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "owed, expected, the root behind an obligation one owes to another",
+      "meaning": "owed, expected",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "duty",
+      "lang": "English",
+      "era": "1300s",
+      "note": "formed from due with the English suffix -ty, for a moral or legal obligation",
+      "meaning": "a moral or legal obligation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a moral or legal obligation, or a task one is required to perform"
+}

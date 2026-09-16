@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kosmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the universe, order, combined with nautes (sailor)",
+      "meaning": "the universe",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "kosmonavt",
+      "lang": "Russian",
+      "era": "1959",
+      "note": "coined in the Soviet space program as the Russian counterpart to astronaut",
+      "meaning": "a Soviet or Russian space traveler",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "cosmonaut",
+      "lang": "English",
+      "era": "1959",
+      "note": "adopted directly for Soviet and Russian space travelers",
+      "meaning": "a Russian or Soviet space traveler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Russian or Soviet astronaut"
+}

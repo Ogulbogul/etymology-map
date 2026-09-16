@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "marche",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a border region, from Frankish markon, a boundary",
+      "meaning": "a border region",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marchis",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "settled in French for a nobleman who governed a border territory",
+      "meaning": "a lord of a border territory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marquis",
+      "lang": "English",
+      "era": "1300s",
+      "note": "adopted as the English title for a nobleman ranking between duke and count",
+      "meaning": "a nobleman ranking between duke and count",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nobleman ranking between a duke and a count or earl"
+}

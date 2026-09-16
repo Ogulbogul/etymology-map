@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "faux pas",
+      "lang": "French",
+      "era": "1600s",
+      "note": "literally a false step, a misstep",
+      "meaning": "a false step",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "faux pas",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted directly for an embarrassing social mistake",
+      "meaning": "an embarrassing social mistake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an embarrassing or tactless social mistake"
+}

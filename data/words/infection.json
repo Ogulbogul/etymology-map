@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "inficere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to put in, to taint, from in- (into) and facere (to do, make)",
+      "meaning": "to put in, to taint",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "infectio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a tainting, a contamination, from inficere",
+      "meaning": "a tainting, a contamination",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "infection",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the invasion of the body by disease-causing organisms",
+      "meaning": "the invasion of the body by disease-causing organisms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the invasion and multiplication of disease-causing organisms in the body"
+}

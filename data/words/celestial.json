@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caelestis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to the sky or heaven, from caelum (sky, heaven)",
+      "meaning": "relating to the sky",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "celestial",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for anything relating to the sky or heaven",
+      "meaning": "relating to the sky or heavens",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the sky, heavens, or outer space"
+}

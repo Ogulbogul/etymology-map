@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dharma",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "duty, law, or cosmic order, a central concept in Hindu and Buddhist thought",
+      "meaning": "duty, law, cosmic order",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "dharma",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly by scholars of Hindu and Buddhist philosophy",
+      "meaning": "one's duty or righteous path in life",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one's righteous duty or the cosmic law underlying right conduct, in Hindu and Buddhist thought"
+}

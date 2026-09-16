@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "samovar",
+      "lang": "Russian",
+      "era": "1700s",
+      "note": "literally self-boiler, a metal urn for heating water for tea",
+      "meaning": "a self-heating water urn",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "samovar",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the distinctive Russian tea urn",
+      "meaning": "a metal urn for heating water for tea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a decorated metal urn used to heat and boil water, especially for tea"
+}

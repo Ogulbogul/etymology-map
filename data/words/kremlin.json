@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kreml",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "a fortified citadel at the center of a Russian city",
+      "meaning": "a fortified citadel",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "kremlin",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the name for Moscow's citadel, later shorthand for the Russian government",
+      "meaning": "a Russian citadel, or the Russian government",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Russian government, or a citadel within a Russian city"
+}

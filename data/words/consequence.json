@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "consequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow closely, to result from, from com- (together) and sequi (to follow)",
+      "meaning": "to follow closely, to result from",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consequence",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a result or effect of an action",
+      "meaning": "a result or effect of an action or condition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a result or effect of an action or condition"
+}

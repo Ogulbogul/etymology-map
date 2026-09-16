@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "khoros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a group of singers and dancers performing in a Greek drama",
+      "meaning": "a group dance or song",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chorus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for the same group performance in Roman theater",
+      "meaning": "a group of singers",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chorus",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a group of singers or a song's refrain",
+      "meaning": "a group of singers, or a song's refrain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of singers, or the repeated refrain of a song"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dà jūn",
+      "lang": "Chinese",
+      "era": "ancient",
+      "note": "an old written compound meaning \"great prince\" or \"great army\"",
+      "meaning": "great prince",
+      "lat": 39.9,
+      "lon": 116.41
+    },
+    {
+      "word": "taikun",
+      "lang": "Japanese",
+      "era": "1850s-1860s",
+      "note": "used as a title for the shogun when dealing with foreign powers",
+      "meaning": "great lord",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "tycoon",
+      "lang": "English",
+      "era": "1860s",
+      "note": "brought back to the US by officials who dealt with Japan; applied to Lincoln, then business magnates",
+      "meaning": "a powerful, wealthy leader",
+      "lat": 38.9,
+      "lon": -77.04
+    }
+  ],
+  "current_meaning": "a wealthy, powerful business leader"
+}

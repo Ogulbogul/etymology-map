@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "duri",
+      "lang": "Malay",
+      "era": "1500s",
+      "note": "thorn, describing the fruit's spiky outer husk",
+      "meaning": "thorn",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "durian",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the pungent, spiky tropical fruit",
+      "meaning": "a large spiky tropical fruit with a strong odor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large tropical fruit with a spiky husk and a famously strong odor"
+}

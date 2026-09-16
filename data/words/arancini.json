@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "arancia",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "an orange, describing the golden, round, fried rice balls' resemblance to the fruit",
+      "meaning": "an orange",
+      "lat": 38.12,
+      "lon": 13.36
+    },
+    {
+      "word": "arancini",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the fried, stuffed rice balls of Sicilian cuisine",
+      "meaning": "fried, stuffed Sicilian rice balls",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fried, breaded balls of stuffed risotto rice, originating in Sicily"
+}

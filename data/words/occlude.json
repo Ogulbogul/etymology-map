@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "claudere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to close, to shut, combined with ob- (against)",
+      "meaning": "to close, to shut",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "occludere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to shut up, to close off, from ob- and claudere",
+      "meaning": "to shut up, to close off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "occlude",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for blocking or closing off a passage",
+      "meaning": "to block or close off a passage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to block or close off a passage, opening, or view"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "touiller",
+      "lang": "Occitan/French",
+      "era": "1700s",
+      "note": "to stir, to toss together, describing the mixed vegetable stew",
+      "meaning": "to stir, to toss together",
+      "lat": 43.7,
+      "lon": 7.27
+    },
+    {
+      "word": "ratatouille",
+      "lang": "French",
+      "era": "1770s",
+      "note": "settled in French for the stewed mixed vegetable dish of Provence",
+      "meaning": "a stewed mixed vegetable dish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ratatouille",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as French cuisine spread internationally",
+      "meaning": "a French stewed vegetable dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a French stewed dish of vegetables, including eggplant, zucchini, and tomato"
+}

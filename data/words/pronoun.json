@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "name, combined with pro- (in place of)",
+      "meaning": "name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pronomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a word used in place of a noun, from pro- and nomen",
+      "meaning": "a word used in place of a noun",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pronoun",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a word that substitutes for a noun",
+      "meaning": "a word that substitutes for a noun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word used in place of a noun, such as he, she, or it"
+}

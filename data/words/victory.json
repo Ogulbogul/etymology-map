@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "vincere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to conquer, to win",
+      "meaning": "to conquer, to win",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "victoria",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a conquest, a win, from vincere",
+      "meaning": "a conquest, a win",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "victorie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for success in a battle or contest",
+      "meaning": "success in a battle or contest",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "victory",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for success in a battle, war, or contest",
+      "meaning": "success achieved in a battle, war, or contest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an act of winning or success achieved in a battle, war, or contest"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mozzarella",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "from mozzare (to cut off), describing how the fresh cheese is pinched off by hand",
+      "meaning": "a cut-off piece of cheese",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mozzarella",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the soft white cheese",
+      "meaning": "a soft, mild white cheese",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, mild white Italian cheese, traditionally made from buffalo or cow's milk"
+}

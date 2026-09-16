@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "perdonare",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "to give thoroughly, to forgive completely, from per- (thoroughly) and donare (to give)",
+      "meaning": "to forgive completely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pardoner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for forgiving an offense",
+      "meaning": "to forgive an offense",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pardon",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for forgiving someone for an offense",
+      "meaning": "to forgive someone for an offense",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to forgive someone for an offense, or an official release from punishment"
+}

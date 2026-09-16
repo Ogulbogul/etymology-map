@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "evidentia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally being seen clearly, from ex- (out) and videre (to see)",
+      "meaning": "clearness, obviousness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "evidence",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for information supporting a claim",
+      "meaning": "information indicating whether a claim is true",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "information or facts indicating whether a belief or claim is valid"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Kuchen",
+      "lang": "German/Alsatian",
+      "era": "medieval",
+      "note": "a cake, adapted in the Alsace region for a savory egg custard tart",
+      "meaning": "a cake",
+      "lat": 48.58,
+      "lon": 7.75
+    },
+    {
+      "word": "quiche",
+      "lang": "French",
+      "era": "1800s",
+      "note": "settled in French for the savory egg custard tart in a pastry crust",
+      "meaning": "a savory egg custard tart",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quiche",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted directly as the French dish spread internationally",
+      "meaning": "a savory tart filled with egg custard and other ingredients",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a savory tart filled with egg custard, cheese, and other ingredients"
+}

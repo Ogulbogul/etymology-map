@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tsetse",
+      "lang": "Tswana",
+      "era": "ancient",
+      "note": "an imitative name for the biting insect",
+      "meaning": "tsetse fly",
+      "lat": -24.65,
+      "lon": 25.91
+    },
+    {
+      "word": "tsetse",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through European contact with southern Africa",
+      "meaning": "a blood-feeding African fly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a blood-feeding African fly that can transmit sleeping sickness"
+}

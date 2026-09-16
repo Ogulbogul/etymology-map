@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Mues",
+      "lang": "Swiss German",
+      "era": "medieval",
+      "note": "meaning \"puree\" or \"mush\"",
+      "meaning": "mush, puree",
+      "lat": 47.38,
+      "lon": 8.54
+    },
+    {
+      "word": "Müesli",
+      "lang": "Swiss German",
+      "era": "1900s",
+      "note": "a diminutive form, named a breakfast dish of oats, fruit, and nuts",
+      "meaning": "a little mush; a cereal breakfast dish",
+      "lat": 47.38,
+      "lon": 8.54
+    },
+    {
+      "word": "muesli",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from Swiss German",
+      "meaning": "a breakfast cereal of oats, fruit, and nuts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a breakfast cereal of rolled oats, dried fruit, nuts, and seeds"
+}

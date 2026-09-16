@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fulk",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a general Arabic word for a boat or ship",
+      "meaning": "ship, boat",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "feluca",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "adopted for the traditional Mediterranean sailing vessel",
+      "meaning": "a small sailing vessel",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "felucca",
+      "lang": "English",
+      "era": "1600s",
+      "note": "borrowed from Italian for the Nile and Mediterranean sailboat",
+      "meaning": "a traditional lateen-sailed boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional wooden sailboat used on the Nile and Mediterranean"
+}

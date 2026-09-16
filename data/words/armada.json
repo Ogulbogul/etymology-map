@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "armata",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"armed force\"",
+      "meaning": "armed force",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "armada",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "came to mean a fleet of warships",
+      "meaning": "a fleet of warships",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "armada",
+      "lang": "English",
+      "era": "1580s",
+      "note": "adopted into English following the Spanish Armada of 1588",
+      "meaning": "a fleet of warships",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large fleet of warships, or any large group of vehicles"
+}

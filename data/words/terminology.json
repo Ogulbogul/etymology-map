@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "terminus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a boundary, an endpoint, the root of a defined term",
+      "meaning": "a boundary, a limit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terminologie",
+      "lang": "German",
+      "era": "1700s",
+      "note": "combined with Greek logos (study) in German academic vocabulary",
+      "meaning": "the system of terms used in a field",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "terminology",
+      "lang": "English",
+      "era": "1801",
+      "note": "settled as the English word for the specific vocabulary of a field",
+      "meaning": "the specific vocabulary used within a particular field",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the specific set of terms used within a particular field or subject"
+}

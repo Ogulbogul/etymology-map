@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lavanche",
+      "lang": "Franco-Provencal",
+      "era": "medieval",
+      "note": "a mass of snow and ice sliding rapidly down a mountainside",
+      "meaning": "a sliding mass of snow",
+      "lat": 45.9,
+      "lon": 6.87
+    },
+    {
+      "word": "avalanche",
+      "lang": "French",
+      "era": "1700s",
+      "note": "reshaped in French for the sudden mountain snowslide",
+      "meaning": "a sudden mass of falling snow or ice",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "avalanche",
+      "lang": "English",
+      "era": "1760s",
+      "note": "adopted directly for the sudden, destructive snowslide",
+      "meaning": "a sudden mass of falling snow, ice, or rock",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mass of snow, ice, or rock falling rapidly down a mountainside"
+}

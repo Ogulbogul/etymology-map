@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "manu tenere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally to hold by hand, from manus (hand) and tenere (to hold)",
+      "meaning": "to hold by hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "maintenir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for keeping something in a steady state",
+      "meaning": "to keep something in a steady state",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "maintain",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for keeping something in good condition",
+      "meaning": "to keep something in good condition, or to continue it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep something in good condition, or to continue a state or activity"
+}

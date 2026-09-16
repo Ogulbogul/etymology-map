@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khush",
+      "lang": "Urdu/Hindi",
+      "era": "medieval",
+      "note": "meaning \"pleasant\" or \"happy\"",
+      "meaning": "pleasant, happy",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "cushy",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted by British soldiers serving in colonial India",
+      "meaning": "easy and comfortable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "easy and comfortable, requiring little effort"
+}

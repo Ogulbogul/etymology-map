@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pharmakon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a drug, a medicine, or a poison",
+      "meaning": "a drug, a medicine",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pharmacist",
+      "lang": "English",
+      "era": "1834",
+      "note": "settled as the English word for one trained to prepare and dispense medicine",
+      "meaning": "a person trained to prepare and dispense medicine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person qualified to prepare and dispense medicinal drugs"
+}

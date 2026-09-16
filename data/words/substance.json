@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "substantia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "that which stands beneath, essential nature, from sub- (beneath) and stare (to stand)",
+      "meaning": "that which stands beneath, essential nature",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "substance",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for physical matter or essential meaning",
+      "meaning": "a physical material, or the essential meaning of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular kind of physical matter, or the real, essential meaning of something"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "quaerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek, combined with re- (again)",
+      "meaning": "to seek",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "requirere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek again, to ask for, from re- and quaerere",
+      "meaning": "to seek again, to ask for",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "requeste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a formal asking for something",
+      "meaning": "a formal asking for something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "request",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a polite or formal asking for something",
+      "meaning": "a polite or formal asking for something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a polite or formal act of asking for something"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "solari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to comfort, to soothe",
+      "meaning": "to comfort, to soothe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solacium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "comfort, relief, from solari",
+      "meaning": "comfort, relief",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solas",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a feeling of comfort in sorrow",
+      "meaning": "a feeling of comfort in sorrow",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "solace",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for comfort in a time of distress",
+      "meaning": "comfort or relief in a time of distress",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "comfort or relief experienced during a time of sadness or distress"
+}

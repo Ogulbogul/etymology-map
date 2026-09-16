@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "hallelu Yah",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "literally \"praise Yahweh\"",
+      "meaning": "praise God",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "allelouia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted through the Septuagint and New Testament",
+      "meaning": "praise God",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "alleluia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried through Christian liturgy and hymns",
+      "meaning": "praise God",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hallelujah",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted through Bible translation and Christian worship",
+      "meaning": "an exclamation of praise or joy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an exclamation of praise, joy, or relief"
+}

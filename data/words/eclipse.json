@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ekleipsis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally an abandonment, a failing, describing the sun or moon seeming to vanish",
+      "meaning": "a failing, an abandonment",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "eclipse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French astronomical vocabulary",
+      "meaning": "the obscuring of a celestial body",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "eclipse",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for one celestial body obscuring another",
+      "meaning": "the obscuring of light from one celestial body by another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an event in which one celestial body obscures another, blocking its light"
+}

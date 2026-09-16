@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "complere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fill up completely, from com- (thoroughly) and plere (to fill), with irregular past participle completus",
+      "meaning": "to fill up completely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "complete",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something having all its parts, finished",
+      "meaning": "having all its necessary parts, finished",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having all necessary parts, or finished entirely"
+}

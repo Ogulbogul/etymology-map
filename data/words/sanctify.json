@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sancire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make sacred, to ratify, with irregular past participle sanctus",
+      "meaning": "to make sacred, to ratify",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sanctificare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make holy, from sanctus (holy) and facere (to make)",
+      "meaning": "to make holy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sanctify",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for making something holy or consecrated",
+      "meaning": "to make something holy or consecrated",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make something holy, or to give something official approval"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prima facie",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally at first face, at first appearance",
+      "meaning": "at first sight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prima facie",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for evidence sufficient at first glance to establish a fact",
+      "meaning": "based on first impression, accepted until proven otherwise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "accepted as true or correct until proven otherwise, based on initial evidence"
+}

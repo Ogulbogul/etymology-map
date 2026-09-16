@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tekhne",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "art, skill, craft, combined with logos (study)",
+      "meaning": "art, skill, craft",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "technology",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for the application of scientific knowledge to practical purposes",
+      "meaning": "the application of scientific knowledge for practical purposes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the application of scientific knowledge for practical purposes, or its resulting tools and machines"
+}

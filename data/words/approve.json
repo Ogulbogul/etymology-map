@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "probare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to test, to prove, combined with ad- (to)",
+      "meaning": "to test, to prove",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "approbare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to prove thoroughly, to sanction, from ad- and probare",
+      "meaning": "to prove thoroughly, to sanction",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aprover",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for officially agreeing to something",
+      "meaning": "to officially agree to something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "approve",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for officially agreeing to or thinking well of something",
+      "meaning": "to officially agree to something, or to think well of it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to officially agree to something, or to have a favorable opinion of it"
+}

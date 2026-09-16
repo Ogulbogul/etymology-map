@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stella",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a star",
+      "meaning": "a star",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "stellar",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for anything relating to stars, later meaning outstanding",
+      "meaning": "relating to stars, or outstanding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the stars, or figuratively, outstanding and excellent"
+}

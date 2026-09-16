@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shogun",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "short for a longer title meaning barbarian-subduing general, Japan's military ruler",
+      "meaning": "a military commander-in-chief",
+      "lat": 35.01,
+      "lon": 135.77
+    },
+    {
+      "word": "shogun",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for Japan's hereditary military rulers",
+      "meaning": "the hereditary military ruler of medieval Japan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the historical hereditary military ruler of Japan"
+}

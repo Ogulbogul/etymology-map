@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ekhidna",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "viper, also the name of a serpent-monster in Greek myth",
+      "meaning": "viper, serpent",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "echidna",
+      "lang": "New Latin",
+      "era": "1800s",
+      "note": "applied to the spiny, egg-laying mammal for its serpent-associated name",
+      "meaning": "the spiny, egg-laying mammal",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "echidna",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the spiny anteater of Australia and New Guinea",
+      "meaning": "a spiny, egg-laying mammal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spiny, egg-laying mammal native to Australia and New Guinea, also called a spiny anteater"
+}

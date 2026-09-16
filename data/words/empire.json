@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "imperium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "supreme power, command, rule",
+      "meaning": "supreme power, command",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "empire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a territory ruled by a supreme authority",
+      "meaning": "a territory ruled by a supreme authority",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "empire",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a group of territories under one supreme ruler",
+      "meaning": "a group of territories under one supreme authority",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of states or territories under the control of a single supreme authority"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "recepta",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a thing received, from recipere (to receive)",
+      "meaning": "a thing received",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "receipt",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a written acknowledgment of something received",
+      "meaning": "a written acknowledgment of payment or goods received",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a written acknowledgment that a payment has been made or goods received"
+}

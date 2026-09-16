@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tai fung",
+      "lang": "Cantonese Chinese",
+      "era": "medieval",
+      "note": "literally \"big wind\", used for the powerful storms of the region",
+      "meaning": "big wind",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "typhoon",
+      "lang": "English",
+      "era": "1500s-1700s",
+      "note": "adopted through European trade contact in East Asia, reinforced by a similar Arabic-derived word",
+      "meaning": "a powerful tropical cyclone in the western Pacific",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a severe tropical cyclone occurring in the western Pacific or Indian Ocean"
+}

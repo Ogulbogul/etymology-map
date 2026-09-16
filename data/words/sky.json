@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sky",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "originally meant cloud, before shifting to mean the heavens themselves",
+      "meaning": "a cloud",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "sky",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the heavens, replacing the earlier word heofon in general use",
+      "meaning": "the region of clouds and the upper atmosphere",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the region of the atmosphere and outer space visible from earth"
+}

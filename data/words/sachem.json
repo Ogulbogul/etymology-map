@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sachem",
+      "lang": "Narragansett",
+      "era": "1600s",
+      "note": "the paramount chief of a tribe or confederation of tribes",
+      "meaning": "a paramount chief",
+      "lat": 41.7,
+      "lon": -71.5
+    },
+    {
+      "word": "sachem",
+      "lang": "English",
+      "era": "1620s",
+      "note": "adopted directly by English colonists describing Algonquian leadership",
+      "meaning": "a Native American tribal chief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a chief of a Native American tribe or confederation, especially in the northeast"
+}

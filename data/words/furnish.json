@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "frumjan",
+      "lang": "Frankish",
+      "era": "medieval",
+      "note": "to provide, to complete, a Germanic root of the Franks",
+      "meaning": "to provide, to complete",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "furnir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adapted from Frankish for equipping or supplying something",
+      "meaning": "to equip or supply something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "furnish",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for equipping a room with furniture",
+      "meaning": "to equip a room or building with furniture",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to equip a room or building with furniture, or to supply something needed"
+}

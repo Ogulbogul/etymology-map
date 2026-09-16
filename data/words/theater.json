@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "theatron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"a place for viewing\", from \"theasthai\" (to behold)",
+      "meaning": "a viewing place",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "theatrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for the Roman performance venue",
+      "meaning": "a theater",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "theatre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the venue's name into French",
+      "meaning": "a theater",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "theater",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for the performance venue",
+      "meaning": "a building for dramatic performances",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building or space for watching plays and performances"
+}

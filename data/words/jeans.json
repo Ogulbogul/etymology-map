@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Gênes",
+      "lang": "French",
+      "era": "medieval",
+      "note": "the French name for Genoa, Italy, whose sailors wore a sturdy cotton twill",
+      "meaning": "the city of Genoa",
+      "lat": 44.41,
+      "lon": 8.93
+    },
+    {
+      "word": "jean",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted for the sturdy cotton twill fabric named after the city",
+      "meaning": "a sturdy cotton twill fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "jeans",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the word for trousers made from the durable fabric",
+      "meaning": "trousers made from sturdy cotton twill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "trousers made from sturdy cotton denim fabric"
+}

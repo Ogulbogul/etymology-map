@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ante pastum",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "literally before the meal, from ante (before) and pasto (food)",
+      "meaning": "before the meal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "antipasto",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the Italian appetizer course",
+      "meaning": "an Italian appetizer course",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an Italian appetizer course, typically of cured meats, cheese, and vegetables"
+}

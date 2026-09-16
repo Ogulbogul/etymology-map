@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-'ud",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"the wood\", the Arabic stringed instrument",
+      "meaning": "a wooden stringed instrument",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "lut",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through Moorish musical influence in Spain",
+      "meaning": "a stringed instrument",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lute",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the instrument",
+      "meaning": "a pear-shaped stringed instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pear-shaped stringed musical instrument, popular before the guitar"
+}

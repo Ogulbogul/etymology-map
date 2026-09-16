@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bolh",
+      "lang": "Occitan",
+      "era": "medieval",
+      "note": "combining to boil and abaissa (to reduce heat), describing the fish stew's cooking method",
+      "meaning": "boil, then reduce heat",
+      "lat": 43.3,
+      "lon": 5.37
+    },
+    {
+      "word": "bouillabaisse",
+      "lang": "French",
+      "era": "1800s",
+      "note": "settled in French for the traditional Provencal fish stew",
+      "meaning": "a traditional Provencal fish stew",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bouillabaisse",
+      "lang": "English",
+      "era": "1850s",
+      "note": "adopted directly as French cuisine spread internationally",
+      "meaning": "a traditional French fish stew",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional French fish stew originating from the port city of Marseille"
+}

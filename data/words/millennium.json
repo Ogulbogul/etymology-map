@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mille",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a thousand, combined with annus (year)",
+      "meaning": "a thousand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "millennium",
+      "lang": "English",
+      "era": "1630s",
+      "note": "settled as the English word for a period of one thousand years",
+      "meaning": "a period of one thousand years",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a period of one thousand years"
+}

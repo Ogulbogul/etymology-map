@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fides",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "faith, trust, giving rise to fidere (to trust)",
+      "meaning": "faith, trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to trust fully, from com- and fidere",
+      "meaning": "to trust fully",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confidens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "trusting fully, present participle of confidere",
+      "meaning": "trusting fully",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confident",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for feeling sure of oneself or one's abilities",
+      "meaning": "feeling sure of oneself or one's abilities",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "feeling or showing certainty about oneself or one's abilities"
+}

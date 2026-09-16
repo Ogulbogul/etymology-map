@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pesto",
+      "lang": "Genoese Italian",
+      "era": "1800s",
+      "note": "literally pounded, from pestare (to pound), describing the crushed herb sauce",
+      "meaning": "pounded, crushed",
+      "lat": 44.41,
+      "lon": 8.93
+    },
+    {
+      "word": "pesto",
+      "lang": "English",
+      "era": "1930s",
+      "note": "adopted directly for the basil-and-oil sauce from Genoa",
+      "meaning": "a sauce of crushed basil, garlic, oil, and pine nuts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sauce made from crushed basil, garlic, pine nuts, and olive oil"
+}

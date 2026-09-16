@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vindicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to avenge, to claim, from vim (force) and dicare (to proclaim)",
+      "meaning": "to avenge, to claim",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vindicate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for clearing someone of blame or proving something right",
+      "meaning": "to clear someone of blame, or to prove something right",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to clear someone of blame or suspicion, or to prove a claim to be correct"
+}

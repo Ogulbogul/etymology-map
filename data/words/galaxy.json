@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "galaxias",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally milky, describing the Milky Way's pale band across the sky",
+      "meaning": "milky, relating to milk",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "galaxy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for the Milky Way, later any large star system",
+      "meaning": "a large system of stars",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large system of stars, gas, and dust bound by gravity"
+}

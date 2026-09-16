@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "calere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to be warm, combined with non- (not)",
+      "meaning": "to be warm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nonchaloir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to have no warmth of feeling, to be indifferent, from non- and chaloir (to care, from calere)",
+      "meaning": "to be indifferent",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nonchalant",
+      "lang": "French",
+      "era": "1600s",
+      "note": "present participle of nonchaloir, for someone coolly unconcerned",
+      "meaning": "coolly unconcerned",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nonchalant",
+      "lang": "English",
+      "era": "1730s",
+      "note": "adopted from French for someone calm and casually unconcerned",
+      "meaning": "calm and casually unconcerned",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "calm, casual, and giving an impression of indifference"
+}

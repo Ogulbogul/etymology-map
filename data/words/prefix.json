@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "figere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fix, to fasten, combined with prae- (before)",
+      "meaning": "to fix, to fasten",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "praefigere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fasten before, to attach in front, from prae- and figere",
+      "meaning": "to fasten before, to attach in front",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prefix",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for letters added to the beginning of a word",
+      "meaning": "letters or a syllable added to the beginning of a word",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a letter or group of letters added to the beginning of a word to change its meaning"
+}

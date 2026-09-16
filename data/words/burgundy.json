@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Burgundia",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a historic region of eastern France famous for its deep red wine",
+      "meaning": "a French wine region",
+      "lat": 47.05,
+      "lon": 4.38
+    },
+    {
+      "word": "burgundy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted for the wine, and later the deep purplish-red color associated with it",
+      "meaning": "a deep purplish-red color, or a wine from Burgundy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep purplish-red color, named after the French wine region"
+}

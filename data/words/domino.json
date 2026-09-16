@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dominus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "lord, master, the root behind a hooded masquerade cloak once worn by clergy",
+      "meaning": "lord, master",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "domino",
+      "lang": "French",
+      "era": "1700s",
+      "note": "applied to a hooded masquerade costume, and later a black-and-white spotted game tile resembling its mask",
+      "meaning": "a masquerade costume, later a game tile",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "domino",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English word for the small rectangular game tile",
+      "meaning": "a small rectangular tile used in games",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small rectangular tile marked with dots, used in games, or a chain reaction"
+}

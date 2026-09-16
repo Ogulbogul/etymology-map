@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "linum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "flax, the plant from whose fibers the fabric is woven",
+      "meaning": "flax",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "linen",
+      "lang": "English",
+      "era": "1000s",
+      "note": "settled as the English word for cloth woven from flax fiber",
+      "meaning": "cloth woven from flax fiber",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a textile made from the fibers of the flax plant"
+}

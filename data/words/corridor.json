@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "correre",
+      "lang": "Latin/Italian",
+      "era": "medieval",
+      "note": "meaning \"to run\"",
+      "meaning": "to run",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corridore",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "literally \"a running place\", a fortification passage",
+      "meaning": "a passage or gallery",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "corridor",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted through French from Italian",
+      "meaning": "a long passage inside a building",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long passage inside a building, connecting rooms"
+}

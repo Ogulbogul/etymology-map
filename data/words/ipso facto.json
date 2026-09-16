@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ipso facto",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "by the fact itself, from ipse (itself) and factum (fact, deed)",
+      "meaning": "by the fact itself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ipso facto",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly into English legal and philosophical writing",
+      "meaning": "by that very fact",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "by the fact itself, as an automatic and inevitable consequence"
+}

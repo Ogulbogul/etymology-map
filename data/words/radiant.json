@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "radiare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to shine, to emit rays, from radius (a ray, a spoke)",
+      "meaning": "to shine, to emit rays",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "radiant",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something emitting light brightly",
+      "meaning": "emitting light brightly, or glowing with joy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "emitting light brightly, or glowing with health, joy, or love"
+}

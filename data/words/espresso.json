@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "espresso",
+      "lang": "Italian",
+      "era": "1900s",
+      "note": "literally pressed out, describing coffee forced quickly through fine grounds",
+      "meaning": "pressed out, expressed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "espresso",
+      "lang": "English",
+      "era": "1940s",
+      "note": "adopted directly as the strong Italian coffee style spread abroad",
+      "meaning": "strong coffee made by forcing steam through fine grounds",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strong black coffee made by forcing steam through finely ground beans"
+}

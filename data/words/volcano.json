@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Vulcanus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Roman god of fire and metalworking",
+      "meaning": "the Roman god of fire",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vulcano",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named after the fiery Sicilian island associated with the god",
+      "meaning": "a fire-spewing mountain",
+      "lat": 38.4,
+      "lon": 14.96
+    },
+    {
+      "word": "volcano",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "a mountain that erupts molten rock and gas",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mountain or opening in the Earth's crust that erupts molten rock and gas"
+}

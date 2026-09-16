@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "their",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a Norse pronoun that gradually replaced the native English forms hie and hi",
+      "meaning": "they, those people",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "they",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English third-person plural pronoun",
+      "meaning": "the third-person plural pronoun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the third-person plural pronoun, also used for a single person of unspecified gender"
+}

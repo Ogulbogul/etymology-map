@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "spondere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to promise, to pledge, combined with re- (back)",
+      "meaning": "to promise, to pledge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "respondere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to promise back, to answer, from re- and spondere",
+      "meaning": "to promise back, to answer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "respondre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for answering a question or request",
+      "meaning": "to answer a question or request",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "respond",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for answering or reacting to something",
+      "meaning": "to answer or react to something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to say something in reply, or to react to something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Gouda",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "a city in the Netherlands famous for its traded, aged cheese",
+      "meaning": "a Dutch city name",
+      "lat": 52.02,
+      "lon": 4.71
+    },
+    {
+      "word": "gouda",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the mild, yellow cheese named after the city",
+      "meaning": "a mild, yellow Dutch cheese",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mild, yellow Dutch cheese, traditionally shaped as a wheel"
+}

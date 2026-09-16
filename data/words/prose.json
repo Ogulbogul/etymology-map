@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prorsus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally turned forward, straightforward, describing plain speech without poetic structure",
+      "meaning": "straightforward, direct",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prose",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for ordinary written or spoken language",
+      "meaning": "ordinary written or spoken language, without poetic structure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "written or spoken language in its ordinary form, without a formal poetic structure"
+}

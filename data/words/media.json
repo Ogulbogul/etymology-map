@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "medius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "middle, the root behind a means or channel through which something is conveyed",
+      "meaning": "middle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "media",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted as the plural of medium for channels of mass communication",
+      "meaning": "channels of mass communication",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the channels of mass communication, such as television, radio, and the press"
+}

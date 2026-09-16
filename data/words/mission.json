@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send, with irregular past participle missus",
+      "meaning": "to send",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "missio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a sending, from mittere",
+      "meaning": "a sending",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mission",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English word for an important assignment or task sent forth",
+      "meaning": "an important assignment given to a person or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an important task or purpose a person or group is sent to accomplish"
+}

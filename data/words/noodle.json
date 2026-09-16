@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Nudel",
+      "lang": "German",
+      "era": "1700s",
+      "note": "the German word for pasta strips",
+      "meaning": "pasta strip",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "noodle",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted directly from German",
+      "meaning": "a strip of pasta dough",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long, thin strip of pasta or dough"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bajulare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bear a burden, to carry, related to taking custody of something",
+      "meaning": "to bear a burden",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bail",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for custody, or the guarantee securing release",
+      "meaning": "custody, or a guarantee for release",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bail",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for money guaranteeing a defendant's release",
+      "meaning": "money paid to secure a defendant's temporary release",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sum of money paid to secure a defendant's temporary release before trial"
+}

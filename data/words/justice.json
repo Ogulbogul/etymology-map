@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "law, right",
+      "meaning": "law, right",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "iustitia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "righteousness, equity, from ius (law)",
+      "meaning": "righteousness, equity",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "justice",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for fairness and the administration of law",
+      "meaning": "fairness and the administration of law",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "justice",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for fairness and the administration of law",
+      "meaning": "fairness in the administration of law and treatment of people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fair treatment and the administration of law, or a judge"
+}

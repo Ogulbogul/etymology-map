@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chiaro",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "light, bright, combined with oscuro (dark, obscure)",
+      "meaning": "light and dark",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chiaroscuro",
+      "lang": "English",
+      "era": "1680s",
+      "note": "adopted directly for the artistic technique contrasting light and shadow",
+      "meaning": "the artistic use of strong contrasts between light and dark",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the artistic use of strong contrasts between light and shadow"
+}

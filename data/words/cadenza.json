@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cadenza",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally a cadence, an ornamental solo passage near a piece's close",
+      "meaning": "a falling, a cadence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cadenza",
+      "lang": "English",
+      "era": "1770s",
+      "note": "adopted directly for a soloist's improvised showcase passage",
+      "meaning": "an ornamental solo passage near the end of a piece",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a virtuosic solo passage, often improvised, near the end of a musical movement"
+}

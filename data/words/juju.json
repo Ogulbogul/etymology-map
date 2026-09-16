@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "juju",
+      "lang": "Hausa/French",
+      "era": "1800s",
+      "note": "a charm or fetish object believed to hold magical power in West Africa",
+      "meaning": "a magical charm or fetish",
+      "lat": 6.52,
+      "lon": 3.38
+    },
+    {
+      "word": "juju",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted for a charm or object believed to bring luck",
+      "meaning": "an object believed to have magical power",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object believed to have magical or supernatural power"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vodu",
+      "lang": "Fon/Ewe",
+      "era": "ancient",
+      "note": "meaning \"spirit\" or \"deity\", a West African religious tradition",
+      "meaning": "spirit, deity",
+      "lat": 6.5,
+      "lon": 2.6
+    },
+    {
+      "word": "vodou",
+      "lang": "Haitian Creole",
+      "era": "1700s",
+      "note": "carried to Haiti by enslaved West Africans and blended with Catholic elements",
+      "meaning": "a syncretic spiritual religion",
+      "lat": 18.97,
+      "lon": -72.28
+    },
+    {
+      "word": "voodoo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through American contact with Haitian and Louisiana traditions",
+      "meaning": "a syncretic African diaspora religion",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a syncretic religion blending West African spiritual traditions with Catholic elements"
+}

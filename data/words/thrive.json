@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "thrifask",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to grasp, to take hold, and by extension, to prosper",
+      "meaning": "to grasp, to prosper",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "thrive",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for growing or flourishing successfully",
+      "meaning": "to grow or develop successfully",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to grow, develop, or flourish successfully"
+}

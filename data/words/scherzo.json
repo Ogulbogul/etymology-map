@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "scherzo",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally a joke, a lively, playful musical movement",
+      "meaning": "a joke, jest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scherzo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for a playful, energetic musical movement",
+      "meaning": "a lively, playful musical movement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lively, often playful movement in a musical work, especially a symphony"
+}

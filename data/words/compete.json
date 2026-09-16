@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "competere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek together, to strive together, from com- (together) and petere (to seek)",
+      "meaning": "to seek together, to strive together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compete",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for striving against others for the same goal",
+      "meaning": "to strive against others for the same goal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to strive against others to achieve or win something"
+}

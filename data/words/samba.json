@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "semba",
+      "lang": "Kimbundu",
+      "era": "ancient",
+      "note": "a term for a traditional Angolan dance movement",
+      "meaning": "a navel-touching dance movement",
+      "lat": -8.84,
+      "lon": 13.23
+    },
+    {
+      "word": "samba",
+      "lang": "Portuguese",
+      "era": "1800s-1900s",
+      "note": "developed in Brazil among Afro-Brazilian communities into a music and dance genre",
+      "meaning": "a Brazilian music and dance style",
+      "lat": -22.91,
+      "lon": -43.17
+    },
+    {
+      "word": "samba",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Brazilian music and Carnival culture spread internationally",
+      "meaning": "a lively Brazilian dance and music style",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lively Brazilian dance and music style, closely associated with Carnival"
+}

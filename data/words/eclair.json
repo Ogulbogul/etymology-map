@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "eclair",
+      "lang": "French",
+      "era": "1800s",
+      "note": "literally lightning, possibly describing how quickly the pastry is eaten or its glossy shine",
+      "meaning": "lightning, a flash",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "eclair",
+      "lang": "English",
+      "era": "1861",
+      "note": "adopted directly for the long, cream-filled pastry",
+      "meaning": "a long pastry filled with cream and topped with icing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long, thin pastry filled with cream and topped with icing"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "orthos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "straight, correct, combined with paideia (rearing of children)",
+      "meaning": "straight, correct",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "orthopedique",
+      "lang": "French",
+      "era": "1740s",
+      "note": "coined for the correction of skeletal deformities in children",
+      "meaning": "relating to correcting skeletal deformities",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "orthopedic",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the medical word for bone and joint treatment",
+      "meaning": "relating to the correction of bone and joint disorders",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the correction of disorders of bones, joints, and muscles"
+}

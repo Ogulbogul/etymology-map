@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nihil",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "nothing",
+      "meaning": "nothing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nihilism",
+      "lang": "English",
+      "era": "1810s",
+      "note": "coined for the philosophical rejection of all religious and moral principles",
+      "meaning": "the rejection of all religious and moral principles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the philosophical belief that life is without objective meaning or value"
+}

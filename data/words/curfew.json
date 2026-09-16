@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "couvre-feu",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "literally cover fire, a medieval evening bell signaling households to bank their fires",
+      "meaning": "cover the fire",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "curfew",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from the fire-covering signal to any mandated time restriction",
+      "meaning": "a time after which people must stay indoors",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a regulation requiring people to be indoors after a certain time"
+}

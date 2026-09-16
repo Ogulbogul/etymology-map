@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dim sam",
+      "lang": "Cantonese",
+      "era": "medieval",
+      "note": "literally \"touch the heart\", small savory dishes served with tea",
+      "meaning": "touch the heart; small dishes",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "dim sum",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Cantonese cuisine spread internationally",
+      "meaning": "small, varied dishes served with tea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Chinese meal of small, varied dishes, often served with tea"
+}

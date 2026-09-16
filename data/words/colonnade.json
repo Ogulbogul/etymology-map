@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "columna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a pillar, a column",
+      "meaning": "a column, a pillar",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colonnade",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for a row of evenly spaced columns",
+      "meaning": "a row of evenly spaced columns",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "colonnade",
+      "lang": "English",
+      "era": "1710s",
+      "note": "adopted directly for a row of columns supporting a roof or entablature",
+      "meaning": "a row of columns supporting a structure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a row of columns, typically supporting a roof or a series of arches"
+}

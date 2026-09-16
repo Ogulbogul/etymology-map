@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "de Nîmes",
+      "lang": "French",
+      "era": "1600s",
+      "note": "literally \"from Nîmes\", the French city where the sturdy twill fabric was made",
+      "meaning": "from the city of Nîmes",
+      "lat": 43.84,
+      "lon": 4.36
+    },
+    {
+      "word": "denim",
+      "lang": "English",
+      "era": "1700s",
+      "note": "the French phrase was shortened into a single word",
+      "meaning": "a sturdy cotton twill fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sturdy cotton twill fabric, typically blue, used to make jeans"
+}

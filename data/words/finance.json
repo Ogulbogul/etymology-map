@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "finis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an end, a boundary, related to the final settlement of a debt",
+      "meaning": "an end, a settlement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "finance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the payment or settlement of a debt",
+      "meaning": "the payment of a debt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "finance",
+      "lang": "English",
+      "era": "1400s",
+      "note": "broadened to mean the management of money in general",
+      "meaning": "the management of money and monetary systems",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the management of money, especially by governments or large organizations"
+}

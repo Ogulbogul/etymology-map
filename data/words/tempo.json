@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tempus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"time\"",
+      "meaning": "time",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tempo",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "applied to the speed of a piece of music",
+      "meaning": "the speed of music",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "tempo",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted directly from Italian",
+      "meaning": "the pace at which music is played",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the speed or pace at which a piece of music is played"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pot pourri",
+      "lang": "French",
+      "era": "1600s",
+      "note": "literally \"rotten pot\", originally a stew of many mixed ingredients",
+      "meaning": "a mixed stew",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "potpourri",
+      "lang": "French",
+      "era": "1700s",
+      "note": "extended to a jar of dried, mixed flower petals",
+      "meaning": "a mix of dried, scented flower petals",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "potpourri",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted directly from French",
+      "meaning": "a mixture of dried petals, or any varied collection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mixture of dried petals and spices used for scent, or any varied collection"
+}

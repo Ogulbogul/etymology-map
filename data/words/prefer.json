@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "praeferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry before, to place first, from prae- (before) and ferre (to carry)",
+      "meaning": "to carry before, to favor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prefer",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for liking one thing more than another",
+      "meaning": "to like one thing more than another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to like or want one thing more than another"
+}

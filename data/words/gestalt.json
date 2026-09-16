@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Gestalt",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"shape\" or \"form\"",
+      "meaning": "shape, form",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "gestalt",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through German psychology emphasizing perception of whole forms",
+      "meaning": "an organized whole perceived as more than its parts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized whole that is perceived as more than the sum of its parts"
+}

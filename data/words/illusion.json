@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "illudere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to mock, to play with, from in- (upon) and ludere (to play)",
+      "meaning": "to mock, to play with",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "illusio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "formed as a noun for a deceptive appearance",
+      "meaning": "a deceptive appearance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "illusion",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a false or deceptive impression",
+      "meaning": "a false or deceptive impression",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "illusion",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a false perception or belief",
+      "meaning": "a false perception or belief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a false perception, belief, or impression of reality"
+}

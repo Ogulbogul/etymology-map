@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "million",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "an augmentative of \"mille\" (thousand), meaning a great thousand",
+      "meaning": "a great thousand",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "millionnaire",
+      "lang": "French",
+      "era": "1700s",
+      "note": "coined for a person possessing a million units of currency",
+      "meaning": "a person possessing a million",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "millionaire",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from French",
+      "meaning": "a person whose wealth exceeds a million currency units",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person whose assets are worth at least one million units of currency"
+}

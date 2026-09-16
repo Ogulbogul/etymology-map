@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "saeti",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a place to sit, a dwelling",
+      "meaning": "a place to sit",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "seat",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for a place to sit",
+      "meaning": "a place designed for sitting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place designed for sitting, or a position of authority or membership"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tympanon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a drum, the root behind the quality distinguishing musical sounds",
+      "meaning": "a drum",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "timbre",
+      "lang": "French",
+      "era": "1700s",
+      "note": "narrowed in French to mean the characteristic quality of a sound",
+      "meaning": "the characteristic quality of a musical sound",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "timbre",
+      "lang": "English",
+      "era": "1840s",
+      "note": "settled as the English word for a sound's distinctive tone quality",
+      "meaning": "the distinctive tone quality of a sound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the distinctive character or quality of a musical sound, apart from pitch or volume"
+}

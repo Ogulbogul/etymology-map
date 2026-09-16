@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vinha d'alhos",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "literally wine and garlic, a Portuguese marinade of wine vinegar and garlic",
+      "meaning": "wine and garlic",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "vindaloo",
+      "lang": "Goan Indian",
+      "era": "1600s",
+      "note": "adapted in Goa with local chilies and spices, replacing wine vinegar with local ingredients",
+      "meaning": "a spicy, tangy meat dish",
+      "lat": 15.3,
+      "lon": 74.12
+    },
+    {
+      "word": "vindaloo",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the fiery, tangy Indian curry",
+      "meaning": "a fiery, tangy Indian curry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fiery, tangy Indian curry, originally adapted from a Portuguese wine and garlic marinade"
+}

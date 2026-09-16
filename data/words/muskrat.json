@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "muskwessu",
+      "lang": "Abenaki",
+      "era": "pre-1600s",
+      "note": "the native name for the aquatic rodent, later reshaped by folk association with \"musk\" and \"rat\"",
+      "meaning": "the aquatic rodent",
+      "lat": 44.5,
+      "lon": -69.5
+    },
+    {
+      "word": "muskrat",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted and reshaped by English colonists in New England",
+      "meaning": "a large aquatic rodent",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a large, semi-aquatic rodent native to North America"
+}

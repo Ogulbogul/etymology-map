@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "estampida",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"an uproar\" or \"crash\"",
+      "meaning": "an uproar, crash",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "estampida",
+      "lang": "Mexican Spanish",
+      "era": "1800s",
+      "note": "applied to a sudden mass flight of startled cattle",
+      "meaning": "a sudden rush of frightened animals",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "stampede",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking cattle ranchers in the American West",
+      "meaning": "a sudden, headlong rush of a group",
+      "lat": 39.55,
+      "lon": -105.78
+    }
+  ],
+  "current_meaning": "a sudden mass rush of frightened animals or panicked people"
+}

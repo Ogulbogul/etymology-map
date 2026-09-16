@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mistral",
+      "lang": "Provencal/French",
+      "era": "medieval",
+      "note": "literally masterful, describing the powerful cold wind of southern France",
+      "meaning": "masterful, dominant",
+      "lat": 43.3,
+      "lon": 5.37
+    },
+    {
+      "word": "mistral",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the strong, cold northerly wind of the Mediterranean coast",
+      "meaning": "a strong, cold northerly wind of southern France",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong, cold, dry wind that blows through southern France toward the Mediterranean"
+}

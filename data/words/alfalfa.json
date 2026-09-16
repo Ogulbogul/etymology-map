@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-fisfisa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally the best kind of fodder, a nutritious plant grown for livestock",
+      "meaning": "the best fodder",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "alfalfa",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "adopted into Spanish during centuries of Arabic influence on the Iberian Peninsula",
+      "meaning": "a nutritious fodder plant",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "alfalfa",
+      "lang": "English",
+      "era": "1800s",
+      "note": "carried into American English via Spanish-speaking ranchers",
+      "meaning": "a nutritious plant grown as livestock fodder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a legume plant widely grown as fodder for livestock"
+}

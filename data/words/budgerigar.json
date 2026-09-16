@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "budgerigar",
+      "lang": "Gamilaraay",
+      "era": "1800s",
+      "note": "possibly meaning good food or good cockatoo, the small parakeet of the Australian outback",
+      "meaning": "the small parakeet",
+      "lat": -29.46,
+      "lon": 149.84
+    },
+    {
+      "word": "budgerigar",
+      "lang": "English",
+      "era": "1840s",
+      "note": "adopted directly for the small colorful parakeet",
+      "meaning": "a small Australian parakeet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, colorful Australian parakeet, popular as a pet"
+}

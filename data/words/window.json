@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vindauga",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally wind eye, an opening in a wall for air and light",
+      "meaning": "wind eye",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "window",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a glazed opening in a wall",
+      "meaning": "an opening in a wall fitted with glass",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an opening in a wall fitted with glass to admit light and air"
+}

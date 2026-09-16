@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mamma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a breast, the defining feature of animals that nurse their young",
+      "meaning": "a breast",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mammal",
+      "lang": "English",
+      "era": "1826",
+      "note": "adopted by biologist Carl Linnaeus's classification for milk-producing animals",
+      "meaning": "an animal that nurses its young with milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a warm-blooded animal that nurses its young with milk"
+}

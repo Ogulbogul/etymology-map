@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bwana",
+      "lang": "Swahili",
+      "era": "1800s",
+      "note": "a respectful term of address for a man of authority",
+      "meaning": "master, sir",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "bwana",
+      "lang": "English",
+      "era": "1900s",
+      "note": "picked up by English speakers in colonial East Africa",
+      "meaning": "a term of respectful address for a man",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a term of address for a man, used informally to mean boss"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "diaphragma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a partition wall, from dia (across) and phragma (a fence)",
+      "meaning": "a partition, a dividing wall",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "diaphragm",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the medical word for the muscle separating chest from abdomen",
+      "meaning": "the muscle separating the chest from the abdomen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the muscle beneath the lungs that controls breathing"
+}

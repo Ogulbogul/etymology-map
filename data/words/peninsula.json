@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "paene insula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally almost an island, from paene (almost) and insula (island)",
+      "meaning": "almost an island",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "peninsula",
+      "lang": "English",
+      "era": "1550s",
+      "note": "adopted directly for a piece of land nearly surrounded by water",
+      "meaning": "a piece of land almost surrounded by water",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of land projecting into water, connected to the mainland"
+}

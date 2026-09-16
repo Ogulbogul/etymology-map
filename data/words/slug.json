@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sluggi",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a slow, lazy person",
+      "meaning": "a slow, lazy person",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "slug",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from a lazy person to the slow-moving, shell-less mollusk",
+      "meaning": "a slow-moving, shell-less mollusk, or a lazy person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a slow-moving, shell-less land mollusk"
+}

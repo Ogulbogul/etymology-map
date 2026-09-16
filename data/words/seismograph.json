@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "seismos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "earthquake, shaking, combined with graphein (to write)",
+      "meaning": "earthquake, shaking",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "seismograph",
+      "lang": "English",
+      "era": "1858",
+      "note": "coined from Greek seismos (earthquake) and graphein (to write) for an instrument recording ground movement",
+      "meaning": "an instrument recording ground movement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instrument that detects and records the vibrations of earthquakes"
+}

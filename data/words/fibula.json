@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fibula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a clasp, a brooch, describing the bone's resemblance to a pin fastening two things together",
+      "meaning": "a clasp, a brooch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fibula",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted directly as the anatomical word for the smaller shin bone",
+      "meaning": "the smaller of the two shin bones",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the thinner of the two bones in the lower leg, alongside the tibia"
+}

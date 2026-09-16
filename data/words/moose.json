@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mos",
+      "lang": "Eastern Abenaki",
+      "era": "pre-1600s",
+      "note": "possibly meaning \"he strips off\", describing how it strips bark",
+      "meaning": "moose",
+      "lat": 44.5,
+      "lon": -69.5
+    },
+    {
+      "word": "moose",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in New England",
+      "meaning": "the large North American deer",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "the largest living species of deer, native to North America and northern Eurasia"
+}

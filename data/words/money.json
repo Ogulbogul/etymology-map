@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Moneta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an epithet of the goddess Juno, near whose Roman temple coins were minted",
+      "meaning": "a title of the goddess Juno",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "moneie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for coined currency",
+      "meaning": "coined currency",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "money",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for currency used in exchange",
+      "meaning": "currency used as a medium of exchange",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medium of exchange, such as coins or banknotes"
+}

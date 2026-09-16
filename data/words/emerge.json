@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to dip, to plunge, combined with ex- (out)",
+      "meaning": "to dip, to plunge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "emergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to rise out, to come forth, from ex- and mergere",
+      "meaning": "to rise out, to come forth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "emerge",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for coming out from being hidden or submerged",
+      "meaning": "to come out from being hidden, submerged, or unknown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come out from being hidden, submerged, or previously unknown"
+}

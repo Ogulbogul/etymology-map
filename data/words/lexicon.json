@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lexikon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally relating to words, a word-book",
+      "meaning": "a word-book, dictionary",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "lexicon",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for a dictionary or a body of vocabulary",
+      "meaning": "a dictionary, or a body of vocabulary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the vocabulary of a person, language, or field"
+}

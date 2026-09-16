@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Frank",
+      "lang": "Frankish",
+      "era": "medieval",
+      "note": "a member of the Germanic tribe that conquered Gaul, who alone held full civil rights as free men",
+      "meaning": "a member of the Frankish people",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "franc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "broadened from the tribal name to mean free, and by extension, open and honest",
+      "meaning": "free, open, honest",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "frank",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for open, honest speech",
+      "meaning": "open and honest in expression",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "open, honest, and direct in speech or expression"
+}

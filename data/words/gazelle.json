@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ghazal",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the swift desert antelope",
+      "meaning": "gazelle",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "gazel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through trade and Crusader contact",
+      "meaning": "gazelle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gazelle",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the animal",
+      "meaning": "the slender desert antelope",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a slender, swift antelope native to Africa and Asia"
+}

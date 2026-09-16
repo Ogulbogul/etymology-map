@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "incomunicado",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "literally without communication, from in- (without) and comunicar (to communicate)",
+      "meaning": "without communication",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "incommunicado",
+      "lang": "English",
+      "era": "1844",
+      "note": "adopted directly for someone unable to communicate with others",
+      "meaning": "without the means or right to communicate with others",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "without the means or right to communicate with other people"
+}

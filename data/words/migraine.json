@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hemikrania",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally half-skull, describing pain on one side of the head",
+      "meaning": "pain on one side of the head",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "migraine",
+      "lang": "French",
+      "era": "medieval",
+      "note": "worn down into French from the Greek medical term",
+      "meaning": "a severe headache on one side",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "migraine",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the severe headache",
+      "meaning": "a severe recurring headache",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a severe recurring headache, often with nausea and light sensitivity"
+}

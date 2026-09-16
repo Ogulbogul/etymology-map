@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "influentia",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "literally a flowing in, from an astrological belief in unseen forces flowing from the stars",
+      "meaning": "a flowing in, an astral force",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "influence",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from astrological forces to any power affecting people or events",
+      "meaning": "the power to affect people or events",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the capacity to have an effect on the character or behavior of someone or something"
+}

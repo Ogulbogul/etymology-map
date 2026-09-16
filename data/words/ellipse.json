@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "elleipsis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a falling short, describing a curve where a cone's slice falls short of a full circle",
+      "meaning": "a falling short, a deficiency",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ellipse",
+      "lang": "English",
+      "era": "1753",
+      "note": "adopted directly for the oval geometric curve",
+      "meaning": "an oval curved shape",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a regular oval shape, mathematically defined as a curve resembling a flattened circle"
+}

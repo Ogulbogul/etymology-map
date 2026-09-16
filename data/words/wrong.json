@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vrangr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally twisted or crooked",
+      "meaning": "twisted, crooked",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "wrong",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the word for anything incorrect or unjust",
+      "meaning": "not correct, or morally unjust",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "incorrect, unjust, or contrary to what is right"
+}

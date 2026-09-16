@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "derma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the skin, combined with logos (study)",
+      "meaning": "the skin",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "dermatology",
+      "lang": "English",
+      "era": "1800s",
+      "note": "coined for the medical study of the skin",
+      "meaning": "the study of the skin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the branch of medicine concerned with the skin"
+}

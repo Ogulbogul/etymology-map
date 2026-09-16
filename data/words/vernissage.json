@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vernis",
+      "lang": "French",
+      "era": "medieval",
+      "note": "varnish, since artists once varnished their paintings the day before an exhibition opened",
+      "meaning": "varnish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vernissage",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted directly for the private preview opening of an art exhibition",
+      "meaning": "the preview opening of an art exhibition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a private preview of an art exhibition before it opens to the public"
+}

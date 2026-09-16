@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ducere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead, combined with intro- (within)",
+      "meaning": "to lead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "introducere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead in, to bring in, from intro- and ducere",
+      "meaning": "to lead in, to bring in",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "introduce",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for presenting someone or something for the first time",
+      "meaning": "to present someone or something for the first time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to present someone or something for the first time, or to bring something into use"
+}

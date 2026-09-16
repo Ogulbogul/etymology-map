@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "multiplex",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "having many folds, from multus (many) and plicare (to fold)",
+      "meaning": "having many folds",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "multiple",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for consisting of more than one part",
+      "meaning": "consisting of more than one part or element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "consisting of, or involving, more than one part, element, or instance"
+}

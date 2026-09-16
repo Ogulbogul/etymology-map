@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "collegium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a group gathered together, a partnership, from com- (together) and legere (to gather)",
+      "meaning": "a group gathered together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "college",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an institution of higher education",
+      "meaning": "an institution of higher education",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an institution of higher education, or a group of people with a shared purpose"
+}

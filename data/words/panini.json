@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "panis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "bread",
+      "meaning": "bread",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "panino",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a small bread roll, diminutive of pane (bread)",
+      "meaning": "a small bread roll",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "panini",
+      "lang": "English",
+      "era": "1970s",
+      "note": "adopted from the Italian plural for a pressed, grilled sandwich",
+      "meaning": "a pressed, grilled sandwich",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pressed, grilled sandwich made on Italian bread"
+}

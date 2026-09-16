@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow, combined with in- (toward)",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "insequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow after, to pursue, from in- and sequi",
+      "meaning": "to follow after, to pursue",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ensuivre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for happening as a result of something",
+      "meaning": "to happen as a result of something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ensue",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for happening afterward as a result",
+      "meaning": "to happen afterward, especially as a result",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to happen afterward, especially as a result of something"
+}

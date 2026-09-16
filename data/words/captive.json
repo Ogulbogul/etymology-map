@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "capere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take, to seize",
+      "meaning": "to take, to seize",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "captivus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "taken prisoner, from capere",
+      "meaning": "taken prisoner",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "captif",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a person held prisoner",
+      "meaning": "a person held prisoner",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "captive",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a person held prisoner",
+      "meaning": "a person held prisoner or confined",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "held prisoner or confined, unable to escape"
+}

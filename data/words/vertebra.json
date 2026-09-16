@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vertebra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from vertere (to turn), one of the turning joints of the spine",
+      "meaning": "a joint, a turning point",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vertebra",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for one of the bones making up the spine",
+      "meaning": "one of the bones forming the spinal column",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the small bones forming the spinal column"
+}

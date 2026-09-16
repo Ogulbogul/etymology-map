@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "energeia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"activity\" or \"operation\", from \"ergon\" (work)",
+      "meaning": "activity, operation",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "energia",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "adopted through Greek philosophical writing",
+      "meaning": "force of expression, vigor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "energie",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried the concept into French",
+      "meaning": "vigor, force",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "energy",
+      "lang": "English",
+      "era": "medieval",
+      "note": "later adopted as the physics term for the capacity to do work",
+      "meaning": "the capacity to do work; vigor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the capacity to do work or produce change, or physical vigor"
+}

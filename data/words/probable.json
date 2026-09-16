@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "probare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to test, to prove",
+      "meaning": "to test, to prove",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "probabilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "provable, likely, from probare",
+      "meaning": "provable, likely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "probable",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something likely to happen or be true",
+      "meaning": "likely to happen or be true",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "likely to be true or to happen"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tsunami",
+      "lang": "Japanese",
+      "era": "historic",
+      "note": "literally \"harbor wave\", named for the damage seen in coastal harbors",
+      "meaning": "harbor wave",
+      "lat": 38.26,
+      "lon": 141.0
+    },
+    {
+      "word": "tsunami",
+      "lang": "English",
+      "era": "1896",
+      "note": "entered English reporting after the Sanriku earthquake and wave",
+      "meaning": "a large sea wave caused by an undersea disturbance",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "a large, destructive ocean wave caused by an earthquake or other underwater disturbance"
+}

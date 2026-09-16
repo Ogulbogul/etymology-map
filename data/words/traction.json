@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "trahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw, to pull",
+      "meaning": "to draw, to pull",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "traction",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for the grip or pulling force between surfaces",
+      "meaning": "the grip or pulling force between two surfaces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the grip of a surface allowing motion without slipping, or growing momentum"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "dare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give",
+      "meaning": "to give",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "data",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "given, from the formula data Romae (given at Rome) once used to head official documents",
+      "meaning": "given",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "date",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the time a document was given or issued",
+      "meaning": "the time a document was issued",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "date",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a specific point in time",
+      "meaning": "a specific point in time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a specific day, month, and year, or a romantic outing"
+}

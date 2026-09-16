@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sepia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the cuttlefish, whose dark ink was used to make a rich brown pigment",
+      "meaning": "the cuttlefish",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sepia",
+      "lang": "English",
+      "era": "1820s",
+      "note": "adopted directly for the reddish-brown pigment made from cuttlefish ink",
+      "meaning": "a reddish-brown pigment or tone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a reddish-brown color, especially associated with old photographs"
+}

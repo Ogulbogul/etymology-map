@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "super",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "above, beyond, combined with novus (new)",
+      "meaning": "above, beyond",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supernova",
+      "lang": "English",
+      "era": "1926",
+      "note": "coined by astronomers for the extremely bright explosion of a dying star",
+      "meaning": "the explosive death of a massive star",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a powerful stellar explosion marking the death of a massive star"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "oboedire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give ear to, to obey, from ob- (toward) and audire (to hear)",
+      "meaning": "to give ear to, to obey",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obeir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for complying with a command",
+      "meaning": "to comply with a command",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "obey",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for complying with an order or instruction",
+      "meaning": "to comply with an order or instruction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to comply with an order, request, or instruction"
+}

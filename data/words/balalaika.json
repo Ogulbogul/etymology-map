@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "balalaika",
+      "lang": "Russian",
+      "era": "1700s",
+      "note": "a triangular-bodied stringed folk instrument",
+      "meaning": "a triangular stringed instrument",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "balalaika",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the distinctive Russian instrument",
+      "meaning": "a triangular Russian folk instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Russian stringed folk instrument with a triangular body"
+}

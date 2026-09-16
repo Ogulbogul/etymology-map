@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pastē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a barley porridge or paste",
+      "meaning": "barley porridge, paste",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pasta",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "came to mean dough made from flour and water",
+      "meaning": "dough, pasta",
+      "lat": 40.85,
+      "lon": 14.27
+    },
+    {
+      "word": "pasta",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Italian",
+      "meaning": "dried or fresh dough food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dough made from wheat and water, shaped and cooked in many forms"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "impala",
+      "lang": "Zulu",
+      "era": "ancient",
+      "note": "the name for the swift African antelope",
+      "meaning": "impala antelope",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "impala",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through European contact with southern Africa",
+      "meaning": "a graceful African antelope",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a graceful, medium-sized African antelope known for leaping"
+}

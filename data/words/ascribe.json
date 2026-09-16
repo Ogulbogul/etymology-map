@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ascribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write to, to attribute, from ad- (to) and scribere (to write)",
+      "meaning": "to attribute, to write to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ascribe",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for attributing something to a cause or source",
+      "meaning": "to attribute something to a particular cause or source",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to attribute something to a particular cause, source, or origin"
+}

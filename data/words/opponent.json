@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ob ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to put against, from ob- (against) and ponere (to place)",
+      "meaning": "to put against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "opponens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "placing oneself against, present participle of opponere",
+      "meaning": "placing oneself against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "opponent",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a person who competes against another",
+      "meaning": "a person who competes or argues against another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who competes against or argues against another"
+}

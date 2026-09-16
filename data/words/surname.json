@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "surnom",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "literally over-name, an additional name placed above or beyond one's given name",
+      "meaning": "an additional name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "surname",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a family or last name",
+      "meaning": "a family name, a last name",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hereditary family name, typically placed last"
+}

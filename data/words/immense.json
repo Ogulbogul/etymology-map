@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "immensus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally unmeasured, from in- (not) and mensus (measured)",
+      "meaning": "unmeasured, immeasurable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "immense",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something extremely large",
+      "meaning": "extremely large in size or degree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "extremely large in size, degree, or extent"
+}

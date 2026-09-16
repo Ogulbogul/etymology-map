@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sell, from venum (for sale) and dare (to give)",
+      "meaning": "to sell",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vendeur",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "a seller, from vendere",
+      "meaning": "a seller",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "vendor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a person or company that sells something",
+      "meaning": "a person or company that sells something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or company that sells goods or services"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "name, giving rise to nominare (to name, to appoint)",
+      "meaning": "name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nominate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "to formally propose someone for a position, from nominare",
+      "meaning": "to formally propose someone for a position",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "nominee",
+      "lang": "English",
+      "era": "1600s",
+      "note": "formed from nominate with the English suffix -ee, for a person who is nominated",
+      "meaning": "a person who is nominated",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who is formally proposed as a candidate for a position, award, or honor"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "exsuctus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "dried out, from exsugere (to suck out moisture)",
+      "meaning": "dried out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prosciutto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for dry-cured, thinly sliced ham",
+      "meaning": "dry-cured ham",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prosciutto",
+      "lang": "English",
+      "era": "1911",
+      "note": "adopted directly for the Italian dry-cured ham",
+      "meaning": "Italian dry-cured ham, thinly sliced",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Italian dry-cured ham, typically sliced very thin"
+}

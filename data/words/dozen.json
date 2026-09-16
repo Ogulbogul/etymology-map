@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "duodecim",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "twelve, from duo (two) and decem (ten)",
+      "meaning": "twelve",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dozeine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a group of twelve",
+      "meaning": "a group of twelve",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dozen",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a group of twelve",
+      "meaning": "a group of twelve",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group or set of twelve"
+}

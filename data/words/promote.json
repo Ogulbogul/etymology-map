@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "promovere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to move forward, from pro- (forward) and movere (to move)",
+      "meaning": "to move forward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "promote",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for raising someone's rank, or supporting a cause",
+      "meaning": "to raise someone's rank, or to support a cause or product",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to raise someone to a higher rank, or to support and advertise something"
+}

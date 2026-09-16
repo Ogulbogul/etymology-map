@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tenere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold, combined with com- (thoroughly)",
+      "meaning": "to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "continere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold together, to contain, from com- and tenere",
+      "meaning": "to hold together, to contain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contenance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for one's bearing or facial expression",
+      "meaning": "one's bearing or facial expression",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "countenance",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a person's facial expression, or to approve of something",
+      "meaning": "a person's facial expression, or to approve of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person's facial expression, or to approve of or tolerate something"
+}

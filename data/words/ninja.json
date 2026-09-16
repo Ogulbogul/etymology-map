@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ninja",
+      "lang": "Japanese",
+      "era": "c. 1400s-1600s",
+      "note": "trained agents from the Iga and Koga regions skilled in stealth",
+      "meaning": "one who endures/hides; a covert agent",
+      "lat": 34.77,
+      "lon": 136.13
+    },
+    {
+      "word": "ninja",
+      "lang": "English",
+      "era": "1960s",
+      "note": "popularized internationally through films and television",
+      "meaning": "a feudal Japanese covert agent",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "historically, a covert agent in feudal Japan; informally, someone highly skilled or stealthy"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to dip, to plunge",
+      "meaning": "to dip, to plunge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "merge",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for combining or blending two or more things into one",
+      "meaning": "to combine or blend two or more things into one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to combine or blend two or more things together into one"
+}

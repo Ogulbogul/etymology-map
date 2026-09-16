@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "indaba",
+      "lang": "Zulu",
+      "era": "medieval",
+      "note": "a gathering or conference to discuss an important matter",
+      "meaning": "a gathering, a conference",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "indaba",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly into South African English for a formal discussion or conference",
+      "meaning": "a formal discussion or conference",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a conference or meeting to discuss an important matter, especially in southern Africa"
+}

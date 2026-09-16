@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "linge",
+      "lang": "French",
+      "era": "medieval",
+      "note": "meaning \"linen\"",
+      "meaning": "linen",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lingerie",
+      "lang": "French",
+      "era": "1800s",
+      "note": "came to mean linen garments, especially women's undergarments",
+      "meaning": "women's underclothing",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lingerie",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from French",
+      "meaning": "women's underwear and nightclothes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "women's underwear and nightclothes"
+}

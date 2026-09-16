@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "granum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a grain, describing the coarse-grained texture of the rock",
+      "meaning": "a grain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "granito",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "settled in Italian for the speckled, grainy stone",
+      "meaning": "a grainy, speckled rock",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "granite",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted directly for the coarse-grained igneous rock",
+      "meaning": "a hard, coarse-grained igneous rock",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a common, hard, coarse-grained igneous rock used in construction"
+}

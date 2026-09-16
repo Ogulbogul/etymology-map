@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sulpur",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the pale yellow mineral, burned since antiquity",
+      "meaning": "the pale yellow mineral",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sulfre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the same mineral",
+      "meaning": "the pale yellow mineral",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sulfur",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the element",
+      "meaning": "a pale yellow nonmetallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pale yellow nonmetallic chemical element"
+}

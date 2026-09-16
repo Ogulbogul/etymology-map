@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aqua vitae",
+      "lang": "Latin",
+      "era": "medieval",
+      "note": "literally water of life, a term used for distilled spirits",
+      "meaning": "water of life",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "akvavit",
+      "lang": "Scandinavian",
+      "era": "1500s",
+      "note": "settled in Scandinavian languages for the caraway-flavored distilled spirit",
+      "meaning": "a caraway-flavored distilled spirit",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "akvavit",
+      "lang": "English",
+      "era": "1917",
+      "note": "adopted directly for the traditional Scandinavian spirit",
+      "meaning": "a Scandinavian spirit flavored with caraway or dill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Scandinavian distilled spirit, typically flavored with caraway or dill"
+}

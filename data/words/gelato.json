@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gelato",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "literally frozen, from gelare (to freeze), Italy's dense style of ice cream",
+      "meaning": "frozen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gelato",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the dense Italian-style frozen dessert",
+      "meaning": "a dense Italian-style frozen dessert",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dense, creamy Italian-style frozen dessert"
+}

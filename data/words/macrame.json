@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "miqrama",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "an ornamental fringed cloth or veil",
+      "meaning": "an ornamental fringed cloth",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "macrame",
+      "lang": "Turkish/French",
+      "era": "1800s",
+      "note": "carried through Ottoman Turkish into French decorative craft vocabulary",
+      "meaning": "knotted decorative cord work",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "macrame",
+      "lang": "English",
+      "era": "1860s",
+      "note": "settled as the English word for the knotting craft",
+      "meaning": "a craft of knotting cord into decorative patterns",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a craft of tying knotted cord into decorative patterns"
+}

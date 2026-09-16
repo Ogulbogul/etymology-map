@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ordu",
+      "lang": "Turkic/Mongolian",
+      "era": "medieval",
+      "note": "meaning \"a camp\" or \"royal court\", used by nomadic peoples",
+      "meaning": "a camp, royal court",
+      "lat": 47.92,
+      "lon": 106.92
+    },
+    {
+      "word": "horda",
+      "lang": "Polish/Russian",
+      "era": "medieval",
+      "note": "adopted through contact with Mongol and Tatar forces",
+      "meaning": "a large group or army",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "horde",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted through European accounts of nomadic peoples",
+      "meaning": "a large, often disorganized group of people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, often disorganized group or crowd of people"
+}

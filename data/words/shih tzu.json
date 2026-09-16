@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shizi gou",
+      "lang": "Chinese",
+      "era": "medieval",
+      "note": "literally \"lion dog\", describing the breed's mane-like fur",
+      "meaning": "lion dog",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "shih tzu",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the breed spread internationally from Chinese imperial courts",
+      "meaning": "a small, long-haired toy dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, long-haired toy dog breed originally from China"
+}

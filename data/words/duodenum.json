@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "duodecim",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "twelve",
+      "meaning": "twelve",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duodenum digitorum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "twelve of fingers, since the organ was measured at about twelve finger-widths long",
+      "meaning": "twelve finger-widths long",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duodenum",
+      "lang": "English",
+      "era": "1500s",
+      "note": "shortened and adopted for the first section of the small intestine",
+      "meaning": "the first section of the small intestine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the first section of the small intestine, just below the stomach"
+}

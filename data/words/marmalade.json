@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "marmelo",
+      "lang": "Portuguese",
+      "era": "medieval",
+      "note": "the Portuguese word for quince",
+      "meaning": "quince",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "marmelada",
+      "lang": "Portuguese",
+      "era": "medieval",
+      "note": "a quince preserve",
+      "meaning": "quince jam",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "marmelade",
+      "lang": "French",
+      "era": "1500s",
+      "note": "adopted the preserve into French cuisine",
+      "meaning": "fruit preserve",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marmalade",
+      "lang": "English",
+      "era": "1500s",
+      "note": "later narrowed in English to mean citrus preserve",
+      "meaning": "a citrus fruit preserve",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fruit preserve made from citrus, especially orange"
+}

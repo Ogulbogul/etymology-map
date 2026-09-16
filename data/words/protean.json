@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Proteus",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a sea god able to change shape at will to avoid capture",
+      "meaning": "a shape-shifting sea god",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "protean",
+      "lang": "English",
+      "era": "1590s",
+      "note": "coined from the god's name for anything readily able to change form",
+      "meaning": "able to change readily, versatile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "readily changing shape or character, versatile and adaptable"
+}

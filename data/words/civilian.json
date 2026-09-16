@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "civilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to citizens, from civis (a citizen)",
+      "meaning": "relating to citizens",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "civilian",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed to mean a person not serving in the military or police",
+      "meaning": "a person not in the military or police",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who is not a member of the armed forces or police"
+}

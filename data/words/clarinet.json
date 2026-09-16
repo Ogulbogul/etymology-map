@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "clarino",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "a high trumpet, from clarus (clear), describing the instrument's bright tone",
+      "meaning": "a clear, bright trumpet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clarinette",
+      "lang": "French",
+      "era": "1700s",
+      "note": "adapted in French for the newly developed reed woodwind instrument",
+      "meaning": "a reed woodwind instrument",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "clarinet",
+      "lang": "English",
+      "era": "1770s",
+      "note": "settled as the English word for the single-reed woodwind instrument",
+      "meaning": "a single-reed woodwind instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a woodwind instrument played with a single reed"
+}

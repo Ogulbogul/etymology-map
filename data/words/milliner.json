@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Milano",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "the city of Milan, famous for exporting fine fabric, ribbons, and straw hats",
+      "meaning": "the city of Milan",
+      "lat": 45.47,
+      "lon": 9.19
+    },
+    {
+      "word": "millaner",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a seller of fine hats and fashionable items from Milan",
+      "meaning": "a maker or seller of women's hats",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who designs, makes, or sells women's hats"
+}

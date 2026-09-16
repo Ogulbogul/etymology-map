@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "schaats",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "the Dutch word for a blade attached to the foot for gliding on ice",
+      "meaning": "an ice skate",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "skate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Dutch",
+      "meaning": "a blade or wheeled device for gliding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a boot fitted with a blade or wheels, used for gliding over ice or ground"
+}

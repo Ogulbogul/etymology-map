@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "subtrahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw from under, from sub- (under) and trahere (to draw)",
+      "meaning": "to draw from under",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subtract",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for taking one number away from another",
+      "meaning": "to take one number or amount away from another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to take one number or amount away from another"
+}

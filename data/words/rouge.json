@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rubeus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "red, the root of the French word for the color",
+      "meaning": "red",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rouge",
+      "lang": "French",
+      "era": "medieval",
+      "note": "settled in French as the standard word for the color red",
+      "meaning": "red",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rouge",
+      "lang": "English",
+      "era": "1750s",
+      "note": "narrowed in English to mean a reddish cosmetic for the cheeks",
+      "meaning": "a reddish cosmetic for the cheeks",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a red or pink cosmetic applied to the cheeks"
+}

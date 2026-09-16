@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bandire",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "meaning \"to banish\"",
+      "meaning": "to banish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bandito",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "literally \"one banished\", an outlaw",
+      "meaning": "an outlaw",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "bandit",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted directly from Italian",
+      "meaning": "an armed robber, especially operating in a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an armed robber, especially one belonging to a gang"
+}

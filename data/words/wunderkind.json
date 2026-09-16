@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Wunder",
+      "lang": "German",
+      "era": "medieval",
+      "note": "wonder, marvel, combined with Kind (child)",
+      "meaning": "wonder, marvel",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Wunderkind",
+      "lang": "German",
+      "era": "1800s",
+      "note": "wonder child, describing a child of extraordinary talent",
+      "meaning": "a child of extraordinary talent",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "wunderkind",
+      "lang": "English",
+      "era": "1883",
+      "note": "adopted directly for a young person of remarkable talent or success",
+      "meaning": "a young person of remarkable talent or early success",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young person who achieves great success or shows exceptional talent early in life"
+}

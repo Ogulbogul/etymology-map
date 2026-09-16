@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Rucksack",
+      "lang": "German",
+      "era": "1800s",
+      "note": "literally back sack, from Rucken (back) and Sack (sack)",
+      "meaning": "a back sack",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "rucksack",
+      "lang": "English",
+      "era": "1860s",
+      "note": "adopted directly for the bag carried on the back",
+      "meaning": "a bag carried on the back, a backpack",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bag with shoulder straps carried on the back, a backpack"
+}

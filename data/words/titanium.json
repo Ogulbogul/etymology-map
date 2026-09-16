@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Titan",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the primordial giant deities, lending their name to the strong, resilient metal",
+      "meaning": "the Titans, a race of giant deities",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "titanium",
+      "lang": "English",
+      "era": "1795",
+      "note": "named by chemist Martin Klaproth after the mythical Titans",
+      "meaning": "a strong, lightweight, corrosion-resistant metal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong, lightweight, corrosion-resistant metallic element"
+}

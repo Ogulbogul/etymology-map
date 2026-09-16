@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "debitum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a thing owed, from debere (to owe)",
+      "meaning": "a thing owed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "debit",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the accounting word for money owed or withdrawn",
+      "meaning": "an amount deducted from an account",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an entry recording an amount owed or deducted from an account"
+}

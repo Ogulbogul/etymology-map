@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ashrama",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "a hermitage or spiritual retreat",
+      "meaning": "a spiritual retreat",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "ashram",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Indian spiritual communities became known internationally",
+      "meaning": "a spiritual community or retreat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spiritual hermitage or retreat, especially in the Hindu tradition"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bakterion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a little staff or rod, describing the rod-like shape of many microbes",
+      "meaning": "a small staff, a small rod",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "bacteria",
+      "lang": "English",
+      "era": "1840s",
+      "note": "adopted as microscopy revealed the tiny rod-shaped organisms",
+      "meaning": "single-celled microorganisms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "single-celled microorganisms found in nearly every environment"
+}

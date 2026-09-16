@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aarde",
+      "lang": "Afrikaans/Dutch",
+      "era": "medieval",
+      "note": "meaning \"earth\"",
+      "meaning": "earth",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "aardvark",
+      "lang": "Afrikaans",
+      "era": "1700s-1800s",
+      "note": "combining \"aarde\" with \"vark\" (pig), describing the burrowing animal",
+      "meaning": "earth pig",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "aardvark",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Afrikaans",
+      "meaning": "a burrowing African mammal that eats ants and termites",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nocturnal, burrowing African mammal that feeds on ants and termites"
+}

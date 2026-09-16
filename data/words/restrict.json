@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "restringere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bind back, to limit, from re- (back) and stringere (to draw tight)",
+      "meaning": "to bind back, to limit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "restrict",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for keeping something within limits",
+      "meaning": "to keep something within limits",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep something within particular limits, or to limit freedom of movement or action"
+}

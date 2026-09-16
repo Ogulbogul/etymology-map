@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "credere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to believe, to trust",
+      "meaning": "to believe, to trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "credo",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "I believe, the opening word of statements of religious belief",
+      "meaning": "I believe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "creda",
+      "lang": "Old English",
+      "era": "old english",
+      "note": "borrowed from Latin credo for a formal statement of belief",
+      "meaning": "a formal statement of belief",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "creed",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the modern English word for a set of guiding beliefs or principles",
+      "meaning": "a set of guiding beliefs or principles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal statement or set of guiding beliefs and principles"
+}

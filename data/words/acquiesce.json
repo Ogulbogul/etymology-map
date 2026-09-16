@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quies",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "rest, repose, giving rise to quiescere (to become quiet, to rest)",
+      "meaning": "rest, repose",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "acquiescere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to find rest in, to comply, from ad- and quiescere",
+      "meaning": "to find rest in, to comply",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "acquiesce",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for accepting something without protest",
+      "meaning": "to accept something without protest, though not enthusiastically",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to accept or comply with something without protest, though not necessarily with enthusiasm"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mousse",
+      "lang": "French",
+      "era": "medieval",
+      "note": "meaning \"froth\" or \"moss\"",
+      "meaning": "froth, moss",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mousse",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted for a light, airy dessert or styling product",
+      "meaning": "a light, frothy dessert or product",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a light, airy dish made by whipping ingredients, or a similar hair product"
+}

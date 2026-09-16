@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mahlemut",
+      "lang": "Inupiat",
+      "era": "ancient",
+      "note": "the name of an Alaska Native people known for their sled dogs",
+      "meaning": "the Mahlemut people",
+      "lat": 64.5,
+      "lon": -165.4
+    },
+    {
+      "word": "malamute",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted for the sled dog breed developed by the Mahlemut people",
+      "meaning": "a large Arctic sled dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, powerful Arctic sled dog breed"
+}

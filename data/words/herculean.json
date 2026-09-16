@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Herakles",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the mythical hero famed for his superhuman strength and twelve labors",
+      "meaning": "the hero Heracles",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "herculean",
+      "lang": "English",
+      "era": "1590s",
+      "note": "coined from the Latin form of the hero's name for tasks requiring immense strength",
+      "meaning": "requiring great strength or effort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "requiring great strength, effort, or courage, as in a difficult task"
+}

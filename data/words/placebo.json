@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "placebo",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally I shall please, originally a funeral vespers phrase",
+      "meaning": "I shall please",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "placebo",
+      "lang": "English",
+      "era": "1780s",
+      "note": "adopted for a medically inactive treatment given to please or reassure a patient",
+      "meaning": "a substance with no therapeutic effect given for psychological benefit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance with no active therapeutic effect, given to satisfy a patient's expectation of treatment"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "adiungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to join to, from ad- (to) and iungere (to join)",
+      "meaning": "to join to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adjoin",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for being next to and connected with something",
+      "meaning": "to be next to and joined with something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to be next to and connected with something, sharing a common border"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "parere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring forth, to give birth to",
+      "meaning": "to bring forth, to give birth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a father or mother",
+      "meaning": "a father or mother",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a father or mother of a child"
+}

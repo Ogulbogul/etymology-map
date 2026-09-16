@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "skulka",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "to lie in hiding, to lurk",
+      "meaning": "to lurk, to hide",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "skulk",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for moving stealthily to avoid notice",
+      "meaning": "to move around stealthily, avoiding notice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move around furtively, avoiding attention, often out of guilt or fear"
+}

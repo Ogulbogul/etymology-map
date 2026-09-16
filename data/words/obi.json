@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "obi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "the wide sash worn around a kimono",
+      "meaning": "a sash",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "obi",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted as Western contact with Japan increased",
+      "meaning": "a wide sash worn with a kimono",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wide sash worn around the waist with a Japanese kimono"
+}

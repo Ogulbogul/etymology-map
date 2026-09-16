@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Etienne de Silhouette",
+      "lang": "French",
+      "era": "1750s",
+      "note": "France's notoriously stingy finance minister, whose name became a byword for anything cut-rate or simplified",
+      "meaning": "a stingy finance minister's name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "silhouette",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the word for a simple dark outline portrait, cheap to produce compared to a painting",
+      "meaning": "a dark outline against a lighter background",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the dark outline of a person or object against a lighter background"
+}

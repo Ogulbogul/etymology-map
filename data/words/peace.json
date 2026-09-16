@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pax",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "peace, freedom from war or conflict",
+      "meaning": "peace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pais",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a state of calm and freedom from conflict",
+      "meaning": "a state free from conflict",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "peace",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the English word for freedom from war or disturbance",
+      "meaning": "freedom from war, conflict, or disturbance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of freedom from war, conflict, or disturbance"
+}

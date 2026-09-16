@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "se mirer",
+      "lang": "French",
+      "era": "1700s",
+      "note": "to be reflected, from Latin mirari (to look at, wonder at)",
+      "meaning": "to be reflected, to look at",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mirage",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the word for an optical illusion caused by heat and light",
+      "meaning": "an optical illusion caused by atmospheric conditions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an optical illusion caused by atmospheric conditions, or an unrealistic hope"
+}

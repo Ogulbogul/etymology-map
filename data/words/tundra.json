@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tunturi",
+      "lang": "Sami",
+      "era": "medieval",
+      "note": "a treeless, frozen plain of the far north",
+      "meaning": "a treeless hill or plain",
+      "lat": 68.5,
+      "lon": 27.5
+    },
+    {
+      "word": "tundra",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "adopted from Sami speakers into Russian for the frozen plains of the north",
+      "meaning": "a treeless frozen plain",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "tundra",
+      "lang": "English",
+      "era": "1840s",
+      "note": "settled as the word for the biome by English-speaking geographers",
+      "meaning": "a vast, flat, treeless Arctic region",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vast, flat, treeless Arctic region with permanently frozen subsoil"
+}

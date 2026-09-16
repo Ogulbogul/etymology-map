@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "invertere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to turn upside down, from in- (in, on) and vertere (to turn)",
+      "meaning": "to turn upside down",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "invert",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for reversing the position or order of something",
+      "meaning": "to reverse the position, order, or condition of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to turn something upside down, or reverse its position or order"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "jodeln",
+      "lang": "Swiss German",
+      "era": "medieval",
+      "note": "imitative of the rapid pitch-shifting singing style of the Alps",
+      "meaning": "to sing with rapid pitch changes",
+      "lat": 46.8,
+      "lon": 8.22
+    },
+    {
+      "word": "yodel",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through contact with Alpine folk music",
+      "meaning": "to sing with rapid shifts between chest and falsetto voice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to sing with rapid alternation between the chest voice and falsetto"
+}

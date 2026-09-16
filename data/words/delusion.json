@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deludere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to deceive, to mock, from de- (down) and ludere (to play)",
+      "meaning": "to deceive, to mock",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "delusion",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a false belief held despite evidence",
+      "meaning": "a false belief held despite evidence against it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a persistent false belief held despite clear evidence to the contrary"
+}

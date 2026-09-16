@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bene",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "well, good, combined with facere (to make, to do)",
+      "meaning": "well, good",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "benfet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a good deed or favor",
+      "meaning": "a good deed, a favor",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "benefit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an advantage or profit gained",
+      "meaning": "an advantage or profit gained from something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an advantage, profit, or helpful effect gained from something"
+}

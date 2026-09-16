@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "evincere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to conquer completely, to recover by legal process, from ex- (out) and vincere (to conquer)",
+      "meaning": "to conquer, to recover by force of law",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "evict",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for legally expelling someone from a property",
+      "meaning": "to legally expel someone from a property",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to legally expel someone from a property, especially for not paying rent"
+}

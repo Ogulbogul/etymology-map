@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "churro",
+      "lang": "Spanish",
+      "era": "1800s",
+      "note": "possibly named after the Churra sheep breed, whose twisted horns resemble the fried dough's ridged shape",
+      "meaning": "possibly related to a sheep breed",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "churro",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the fried, ridged dough pastry",
+      "meaning": "a fried, ridged dough pastry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fried dough pastry, typically ridged and dusted with sugar"
+}

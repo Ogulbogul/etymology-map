@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "monter",
+      "lang": "French",
+      "era": "medieval",
+      "note": "meaning \"to mount\" or \"assemble\"",
+      "meaning": "to mount, assemble",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "montage",
+      "lang": "French",
+      "era": "1800s-1900s",
+      "note": "applied to the assembling of film or photographic images",
+      "meaning": "the assembly of images",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "montage",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from French for film editing",
+      "meaning": "a composite of images or scenes edited together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a composite image or sequence made by combining several separate pieces"
+}

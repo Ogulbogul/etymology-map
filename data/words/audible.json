@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "audire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hear",
+      "meaning": "to hear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audibilis",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "able to be heard, from audire",
+      "meaning": "able to be heard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audible",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something loud enough to be heard",
+      "meaning": "loud enough to be heard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "loud enough to be heard"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "za'faran",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the crocus spice",
+      "meaning": "saffron",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "safran",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spread through Mediterranean spice trade",
+      "meaning": "saffron",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "saffron",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the spice",
+      "meaning": "the saffron spice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep orange spice made from crocus flower stigmas"
+}

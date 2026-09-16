@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "interrumpere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to break between, from inter- (between) and rumpere (to break)",
+      "meaning": "to break between",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "interrupt",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for breaking the continuity of something",
+      "meaning": "to break the continuity of an action or speech",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop the continuous progress of an activity or speech"
+}

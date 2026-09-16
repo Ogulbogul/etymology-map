@@ -1,0 +1,9 @@
+{
+  "yourword": {
+    "stops": [
+      { "word": "original form", "lang": "Source Language", "era": "c. 1400s", "note": "short clause about how/why it changed here", "meaning": "meaning at this stage", "lat": 0, "lon": 0 },
+      { "word": "next form", "lang": "Next Language", "era": "c. 1500s", "note": "short clause", "meaning": "meaning at this stage", "lat": 0, "lon": 0 }
+    ],
+    "current_meaning": "short modern meaning"
+  }
+}

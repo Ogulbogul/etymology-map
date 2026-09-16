@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "habere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to have, to hold, combined with ex- (out)",
+      "meaning": "to have, to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exhibere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold out, to display, from ex- and habere",
+      "meaning": "to hold out, to display",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exhibit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for displaying something publicly",
+      "meaning": "to display something publicly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to publicly display something, or an object put on public display"
+}

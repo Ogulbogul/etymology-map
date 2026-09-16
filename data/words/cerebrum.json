@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cerebrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the brain, the root of all things cerebral",
+      "meaning": "the brain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cerebrum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the largest part of the brain",
+      "meaning": "the largest part of the brain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the largest part of the brain, responsible for higher cognitive functions"
+}

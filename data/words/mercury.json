@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mercurius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the swift messenger god, associated with the fast-moving liquid metal and the fast-orbiting planet",
+      "meaning": "the Roman god of commerce and speed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mercury",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the liquid silvery metal",
+      "meaning": "the liquid silvery metallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a heavy, silvery liquid metallic element, also called quicksilver"
+}

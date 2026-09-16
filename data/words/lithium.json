@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lithos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "stone, since the element was discovered in a mineral rather than plant sources like related elements",
+      "meaning": "a stone",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "lithium",
+      "lang": "English",
+      "era": "1818",
+      "note": "coined by chemists to distinguish the mineral-derived alkali metal",
+      "meaning": "a soft, light, reactive silvery metal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, light, silvery-white metallic element used in batteries and medicine"
+}

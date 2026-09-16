@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gymnasion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a place for athletic training, performed unclothed",
+      "meaning": "a place for exercise",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "gymnasium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek athletic and educational tradition",
+      "meaning": "a place for physical and intellectual training",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gymnasium",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English word for a place of physical exercise",
+      "meaning": "a room or building for physical exercise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a room or building equipped for physical exercise and sports"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sehtar",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "literally three strings, from se (three) and tar (string)",
+      "meaning": "three strings",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    {
+      "word": "sitar",
+      "lang": "Hindi/Urdu",
+      "era": "medieval",
+      "note": "adapted into South Asian classical music for the long-necked stringed instrument",
+      "meaning": "a long-necked stringed instrument",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "sitar",
+      "lang": "English",
+      "era": "1840s",
+      "note": "adopted directly for the classical South Asian stringed instrument",
+      "meaning": "a long-necked South Asian stringed instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long-necked, plucked stringed instrument used in South Asian classical music"
+}

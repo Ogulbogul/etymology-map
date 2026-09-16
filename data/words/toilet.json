@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "toilette",
+      "lang": "French",
+      "era": "1500s",
+      "note": "literally a little cloth, originally the cloth covering a dressing table",
+      "meaning": "a little cloth, a dressing cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "toilet",
+      "lang": "English",
+      "era": "1600s",
+      "note": "broadened from the dressing routine to the room, and later the fixture itself",
+      "meaning": "a fixture for the disposal of bodily waste",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fixture for the disposal of urine and feces, or the act of washing and dressing"
+}

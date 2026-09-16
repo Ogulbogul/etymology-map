@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nagga",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "to gnaw, to complain persistently",
+      "meaning": "to gnaw, to complain",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "nag",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English word for persistent complaining or criticizing",
+      "meaning": "to complain or criticize persistently",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to persistently annoy someone with complaints, criticism, or demands"
+}

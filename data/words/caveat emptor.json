@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caveat emptor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "let the buyer beware, from cavere (to beware) and emptor (buyer)",
+      "meaning": "let the buyer beware",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "caveat emptor",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly into English commercial and legal vocabulary",
+      "meaning": "the principle that buyers assume the risk in a purchase",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the principle that a buyer is responsible for checking the quality of goods before purchase"
+}

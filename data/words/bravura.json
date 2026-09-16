@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bravura",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "bravery, boldness, from bravo (brave)",
+      "meaning": "bravery, boldness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bravura",
+      "lang": "English",
+      "era": "1813",
+      "note": "adopted directly for a display of great skill and boldness, especially in performance",
+      "meaning": "a display of great skill and daring",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a display of great skill, boldness, and confidence, especially in performance"
+}

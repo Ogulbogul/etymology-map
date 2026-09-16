@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ducere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead, combined with pro- (forward)",
+      "meaning": "to lead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "producere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead forward, to bring forth, from pro- and ducere",
+      "meaning": "to lead forward, to bring forth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "produce",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for making or creating something",
+      "meaning": "to make or create something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make or create something, or fresh fruits and vegetables collectively"
+}

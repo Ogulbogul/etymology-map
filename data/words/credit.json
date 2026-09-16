@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "creditum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a thing entrusted, from credere (to believe, to trust)",
+      "meaning": "a thing entrusted, believed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "credit",
+      "lang": "English",
+      "era": "1540s",
+      "note": "settled as the English word for trust extended in a financial exchange",
+      "meaning": "trust extended for future payment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the ability to obtain goods or money based on trust of future repayment"
+}

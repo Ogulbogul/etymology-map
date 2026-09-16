@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "taiga",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "the vast coniferous forest belt of the subarctic, borrowed from a Siberian Turkic language",
+      "meaning": "subarctic coniferous forest",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "taiga",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted directly for the biome by geographers",
+      "meaning": "the subarctic coniferous forest biome",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the coniferous forest biome of the subarctic region"
+}

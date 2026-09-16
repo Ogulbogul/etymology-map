@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "moral",
+      "lang": "French",
+      "era": "1700s",
+      "note": "relating to conduct, later narrowed to mean confidence and spirit",
+      "meaning": "relating to conduct or character",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "morale",
+      "lang": "English",
+      "era": "1750s",
+      "note": "settled as a distinct English word for confidence and enthusiasm",
+      "meaning": "the confidence and enthusiasm of a person or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the confidence, enthusiasm, and discipline of a person or group"
+}

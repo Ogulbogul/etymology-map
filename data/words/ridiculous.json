@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ridere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to laugh",
+      "meaning": "to laugh",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ridiculosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "causing laughter, absurd, from ridere",
+      "meaning": "causing laughter, absurd",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ridiculous",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something deserving mockery or absurd",
+      "meaning": "deserving or inviting mockery, absurd",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "so absurd or unreasonable as to invite mockery or laughter"
+}

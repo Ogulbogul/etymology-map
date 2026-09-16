@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prae",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "before, combined with natalis (of birth, from nasci, to be born)",
+      "meaning": "before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prenatal",
+      "lang": "English",
+      "era": "1826",
+      "note": "formed from Latin prae- (before) and natalis (of birth) for the period before birth",
+      "meaning": "existing or occurring before birth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "occurring or existing before birth"
+}

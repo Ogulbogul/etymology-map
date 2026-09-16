@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "seiren",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mythical sea creature whose enchanting song lured sailors to shipwreck",
+      "meaning": "a mythical enchanting sea creature",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "siren",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened over time to mean any alluring danger, and later a loud warning device",
+      "meaning": "a dangerously alluring person, or a loud warning device",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loud warning device, or a mythical sea creature that lures sailors with song"
+}

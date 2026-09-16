@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kalulu",
+      "lang": "West African",
+      "era": "1700s",
+      "note": "a leafy green vegetable dish, carried to the Caribbean through the Atlantic slave trade",
+      "meaning": "a leafy green vegetable dish",
+      "lat": 6.52,
+      "lon": 3.38
+    },
+    {
+      "word": "callaloo",
+      "lang": "English",
+      "era": "1770s",
+      "note": "settled as the Caribbean English word for the leafy vegetable stew",
+      "meaning": "a Caribbean leafy green vegetable dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Caribbean dish made from leafy green vegetables, often cooked with coconut milk"
+}

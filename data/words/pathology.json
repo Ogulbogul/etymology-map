@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pathos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "suffering, disease, feeling",
+      "meaning": "suffering, disease",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pathologia",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "formed from Greek pathos (suffering) and -logia (study of)",
+      "meaning": "the study of disease",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pathology",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for the scientific study of disease",
+      "meaning": "the scientific study of disease",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the scientific study of the causes and effects of disease"
+}

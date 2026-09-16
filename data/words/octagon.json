@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "okto",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "eight, combined with gonia (angle)",
+      "meaning": "eight",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "octagon",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the geometric word for an eight-sided shape",
+      "meaning": "an eight-sided geometric shape",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a geometric shape with eight sides and eight angles"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-iksir",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a legendary substance alchemists sought to turn base metal into gold",
+      "meaning": "the philosopher's stone",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "elixir",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted into European alchemical and medical vocabulary",
+      "meaning": "a magical or medicinal preparation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "elixir",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for a magical or curative potion",
+      "meaning": "a magical or curative potion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a magical potion believed to cure ailments or grant eternal life"
+}

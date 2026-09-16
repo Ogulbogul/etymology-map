@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "apatheia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally without suffering, a Stoic ideal of freedom from passion",
+      "meaning": "freedom from suffering or passion",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "apathy",
+      "lang": "English",
+      "era": "1600s",
+      "note": "narrowed to mean simple lack of interest or feeling",
+      "meaning": "lack of interest or emotion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lack of interest, enthusiasm, or concern"
+}

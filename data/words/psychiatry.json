@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "psykhe",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the soul or mind, combined with iatreia (healing)",
+      "meaning": "the soul, the mind",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "psychiatry",
+      "lang": "English",
+      "era": "1800s",
+      "note": "coined for the medical treatment of mental illness",
+      "meaning": "the treatment of mental illness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the branch of medicine concerned with the diagnosis and treatment of mental illness"
+}

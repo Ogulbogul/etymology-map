@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "shāh māt",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "the losing king was declared \"helpless\", not literally dead",
+      "meaning": "the king is helpless",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "eschec mat",
+      "lang": "Old French",
+      "era": "c. 1300s",
+      "note": "chess terminology spread through French courtly culture",
+      "meaning": "the king is trapped",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "checkmate",
+      "lang": "English",
+      "era": "c. 1300s",
+      "note": "fixed as the term for the winning move in chess",
+      "meaning": "an inescapable winning position",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a chess move that traps the opponent's king and wins the game"
+}

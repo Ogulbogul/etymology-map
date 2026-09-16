@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "transcendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to climb across, to go beyond, from trans- (across) and scandere (to climb)",
+      "meaning": "to climb across, to go beyond",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transcend",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for going beyond the limits of something",
+      "meaning": "to go beyond the limits of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to go beyond the usual limits of something, or to surpass it"
+}

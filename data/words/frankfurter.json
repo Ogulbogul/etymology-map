@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Frankfurt",
+      "lang": "German",
+      "era": "medieval",
+      "note": "the German city associated with a style of smoked sausage",
+      "meaning": "the city of Frankfurt",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "Frankfurter",
+      "lang": "German",
+      "era": "1800s",
+      "note": "named the smoked sausage in the Frankfurt style",
+      "meaning": "a Frankfurt-style sausage",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "frankfurter",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "brought to the US by German immigrants",
+      "meaning": "a smoked sausage served in a bun",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a smoked sausage, typically served in a long bread roll as a hot dog"
+}

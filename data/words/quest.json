@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "quaerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek",
+      "meaning": "to seek",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "questa",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "a searching, a seeking, from quaerere",
+      "meaning": "a searching, a seeking",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "queste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a search or a knightly adventure",
+      "meaning": "a search or a knightly adventure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quest",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a long search for something important",
+      "meaning": "a long search for something important or difficult to find",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long or arduous search for something, especially an important goal"
+}

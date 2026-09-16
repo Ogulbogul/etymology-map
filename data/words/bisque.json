@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Biscaye",
+      "lang": "French",
+      "era": "1600s",
+      "note": "possibly named for the Bay of Biscay, or from a word for twice-cooked",
+      "meaning": "possibly the Bay of Biscay",
+      "lat": 45.0,
+      "lon": -3.0
+    },
+    {
+      "word": "bisque",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for a rich, creamy soup, especially of shellfish",
+      "meaning": "a rich, creamy shellfish soup",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bisque",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted directly for the smooth, creamy seafood soup",
+      "meaning": "a smooth, creamy soup, especially of shellfish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a smooth, rich, creamy soup, traditionally made from shellfish"
+}

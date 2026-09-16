@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "umami",
+      "lang": "Japanese",
+      "era": "1900s",
+      "note": "literally pleasant savory taste, coined by chemist Kikunae Ikeda",
+      "meaning": "a pleasant savory taste",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "umami",
+      "lang": "English",
+      "era": "1980s",
+      "note": "adopted by food scientists for the fifth basic taste",
+      "meaning": "a savory taste sensation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a savory taste imparted by certain amino acids, considered a basic taste"
+}

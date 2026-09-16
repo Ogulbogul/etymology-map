@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ikeru + hana",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "combining \"ikeru\" (to keep alive, arrange) and \"hana\" (flower)",
+      "meaning": "living flowers",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "ikebana",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the Japanese art of flower arranging spread internationally",
+      "meaning": "the Japanese art of flower arrangement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Japanese art of arranging flowers in a formal, minimalist style"
+}

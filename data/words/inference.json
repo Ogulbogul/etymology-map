@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "inferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry in, to bring about, from in- (in) and ferre (to carry)",
+      "meaning": "to bring in, to carry into",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inference",
+      "lang": "English",
+      "era": "1520s",
+      "note": "settled as the English word for a conclusion reached through reasoning",
+      "meaning": "a conclusion reached through reasoning from evidence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a conclusion reached through reasoning based on evidence"
+}

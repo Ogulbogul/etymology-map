@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gustare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to taste",
+      "meaning": "to taste",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gustatory",
+      "lang": "English",
+      "era": "1660s",
+      "note": "settled as the English word for anything relating to the sense of taste",
+      "meaning": "relating to the sense of taste",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the sense of taste"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "grandis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "large, great, full-grown",
+      "meaning": "large, great, full-grown",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grand",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for something large and impressive",
+      "meaning": "large and impressive",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grand",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something large, impressive, or dignified",
+      "meaning": "large, impressive, or dignified in appearance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "large, impressive, or dignified in scale, appearance, or style"
+}

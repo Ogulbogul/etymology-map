@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tangere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to touch",
+      "meaning": "to touch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tangibilis",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "able to be touched, from tangere",
+      "meaning": "able to be touched",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tangible",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for something able to be touched or clearly real",
+      "meaning": "able to be touched, or clearly real and definite",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to be touched or perceived, or clearly real and definite"
+}

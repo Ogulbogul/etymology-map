@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "roti",
+      "lang": "Sanskrit/Hindi",
+      "era": "ancient",
+      "note": "bread, the general word for South Asian flatbread",
+      "meaning": "bread",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "roti",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the unleavened South Asian flatbread",
+      "meaning": "an unleavened South Asian flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unleavened flatbread, a staple of South Asian cuisine"
+}

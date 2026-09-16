@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anatome",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a cutting-up, from dissecting bodies to study them",
+      "meaning": "dissection, cutting apart",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "anatomy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted for the scientific study of bodily structure",
+      "meaning": "the structure of an organism",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the bodily structure of an organism, or the study of it"
+}

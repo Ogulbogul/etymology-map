@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "raja",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meaning \"king\" or \"ruler\"",
+      "meaning": "king, ruler",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "raja",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "used as a title for Indian kings and princes",
+      "meaning": "a king or prince",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "rajah",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted through European contact with Indian rulers",
+      "meaning": "an Indian king or prince",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a title for a king or prince in India or Southeast Asia"
+}

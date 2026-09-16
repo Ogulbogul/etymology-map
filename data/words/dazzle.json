@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dasa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to become weary or exhausted, related to being overwhelmed",
+      "meaning": "to become exhausted, weary",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "dazzle",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed to mean overwhelmed by bright light or impressive skill",
+      "meaning": "to overwhelm with brightness or impressive skill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to impress deeply, or to overwhelm someone's vision with bright light"
+}

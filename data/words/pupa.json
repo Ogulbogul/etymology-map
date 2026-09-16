@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pupa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a girl, a doll, describing the wrapped, doll-like appearance of the dormant insect",
+      "meaning": "a girl, a doll",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pupa",
+      "lang": "English",
+      "era": "1758",
+      "note": "adopted by biologists for the dormant stage of insect development",
+      "meaning": "the dormant stage of an insect's development",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the dormant, transformative stage in an insect's development between larva and adult"
+}

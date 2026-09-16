@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caballus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a horse, especially a workhorse",
+      "meaning": "a horse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cavaliere",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a horseman, a knight, from cavallo (horse, from caballus)",
+      "meaning": "a horseman, a knight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cavalier",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for a knightly gentleman, later meaning offhand or dismissive",
+      "meaning": "a knightly gentleman, or someone offhand and dismissive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing a careless or dismissive attitude, or historically, a mounted knight or gentleman"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "durus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hard, giving rise to durare (to last)",
+      "meaning": "hard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "durant",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "lasting, present participle of durer (to last, from durare)",
+      "meaning": "lasting",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "during",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for throughout the course of a period of time",
+      "meaning": "throughout the course of a period of time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "throughout the course of or at some point within a period of time"
+}

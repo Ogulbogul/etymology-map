@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "retrahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw back, from re- (back) and trahere (to draw)",
+      "meaning": "to draw back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "retract",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for withdrawing a statement, or pulling something back",
+      "meaning": "to withdraw a statement, or to pull something back in",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to withdraw a previous statement, or to draw something back in"
+}

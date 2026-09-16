@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "parka",
+      "lang": "Nenets",
+      "era": "ancient",
+      "note": "an animal-skin coat worn by Siberian Arctic peoples",
+      "meaning": "an animal-skin coat",
+      "lat": 67.0,
+      "lon": 78.0
+    },
+    {
+      "word": "parka",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "adopted through contact with Siberian indigenous peoples",
+      "meaning": "a warm fur coat",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "parka",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through contact with Arctic peoples and Russian trade",
+      "meaning": "a warm, hooded winter coat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a warm, hooded winter coat, often lined with fur or fleece"
+}

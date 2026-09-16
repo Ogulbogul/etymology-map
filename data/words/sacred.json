@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sacer",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "holy, consecrated",
+      "meaning": "holy, consecrated",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sacrare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to consecrate, to make holy, from sacer",
+      "meaning": "to consecrate, to make holy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sacrer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for anointing or consecrating something",
+      "meaning": "to anoint or consecrate something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sacred",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something regarded as holy and deserving reverence",
+      "meaning": "regarded as holy and deserving great reverence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "regarded as holy and deserving of great reverence and respect"
+}

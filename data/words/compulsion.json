@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "compellere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to drive together, to force, from com- (together) and pellere (to drive)",
+      "meaning": "to force, to drive together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compulsion",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for an irresistible urge to act",
+      "meaning": "an irresistible urge to act in a certain way",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an irresistible urge to behave in a certain way, against one's conscious wishes"
+}

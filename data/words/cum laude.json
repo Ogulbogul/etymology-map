@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cum laude",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "with praise, from cum (with) and laus (praise)",
+      "meaning": "with praise",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cum laude",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English academic vocabulary for graduating with honors",
+      "meaning": "with academic honor or distinction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "with academic honors, a distinction given to graduating students"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "accessorius",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "additional, supplementary, from accedere (to approach, to be added to)",
+      "meaning": "additional, supplementary",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accessory",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a supplementary item, or one who aids a crime",
+      "meaning": "a supplementary item, or one who assists in a crime",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an item that complements a main item, or a person who assists in a crime"
+}

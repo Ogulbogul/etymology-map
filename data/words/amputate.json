@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "amputare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to cut around, to prune, from am- (around) and putare (to trim)",
+      "meaning": "to cut around, to prune",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amputate",
+      "lang": "English",
+      "era": "1630s",
+      "note": "settled as the medical word for surgically removing a limb",
+      "meaning": "to surgically remove a limb or part of the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to surgically remove a limb or other part of the body"
+}

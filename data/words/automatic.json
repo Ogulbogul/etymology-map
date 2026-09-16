@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "automatos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally self-acting, moving of its own accord",
+      "meaning": "acting of its own will",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "automatic",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the word for machines that operate without direct control",
+      "meaning": "operating without direct human control",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "operating independently of direct human control"
+}

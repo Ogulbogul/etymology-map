@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "contrahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw together, from com- (together) and trahere (to draw)",
+      "meaning": "to draw together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contract",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a binding agreement, or to shrink together",
+      "meaning": "a binding legal agreement, or to shrink together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a legally binding agreement, or to become smaller by drawing together"
+}

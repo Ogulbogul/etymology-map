@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "eslite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "chosen, selected, from elire (to choose, to select)",
+      "meaning": "chosen, selected",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "elite",
+      "lang": "English",
+      "era": "1820s",
+      "note": "settled as the English word for a select, superior group",
+      "meaning": "a select group considered superior to others",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a select group considered the best or most powerful within a larger group"
+}

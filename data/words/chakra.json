@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chakra",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally \"wheel\", referring to centers of energy in the body",
+      "meaning": "wheel, energy center",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "chakra",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through the spread of yogic and tantric philosophy",
+      "meaning": "a center of spiritual energy in the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in yogic tradition, one of several energy centers in the human body"
+}

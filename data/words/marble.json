@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "marmaros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "shining stone, from marmairein (to shine, sparkle)",
+      "meaning": "shining stone",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "marmor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the polished, crystalline rock",
+      "meaning": "the polished, crystalline rock",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "marbre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the same prized building stone",
+      "meaning": "the prized building stone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marble",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the crystalline metamorphic rock",
+      "meaning": "a crystalline metamorphic rock used in sculpture and building",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard crystalline rock, prized for sculpture and building, formed from recrystallized limestone"
+}

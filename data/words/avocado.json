@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "āhuacatl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "also the Nahuatl word for \"testicle\", from the fruit's shape",
+      "meaning": "avocado",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "aguacate",
+      "lang": "Spanish",
+      "era": "c. 1600s",
+      "note": "adapted to fit Spanish pronunciation after the conquest of Mexico",
+      "meaning": "avocado",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "avocado",
+      "lang": "English",
+      "era": "c. 1690s",
+      "note": "reshaped in English by folk association with Spanish \"abogado\" (lawyer)",
+      "meaning": "the avocado fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a green pear-shaped fruit with rich, creamy flesh"
+}

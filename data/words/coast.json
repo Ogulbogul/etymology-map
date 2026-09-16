@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "costa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a rib, a side, extended to mean the edge or side of the land bordering the sea",
+      "meaning": "a rib, a side",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the land bordering the sea",
+      "meaning": "the land bordering the sea",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "coast",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the land bordering the sea",
+      "meaning": "the land bordering the sea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the land bordering the sea"
+}

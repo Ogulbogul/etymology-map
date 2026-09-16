@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sarkazein",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally to tear flesh, from sarx (flesh), describing brutally cutting mockery",
+      "meaning": "to tear flesh, to speak bitterly",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sarcasm",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for bitter, cutting irony",
+      "meaning": "bitter or cutting remarks meant to mock",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the use of ironic or cutting remarks to mock or convey contempt"
+}

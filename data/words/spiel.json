@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Spiel",
+      "lang": "German/Yiddish",
+      "era": "medieval",
+      "note": "meaning \"a game\" or \"a play\"",
+      "meaning": "a game, a play",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "spiel",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through German and Yiddish-speaking immigrant communities",
+      "meaning": "a lengthy, persuasive speech",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a lengthy or glib speech, especially one used to persuade"
+}

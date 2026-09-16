@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "slamra",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "to bang shut violently, an imitation of the sound itself",
+      "meaning": "to bang shut",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "slam",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for shutting something forcefully",
+      "meaning": "to shut or put down something forcefully",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to shut or put something down forcefully and loudly"
+}

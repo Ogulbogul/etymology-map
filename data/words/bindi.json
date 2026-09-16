@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bindu",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meaning \"a drop\" or \"point\", a symbolic dot",
+      "meaning": "a drop, point",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "bindi",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the decorative forehead mark worn by South Asian women",
+      "meaning": "a forehead mark",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "bindi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as South Asian fashion and culture became internationally known",
+      "meaning": "a decorative dot worn on the forehead",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a decorative mark, often a dot, worn on the forehead, especially by South Asian women"
+}

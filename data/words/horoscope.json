@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "horoskopos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally observer of the hour, from hora (hour) and skopos (observer)",
+      "meaning": "an observer of the hour of birth",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "horoscope",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a forecast based on star positions at birth",
+      "meaning": "an astrological forecast",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an astrological forecast of a person's future based on star positions"
+}

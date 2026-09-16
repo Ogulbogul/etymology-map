@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "probare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to test, to prove, combined with dis- (not)",
+      "meaning": "to test, to prove",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desprover",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for showing something to be false, from dis- and prover",
+      "meaning": "to show something to be false",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "disprove",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for showing that something is false",
+      "meaning": "to show that something is false or wrong",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to show that a claim, theory, or statement is false"
+}

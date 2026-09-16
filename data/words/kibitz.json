@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kiebitzen",
+      "lang": "German",
+      "era": "1800s",
+      "note": "to look on and offer unwanted advice, from Kiebitz (a lapwing bird known for its noisy behavior)",
+      "meaning": "to look on and meddle",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "kibitsn",
+      "lang": "Yiddish",
+      "era": "1800s",
+      "note": "adopted into Yiddish for offering unsolicited advice, especially during card games",
+      "meaning": "to offer unsolicited advice",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "kibitz",
+      "lang": "English",
+      "era": "1927",
+      "note": "adopted through Yiddish-speaking communities into American English",
+      "meaning": "to offer unwanted advice or commentary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to offer unsolicited advice or commentary, especially while watching others"
+}

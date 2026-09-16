@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "erumpere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to break out, from ex- (out) and rumpere (to break)",
+      "meaning": "to break out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "erupt",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for bursting out suddenly and violently",
+      "meaning": "to burst out suddenly and violently",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to burst out suddenly and often violently, as a volcano does"
+}

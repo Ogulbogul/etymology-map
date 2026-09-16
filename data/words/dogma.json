@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dogma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an opinion, a belief, from dokein (to seem, to think)",
+      "meaning": "an opinion, a belief",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "dogma",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for a firmly held belief accepted as authoritative",
+      "meaning": "a firmly held belief accepted without question",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a principle or belief put forward as authoritative and not to be doubted"
+}

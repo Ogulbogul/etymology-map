@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "stare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand",
+      "meaning": "to stand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "statua",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a standing image, from stare (to stand)",
+      "meaning": "a standing image",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "statue",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a sculpted human or animal figure",
+      "meaning": "a sculpted human or animal figure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "statue",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a sculpted figure of a person or animal",
+      "meaning": "a sculpted figure of a person or animal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a carved or cast figure of a person or animal, usually life-size or larger"
+}

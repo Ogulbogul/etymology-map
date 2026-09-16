@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "venum dare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give for sale, from venum (for sale) and dare (to give)",
+      "meaning": "to give for sale",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sell, contracted from venum dare",
+      "meaning": "to sell",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vend",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for offering goods for sale",
+      "meaning": "to offer goods for sale",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to sell goods, especially in a small way or from a machine"
+}

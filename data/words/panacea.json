@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Panakeia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the goddess of universal remedy, from pan- (all) and akos (cure)",
+      "meaning": "the goddess of universal healing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "panacea",
+      "lang": "English",
+      "era": "1540s",
+      "note": "broadened from the goddess's name to any supposed cure-all",
+      "meaning": "a solution or remedy for all problems",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a solution or remedy believed to solve all problems or cure all ills"
+}

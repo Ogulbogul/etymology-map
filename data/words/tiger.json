@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tigris",
+      "lang": "Persian/Greek",
+      "era": "ancient",
+      "note": "possibly from an old word for arrow, describing the animal's speed",
+      "meaning": "the tiger, or arrow-swift",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    {
+      "word": "tigre",
+      "lang": "Latin/Old French",
+      "era": "ancient",
+      "note": "carried through Greek and Latin into French animal vocabulary",
+      "meaning": "the striped big cat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tiger",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the large striped cat",
+      "meaning": "a large striped big cat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large striped wild cat native to Asia"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "continens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally holding together, from continere (to contain), describing land held together as one mass",
+      "meaning": "holding together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "continent",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the English word for one of earth's major landmasses",
+      "meaning": "one of the earth's main continuous landmasses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the earth's major continuous landmasses"
+}

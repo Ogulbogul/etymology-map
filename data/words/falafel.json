@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "falafil",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "fried patties made from ground chickpeas or fava beans",
+      "meaning": "fried chickpea patties",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "falafel",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Middle Eastern cuisine spread internationally",
+      "meaning": "a fried patty of ground chickpeas or beans",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fried patty made from ground chickpeas or fava beans, popular in Middle Eastern cuisine"
+}

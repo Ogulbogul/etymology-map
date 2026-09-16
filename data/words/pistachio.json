@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pistak",
+      "lang": "Persian",
+      "era": "ancient",
+      "note": "the pistachio tree and its nut",
+      "meaning": "pistachio nut",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    {
+      "word": "pistakion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adapted from Persian for the same nut",
+      "meaning": "pistachio nut",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pistacchio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "carried into Italian trade vocabulary for the nut",
+      "meaning": "pistachio nut",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pistachio",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the green nut",
+      "meaning": "a small green edible nut",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small green edible nut from the pistachio tree"
+}

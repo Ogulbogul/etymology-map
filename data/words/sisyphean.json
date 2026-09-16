@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Sisyphos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mythical king condemned to eternally push a boulder up a hill, only for it to roll back down",
+      "meaning": "the mythical king Sisyphus",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sisyphean",
+      "lang": "English",
+      "era": "1630s",
+      "note": "coined from the myth for a task that is endless and futile",
+      "meaning": "endlessly laborious and ultimately futile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "describing a task that is endless, laborious, and ultimately futile"
+}

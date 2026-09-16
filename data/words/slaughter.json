@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "slatr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "butcher's meat, the killing of animals for food",
+      "meaning": "butcher's meat",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "slaughter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the killing of animals for food, or mass killing",
+      "meaning": "the killing of animals for food, or brutal mass killing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the killing of animals for food, or the brutal, violent killing of people"
+}

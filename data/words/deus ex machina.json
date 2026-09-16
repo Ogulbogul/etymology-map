@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "theos ek mekhanes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "god from the machine, describing a stage device that lowered actors playing gods into a play",
+      "meaning": "god from the machine",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "deus ex machina",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "translated from Greek theatrical vocabulary for the same stage device",
+      "meaning": "god from the machine",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deus ex machina",
+      "lang": "English",
+      "era": "1690s",
+      "note": "adopted into English literary criticism for a contrived plot resolution",
+      "meaning": "a contrived, artificial resolution to a story's problems",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unexpected, artificial plot device that suddenly resolves a story's difficulties"
+}

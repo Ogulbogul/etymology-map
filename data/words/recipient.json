@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "recipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take back, to receive, from re- (back) and capere (to take)",
+      "meaning": "to take back, to receive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "recipiens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one who receives, present participle of recipere",
+      "meaning": "one who receives",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "recipient",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a person who receives something",
+      "meaning": "a person who receives something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or thing that receives something"
+}

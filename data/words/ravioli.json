@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ravioli",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "small stuffed pasta pockets, possibly from riavvolgere (to wrap up)",
+      "meaning": "small stuffed pasta pockets",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ravioli",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the stuffed pasta dish",
+      "meaning": "small stuffed pasta pockets",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "small pasta pockets filled with meat, cheese, or vegetables"
+}

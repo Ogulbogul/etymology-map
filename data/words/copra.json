@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "koppara",
+      "lang": "Malayalam",
+      "era": "medieval",
+      "note": "the dried coconut kernel",
+      "meaning": "dried coconut kernel",
+      "lat": 9.93,
+      "lon": 76.26
+    },
+    {
+      "word": "copra",
+      "lang": "Portuguese",
+      "era": "1500s-1600s",
+      "note": "adopted through Portuguese trade on the Malabar coast",
+      "meaning": "dried coconut meat",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "copra",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted through trade contact with South Asia",
+      "meaning": "dried coconut kernel used to extract oil",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the dried kernel of the coconut, used to extract coconut oil"
+}

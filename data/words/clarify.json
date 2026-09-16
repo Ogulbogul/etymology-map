@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "clarus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "clear, bright, combined with facere (to make)",
+      "meaning": "clear, bright",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clarificare",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "to make clear, from clarus and facere",
+      "meaning": "to make clear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clarifier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for making something easier to understand",
+      "meaning": "to make something easier to understand",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "clarify",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for making something clearer or easier to understand",
+      "meaning": "to make something clearer or easier to understand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make something clearer or easier to understand"
+}

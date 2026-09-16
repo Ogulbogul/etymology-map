@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "buraq",
+      "lang": "Arabic/Persian",
+      "era": "medieval",
+      "note": "the root behind borax, the mineral from which the element was later isolated",
+      "meaning": "related to borax",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "boron",
+      "lang": "English",
+      "era": "1812",
+      "note": "coined by blending borax with carbon, since the two elements share properties",
+      "meaning": "a hard, brittle metalloid element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard, brittle metalloid chemical element"
+}

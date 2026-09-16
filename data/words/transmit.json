@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "transmittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send across, from trans- (across) and mittere (to send)",
+      "meaning": "to send across",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transmit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for sending something from one place to another",
+      "meaning": "to send something from one place or person to another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to send or pass something from one place, person, or thing to another"
+}

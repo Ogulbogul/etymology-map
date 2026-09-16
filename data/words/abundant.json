@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "abundare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to overflow, from ab- (away) and undare (to rise in waves)",
+      "meaning": "to overflow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "abundant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for existing in large, plentiful quantities",
+      "meaning": "existing in large quantities, plentiful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "existing or available in large quantities, plentiful"
+}

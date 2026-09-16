@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "facere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make, to do",
+      "meaning": "to make, to do",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "factorium",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "a place where things are made, from facere",
+      "meaning": "a place where things are made",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "factory",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a building where goods are manufactured",
+      "meaning": "a building where goods are manufactured",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building or set of buildings where goods are manufactured"
+}

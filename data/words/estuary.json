@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aestus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "tide, heat, boiling",
+      "meaning": "tide, boiling",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aestuarium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a tidal marsh or inlet, from aestus (tide)",
+      "meaning": "a tidal marsh or inlet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estuary",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for the tidal mouth of a river",
+      "meaning": "the tidal mouth of a large river",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the wide part of a river where it meets the sea and tides mix with fresh water"
+}

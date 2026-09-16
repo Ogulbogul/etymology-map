@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "al-kimiya",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the medieval science of transforming matter",
+      "meaning": "the art of transformation",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "alchimia",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted through Arabic scientific texts translated in Spain",
+      "meaning": "alchemy",
+      "lat": 39.86,
+      "lon": -4.02
+    },
+    {
+      "word": "alkemie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the study of transmutation into French",
+      "meaning": "alchemy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "alchemy",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the pseudo-science",
+      "meaning": "the medieval forerunner of chemistry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medieval forerunner of chemistry, concerned with transforming base metals into gold"
+}

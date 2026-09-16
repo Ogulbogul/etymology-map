@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "geras",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "old age, combined with iatrikos (relating to healing)",
+      "meaning": "old age",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "geriatric",
+      "lang": "English",
+      "era": "1900s",
+      "note": "coined for the medical treatment of older adults",
+      "meaning": "relating to the medical care of the elderly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the medical care of elderly people"
+}

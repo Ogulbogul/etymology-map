@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mistaka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally to take wrongly, from mis- (wrongly) and taka (to take)",
+      "meaning": "to take wrongly",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "mistake",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an error in judgment or action",
+      "meaning": "an error in judgment or action",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an error in action, judgment, or understanding"
+}

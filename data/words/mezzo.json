@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mezzo",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally half, middle, describing a voice or dynamic between two extremes",
+      "meaning": "half, middle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mezzo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly, especially in mezzo-soprano for the middle female voice",
+      "meaning": "a middle vocal range, as in mezzo-soprano",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "moderately, or describing a vocal range between soprano and contralto"
+}

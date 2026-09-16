@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About | Etymology Map</title>
+<meta name="description" content="What Etymology Map is, how the word-origin data is sourced and verified, and credit for the open-source mapping libraries it uses." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-top">
+        <a href="index.html" class="site-brand">Etymology Map</a>
+        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+      </div>
+    </header>
+
+    <main class="doc-main">
+      <a class="back-link" href="index.html">
+        <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to Etymology Map
+      </a>
+      <h1>About Etymology Map</h1>
+      <p class="doc-meta">A word-origin explorer with an interactive world map.</p>
+
+      <h2>What this is</h2>
+      <p>
+        Etymology Map lets you type an English word and see the languages it passed through on its way here:
+        each stage plotted on a real world map, in the order it traveled, with the word's form and meaning at every
+        step along the way. The goal is to make etymology tangible: not just a list of language names, but an actual
+        journey you can trace with your eyes.
+      </p>
+
+      <h2>How the data is put together</h2>
+      <p>
+        This is not a hand-compiled reference in the traditional sense. Each entry was researched and drafted with
+        AI assistance (using Claude, from Anthropic), drawing on established etymological knowledge and then
+        structured, stage by stage, into the language, era, and approximate location you see plotted on the map.
+        Entries are reviewed for accuracy rather than published in bulk, and the project favors a smaller, carefully
+        checked collection over a larger, sloppier one. Etymology is also a field with genuine scholarly debate in
+        places (word origins aren't always settled science), so entries should be read as a reasonable, well-sourced
+        account rather than an infallible one, and corrections are welcome.
+      </p>
+      <p id="word-count-line">The collection currently contains a number of words spanning dozens of source languages.</p>
+
+      <h2>Built with</h2>
+      <p>This site is static (plain HTML, CSS, and JavaScript, no backend or build step). The world map is rendered using:</p>
+      <ul>
+        <li><a href="https://github.com/d3/d3-geo" target="_blank" rel="noopener">d3-geo</a>: map projections and path generation</li>
+        <li><a href="https://github.com/topojson/topojson-client" target="_blank" rel="noopener">topojson-client</a>: decoding the world's coastline data</li>
+        <li><a href="https://github.com/topojson/world-atlas" target="_blank" rel="noopener">world-atlas</a>: the underlying land/coastline geometry</li>
+      </ul>
+      <p>Thanks to their maintainers for making these freely available.</p>
+
+      <h2>Feedback and corrections</h2>
+      <p>
+        Spotted an inaccurate etymology, a typo, or a word you'd like to see added? Reach out at
+        <a href="mailto:your-email@example.com">your-email@example.com</a><!-- TODO: replace with your real contact address before publishing -->.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <a href="index.html">Etymology Map</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var THEME_KEY = "etymology-map-theme";
+      var btn = document.getElementById("theme-toggle-btn");
+
+      function isDarkActive() {
+        var explicit = document.documentElement.getAttribute("data-theme");
+        if (explicit === "dark") return true;
+        if (explicit === "light") return false;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+
+      function applyTheme(theme) {
+        if (theme === "dark" || theme === "light") {
+          document.documentElement.setAttribute("data-theme", theme);
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+        }
+        var dark = isDarkActive();
+        btn.textContent = dark ? "☀️" : "🌙";
+        btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      }
+
+      var stored = null;
+      try {
+        stored = localStorage.getItem(THEME_KEY);
+      } catch (err) {
+        stored = null;
+      }
+      applyTheme(stored);
+
+      btn.addEventListener("click", function () {
+        var next = isDarkActive() ? "light" : "dark";
+        try {
+          localStorage.setItem(THEME_KEY, next);
+        } catch (err) {}
+        applyTheme(next);
+      });
+    })();
+
+    (function () {
+      fetch("data/words-index.json")
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          var count = Object.keys(data).length;
+          var el = document.getElementById("word-count-line");
+          if (el) {
+            el.textContent = "The collection currently contains " + count + " words spanning dozens of source languages, and keeps growing.";
+          }
+        })
+        .catch(function () {
+          // Leave the static fallback text in place if this fails.
+        });
+    })();
+  </script>
+</body>
+</html>

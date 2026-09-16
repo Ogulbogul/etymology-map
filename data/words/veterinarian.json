@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "veterinae",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to beasts of burden, cattle",
+      "meaning": "relating to draft animals",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "veterinarian",
+      "lang": "English",
+      "era": "1640s",
+      "note": "settled as the English word for a doctor specializing in animal medicine",
+      "meaning": "a doctor specializing in animal medicine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a doctor qualified to treat diseases and injuries in animals"
+}

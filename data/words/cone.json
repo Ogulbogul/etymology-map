@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "konos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a pine cone, or a peak, a pointed shape",
+      "meaning": "a pine cone, a peak",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cone",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the geometric word for a shape tapering to a point",
+      "meaning": "a shape that tapers from a round base to a point",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a three-dimensional shape that tapers smoothly from a circular base to a point"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ai + ki + do",
+      "lang": "Japanese",
+      "era": "1920s",
+      "note": "combining \"ai\" (harmony), \"ki\" (spirit), and \"do\" (way)",
+      "meaning": "the way of harmonious spirit",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "aikido",
+      "lang": "English",
+      "era": "1950s-1960s",
+      "note": "adopted as the martial art spread internationally",
+      "meaning": "a martial art focused on redirecting an opponent's force",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese martial art that uses an opponent's own force against them"
+}

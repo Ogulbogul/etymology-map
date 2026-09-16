@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tenon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "to stretch, the root of the tissue connecting muscle to bone",
+      "meaning": "to stretch",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tendo",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted into Latin anatomical vocabulary for the connective tissue",
+      "meaning": "a stretched connective tissue",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tendon",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the tissue connecting muscle to bone",
+      "meaning": "a tissue connecting muscle to bone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tough band of tissue connecting muscle to bone"
+}

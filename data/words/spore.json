@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sporos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a sowing, a seed, from speirein (to sow)",
+      "meaning": "a seed, a sowing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "spore",
+      "lang": "English",
+      "era": "1836",
+      "note": "adopted by botanists for the reproductive cell of fungi, ferns, and mosses",
+      "meaning": "a reproductive cell of fungi, ferns, or mosses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small reproductive cell produced by fungi, ferns, mosses, and some bacteria"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pathos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "suffering, feeling, emotion",
+      "meaning": "suffering, feeling",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pathos",
+      "lang": "English",
+      "era": "1590s",
+      "note": "adopted directly for a quality that evokes pity or sadness",
+      "meaning": "a quality that evokes pity or sadness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quality in speech, writing, or art that evokes pity or sadness"
+}

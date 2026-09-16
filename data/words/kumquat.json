@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gam gwat",
+      "lang": "Cantonese",
+      "era": "medieval",
+      "note": "literally golden orange, describing the small citrus fruit",
+      "meaning": "golden orange",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "kumquat",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the small citrus fruit eaten whole",
+      "meaning": "a small citrus fruit eaten with its peel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small citrus fruit with an edible sweet peel"
+}

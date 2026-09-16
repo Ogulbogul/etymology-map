@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sushi",
+      "lang": "Old Japanese",
+      "era": "ancient",
+      "note": "originally meaning \"sour\", describing fermented, preserved fish",
+      "meaning": "sour, fermented fish",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "sushi",
+      "lang": "Japanese",
+      "era": "1800s",
+      "note": "evolved to mean fresh fish served with vinegared rice",
+      "meaning": "vinegared rice with fish",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "sushi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from Japanese",
+      "meaning": "a dish of vinegared rice with fish or vegetables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese dish of vinegared rice combined with fish, seafood, or vegetables"
+}

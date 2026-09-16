@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rumpere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to break",
+      "meaning": "to break",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ruptura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a breaking, a burst, from rumpere",
+      "meaning": "a breaking, a burst",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rupture",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a break or burst, or a breakdown in a relationship",
+      "meaning": "a break or burst, or a breakdown in a relationship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sudden break or split, or a breakdown in a relationship"
+}

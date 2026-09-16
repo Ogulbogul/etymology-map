@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lasagna",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "originally the name for a wide flat sheet of pasta, later the layered baked dish",
+      "meaning": "a flat sheet of pasta",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lasagna",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the layered baked pasta dish",
+      "meaning": "a baked dish of layered flat pasta",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a baked dish made of layered flat pasta, sauce, and cheese"
+}

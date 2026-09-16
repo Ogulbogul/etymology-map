@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "trousse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a bundle, a small pack of belongings",
+      "meaning": "a bundle of belongings",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "trousseau",
+      "lang": "French",
+      "era": "1600s",
+      "note": "narrowed to mean a bride's collection of clothing and household linens",
+      "meaning": "a bride's collection of clothing and linens",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "trousseau",
+      "lang": "English",
+      "era": "1817",
+      "note": "adopted directly for a bride's personal collection gathered before marriage",
+      "meaning": "a bride's collection of clothes and belongings for marriage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the clothes, linens, and other belongings collected by a bride for her marriage"
+}

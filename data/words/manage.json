@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "manus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hand",
+      "meaning": "hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mano",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "hand, from Latin manus, the root of maneggiare (to handle, to train horses)",
+      "meaning": "hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manege",
+      "lang": "French",
+      "era": "1500s",
+      "note": "adapted from Italian for the handling and training of horses",
+      "meaning": "the handling and training of horses",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "manage",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for handling or being in charge of something",
+      "meaning": "to handle or be in charge of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to be in charge of, control, or successfully handle something"
+}

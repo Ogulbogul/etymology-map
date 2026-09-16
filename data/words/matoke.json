@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "matoke",
+      "lang": "Bantu",
+      "era": "medieval",
+      "note": "a variety of starchy cooking banana, and the dish made from it",
+      "meaning": "cooking bananas",
+      "lat": 0.35,
+      "lon": 32.58
+    },
+    {
+      "word": "matoke",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the East African steamed banana dish",
+      "meaning": "a steamed East African banana dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a starchy East African dish made from steamed and mashed green bananas"
+}

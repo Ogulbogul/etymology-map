@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tenere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold, combined with inter- (among, between)",
+      "meaning": "to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intertenere",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "to hold among, to maintain, from inter- and tenere",
+      "meaning": "to hold among, to maintain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "entretenir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for maintaining or amusing someone through conversation",
+      "meaning": "to maintain or amuse someone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "entertain",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for providing amusement or enjoyment",
+      "meaning": "to provide amusement or enjoyment for someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to provide amusement or enjoyment for someone, or to host guests"
+}

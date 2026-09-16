@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "broccato",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "from broccare (to stud, to spur), describing raised, embossed patterns woven into cloth",
+      "meaning": "an embossed fabric",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "brocade",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for the richly patterned woven fabric",
+      "meaning": "a richly decorative woven fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rich fabric woven with a raised, often gold or silver, pattern"
+}

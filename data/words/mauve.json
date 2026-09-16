@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "malva",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the mallow plant, whose flowers gave their name to a pale purple color",
+      "meaning": "the mallow plant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mauve",
+      "lang": "French",
+      "era": "1800s",
+      "note": "carried into French for the pale purple color of the mallow flower",
+      "meaning": "a pale purple color",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mauve",
+      "lang": "English",
+      "era": "1859",
+      "note": "popularized in English after the invention of the first synthetic dye of this shade",
+      "meaning": "a pale purple color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pale purple color"
+}

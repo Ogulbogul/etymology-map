@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sine qua non",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "without which not, from sine (without), qua (which), and non (not)",
+      "meaning": "without which not",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sine qua non",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly into English for an indispensable condition",
+      "meaning": "an essential, indispensable condition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an essential condition without which something cannot happen"
+}

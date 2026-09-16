@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pax",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "peace, combined with facere (to make)",
+      "meaning": "peace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pacify",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for calming someone or ending a conflict",
+      "meaning": "to calm someone down, or to end a conflict",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to calm someone's anger or distress, or to bring an end to conflict"
+}

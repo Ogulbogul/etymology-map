@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "evenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come out, to happen, from ex- (out) and venire (to come)",
+      "meaning": "to come out, to happen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "event",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for something that happens, especially a notable one",
+      "meaning": "a thing that happens, especially a notable one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thing that happens, especially one considered notable or organized"
+}

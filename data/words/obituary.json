@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ob ire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to go toward, to meet, from ob- (toward) and ire (to go)",
+      "meaning": "to go toward, to meet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obitus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a going down, a death, from obire",
+      "meaning": "a going down, a death",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obituarius",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "relating to a death, from obitus",
+      "meaning": "relating to a death",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obituary",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for a published notice of someone's death",
+      "meaning": "a published notice of someone's death, often with a biography",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a published notice of a person's death, usually with a short biography"
+}

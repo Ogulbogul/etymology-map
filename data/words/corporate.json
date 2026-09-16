@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "corpus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "body",
+      "meaning": "body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corporare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to form into a body, from corpus",
+      "meaning": "to form into a body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corporatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "formed into a body, united, from corporare",
+      "meaning": "formed into a body, united",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corporate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something relating to a large company treated as a single body",
+      "meaning": "relating to a large company treated as a single legal body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a large company or corporation treated as a single legal entity"
+}

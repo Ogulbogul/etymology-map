@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "invocare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to call upon, from in- (upon) and vocare (to call)",
+      "meaning": "to call upon",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "invoke",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for calling upon a higher power, or citing an authority",
+      "meaning": "to call upon a higher power, or to cite as support",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to call upon a higher power for help, or to cite something as support for an argument"
+}

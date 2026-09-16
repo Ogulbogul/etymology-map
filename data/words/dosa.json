@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dosai",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "a thin, crispy crepe made from fermented rice and lentil batter",
+      "meaning": "a fermented rice crepe",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "dosa",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as South Indian cuisine spread internationally",
+      "meaning": "a thin South Indian crepe made from fermented batter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin, crispy South Indian crepe made from a fermented rice and lentil batter"
+}

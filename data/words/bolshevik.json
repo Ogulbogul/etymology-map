@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bolshinstvo",
+      "lang": "Russian",
+      "era": "1900s",
+      "note": "literally majority, the name taken by Lenin's revolutionary faction",
+      "meaning": "majority",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "bolshevik",
+      "lang": "English",
+      "era": "1917",
+      "note": "settled as the word for the Russian revolutionary and, later, any radical",
+      "meaning": "a member of the Russian revolutionary majority faction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a member of the Russian revolutionary party, or loosely, any radical"
+}

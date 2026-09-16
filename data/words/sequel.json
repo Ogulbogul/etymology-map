@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sequela",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "that which follows, a consequence, from sequi",
+      "meaning": "that which follows, a consequence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sequel",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a work that continues an earlier story",
+      "meaning": "a work that continues the story of an earlier one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a book, film, or event that follows and continues from an earlier one"
+}

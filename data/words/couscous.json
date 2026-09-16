@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kuskus",
+      "lang": "Berber",
+      "era": "medieval",
+      "note": "the name for small steamed grains of crushed durum wheat",
+      "meaning": "steamed crushed wheat grains",
+      "lat": 31.63,
+      "lon": -7.99
+    },
+    {
+      "word": "couscous",
+      "lang": "French",
+      "era": "1600s",
+      "note": "adopted into French through North African contact and colonization",
+      "meaning": "a North African dish of steamed wheat grains",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "couscous",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the North African steamed wheat dish",
+      "meaning": "a North African dish of steamed semolina grains",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a North African dish made from small steamed grains of crushed durum wheat"
+}

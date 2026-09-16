@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hautbois",
+      "lang": "French",
+      "era": "1500s",
+      "note": "literally high wood, from haut (high) and bois (wood)",
+      "meaning": "high wood",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "oboe",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "reshaped phonetically in Italian for the double-reed woodwind instrument",
+      "meaning": "a double-reed woodwind instrument",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oboe",
+      "lang": "English",
+      "era": "1730s",
+      "note": "settled as the English word for the double-reed woodwind instrument",
+      "meaning": "a double-reed woodwind instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a woodwind instrument played with a double reed, known for its piercing tone"
+}

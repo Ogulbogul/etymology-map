@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "studium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"study\" or \"zeal\"",
+      "meaning": "study, zeal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "studio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "came to mean an artist's workroom",
+      "meaning": "an artist's workroom",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "studio",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Italian",
+      "meaning": "a room where an artist or performer works",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a room or building used by an artist, or for recording and broadcasting"
+}

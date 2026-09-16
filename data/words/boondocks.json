@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bundok",
+      "lang": "Tagalog",
+      "era": "1800s",
+      "note": "literally mountain, referring to remote, rural terrain",
+      "meaning": "a mountain",
+      "lat": 14.6,
+      "lon": 120.98
+    },
+    {
+      "word": "boondocks",
+      "lang": "English",
+      "era": "1940s",
+      "note": "brought back by American soldiers stationed in the Philippines for remote rural areas",
+      "meaning": "a remote, rural area",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a remote, rural area far from a city"
+}

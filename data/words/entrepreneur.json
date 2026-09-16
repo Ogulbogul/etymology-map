@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "entreprendre",
+      "lang": "French",
+      "era": "medieval",
+      "note": "meaning \"to undertake\"",
+      "meaning": "to undertake",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "entrepreneur",
+      "lang": "French",
+      "era": "1700s",
+      "note": "came to mean one who undertakes a business venture",
+      "meaning": "one who undertakes a venture",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "entrepreneur",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from French",
+      "meaning": "a person who starts and runs a business, taking on financial risk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who starts and runs a business, taking on financial risk"
+}

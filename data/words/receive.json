@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "recipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take back, to regain, from re- (back) and capere (to take)",
+      "meaning": "to take back, to regain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "receivre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for accepting something given or sent",
+      "meaning": "to accept something given or sent",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "receive",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for accepting or taking in something given",
+      "meaning": "to take in or accept something given or sent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to take in or be given something that is sent, offered, or handed over"
+}

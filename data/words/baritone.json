@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "barytonos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally deep-sounding, from barys (heavy) and tonos (tone)",
+      "meaning": "deep-sounding",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "baritono",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "adopted into Italian musical vocabulary for the male voice between tenor and bass",
+      "meaning": "a male voice between tenor and bass",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "baritone",
+      "lang": "English",
+      "era": "1730s",
+      "note": "settled as the English word for the vocal range",
+      "meaning": "a male singing voice between tenor and bass",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a male singing voice between tenor and bass"
+}

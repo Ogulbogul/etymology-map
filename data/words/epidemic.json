@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "epidemios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally among the people, describing a disease spreading through a population",
+      "meaning": "prevalent among the people",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "epidemique",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French medical vocabulary",
+      "meaning": "widespread among a population",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "epidemic",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for a disease spreading rapidly through a population",
+      "meaning": "a widespread outbreak of disease",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a widespread occurrence of an infectious disease in a population"
+}

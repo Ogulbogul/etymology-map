@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "guu-wi",
+      "lang": "Dharug",
+      "era": "1700s",
+      "note": "a loud, far-carrying call used to attract attention across distance",
+      "meaning": "come here, a signal call",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "cooee",
+      "lang": "English",
+      "era": "1790s",
+      "note": "adopted directly by settlers as a bush signal call",
+      "meaning": "a loud call used to attract attention over a distance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loud, far-carrying call used to attract attention, especially in the Australian bush"
+}

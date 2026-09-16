@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Drakon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an Athenian lawmaker whose legal code was famous for its extreme severity",
+      "meaning": "a lawmaker's name",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "draconian",
+      "lang": "English",
+      "era": "1810s",
+      "note": "coined for laws or measures of excessive harshness",
+      "meaning": "excessively harsh or severe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "excessively harsh or severe, especially referring to laws or punishment"
+}

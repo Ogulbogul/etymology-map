@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "docere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to teach",
+      "meaning": "to teach",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "doctrina",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "teaching, instruction, from docere",
+      "meaning": "teaching, instruction",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "doctrine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a set of taught beliefs",
+      "meaning": "a set of taught beliefs",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "doctrine",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a set of official beliefs or teachings",
+      "meaning": "a set of official beliefs or teachings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a set of beliefs or principles taught and held by a religious, political, or philosophical group"
+}

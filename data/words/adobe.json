@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tobe",
+      "lang": "Egyptian",
+      "era": "ancient",
+      "note": "an ancient Egyptian word for a mud brick",
+      "meaning": "mud brick",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "al-tob",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "\"the brick\", borrowed from Coptic Egyptian",
+      "meaning": "the brick",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "adobe",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "adopted through Arabic influence in Iberia",
+      "meaning": "sun-dried mud brick",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "adobe",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted through Spanish colonial building traditions in the Americas",
+      "meaning": "sun-dried mud brick construction",
+      "lat": 35.08,
+      "lon": -106.65
+    }
+  ],
+  "current_meaning": "a building material made of sun-dried mud and straw, or a structure built from it"
+}

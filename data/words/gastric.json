@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gaster",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the stomach, the root of anything relating to digestion",
+      "meaning": "the stomach",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "gastric",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the medical word for anything relating to the stomach",
+      "meaning": "relating to the stomach",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the stomach"
+}

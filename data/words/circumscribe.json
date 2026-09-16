@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "circumscribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw a line around, from circum- (around) and scribere (to write)",
+      "meaning": "to draw a line around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumscribe",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for restricting something within limits",
+      "meaning": "to restrict something within limits",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to restrict or limit something within certain boundaries"
+}

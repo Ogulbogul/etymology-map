@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Nemesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the goddess of retribution against those who succumb to excessive pride",
+      "meaning": "the goddess of divine retribution",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "nemesis",
+      "lang": "English",
+      "era": "1570s",
+      "note": "broadened from the goddess herself to any long-standing rival or downfall",
+      "meaning": "a long-standing rival, or the cause of one's downfall",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long-standing rival, or an inescapable agent of someone's downfall"
+}

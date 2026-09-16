@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chinchilla",
+      "lang": "Quechua/Aymara",
+      "era": "medieval",
+      "note": "the name for the small, soft-furred rodent of the Andes",
+      "meaning": "the chinchilla rodent",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "chinchilla",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "adopted into Spanish by colonizers trading the animal's prized fur",
+      "meaning": "a small, soft-furred Andean rodent",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "chinchilla",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the small rodent prized for its soft fur",
+      "meaning": "a small rodent with very soft, dense fur",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small South American rodent with soft, dense fur, kept as a pet or for fur"
+}

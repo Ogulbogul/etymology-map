@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kometes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally long-haired, describing the star's trailing tail of light",
+      "meaning": "long-haired",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "comete",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French astronomical vocabulary",
+      "meaning": "a celestial body with a trailing tail",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "comet",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the icy body with a glowing tail",
+      "meaning": "an icy celestial body with a glowing tail near the sun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an icy celestial body that develops a glowing tail as it nears the sun"
+}

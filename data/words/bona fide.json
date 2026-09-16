@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bona fide",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally with good faith, from bonus (good) and fides (faith)",
+      "meaning": "in good faith",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bona fide",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly for something genuine and made in good faith",
+      "meaning": "genuine, made in good faith",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "genuine, real, or made in good faith"
+}

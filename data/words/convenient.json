@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "convenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come together, to be fitting, from com- (together) and venire (to come)",
+      "meaning": "to come together, to be fitting",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conveniens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "fitting, suitable, present participle of convenire",
+      "meaning": "fitting, suitable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "convenient",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something well suited to one's needs",
+      "meaning": "well suited to one's needs, causing little trouble",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fitting in well with one's needs, causing little trouble or effort"
+}

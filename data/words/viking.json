@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vikingr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a seafaring raider or pirate from Scandinavia",
+      "meaning": "a seafaring raider",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "viking",
+      "lang": "English",
+      "era": "1800s",
+      "note": "revived by historians for the Scandinavian seafarers of the medieval period",
+      "meaning": "a Scandinavian seafaring raider",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Scandinavian seafarer, trader, or raider of the medieval period"
+}

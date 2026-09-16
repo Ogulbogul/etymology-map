@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gyag",
+      "lang": "Tibetan",
+      "era": "ancient",
+      "note": "the Tibetan name for the long-haired mountain bovine",
+      "meaning": "yak",
+      "lat": 29.65,
+      "lon": 91.14
+    },
+    {
+      "word": "yak",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted through European contact with the Himalayan region",
+      "meaning": "the long-haired Himalayan ox",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, long-haired wild or domesticated ox native to the Himalayas"
+}

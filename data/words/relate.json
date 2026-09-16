@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "referre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring back, to recount, from re- (back) and ferre (to carry), with irregular past participle relatus",
+      "meaning": "to bring back, to recount",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "relate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for recounting something or showing a connection",
+      "meaning": "to recount something, or to show a connection between things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to show a connection between things, or to tell a story"
+}

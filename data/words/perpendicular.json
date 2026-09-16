@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hang, combined with per- (thoroughly)",
+      "meaning": "to hang",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perpendiculum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plumb line, from per- and pendere",
+      "meaning": "a plumb line",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perpendicular",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something at a right angle to another line",
+      "meaning": "at a right angle to a given line or surface",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "positioned at an exact right angle to a given line or surface"
+}

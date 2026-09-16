@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "xenos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "stranger, foreigner",
+      "meaning": "stranger, foreigner",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phobos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "fear, panic",
+      "meaning": "fear",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "xenophobia",
+      "lang": "English",
+      "era": "1900s",
+      "note": "formed from Greek xenos (stranger) and phobos (fear)",
+      "meaning": "fear or dislike of strangers or foreigners",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong dislike or fear of people from other countries or cultures"
+}

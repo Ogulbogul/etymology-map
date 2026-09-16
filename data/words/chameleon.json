@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khamaileon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally ground lion, from khamai (on the ground) and leon (lion)",
+      "meaning": "ground lion",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "chameleon",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for the color-changing lizard",
+      "meaning": "a color-changing lizard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lizard that changes color, or a person who adapts easily"
+}

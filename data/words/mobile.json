@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "movere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to move, to set in motion",
+      "meaning": "to move, to set in motion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mobilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "movable, from movere",
+      "meaning": "movable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mobile",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for something able to move or be moved",
+      "meaning": "able to move or be moved",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mobile",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something able to move freely, or a portable phone",
+      "meaning": "able to move freely, or a portable telephone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to move freely or easily, or a portable telephone"
+}

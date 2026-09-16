@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Angst",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"fear\" or \"anxiety\"",
+      "meaning": "fear, anxiety",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "angst",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through the influence of German philosophy and psychology",
+      "meaning": "a feeling of deep anxiety or dread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a feeling of deep anxiety or dread, often existential"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sloegr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "cunning, crafty, skilled at deception",
+      "meaning": "cunning, crafty",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "sly",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for someone cunning or deceptive",
+      "meaning": "cunning and deceptive in behavior",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cunning, crafty, or deceptive in behavior"
+}

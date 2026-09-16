@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "contradicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to say against, from contra- (against) and dicere (to say)",
+      "meaning": "to say against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contradict",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for stating the opposite of something said",
+      "meaning": "to state the opposite of something said",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to assert the opposite of a statement made by someone else"
+}

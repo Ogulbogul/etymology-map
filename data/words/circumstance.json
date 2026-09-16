@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "circumstantia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "standing around, surrounding condition, from circum- (around) and stare (to stand)",
+      "meaning": "standing around, surrounding conditions",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circumstance",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the conditions surrounding an event",
+      "meaning": "the conditions surrounding an event or situation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fact or condition connected with an event, or one's overall situation"
+}

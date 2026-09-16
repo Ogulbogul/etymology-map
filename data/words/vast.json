@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vastus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "empty, huge, desolate",
+      "meaning": "empty, huge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vast",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for something of very great extent",
+      "meaning": "of very great extent or size",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "of very great size, extent, or amount"
+}

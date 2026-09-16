@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bel vedere",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "literally beautiful to see, from bello (beautiful) and vedere (to see)",
+      "meaning": "beautiful to see",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "belvedere",
+      "lang": "English",
+      "era": "1590s",
+      "note": "adopted directly for a structure built to offer a fine view",
+      "meaning": "a structure built to command a fine view",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a structure, such as a turret or summerhouse, positioned to command a fine view"
+}

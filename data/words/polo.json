@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pulu",
+      "lang": "Balti",
+      "era": "medieval",
+      "note": "literally ball, from the game played on horseback in the mountains of northern India",
+      "meaning": "a ball",
+      "lat": 34.08,
+      "lon": 74.8
+    },
+    {
+      "word": "polo",
+      "lang": "English",
+      "era": "1870s",
+      "note": "adopted by British colonial officers who took up the mounted ball game",
+      "meaning": "a game played on horseback with mallets and a ball",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a game played on horseback in which players use mallets to hit a ball"
+}

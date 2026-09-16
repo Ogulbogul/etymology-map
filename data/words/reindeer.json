@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hreinn",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "the name for the antlered deer of the subarctic tundra",
+      "meaning": "the reindeer",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "reindeer",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the domesticated northern deer",
+      "meaning": "an antlered deer of subarctic and arctic regions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large antlered deer native to subarctic and arctic regions, often domesticated"
+}

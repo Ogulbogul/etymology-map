@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "physikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to nature, from physis (nature)",
+      "meaning": "relating to nature",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "physique",
+      "lang": "French",
+      "era": "1800s",
+      "note": "narrowed in French to mean the physical body and its build",
+      "meaning": "the physical build of a body",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "physique",
+      "lang": "English",
+      "era": "1826",
+      "note": "adopted directly for a person's physical build and muscular development",
+      "meaning": "a person's physical build and muscular development",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person's physical build, especially their muscular development"
+}

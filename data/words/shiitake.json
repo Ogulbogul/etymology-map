@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shiitake",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named for the shii tree on whose logs the mushroom is traditionally cultivated",
+      "meaning": "a mushroom grown on shii tree logs",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shiitake",
+      "lang": "English",
+      "era": "1970s",
+      "note": "adopted directly as the mushroom became popular internationally",
+      "meaning": "an edible mushroom used widely in East Asian cooking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an edible mushroom widely used in East Asian cooking"
+}

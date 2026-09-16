@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "promittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send forth, to assure beforehand, from pro- (forth) and mittere (to send)",
+      "meaning": "to send forth, to assure beforehand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "promesse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a pledge to do something",
+      "meaning": "a pledge to do something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "promise",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a firm commitment to do something",
+      "meaning": "a firm commitment to do something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a firm commitment to do or not do something"
+}

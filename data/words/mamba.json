@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "imamba",
+      "lang": "Zulu/Xhosa",
+      "era": "ancient",
+      "note": "the name for the highly venomous African snake",
+      "meaning": "mamba snake",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "mamba",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through European contact with southern Africa",
+      "meaning": "a fast, venomous African snake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a highly venomous African snake known for speed and aggression"
+}

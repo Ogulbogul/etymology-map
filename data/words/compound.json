@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kampung",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "meaning \"a village\" or \"enclosure\"",
+      "meaning": "a village, enclosure",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "compound",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "reshaped by folk association with the English word \"compound\", adopted for a walled enclosure",
+      "meaning": "a walled or fenced group of buildings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a walled or fenced area enclosing a group of buildings"
+}

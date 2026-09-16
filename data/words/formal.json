@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "forma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shape, mold, appearance",
+      "meaning": "shape, mold, appearance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of or relating to form, from forma",
+      "meaning": "of or relating to form",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something done according to established rules or conventions",
+      "meaning": "done according to established rules, conventions, or customs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "following established customs or rules, or officially recognized"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "arma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "weapons, arms",
+      "meaning": "weapons, arms",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "all'arme",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "to arms!, a battle cry warning of attack, from arma",
+      "meaning": "to arms!",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alarme",
+      "lang": "French",
+      "era": "1400s",
+      "note": "carried into French for a warning call or signal of danger",
+      "meaning": "a warning call or signal of danger",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "alarm",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a warning of danger, or a sense of fear",
+      "meaning": "a warning signal of danger, or a feeling of fear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a warning sound or signal of danger, or a feeling of fear or anxiety"
+}

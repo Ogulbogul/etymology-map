@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "palyanka",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "a covered litter carried on poles by bearers",
+      "meaning": "a bed, couch",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "palanquim",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "adopted by Portuguese traders in India for the carried litter",
+      "meaning": "a covered litter carried by bearers",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "palanquin",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the carried litter",
+      "meaning": "a covered litter carried on poles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a covered litter for one passenger, carried on poles by bearers"
+}

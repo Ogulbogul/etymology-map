@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caput",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "head, combined with de- (away from)",
+      "meaning": "head",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decapitare",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "to behead, from de- and caput",
+      "meaning": "to behead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decapitate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for cutting off someone's head",
+      "meaning": "to cut off someone's head",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to cut off the head of a person or animal"
+}

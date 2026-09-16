@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "slaegth",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "cunning, cleverness, skillful trickery",
+      "meaning": "cunning, cleverness",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "sleight",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for skillful, dexterous trickery",
+      "meaning": "skillful, dexterous trickery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "skillful dexterity, especially used in deceptive tricks, as in sleight of hand"
+}

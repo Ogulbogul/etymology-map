@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kushk",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meaning \"pavilion\" or \"palace\"",
+      "meaning": "pavilion",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "köşk",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "an open garden pavilion",
+      "meaning": "garden pavilion",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "kiosque",
+      "lang": "French",
+      "era": "1600s-1700s",
+      "note": "adopted for small garden structures",
+      "meaning": "a small open pavilion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "kiosk",
+      "lang": "English",
+      "era": "1800s",
+      "note": "narrowed to mean a small stand or booth",
+      "meaning": "a small stand or booth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small stand or booth used to sell goods or provide information"
+}

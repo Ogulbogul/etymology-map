@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "quaerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to seek, to ask",
+      "meaning": "to seek, to ask",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "query",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for a question, especially one expressing doubt",
+      "meaning": "a question, especially one expressing doubt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a question, especially one seeking information or expressing doubt"
+}

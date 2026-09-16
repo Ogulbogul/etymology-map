@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hydor",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "water, combined with genes (forming) since the gas forms water when burned",
+      "meaning": "water",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hydrogene",
+      "lang": "French",
+      "era": "1780s",
+      "note": "coined by chemist Antoine Lavoisier for the newly identified element",
+      "meaning": "the water-forming element",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hydrogen",
+      "lang": "English",
+      "era": "1790s",
+      "note": "settled as the English name for the element",
+      "meaning": "the lightest chemical element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the lightest chemical element, a colorless flammable gas"
+}

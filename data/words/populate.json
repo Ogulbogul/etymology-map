@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "populus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the people",
+      "meaning": "the people",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "populare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fill with people, from populus",
+      "meaning": "to fill with people",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "populate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for filling a place with inhabitants",
+      "meaning": "to fill a place with inhabitants",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fill a place with inhabitants, or to supply data to a system"
+}

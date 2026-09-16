@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "brat",
+      "lang": "German",
+      "era": "medieval",
+      "note": "finely chopped meat, combined with Wurst (sausage)",
+      "meaning": "finely chopped meat",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "bratwurst",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the German-style grilled sausage",
+      "meaning": "a German-style grilled sausage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a German-style sausage, typically grilled or fried"
+}

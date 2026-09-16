@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "powwaw",
+      "lang": "Narragansett",
+      "era": "1600s",
+      "note": "originally a spiritual leader or healer, later the gathering they presided over",
+      "meaning": "a spiritual leader or healer",
+      "lat": 41.7,
+      "lon": -71.5
+    },
+    {
+      "word": "powwow",
+      "lang": "English",
+      "era": "1620s",
+      "note": "broadened to mean any ceremonial gathering, and later informally any meeting",
+      "meaning": "a ceremonial gathering, or informally any meeting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Native American ceremonial gathering, or informally, any meeting"
+}

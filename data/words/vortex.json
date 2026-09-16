@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vertere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to turn, the root of a rapidly rotating mass",
+      "meaning": "to turn",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vortex",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the word for a whirling mass of fluid or air",
+      "meaning": "a whirling mass of fluid or air",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a whirling mass of air, water, or other fluid, especially a whirlpool"
+}

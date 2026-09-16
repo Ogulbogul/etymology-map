@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shtik",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "literally \"a piece\", especially a piece of a stage act",
+      "meaning": "a piece; a comedic routine",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "shtick",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish theater and comedy traditions",
+      "meaning": "a distinctive, habitual performance style or gimmick",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a distinctive routine, gimmick, or trait associated with a person"
+}

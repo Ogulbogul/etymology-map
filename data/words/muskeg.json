@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "maskek",
+      "lang": "Cree",
+      "era": "1800s",
+      "note": "a low-lying, waterlogged area of peat and moss found across the subarctic",
+      "meaning": "a swamp or bog",
+      "lat": 53.5,
+      "lon": -105.0
+    },
+    {
+      "word": "muskeg",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly by explorers and settlers in Canada's north",
+      "meaning": "a waterlogged, mossy bog of the subarctic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a waterlogged, peat-forming bog found in subarctic and northern regions"
+}

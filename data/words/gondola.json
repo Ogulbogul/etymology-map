@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gondola",
+      "lang": "Venetian Italian",
+      "era": "medieval",
+      "note": "the flat-bottomed rowing boat traditionally used on the canals of Venice",
+      "meaning": "a Venetian canal boat",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "gondola",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly for the distinctive Venetian boat",
+      "meaning": "a narrow flat-bottomed Venetian boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a narrow flat-bottomed boat used on the canals of Venice, or a suspended cabin"
+}

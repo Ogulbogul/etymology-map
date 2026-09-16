@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "makhāzin",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the plural of \"makhzan\", a storeroom",
+      "meaning": "storehouses",
+      "lat": 34.03,
+      "lon": -5.0
+    },
+    {
+      "word": "magazzino",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "adopted through Mediterranean trade with North Africa",
+      "meaning": "warehouse",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "magasin",
+      "lang": "French",
+      "era": "c. 1500s",
+      "note": "kept the sense of a storehouse or shop",
+      "meaning": "storehouse, shop",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "magazine",
+      "lang": "English",
+      "era": "c. 1730s",
+      "note": "extended metaphorically to a \"storehouse\" of information in print",
+      "meaning": "a periodical publication",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a periodical publication containing articles, images, and advertising"
+}

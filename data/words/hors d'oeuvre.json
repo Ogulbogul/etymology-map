@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hors d'oeuvre",
+      "lang": "French",
+      "era": "1700s",
+      "note": "literally outside the work, referring to a dish served apart from the main meal",
+      "meaning": "outside the main work",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hors d'oeuvre",
+      "lang": "English",
+      "era": "1714",
+      "note": "adopted directly for a small dish served before the main meal",
+      "meaning": "a small dish served before the main course",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small savory dish served as an appetizer before a meal"
+}

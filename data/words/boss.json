@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "baas",
+      "lang": "Dutch",
+      "era": "c. 1600s",
+      "note": "used by Dutch settlers for a master or foreman",
+      "meaning": "master, foreman",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "boss",
+      "lang": "American English",
+      "era": "c. 1640s",
+      "note": "picked up from Dutch colonists in New Amsterdam, partly to avoid saying \"master\"",
+      "meaning": "one's employer or supervisor",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a person who is in charge of others; one's employer"
+}

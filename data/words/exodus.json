@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "exodos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a way out, from ex (out) and hodos (way)",
+      "meaning": "a departure, a way out",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "exodus",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for a mass departure of people",
+      "meaning": "a mass departure of people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mass departure of a large number of people"
+}

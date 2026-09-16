@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "commotio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a moving together, a disturbance, from com- (together) and movere (to move)",
+      "meaning": "a moving together, a disturbance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "commotion",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a state of confused and noisy disturbance",
+      "meaning": "a state of confused and noisy disturbance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of noisy and confused disturbance or excitement"
+}

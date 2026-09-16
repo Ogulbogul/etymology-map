@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Psykhe",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mortal princess in myth who became the personification of the soul, beloved by Cupid",
+      "meaning": "the soul, the mythical princess Psyche",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "psyche",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted directly for the human soul, spirit, or mind",
+      "meaning": "the human soul, spirit, or mind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the human soul, mind, or spirit, especially as it relates to thoughts and emotions"
+}

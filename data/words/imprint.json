@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "premere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to press, combined with in- (into)",
+      "meaning": "to press",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "imprimere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to press into, from in- and premere",
+      "meaning": "to press into",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "empreinte",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a mark pressed into a surface",
+      "meaning": "a mark pressed into a surface",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "imprint",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a mark made by pressing, or a lasting effect",
+      "meaning": "a mark made by pressing, or a lasting effect on someone's mind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mark made by pressing, or a lasting effect left on someone's mind or character"
+}

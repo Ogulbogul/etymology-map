@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "politika",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from \"polis\" (city-state), the affairs of the city-state",
+      "meaning": "affairs of the city-state",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "politica",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek influence on Roman civic life",
+      "meaning": "matters of the state",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "politique",
+      "lang": "Middle French",
+      "era": "medieval",
+      "note": "carried the civic concept into French",
+      "meaning": "matters of governance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "politics",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English term for the science of government",
+      "meaning": "activities associated with governance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the activities associated with governing a country or area"
+}

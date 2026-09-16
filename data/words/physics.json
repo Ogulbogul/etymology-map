@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "physika",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from \"physis\" (nature), the study of natural things",
+      "meaning": "the study of nature",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "physica",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek philosophical influence",
+      "meaning": "natural science",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "physics",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English name for the science of matter and energy",
+      "meaning": "the science of matter, energy, and force",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the scientific study of matter, energy, and the forces between them"
+}

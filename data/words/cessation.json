@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cessare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to cease, to delay, frequentative of cedere (to go, yield)",
+      "meaning": "to cease, to delay",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cessatio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a ceasing, a stopping, from cessare",
+      "meaning": "a ceasing, a stopping",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cessation",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the act of stopping something",
+      "meaning": "the act of stopping something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act of stopping or bringing something to an end"
+}

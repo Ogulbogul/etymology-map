@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "muay thai",
+      "lang": "Thai",
+      "era": "medieval",
+      "note": "literally Thai boxing, a striking martial art using fists, elbows, knees, and shins",
+      "meaning": "Thai boxing",
+      "lat": 13.75,
+      "lon": 100.49
+    },
+    {
+      "word": "muay thai",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted directly as the martial art gained international popularity",
+      "meaning": "the traditional striking martial art of Thailand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a striking martial art from Thailand using fists, elbows, knees, and shins"
+}

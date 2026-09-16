@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "troll",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a supernatural being of Scandinavian folklore, often malevolent",
+      "meaning": "a supernatural, monstrous being",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "troll",
+      "lang": "English",
+      "era": "1600s-1800s",
+      "note": "adopted as Scandinavian folklore became known internationally",
+      "meaning": "a mythical, monstrous being",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mythical monstrous being from Scandinavian folklore; online, one who provokes others"
+}

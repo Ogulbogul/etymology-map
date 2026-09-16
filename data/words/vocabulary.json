@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vocare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to call, to name",
+      "meaning": "to call, to name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vocabulary",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for the body of words known or used",
+      "meaning": "the body of words known or used by a person or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the body of words used or understood by a particular person or group"
+}

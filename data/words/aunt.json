@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "amita",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a father's sister",
+      "meaning": "a father's sister",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ante",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French and broadened to mean any parent's sister",
+      "meaning": "a parent's sister",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aunt",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a parent's sister",
+      "meaning": "the sister of one's parent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sister of one's father or mother, or the wife of one's uncle"
+}

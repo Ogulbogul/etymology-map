@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "manifestus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally struck by the hand, clearly caught, from manus (hand) and possibly fendere (to strike)",
+      "meaning": "clearly seen, obvious",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manifest",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something clearly visible or apparent",
+      "meaning": "clearly visible or apparent, or to display something clearly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clearly visible or apparent, or to display a quality or feeling clearly"
+}

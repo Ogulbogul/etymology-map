@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "post scriptum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "written after, from post- (after) and scriptum (something written)",
+      "meaning": "written after",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "postscript",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for an additional remark added after a letter's signature",
+      "meaning": "an additional remark added after a letter's signature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an additional remark or piece of information added after the main body of a letter"
+}

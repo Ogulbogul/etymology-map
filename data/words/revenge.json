@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vindicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to avenge, combined with re- (again)",
+      "meaning": "to avenge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vengier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to punish in return for a wrong",
+      "meaning": "to punish in return for a wrong",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "revenge",
+      "lang": "English",
+      "era": "1300s",
+      "note": "formed with re- for the act of hurting someone who has hurt you",
+      "meaning": "the act of hurting someone who has hurt you",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act of inflicting harm on someone in return for an injury they caused"
+}

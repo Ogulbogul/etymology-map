@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "villutus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "shaggy, hairy, from villus (shaggy hair, tuft)",
+      "meaning": "shaggy, hairy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "velluto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for the dense, soft woven fabric",
+      "meaning": "a dense, soft woven fabric",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "velvet",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the soft, dense fabric",
+      "meaning": "a soft, dense woven fabric with a short pile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, dense fabric with a short, smooth pile"
+}

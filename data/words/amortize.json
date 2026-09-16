@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mors",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "death, combined with ad- (to) to form a verb meaning to deaden or kill off",
+      "meaning": "death",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amortir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to deaden, to kill off, applied to gradually paying off a debt",
+      "meaning": "to deaden, to gradually pay off a debt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "amortize",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for gradually paying off a debt over time",
+      "meaning": "to gradually pay off a debt over time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to gradually pay off a debt through regular installments over time"
+}

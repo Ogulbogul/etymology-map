@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hostilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to an enemy, from hostis (an enemy, a stranger)",
+      "meaning": "relating to an enemy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hostile",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for showing unfriendliness or aggression",
+      "meaning": "showing unfriendliness or opposition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing unfriendliness, opposition, or aggression"
+}

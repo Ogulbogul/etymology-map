@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "duetto",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "from duo (two), a musical piece for two performers",
+      "meaning": "a piece for two performers",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duet",
+      "lang": "English",
+      "era": "1730s",
+      "note": "settled as the English word for a piece performed by two",
+      "meaning": "a musical piece performed by two people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a musical composition or performance for two performers"
+}

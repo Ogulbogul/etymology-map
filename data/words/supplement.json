@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "supplere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fill up from below, to make good, from sub- (under) and plere (to fill)",
+      "meaning": "to fill up from below, to make good",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supplementum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "that which fills up a deficiency, from supplere",
+      "meaning": "that which fills up a deficiency",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "supplement",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something added to complete or enhance something",
+      "meaning": "something added to complete or enhance something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something added to complete a thing or make up for a deficiency"
+}

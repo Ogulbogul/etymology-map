@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tele",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "far, distant, combined with skopein (to view)",
+      "meaning": "far, distant",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "telescopio",
+      "lang": "Italian",
+      "era": "1610s",
+      "note": "coined in Italy shortly after Galileo's refinements to the new viewing instrument",
+      "meaning": "an instrument for viewing distant objects",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "telescope",
+      "lang": "English",
+      "era": "1640s",
+      "note": "settled as the English word for the instrument for viewing distant objects",
+      "meaning": "an instrument for viewing distant objects",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an optical instrument used to view distant objects, especially in astronomy"
+}

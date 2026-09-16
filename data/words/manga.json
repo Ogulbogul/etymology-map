@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "manga",
+      "lang": "Japanese",
+      "era": "1800s",
+      "note": "literally \"whimsical pictures\", coined by artist Hokusai",
+      "meaning": "whimsical or impromptu pictures",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "manga",
+      "lang": "English",
+      "era": "1980s-1990s",
+      "note": "adopted to describe Japanese comic books and graphic novels",
+      "meaning": "Japanese comic books",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a style of Japanese comic books and graphic novels"
+}

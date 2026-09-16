@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "indictare",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "to proclaim, to accuse formally, from in- (toward) and dictare (to declare)",
+      "meaning": "to proclaim, to accuse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "enditer",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "carried into legal French for formally accusing someone of a crime",
+      "meaning": "to formally accuse someone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "indictment",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a formal criminal charge",
+      "meaning": "a formal accusation of a serious crime",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal charge or accusation of a serious crime"
+}

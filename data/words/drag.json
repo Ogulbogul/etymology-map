@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "draga",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to pull, to haul something along the ground",
+      "meaning": "to pull, to haul",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "drag",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the standard English word for pulling something with effort",
+      "meaning": "to pull something along with effort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to pull something along, especially with effort or resistance"
+}

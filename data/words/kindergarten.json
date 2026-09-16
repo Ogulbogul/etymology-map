@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kindergarten",
+      "lang": "German",
+      "era": "1840",
+      "note": "coined by educator Friedrich Fröbel, literally \"children's garden\"",
+      "meaning": "children's garden",
+      "lat": 50.66,
+      "lon": 11.28
+    },
+    {
+      "word": "kindergarten",
+      "lang": "English",
+      "era": "1850s-1860s",
+      "note": "the first English-language kindergarten opened in Wisconsin",
+      "meaning": "a preschool class for young children",
+      "lat": 43.07,
+      "lon": -89.4
+    }
+  ],
+  "current_meaning": "a class or school for young children, typically ages four to six"
+}

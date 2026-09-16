@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "poquauhock",
+      "lang": "Narragansett",
+      "era": "pre-1600s",
+      "note": "the name for the hard-shelled clam",
+      "meaning": "a hard-shelled clam",
+      "lat": 41.58,
+      "lon": -71.48
+    },
+    {
+      "word": "quahog",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted by English colonists in New England",
+      "meaning": "an edible hard-shelled clam",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "an edible clam with a thick, hard shell, found along the Atlantic coast"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kashmir",
+      "lang": "Sanskrit/Kashmiri",
+      "era": "ancient",
+      "note": "the Himalayan region famous for the fine wool of its mountain goats",
+      "meaning": "the region of Kashmir",
+      "lat": 34.08,
+      "lon": 74.8
+    },
+    {
+      "word": "cashmere",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the word for the fine soft wool from Kashmir goats",
+      "meaning": "fine soft wool from the Kashmir goat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fine soft wool from the Kashmir goat, or fabric made from it"
+}

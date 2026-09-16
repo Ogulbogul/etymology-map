@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tsap sui",
+      "lang": "Cantonese",
+      "era": "medieval",
+      "note": "literally \"mixed bits\" or \"odds and ends\"",
+      "meaning": "mixed pieces",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "chop suey",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through Chinese immigrant cooking in the United States",
+      "meaning": "a stir-fried dish of mixed vegetables and meat",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a Chinese-American stir-fried dish of mixed vegetables, meat, and sauce"
+}

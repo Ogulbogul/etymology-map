@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mandala",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally circle, a geometric spiritual and ritual symbol representing the cosmos",
+      "meaning": "a circle",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "mandala",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly by scholars of Hindu and Buddhist spiritual traditions",
+      "meaning": "a symbolic circular design representing the cosmos",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a geometric design symbolizing the universe, used in Hindu and Buddhist spiritual practice"
+}

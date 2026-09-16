@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oproer",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "combining \"op\" (up) and \"roer\" (stir, motion), meaning a riot or commotion",
+      "meaning": "a riot, commotion",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "uproar",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted and reshaped through folk association with \"roar\"",
+      "meaning": "a loud, excited disturbance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loud and excited disturbance, or a public outcry"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cornu",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "horn",
+      "meaning": "horn",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corneus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "horny, made of horn, describing the eye's tough, translucent covering",
+      "meaning": "horny, horn-like",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cornea",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the transparent outer layer of the eye",
+      "meaning": "the transparent outer layer covering the eye",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the transparent outer layer at the front of the eye"
+}

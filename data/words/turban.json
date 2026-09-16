@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "dulband",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meaning \"turban\"",
+      "meaning": "turban",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "tülbent",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "the cloth headwrap worn across the region",
+      "meaning": "turban cloth",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "turbante",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "adopted through Ottoman-Venetian trade contact",
+      "meaning": "turban",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "turban",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English word for the headwear",
+      "meaning": "a headdress formed by wrapping cloth around the head",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a head covering made by winding a long cloth around the head"
+}

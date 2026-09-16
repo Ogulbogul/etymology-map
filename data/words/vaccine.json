@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vacca",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a cow, the root behind Edward Jenner's cowpox-based smallpox treatment",
+      "meaning": "a cow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vaccine",
+      "lang": "English",
+      "era": "1800",
+      "note": "coined by Edward Jenner for his cowpox-derived inoculation against smallpox",
+      "meaning": "a preparation that stimulates immunity to a disease",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a preparation that stimulates the immune system's protection against a disease"
+}

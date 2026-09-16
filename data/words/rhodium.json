@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rhodon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a rose, since the element's compounds are often a distinctive rose color",
+      "meaning": "a rose",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "rhodium",
+      "lang": "English",
+      "era": "1803",
+      "note": "coined by its discoverer for the element's rose-colored compounds",
+      "meaning": "a hard, silvery-white metallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rare, hard, silvery-white metallic element used in alloys and catalytic converters"
+}

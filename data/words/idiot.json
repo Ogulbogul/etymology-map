@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "idiotes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "originally a private citizen who held no public office",
+      "meaning": "a private individual, layperson",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "idiote",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "narrowed to mean an uneducated or ignorant person",
+      "meaning": "an ignorant or uneducated person",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "idiot",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the word for a foolish or unintelligent person",
+      "meaning": "a foolish or unintelligent person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a foolish or stupid person"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "simsim",
+      "lang": "Arabic",
+      "era": "ancient",
+      "note": "the name for the small oil-rich seed, ultimately from an older Semitic root",
+      "meaning": "the sesame seed",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "sesamum",
+      "lang": "Latin/Greek",
+      "era": "ancient",
+      "note": "adopted through Greek into Latin for the same seed",
+      "meaning": "the sesame seed",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sesame",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the oil-rich seed",
+      "meaning": "a small oil-rich edible seed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small edible seed used in cooking, famous from the phrase open sesame"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ad nauseam",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to the point of nausea, from ad (to) and nausea (seasickness)",
+      "meaning": "to the point of nausea",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ad nauseam",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly into English for something repeated to a tiresome degree",
+      "meaning": "repeated to a tiresome or sickening degree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "repeated so often that it becomes tiresome or sickening"
+}

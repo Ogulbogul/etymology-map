@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sal",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "salt, since early greens were dressed in a salted brine",
+      "meaning": "salt",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "salade",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a dish of salted, dressed greens",
+      "meaning": "a dish of salted greens",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "salad",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a dish of mixed raw vegetables",
+      "meaning": "a dish of mixed raw or cold vegetables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of mixed vegetables, fruit, or other ingredients, often served cold"
+}

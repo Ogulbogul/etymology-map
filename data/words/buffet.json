@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "buffet",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a stool, sideboard, or bench used to display food",
+      "meaning": "a sideboard, a stool",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "buffet",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the word for a meal set out for guests to serve themselves",
+      "meaning": "a meal laid out for guests to serve themselves",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a meal at which guests serve themselves from dishes laid out on a table"
+}

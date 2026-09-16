@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "augurken",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "a small cucumber, ultimately from a Slavic word related to the word for unripe",
+      "meaning": "a small cucumber",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "gherkin",
+      "lang": "English",
+      "era": "1660s",
+      "note": "settled as the English word for the small pickling cucumber",
+      "meaning": "a small cucumber used for pickling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small cucumber, especially one used for pickling"
+}

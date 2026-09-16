@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bravata",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a boastful display of courage, from bravare (to brave, to boast)",
+      "meaning": "a boastful display of courage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bravado",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "carried into Spanish for a defiant show of confidence",
+      "meaning": "a defiant show of confidence",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "bravado",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for boastful confidence",
+      "meaning": "a bold, boastful display of confidence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bold, swaggering display of courage or confidence, often exaggerated"
+}

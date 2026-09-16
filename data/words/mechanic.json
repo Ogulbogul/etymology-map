@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mekhanikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to machines, from mekhane (machine, device)",
+      "meaning": "relating to machines",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "mechanic",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the word for someone skilled in working with machines",
+      "meaning": "a skilled worker who repairs machines",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a skilled worker who repairs and maintains machinery"
+}

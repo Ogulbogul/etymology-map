@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "daimon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "originally a neutral spirit or guiding force, not necessarily evil",
+      "meaning": "a spirit or divine power",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "demon",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed under Christian influence to mean an evil spirit",
+      "meaning": "an evil spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an evil spirit, or a person's inner struggle or vice"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mortuus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "dead, past participle of mori (to die)",
+      "meaning": "dead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mortuarium",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "formed for a place associated with the dead",
+      "meaning": "a place associated with the dead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mortuary",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a place where dead bodies are kept",
+      "meaning": "a place where dead bodies are kept before burial or cremation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place where dead bodies are kept before burial or cremation"
+}

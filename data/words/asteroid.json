@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "asteroeides",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally star-like, from aster (star) and eidos (form)",
+      "meaning": "star-shaped, star-like",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "asteroid",
+      "lang": "English",
+      "era": "1802",
+      "note": "coined by astronomer William Herschel for the newly observed small star-like bodies",
+      "meaning": "a small rocky body orbiting the sun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small rocky body orbiting the sun, smaller than a planet"
+}

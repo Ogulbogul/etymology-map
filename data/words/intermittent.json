@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "intermittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to leave off, to interrupt, from inter- (between) and mittere (to send)",
+      "meaning": "to leave off, to interrupt",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intermittens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "pausing at intervals, present participle of intermittere",
+      "meaning": "pausing at intervals",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intermittent",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something occurring at irregular intervals",
+      "meaning": "occurring at irregular intervals, not continuous",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "occurring at irregular intervals, stopping and starting rather than continuous"
+}

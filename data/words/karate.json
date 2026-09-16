@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kara + te",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "combining \"kara\" (empty) and \"te\" (hand)",
+      "meaning": "empty hand",
+      "lat": 26.21,
+      "lon": 127.68
+    },
+    {
+      "word": "karate",
+      "lang": "English",
+      "era": "1950s-1960s",
+      "note": "adopted as the martial art spread internationally from Okinawa and Japan",
+      "meaning": "an unarmed striking martial art",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese martial art using striking techniques with hands and feet"
+}

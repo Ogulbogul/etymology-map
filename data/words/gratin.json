@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gratter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to scrape, to grate, related to the browned, crusty topping scraped from a pan",
+      "meaning": "to scrape, to grate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gratin",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in French for a dish topped with a browned crust",
+      "meaning": "a dish with a browned crust topping",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gratin",
+      "lang": "English",
+      "era": "1846",
+      "note": "adopted directly for the browned, crusty-topped baked dish",
+      "meaning": "a dish baked with a browned crust on top",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish topped with a browned crust, often of breadcrumbs or cheese"
+}

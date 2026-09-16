@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ovarium",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from ovum (egg), the organ producing eggs",
+      "meaning": "the egg-producing organ",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ovary",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the medical word for the reproductive organ producing eggs",
+      "meaning": "the female reproductive organ producing eggs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the female reproductive organ that produces eggs"
+}

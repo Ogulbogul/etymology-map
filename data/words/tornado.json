@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tronada",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "a thunderstorm, from tronar (to thunder), later applied to violent windstorms",
+      "meaning": "a thunderstorm",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "tornado",
+      "lang": "English",
+      "era": "1600s",
+      "note": "reshaped and settled as the word for a violently rotating windstorm",
+      "meaning": "a violently rotating column of air",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a violently rotating column of air extending from a storm to the ground"
+}

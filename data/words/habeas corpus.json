@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "habeas corpus",
+      "lang": "Latin",
+      "era": "medieval",
+      "note": "literally you shall have the body, the opening words of a writ requiring a prisoner's presence in court",
+      "meaning": "you shall have the body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "habeas corpus",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly as the legal term for the right to challenge unlawful detention",
+      "meaning": "the legal right to challenge unlawful detention",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a legal principle requiring a detained person to be brought before a court"
+}

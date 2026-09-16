@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "focus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a hearth, fireplace, the center of a household",
+      "meaning": "a hearth, a fireplace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "focus",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted by scientists for the point where light rays converge",
+      "meaning": "the point where light or attention converges",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the center of interest or activity, or the point where light rays converge"
+}

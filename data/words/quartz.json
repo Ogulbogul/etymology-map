@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Quarz",
+      "lang": "German",
+      "era": "medieval",
+      "note": "possibly from a Slavic word related to hard, describing the common crystalline mineral",
+      "meaning": "a hard crystalline mineral",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "quartz",
+      "lang": "English",
+      "era": "1750s",
+      "note": "settled as the English name for the common mineral",
+      "meaning": "a hard crystalline mineral",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard crystalline mineral composed of silicon and oxygen"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "extra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "outside, combined with vertere (to turn)",
+      "meaning": "outside",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extrovertere",
+      "lang": "New Latin",
+      "era": "1900s",
+      "note": "formed for a mind turned outward, toward the external world",
+      "meaning": "a mind turned outward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extrovert",
+      "lang": "English",
+      "era": "1915",
+      "note": "adopted into English psychology for an outgoing, sociable person",
+      "meaning": "an outgoing, sociable person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an outgoing, sociable person energized by interaction with others"
+}

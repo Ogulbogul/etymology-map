@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "musaqqa'a",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally chilled, describing a cold layered eggplant dish",
+      "meaning": "chilled, cooled",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "moussaka",
+      "lang": "Greek/Turkish",
+      "era": "1800s",
+      "note": "adapted into a baked, layered eggplant and meat dish across the eastern Mediterranean",
+      "meaning": "a baked, layered eggplant dish",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "moussaka",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the Greek baked eggplant and meat dish",
+      "meaning": "a baked Greek dish of layered eggplant and meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a baked Greek and Middle Eastern dish of layered eggplant, meat, and bechamel sauce"
+}

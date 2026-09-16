@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "platea",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"broad street\"",
+      "meaning": "broad street, open area",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plaza",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "came to mean a public town square",
+      "meaning": "a public square",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "plaza",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through Spanish contact in the Americas",
+      "meaning": "a public square or open area",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "a public square or open area in a town or city"
+}

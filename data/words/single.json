@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "singulus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one at a time, individual",
+      "meaning": "one at a time, individual",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "single",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for only one, or unmarried",
+      "meaning": "only one, or not married",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "only one, individual, or not in a romantic relationship"
+}

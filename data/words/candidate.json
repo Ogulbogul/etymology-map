@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "candidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally white, since Roman office-seekers wore bright white togas to stand out",
+      "meaning": "white, shining",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "candidate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for someone seeking office or a position",
+      "meaning": "a person seeking office or a position",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who applies for a job or is nominated for election"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "onyx",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally fingernail, claw, describing the stone's pale, layered appearance",
+      "meaning": "a fingernail, claw",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "onyx",
+      "lang": "English",
+      "era": "1300s",
+      "note": "adopted directly for the banded black and white gemstone",
+      "meaning": "a banded black and white gemstone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a banded variety of chalcedony, often black and white"
+}

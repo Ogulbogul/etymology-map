@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "affluere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to flow toward, to abound, from ad- (toward) and fluere (to flow)",
+      "meaning": "to flow toward, to abound",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "affluent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for having a great abundance of wealth",
+      "meaning": "having a great deal of wealth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a great deal of wealth or material resources"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand, to place, combined with sub- (under)",
+      "meaning": "to stand, to place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subsistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand firm, to remain, to survive, from sub- and sistere",
+      "meaning": "to stand firm, to remain, to survive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subsist",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for staying alive with minimal resources",
+      "meaning": "to stay alive with minimal resources",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stay alive or maintain oneself, especially with minimal resources"
+}

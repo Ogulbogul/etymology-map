@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "novus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "new, combined with re- (again)",
+      "meaning": "new",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "renovare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make new again, to restore, from re- and novus",
+      "meaning": "to make new again, to restore",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "renovate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for restoring something to a good state of repair",
+      "meaning": "to restore something to a good state of repair",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to restore something, especially a building, to a good state of repair"
+}

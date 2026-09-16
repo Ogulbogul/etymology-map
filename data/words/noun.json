@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "name",
+      "meaning": "name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "non",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a word naming a person, place, or thing",
+      "meaning": "a word naming a person, place, or thing",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "noun",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a word naming a person, place, thing, or idea",
+      "meaning": "a word naming a person, place, thing, or idea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word that names a person, place, thing, or idea"
+}

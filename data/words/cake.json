@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kaka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a small baked item, related to the native English word for bread loaves",
+      "meaning": "a small baked item",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "cake",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a sweet baked dessert",
+      "meaning": "a sweet baked dessert",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet baked food made from flour, sugar, and other ingredients"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "caput",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "head, giving rise to capitulum (a small heading, chapter)",
+      "meaning": "head",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "capitulum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a small heading, a chapter, from caput",
+      "meaning": "a small heading, a chapter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "capitulare",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "to draw up terms under headings, to negotiate surrender, from capitulum",
+      "meaning": "to draw up terms under headings, to negotiate surrender",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "capitulate",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for surrendering on agreed terms, or giving up resistance",
+      "meaning": "to surrender on agreed terms, or to give up resistance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop resisting and accept the demands of an opponent"
+}

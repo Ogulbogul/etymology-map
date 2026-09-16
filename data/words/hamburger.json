@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Hamburg",
+      "lang": "German",
+      "era": "medieval",
+      "note": "the German port city known for a style of minced beef",
+      "meaning": "the city of Hamburg",
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    {
+      "word": "Hamburger",
+      "lang": "German",
+      "era": "1800s",
+      "note": "described minced beef steak in the Hamburg style",
+      "meaning": "Hamburg-style minced beef",
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    {
+      "word": "hamburger",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "brought to the US by German immigrants and reshaped into a sandwich",
+      "meaning": "a ground beef patty served in a bun",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a cooked patty of ground meat, typically served in a bread bun"
+}

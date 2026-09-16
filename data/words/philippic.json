@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "philippikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to Philip of Macedon, target of the orator Demosthenes's fierce speeches",
+      "meaning": "relating to King Philip of Macedon",
+      "lat": 40.85,
+      "lon": 22.5
+    },
+    {
+      "word": "philippic",
+      "lang": "English",
+      "era": "1590s",
+      "note": "broadened from the specific speeches to any bitter verbal attack",
+      "meaning": "a bitter, forceful verbal attack",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bitter, forceful verbal or written denunciation"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spretta",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to spring up, to leap suddenly",
+      "meaning": "to spring, to leap",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "sprint",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for running at full speed over a short distance",
+      "meaning": "to run at full speed over a short distance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to run at full speed over a short distance"
+}

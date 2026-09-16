@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "maximus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "greatest, the superlative of magnus (great)",
+      "meaning": "greatest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "maximum",
+      "lang": "English",
+      "era": "1740s",
+      "note": "adopted directly for the greatest possible amount",
+      "meaning": "the greatest possible amount or degree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the greatest amount, value, or degree possible"
+}

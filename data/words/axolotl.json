@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "axolotl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "possibly meaning \"water monster\" or \"water dog\"",
+      "meaning": "a salamander-like water creature",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "axolotl",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Nahuatl for the unique salamander species",
+      "meaning": "a Mexican salamander that retains larval features",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Mexican salamander that retains its larval features throughout life"
+}

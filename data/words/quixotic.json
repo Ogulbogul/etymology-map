@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Don Quixote",
+      "lang": "Spanish",
+      "era": "1605",
+      "note": "Cervantes's fictional knight, whose idealistic, impractical adventures gave the word its meaning",
+      "meaning": "a fictional knight's name",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "quixotic",
+      "lang": "English",
+      "era": "1815",
+      "note": "coined from the character's name for extravagantly idealistic, impractical behavior",
+      "meaning": "extravagantly idealistic and impractical",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "exceedingly idealistic, unrealistic, and impractical, often in a foolishly noble way"
+}

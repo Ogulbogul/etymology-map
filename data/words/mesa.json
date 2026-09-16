@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mensa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"table\"",
+      "meaning": "table",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mesa",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "kept the meaning of a flat table or tableland",
+      "meaning": "table; flat-topped hill",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "mesa",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking settlers in the American Southwest",
+      "meaning": "an isolated flat-topped hill",
+      "lat": 35.08,
+      "lon": -106.65
+    }
+  ],
+  "current_meaning": "an isolated flat-topped hill or plateau with steep sides"
+}

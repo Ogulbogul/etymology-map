@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gonghe",
+      "lang": "Chinese",
+      "era": "1900s",
+      "note": "meaning \"to work together\", a slogan of Chinese industrial cooperatives",
+      "meaning": "work together",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "gung ho",
+      "lang": "English",
+      "era": "1940s",
+      "note": "adopted by US Marines during World War II as an enthusiasm slogan",
+      "meaning": "extremely enthusiastic and dedicated",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "extremely enthusiastic and eager, especially about a cause or task"
+}

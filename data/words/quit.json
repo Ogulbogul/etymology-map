@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quies",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "rest, repose, giving rise to quietus (at rest, free)",
+      "meaning": "rest, repose",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "quiter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for setting someone free from an obligation, from quietus",
+      "meaning": "to set someone free from an obligation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quit",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for stopping an action or leaving a job or place",
+      "meaning": "to stop doing something, or to leave a job or place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop doing something, or to leave a job, place, or activity"
+}

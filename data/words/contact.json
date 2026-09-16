@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "contingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to touch closely, from com- (together) and tangere (to touch), with irregular past participle contactus",
+      "meaning": "to touch closely",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contact",
+      "lang": "English",
+      "era": "1620s",
+      "note": "settled as the English word for the state of touching or communicating with something",
+      "meaning": "the state of touching, or to communicate with someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the state of physical touching, or to communicate with someone"
+}

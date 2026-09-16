@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "je ne sais quoi",
+      "lang": "French",
+      "era": "1600s",
+      "note": "literally I don't know what, describing an indefinable quality",
+      "meaning": "I don't know what",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "je ne sais quoi",
+      "lang": "English",
+      "era": "1650s",
+      "note": "adopted directly for a pleasant but hard-to-describe quality",
+      "meaning": "an indefinable, attractive quality",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pleasant quality that is hard to describe or identify"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pollen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally fine flour, mill dust",
+      "meaning": "fine flour, fine dust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pollen",
+      "lang": "English",
+      "era": "1760s",
+      "note": "adopted by botanists for the fine, powdery reproductive grains of flowering plants",
+      "meaning": "the fine powder produced by flowers for reproduction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the fine powdery substance produced by flowers, containing male reproductive cells"
+}

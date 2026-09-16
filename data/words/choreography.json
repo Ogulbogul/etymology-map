@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "khoreia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "dance, choral dance, combined with graphein (to write)",
+      "meaning": "dance",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "choregraphie",
+      "lang": "French",
+      "era": "1700s",
+      "note": "formed from Greek khoreia (dance) and graphein (to write) for the notation and design of dance",
+      "meaning": "the notation and design of dance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "choreography",
+      "lang": "English",
+      "era": "1789",
+      "note": "adopted from French for the art of designing dance movement",
+      "meaning": "the art of designing sequences of dance movement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the art of designing and arranging sequences of dance movement"
+}

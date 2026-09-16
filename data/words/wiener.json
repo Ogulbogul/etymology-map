@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Wien",
+      "lang": "German",
+      "era": "medieval",
+      "note": "the German name for the city of Vienna",
+      "meaning": "the city of Vienna",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "Wiener Wurst",
+      "lang": "German",
+      "era": "1800s",
+      "note": "literally \"Vienna sausage\", a smoked sausage style",
+      "meaning": "Vienna-style sausage",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "wiener",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "brought to the US by German-speaking immigrants",
+      "meaning": "a smoked sausage, or hot dog",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a smoked sausage, especially one served as a hot dog"
+}

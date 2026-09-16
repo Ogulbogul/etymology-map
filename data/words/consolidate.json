@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "solidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "solid, whole, combined with com- (thoroughly)",
+      "meaning": "solid, whole",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consolidare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make solid together, to combine, from com- and solidus",
+      "meaning": "to make solid together, to combine",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consolidate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for combining separate things into a single, stronger whole",
+      "meaning": "to combine separate things into a single, stronger whole",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to combine separate things into a single, stronger, or more effective whole"
+}

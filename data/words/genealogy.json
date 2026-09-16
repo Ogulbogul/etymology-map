@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "genea",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a generation, a family, combined with logos (study)",
+      "meaning": "a generation, a family",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "genealogy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the study of family lineage",
+      "meaning": "the study of family lineage and descent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of family history and lines of descent"
+}

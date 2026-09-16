@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pardos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a spotted big cat",
+      "meaning": "a spotted big cat",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "leopardus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "formed from leo (lion) and pardus (panther), once thought to be a lion-panther hybrid",
+      "meaning": "a lion-panther hybrid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "leopart",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the spotted big cat",
+      "meaning": "the spotted big cat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "leopard",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for the spotted big cat",
+      "meaning": "a spotted big cat native to Africa and Asia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large spotted wild cat native to Africa and Asia"
+}

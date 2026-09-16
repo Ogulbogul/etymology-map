@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "clew",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "a ball of thread, recalling the thread Theseus used to escape the Minotaur's labyrinth",
+      "meaning": "a ball of thread",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "clue",
+      "lang": "English",
+      "era": "1600s",
+      "note": "shifted from the literal thread to anything that guides one to a solution",
+      "meaning": "a piece of evidence that helps solve a problem",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of evidence or information that helps solve a mystery or problem"
+}

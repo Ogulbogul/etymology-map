@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "jacht",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "short for \"jachtschip\", a fast hunting or pursuit ship",
+      "meaning": "a hunting ship",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "yacht",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted directly from Dutch for a small, fast sailing vessel",
+      "meaning": "a light, fast sailing or pleasure boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medium-sized sailing or power boat used for pleasure cruising or racing"
+}

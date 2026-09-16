@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "movere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to move, to set in motion",
+      "meaning": "to move, to set in motion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "movoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for changing position or stirring emotion",
+      "meaning": "to change position, or to stir emotion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "move",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for changing position or stirring emotion",
+      "meaning": "to change position, or to stir emotion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to change position or location, or to stir someone's emotions"
+}

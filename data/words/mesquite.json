@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mizquitl",
+      "lang": "Nahuatl",
+      "era": "medieval",
+      "note": "the name for the thorny, drought-resistant tree of the American southwest",
+      "meaning": "the mesquite tree",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "mesquite",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly through Spanish-speaking settlers of the American southwest",
+      "meaning": "a thorny, drought-resistant tree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thorny tree of the American southwest, its wood often used for grilling"
+}

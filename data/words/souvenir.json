@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "souvenir",
+      "lang": "French",
+      "era": "medieval",
+      "note": "literally to come to mind, from Latin subvenire (to come up, occur)",
+      "meaning": "to remember, to come to mind",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "souvenir",
+      "lang": "English",
+      "era": "1770s",
+      "note": "settled as the word for an object kept as a memory of a place or event",
+      "meaning": "an object kept as a memory of a place or event",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object kept as a reminder of a place, person, or event"
+}

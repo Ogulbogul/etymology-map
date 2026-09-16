@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chimpenzi",
+      "lang": "Tshiluba (Bantu)",
+      "era": "medieval",
+      "note": "a Central African name for the great ape",
+      "meaning": "chimpanzee",
+      "lat": -4.32,
+      "lon": 15.32
+    },
+    {
+      "word": "chimpanzee",
+      "lang": "English",
+      "era": "1738",
+      "note": "adopted through European contact with Central Africa",
+      "meaning": "a great ape native to Central and West Africa",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a great ape native to the forests and savannas of Central and West Africa"
+}

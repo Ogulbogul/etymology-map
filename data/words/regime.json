@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "regimen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a system of rule or government, from regere (to rule, to direct)",
+      "meaning": "a system of rule",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "regime",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried into French governmental vocabulary",
+      "meaning": "a system of government or rule",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "regime",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a system of government or management",
+      "meaning": "a system of government or management",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a system of government, or a planned regular course of action"
+}

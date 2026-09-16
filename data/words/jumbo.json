@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "jumbe",
+      "lang": "Swahili",
+      "era": "medieval",
+      "note": "meaning \"chief\" or \"leader\"",
+      "meaning": "chief, leader",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "Jumbo",
+      "lang": "English",
+      "era": "1880s",
+      "note": "the name given to a famously huge circus elephant, popularizing the word",
+      "meaning": "a famous giant circus elephant",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "jumbo",
+      "lang": "English",
+      "era": "1880s-1900s",
+      "note": "generalized to describe anything unusually large",
+      "meaning": "unusually large",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "very large, especially of a size larger than usual"
+}

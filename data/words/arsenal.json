@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dar as-sina'a",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"house of manufacture\", a shipyard or workshop",
+      "meaning": "a manufacturing workshop",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "arzanale",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "adopted for Venice's great naval shipyard",
+      "meaning": "a naval dockyard",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "arsenal",
+      "lang": "English",
+      "era": "1500s",
+      "note": "broadened to mean any place storing weapons",
+      "meaning": "a collection or store of weapons",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of weapons, or a place where they are made or stored"
+}

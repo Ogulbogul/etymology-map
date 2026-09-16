@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to prick, to pierce, combined with com- (thoroughly)",
+      "meaning": "to prick, to pierce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to prick sharply, to sting the conscience, from com- and pungere",
+      "meaning": "to prick sharply, to sting the conscience",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compunctio",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "a pricking of conscience, remorse, from compungere",
+      "meaning": "a pricking of conscience, remorse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compunction",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a feeling of guilt about one's actions",
+      "meaning": "a feeling of guilt or unease about one's actions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a feeling of guilt or moral unease about doing something"
+}

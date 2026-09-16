@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gyros",
+      "lang": "Greek",
+      "era": "1900s",
+      "note": "literally a turn, a circle, describing meat roasted on a rotating vertical spit",
+      "meaning": "a turn, a circle",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "gyro",
+      "lang": "English",
+      "era": "1970s",
+      "note": "adopted directly for the Greek sandwich of spit-roasted meat",
+      "meaning": "a Greek sandwich of spit-roasted meat in flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Greek dish of spit-roasted meat served in flatbread with vegetables and sauce"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "reflectere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bend back, from re- (back) and flectere (to bend)",
+      "meaning": "to bend back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "reflect",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for light bouncing back, or thinking deeply",
+      "meaning": "to bounce back light, or to think deeply",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to throw back light or an image, or to think carefully about something"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "iungere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to join, giving rise to coniunx (spouse, one joined in marriage)",
+      "meaning": "to join",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coniugalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of marriage, from coniunx (spouse)",
+      "meaning": "of marriage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conjugal",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something relating to marriage",
+      "meaning": "relating to marriage or the relationship between spouses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to marriage or the relationship between a married couple"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "baklava",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "a layered pastry sweetened with syrup and nuts, refined in the Ottoman palace kitchens",
+      "meaning": "a layered nut and syrup pastry",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "baklava",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the pastry spread through Mediterranean and Middle Eastern communities",
+      "meaning": "a sweet, flaky, nut-filled pastry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet pastry made of layered filo dough, nuts, and syrup"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Arakhne",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a mortal weaver in myth transformed into the first spider by a jealous goddess",
+      "meaning": "the mythical weaver Arachne",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "arachnid",
+      "lang": "English",
+      "era": "1869",
+      "note": "adopted by biologists for spiders and their relatives",
+      "meaning": "a spider or related eight-legged creature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an eight-legged invertebrate such as a spider, scorpion, or mite"
+}

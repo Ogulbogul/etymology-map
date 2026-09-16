@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "attendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stretch toward, to pay heed, from ad- (toward) and tendere (to stretch)",
+      "meaning": "to stretch toward, to pay heed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "atendre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for waiting for or paying heed to something",
+      "meaning": "to wait for, to pay heed",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attend",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for being present at or paying attention to something",
+      "meaning": "to be present at, or to pay attention to something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to be present at an event, or to pay attention to something"
+}

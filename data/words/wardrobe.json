@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "garde-robe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "literally guard robe, from garder (to guard) and robe (garment)",
+      "meaning": "a place to guard clothing",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "wardrobe",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a room or cabinet for storing clothes",
+      "meaning": "a cabinet or room for storing clothes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cabinet or room for storing clothes, or a person's entire collection of clothing"
+}

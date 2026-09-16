@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "run",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a letter of the early Germanic alphabet, believed to carry mystical meaning",
+      "meaning": "a secret, a mystical letter",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "rune",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for the ancient mystical letters",
+      "meaning": "a letter of an ancient Germanic alphabet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a letter of an ancient Germanic alphabet, often associated with magic"
+}

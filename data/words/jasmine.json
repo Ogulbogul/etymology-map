@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "yasmin",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "the Persian name for the fragrant flowering plant",
+      "meaning": "jasmine flower",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "jasmin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through Arabic and Persian trade in ornamental plants",
+      "meaning": "jasmine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "jasmine",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the flower",
+      "meaning": "the fragrant jasmine flower",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fragrant flowering plant used in perfumes and teas"
+}

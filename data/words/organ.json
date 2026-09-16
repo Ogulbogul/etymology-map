@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "organon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an instrument or tool, including musical instruments",
+      "meaning": "an instrument, tool",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "organe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for both musical instruments and body parts",
+      "meaning": "a musical instrument, or a body part",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "organ",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for both the musical instrument and a bodily structure",
+      "meaning": "a musical instrument, or a bodily structure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a part of an organism performing a specific function, or a keyboard musical instrument"
+}

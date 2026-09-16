@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vulgus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the common people, the crowd",
+      "meaning": "the common people, the crowd",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vulgaris",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the common people, ordinary, from vulgus",
+      "meaning": "of the common people, ordinary",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vulgar",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word originally for something common, later shifting to mean crude",
+      "meaning": "originally common or ordinary, later crude or offensive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lacking sophistication or good taste, crude or offensive"
+}

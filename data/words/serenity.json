@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "serenus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "clear, calm, fair, describing an unclouded sky",
+      "meaning": "clear, calm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "serenity",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a state of calm and peacefulness",
+      "meaning": "a state of being calm and peaceful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the state of being calm, peaceful, and untroubled"
+}

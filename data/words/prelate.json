@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "praeferre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry before, to prefer, from prae- (before) and ferre (to carry), with irregular past participle praelatus",
+      "meaning": "to carry before, to prefer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prelat",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a high-ranking church official, one preferred above others",
+      "meaning": "a high-ranking church official",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "prelate",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a high-ranking clergyman",
+      "meaning": "a high-ranking clergyman, such as a bishop",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a high-ranking member of the clergy, such as a bishop"
+}

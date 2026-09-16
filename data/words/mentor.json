@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mentor",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the wise friend entrusted to guide Odysseus's son in Homer's Odyssey",
+      "meaning": "a trusted guide and advisor in myth",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "mentor",
+      "lang": "English",
+      "era": "1750s",
+      "note": "broadened from the character's name to mean any trusted advisor",
+      "meaning": "a trusted advisor or teacher",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an experienced and trusted advisor or teacher"
+}

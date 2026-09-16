@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spoor",
+      "lang": "Afrikaans/Dutch",
+      "era": "1800s",
+      "note": "a track or trail left by an animal",
+      "meaning": "an animal track",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "spoor",
+      "lang": "English",
+      "era": "1850s",
+      "note": "adopted directly by English-speaking hunters and trackers in southern Africa",
+      "meaning": "the track or trail of an animal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the track or trail left by a wild animal"
+}

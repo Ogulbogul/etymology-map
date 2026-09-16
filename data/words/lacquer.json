@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "laksha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally \"100,000\", referring to the tiny lac insects used to make resin",
+      "meaning": "the lac insect, a resin source",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "lakh",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the resinous substance secreted by the lac insect",
+      "meaning": "lac resin",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "laca",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "adopted through Portuguese trade with South Asia",
+      "meaning": "lac resin, varnish",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "lacquer",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adapted through French \"lacre\" for the glossy varnish",
+      "meaning": "a glossy protective coating",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a glossy, protective coating applied to wood or metal surfaces"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "Akademeia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a grove near Athens where the philosopher Plato taught",
+      "meaning": "a grove near Athens; Plato's school",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "academia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for a place of higher learning",
+      "meaning": "a place of scholarly study",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "academie",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried the concept into French intellectual life",
+      "meaning": "a school or society of learning",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "academy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for an institution of higher learning",
+      "meaning": "an institution for higher learning or training",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an institution for higher learning, training, or research"
+}

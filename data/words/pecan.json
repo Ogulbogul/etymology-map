@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pakani",
+      "lang": "Illinois (Algonquian)",
+      "era": "pre-1600s",
+      "note": "a general term for nuts requiring a stone to crack",
+      "meaning": "a hard-shelled nut",
+      "lat": 40.12,
+      "lon": -89.4
+    },
+    {
+      "word": "pecan",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted by French and English settlers along the Mississippi valley",
+      "meaning": "the pecan nut",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a smooth, edible nut from a North American hickory tree"
+}

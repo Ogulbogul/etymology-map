@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tabl",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a drum, the root behind a pair of hand drums used in South Asian music",
+      "meaning": "a drum",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "tabla",
+      "lang": "Hindi/Urdu",
+      "era": "medieval",
+      "note": "adapted into South Asian classical music for the paired hand drums",
+      "meaning": "a pair of hand drums",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "tabla",
+      "lang": "English",
+      "era": "1860s",
+      "note": "adopted directly for the South Asian percussion instrument",
+      "meaning": "a pair of South Asian hand drums",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pair of hand drums used in South Asian classical and popular music"
+}

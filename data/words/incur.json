@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "incurrere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to run into, to attack, from in- (into) and currere (to run)",
+      "meaning": "to run into, to attack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "incur",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for bringing something unwelcome upon oneself",
+      "meaning": "to bring something unwelcome upon oneself",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to become subject to something unwelcome, such as a cost or penalty"
+}

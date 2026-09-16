@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kuhl",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a powder made from ground minerals, used to darken the eyelids",
+      "meaning": "a dark cosmetic powder",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "kohl",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the dark cosmetic powder",
+      "meaning": "a dark powder used as eye makeup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dark powder used as eye makeup, especially to line the eyes"
+}

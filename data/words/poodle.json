@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "puddeln",
+      "lang": "German",
+      "era": "medieval",
+      "note": "meaning \"to splash in water\"",
+      "meaning": "to splash",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Pudel",
+      "lang": "German",
+      "era": "1600s",
+      "note": "named the water-retrieving dog breed",
+      "meaning": "a water dog",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "poodle",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from German",
+      "meaning": "a curly-coated dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dog breed known for its dense, curly coat"
+}

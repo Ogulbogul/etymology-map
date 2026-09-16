@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Epikouros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a Greek philosopher who taught that pleasure, especially simple pleasure, was the highest good",
+      "meaning": "a philosopher's name",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "epicurean",
+      "lang": "English",
+      "era": "1570s",
+      "note": "broadened to describe anyone devoted to sensual, especially culinary, pleasure",
+      "meaning": "devoted to sensual pleasure, especially food and drink",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "devoted to the pursuit of pleasure, especially fine food and drink"
+}

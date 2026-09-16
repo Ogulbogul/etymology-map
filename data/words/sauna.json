@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sakna",
+      "lang": "Proto-Finnic",
+      "era": "ancient",
+      "note": "an ancient word for a heated pit-house or bathhouse",
+      "meaning": "bathhouse, hearth",
+      "lat": 60.0,
+      "lon": 30.0
+    },
+    {
+      "word": "sauna",
+      "lang": "Finnish",
+      "era": "medieval",
+      "note": "central to Finnish bathing and social custom for centuries",
+      "meaning": "steam bathhouse",
+      "lat": 60.17,
+      "lon": 24.94
+    },
+    {
+      "word": "sauna",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted unchanged as travelers described the Finnish custom",
+      "meaning": "a steam bathhouse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small room or building used for taking steam baths"
+}

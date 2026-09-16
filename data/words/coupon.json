@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "couper",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to cut, the root behind a ticket meant to be cut or torn off",
+      "meaning": "to cut",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "coupon",
+      "lang": "English",
+      "era": "1820s",
+      "note": "settled as the word for a detachable ticket entitling the holder to something",
+      "meaning": "a voucher entitling the holder to a discount or benefit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a voucher entitling the holder to a discount or a free item"
+}

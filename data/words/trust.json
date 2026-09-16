@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "traust",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "firmness, security, confidence",
+      "meaning": "firmness, security",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "trust",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word for firm confidence in someone",
+      "meaning": "firm belief in the reliability of someone or something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "firm belief in the reliability, truth, or ability of someone or something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "innatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "inborn, from in- (in) and nasci (to be born)",
+      "meaning": "inborn",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "innate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for qualities present from birth",
+      "meaning": "present from birth, inborn",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quality or ability present in someone from birth, inborn rather than learned"
+}

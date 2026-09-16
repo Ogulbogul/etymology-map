@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "diversus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "turned different ways, from dis- (apart) and vertere (to turn)",
+      "meaning": "turned different ways",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diverse",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for showing a great deal of variety",
+      "meaning": "showing a great deal of variety",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing a great deal of variety, made up of distinct elements"
+}

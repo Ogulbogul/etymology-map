@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow, combined with ob- (toward, after)",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obsequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to comply with, to follow after, from ob- and sequi",
+      "meaning": "to comply with, to follow after",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obsequiosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "compliant, eager to please, from obsequi",
+      "meaning": "compliant, eager to please",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obsequious",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for being excessively eager to please or obey",
+      "meaning": "excessively eager to please or obey",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "excessively eager to please or obey someone, in an insincere way"
+}

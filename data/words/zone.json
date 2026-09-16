@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "zone",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"a belt\" or \"girdle\", used for bands of the Earth's surface",
+      "meaning": "a belt, girdle; a region",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "zona",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for the Earth's climatic bands",
+      "meaning": "a region, belt of the earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "zone",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for a defined area",
+      "meaning": "an area with particular characteristics or use",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an area or region distinguished from adjacent parts by a particular feature or use"
+}

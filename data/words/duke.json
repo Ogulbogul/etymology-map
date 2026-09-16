@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dux",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a leader, a general, from ducere (to lead)",
+      "meaning": "a leader, a general",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "settled in French as a noble title just below a prince",
+      "meaning": "a high-ranking nobleman",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "duke",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a high-ranking nobleman",
+      "meaning": "a nobleman of the highest hereditary rank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nobleman of the highest hereditary rank, below a prince"
+}

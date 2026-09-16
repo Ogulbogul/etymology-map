@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "qirmiz",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a vivid red dye made from dried scale insects",
+      "meaning": "a red dye from insects",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "carmin",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried into French dye and pigment vocabulary",
+      "meaning": "a vivid red pigment",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carmine",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the vivid red color",
+      "meaning": "a vivid red or crimson color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vivid red or crimson color, or the pigment producing it"
+}

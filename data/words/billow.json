@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bylgja",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a large wave or swell of water",
+      "meaning": "a large wave",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "billow",
+      "lang": "English",
+      "era": "1530s",
+      "note": "settled as the English word for a large swelling wave, later smoke or cloth",
+      "meaning": "a large wave, or a swelling mass of smoke or cloth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large wave, or a swelling mass of smoke, cloth, or similar material"
+}

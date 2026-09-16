@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "xylon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "wood",
+      "meaning": "wood",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "xylophone",
+      "lang": "French",
+      "era": "1866",
+      "note": "formed from Greek xylon (wood) and phone (sound), for the wooden-barred percussion instrument",
+      "meaning": "wood-sound",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "xylophone",
+      "lang": "English",
+      "era": "1866",
+      "note": "adopted directly for the wooden-barred percussion instrument",
+      "meaning": "a wooden-barred percussion instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a percussion instrument with wooden bars struck to produce musical notes"
+}

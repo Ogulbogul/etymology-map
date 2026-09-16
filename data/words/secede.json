@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "secedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to withdraw, to go apart, from se- (apart) and cedere (to go)",
+      "meaning": "to withdraw, to go apart",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "secede",
+      "lang": "English",
+      "era": "1702",
+      "note": "settled as the English word for formally withdrawing from an organization or union",
+      "meaning": "to formally withdraw from an organization or union",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to formally withdraw from a political union, organization, or alliance"
+}

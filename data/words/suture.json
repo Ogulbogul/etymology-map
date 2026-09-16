@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sutura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a seam, a stitching, from suere (to sew)",
+      "meaning": "a seam, a stitch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suture",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the medical word for stitches closing a wound",
+      "meaning": "a stitch used to close a wound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stitch or set of stitches used to close a wound or surgical incision"
+}

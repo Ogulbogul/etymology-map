@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "melankholia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally black bile, one of the four bodily humors believed to cause sadness",
+      "meaning": "black bile",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "melancholie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French medical and emotional vocabulary",
+      "meaning": "a state of deep sadness",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "melancholy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a pensive, sorrowful mood",
+      "meaning": "a pensive, thoughtful sadness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep, thoughtful sadness, often without an obvious cause"
+}

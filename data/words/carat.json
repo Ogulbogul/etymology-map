@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "keration",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally a little horn, the carob seed once used as a standard weight for gemstones",
+      "meaning": "a carob seed",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "carat",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for a unit of weight for gemstones",
+      "meaning": "a unit of weight for precious stones",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a unit of weight for precious stones, or a measure of gold purity"
+}

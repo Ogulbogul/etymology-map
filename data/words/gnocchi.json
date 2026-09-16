@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nocchio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a knot in wood, describing the small, knot-shaped dumplings",
+      "meaning": "a knot in wood",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gnocchi",
+      "lang": "English",
+      "era": "1891",
+      "note": "adopted directly for the small potato or flour dumplings",
+      "meaning": "small dumplings made from potato or flour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "small, soft Italian dumplings made from potato, flour, or semolina"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "loch",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "a lake, or a narrow arm of the sea",
+      "meaning": "a lake or sea inlet",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "loch",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly, especially for Scottish lakes",
+      "meaning": "a lake, especially in Scotland",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lake or narrow sea inlet, especially in Scotland"
+}

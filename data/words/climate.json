@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "klima",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"a slope\", referring to the angle of the sun at different latitudes",
+      "meaning": "a region defined by the sun's angle",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "clima",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for a region's characteristic weather",
+      "meaning": "a region, weather zone",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "climat",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the geographic concept into French",
+      "meaning": "a region's typical weather",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "climate",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for weather patterns",
+      "meaning": "the weather conditions typical of a region",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the weather conditions typical of a region over a long period"
+}

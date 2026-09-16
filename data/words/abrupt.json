@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "abruptus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "broken off, from ab- (off) and rumpere (to break)",
+      "meaning": "broken off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "abrupt",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for something sudden and unexpected",
+      "meaning": "sudden and unexpected",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "sudden and unexpected, or brusque in manner"
+}

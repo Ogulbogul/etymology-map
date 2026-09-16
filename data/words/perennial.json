@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "perennis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "lasting through the years, from per- (through) and annus (year)",
+      "meaning": "lasting through the years",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perennial",
+      "lang": "English",
+      "era": "1640s",
+      "note": "settled as the English word for something lasting or recurring continuously",
+      "meaning": "lasting or recurring continuously over a long time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lasting or recurring continuously, or a plant that lives for several years"
+}

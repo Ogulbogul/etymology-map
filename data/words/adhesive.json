@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "haerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stick, to cling, combined with ad- (to), with irregular past participle haesus",
+      "meaning": "to stick, to cling",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adhaesus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "stuck to, past participle of adhaerere",
+      "meaning": "stuck to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adhesive",
+      "lang": "English",
+      "era": "1670s",
+      "note": "settled as the English word for a substance used to stick things together",
+      "meaning": "a substance used to stick things together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance, such as glue, used to stick things together"
+}

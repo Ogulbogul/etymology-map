@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "regula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a straight stick, a standard, from regere (to guide, rule)",
+      "meaning": "a straight stick, a standard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "reule",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a principle governing conduct",
+      "meaning": "a principle governing conduct",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rule",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a principle governing conduct or action",
+      "meaning": "a principle governing conduct or action",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a principle or regulation governing conduct, or to govern something"
+}

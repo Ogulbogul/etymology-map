@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "graphikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to writing or drawing, from graphein (to write)",
+      "meaning": "relating to writing or drawing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "graphic",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for anything vividly descriptive or visual",
+      "meaning": "relating to visual art, or vividly descriptive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to visual art, or described in vivid detail"
+}

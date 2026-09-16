@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Bologna",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a city in northern Italy famous for its seasoned sausage",
+      "meaning": "an Italian city name",
+      "lat": 44.49,
+      "lon": 11.34
+    },
+    {
+      "word": "bologna",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the seasoned sausage named after the city",
+      "meaning": "a seasoned sausage, or a large sliced cold cut",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large sausage or cold cut, named for the Italian city of its origin"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hang, to weigh, to pay out",
+      "meaning": "to hang, to weigh, to pay out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pensio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a payment, a weighing out, from pendere",
+      "meaning": "a payment, a weighing out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pension",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a regular payment made to someone",
+      "meaning": "a regular payment made to someone",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pension",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a regular payment made after retirement",
+      "meaning": "a regular payment made to someone after retirement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a regular payment made to a person after retirement from work"
+}

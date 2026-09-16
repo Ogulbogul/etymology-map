@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "voir",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to see, the root of one who watches others",
+      "meaning": "to see",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "voyeur",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for someone who derives pleasure from secretly watching others",
+      "meaning": "a person who watches others secretly for gratification",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who gains gratification from secretly observing others"
+}

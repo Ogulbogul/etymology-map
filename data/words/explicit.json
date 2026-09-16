@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "explicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to unfold, to explain, from ex- (out) and plicare (to fold)",
+      "meaning": "to unfold, to explain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "explicit",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for something stated clearly and in detail",
+      "meaning": "stated clearly and in detail, leaving nothing implied",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "stated clearly and in detail, with nothing implied or hidden"
+}

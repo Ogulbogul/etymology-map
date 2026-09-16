@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gharbala",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "to sift or sort spices, separating the good from impurities",
+      "meaning": "to sift or sort",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "garbellare",
+      "lang": "Medieval Latin/Italian",
+      "era": "medieval",
+      "note": "carried into European trade vocabulary for sorting goods",
+      "meaning": "to sift goods for quality",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "garble",
+      "lang": "English",
+      "era": "1400s",
+      "note": "shifted from careful sorting to mean confused, jumbled mixing",
+      "meaning": "to jumble or distort a message",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to distort or confuse a message so it is misunderstood"
+}

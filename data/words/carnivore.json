@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caro",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "flesh, meat, combined with vorare (to devour)",
+      "meaning": "flesh, meat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carnivore",
+      "lang": "English",
+      "era": "1830s",
+      "note": "adopted by biologists for an animal that primarily eats meat",
+      "meaning": "an animal that primarily eats meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an animal that feeds primarily on the flesh of other animals"
+}

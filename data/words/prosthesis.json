@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prosthesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally an addition, from pros- (in addition to) and tithenai (to place)",
+      "meaning": "an addition",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "prosthesis",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the medical word for an artificial replacement body part",
+      "meaning": "an artificial replacement for a missing body part",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an artificial device replacing a missing or damaged body part"
+}

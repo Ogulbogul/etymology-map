@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "arthron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a joint, combined with the suffix -itis (inflammation)",
+      "meaning": "a joint",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "arthritis",
+      "lang": "English",
+      "era": "1540s",
+      "note": "settled as the medical word for joint inflammation",
+      "meaning": "inflammation of the joints",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "inflammation and stiffness of the joints"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "haka",
+      "lang": "Maori",
+      "era": "ancient",
+      "note": "a ceremonial dance with chanting, performed for various occasions",
+      "meaning": "a ceremonial chant and dance",
+      "lat": -36.85,
+      "lon": 174.76
+    },
+    {
+      "word": "haka",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted internationally through New Zealand rugby and culture",
+      "meaning": "a Maori ceremonial war dance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Maori ceremonial dance with chanting and forceful movements"
+}

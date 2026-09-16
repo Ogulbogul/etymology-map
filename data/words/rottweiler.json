@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Rottweil",
+      "lang": "German",
+      "era": "medieval",
+      "note": "a town in southern Germany where the sturdy cattle-driving dog originated",
+      "meaning": "the town of Rottweil",
+      "lat": 48.17,
+      "lon": 8.63
+    },
+    {
+      "word": "Rottweiler",
+      "lang": "German",
+      "era": "1800s",
+      "note": "named the dog breed after the town",
+      "meaning": "a dog from Rottweil",
+      "lat": 48.17,
+      "lon": 8.63
+    },
+    {
+      "word": "rottweiler",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from German",
+      "meaning": "a large, muscular guard dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, powerful dog breed originally used for herding and guarding"
+}

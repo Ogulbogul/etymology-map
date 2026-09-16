@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "corrumpere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to break together, to spoil, from com- (thoroughly) and rumpere (to break)",
+      "meaning": "to spoil thoroughly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corrupt",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for dishonest or morally spoiled behavior",
+      "meaning": "dishonest behavior, especially by those in power",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dishonest or fraudulent conduct, especially by those in positions of power"
+}

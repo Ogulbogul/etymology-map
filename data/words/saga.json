@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "saga",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "meaning \"a story\" or \"a telling\"",
+      "meaning": "a story, tale",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "saga",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted as scholars studied medieval Icelandic literature",
+      "meaning": "a long, heroic prose narrative",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long story of heroic achievement, or a lengthy, involved series of events"
+}

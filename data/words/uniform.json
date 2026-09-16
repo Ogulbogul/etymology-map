@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "unus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one, combined with forma (shape)",
+      "meaning": "one",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "uniformis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "having one form, unchanging, from unus (one) and forma (shape)",
+      "meaning": "having one form, unchanging",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "uniform",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something the same throughout, or distinctive clothing",
+      "meaning": "consistent and the same throughout, or distinctive clothing for a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the same throughout, or distinctive clothing worn by members of a group"
+}

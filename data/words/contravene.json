@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "contravenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come against, to oppose, from contra- (against) and venire (to come)",
+      "meaning": "to come against, to oppose",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contravene",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for acting in violation of a rule or law",
+      "meaning": "to act in violation of a rule, law, or agreement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to act in a way that violates a law, rule, or agreement"
+}

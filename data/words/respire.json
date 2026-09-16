@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "respirare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to breathe again, from re- (again) and spirare (to breathe)",
+      "meaning": "to breathe again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "respire",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for breathing",
+      "meaning": "to breathe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to breathe"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tonare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to thunder, the root of being stunned as if struck by a thunderclap",
+      "meaning": "to thunder",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estoner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for being stunned or dazed",
+      "meaning": "to stun, to daze",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "astonish",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for causing great surprise or wonder",
+      "meaning": "to cause someone great surprise or wonder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to surprise or impress someone greatly"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "delirare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to deviate from a straight furrow, to be crazy, from de- (from) and lira (furrow)",
+      "meaning": "to deviate from a straight furrow, to rave",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "delirium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "formed as a noun for a state of wild, confused excitement",
+      "meaning": "a state of wild, confused excitement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "delirium",
+      "lang": "English",
+      "era": "1590s",
+      "note": "adopted directly for a disturbed state of mind involving confusion",
+      "meaning": "a disturbed state of mind involving confusion and restlessness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an acutely disturbed state of mind marked by confusion and restlessness"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bronco",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"rough\" or \"rude\"",
+      "meaning": "rough, coarse",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "bronco",
+      "lang": "Mexican Spanish",
+      "era": "1700s-1800s",
+      "note": "applied to an unbroken, wild horse",
+      "meaning": "an untamed horse",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "bronco",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by English-speaking cowboys in the American West",
+      "meaning": "a wild or unbroken horse",
+      "lat": 39.55,
+      "lon": -105.78
+    }
+  ],
+  "current_meaning": "a wild or untrained horse, especially in the American West"
+}

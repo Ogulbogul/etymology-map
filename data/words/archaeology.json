@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "arkhaios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "ancient, primitive, combined with logos (study)",
+      "meaning": "ancient",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "archaeology",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the study of human history through excavation",
+      "meaning": "the study of human history through material remains",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of human history through the excavation of sites and analysis of artifacts"
+}

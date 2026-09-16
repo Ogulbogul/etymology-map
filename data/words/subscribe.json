@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "subscribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write underneath, to sign, from sub- (under) and scribere (to write)",
+      "meaning": "to write underneath, to sign",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "subscribe",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for signing one's agreement, or arranging to receive something regularly",
+      "meaning": "to sign one's agreement, or to arrange to receive something regularly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to arrange to regularly receive a publication or service, or to express agreement"
+}

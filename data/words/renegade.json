@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "renegado",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "one who has renounced their faith or allegiance, from renegar (to deny)",
+      "meaning": "one who has renounced their faith",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "renegade",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the word for someone who deserts a cause or group",
+      "meaning": "a person who deserts a cause or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who abandons their group or cause for another, often seen as rebellious"
+}

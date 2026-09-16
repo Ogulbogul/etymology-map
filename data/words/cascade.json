@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cadere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fall, the root behind water falling in stages",
+      "meaning": "to fall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cascata",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "settled in Italian for a small waterfall falling in stages",
+      "meaning": "a small waterfall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cascade",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted directly for a small waterfall, or anything falling in a similar manner",
+      "meaning": "a small waterfall, or a process happening in stages",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small waterfall, or a process in which one thing triggers a series of others"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "koi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "the Japanese word for carp",
+      "meaning": "carp",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "koi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted for the ornamental, colorful carp variety",
+      "meaning": "an ornamental variety of carp",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a colorful, ornamental variety of carp bred for ponds"
+}

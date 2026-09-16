@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "opus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "work, giving rise to operari (to work), combined with com- (together)",
+      "meaning": "work",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cooperari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to work together, from com- and operari",
+      "meaning": "to work together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cooperate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for working jointly toward a common goal",
+      "meaning": "to work jointly with others toward a common goal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to work jointly with others toward a shared goal"
+}

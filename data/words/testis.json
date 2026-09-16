@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "testis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a witness, applied to the male reproductive gland as a witness to virility",
+      "meaning": "a witness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "testis",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly as the medical term for the male reproductive gland",
+      "meaning": "the male reproductive gland",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the male reproductive gland that produces sperm"
+}

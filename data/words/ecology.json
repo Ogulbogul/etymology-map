@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "oikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "household, combined with logos (study) for the study of one's surroundings",
+      "meaning": "house, household",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "okologie",
+      "lang": "German",
+      "era": "1860s",
+      "note": "coined by biologist Ernst Haeckel for the study of organisms and environment",
+      "meaning": "the study of organisms and their environment",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "ecology",
+      "lang": "English",
+      "era": "1890s",
+      "note": "settled as the English name for the science",
+      "meaning": "the study of organisms and their environment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of the relationships between organisms and their environment"
+}

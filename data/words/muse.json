@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mousa",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "one of nine goddesses inspiring art, music, and literature",
+      "meaning": "a goddess of artistic inspiration",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "muse",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for a source of artistic inspiration",
+      "meaning": "a source of artistic inspiration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or force that inspires an artist, or to ponder thoughtfully"
+}

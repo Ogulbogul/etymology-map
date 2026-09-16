@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dis ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to arrange, to distribute, from dis- (apart) and ponere (to place)",
+      "meaning": "to arrange, to distribute",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "disposer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for arranging or getting rid of something",
+      "meaning": "to arrange or get rid of something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "disposal",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the act of getting rid of something",
+      "meaning": "the act of getting rid of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act of throwing away, using, or arranging something"
+}

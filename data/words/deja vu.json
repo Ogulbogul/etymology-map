@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deja vu",
+      "lang": "French",
+      "era": "1800s",
+      "note": "literally already seen, coined by a French psychical researcher",
+      "meaning": "already seen",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "deja vu",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the eerie feeling of having experienced something before",
+      "meaning": "the feeling of having already experienced the present situation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the unsettling feeling of having already experienced the present situation"
+}

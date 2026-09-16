@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "xocolātl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "an Aztec drink made from bitter, unsweetened cacao",
+      "meaning": "bitter water",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chocolate",
+      "lang": "Spanish",
+      "era": "c. 1520s",
+      "note": "conquistadors brought the drink and word back to Spain",
+      "meaning": "a cacao-based drink",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "chocolat",
+      "lang": "French",
+      "era": "c. 1600s",
+      "note": "the drink became fashionable in the French court",
+      "meaning": "a cacao-based drink",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chocolate",
+      "lang": "English",
+      "era": "c. 1650s",
+      "note": "entered English as chocolate houses opened in London",
+      "meaning": "a sweet food or drink made from cacao",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet food or drink made from roasted, ground cacao beans"
+}

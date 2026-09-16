@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rannsaka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "literally to search a house, from rann (house) and saka (to search)",
+      "meaning": "to search a house thoroughly",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "ransack",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for searching a place thoroughly, often destructively",
+      "meaning": "to search a place thoroughly, often causing damage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to search a place thoroughly and roughly, often stealing or causing damage"
+}

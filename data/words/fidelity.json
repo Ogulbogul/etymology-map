@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fides",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "faith, trust",
+      "meaning": "faith, trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fidelitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "faithfulness, loyalty, from fides",
+      "meaning": "faithfulness, loyalty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fidelite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for loyalty and faithfulness",
+      "meaning": "loyalty and faithfulness",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fidelity",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for faithfulness to a person, cause, or standard",
+      "meaning": "faithfulness to a person, cause, or standard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "faithfulness to a person, belief, or cause, or accuracy of reproduction"
+}

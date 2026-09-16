@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "municipium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a self-governing town, from munia (duties) and capere (to take on)",
+      "meaning": "a self-governing town",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "municipal",
+      "lang": "English",
+      "era": "1540s",
+      "note": "settled as the English word for anything relating to local town government",
+      "meaning": "relating to a town or city's local government",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the government of a town or city"
+}

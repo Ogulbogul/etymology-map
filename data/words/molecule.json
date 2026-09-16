@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "molecula",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "a diminutive of moles (mass), literally a small mass",
+      "meaning": "a small mass",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "molecule",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted directly for the smallest particle of a substance retaining its properties",
+      "meaning": "the smallest unit of a chemical compound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the smallest unit of a chemical compound that retains its properties"
+}

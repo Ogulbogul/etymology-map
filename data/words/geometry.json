@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "geometria",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally earth measurement, from ge (earth) and metron (measure)",
+      "meaning": "earth measurement",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "geometrie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French mathematical vocabulary",
+      "meaning": "the mathematics of shapes and space",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "geometry",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English name for the branch of mathematics",
+      "meaning": "the branch of mathematics dealing with shapes and space",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the branch of mathematics concerned with shapes, sizes, and space"
+}

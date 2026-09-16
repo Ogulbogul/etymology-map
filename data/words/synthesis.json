@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "synthesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a putting together, from syn- (together) and tithenai (to place)",
+      "meaning": "a putting together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "synthesis",
+      "lang": "English",
+      "era": "1610s",
+      "note": "settled as the English word for combining separate elements into a whole",
+      "meaning": "the combination of separate elements into a whole",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the combination of separate ideas, elements, or substances into a coherent whole"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "insimul",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally at the same time, together",
+      "meaning": "at the same time, together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ensemble",
+      "lang": "French",
+      "era": "medieval",
+      "note": "carried into French for things or people acting together",
+      "meaning": "together, as a unified whole",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ensemble",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the word for a group performing or working together",
+      "meaning": "a group of performers or things working together as a whole",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of musicians, performers, or items considered as a unified whole"
+}

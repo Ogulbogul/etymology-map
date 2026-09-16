@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phobos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "meaning \"fear\" or \"panic\", also the name of a god of fear",
+      "meaning": "fear, panic",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phobia",
+      "lang": "English",
+      "era": "1780s",
+      "note": "adopted as a medical term for an irrational fear",
+      "meaning": "an irrational, persistent fear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an extreme or irrational fear of a particular thing or situation"
+}

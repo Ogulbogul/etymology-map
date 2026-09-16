@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "praecedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to go before, from prae- (before) and cedere (to go)",
+      "meaning": "to go before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "precede",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for coming before something in time or order",
+      "meaning": "to come before something in time, order, or importance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come before something else in time, order, or rank"
+}

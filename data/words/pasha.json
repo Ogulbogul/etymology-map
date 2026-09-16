@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pasha",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "a high-ranking title for a military or civil official",
+      "meaning": "a high-ranking official title",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "pasha",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted directly for the Ottoman title of high rank",
+      "meaning": "a high-ranking Ottoman official",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a high-ranking title used historically in the Ottoman Empire and Egypt"
+}

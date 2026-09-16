@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sultan",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"power\" or \"authority\", later a ruler's title",
+      "meaning": "power, ruler",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "sultan",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "adopted as the title for the Ottoman monarch",
+      "meaning": "the Ottoman ruler",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "sultan",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted for Muslim rulers generally",
+      "meaning": "a Muslim sovereign or ruler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sovereign or ruler in some Muslim countries"
+}

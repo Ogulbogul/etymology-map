@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Mawsil",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the city of Mosul, a textile trading center",
+      "meaning": "the city of Mosul",
+      "lat": 36.34,
+      "lon": 43.13
+    },
+    {
+      "word": "mussolina",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named a fine cotton fabric after the city",
+      "meaning": "a fine cotton fabric",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "muslin",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through French and Italian textile trade",
+      "meaning": "a lightweight, plain-woven cotton fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lightweight, plain-woven cotton fabric"
+}

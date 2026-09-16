@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Samuel Maverick",
+      "lang": "English",
+      "era": "1840s",
+      "note": "a Texas rancher who famously left his cattle unbranded, unlike his neighbors",
+      "meaning": "a rancher's name",
+      "lat": 29.42,
+      "lon": -98.49
+    },
+    {
+      "word": "maverick",
+      "lang": "English",
+      "era": "1880s",
+      "note": "broadened from an unbranded stray calf to any independent-minded person",
+      "meaning": "an unconventional, independent-minded person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unconventional or independent-minded person who doesn't follow the group"
+}

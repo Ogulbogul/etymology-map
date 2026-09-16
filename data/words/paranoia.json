@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paranoia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "madness, from para- (beside, beyond) and noos (mind)",
+      "meaning": "a mind beside itself, madness",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "paranoia",
+      "lang": "New Latin",
+      "era": "1800s",
+      "note": "adopted into scientific Latin for a psychiatric condition of irrational suspicion",
+      "meaning": "a psychiatric condition of irrational suspicion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "paranoia",
+      "lang": "English",
+      "era": "1811",
+      "note": "settled as the English word for extreme, irrational distrust of others",
+      "meaning": "extreme, irrational distrust of others",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an irrational and persistent feeling that people are threatening or plotting against you"
+}

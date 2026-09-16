@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gradi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to step, to walk",
+      "meaning": "to step, to walk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gradiens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "stepping, walking, present participle of gradi",
+      "meaning": "stepping, walking",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gradient",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English word for the degree of steepness of a slope, or a rate of change",
+      "meaning": "the degree of steepness of a slope, or a rate of change",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the degree of steepness of a slope, or a gradual change in a variable"
+}

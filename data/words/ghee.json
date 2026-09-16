@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ghrta",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "clarified butter, used in cooking and ritual across South Asia",
+      "meaning": "clarified butter",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "ghee",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the clarified butter of South Asian cuisine",
+      "meaning": "clarified butter used in South Asian cooking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clarified butter, widely used in South Asian cooking"
+}

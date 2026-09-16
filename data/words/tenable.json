@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tenere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold",
+      "meaning": "to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tenabilis",
+      "lang": "Late Latin",
+      "era": "medieval",
+      "note": "able to be held, from tenere",
+      "meaning": "able to be held",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tenable",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for a position that can be defended",
+      "meaning": "a position that can be defended",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tenable",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for something that can be defended or maintained",
+      "meaning": "able to be defended or maintained against attack or objection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to be defended or maintained against attack or objection"
+}

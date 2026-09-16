@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "plaide",
+      "lang": "Scottish Gaelic",
+      "era": "1500s",
+      "note": "a blanket or cloak, later the checkered woolen cloth it was made from",
+      "meaning": "a blanket or cloak",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "plaid",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for the checkered woolen pattern",
+      "meaning": "a checkered woolen pattern",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a checkered or tartan woolen pattern, or cloth woven in it"
+}

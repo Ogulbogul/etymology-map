@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "behemoth",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "the plural intensive of \"behemah\" (beast), describing a huge biblical creature",
+      "meaning": "a huge beast",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "behemoth",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted through Bible translation",
+      "meaning": "an enormous, powerful creature or thing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something enormous and powerful, especially a huge creature or organization"
+}

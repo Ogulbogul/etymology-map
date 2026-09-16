@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "balletto",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a diminutive of \"ballo\" (a dance), developed in Renaissance Italian courts",
+      "meaning": "a little dance",
+      "lat": 43.77,
+      "lon": 11.25
+    },
+    {
+      "word": "ballet",
+      "lang": "French",
+      "era": "1600s",
+      "note": "refined into a formal art form at the French royal court",
+      "meaning": "a formal, choreographed dance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ballet",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from French",
+      "meaning": "a formal, classical dance form",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal style of expressive dance performed to music"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "illuminare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to light up, from in- (in) and lumen (light)",
+      "meaning": "to light up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "illuminate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for lighting something up, or making it clear",
+      "meaning": "to light something up, or to make it clear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to light something up, or to make a subject clearer through explanation"
+}

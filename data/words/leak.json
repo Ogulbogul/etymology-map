@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "leka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to drip, to let liquid escape through a crack",
+      "meaning": "to drip, to let escape",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "leak",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for liquid escaping through an unwanted opening",
+      "meaning": "liquid or gas escaping through an unwanted opening",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the unwanted escape of liquid or gas through a crack or hole, or disclosed secret information"
+}

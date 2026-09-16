@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "suscipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take up, to undertake, from sub- (under) and capere (to take)",
+      "meaning": "to take up, to undertake",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "susceptibilis",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "capable of receiving or being affected, from suscipere",
+      "meaning": "capable of being affected",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "susceptible",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for being easily affected or influenced by something",
+      "meaning": "easily affected or influenced by something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "likely to be influenced, harmed, or affected by something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "akhates",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "named for a river in Sicily where the banded stone was first found",
+      "meaning": "relating to the Achates river",
+      "lat": 37.5,
+      "lon": 14.5
+    },
+    {
+      "word": "agate",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the banded quartz gemstone",
+      "meaning": "a banded variety of quartz",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a banded, translucent variety of quartz used as a gemstone"
+}

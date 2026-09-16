@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "light, combined with the particle suffix -on",
+      "meaning": "light",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "photon",
+      "lang": "English",
+      "era": "1926",
+      "note": "coined by physicist Gilbert Lewis for the fundamental particle of light",
+      "meaning": "a fundamental particle of light",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fundamental particle representing a quantum of light"
+}

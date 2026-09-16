@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "terra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "earth, land, the ground",
+      "meaning": "earth, land",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terrain",
+      "lang": "French",
+      "era": "1500s",
+      "note": "settled in French for a stretch of land, especially its physical features",
+      "meaning": "a stretch of land and its physical features",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "terrain",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for the physical features of a piece of land",
+      "meaning": "the physical features of a stretch of land",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stretch of land, especially considered in terms of its physical features"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lazhward",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "the name of a region famous for its deep-blue lapis lazuli stone",
+      "meaning": "the place name Lajward, source of lapis lazuli",
+      "lat": 35.69,
+      "lon": 51.39
+    },
+    {
+      "word": "azur",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried through Arabic and French for the vivid blue color and pigment",
+      "meaning": "a deep blue color",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "azure",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a bright blue color",
+      "meaning": "a bright blue color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bright, clear blue color, like a cloudless sky"
+}

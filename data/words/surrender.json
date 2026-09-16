@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "super reddere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give up over, from super- (over) and reddere (to give back)",
+      "meaning": "to give up over",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "surrendre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for giving oneself up or handing something over",
+      "meaning": "to give oneself up, to hand over",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "surrender",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for giving up control or ceasing resistance",
+      "meaning": "to give up control or cease resistance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give up control, possession, or resistance, especially to an opponent"
+}

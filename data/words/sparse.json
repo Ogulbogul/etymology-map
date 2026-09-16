@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "spargere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to scatter, to sprinkle",
+      "meaning": "to scatter, to sprinkle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sparsus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "scattered, sprinkled, past participle of spargere",
+      "meaning": "scattered, sprinkled",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sparse",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for something thinly distributed over an area",
+      "meaning": "thinly distributed or scattered over an area",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "thinly scattered or distributed over an area"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "talq",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the soft mineral",
+      "meaning": "talc mineral",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "talc",
+      "lang": "French",
+      "era": "medieval",
+      "note": "adopted through Arabic mineralogical texts",
+      "meaning": "talc mineral",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "talc",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English mineral name",
+      "meaning": "a soft mineral used in powders",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft mineral used to make talcum powder and other products"
+}

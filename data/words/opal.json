@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "upala",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "a precious stone, the root behind the iridescent gem",
+      "meaning": "a precious stone",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "opalus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted into Latin gemstone vocabulary",
+      "meaning": "an iridescent gemstone",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "opal",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the iridescent gemstone",
+      "meaning": "an iridescent gemstone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a gemstone known for its iridescent play of color"
+}

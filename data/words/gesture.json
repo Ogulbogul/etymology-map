@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry, to bear, to conduct oneself",
+      "meaning": "to carry, to conduct oneself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gesture",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed from bodily conduct in general to a specific meaningful movement",
+      "meaning": "a movement of the body or hands to express an idea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a movement of the body or hands used to express an idea or feeling"
+}

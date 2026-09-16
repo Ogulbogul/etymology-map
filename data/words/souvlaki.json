@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "souvla",
+      "lang": "Greek",
+      "era": "medieval",
+      "note": "a skewer, describing small pieces of meat grilled on a stick",
+      "meaning": "a skewer",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "souvlaki",
+      "lang": "English",
+      "era": "1950s",
+      "note": "adopted directly for the skewered, grilled meat dish",
+      "meaning": "a Greek dish of skewered, grilled meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Greek dish of small pieces of meat grilled on a skewer"
+}

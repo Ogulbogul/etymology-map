@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "koolsla",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "combining \"kool\" (cabbage) and \"sla\" (salad)",
+      "meaning": "cabbage salad",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "coleslaw",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted through Dutch settlers in colonial America",
+      "meaning": "a salad of shredded raw cabbage",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a salad made of finely shredded raw cabbage, typically with a dressing"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kranion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the skull, from kara (head)",
+      "meaning": "the skull",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cranium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted into Latin anatomical vocabulary",
+      "meaning": "the skull",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cranium",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English medical word for the skull",
+      "meaning": "the bony structure of the head",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the bony structure of the head enclosing the brain"
+}

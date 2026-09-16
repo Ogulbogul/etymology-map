@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "autographos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally self-written",
+      "meaning": "written with one's own hand",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "autograph",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the word for a person's own signature or handwriting",
+      "meaning": "a person's own signature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person's own signature, especially of a famous person"
+}

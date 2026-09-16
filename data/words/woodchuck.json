@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "otchek",
+      "lang": "Cree (Algonquian)",
+      "era": "pre-1600s",
+      "note": "the name for the burrowing rodent, reshaped by folk etymology into \"woodchuck\"",
+      "meaning": "a burrowing rodent",
+      "lat": 53.0,
+      "lon": -106.0
+    },
+    {
+      "word": "woodchuck",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted and reshaped by English colonists in North America",
+      "meaning": "a burrowing rodent, also called a groundhog",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a burrowing rodent native to North America, also known as a groundhog"
+}

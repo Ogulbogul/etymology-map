@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cafeteria",
+      "lang": "Mexican Spanish",
+      "era": "1800s",
+      "note": "literally a coffee shop, from cafe (coffee)",
+      "meaning": "a coffee shop",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "cafeteria",
+      "lang": "English",
+      "era": "1890s",
+      "note": "adopted in American English for a self-service dining hall",
+      "meaning": "a self-service dining establishment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a self-service restaurant, especially in a school, workplace, or institution"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "reddere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give back, from re- (back) and dare (to give)",
+      "meaning": "to give back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rendre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for giving back or producing something",
+      "meaning": "to give back, to produce",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "render",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for giving, producing, or representing something",
+      "meaning": "to give, produce, or represent something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to provide or produce something, or to represent it in a particular form"
+}

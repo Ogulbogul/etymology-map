@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rectus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "right, straight, combined with angulus (angle)",
+      "meaning": "right, straight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rectangle",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the geometric word for a four-sided shape with right angles",
+      "meaning": "a four-sided shape with four right angles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a geometric shape with four sides and four right angles"
+}

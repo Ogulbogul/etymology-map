@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dingu",
+      "lang": "Dharug",
+      "era": "1700s",
+      "note": "the name for Australia's wild dog",
+      "meaning": "a wild dog",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "dingo",
+      "lang": "English",
+      "era": "1789",
+      "note": "adopted directly by British settlers describing the native wild dog",
+      "meaning": "the wild dog of Australia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wild dog native to Australia"
+}

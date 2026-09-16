@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "facere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make, to do",
+      "meaning": "to make, to do",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "faisable",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "capable of being done, from faire (to make, from facere)",
+      "meaning": "capable of being done",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "feasible",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something capable of being done or accomplished",
+      "meaning": "capable of being done or accomplished",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "capable of being done or accomplished successfully"
+}

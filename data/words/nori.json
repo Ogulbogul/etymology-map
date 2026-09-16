@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nori",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "dried edible seaweed, used to wrap sushi",
+      "meaning": "dried edible seaweed",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "nori",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as sushi and Japanese cuisine spread internationally",
+      "meaning": "dried edible seaweed used in Japanese cooking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dried, pressed edible seaweed used to wrap sushi and in other Japanese dishes"
+}

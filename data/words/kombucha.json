@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kombucha",
+      "lang": "Japanese",
+      "era": "1900s",
+      "note": "possibly from a mistranslation, though used in Japanese for the fermented tea drink",
+      "meaning": "a fermented tea drink",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kombucha",
+      "lang": "English",
+      "era": "1944",
+      "note": "adopted directly for the fizzy, fermented tea beverage",
+      "meaning": "a fizzy, fermented tea beverage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fizzy, fermented tea beverage made using a culture of bacteria and yeast"
+}

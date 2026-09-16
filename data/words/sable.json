@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sobol",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "the name for the dark-furred marten of Siberia",
+      "meaning": "the sable animal",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "sable",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "adopted through the fur trade for the animal and its dark pelt",
+      "meaning": "the sable's dark fur",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sable",
+      "lang": "English",
+      "era": "medieval",
+      "note": "adopted directly from French, later used for the color black",
+      "meaning": "a dark fur; the color black",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, dark-furred mammal, or the color black, especially in heraldry"
+}

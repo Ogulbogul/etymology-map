@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mahimahi",
+      "lang": "Hawaiian",
+      "era": "ancient",
+      "note": "literally \"very strong\", describing the fish's fighting strength when caught",
+      "meaning": "very strong",
+      "lat": 21.31,
+      "lon": -157.86
+    },
+    {
+      "word": "mahimahi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted for the fish to distinguish it from the marine mammal dolphin",
+      "meaning": "a colorful tropical game fish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a colorful tropical fish, also called dorado or dolphinfish"
+}

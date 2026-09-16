@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "babushka",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "literally little grandmother, also the headscarf grandmothers typically wore",
+      "meaning": "grandmother, or a headscarf",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "babushka",
+      "lang": "English",
+      "era": "1930s",
+      "note": "settled as the word for the triangular headscarf",
+      "meaning": "a triangular headscarf tied under the chin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a triangular headscarf tied under the chin, or an old Russian woman"
+}

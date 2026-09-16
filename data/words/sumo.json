@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sumo",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "a form of full-contact wrestling with roots in ancient Shinto ritual",
+      "meaning": "traditional Japanese wrestling",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "sumo",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as the sport became known internationally",
+      "meaning": "traditional Japanese wrestling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese form of wrestling between two large competitors"
+}

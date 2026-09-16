@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "submittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send under, to yield, from sub- (under) and mittere (to send)",
+      "meaning": "to send under, to yield",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "submit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for yielding to authority, or presenting something for consideration",
+      "meaning": "to yield to authority, or present something for consideration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to accept the authority of another, or to present something for consideration"
+}

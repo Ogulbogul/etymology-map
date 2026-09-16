@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pot-au-feu",
+      "lang": "French",
+      "era": "1800s",
+      "note": "literally \"pot on the fire\", a French beef and vegetable stew",
+      "meaning": "a beef and vegetable stew",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pho",
+      "lang": "Vietnamese",
+      "era": "1900s",
+      "note": "adapted during French colonial rule into a beef noodle soup",
+      "meaning": "a beef noodle soup",
+      "lat": 21.03,
+      "lon": 105.85
+    },
+    {
+      "word": "pho",
+      "lang": "English",
+      "era": "1900s-2000s",
+      "note": "adopted as Vietnamese cuisine spread internationally",
+      "meaning": "a Vietnamese noodle soup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Vietnamese soup of broth, rice noodles, herbs, and meat"
+}

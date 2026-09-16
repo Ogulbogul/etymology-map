@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lotto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "meaning \"a lot\" or \"portion\", of Germanic origin",
+      "meaning": "a lot, share",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "lotto",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted directly from Italian for the number-matching game",
+      "meaning": "a game of chance with numbered cards",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a game of chance in which players match randomly drawn numbers"
+}

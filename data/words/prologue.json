@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prologos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally words before, from pro- (before) and logos (speech)",
+      "meaning": "an introductory speech",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "prologue",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an introductory section of a literary work",
+      "meaning": "an introductory section preceding a literary work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short introductory section preceding the main part of a literary work"
+}

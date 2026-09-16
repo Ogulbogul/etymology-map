@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hedone",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "pleasure, delight",
+      "meaning": "pleasure",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hedonism",
+      "lang": "English",
+      "era": "1856",
+      "note": "coined for the philosophical belief that pleasure is the highest good",
+      "meaning": "the pursuit of pleasure as the highest good",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the pursuit of pleasure and self-indulgence as life's primary goal"
+}

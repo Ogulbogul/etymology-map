@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "torquere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to twist",
+      "meaning": "to twist",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tormentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an instrument of torture, a twisting engine of war, from torquere",
+      "meaning": "an instrument of torture",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "torment",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for severe physical or mental suffering",
+      "meaning": "severe physical or mental suffering",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "torment",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for severe physical or mental suffering",
+      "meaning": "severe physical or mental suffering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "severe physical or mental suffering, or to cause such suffering"
+}

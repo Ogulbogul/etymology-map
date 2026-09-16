@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capitulum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a little head, a diminutive of caput (head), describing a book's small division",
+      "meaning": "a little head, a small division",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chapitre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a division of a written work",
+      "meaning": "a division of a book",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chapter",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a main division of a book",
+      "meaning": "a main division of a written work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a main division of a book, or a local branch of an organization"
+}

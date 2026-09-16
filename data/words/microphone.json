@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mikros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "small, combined with phone (sound) for amplifying small sounds",
+      "meaning": "small",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "microphone",
+      "lang": "English",
+      "era": "1870s",
+      "note": "coined by scientists developing devices to amplify faint sounds",
+      "meaning": "a device that converts sound into an electrical signal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device that converts sound waves into an electrical signal"
+}

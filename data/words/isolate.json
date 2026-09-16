@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "insula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an island",
+      "meaning": "an island",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "isola",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for an island",
+      "meaning": "an island",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "isolate",
+      "lang": "English",
+      "era": "1750s",
+      "note": "coined from the Italian word for island for the act of setting something apart alone",
+      "meaning": "to set something apart from others, alone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to set someone or something apart from others, alone or separate"
+}

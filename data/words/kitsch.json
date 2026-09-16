@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kitschen",
+      "lang": "German",
+      "era": "1800s",
+      "note": "possibly meaning \"to smear\" or \"to sketch quickly\"",
+      "meaning": "to smear, sketch cheaply",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    {
+      "word": "Kitsch",
+      "lang": "German",
+      "era": "1800s",
+      "note": "applied to cheap, sentimental, mass-produced art",
+      "meaning": "cheap, sentimental art",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    {
+      "word": "kitsch",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly from German",
+      "meaning": "art or objects considered tacky or overly sentimental",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "art, objects, or design considered tacky, garish, or overly sentimental"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "transcribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write across, to copy, from trans- (across) and scribere (to write)",
+      "meaning": "to write across, to copy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "transcribe",
+      "lang": "English",
+      "era": "1590s",
+      "note": "settled as the English word for writing down speech or copying text",
+      "meaning": "to write down speech, or to copy text from one form to another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to put spoken words or one form of text into written or another form"
+}

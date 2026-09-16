@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "apparere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to appear, to come into sight, from ad- (to) and parere (to appear)",
+      "meaning": "to appear, to come into sight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "apparent",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something clearly visible or evident",
+      "meaning": "clearly visible or understood, evident",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clearly visible or understood, though possibly not actually true"
+}

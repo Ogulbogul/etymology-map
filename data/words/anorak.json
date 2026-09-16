@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anoraq",
+      "lang": "Greenlandic Inuit",
+      "era": "ancient",
+      "note": "a hooded, weatherproof outer garment",
+      "meaning": "a hooded outer garment",
+      "lat": 64.18,
+      "lon": -51.72
+    },
+    {
+      "word": "anorak",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted by Arctic explorers for the hooded jacket",
+      "meaning": "a hooded, waterproof jacket",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hooded, waterproof jacket designed for cold or wet weather"
+}

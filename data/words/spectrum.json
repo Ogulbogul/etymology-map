@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spectrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an appearance, an image, from specere (to look at)",
+      "meaning": "an appearance, an image",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "spectrum",
+      "lang": "English",
+      "era": "1610s",
+      "note": "adopted by physicist Isaac Newton for the band of colors produced by refracted light",
+      "meaning": "a band of colors produced by refracted light",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a band of colors formed when light is refracted, or a broad range of related qualities"
+}

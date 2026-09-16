@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "drit",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "excrement, filth",
+      "meaning": "excrement, filth",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "dirt",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened from filth specifically to loose soil or any unclean matter",
+      "meaning": "loose soil, or any unclean matter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "loose soil or earth, or any substance that makes something unclean"
+}

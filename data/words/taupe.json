@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "talpa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a mole, the burrowing animal whose fur gave its name to a grey-brown color",
+      "meaning": "a mole",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "taupe",
+      "lang": "French",
+      "era": "1800s",
+      "note": "carried into French for the color of mole fur",
+      "meaning": "a grey-brown color, the color of mole fur",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "taupe",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the muted grey-brown color",
+      "meaning": "a grey-brown color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a brownish-grey color"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rogguthr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "shaggy, tufted, describing rough, uneven fur or cloth",
+      "meaning": "shaggy, tufted",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "ragged",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for torn, worn, or uneven material",
+      "meaning": "torn or worn, having a rough, uneven edge",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "torn or worn out, or having a rough, irregular edge"
+}

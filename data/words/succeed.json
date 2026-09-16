@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "succedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to go or come after, from sub- (under, after) and cedere (to go)",
+      "meaning": "to come after",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "succeed",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for achieving a goal, or coming after another in sequence",
+      "meaning": "to achieve a desired goal, or to follow after another",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to achieve a desired result, or to take over a role after another person"
+}

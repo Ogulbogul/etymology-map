@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "proficere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make forward progress, from pro- (forward) and facere (to make)",
+      "meaning": "to make progress",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "proficient",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for being competent and skilled at something",
+      "meaning": "competent and skilled at something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "competent and skilled in doing or using something"
+}

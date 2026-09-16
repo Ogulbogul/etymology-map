@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "soema",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to befit, to be fitting or suitable",
+      "meaning": "to be fitting, suitable",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "seem",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for appearing to be a certain way",
+      "meaning": "to give the impression of being something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give the impression of being a certain way"
+}

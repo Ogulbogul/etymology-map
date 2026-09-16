@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "omnis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "all, combined with vorare (to devour)",
+      "meaning": "all",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "omnivore",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by biologists for an animal that eats both plants and meat",
+      "meaning": "an animal that eats both plants and meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an animal that eats both plant and animal matter"
+}

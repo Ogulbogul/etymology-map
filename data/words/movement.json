@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "movere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to move, to set in motion",
+      "meaning": "to move, to set in motion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "movoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the act of moving",
+      "meaning": "the act of moving",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "movement",
+      "lang": "English",
+      "era": "1300s",
+      "note": "formed with the French suffix -ment for the act or process of moving",
+      "meaning": "the act or process of moving, or an organized group effort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act or process of moving, or an organized effort to achieve a goal"
+}

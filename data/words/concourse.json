@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "concurrere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to run together, from com- (together) and currere (to run)",
+      "meaning": "to run together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concursus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a running together, a gathering, from concurrere",
+      "meaning": "a running together, a gathering",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concourse",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a large open area where crowds gather",
+      "meaning": "a large open area where crowds gather, or a crowd itself",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large open area for crowds to gather, especially in a station or terminal"
+}

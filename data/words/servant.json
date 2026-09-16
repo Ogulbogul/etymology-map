@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "servire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to serve, to be a slave",
+      "meaning": "to serve",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "servant",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for one who serves another",
+      "meaning": "one who serves another",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "servant",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a person employed to perform duties for another",
+      "meaning": "a person employed to perform household or personal duties",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person employed to perform domestic or personal duties for another"
+}

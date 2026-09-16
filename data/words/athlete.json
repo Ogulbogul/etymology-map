@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "athlon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a prize or contest, the root behind one who competes for one",
+      "meaning": "a prize, a contest",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "athlete",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a person skilled in physical sport",
+      "meaning": "a person trained or skilled in physical sport",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person proficient in physical exercise, sports, or games requiring strength or stamina"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "arma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "weapons, arms",
+      "meaning": "weapons, arms",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "armatura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "equipment, protective covering, from arma",
+      "meaning": "equipment, protective covering",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "armeure",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for protective covering worn in battle",
+      "meaning": "protective covering worn in battle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "armor",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for protective covering worn in battle",
+      "meaning": "protective covering worn to prevent injury in battle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "protective covering worn or fitted to prevent injury, especially in combat"
+}

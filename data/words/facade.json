@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "facciata",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "from \"faccia\" (face), referring to a building's front",
+      "meaning": "the face of a building",
+      "lat": 43.77,
+      "lon": 11.25
+    },
+    {
+      "word": "façade",
+      "lang": "French",
+      "era": "1600s",
+      "note": "adopted for the front face of a building",
+      "meaning": "the front of a building",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "facade",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from French",
+      "meaning": "the front of a building, or a deceptive outward appearance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the front of a building, or a deceptive outward appearance"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "law, right, combined with prudentia (knowledge, foresight)",
+      "meaning": "law, right",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "iuris prudentia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "knowledge of the law, from ius (law) and prudentia (knowledge)",
+      "meaning": "knowledge of the law",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "jurisprudence",
+      "lang": "English",
+      "era": "1620s",
+      "note": "settled as the English word for the theory and philosophy of law",
+      "meaning": "the theory and philosophy of law",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the theoretical study of law and the principles behind legal systems"
+}

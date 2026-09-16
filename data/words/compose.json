@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "com ponere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to put together, from com- (together) and ponere (to place)",
+      "meaning": "to put together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "composer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for arranging parts into a whole",
+      "meaning": "to arrange parts into a whole",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "compose",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for creating something by putting parts together",
+      "meaning": "to create something by putting parts together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to create a piece of music or writing, or to make up the parts of something"
+}

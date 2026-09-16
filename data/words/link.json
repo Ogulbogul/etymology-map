@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hlenkr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a ring or loop of a chain",
+      "meaning": "a chain ring",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "link",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a connecting ring or bond",
+      "meaning": "a connecting ring, or a bond between things",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a connection between two things, or a single ring of a chain"
+}

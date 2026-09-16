@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow, combined with pro- (forward)",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prosequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow forward, to chase, from pro- and sequi",
+      "meaning": "to follow forward, to chase",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "porsuite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the act of chasing something",
+      "meaning": "the act of chasing something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pursuit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the act of chasing or seeking something",
+      "meaning": "the act of chasing or seeking something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the act of chasing or seeking something, or an activity one engages in"
+}

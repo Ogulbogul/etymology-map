@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "satis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "enough, combined with facere (to make, to do)",
+      "meaning": "enough",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "satisfacere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make enough, to fulfill, from satis and facere",
+      "meaning": "to make enough, to fulfill",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "satisfaction",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the feeling of pleasure from having one's needs met",
+      "meaning": "the feeling of pleasure from having one's needs or wishes met",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the feeling of pleasure or contentment from having one's needs or wishes fulfilled"
+}

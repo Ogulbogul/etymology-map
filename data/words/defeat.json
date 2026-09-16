@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "disfacere",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "to undo, to destroy, from dis- (apart) and facere (to make)",
+      "meaning": "to undo, to destroy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desfait",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for an undoing, especially of an army in battle",
+      "meaning": "an undoing, a rout",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "defeat",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for overcoming an opponent in a contest",
+      "meaning": "to overcome an opponent in a contest or battle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to overcome or beat someone in a battle, contest, or conflict"
+}

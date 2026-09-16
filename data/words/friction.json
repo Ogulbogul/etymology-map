@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "frictio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a rubbing, from fricare (to rub)",
+      "meaning": "a rubbing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "friction",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the physics word for resistance between surfaces in contact",
+      "meaning": "resistance between surfaces in contact",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the resistance one surface encounters when moving over another"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "permittere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to send through, to allow, from per- (through) and mittere (to send)",
+      "meaning": "to send through, to allow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "permit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for allowing something to happen",
+      "meaning": "to allow something to happen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to allow something to happen, or an official document granting permission"
+}

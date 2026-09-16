@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "helix",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "spiral, combined with pteron (wing) for a spiral-winged aircraft",
+      "meaning": "spiral",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "helicoptere",
+      "lang": "French",
+      "era": "1860s",
+      "note": "coined by French inventor Gustave de Ponton d'Amecourt for his spiral-wing design",
+      "meaning": "a spiral-wing flying machine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "helicopter",
+      "lang": "English",
+      "era": "1900s",
+      "note": "settled as the word for the rotor-driven aircraft",
+      "meaning": "a rotor-driven aircraft",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an aircraft lifted and propelled by horizontal rotors"
+}

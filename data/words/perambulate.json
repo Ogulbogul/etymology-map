@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ambulare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to walk, combined with per- (through)",
+      "meaning": "to walk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perambulare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to walk through or over, from per- and ambulare",
+      "meaning": "to walk through or over",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perambulate",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for walking through or around a place",
+      "meaning": "to walk through or around a place, especially for leisure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to walk through or around a place, especially in a leisurely way"
+}

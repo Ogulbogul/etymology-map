@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Sparte",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the ancient Greek city-state famed for its austere military discipline",
+      "meaning": "the city of Sparta",
+      "lat": 37.08,
+      "lon": 22.42
+    },
+    {
+      "word": "spartan",
+      "lang": "English",
+      "era": "1600s",
+      "note": "broadened from the city's name to describe any austere, disciplined simplicity",
+      "meaning": "showing austerity, simplicity, or self-discipline",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "marked by austerity, simplicity, or self-discipline"
+}

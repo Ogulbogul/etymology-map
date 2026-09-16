@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "juxta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "next to, beside, combined with ponere (to place)",
+      "meaning": "next to, beside",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "juxtaposer",
+      "lang": "French",
+      "era": "1600s",
+      "note": "formed from juxta (beside) and poser (to place) for putting things side by side",
+      "meaning": "to put things side by side",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "juxtapose",
+      "lang": "English",
+      "era": "1850s",
+      "note": "adopted from French for placing things close together for contrast",
+      "meaning": "to place things close together for contrast or comparison",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to place two things side by side for comparison or contrast"
+}

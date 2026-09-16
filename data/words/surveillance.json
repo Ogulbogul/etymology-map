@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "surveiller",
+      "lang": "French",
+      "era": "1700s",
+      "note": "to watch over, from sur (over) and veiller (to watch)",
+      "meaning": "to watch over",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "surveillance",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the word for close observation, especially of a suspected person",
+      "meaning": "close observation of a person or place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "close observation of a person, group, or place, especially by authorities"
+}

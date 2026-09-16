@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "syntaxis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "an arrangement together, from syn- (together) and tassein (to arrange)",
+      "meaning": "an arrangement together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "syntax",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for the arrangement of words in a sentence",
+      "meaning": "the arrangement of words to form sentences",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the arrangement of words and phrases to form well-structured sentences"
+}

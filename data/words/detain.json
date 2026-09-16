@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "detinere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to hold back, to withhold, from de- (away) and tenere (to hold)",
+      "meaning": "to hold back, to withhold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "detain",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for keeping someone from proceeding, or holding them in custody",
+      "meaning": "to keep someone from proceeding, or to hold them in custody",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep someone from proceeding, or to officially hold them in custody"
+}

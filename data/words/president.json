@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "prae sedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sit before, from prae- (before) and sedere (to sit)",
+      "meaning": "to sit before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "praesidens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one who presides, present participle of praesidere",
+      "meaning": "one who presides",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "president",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the head of an organization or state",
+      "meaning": "the head of an organization or state",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the elected head of a republic, or the leader of an organization"
+}

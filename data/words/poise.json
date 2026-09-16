@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pensare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to weigh, to consider carefully",
+      "meaning": "to weigh, to consider",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poiser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for weighing or balancing something",
+      "meaning": "to weigh, to balance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "poise",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for graceful, balanced composure",
+      "meaning": "graceful and balanced composure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "graceful, composed balance, especially in bearing or manner"
+}

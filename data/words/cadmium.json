@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kadmeia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a zinc ore mineral, named for the mythical founder of Thebes, Cadmus",
+      "meaning": "a zinc-bearing mineral",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cadmium",
+      "lang": "English",
+      "era": "1817",
+      "note": "coined by its discoverer for the metal found alongside zinc ore",
+      "meaning": "a soft, bluish-white metallic element",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, bluish-white toxic metallic element used in batteries and pigments"
+}

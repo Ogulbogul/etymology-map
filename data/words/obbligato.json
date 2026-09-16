@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "obbligato",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally obligatory, an essential accompanying instrumental part",
+      "meaning": "obligatory, required",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obbligato",
+      "lang": "English",
+      "era": "1730s",
+      "note": "adopted directly for an essential instrumental accompaniment",
+      "meaning": "an essential accompanying instrumental part",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an essential instrumental part accompanying a melody, not to be omitted"
+}

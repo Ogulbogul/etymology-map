@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hairesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "originally simply a choice or a chosen course of action",
+      "meaning": "a choice, a chosen belief",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "heresie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "narrowed under church influence to mean forbidden belief",
+      "meaning": "a belief contrary to church doctrine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "heresy",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the word for belief contrary to accepted doctrine",
+      "meaning": "belief contrary to accepted doctrine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "belief or opinion contrary to orthodox religious or accepted doctrine"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "grav lax",
+      "lang": "Swedish",
+      "era": "medieval",
+      "note": "literally buried salmon, from an old method of curing fish by burying it in the ground",
+      "meaning": "buried salmon",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "gravlax",
+      "lang": "English",
+      "era": "1930s",
+      "note": "adopted directly for the cured salmon dish",
+      "meaning": "salmon cured with salt, sugar, and dill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Scandinavian dish of salmon cured with salt, sugar, and dill"
+}

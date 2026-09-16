@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bathir",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "the two together, referring to a pair as a whole",
+      "meaning": "the two together",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "both",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the standard English word referring to two things together",
+      "meaning": "referring to two things or people together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "referring to the two things or people mentioned, considered together"
+}

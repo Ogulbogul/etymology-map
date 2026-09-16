@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "meticulosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "fearful, timid, from metus (fear)",
+      "meaning": "fearful, timid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "meticulous",
+      "lang": "English",
+      "era": "1530s",
+      "note": "shifted from fearfulness to extreme, careful attention to detail",
+      "meaning": "showing great attention to detail",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing extreme, careful attention to detail"
+}

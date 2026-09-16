@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "jinrikisha",
+      "lang": "Japanese",
+      "era": "1869",
+      "note": "literally \"human-powered vehicle\" (jin \"person\" + riki \"power\" + sha \"vehicle\")",
+      "meaning": "a human-pulled cart",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "rickshaw",
+      "lang": "English",
+      "era": "1800s",
+      "note": "shortened and adapted from the Japanese term, spreading widely in South Asia",
+      "meaning": "a small, two-wheeled passenger cart",
+      "lat": 22.57,
+      "lon": 88.36
+    }
+  ],
+  "current_meaning": "a small, two- or three-wheeled vehicle for carrying passengers, pulled or pedaled by a driver"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wa",
+      "lang": "Japanese",
+      "era": "unknown",
+      "note": "Japanese, combined with gyu (cattle)",
+      "meaning": "Japanese",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "wagyu",
+      "lang": "Japanese",
+      "era": "unknown",
+      "note": "Japanese cattle, referring to breeds prized for heavily marbled meat",
+      "meaning": "Japanese cattle",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "wagyu",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly for the prized, heavily marbled beef",
+      "meaning": "a prized, heavily marbled Japanese beef",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a prized Japanese breed of cattle known for its heavily marbled, tender beef"
+}

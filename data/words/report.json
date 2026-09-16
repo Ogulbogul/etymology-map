@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "reportare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to carry back, from re- (back) and portare (to carry)",
+      "meaning": "to carry back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "report",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for giving a detailed account of something",
+      "meaning": "to give a detailed account of something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give a spoken or written account of something observed or investigated"
+}

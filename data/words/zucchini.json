@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "zucchino",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "a diminutive of zucca (pumpkin, gourd), a small summer squash",
+      "meaning": "a small squash",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "zucchini",
+      "lang": "English",
+      "era": "1920s",
+      "note": "adopted directly for the green summer squash",
+      "meaning": "a green summer squash",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a green summer squash, also called courgette"
+}

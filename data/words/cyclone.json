@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kyklon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "circling, moving in a circle, from kyklos (circle)",
+      "meaning": "circling, moving in a circle",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cyclone",
+      "lang": "English",
+      "era": "1848",
+      "note": "coined by a British meteorologist for a rotating tropical storm system",
+      "meaning": "a rotating storm system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large-scale rotating storm system, especially in the Indian Ocean region"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "triangulum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally three angles, from tri- (three) and angulus (angle)",
+      "meaning": "three angles",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "triangle",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the geometric word for a three-sided shape",
+      "meaning": "a three-sided geometric shape",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a geometric shape with three sides and three angles"
+}

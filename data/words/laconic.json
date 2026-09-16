@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Lakonikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to Laconia, the region around Sparta, whose people were famed for terse speech",
+      "meaning": "relating to Laconia, Sparta's region",
+      "lat": 37.08,
+      "lon": 22.42
+    },
+    {
+      "word": "laconic",
+      "lang": "English",
+      "era": "1580s",
+      "note": "settled as the English word for using very few words",
+      "meaning": "using very few words, terse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "using very few words, concise to the point of terseness"
+}

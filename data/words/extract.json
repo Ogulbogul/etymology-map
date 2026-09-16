@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "extrahere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw out, from ex- (out) and trahere (to draw)",
+      "meaning": "to draw out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "extract",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for removing something, especially with effort",
+      "meaning": "to remove or take out something, especially with effort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to remove or take out something, typically with effort or force"
+}

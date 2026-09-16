@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fides",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "faith, trust, giving rise to fidere (to trust), combined with dis- (not)",
+      "meaning": "faith, trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diffidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to distrust, to lack confidence, from dis- and fidere",
+      "meaning": "to distrust, to lack confidence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diffidens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "distrustful, lacking confidence, present participle of diffidere",
+      "meaning": "distrustful, lacking confidence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diffident",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for someone modest and lacking self-confidence",
+      "meaning": "modest and lacking self-confidence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "modest or shy due to a lack of self-confidence"
+}

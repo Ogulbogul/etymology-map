@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "do + jo",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "combining \"do\" (way) and \"jo\" (place), originally a Buddhist training hall",
+      "meaning": "a place of the way",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "dojo",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through the spread of Japanese martial arts",
+      "meaning": "a hall for practicing martial arts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hall or space used for practicing martial arts"
+}

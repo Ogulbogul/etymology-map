@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "metamorphosis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a transformation, from meta (change) and morphe (form)",
+      "meaning": "a change of form",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "metamorphosis",
+      "lang": "English",
+      "era": "1530s",
+      "note": "adopted directly for a dramatic transformation, especially in biology",
+      "meaning": "a dramatic transformation in form or structure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dramatic biological transformation, such as caterpillar to butterfly, or any striking change"
+}

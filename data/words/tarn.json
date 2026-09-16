@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tjörn",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a small mountain lake or pool",
+      "meaning": "a small mountain lake",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "tarn",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a small mountain lake, especially in northern England",
+      "meaning": "a small mountain lake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small mountain lake, especially one formed by a glacier"
+}

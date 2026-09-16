@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "scribere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to write, with irregular past participle scriptus",
+      "meaning": "to write",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scriptum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "something written, from scribere",
+      "meaning": "something written",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "escript",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a written document",
+      "meaning": "a written document",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "script",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a piece of writing, especially for a play or film",
+      "meaning": "a piece of writing, especially the text of a play or film",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the written text of a play, film, or broadcast, or a style of handwriting"
+}

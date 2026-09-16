@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pimikan",
+      "lang": "Cree",
+      "era": "pre-1700s",
+      "note": "from \"pimii\" (fat, grease), a concentrated mix of dried meat and fat",
+      "meaning": "a preserved meat and fat mixture",
+      "lat": 53.0,
+      "lon": -106.0
+    },
+    {
+      "word": "pemmican",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adopted through the fur trade in North America",
+      "meaning": "a concentrated food of dried meat, fat, and berries",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a concentrated mixture of dried meat, fat, and sometimes berries, used as a durable food"
+}

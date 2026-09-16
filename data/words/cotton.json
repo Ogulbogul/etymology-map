@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "qutn",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for the fiber plant",
+      "meaning": "cotton",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "coton",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spread through Mediterranean textile trade",
+      "meaning": "cotton",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cotton",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English name for the fiber",
+      "meaning": "the soft fiber used in textiles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, fluffy fiber grown around the seeds of the cotton plant, used to make textiles"
+}

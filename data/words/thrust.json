@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "thrysta",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to press, to force violently",
+      "meaning": "to press forcefully",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "thrust",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for pushing forcefully",
+      "meaning": "to push something forcefully",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to push something forcefully, or the force propelling something forward"
+}

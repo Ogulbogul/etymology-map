@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ambulare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to walk, to move about",
+      "meaning": "to walk, to move about",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hopital ambulant",
+      "lang": "French",
+      "era": "1700s",
+      "note": "walking hospital, a mobile field hospital that followed troops, from ambulant (walking, from ambulare)",
+      "meaning": "a mobile field hospital",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ambulance",
+      "lang": "English",
+      "era": "1800s",
+      "note": "shortened and settled as the English word for a vehicle that transports the sick or injured",
+      "meaning": "a vehicle that transports the sick or injured",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vehicle equipped to transport sick or injured people to a hospital"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ekkentros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally out of center, from ek (out of) and kentron (center)",
+      "meaning": "away from the center",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "eccentric",
+      "lang": "English",
+      "era": "1500s",
+      "note": "broadened from geometry to describe unconventional people",
+      "meaning": "unconventional or odd in behavior",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unconventional or slightly odd in behavior or appearance"
+}

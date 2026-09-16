@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oratorio",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "named for the prayer hall where the musical form of sung religious narrative began",
+      "meaning": "a place of prayer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oratorio",
+      "lang": "English",
+      "era": "1650s",
+      "note": "adopted directly for the large-scale sung religious narrative",
+      "meaning": "a large-scale musical work on a religious theme",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large-scale musical composition for voices and orchestra, usually on a religious theme"
+}

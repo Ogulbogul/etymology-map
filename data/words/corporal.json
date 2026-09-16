@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "corpus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "body",
+      "meaning": "body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corporalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the body, from corpus",
+      "meaning": "of the body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corporal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something relating to the physical body, and separately a military rank",
+      "meaning": "relating to the physical body, or a military rank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the physical body, or a military rank above private"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "genggang",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "meaning \"separate\" or \"striped\", describing the woven pattern",
+      "meaning": "striped, separate",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "guingan",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "adopted through Dutch trade in Southeast Asian textiles",
+      "meaning": "a striped or checked cotton cloth",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "gingham",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adapted from the Dutch trade term",
+      "meaning": "a checked or striped cotton fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a light cotton fabric woven with a checked or striped pattern"
+}

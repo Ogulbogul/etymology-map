@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ethos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "character, custom, the moral character of a person or community",
+      "meaning": "character, custom",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ethos",
+      "lang": "English",
+      "era": "1851",
+      "note": "adopted directly for the characteristic spirit or values of a group",
+      "meaning": "the characteristic spirit or values of a group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the characteristic spirit, values, or beliefs of a person, group, or culture"
+}

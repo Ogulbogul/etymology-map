@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bene",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "well, good, combined with factor (a doer, from facere, to do)",
+      "meaning": "well, good",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "benefactor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one who does good, a doer of good deeds, from bene and facere",
+      "meaning": "one who does good",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "benefactor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "adopted directly for a person who gives money or help to a cause",
+      "meaning": "a person who gives money or help to a cause or person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who gives financial or other help to a person or cause"
+}

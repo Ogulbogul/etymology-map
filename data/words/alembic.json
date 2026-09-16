@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-anbiq",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a distilling apparatus used by Arab alchemists, from Greek ambix (cup)",
+      "meaning": "a distilling vessel",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "alambic",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French alchemical vocabulary",
+      "meaning": "a distilling apparatus",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "alembic",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the distilling apparatus",
+      "meaning": "an apparatus used for distillation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an apparatus used for distillation, or something that purifies or transforms"
+}

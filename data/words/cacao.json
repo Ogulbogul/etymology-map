@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cacahuatl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "the name for the beans used to make a bitter drink",
+      "meaning": "cacao bean",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "cacao",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "adopted from Nahuatl following the conquest of Mexico",
+      "meaning": "cacao bean",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "cacao",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly from Spanish",
+      "meaning": "the bean used to make chocolate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the dried, fermented seed of the cacao tree, used to make chocolate"
+}

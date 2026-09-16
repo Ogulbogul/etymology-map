@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "stare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand",
+      "meaning": "to stand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "status",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a standing, a condition, from stare",
+      "meaning": "a standing, a condition",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estat",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a condition of being, or a political territory",
+      "meaning": "a condition of being, or a political territory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "state",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a condition of something, or a governed territory",
+      "meaning": "a condition of something, or a politically organized territory",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a condition or way something exists, or a politically organized territory or nation"
+}

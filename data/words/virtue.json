@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "virtus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "manliness, valor, moral excellence, from vir (a man)",
+      "meaning": "manliness, moral excellence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vertu",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for moral goodness and excellence",
+      "meaning": "moral goodness, excellence",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "virtue",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for high moral standards",
+      "meaning": "behavior showing high moral standards",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "behavior showing high moral standards, or a good and admirable quality"
+}

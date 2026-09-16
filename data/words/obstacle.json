@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "obstaculum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "something that stands in the way, from ob- (against) and stare (to stand)",
+      "meaning": "something that stands in the way",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "obstacle",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a blocking object",
+      "meaning": "a blocking object",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "obstacle",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for something blocking progress",
+      "meaning": "something that blocks progress",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something that blocks progress or makes it difficult"
+}

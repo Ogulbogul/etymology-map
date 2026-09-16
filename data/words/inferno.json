@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "infernus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meaning \"of the lower regions\", the underworld",
+      "meaning": "the underworld",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inferno",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named in Dante's poem describing the depths of Hell",
+      "meaning": "hell",
+      "lat": 43.77,
+      "lon": 11.25
+    },
+    {
+      "word": "inferno",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly from Italian for a raging fire",
+      "meaning": "a large, raging fire",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, uncontrollable fire, or a place resembling hell"
+}

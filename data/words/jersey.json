@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Jersey",
+      "lang": "English",
+      "era": "1800s",
+      "note": "the Channel Island famous for its knitted woolen garments",
+      "meaning": "the island of Jersey",
+      "lat": 49.21,
+      "lon": -2.13
+    },
+    {
+      "word": "jersey",
+      "lang": "English",
+      "era": "1850s",
+      "note": "settled as the word for the close-fitting knitted garment",
+      "meaning": "a knitted garment, or its fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft knitted fabric, or a garment made from it, especially a sports shirt"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ki-ngombo",
+      "lang": "Bantu (Umbundu)",
+      "era": "medieval",
+      "note": "the word for okra, the vegetable central to the dish",
+      "meaning": "okra",
+      "lat": -12.58,
+      "lon": 13.41
+    },
+    {
+      "word": "gombo",
+      "lang": "Louisiana French/Creole",
+      "era": "1700s-1800s",
+      "note": "carried by enslaved Africans to Louisiana and adapted into a stew",
+      "meaning": "an okra-based stew",
+      "lat": 29.95,
+      "lon": -90.07
+    },
+    {
+      "word": "gumbo",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English name for the Louisiana Creole dish",
+      "meaning": "a thick stew of the American South",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a thick stew from Louisiana, typically made with okra, meat, or seafood"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "neos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally new, describing the newly discovered gaseous element",
+      "meaning": "new",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "neon",
+      "lang": "English",
+      "era": "1898",
+      "note": "coined by its discoverers for the newly isolated inert gas",
+      "meaning": "an inert gaseous element used in glowing signs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a colorless, inert gaseous element used in illuminated signs"
+}

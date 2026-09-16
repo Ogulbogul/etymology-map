@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phylon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a tribe, a race, a class of things sharing common descent",
+      "meaning": "a tribe, a race",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phylum",
+      "lang": "English",
+      "era": "1870",
+      "note": "adopted by biologists as a major taxonomic classification",
+      "meaning": "a major taxonomic classification of organisms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a major taxonomic rank of biological classification, below kingdom"
+}

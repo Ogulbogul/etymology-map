@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kawayushi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "originally meant pitiable or embarrassing, later shifting to mean endearing and lovable",
+      "meaning": "pitiable, later endearing",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kawaii",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted directly as Japanese pop culture spread internationally",
+      "meaning": "cute, endearing, especially in Japanese style",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cute or endearing, especially in the Japanese aesthetic sense"
+}

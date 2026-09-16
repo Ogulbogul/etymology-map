@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bambu",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "the name for the fast-growing woody grass",
+      "meaning": "bamboo",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "bambu",
+      "lang": "Portuguese/Dutch",
+      "era": "1500s-1600s",
+      "note": "adopted through European colonial trade in Southeast Asia",
+      "meaning": "bamboo",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "bamboo",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through Portuguese and Dutch trade contact",
+      "meaning": "a fast-growing, woody tropical grass",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fast-growing, woody tropical grass with hollow stems"
+}

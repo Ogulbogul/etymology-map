@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tragoidia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally \"goat song\", possibly linked to prizes or sacrifices of goats",
+      "meaning": "goat song",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tragoedia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted for serious dramatic works with unhappy endings",
+      "meaning": "a serious drama",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tragedie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried the dramatic genre into French",
+      "meaning": "a serious drama",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tragedy",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English word for the dramatic genre",
+      "meaning": "a serious drama with an unhappy ending",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a serious drama with an unhappy ending, or a disastrous event"
+}

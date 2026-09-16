@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stretch",
+      "meaning": "to stretch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tensio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "formed as a noun for the state of being stretched",
+      "meaning": "the state of being stretched",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tension",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a state of being stretched tight, or mental strain",
+      "meaning": "a state of being stretched tight, or mental or social strain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of mental or physical strain, or the state of being stretched tight"
+}

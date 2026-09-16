@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "populus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the people",
+      "meaning": "the people",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "populaccio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "the common people as a mass, from popolo (people, from populus)",
+      "meaning": "the common people as a mass",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "populace",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French for the general body of ordinary people",
+      "meaning": "the general body of ordinary people",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "populace",
+      "lang": "English",
+      "era": "1570s",
+      "note": "settled as the English word for the general public of a place",
+      "meaning": "the general public or common people of a place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the general public or common people of a particular area"
+}

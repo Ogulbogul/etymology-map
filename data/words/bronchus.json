@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bronkhos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the windpipe, later narrowed to its branching tubes into the lungs",
+      "meaning": "the windpipe",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "bronchus",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the medical word for the branching airway into each lung",
+      "meaning": "one of the main branches of the windpipe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the two main branches of the windpipe leading to the lungs"
+}

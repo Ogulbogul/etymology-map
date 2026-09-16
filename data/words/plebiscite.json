@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "plebs",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the common people, combined with scitum (a decree)",
+      "meaning": "the common people",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plebiscite",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried into French political vocabulary for a direct vote of the people",
+      "meaning": "a direct vote of the common people",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "plebiscite",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the English word for a direct popular vote on an important issue",
+      "meaning": "a direct popular vote on an important political question",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a direct vote by the electorate on a specific political proposal"
+}

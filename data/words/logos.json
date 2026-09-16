@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "logos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "word, reason, an appeal to logic in rhetoric",
+      "meaning": "word, reason",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "logos",
+      "lang": "English",
+      "era": "1580s",
+      "note": "adopted directly by rhetoricians for persuasion through logical argument",
+      "meaning": "persuasion through logical argument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an appeal to logic and reason as a means of persuasion"
+}

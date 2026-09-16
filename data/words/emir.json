@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "amir",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally commander, a title for a Muslim ruler or military leader",
+      "meaning": "commander, prince",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "emir",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly as the title for a Muslim ruler",
+      "meaning": "a Muslim ruler or commander",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a title for a ruler or commander in some Muslim countries"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "dhyana",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meaning \"meditation\"",
+      "meaning": "meditation",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "chan",
+      "lang": "Chinese",
+      "era": "medieval",
+      "note": "adopted through the spread of Buddhism into China",
+      "meaning": "meditation, a school of Buddhism",
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    {
+      "word": "zen",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "adopted through the spread of Buddhism from China to Japan",
+      "meaning": "a school of Buddhist meditation",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "zen",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as Zen Buddhism became known in the West",
+      "meaning": "a state of calm attentiveness; a form of Buddhism",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a school of Buddhism emphasizing meditation, or a state of calm and focus"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "accordare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring into agreement, from ad- (to) and cor (heart)",
+      "meaning": "to bring into agreement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Akkord",
+      "lang": "German",
+      "era": "1700s",
+      "note": "borrowed from French accord for a musical chord",
+      "meaning": "a musical chord",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Akkordion",
+      "lang": "German",
+      "era": "1829",
+      "note": "coined by Cyrill Demian for the newly invented bellows instrument built around chords",
+      "meaning": "the bellows-driven chord instrument",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "accordion",
+      "lang": "English",
+      "era": "1830s",
+      "note": "adopted from German for the bellows-driven keyboard instrument",
+      "meaning": "a bellows-driven keyboard instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a portable musical instrument played by pressing keys or buttons while working a bellows"
+}

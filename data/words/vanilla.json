@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vaina",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "meaning \"sheath\" or \"pod\", from Latin vagina",
+      "meaning": "pod, sheath",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "vainilla",
+      "lang": "Spanish",
+      "era": "1500s-1600s",
+      "note": "a diminutive describing the slender seed pod",
+      "meaning": "little pod",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "vanilla",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted from Spanish accounts of Mexican vanilla cultivation",
+      "meaning": "the vanilla flavoring",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flavoring derived from the pods of a tropical orchid"
+}

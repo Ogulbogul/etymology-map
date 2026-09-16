@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "docere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to teach",
+      "meaning": "to teach",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "documentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a lesson, an example, proof, from docere",
+      "meaning": "a lesson, proof",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "document",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a piece of written evidence",
+      "meaning": "a piece of written evidence",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "document",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for an official written or printed record",
+      "meaning": "an official written or printed record",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official written, printed, or electronic record providing information or evidence"
+}

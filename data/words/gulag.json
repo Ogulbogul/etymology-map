@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "GULAG",
+      "lang": "Russian",
+      "era": "1930s",
+      "note": "an acronym for the Soviet agency administering forced labor camps",
+      "meaning": "the Soviet labor camp administration",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "gulag",
+      "lang": "English",
+      "era": "1970s",
+      "note": "popularized by Alexander Solzhenitsyn's writing, then used for any forced labor camp",
+      "meaning": "a forced labor camp system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a system of forced labor camps, or any oppressive institution"
+}

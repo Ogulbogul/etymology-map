@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "auspicium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally bird-watching, from avis (bird) and specere (to look), a Roman method of divination",
+      "meaning": "the practice of bird-watching for omens",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "auspicious",
+      "lang": "English",
+      "era": "1590s",
+      "note": "broadened from favorable omens read from birds to anything promising",
+      "meaning": "showing signs of future success",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "showing signs that future success is likely, favorable"
+}

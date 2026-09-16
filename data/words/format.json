@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "forma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shape, mold, appearance",
+      "meaning": "shape, mold, appearance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shaped, given a form, past participle of formare",
+      "meaning": "shaped, given a form",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "format",
+      "lang": "German",
+      "era": "1800s",
+      "note": "adopted for the size and shape of a printed book",
+      "meaning": "the size and shape of a printed book",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "format",
+      "lang": "English",
+      "era": "1840",
+      "note": "settled as the English word for the way something is arranged or presented",
+      "meaning": "the way something is arranged, organized, or presented",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the way in which something is arranged, organized, or presented"
+}

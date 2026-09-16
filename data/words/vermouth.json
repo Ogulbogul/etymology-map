@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Wermut",
+      "lang": "German",
+      "era": "medieval",
+      "note": "wormwood, the bitter herb historically used to flavor fortified wine",
+      "meaning": "wormwood",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "vermout",
+      "lang": "French",
+      "era": "1800s",
+      "note": "adapted into French for the aromatic fortified wine",
+      "meaning": "an aromatic fortified wine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vermouth",
+      "lang": "English",
+      "era": "1806",
+      "note": "adopted directly for the herb-flavored fortified wine",
+      "meaning": "an aromatic fortified wine flavored with herbs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fortified wine flavored with aromatic herbs and spices"
+}

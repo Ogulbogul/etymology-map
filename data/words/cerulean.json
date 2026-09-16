@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caeruleus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "sky-blue, dark blue, possibly related to caelum (sky)",
+      "meaning": "sky blue",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cerulean",
+      "lang": "English",
+      "era": "1660s",
+      "note": "settled as the English word for a deep sky-blue color",
+      "meaning": "a deep sky-blue color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep sky-blue color"
+}

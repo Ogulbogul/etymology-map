@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "typyoca",
+      "lang": "Tupi-Guarani",
+      "era": "pre-1500s",
+      "note": "referring to the starchy sediment squeezed from cassava root",
+      "meaning": "starch sediment from cassava",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "tapioca",
+      "lang": "Portuguese",
+      "era": "1600s",
+      "note": "adopted from Tupi via Portuguese colonial contact",
+      "meaning": "cassava starch",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "tapioca",
+      "lang": "English",
+      "era": "1700s",
+      "note": "borrowed directly from Portuguese",
+      "meaning": "a starch extracted from cassava root",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a starchy substance made from cassava root, used in puddings and drinks"
+}

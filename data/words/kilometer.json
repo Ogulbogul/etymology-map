@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "khilioi",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "thousand, combined with French metre for a thousand meters",
+      "meaning": "thousand",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "kilometre",
+      "lang": "French",
+      "era": "1790s",
+      "note": "coined during the French Revolution's new metric system",
+      "meaning": "a thousand meters",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "kilometer",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English spelling of the metric unit",
+      "meaning": "a unit of length equal to a thousand meters",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a metric unit of length equal to one thousand meters"
+}

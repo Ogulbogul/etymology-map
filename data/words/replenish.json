@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "replere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to fill again, from re- (again) and plere (to fill)",
+      "meaning": "to fill again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "replenir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for filling something up again completely",
+      "meaning": "to fill something up again completely",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "replenish",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for filling something up again",
+      "meaning": "to fill something up again",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fill something up again, restoring it to its former level"
+}

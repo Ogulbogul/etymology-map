@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "regredi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to step back, from re- (back) and gradi (to step)",
+      "meaning": "to step back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "regress",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for returning to an earlier, worse state",
+      "meaning": "to return to a previous, less developed state",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to return to a former or less developed state"
+}

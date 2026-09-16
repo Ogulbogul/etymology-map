@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "entheos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally possessed by a god, filled with divine inspiration, from en- (in) and theos (god)",
+      "meaning": "possessed by a god, divinely inspired",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "enthusiasm",
+      "lang": "English",
+      "era": "1600s",
+      "note": "broadened from religious ecstasy to any intense, eager interest",
+      "meaning": "intense and eager enjoyment or interest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "intense and eager enjoyment, interest, or approval"
+}

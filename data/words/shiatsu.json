@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shi + atsu",
+      "lang": "Japanese",
+      "era": "1900s",
+      "note": "combining \"shi\" (finger) and \"atsu\" (pressure)",
+      "meaning": "finger pressure",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shiatsu",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted as the therapeutic technique spread internationally",
+      "meaning": "a therapeutic technique using finger pressure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese therapeutic technique using finger pressure on the body"
+}

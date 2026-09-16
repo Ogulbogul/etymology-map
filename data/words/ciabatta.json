@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ciabatta",
+      "lang": "Italian",
+      "era": "1980s",
+      "note": "slipper, describing the bread's long, flat, slipper-like shape",
+      "meaning": "slipper",
+      "lat": 45.44,
+      "lon": 12.32
+    },
+    {
+      "word": "ciabatta",
+      "lang": "English",
+      "era": "1990s",
+      "note": "adopted directly for the flat, airy Italian bread",
+      "meaning": "a flat, airy Italian bread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat, airy Italian bread with a crisp crust, shaped like a slipper"
+}

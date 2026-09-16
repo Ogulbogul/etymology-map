@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "verus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "true, combined with facere (to make)",
+      "meaning": "true",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verificare",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "to make true, to confirm, from verus and facere",
+      "meaning": "to make true, to confirm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verifier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for confirming the truth of something",
+      "meaning": "to confirm the truth of something",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "verify",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for confirming that something is true or accurate",
+      "meaning": "to confirm that something is true or accurate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to confirm that something is true, accurate, or valid"
+}

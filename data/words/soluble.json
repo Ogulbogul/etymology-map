@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "solvere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to loosen, to dissolve",
+      "meaning": "to loosen, to dissolve",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solubilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "able to be dissolved, from solvere",
+      "meaning": "able to be dissolved",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "soluble",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something capable of being dissolved in liquid",
+      "meaning": "capable of being dissolved in liquid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "capable of being dissolved, especially in a liquid"
+}

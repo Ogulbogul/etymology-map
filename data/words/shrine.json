@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "scrinium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a case or chest for keeping documents or relics",
+      "meaning": "a case for keeping documents or relics",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "shrine",
+      "lang": "English",
+      "era": "1000s",
+      "note": "settled as the English word for a sacred place housing holy relics",
+      "meaning": "a sacred place housing holy relics or a memorial",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place regarded as holy, often housing sacred relics or serving as a memorial"
+}

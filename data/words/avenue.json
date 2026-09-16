@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "advenire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to come to, to arrive, from ad- (to) and venire (to come)",
+      "meaning": "to come to, to arrive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "avenue",
+      "lang": "French",
+      "era": "1600s",
+      "note": "settled in French for a tree-lined approach to a building",
+      "meaning": "a tree-lined approach to a building",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "avenue",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for a broad street, often tree-lined",
+      "meaning": "a broad street, often tree-lined",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a broad street, especially one lined with trees, or a means of approach"
+}

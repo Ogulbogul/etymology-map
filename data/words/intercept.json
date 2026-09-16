@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "intercipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take between, from inter- (between) and capere (to take)",
+      "meaning": "to take between, to seize on the way",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intercept",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for stopping something before it reaches its destination",
+      "meaning": "to stop or seize something before it reaches its destination",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop, seize, or interrupt something before it reaches its intended destination"
+}

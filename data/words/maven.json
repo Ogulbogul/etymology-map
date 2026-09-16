@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mevin",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "meaning \"one who understands\"",
+      "meaning": "one who understands",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "meyvn",
+      "lang": "Yiddish",
+      "era": "medieval",
+      "note": "applied to a knowledgeable expert or connoisseur",
+      "meaning": "an expert, connoisseur",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "maven",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted through Yiddish-speaking immigrant communities",
+      "meaning": "a trusted expert in a particular field",
+      "lat": 40.71,
+      "lon": -74.0
+    }
+  ],
+  "current_meaning": "a trusted expert in a particular field"
+}

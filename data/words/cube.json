@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kybos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a cube, a die used in games of chance",
+      "meaning": "a cube, a die",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cube",
+      "lang": "English",
+      "era": "1550s",
+      "note": "settled as the geometric word for a six-sided solid shape",
+      "meaning": "a six-sided solid shape with equal square faces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a three-dimensional shape with six equal square faces"
+}

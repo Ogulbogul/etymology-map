@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "combattere",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "to fight together, from com- (together) and battuere (to beat)",
+      "meaning": "to fight together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "combat",
+      "lang": "French",
+      "era": "1400s",
+      "note": "settled in French military vocabulary for armed fighting",
+      "meaning": "armed fighting between opposing forces",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "combat",
+      "lang": "English",
+      "era": "1560s",
+      "note": "adopted directly for fighting between opposing sides",
+      "meaning": "fighting between opposing forces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fighting between opposing military forces, or a struggle against something"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nazir",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meaning \"opposite\", the point opposite the zenith",
+      "meaning": "opposite point",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "nadir",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted through Arabic astronomical texts translated in Spain",
+      "meaning": "the lowest point",
+      "lat": 39.86,
+      "lon": -4.02
+    },
+    {
+      "word": "nadir",
+      "lang": "English",
+      "era": "medieval",
+      "note": "settled as the English astronomical term",
+      "meaning": "the lowest point",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the lowest point, or the point in the sky directly opposite the zenith"
+}

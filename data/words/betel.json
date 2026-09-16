@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vettila",
+      "lang": "Malayalam",
+      "era": "medieval",
+      "note": "the name for the leaf chewed with areca nut",
+      "meaning": "betel leaf",
+      "lat": 9.93,
+      "lon": 76.26
+    },
+    {
+      "word": "betel",
+      "lang": "Portuguese",
+      "era": "1500s-1600s",
+      "note": "adopted through Portuguese trade on the Malabar coast",
+      "meaning": "betel leaf",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "betel",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted through trade contact with South Asia",
+      "meaning": "a leaf chewed as a mild stimulant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the leaf of a plant chewed with areca nut as a mild stimulant in parts of Asia"
+}

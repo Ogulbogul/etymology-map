@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ṣuffa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a raised stone or wooden platform used for sitting",
+      "meaning": "raised bench, ledge",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "sofa",
+      "lang": "Ottoman Turkish",
+      "era": "c. 1600s",
+      "note": "came to describe a raised, cushioned seating area",
+      "meaning": "raised seating area",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "sofa",
+      "lang": "French",
+      "era": "c. 1690s",
+      "note": "adopted for fashionable upholstered seating",
+      "meaning": "a cushioned seat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sofa",
+      "lang": "English",
+      "era": "1700s",
+      "note": "settled as the word for an upholstered multi-seat couch",
+      "meaning": "an upholstered seat for several people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long upholstered seat for two or more people"
+}

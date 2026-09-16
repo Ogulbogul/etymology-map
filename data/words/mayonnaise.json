@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Mahon",
+      "lang": "Spanish/Catalan",
+      "era": "1700s",
+      "note": "the capital of Menorca, said to be the birthplace of the creamy egg-and-oil sauce",
+      "meaning": "a port city on Menorca",
+      "lat": 39.89,
+      "lon": 4.27
+    },
+    {
+      "word": "mahonnaise",
+      "lang": "French",
+      "era": "1750s",
+      "note": "adapted in French for the rich, creamy sauce named after the city",
+      "meaning": "a rich, creamy egg-and-oil sauce",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mayonnaise",
+      "lang": "English",
+      "era": "1820s",
+      "note": "settled as the English word for the creamy condiment",
+      "meaning": "a creamy condiment made from egg yolk and oil",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a creamy condiment made by emulsifying egg yolk, oil, and vinegar or lemon juice"
+}

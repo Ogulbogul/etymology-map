@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ducere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead, combined with ex- (out)",
+      "meaning": "to lead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "educare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bring up, to rear, related to educere (to lead out)",
+      "meaning": "to bring up, to rear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "educate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for giving intellectual, moral, and social instruction",
+      "meaning": "to give intellectual, moral, and social instruction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give intellectual, moral, and social instruction to someone"
+}

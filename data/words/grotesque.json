@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "grottesca",
+      "lang": "Italian",
+      "era": "1400s-1500s",
+      "note": "describing the fantastical paintings found in newly excavated Roman caves",
+      "meaning": "of a cave, cave-like",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grotesque",
+      "lang": "French",
+      "era": "1500s",
+      "note": "adopted for the strange, fantastical decorative style",
+      "meaning": "fantastically decorated",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grotesque",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "broadened to mean bizarre or distorted",
+      "meaning": "strange, distorted, or unsettling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strange, distorted, or unsettling in appearance or character"
+}

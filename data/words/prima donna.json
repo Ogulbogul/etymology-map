@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prima donna",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally first lady, the leading female singer in an opera company",
+      "meaning": "the first lady, the leading female opera singer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prima donna",
+      "lang": "English",
+      "era": "1780s",
+      "note": "broadened from the leading singer to anyone temperamentally demanding",
+      "meaning": "a temperamental, self-important person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a temperamental, self-important person, originally an opera's leading female singer"
+}

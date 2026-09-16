@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vanta",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to lack, to be missing something needed",
+      "meaning": "to lack, to be missing",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "want",
+      "lang": "English",
+      "era": "1200s",
+      "note": "broadened from lacking something to desiring it",
+      "meaning": "to desire or wish for something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to desire or wish for something"
+}

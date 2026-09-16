@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "spargere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to scatter, to sprinkle, combined with ad- (toward)",
+      "meaning": "to scatter, to sprinkle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aspergere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sprinkle on, from ad- and spargere",
+      "meaning": "to sprinkle on",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aspersio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a sprinkling, later a damaging remark spread about someone, from aspergere",
+      "meaning": "a sprinkling, a damaging remark",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aspersion",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for a critical or damaging remark about someone",
+      "meaning": "a critical or damaging remark about someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a critical or damaging remark that questions someone's character or reputation"
+}

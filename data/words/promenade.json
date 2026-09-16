@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "promener",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to take for a walk, from Latin prominare (to drive forward)",
+      "meaning": "to walk, to take a stroll",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "promenade",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for a leisurely walk or a public walking area",
+      "meaning": "a leisurely walk, or a public place for walking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a leisurely walk, or a public area designed for walking"
+}

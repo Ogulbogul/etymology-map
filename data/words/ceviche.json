@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "siwichi",
+      "lang": "Quechua",
+      "era": "medieval",
+      "note": "possibly meaning fresh fish, describing raw fish cured in citrus juice",
+      "meaning": "fresh fish",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "ceviche",
+      "lang": "Spanish",
+      "era": "1800s",
+      "note": "adopted into Spanish for the citrus-cured raw seafood dish",
+      "meaning": "raw seafood cured in citrus juice",
+      "lat": -12.05,
+      "lon": -77.04
+    },
+    {
+      "word": "ceviche",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as Latin American cuisine spread internationally",
+      "meaning": "a dish of raw seafood cured in citrus juice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of raw fish or seafood cured in citrus juice"
+}

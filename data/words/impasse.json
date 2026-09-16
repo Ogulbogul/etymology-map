@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "passer",
+      "lang": "Latin/French",
+      "era": "medieval",
+      "note": "meaning \"to pass\"",
+      "meaning": "to pass",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "impasse",
+      "lang": "French",
+      "era": "1700s",
+      "note": "literally \"not passable\", a dead-end street",
+      "meaning": "a dead end",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "impasse",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted figuratively for a deadlock",
+      "meaning": "a situation with no clear way forward",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a situation in which no progress can be made; a deadlock"
+}

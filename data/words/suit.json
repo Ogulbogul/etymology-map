@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sequi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to follow",
+      "meaning": "to follow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "secuta",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "a following, a set of things that go together, from sequi",
+      "meaning": "a following, a matching set",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a retinue, or a matching set of things",
+      "meaning": "a retinue, or a matching set of things",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "suit",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a matching set of clothes, or a legal action",
+      "meaning": "a matching set of clothes, or a legal action",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a matching set of clothes, a legal case, or a set of playing cards"
+}

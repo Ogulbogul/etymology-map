@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sputnik",
+      "lang": "Russian",
+      "era": "1957",
+      "note": "literally fellow traveler, the name of the first artificial satellite",
+      "meaning": "a traveling companion",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "sputnik",
+      "lang": "English",
+      "era": "1957",
+      "note": "adopted worldwide overnight after the satellite's launch made headlines",
+      "meaning": "an artificial satellite",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an artificial satellite, especially the pioneering Soviet series"
+}

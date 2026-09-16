@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "rogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to ask, combined with prae- (before)",
+      "meaning": "to ask",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "praerogare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to ask before others, from prae- and rogare",
+      "meaning": "to ask before others",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "praerogativa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the right to vote first, a special privilege, from praerogare",
+      "meaning": "the right to vote first, a special privilege",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prerogative",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for an exclusive right or privilege",
+      "meaning": "an exclusive right or privilege held by a person or group",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an exclusive right or privilege belonging to a particular person or group"
+}

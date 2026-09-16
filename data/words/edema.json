@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oidema",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a swelling, from oidein (to swell)",
+      "meaning": "a swelling",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "edema",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the medical word for fluid buildup causing swelling",
+      "meaning": "swelling caused by fluid buildup in tissue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "swelling caused by excess fluid trapped in the body's tissues"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand, to place, combined with de- (away from)",
+      "meaning": "to stand, to place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand away from, to stop, from de- and sistere",
+      "meaning": "to stand away from, to stop",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desist",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for stopping an action, especially one that is unwanted",
+      "meaning": "to stop doing something, especially an unwanted action",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop doing something, especially an action that is unwanted or harmful"
+}

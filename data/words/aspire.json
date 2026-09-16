@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aspirare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to breathe toward, to strive for, from ad- (toward) and spirare (to breathe)",
+      "meaning": "to breathe toward, to strive for",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aspire",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for having a strong desire to achieve something",
+      "meaning": "to have a strong desire to achieve something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to have a strong desire or ambition to achieve something"
+}

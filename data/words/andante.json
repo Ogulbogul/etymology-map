@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "andante",
+      "lang": "Italian",
+      "era": "1700s",
+      "note": "literally walking, from andare (to go), describing a moderate walking pace",
+      "meaning": "walking, going",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "andante",
+      "lang": "English",
+      "era": "1740s",
+      "note": "adopted directly as a musical tempo marking",
+      "meaning": "a moderately slow musical tempo",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a moderately slow musical tempo, at a walking pace"
+}

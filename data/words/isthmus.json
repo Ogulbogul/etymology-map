@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "isthmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a narrow neck of land, famously the isthmus of Corinth",
+      "meaning": "a narrow neck of land",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "isthmus",
+      "lang": "English",
+      "era": "1550s",
+      "note": "adopted directly for a narrow strip of land connecting two larger areas",
+      "meaning": "a narrow strip of land connecting two larger landmasses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a narrow strip of land connecting two larger landmasses"
+}

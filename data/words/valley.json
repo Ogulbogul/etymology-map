@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vallis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a valley, a low area between hills",
+      "meaning": "a valley",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "valee",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the low land between hills",
+      "meaning": "low land between hills",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "valley",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for low land between hills or mountains",
+      "meaning": "low land between hills or mountains",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a low area of land between hills or mountains, often with a river flowing through it"
+}

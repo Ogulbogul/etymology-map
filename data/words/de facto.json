@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "de facto",
+      "lang": "Latin",
+      "era": "medieval",
+      "note": "literally from the fact, describing something existing in practice, regardless of official status",
+      "meaning": "from the fact, in practice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "de facto",
+      "lang": "English",
+      "era": "1600s",
+      "note": "adopted directly for something existing in practice, whether or not officially recognized",
+      "meaning": "existing in practice, whether or not officially recognized",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "existing in fact or practice, regardless of official recognition"
+}

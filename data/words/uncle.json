@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "avunculus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally a little grandfather, a diminutive of avus (grandfather), meaning a mother's brother",
+      "meaning": "a mother's brother",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oncle",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French and broadened to mean any parent's brother",
+      "meaning": "a parent's brother",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "uncle",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a parent's brother",
+      "meaning": "the brother of one's parent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the brother of one's father or mother, or the husband of one's aunt"
+}

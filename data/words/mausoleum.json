@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mausolos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a Persian satrap whose legendary tomb was one of the Seven Wonders of the ancient world",
+      "meaning": "a ruler's name",
+      "lat": 37.05,
+      "lon": 27.42
+    },
+    {
+      "word": "mausoleum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "broadened from the specific tomb to any grand, stately burial structure",
+      "meaning": "a grand, stately tomb",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, stately building housing a tomb or tombs"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "narkotikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "numbing, from narke (numbness)",
+      "meaning": "numbing, causing sleep",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "narcotique",
+      "lang": "French",
+      "era": "1300s",
+      "note": "carried into French medical vocabulary for sleep-inducing drugs",
+      "meaning": "a sleep-inducing drug",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "narcotic",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for pain-relieving, sleep-inducing drugs",
+      "meaning": "a drug that relieves pain and induces sleep",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a drug affecting mood or behavior, especially an addictive one"
+}

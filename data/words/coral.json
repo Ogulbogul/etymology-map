@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "korallion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the hard skeletal substance formed by marine polyps",
+      "meaning": "coral",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "corallium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin for the same marine substance",
+      "meaning": "coral",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coral",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for the reef-building substance and its pinkish color",
+      "meaning": "coral, and its pinkish color",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "coral",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the marine substance and its color",
+      "meaning": "a hard marine substance, or its pinkish-orange color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard substance formed by marine polyps, or a pinkish-orange color"
+}

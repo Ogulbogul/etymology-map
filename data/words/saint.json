@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sancire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to make sacred, with irregular past participle sanctus",
+      "meaning": "to make sacred",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sanctus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "holy, sacred, from sancire",
+      "meaning": "holy, sacred",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "seint",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a person recognized for holiness",
+      "meaning": "a person recognized for holiness",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "saint",
+      "lang": "English",
+      "era": "1100s",
+      "note": "settled as the English word for a person formally recognized as holy",
+      "meaning": "a person formally recognized as holy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person formally recognized as holy or virtuous, especially in Christianity"
+}

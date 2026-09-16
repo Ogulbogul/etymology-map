@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bi",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "two, combined with million to mean a million to the second power",
+      "meaning": "two",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "billion",
+      "lang": "French",
+      "era": "1400s",
+      "note": "coined in French mathematical vocabulary for the very large number",
+      "meaning": "a very large number",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "billion",
+      "lang": "English",
+      "era": "1680s",
+      "note": "adopted directly, later settling as one thousand million in common usage",
+      "meaning": "one thousand million, 1,000,000,000",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the number one thousand million, 1,000,000,000"
+}

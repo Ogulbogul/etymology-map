@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bios",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "life, combined with logos (study) for the study of living things",
+      "meaning": "life",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "biologie",
+      "lang": "German",
+      "era": "1800s",
+      "note": "coined by German naturalists for the emerging science of life",
+      "meaning": "the science of living organisms",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "biology",
+      "lang": "English",
+      "era": "1800s",
+      "note": "settled as the English name for the science",
+      "meaning": "the science of living organisms",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the scientific study of living organisms"
+}

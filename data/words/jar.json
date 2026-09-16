@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "jarra",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the Arabic name for an earthenware vessel",
+      "meaning": "an earthenware vessel",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "jarra",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "adopted through Arab influence in Iberian pottery",
+      "meaning": "a large earthenware pot",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "jar",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "adopted via French and Spanish trade in pottery",
+      "meaning": "a cylindrical container",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cylindrical container, usually made of glass or ceramic"
+}

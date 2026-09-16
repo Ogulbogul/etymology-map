@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "temperatura",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a proper mixture, from temperare (to mix in proportion)",
+      "meaning": "a proper mixture, moderation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "temperature",
+      "lang": "English",
+      "era": "1600s",
+      "note": "narrowed to mean the degree of heat or cold of a body",
+      "meaning": "the degree of heat or cold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a measure of the degree of heat or cold of a body or environment"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vox",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "voice",
+      "meaning": "voice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vocalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "of the voice, from vox",
+      "meaning": "of the voice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vocal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something relating to the human voice",
+      "meaning": "relating to the human voice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the human voice, or expressing one's opinions freely and forcefully"
+}

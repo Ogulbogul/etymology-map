@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "per capita",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "by heads, from per (through, by) and caput (head)",
+      "meaning": "by heads",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "per capita",
+      "lang": "English",
+      "era": "1680s",
+      "note": "adopted into English statistical and legal vocabulary for a per-person measure",
+      "meaning": "for each person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "for each person, calculated by dividing a total by the number of people"
+}

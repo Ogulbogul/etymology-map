@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stjorn",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "steering, the act of guiding a ship, related to the steering position at the rear",
+      "meaning": "steering, guidance",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "stern",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the rear part of a ship",
+      "meaning": "the rear part of a ship or boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the rear part of a ship or boat"
+}

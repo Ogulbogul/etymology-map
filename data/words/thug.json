@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sthaga",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meaning \"cunning\" or \"deceiver\"",
+      "meaning": "a deceiver, swindler",
+      "lat": 25.32,
+      "lon": 82.99
+    },
+    {
+      "word": "thag",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "a member of an organized band of robbers and stranglers",
+      "meaning": "a thief, robber",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "thug",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted through British colonial accounts of the Thuggee cult",
+      "meaning": "a violent criminal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a violent criminal, especially one hired for brutal or intimidating tasks"
+}

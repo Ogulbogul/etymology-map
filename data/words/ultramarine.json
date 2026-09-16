@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ultra marinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "beyond the sea, from ultra (beyond) and marinus (of the sea)",
+      "meaning": "beyond the sea",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oltremarino",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "describing the deep blue pigment ground from lapis lazuli imported from beyond the sea",
+      "meaning": "the imported deep blue pigment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ultramarine",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for the deep vivid blue pigment and color",
+      "meaning": "a deep vivid blue pigment and color",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep, vivid blue color, originally from a pigment made from lapis lazuli"
+}

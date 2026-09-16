@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ducere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to lead, with irregular past participle ductus",
+      "meaning": "to lead",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ductus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a leading, a channel, from ducere",
+      "meaning": "a leading, a channel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duct",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for a tube or channel that carries liquid, air, or cables",
+      "meaning": "a tube or channel carrying liquid, air, or cables",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tube or channel through which a liquid, gas, or cables pass"
+}

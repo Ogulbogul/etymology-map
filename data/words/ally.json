@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ligare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bind, combined with ad- (to)",
+      "meaning": "to bind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alligare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to bind to, to connect, from ad- and ligare",
+      "meaning": "to bind to, to connect",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for joining with another for mutual benefit",
+      "meaning": "to join with another for mutual benefit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ally",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for a person or group joined with another for mutual benefit",
+      "meaning": "a person or group joined with another for mutual benefit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person, group, or state joined with another for a common purpose"
+}

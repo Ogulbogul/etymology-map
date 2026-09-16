@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "borghetto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "possibly \"little town\" or a foundry district where Venice confined Jewish residents",
+      "meaning": "a confined urban quarter",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "ghetto",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "named the segregated Jewish quarter of Venice",
+      "meaning": "a segregated urban quarter",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "ghetto",
+      "lang": "English",
+      "era": "1600s-1900s",
+      "note": "adopted directly from Italian, later broadened to any segregated area",
+      "meaning": "an area occupied by a minority group, often by force",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a part of a city where a minority group lives, often due to social or economic pressure"
+}

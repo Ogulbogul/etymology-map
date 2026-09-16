@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "thorax",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "originally a breastplate, later the chest itself",
+      "meaning": "a breastplate, the chest",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "thorax",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the medical word for the chest cavity",
+      "meaning": "the chest cavity",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the part of the body between the neck and abdomen, containing the heart and lungs"
+}

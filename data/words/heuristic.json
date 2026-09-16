@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "heuriskein",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "to find, to discover",
+      "meaning": "to find, to discover",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "heuristic",
+      "lang": "English",
+      "era": "1821",
+      "note": "coined for methods of learning and discovery through practical experience",
+      "meaning": "a practical method for problem-solving or learning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a practical approach to problem-solving that is not guaranteed optimal but is sufficient"
+}

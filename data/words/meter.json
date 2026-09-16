@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "metron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a measure",
+      "meaning": "a measure",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "metre",
+      "lang": "French",
+      "era": "1790s",
+      "note": "adopted in French during the Revolution's creation of the metric system",
+      "meaning": "the base unit of length in the metric system",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "meter",
+      "lang": "English",
+      "era": "1797",
+      "note": "settled as the English spelling for the metric unit of length",
+      "meaning": "the base unit of length in the metric system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the base unit of length in the metric system"
+}

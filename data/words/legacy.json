@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "lex",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "law, giving rise to legare (to send as ambassador, to bequeath by will)",
+      "meaning": "law",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "legatia",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a bequest, the office of a delegate, from legare",
+      "meaning": "a bequest, the office of a delegate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "legaz",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a gift left to someone in a will",
+      "meaning": "a gift left to someone in a will",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "legacy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for money or property left to someone, or a lasting impact",
+      "meaning": "money or property left to someone, or a lasting impact from the past",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something handed down from the past, such as money, property, or a lasting impact"
+}

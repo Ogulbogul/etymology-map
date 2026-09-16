@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "a la carte",
+      "lang": "French",
+      "era": "1700s",
+      "note": "literally according to the card, referring to ordering individually priced dishes from a menu",
+      "meaning": "according to the menu card",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "a la carte",
+      "lang": "English",
+      "era": "1826",
+      "note": "adopted directly for ordering dishes individually rather than as a set meal",
+      "meaning": "ordering dishes individually from a menu",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "ordering individual dishes from a menu, rather than a fixed-price set meal"
+}

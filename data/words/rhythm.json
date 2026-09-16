@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rhythmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "meaning \"measured flow\" or \"movement\"",
+      "meaning": "measured, recurring movement",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "rhythmus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted through Greek musical and poetic theory",
+      "meaning": "a regular pattern of movement or sound",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rhythm",
+      "lang": "English",
+      "era": "1500s-1600s",
+      "note": "settled as the English word for patterned movement or sound",
+      "meaning": "a strong, regular repeated pattern",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong, regular, repeated pattern of movement or sound"
+}

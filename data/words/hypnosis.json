@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hypnos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the Greek god of sleep",
+      "meaning": "sleep",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hypnosis",
+      "lang": "English",
+      "era": "1840s",
+      "note": "coined from the Greek root to describe an induced trance state",
+      "meaning": "a trance-like state of focused attention",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a trance-like state of focused attention and heightened suggestibility"
+}

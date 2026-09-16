@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "resistere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stand back against, from re- (back) and sistere (to stand)",
+      "meaning": "to stand back against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "resist",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for opposing or withstanding something",
+      "meaning": "to oppose or withstand something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to oppose or withstand the force or effect of something"
+}

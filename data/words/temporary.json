@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "temporarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "lasting only for a time, from tempus (time)",
+      "meaning": "lasting only for a time",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "temporary",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the English word for something lasting only a limited time",
+      "meaning": "lasting for a limited time only",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lasting or effective for a limited time only"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spredan",
+      "lang": "Old English",
+      "era": "old english",
+      "note": "to extend, to stretch out",
+      "meaning": "to extend, to stretch out",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "spread",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the modern English word for extending over an area",
+      "meaning": "to extend over an area",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to extend over a wider area, or a paste for spreading on food"
+}

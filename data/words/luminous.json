@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lumen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "light",
+      "meaning": "light",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "luminous",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for something giving off light",
+      "meaning": "giving off light, or full of light",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "giving off light, either self-generated or reflected"
+}

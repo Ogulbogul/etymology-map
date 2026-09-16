@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "asymptotos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally not falling together, from a- (not) and symptotos (falling together)",
+      "meaning": "not meeting",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "asymptote",
+      "lang": "English",
+      "era": "1650s",
+      "note": "adopted directly for a line a curve approaches but never touches",
+      "meaning": "a line a curve approaches but never touches",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a line that a curve approaches indefinitely but never quite meets"
+}

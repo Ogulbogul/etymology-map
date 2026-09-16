@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "franc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "free, the root behind a special right or privilege granted to someone",
+      "meaning": "free",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "franchise",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "settled in French for a special legal privilege or exemption",
+      "meaning": "a special legal privilege",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "franchise",
+      "lang": "English",
+      "era": "1300s",
+      "note": "narrowed to mean a business's authorization to sell a company's goods",
+      "meaning": "authorization to operate a business under a company's name",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "authorization granted to sell a company's goods or operate under its name"
+}

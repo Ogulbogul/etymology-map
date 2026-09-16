@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kasha",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "a porridge made from cooked grain, especially buckwheat",
+      "meaning": "a cooked grain porridge",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "kasha",
+      "lang": "English",
+      "era": "1808",
+      "note": "adopted directly for the buckwheat porridge of Eastern European cuisine",
+      "meaning": "a porridge made from buckwheat or other grain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a porridge made from cooked grain, especially buckwheat, in Eastern European cuisine"
+}

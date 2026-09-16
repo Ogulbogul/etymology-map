@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "excipere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to take out, from ex- (out) and capere (to take)",
+      "meaning": "to take out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "except",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for excluding something from a general statement",
+      "meaning": "not including, excluding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not including someone or something, excluding it from a general statement"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "banca",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "literally a bench, the table where medieval moneylenders conducted business",
+      "meaning": "a bench, a table",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bank",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for a financial institution",
+      "meaning": "a financial institution",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an institution for the safekeeping and lending of money"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "capitalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to the head, from caput (head), since the head was seen as the chief or leading part",
+      "meaning": "relating to the head, chief",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "capital",
+      "lang": "English",
+      "era": "1200s",
+      "note": "broadened to mean chief in importance, later wealth or a governing city",
+      "meaning": "chief in importance, or accumulated wealth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the most important city of a region, or accumulated wealth used to generate more"
+}

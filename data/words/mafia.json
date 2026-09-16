@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mafia",
+      "lang": "Sicilian",
+      "era": "1800s",
+      "note": "of disputed origin, associated with organized criminal networks in Sicily",
+      "meaning": "an organized criminal network",
+      "lat": 38.12,
+      "lon": 13.36
+    },
+    {
+      "word": "mafia",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "adopted through reports on Sicilian and Italian-American organized crime",
+      "meaning": "an organized crime syndicate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized international criminal network, especially of Sicilian origin"
+}

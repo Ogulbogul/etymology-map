@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "viaticum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "provisions for a journey, from via (a road, a way)",
+      "meaning": "provisions for a journey",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "voiage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for a journey, especially by sea",
+      "meaning": "a journey, especially by sea",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "voyage",
+      "lang": "English",
+      "era": "1200s",
+      "note": "settled as the English word for a long journey, especially by sea or in space",
+      "meaning": "a long journey, especially by sea or in space",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long journey, especially one made by sea or in space"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "alter ego",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "other self, from alter (other) and ego (I, self)",
+      "meaning": "other self",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alter ego",
+      "lang": "English",
+      "era": "1500s",
+      "note": "adopted directly into English for a second, contrasting side of oneself",
+      "meaning": "a second, often very different side of one's personality",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a second self, or a different version of one's personality"
+}

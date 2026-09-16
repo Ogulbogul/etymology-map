@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "infans",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "literally unable to speak, an infant, extended to mean a young person or foot soldier",
+      "meaning": "an infant, a youth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "infanteria",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "settled in Italian for young foot soldiers serving under a knight",
+      "meaning": "young foot soldiers",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "infantry",
+      "lang": "English",
+      "era": "1570s",
+      "note": "adopted directly for soldiers who fight on foot",
+      "meaning": "soldiers who fight on foot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "soldiers who fight on foot, forming the main body of an army"
+}

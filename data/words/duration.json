@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "durus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hard, giving rise to durare (to last)",
+      "meaning": "hard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duratio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a lasting, a length of time, from durare",
+      "meaning": "a lasting, a length of time",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duration",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for the length of time something lasts",
+      "meaning": "the length of time something lasts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the length of time during which something continues or lasts"
+}

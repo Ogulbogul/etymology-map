@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "violoncello",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "a small double bass, a diminutive of violone (large viol)",
+      "meaning": "a small large-viol",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cello",
+      "lang": "English",
+      "era": "1870s",
+      "note": "shortened from violoncello as the English word for the large bowed instrument",
+      "meaning": "a large bowed stringed instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large bowed stringed instrument, played sitting down and held between the knees"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "referre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to refer back, to bring back, from re- (back) and ferre (to carry)",
+      "meaning": "to refer back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "referendum",
+      "lang": "English",
+      "era": "1847",
+      "note": "adopted directly for a public vote referred to the people on a specific issue",
+      "meaning": "a public vote on a single political question",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a general vote by the electorate on a single political question"
+}

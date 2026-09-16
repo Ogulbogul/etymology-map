@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nomen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "name, combined with de- (thoroughly)",
+      "meaning": "name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "denominare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to name thoroughly, to designate, from de- and nomen",
+      "meaning": "to name thoroughly, to designate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "denominate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for giving a specific name or classification to something",
+      "meaning": "to give a specific name or classification to something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give a specific name, designation, or unit of value to something"
+}

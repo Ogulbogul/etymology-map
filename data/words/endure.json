@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "durus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hard, giving rise to durare (to last, to harden)",
+      "meaning": "hard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "indurare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to harden, to make lasting, from in- and durus",
+      "meaning": "to harden, to make lasting",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "endurer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for withstanding hardship over time",
+      "meaning": "to withstand hardship over time",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "endure",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for withstanding hardship or lasting over time",
+      "meaning": "to withstand hardship, or to last over time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to withstand hardship or pain, or to continue to exist over time"
+}

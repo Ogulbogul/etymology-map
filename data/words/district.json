@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "distringere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw apart, to constrain, from dis- (apart) and stringere (to draw tight)",
+      "meaning": "to draw apart, to constrain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "districtus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "the territory under a lord's jurisdiction, from distringere",
+      "meaning": "territory under a lord's jurisdiction",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "district",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried into French for a defined administrative area",
+      "meaning": "a defined administrative area",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "district",
+      "lang": "English",
+      "era": "1620s",
+      "note": "settled as the English word for a defined area for administrative purposes",
+      "meaning": "a defined area for administrative, social, or other purposes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an area of a country or city defined for administrative or other purposes"
+}

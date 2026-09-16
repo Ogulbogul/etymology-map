@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "repellere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to drive back, from re- (back) and pellere (to drive)",
+      "meaning": "to drive back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "repel",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for driving something back or away",
+      "meaning": "to drive something back or keep it at a distance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to drive something back, or to cause disgust and keep something at a distance"
+}

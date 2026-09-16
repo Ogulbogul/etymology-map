@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Etymology Map</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-top">
+        <h1>Etymology Map</h1>
+        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+      </div>
+      <p class="tagline">Trace an English word back through the languages it traveled through.</p>
+      <div class="search-bar">
+        <div class="input-wrap">
+          <input
+            id="word-input"
+            type="text"
+            placeholder="Type a word, e.g. coffee"
+            autocomplete="off"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="autocomplete-list"
+            aria-autocomplete="list"
+          />
+          <ul id="autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
+        </div>
+        <button id="trace-btn" class="primary-btn">Trace</button>
+        <button
+          id="surprise-btn"
+          class="secondary-btn search-bar-secondary-btn"
+          type="button"
+          title="Trace a random word from the collection"
+        >Surprise me</button>
+      </div>
+      <div id="message" class="message" hidden></div>
+      <div class="search-actions">
+        <button
+          id="wordlist-toggle-btn"
+          class="secondary-btn"
+          type="button"
+          title="Browse every word in this collection"
+          aria-expanded="false"
+          aria-controls="wordlist-panel"
+        ><span class="btn-icon">&#128214;</span> Word list <span class="chevron">&#9662;</span></button>
+      </div>
+      <div id="hint" class="hint"></div>
+      <div id="wordlist-panel" class="wordlist-panel" hidden>
+        <div class="wordlist-filter">
+          <label for="wordlist-origin-select">Origin</label>
+          <select id="wordlist-origin-select">
+            <option value="">All origins</option>
+          </select>
+          <div class="origin-search-wrap">
+            <input
+              id="wordlist-origin-search"
+              type="text"
+              placeholder="Search origin&hellip;"
+              autocomplete="off"
+              role="combobox"
+              aria-expanded="false"
+              aria-controls="origin-autocomplete-list"
+              aria-autocomplete="list"
+            />
+            <ul id="origin-autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
+          </div>
+          <span id="wordlist-count" class="wordlist-count"></span>
+        </div>
+        <div id="wordlist-grid" class="wordlist-grid"></div>
+      </div>
+    </header>
+
+    <div id="result-header" class="result-header" hidden>
+      <h2 id="result-word-text" class="result-word"></h2>
+      <div id="current-meaning-badge" class="current-meaning" hidden>
+        <span class="badge-label">Today it means</span>
+        <span id="badge-text" class="badge-text"></span>
+      </div>
+      <div id="result-trail" class="result-trail"></div>
+    </div>
+
+    <main id="result" hidden>
+      <section id="panel" class="panel"></section>
+      <section class="map-wrap">
+        <div class="map-toolbar">
+          <div class="map-toolbar-actions">
+            <div class="zoom-controls">
+              <button id="zoom-out-btn" title="Zoom out" type="button">&minus;</button>
+              <button id="zoom-in-btn" title="Zoom in" type="button">+</button>
+              <button id="zoom-reset-btn" title="Reset view" type="button">&#8634;</button>
+            </div>
+            <span class="toolbar-divider" aria-hidden="true"></span>
+            <button id="copy-link-btn" class="icon-btn" type="button" title="Copy a link to this word">&#128279;</button>
+            <button id="share-btn" class="share-btn" type="button">Share card</button>
+          </div>
+        </div>
+        <div class="map-canvas">
+          <svg id="map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet">
+            <g id="zoom-layer">
+              <g id="land-layer"></g>
+              <g id="path-layer"></g>
+            </g>
+            <g id="arrow-layer"></g>
+            <g id="pin-layer"></g>
+          </svg>
+        </div>
+        <div class="map-hint">Drag to pan &middot; scroll to zoom</div>
+      </section>
+    </main>
+
+    <div id="share-modal" class="modal-overlay" hidden>
+      <div class="modal-card">
+        <button id="share-close-btn" class="modal-close" type="button" aria-label="Close">&times;</button>
+        <h3 class="modal-title">Share this word's journey</h3>
+        <div class="modal-theme-toggle" role="group" aria-label="Card style">
+          <button id="share-theme-light-btn" class="modal-theme-btn" type="button" aria-pressed="true">Light</button>
+          <button id="share-theme-dark-btn" class="modal-theme-btn" type="button" aria-pressed="false">Dark</button>
+        </div>
+        <div class="modal-preview-wrap">
+          <img id="share-preview" alt="Etymology summary card" />
+        </div>
+        <div class="modal-actions">
+          <button id="share-download-btn" class="modal-btn primary" type="button">Download image</button>
+          <button id="share-copy-btn" class="modal-btn" type="button">Copy image</button>
+          <button id="share-native-btn" class="modal-btn" type="button">Share&hellip;</button>
+        </div>
+        <p id="share-status" class="modal-status" hidden></p>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

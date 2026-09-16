@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "brekka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a steep slope, a hillside edge",
+      "meaning": "a steep edge, a slope",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "brink",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the edge of a steep place",
+      "meaning": "the edge of a steep place, or the point just before something happens",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the edge of a steep place, or the point just before something begins or ends"
+}

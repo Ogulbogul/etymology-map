@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "uskatahomen",
+      "lang": "Powhatan",
+      "era": "1600s",
+      "note": "dried corn kernels prepared by soaking and cooking",
+      "meaning": "prepared corn",
+      "lat": 37.5,
+      "lon": -76.5
+    },
+    {
+      "word": "hominy",
+      "lang": "English",
+      "era": "1620s",
+      "note": "shortened and settled as the English word for the treated corn dish",
+      "meaning": "dried corn kernels treated and cooked as food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dried corn kernels that have been treated with an alkali and cooked"
+}

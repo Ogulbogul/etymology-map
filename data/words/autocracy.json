@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "autos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "self, combined with kratos (power)",
+      "meaning": "self",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "autocracy",
+      "lang": "English",
+      "era": "1810s",
+      "note": "settled as the English word for government by a single ruler with absolute power",
+      "meaning": "government by a single ruler with absolute power",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a system of government by a single person with absolute, unchecked power"
+}

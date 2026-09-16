@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stoa poikile",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "literally the painted porch, an Athenian colonnade where philosophers taught endurance and reason",
+      "meaning": "the painted porch, a meeting place",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "stoic",
+      "lang": "English",
+      "era": "1570s",
+      "note": "broadened from the philosophical school to anyone enduring hardship without complaint",
+      "meaning": "enduring hardship without complaint",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who endures hardship or pain without complaint"
+}

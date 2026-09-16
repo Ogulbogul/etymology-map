@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "levis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "light, not heavy",
+      "meaning": "light, not heavy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "levitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "lightness, frivolity, from levis",
+      "meaning": "lightness, frivolity",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "levity",
+      "lang": "English",
+      "era": "1560s",
+      "note": "settled as the English word for a lack of seriousness, especially about a serious matter",
+      "meaning": "a lack of seriousness, especially about a serious matter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lack of seriousness, especially about a matter that deserves gravity"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "habere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to have, to hold, giving rise to habilis (easily handled, apt)",
+      "meaning": "to have, to hold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "able",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French for something easily handled or capable, from habilis",
+      "meaning": "easily handled, capable",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "able",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for having the power or means to do something",
+      "meaning": "having the power, skill, or means to do something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having the power, skill, or means to do something"
+}

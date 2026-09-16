@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "szablya",
+      "lang": "Hungarian",
+      "era": "medieval",
+      "note": "the name for the curved cavalry sword",
+      "meaning": "a curved sword",
+      "lat": 47.5,
+      "lon": 19.04
+    },
+    {
+      "word": "Säbel",
+      "lang": "German",
+      "era": "1500s-1600s",
+      "note": "adopted through contact with Hungarian cavalry",
+      "meaning": "a curved sword",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "sabre",
+      "lang": "French",
+      "era": "1600s",
+      "note": "carried the weapon's name into French military use",
+      "meaning": "a curved cavalry sword",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "saber",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "adopted directly from French",
+      "meaning": "a heavy sword with a curved blade",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a heavy sword with a curved blade, traditionally used by cavalry"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "edere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to give out, to publish, from ex- (out) and dare (to give)",
+      "meaning": "to give out, to publish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "editor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "one who puts forth or publishes, from edere",
+      "meaning": "one who publishes",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "edit",
+      "lang": "English",
+      "era": "1791",
+      "note": "formed as a back-formation from editor, for preparing a work for publication",
+      "meaning": "to prepare a written work for publication",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to prepare or revise written, audio, or visual material for publication"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "haerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stick, to cling, combined with ad- (to)",
+      "meaning": "to stick, to cling",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adhaerere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to stick to, from ad- and haerere",
+      "meaning": "to stick to",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adhere",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for sticking firmly to a surface or following a rule",
+      "meaning": "to stick firmly to a surface, or to follow a rule closely",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stick firmly to a surface, or to closely follow a rule or belief"
+}

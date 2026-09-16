@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stringere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to draw tight, to bind, with irregular past participle strictus",
+      "meaning": "to draw tight, to bind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "strict",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for demanding that rules be strictly followed",
+      "meaning": "demanding that rules or standards be strictly followed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "demanding that rules or standards be closely followed, with no exceptions"
+}

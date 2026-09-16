@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cor gi",
+      "lang": "Welsh",
+      "era": "medieval",
+      "note": "literally dwarf dog, from cor (dwarf) and ci (dog)",
+      "meaning": "dwarf dog",
+      "lat": 51.48,
+      "lon": -3.18
+    },
+    {
+      "word": "corgi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted directly as the breed's name gained popularity",
+      "meaning": "a short-legged Welsh dog breed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short-legged Welsh breed of dog"
+}

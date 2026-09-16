@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bardos",
+      "lang": "Celtic",
+      "era": "ancient",
+      "note": "a poet and singer who composed verses honoring chiefs and heroes",
+      "meaning": "a poet-singer",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "bard",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the word for a poet, especially one who performs their work",
+      "meaning": "a poet, especially one who performs verse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a poet, traditionally one who composes and performs epic verse"
+}

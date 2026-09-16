@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "halwa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally sweet, a dense confection made from sesame paste or flour and sugar",
+      "meaning": "sweet",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "halva",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted directly for the dense sesame or nut-based sweet confection",
+      "meaning": "a dense sweet confection made from sesame paste or flour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dense sweet confection made from sesame paste, flour, or nuts"
+}

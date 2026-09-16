@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "migrare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to move from one place to another",
+      "meaning": "to move from one place to another",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "migrate",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled as the English word for moving to live in a different place",
+      "meaning": "to move to live in a different place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move from one region or habitat to another, especially seasonally"
+}

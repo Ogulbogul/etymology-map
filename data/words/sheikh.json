@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shaykh",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"elder\", a title of respect for a leader or scholar",
+      "meaning": "elder, leader",
+      "lat": 24.47,
+      "lon": 39.61
+    },
+    {
+      "word": "sheikh",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted through European contact with the Arab world",
+      "meaning": "an Arab leader or head of a tribe or family",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a leader in an Arab family, tribe, or Muslim community"
+}

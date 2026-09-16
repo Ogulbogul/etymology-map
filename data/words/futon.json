@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "futon",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "a thin padded mattress rolled out for sleeping and stored away by day",
+      "meaning": "a padded sleeping mattress",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "futon",
+      "lang": "English",
+      "era": "1970s",
+      "note": "adopted for the low wooden-framed bed popularized in the West",
+      "meaning": "a padded mattress on a low frame",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a padded mattress, often on a low folding wooden frame"
+}

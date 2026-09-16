@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "amare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to love",
+      "meaning": "to love",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amour",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "love, from amare",
+      "meaning": "love",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enamourer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to inspire with love, from en- and amour",
+      "meaning": "to inspire with love",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enamored",
+      "lang": "English",
+      "era": "1400s",
+      "note": "settled as the English word for being filled with love or strong liking for something",
+      "meaning": "filled with love or a strong liking for something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "filled with love or a strong liking for someone or something"
+}

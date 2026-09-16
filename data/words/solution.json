@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "solutio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a loosening, an untying, from solvere (to loosen)",
+      "meaning": "a loosening, an untying",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "solution",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for the answer to a problem",
+      "meaning": "the answer to a problem, or a dissolved mixture",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the answer to a problem, or a liquid mixture in which something is dissolved"
+}

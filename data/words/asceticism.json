@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "askesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "exercise, training, especially the rigorous training of athletes",
+      "meaning": "exercise, training",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "asceticism",
+      "lang": "English",
+      "era": "1640s",
+      "note": "broadened from athletic training to a life of rigorous self-discipline and abstinence",
+      "meaning": "a life of strict self-discipline and abstinence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lifestyle characterized by strict self-discipline and abstention from indulgence"
+}

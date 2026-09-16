@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "glitra",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to shine, to sparkle brightly",
+      "meaning": "to shine brightly",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "glitter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "settled as the English word for sparkling, reflected light",
+      "meaning": "to shine with a sparkling light",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to shine with a bright, sparkling light, or small sparkling decorative particles"
+}

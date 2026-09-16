@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "qajaq",
+      "lang": "Inuktitut/Yupik",
+      "era": "pre-contact",
+      "note": "a sealskin-covered hunting boat used across the Arctic",
+      "meaning": "small hunting boat",
+      "lat": 72.0,
+      "lon": -40.0
+    },
+    {
+      "word": "kayak",
+      "lang": "English",
+      "era": "c. 1750s",
+      "note": "adopted via European contact with Arctic Inuit communities",
+      "meaning": "a small, narrow boat with a covered deck",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, narrow boat propelled with a double-bladed paddle"
+}

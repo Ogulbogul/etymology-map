@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rationalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to reason, from ratio (reason, calculation)",
+      "meaning": "relating to reason",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rationale",
+      "lang": "English",
+      "era": "1650s",
+      "note": "settled as the English word for the underlying reasons behind something",
+      "meaning": "the underlying reasons or logical basis for something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the underlying set of reasons or logical basis for a course of action"
+}

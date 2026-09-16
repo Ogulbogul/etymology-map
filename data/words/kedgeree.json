@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khichari",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "a dish of rice cooked with lentils and spices",
+      "meaning": "a rice and lentil dish",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "kedgeree",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "adapted by the British in colonial India, often adding fish",
+      "meaning": "a dish of rice, fish, and eggs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of cooked rice, flaked fish, hard-boiled eggs, and spices"
+}

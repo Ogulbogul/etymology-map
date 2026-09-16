@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "qalipu",
+      "lang": "Mi'kmaq",
+      "era": "pre-1600s",
+      "note": "possibly meaning \"snow shoveler\", describing how the animal digs through snow",
+      "meaning": "a snow-digging animal",
+      "lat": 46.13,
+      "lon": -60.19
+    },
+    {
+      "word": "caribou",
+      "lang": "French/English",
+      "era": "1600s-1700s",
+      "note": "adopted through French colonial contact in Canada",
+      "meaning": "a North American reindeer",
+      "lat": 45.5,
+      "lon": -73.57
+    }
+  ],
+  "current_meaning": "a North American reindeer, found in Arctic and subarctic regions"
+}
