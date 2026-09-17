@@ -303,9 +303,9 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("https://esm.sh/d3-geo@3"),
-      import("https://esm.sh/topojson-client@3"),
-      fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json"),
+      import("./vendor/d3-geo.js"),
+      import("./vendor/topojson-client.js"),
+      fetch("vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
     const topology = await landResp.json();
