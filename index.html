@@ -61,30 +61,31 @@
         ><span class="btn-icon">&#128214;</span> Word list <span class="chevron">&#9662;</span></button>
       </div>
       <div id="hint" class="hint"></div>
-      <div id="wordlist-panel" class="wordlist-panel" hidden>
-        <div class="wordlist-filter">
-          <label for="wordlist-origin-select">Origin</label>
-          <select id="wordlist-origin-select">
-            <option value="">All origins</option>
-          </select>
-          <div class="origin-search-wrap">
-            <input
-              id="wordlist-origin-search"
-              type="text"
-              placeholder="Search origin&hellip;"
-              autocomplete="off"
-              role="combobox"
-              aria-expanded="false"
-              aria-controls="origin-autocomplete-list"
-              aria-autocomplete="list"
-            />
-            <ul id="origin-autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
-          </div>
-          <span id="wordlist-count" class="wordlist-count"></span>
-        </div>
-        <div id="wordlist-grid" class="wordlist-grid"></div>
-      </div>
     </header>
+
+    <div id="wordlist-panel" class="wordlist-panel" hidden>
+      <div class="wordlist-filter">
+        <label for="wordlist-origin-select">Origin</label>
+        <select id="wordlist-origin-select">
+          <option value="">All origins</option>
+        </select>
+        <div class="origin-search-wrap">
+          <input
+            id="wordlist-origin-search"
+            type="text"
+            placeholder="Search origin&hellip;"
+            autocomplete="off"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="origin-autocomplete-list"
+            aria-autocomplete="list"
+          />
+          <ul id="origin-autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
+        </div>
+        <span id="wordlist-count" class="wordlist-count"></span>
+      </div>
+      <div id="wordlist-grid" class="wordlist-grid"></div>
+    </div>
 
     <div id="result-header" class="result-header" hidden>
       <h2 id="result-word-text" class="result-word"></h2>

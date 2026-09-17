@@ -587,22 +587,41 @@ main#result {
   margin-top: 14px;
   align-items: stretch;
   flex-wrap: wrap;
+  transition: gap 0.4s ease;
 }
+
+/* The collapsed (but still-rendered, for the fade) panel would otherwise
+   still claim its share of the container gap next to the map. */
+#result.is-empty { gap: 0; }
 
 .panel {
   flex: 0 0 340px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  opacity: 1;
+  transition: flex-basis 0.4s ease, opacity 0.3s ease 0.1s;
 }
 
 /* Before any word is traced: no stage cards yet, so the map takes the
    full width and a row of example words replaces the toolbar (which has
    nothing meaningful to control with no result showing). Once a word is
-   traced, this swaps back to the normal two-column layout automatically. */
-#result.is-empty .panel { display: none; }
+   traced, this animates back to the normal two-column layout: the map
+   eases down to its usual width while the stage panel grows in and
+   fades in alongside it, rather than snapping between the two states. */
+#result.is-empty .panel {
+  flex-basis: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: flex-basis 0.4s ease, opacity 0.15s ease;
+}
 #result.is-empty .map-toolbar { display: none; }
-#result.is-empty .map-wrap { flex: 1 1 100%; }
+#result.is-empty .map-wrap { flex-basis: 100%; }
 #result:not(.is-empty) .empty-chips-bar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  main#result, .panel, .map-wrap { transition: none; }
+}
 
 .empty-chips-bar {
   display: flex;
@@ -749,6 +768,7 @@ main#result {
   background: var(--panel-bg);
   overflow: hidden;
   min-width: 320px;
+  transition: flex-basis 0.4s ease;
 }
 
 .map-toolbar {
