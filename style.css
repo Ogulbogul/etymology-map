@@ -74,6 +74,15 @@ body {
   padding: 32px 24px 60px;
 }
 
+/* The search "hero" (title, tagline, search bar, word list) stays a
+   centered, readable column even on wide screens; the result area below
+   (stage cards + map) is intentionally wider, so it isn't constrained
+   here and keeps its own full-width two-column layout. */
+header {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 .header-top {
   display: flex;
   align-items: center;
@@ -584,6 +593,50 @@ main#result {
   flex: 0 0 340px;
   display: flex;
   flex-direction: column;
+}
+
+/* Before any word is traced: no stage cards yet, so the map takes the
+   full width and a row of example words replaces the toolbar (which has
+   nothing meaningful to control with no result showing). Once a word is
+   traced, this swaps back to the normal two-column layout automatically. */
+#result.is-empty .panel { display: none; }
+#result.is-empty .map-toolbar { display: none; }
+#result.is-empty .map-wrap { flex: 1 1 100%; }
+#result:not(.is-empty) .empty-chips-bar { display: none; }
+
+.empty-chips-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--toolbar-bg);
+  min-height: 44px;
+}
+
+.empty-chips-label {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.example-chip {
+  padding: 6px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.example-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
 }
 
 /* Timeline-style stage rows: a numbered marker connected by a vertical

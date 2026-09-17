@@ -5,6 +5,7 @@ const MAX_ZOOM = 14;
 const FIT_PADDING = 60;
 
 const homeLink = document.getElementById("home-link");
+const emptyChipsBar = document.getElementById("empty-chips-bar");
 const wordInput = document.getElementById("word-input");
 const traceBtn = document.getElementById("trace-btn");
 const hintEl = document.getElementById("hint");
@@ -311,6 +312,45 @@ function setupHomeLink() {
   });
 }
 
+// Example-word chips shown in the empty state (before any trace), so a
+// first-time visitor has something to click instead of a blank strip.
+// Picked fresh each time the empty state appears: one random word per
+// random distinct origin language, so repeat visits (and every trip back
+// to the homepage) show a different, still-varied set rather than always
+// the same six words or six words that happen to share one origin.
+function pickExampleWords(count) {
+  const byOrigin = new Map();
+  Object.entries(wordIndex).forEach(([word, origin]) => {
+    if (!byOrigin.has(origin)) byOrigin.set(origin, []);
+    byOrigin.get(origin).push(word);
+  });
+  const origins = [...byOrigin.keys()];
+  for (let i = origins.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [origins[i], origins[j]] = [origins[j], origins[i]];
+  }
+  return origins.slice(0, count).map((origin) => {
+    const words = byOrigin.get(origin);
+    return words[Math.floor(Math.random() * words.length)];
+  });
+}
+
+function renderExampleChips() {
+  if (!emptyChipsBar) return;
+  emptyChipsBar.querySelectorAll(".example-chip").forEach((el) => el.remove());
+  pickExampleWords(6).forEach((word) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "example-chip";
+    btn.textContent = word;
+    btn.addEventListener("click", () => {
+      wordInput.value = word;
+      trace();
+    });
+    emptyChipsBar.appendChild(btn);
+  });
+}
+
 function setupSurprise() {
   surpriseBtn.addEventListener("click", () => {
     const keys = Object.keys(wordIndex);
@@ -423,7 +463,7 @@ function showNotFound(displayWord, raw) {
 }
 
 function clearResult() {
-  resultEl.hidden = true;
+  resultEl.classList.add("is-empty");
   resultHeaderEl.hidden = true;
   panelEl.innerHTML = "";
   resultTrailEl.innerHTML = "";
@@ -432,6 +472,7 @@ function clearResult() {
   pinLayer.innerHTML = "";
   badgeEl.hidden = true;
   setView({ x: 0, y: 0, k: 1 });
+  renderExampleChips();
 }
 
 function setActive(index, isActive) {
@@ -598,7 +639,7 @@ function zoomAroundCenter(factor) {
 function renderWord(word, entry) {
   clearResult();
   clearMessage();
-  resultEl.hidden = false;
+  resultEl.classList.remove("is-empty");
   resultHeaderEl.hidden = false;
   resultWordTextEl.textContent = word;
 
@@ -1329,5 +1370,6 @@ setupHomeLink();
 
 (async function init() {
   await Promise.all([loadWordIndex(), loadMap()]);
+  renderExampleChips();
   initFromUrl();
 })();
