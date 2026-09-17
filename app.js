@@ -4,6 +4,7 @@ const MIN_ZOOM = 1;
 const MAX_ZOOM = 14;
 const FIT_PADDING = 60;
 
+const homeLink = document.getElementById("home-link");
 const wordInput = document.getElementById("word-input");
 const traceBtn = document.getElementById("trace-btn");
 const hintEl = document.getElementById("hint");
@@ -282,6 +283,31 @@ function setupOriginSearch() {
 
   document.addEventListener("click", (e) => {
     if (!originSearchWrap.contains(e.target)) closeOriginAutocomplete();
+  });
+}
+
+// Clicking the site title resets the page to a blank slate: empty search
+// box, no result shown, no ?word= left in the URL — even if you're already
+// on the homepage mid-search. A real href is kept on the link itself so
+// right-click/open-in-new-tab/middle-click still behave normally; only a
+// plain left click is intercepted to do this in place instead of reloading.
+function resetToHome() {
+  closeAutocomplete();
+  closeWordList();
+  wordInput.value = "";
+  clearResult();
+  clearMessage();
+  const url = new URL(window.location.href);
+  url.search = "";
+  history.pushState({}, "", url);
+  wordInput.focus();
+}
+
+function setupHomeLink() {
+  homeLink.addEventListener("click", (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    resetToHome();
   });
 }
 
@@ -1299,6 +1325,7 @@ setupOriginSearch();
 setupSurprise();
 setupCopyLink();
 setupAutocomplete();
+setupHomeLink();
 
 (async function init() {
   await Promise.all([loadWordIndex(), loadMap()]);
