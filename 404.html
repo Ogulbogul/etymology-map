@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Page not found | Etymology Map</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-top">
+        <a href="/index.html" class="site-brand">Etymology Map</a>
+        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+      </div>
+    </header>
+
+    <main class="doc-main">
+      <a class="back-link" href="/index.html">
+        <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to Etymology Map
+      </a>
+      <h1>Page not found</h1>
+      <p id="not-found-message">That page doesn't exist.</p>
+    </main>
+
+    <footer class="site-footer">
+      <a href="/index.html">Etymology Map</a>
+      <a href="/about.html">About</a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var THEME_KEY = "etymology-map-theme";
+      var btn = document.getElementById("theme-toggle-btn");
+      function isDarkActive() {
+        var explicit = document.documentElement.getAttribute("data-theme");
+        if (explicit === "dark") return true;
+        if (explicit === "light") return false;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches;
+      }
+      function applyTheme(theme) {
+        if (theme === "dark" || theme === "light") {
+          document.documentElement.setAttribute("data-theme", theme);
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+        }
+        var dark = isDarkActive();
+        btn.textContent = dark ? "☀️" : "🌙";
+        btn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      }
+      var stored = null;
+      try { stored = localStorage.getItem(THEME_KEY); } catch (err) {}
+      applyTheme(stored);
+      btn.addEventListener("click", function () {
+        var next = isDarkActive() ? "light" : "dark";
+        try { localStorage.setItem(THEME_KEY, next); } catch (err) {}
+        applyTheme(next);
+      });
+    })();
+
+    // Best-effort "did you mean" for a mistyped /words/<slug> URL: guesses
+    // the intended word from the path and checks it against the real word
+    // list by edit distance, same approach as the main search's did-you-mean.
+    (function () {
+      function levenshtein(a, b) {
+        var m = a.length, n = b.length;
+        if (m === 0) return n;
+        if (n === 0) return m;
+        var prev = [], curr = [];
+        for (var j = 0; j <= n; j++) prev[j] = j;
+        for (var i = 1; i <= m; i++) {
+          curr[0] = i;
+          for (j = 1; j <= n; j++) {
+            var cost = a[i - 1] === b[j - 1] ? 0 : 1;
+            curr[j] = Math.min(curr[j - 1] + 1, prev[j] + 1, prev[j - 1] + cost);
+          }
+          var tmp = prev; prev = curr; curr = tmp;
+        }
+        return prev[n];
+      }
+
+      var match = window.location.pathname.match(/\/words\/([^/]+)/);
+      var guess = match ? decodeURIComponent(match[1]).replace(/-/g, " ").trim() : "";
+      var msgEl = document.getElementById("not-found-message");
+      if (!guess) return;
+
+      msgEl.textContent = '"' + guess + '" isn\'t a page on this site.';
+
+      fetch("/data/words-index.json")
+        .then(function (res) { return res.json(); })
+        .then(function (wordIndex) {
+          var words = Object.keys(wordIndex);
+          var q = guess.toLowerCase();
+          var threshold = q.length <= 4 ? 1 : q.length <= 7 ? 2 : 3;
+          var suggestions = words
+            .map(function (w) { return { word: w, dist: levenshtein(q, w.toLowerCase()) }; })
+            .filter(function (s) { return s.dist <= threshold; })
+            .sort(function (a, b) { return a.dist - b.dist || a.word.localeCompare(b.word); })
+            .slice(0, 3)
+            .map(function (s) { return s.word; });
+
+          if (suggestions.length === 0) return;
+
+          var wrap = document.createElement("span");
+          wrap.appendChild(document.createTextNode(" Did you mean "));
+          suggestions.forEach(function (s, i) {
+            var a = document.createElement("a");
+            a.className = "suggestion-link";
+            a.href = "/words/" + s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+            a.textContent = s;
+            wrap.appendChild(a);
+            if (i < suggestions.length - 1) {
+              wrap.appendChild(document.createTextNode(i === suggestions.length - 2 ? ", or " : ", "));
+            }
+          });
+          wrap.appendChild(document.createTextNode("?"));
+          msgEl.appendChild(wrap);
+        })
+        .catch(function () {});
+    })();
+  </script>
+</body>
+</html>

@@ -21,7 +21,8 @@ discover every word page without any separate manual step.
 import json
 import sys
 from pathlib import Path
-from urllib.parse import quote
+
+import build_pages
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "words"
@@ -38,7 +39,7 @@ def write_sitemap(words):
     static_pages = ["", "about.html", "privacy.html"]
     urls = [f"{SITE_URL}/{page}" for page in static_pages]
     urls += [
-        f"{SITE_URL}/word.html?word={quote(word)}" for word in words
+        f"{SITE_URL}/words/{build_pages.slugify(word)}" for word in words
     ]
     entries = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
     xml = (
@@ -114,6 +115,7 @@ def main():
         encoding="utf-8",
     )
     write_sitemap(sorted_index)
+    build_pages.generate_all(sorted_index)
 
     print(f"Saved {len(new_entries)} word(s). Collection now has {len(sorted_index)} total.")
 

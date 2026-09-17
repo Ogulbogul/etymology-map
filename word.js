@@ -1,16 +1,11 @@
-// Standalone per-word page. Reads ?word=<slug> from the URL and renders
-// just that word's stage list and map, reusing the same rendering,
-// pan/zoom, and share-card logic as the main app (app.js), but without
-// the search box, word list, or autocomplete: this page is a single
-// word's permalink, not the explorer.
-//
-// Note on social previews: the title/description/OG tags below are set
-// with JavaScript after the page loads. That's enough for the browser
-// tab title and for crawlers that execute JS (Googlebot generally does),
-// but a few social unfurlers (notably Twitter/X, Facebook) only read the
-// raw HTML response and won't see these. Getting per-word OG images to
-// show up everywhere would require pre-generating a static HTML file per
-// word (a build step) rather than rendering client-side like this.
+// Standalone per-word page (words/<slug>.html, statically pre-rendered by
+// build_pages.py). The title, meta tags, and stage-by-stage content already
+// exist in the raw HTML the server sends; this script reads that same data
+// back out of the embedded <script id="word-data"> tag and layers the
+// interactive map, pan/zoom, and share-card generation on top, reusing the
+// same rendering logic as the main app (app.js), but without the search
+// box, word list, or autocomplete: this page is a single word's permalink,
+// not the explorer.
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -76,33 +71,28 @@ function clamp(value, min, max) {
 
 async function loadWordIndex() {
   try {
-    const res = await fetch("data/words-index.json");
+    const res = await fetch("/data/words-index.json");
     wordIndex = await res.json();
   } catch (err) {
     wordIndex = {};
-    console.error("Could not load data/words-index.json", err);
+    console.error("Could not load /data/words-index.json", err);
   }
 }
 
-// Fetches one word's full stop-by-stop data on demand, so this page only
-// ever downloads the one word it's actually rendering.
-async function fetchWordEntry(word) {
-  try {
-    const res = await fetch(`data/words/${encodeURIComponent(word)}.json`);
-    if (!res.ok) return null;
-    return await res.json();
-  } catch (err) {
-    console.error(`Could not load data/words/${word}.json`, err);
-    return null;
-  }
+function slugify(word) {
+  return word
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js"),
-      import("./vendor/topojson-client.js"),
-      fetch("vendor/land-110m.json"),
+      import("/vendor/d3-geo.js"),
+      import("/vendor/topojson-client.js"),
+      fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
     const topology = await landResp.json();
@@ -318,7 +308,7 @@ function renderRelatedWords(baseWord, originLang) {
   picks.forEach((key) => {
     const a = document.createElement("a");
     a.className = "related-word-item";
-    a.href = `word.html?word=${encodeURIComponent(key)}`;
+    a.href = `/words/${slugify(key)}`;
     a.textContent = key;
     relatedWordsGridEl.appendChild(a);
   });
@@ -329,11 +319,17 @@ function renderWordPage(word, entry, baseWord) {
   resultEl.hidden = false;
   resultHeaderEl.hidden = false;
   resultWordTextEl.textContent = word;
+  const baseSlug = slugify(baseWord);
+  // The page's static HTML already has stage rows and a trail for the
+  // no-JS/crawler case; clear them before rebuilding interactively so we
+  // don't end up with two copies once JS runs.
+  panelEl.innerHTML = "";
+  resultTrailEl.innerHTML = "";
 
   entry.stops.forEach((stop, idx) => {
     const row = document.createElement("a");
     row.className = "stop-row";
-    row.href = `word.html?word=${encodeURIComponent(baseWord)}&stop=${idx + 1}`;
+    row.href = `/words/${baseSlug}?stop=${idx + 1}`;
     row.title = `View ${stop.word}'s stage`;
     row.dataset.idx = String(idx);
     row.innerHTML = `
@@ -363,7 +359,7 @@ function renderWordPage(word, entry, baseWord) {
     }
     const item = document.createElement("a");
     item.className = "trail-item";
-    item.href = `word.html?word=${encodeURIComponent(baseWord)}&stop=${idx + 1}`;
+    item.href = `/words/${baseSlug}?stop=${idx + 1}`;
     item.title = `View ${stop.word}'s stage`;
     item.dataset.idx = String(idx);
     item.textContent = stop.word;
@@ -464,7 +460,7 @@ function showNotFound(raw) {
   if (!raw) {
     notFoundEl.appendChild(document.createTextNode("No word was specified. "));
     const link = document.createElement("a");
-    link.href = "index.html";
+    link.href = "/index.html";
     link.textContent = "Go trace one";
     notFoundEl.appendChild(link);
     notFoundEl.appendChild(document.createTextNode("."));
@@ -482,7 +478,7 @@ function showNotFound(raw) {
     suggestions.forEach((s, i) => {
       const link = document.createElement("a");
       link.className = "suggestion-link";
-      link.href = `word.html?word=${encodeURIComponent(s)}`;
+      link.href = `/words/${slugify(s)}`;
       link.textContent = s;
       wrap.appendChild(link);
       if (i < suggestions.length - 1) {
@@ -966,16 +962,13 @@ setupCopyLink();
 setupThemeToggle();
 
 (async function init() {
-  const params = new URLSearchParams(window.location.search);
-  const raw = params.get("word");
-  const normalized = raw ? raw.trim().toLowerCase() : "";
-  const stopParam = params.get("stop");
+  const dataEl = document.getElementById("word-data");
+  const pageData = dataEl ? JSON.parse(dataEl.textContent) : null;
+  const normalized = pageData ? pageData.word : "";
+  const entry = pageData ? { stops: pageData.stops, current_meaning: pageData.current_meaning } : null;
+  const stopParam = new URLSearchParams(window.location.search).get("stop");
 
-  const [, , entry] = await Promise.all([
-    loadWordIndex(),
-    loadMap(),
-    normalized ? fetchWordEntry(normalized) : Promise.resolve(null),
-  ]);
+  await Promise.all([loadWordIndex(), loadMap()]);
 
   if (entry) {
     const totalStops = entry.stops.length;
@@ -990,7 +983,12 @@ setupThemeToggle();
       : entry;
     const displayWord = entry.stops[stopCount - 1].word;
 
-    setMetaTags(displayWord, displayEntry, normalized, isPartial ? { stopCount, totalStops } : null);
+    // Only override the baked-in title/description for a partial (?stop=)
+    // view — the full-journey view's static tags are already correct and
+    // more descriptive than what setMetaTags would generate.
+    if (isPartial) {
+      setMetaTags(displayWord, displayEntry, normalized, { stopCount, totalStops });
+    }
     renderWordPage(displayWord, displayEntry, normalized);
 
     const originLang = entry.stops[0].lang;
@@ -1002,7 +1000,7 @@ setupThemeToggle();
     if (isPartial) {
       partialStageNumEl.textContent = String(stopCount);
       partialStageTotalEl.textContent = String(totalStops);
-      partialFullLinkEl.href = `word.html?word=${encodeURIComponent(normalized)}`;
+      partialFullLinkEl.href = `/words/${slugify(normalized)}`;
       partialNoticeEl.hidden = false;
       badgeLabelEl.textContent = "At this point it meant";
     } else {

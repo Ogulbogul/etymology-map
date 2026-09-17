@@ -66,6 +66,14 @@ let lastPoints = null;
 const view = { x: 0, y: 0, k: 1 };
 let viewAnimFrame = null;
 
+function slugify(word) {
+  return word
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function manualProject(lon, lat) {
   const x = ((lon + 180) / 360) * MAP_WIDTH;
   const y = ((90 - lat) / 180) * MAP_HEIGHT;
@@ -642,11 +650,12 @@ function renderWord(word, entry) {
   resultEl.classList.remove("is-empty");
   resultHeaderEl.hidden = false;
   resultWordTextEl.textContent = word;
+  const wordSlug = slugify(word);
 
   entry.stops.forEach((stop, idx) => {
     const row = document.createElement("a");
     row.className = "stop-row";
-    row.href = `word.html?word=${encodeURIComponent(word)}&stop=${idx + 1}`;
+    row.href = `/words/${wordSlug}?stop=${idx + 1}`;
     row.target = "_blank";
     row.rel = "noopener";
     row.title = `Open ${stop.word}'s page`;
@@ -678,7 +687,7 @@ function renderWord(word, entry) {
     }
     const item = document.createElement("a");
     item.className = "trail-item";
-    item.href = `word.html?word=${encodeURIComponent(word)}&stop=${idx + 1}`;
+    item.href = `/words/${wordSlug}?stop=${idx + 1}`;
     item.target = "_blank";
     item.rel = "noopener";
     item.title = `Open ${stop.word}'s page`;
