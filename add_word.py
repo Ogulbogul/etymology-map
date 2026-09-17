@@ -15,16 +15,39 @@ data/words-index.json (word -> origin language, used for search/autocomplete/
 word-list/related-words without fetching every word's full data) is
 regenerated from every file in data/words/. Words already present are
 overwritten (with a warning) so you can also use this to fix an existing
-entry.
+entry. sitemap.xml is also regenerated every run, so search engines can
+discover every word page without any separate manual step.
 """
 import json
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "words"
 INDEX_PATH = ROOT / "data" / "words-index.json"
+SITEMAP_PATH = ROOT / "sitemap.xml"
+SITE_URL = "https://etymologymap.com"
 REQUIRED_STOP_FIELDS = ("word", "lang", "era", "note", "meaning", "lat", "lon")
+
+
+def write_sitemap(words):
+    """Regenerates sitemap.xml from the full word list, so every word page
+    stays discoverable to search engines without any manual upkeep — this
+    runs automatically every time this script runs, alongside the index."""
+    static_pages = ["", "about.html", "privacy.html"]
+    urls = [f"{SITE_URL}/{page}" for page in static_pages]
+    urls += [
+        f"{SITE_URL}/word.html?word={quote(word)}" for word in words
+    ]
+    entries = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{entries}\n"
+        "</urlset>\n"
+    )
+    SITEMAP_PATH.write_text(xml, encoding="utf-8")
 
 
 def validate_entry(word, entry):
@@ -90,6 +113,7 @@ def main():
         json.dumps(sorted_index, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+    write_sitemap(sorted_index)
 
     print(f"Saved {len(new_entries)} word(s). Collection now has {len(sorted_index)} total.")
 
