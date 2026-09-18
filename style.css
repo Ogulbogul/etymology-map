@@ -74,14 +74,9 @@ body {
   padding: 32px 24px 60px;
 }
 
-/* The search "hero" (title, tagline, search bar, word list) stays a
-   centered, readable column even on wide screens; the result area below
-   (stage cards + map) is intentionally wider, so it isn't constrained
-   here and keeps its own full-width two-column layout. */
-header {
-  max-width: 640px;
-  margin: 0 auto;
-}
+/* The search "hero" (title, tagline, search bar, word list) spans the
+   full width of #app, left-aligned, matching the result area below
+   (stage cards + map) instead of sitting in its own narrower column. */
 
 .header-top {
   display: flex;
@@ -133,7 +128,7 @@ header h1 {
 .input-wrap {
   position: relative;
   flex: 1;
-  min-width: 0;
+  min-width: 200px;
 }
 
 #word-input {
@@ -903,16 +898,16 @@ main#result {
 
 .pin-group.active .pin-dot {
   fill: var(--pin-active);
-  r: 9.5;
+  r: 12;
 }
 
 .pin-label {
-  font-size: 14px;
+  font-size: 17px;
   fill: var(--text);
   font-weight: 600;
   paint-order: stroke;
   stroke: var(--bg);
-  stroke-width: 3px;
+  stroke-width: 3.5px;
   stroke-linejoin: round;
   pointer-events: none;
 }

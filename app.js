@@ -511,8 +511,8 @@ function updatePinPositions() {
     const label = g.querySelector(".pin-label");
     circle.setAttribute("cx", sx);
     circle.setAttribute("cy", sy);
-    label.setAttribute("x", sx + 10);
-    label.setAttribute("y", sy - 9);
+    label.setAttribute("x", sx + 13);
+    label.setAttribute("y", sy - 11);
   });
 }
 
@@ -589,38 +589,85 @@ function zoomAroundPoint(point, factor) {
 }
 
 function setupPanZoom() {
-  let dragging = false;
+  // Tracks every finger/pointer currently down on the map, keyed by
+  // pointerId, in SVG viewBox coordinates. One active pointer pans; two
+  // pins to pinch-zoom (distance-ratio between them each move, applied as
+  // an incremental factor around their midpoint, same as a wheel tick).
+  const activePointers = new Map();
   let dragStart = null;
   let viewAtDragStart = null;
+  let pinchPrevDist = null;
+
+  function activePoints() {
+    return [...activePointers.values()];
+  }
+  function pointDist(p1, p2) {
+    return Math.hypot(p2.x - p1.x, p2.y - p1.y);
+  }
+  function pointMid(p1, p2) {
+    return { x: (p1.x + p2.x) / 2, y: (p1.y + p2.y) / 2 };
+  }
+  function beginSingleDrag() {
+    dragStart = activePoints()[0];
+    viewAtDragStart = { ...view };
+  }
 
   mapSvg.addEventListener("pointerdown", (e) => {
-    dragging = true;
     if (viewAnimFrame) {
       clearTimeout(viewAnimFrame);
       viewAnimFrame = null;
     }
-    mapSvg.setPointerCapture(e.pointerId);
-    dragStart = toSvgPoint(e);
-    viewAtDragStart = { ...view };
+    try {
+      mapSvg.setPointerCapture(e.pointerId);
+    } catch (err) {
+      // Some browsers reject capturing a pointer mid-gesture (e.g. the
+      // second finger of a pinch); tracking below still works without it.
+    }
+    activePointers.set(e.pointerId, toSvgPoint(e));
     mapCanvasEl.classList.add("dragging");
+
+    if (activePointers.size === 1) {
+      beginSingleDrag();
+      pinchPrevDist = null;
+    } else if (activePointers.size === 2) {
+      dragStart = null;
+      const [p1, p2] = activePoints();
+      pinchPrevDist = pointDist(p1, p2);
+    }
   });
 
   mapSvg.addEventListener("pointermove", (e) => {
-    if (!dragging) return;
-    const cur = toSvgPoint(e);
-    setView({
-      x: viewAtDragStart.x + (cur.x - dragStart.x),
-      y: viewAtDragStart.y + (cur.y - dragStart.y),
-      k: viewAtDragStart.k,
-    });
+    if (!activePointers.has(e.pointerId)) return;
+    activePointers.set(e.pointerId, toSvgPoint(e));
+
+    if (activePointers.size >= 2) {
+      const [p1, p2] = activePoints();
+      const d = pointDist(p1, p2);
+      if (pinchPrevDist) zoomAroundPoint(pointMid(p1, p2), d / pinchPrevDist);
+      pinchPrevDist = d;
+    } else if (activePointers.size === 1 && dragStart) {
+      const cur = activePoints()[0];
+      setView({
+        x: viewAtDragStart.x + (cur.x - dragStart.x),
+        y: viewAtDragStart.y + (cur.y - dragStart.y),
+        k: viewAtDragStart.k,
+      });
+    }
   });
 
-  function endDrag() {
-    dragging = false;
-    mapCanvasEl.classList.remove("dragging");
+  function releasePointer(e) {
+    activePointers.delete(e.pointerId);
+    if (activePointers.size === 0) {
+      mapCanvasEl.classList.remove("dragging");
+      dragStart = null;
+      pinchPrevDist = null;
+    } else if (activePointers.size === 1) {
+      beginSingleDrag();
+      pinchPrevDist = null;
+    }
   }
-  mapSvg.addEventListener("pointerup", endDrag);
-  mapSvg.addEventListener("pointercancel", endDrag);
+  mapSvg.addEventListener("pointerup", releasePointer);
+  mapSvg.addEventListener("pointercancel", releasePointer);
 
   mapSvg.addEventListener(
     "wheel",
@@ -737,7 +784,7 @@ function renderWord(word, entry) {
     g.dataset.cy = String(y);
 
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    circle.setAttribute("r", 6.5);
+    circle.setAttribute("r", 8.5);
     circle.setAttribute("class", "pin-dot");
 
     const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
