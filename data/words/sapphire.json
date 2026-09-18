@@ -4,10 +4,28 @@
       "word": "sappir",
       "lang": "Hebrew",
       "era": "ancient",
-      "note": "possibly referring to lapis lazuli, an ancient blue stone",
+      "note": "possibly referring to lapis lazuli, an ancient blue stone; ultimate source disputed",
       "meaning": "a blue precious stone",
       "lat": 31.77,
       "lon": 35.21
+    },
+    {
+      "word": "sappheiros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "name of a blue precious stone, possibly borrowed from a Semitic source",
+      "meaning": "a blue precious stone",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sapphirus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek sappheiros",
+      "meaning": "a blue precious stone",
+      "lat": 41.9,
+      "lon": 12.5
     },
     {
       "word": "saphir",

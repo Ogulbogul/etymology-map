@@ -13,25 +13,34 @@
       "word": "zarqun",
       "lang": "Arabic",
       "era": "medieval",
-      "note": "adopted for the golden-hued gem",
-      "meaning": "a golden gemstone",
+      "note": "literally \"cinnabar\", reinterpreted as a name for golden-hued gems",
+      "meaning": "cinnabar; a golden gemstone",
       "lat": 33.31,
       "lon": 44.36
     },
     {
-      "word": "zircon",
-      "lang": "French/German",
+      "word": "jargon",
+      "lang": "French",
       "era": "1700s",
-      "note": "adopted into European mineralogy",
-      "meaning": "the zirconium silicate gemstone",
+      "note": "a vague gem-trade term (via Medieval Latin jargonce) for pale, diamond-like gemstones",
+      "meaning": "a pale gemstone",
       "lat": 48.85,
       "lon": 2.35
     },
     {
+      "word": "Zirkon",
+      "lang": "German",
+      "era": "1789",
+      "note": "coined by chemist Martin Klaproth, adapting French jargon, for the newly identified mineral",
+      "meaning": "the zirconium silicate mineral",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
       "word": "zircon",
       "lang": "English",
-      "era": "1700s",
-      "note": "settled as the English mineral name",
+      "era": "1794",
+      "note": "adopted from German for the mineral",
       "meaning": "a hard, brilliant gemstone",
       "lat": 51.51,
       "lon": -0.13

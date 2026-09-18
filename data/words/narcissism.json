@@ -10,10 +10,19 @@
       "lon": 23.73
     },
     {
+      "word": "Narzissismus",
+      "lang": "German",
+      "era": "1899",
+      "note": "coined by German psychiatrist Paul Näcke for excessive self-love, from the myth",
+      "meaning": "excessive self-love",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
       "word": "narcissism",
       "lang": "English",
-      "era": "1890s",
-      "note": "coined from the myth by early psychologists for excessive self-love",
+      "era": "1900s",
+      "note": "adopted from German for excessive interest in or admiration of oneself",
       "meaning": "excessive interest in or admiration of oneself",
       "lat": 51.51,
       "lon": -0.13

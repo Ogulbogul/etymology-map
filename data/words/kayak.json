@@ -2,18 +2,27 @@
   "stops": [
     {
       "word": "qajaq",
-      "lang": "Inuktitut/Yupik",
+      "lang": "Greenlandic (Kalaallisut)",
       "era": "pre-contact",
-      "note": "a sealskin-covered hunting boat used across the Arctic",
+      "note": "a sealskin-covered hunting boat used by Greenlandic Inuit",
       "meaning": "small hunting boat",
       "lat": 72.0,
       "lon": -40.0
     },
     {
+      "word": "kajak",
+      "lang": "Danish",
+      "era": "1700s",
+      "note": "borrowed from Greenlandic Inuit through Danish colonial contact",
+      "meaning": "a small skin-covered boat",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    {
       "word": "kayak",
       "lang": "English",
       "era": "c. 1750s",
-      "note": "adopted via European contact with Arctic Inuit communities",
+      "note": "adopted via Danish contact with Arctic Inuit communities",
       "meaning": "a small, narrow boat with a covered deck",
       "lat": 51.51,
       "lon": -0.13

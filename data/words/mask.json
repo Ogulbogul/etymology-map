@@ -19,9 +19,18 @@
       "lon": 12.5
     },
     {
+      "word": "masque",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a covering to hide or guard the face",
+      "meaning": "a face covering",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "mask",
       "lang": "English",
-      "era": "1500s",
+      "era": "1530s",
       "note": "settled as the English word for a face covering",
       "meaning": "a covering worn over the face",
       "lat": 51.51,

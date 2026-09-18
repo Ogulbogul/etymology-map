@@ -1,13 +1,31 @@
 {
   "stops": [
     {
-      "word": "kammun",
-      "lang": "Arabic",
-      "era": "medieval",
-      "note": "the name for the aromatic seed used widely in Middle Eastern cooking",
+      "word": "kyminon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "cognate with Semitic terms such as Hebrew kammon and Arabic kammun, but the actual source of the Latin and English words",
       "meaning": "the cumin seed",
-      "lat": 33.31,
-      "lon": 44.36
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cuminum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek",
+      "meaning": "the cumin seed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cymen",
+      "lang": "Old English",
+      "era": "old english",
+      "note": "from Latin cuminum",
+      "meaning": "the cumin seed",
+      "lat": 51.51,
+      "lon": -0.13
     },
     {
       "word": "cumin",

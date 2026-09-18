@@ -4,10 +4,19 @@
       "word": "sarkazein",
       "lang": "Greek",
       "era": "ancient",
-      "note": "literally to tear flesh, from sarx (flesh), describing brutally cutting mockery",
+      "note": "literally to tear flesh, from sarx (flesh); formed the noun sarkasmos, a sneer or taunt",
       "meaning": "to tear flesh, to speak bitterly",
       "lat": 37.98,
       "lon": 23.73
+    },
+    {
+      "word": "sarcasmus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "borrowed from Late Greek sarkasmos",
+      "meaning": "a sneer, jest, taunt, mockery",
+      "lat": 41.9,
+      "lon": 12.5
     },
     {
       "word": "sarcasm",

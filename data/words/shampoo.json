@@ -1,6 +1,15 @@
 {
   "stops": [
     {
+      "word": "capayati",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meaning \"pounds, kneads\"; root of the Hindi imperative champo",
+      "meaning": "to press, to knead",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
       "word": "chāmpo",
       "lang": "Hindi",
       "era": "1700s",

@@ -4,19 +4,19 @@
       "word": "stare",
       "lang": "Latin",
       "era": "ancient",
-      "note": "to stand",
+      "note": "to stand; present participle stans/stantis formed Vulgar Latin stantia, \"place, abode\"",
       "meaning": "to stand",
       "lat": 41.9,
       "lon": 12.5
     },
     {
-      "word": "stanza",
-      "lang": "Italian",
-      "era": "medieval",
-      "note": "settled in Italian for a standing place, a stopping point",
-      "meaning": "a standing place",
-      "lat": 41.9,
-      "lon": 12.5
+      "word": "stance",
+      "lang": "French",
+      "era": "1500s",
+      "note": "from Vulgar Latin stantia; meant \"resting place, harbor\" (cf. the related but separate Italian stanza)",
+      "meaning": "a resting place, a station",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "stance",

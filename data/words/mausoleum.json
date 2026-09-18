@@ -1,7 +1,7 @@
 {
   "stops": [
     {
-      "word": "Mausolos",
+      "word": "Mausoleion",
       "lang": "Greek",
       "era": "ancient",
       "note": "a Persian satrap whose legendary tomb was one of the Seven Wonders of the ancient world",
@@ -11,8 +11,17 @@
     },
     {
       "word": "mausoleum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted from Greek for the grand tomb of Mausolos",
+      "meaning": "a grand tomb",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mausoleum",
       "lang": "English",
-      "era": "1600s",
+      "era": "1400s",
       "note": "broadened from the specific tomb to any grand, stately burial structure",
       "meaning": "a grand, stately tomb",
       "lat": 51.51,

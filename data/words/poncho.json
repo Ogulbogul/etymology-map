@@ -1,8 +1,8 @@
 {
   "stops": [
     {
-      "word": "punchu",
-      "lang": "Mapuche/Quechua",
+      "word": "pontho",
+      "lang": "Mapuche (Araucanian)",
       "era": "pre-1500s",
       "note": "a simple woolen cloak with a hole for the head",
       "meaning": "a woolen cloak",
@@ -13,10 +13,10 @@
       "word": "poncho",
       "lang": "Spanish",
       "era": "1600s-1700s",
-      "note": "adopted from indigenous South American peoples via Spanish colonial contact",
+      "note": "adopted from Mapuche via Spanish colonial contact in Chile",
       "meaning": "a cloak with a head opening",
-      "lat": 40.42,
-      "lon": -3.7
+      "lat": -33.45,
+      "lon": -70.65
     },
     {
       "word": "poncho",

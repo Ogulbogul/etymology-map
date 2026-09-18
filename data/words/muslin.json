@@ -19,10 +19,19 @@
       "lon": 12.33
     },
     {
+      "word": "mousseline",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the French form that carried the fabric's name into European trade",
+      "meaning": "a fine, lightweight fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "muslin",
       "lang": "English",
       "era": "1600s",
-      "note": "adopted through French and Italian textile trade",
+      "note": "adopted from French for the lightweight cotton fabric",
       "meaning": "a lightweight, plain-woven cotton fabric",
       "lat": 51.51,
       "lon": -0.13

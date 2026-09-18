@@ -10,6 +10,24 @@
       "lon": 23.73
     },
     {
+      "word": "Musa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Latin form of the Greek goddess name",
+      "meaning": "a goddess of artistic inspiration",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Muse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the Old French form that passed into English",
+      "meaning": "a source of artistic inspiration",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "muse",
       "lang": "English",
       "era": "1400s",

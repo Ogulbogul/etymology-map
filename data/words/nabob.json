@@ -1,8 +1,17 @@
 {
   "stops": [
     {
-      "word": "nawab",
-      "lang": "Urdu/Hindi",
+      "word": "nuwwab",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "honorific plural of na'ib, \"viceroy, deputy\"",
+      "meaning": "viceroys, deputies",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "nabab",
+      "lang": "Hindi",
       "era": "medieval",
       "note": "a title for a Mughal provincial governor",
       "meaning": "a provincial governor",

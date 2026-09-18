@@ -1,7 +1,7 @@
 {
   "stops": [
     {
-      "word": "khaṇḍa",
+      "word": "khanda",
       "lang": "Sanskrit",
       "era": "ancient",
       "note": "referred to a piece or crystal of raw sugar",
@@ -10,13 +10,22 @@
       "lon": 82.99
     },
     {
-      "word": "qandī",
-      "lang": "Persian/Arabic",
+      "word": "qand",
+      "lang": "Persian",
       "era": "medieval",
-      "note": "described sugar crystallized into candied form",
-      "meaning": "candied, crystallized sugar",
+      "note": "meaning cane sugar, carried along trade routes from Sanskrit",
+      "meaning": "cane sugar",
       "lat": 32.65,
       "lon": 51.67
+    },
+    {
+      "word": "qandi",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "adopted from Persian, describing sugar crystallized into candied form",
+      "meaning": "candied, crystallized sugar",
+      "lat": 33.31,
+      "lon": 44.36
     },
     {
       "word": "sucre candi",

@@ -1,10 +1,19 @@
 {
   "stops": [
     {
+      "word": "telesma",
+      "lang": "Byzantine Greek",
+      "era": "medieval",
+      "note": "from Greek telos (\"completion\"); meant consecration, religious rite, or payment",
+      "meaning": "consecration, religious rite",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
       "word": "tilasm",
       "lang": "Arabic",
       "era": "medieval",
-      "note": "an object marked with magical signs, believed to bring luck or protection, from Greek telesma (completion, rite)",
+      "note": "an object marked with magical signs, believed to bring luck or protection, borrowed from Byzantine Greek telesma",
       "meaning": "a magical protective object",
       "lat": 33.31,
       "lon": 44.36

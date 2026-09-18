@@ -10,19 +10,28 @@
       "lon": 12.5
     },
     {
-      "word": "regime",
-      "lang": "French",
+      "word": "regimen",
+      "lang": "Old French",
       "era": "medieval",
-      "note": "carried into French governmental vocabulary",
+      "note": "carried into French governmental and administrative vocabulary",
       "meaning": "a system of government or rule",
       "lat": 48.85,
       "lon": 2.35
     },
     {
       "word": "regime",
+      "lang": "French",
+      "era": "1700s",
+      "note": "settled in modern French for a system of government or administration",
+      "meaning": "a system of government or administration",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "regime",
       "lang": "English",
-      "era": "1500s",
-      "note": "settled as the English word for a system of government or management",
+      "era": "1792",
+      "note": "adopted directly from French in the specifically political sense of a system of government or rule",
       "meaning": "a system of government or management",
       "lat": 51.51,
       "lon": -0.13

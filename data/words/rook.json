@@ -4,16 +4,43 @@
       "word": "rukh",
       "lang": "Persian",
       "era": "medieval",
-      "note": "a chariot, one of the pieces in the ancient game of chess",
+      "note": "a chariot, one of the pieces in the ancient game of chess; the exact meaning of the original term is uncertain",
       "meaning": "a chariot",
       "lat": 35.69,
       "lon": 51.39
     },
     {
+      "word": "rukhkh",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "adopted from Persian as the game of chess spread through the Arab world",
+      "meaning": "the rook chess piece",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "rocus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "carried into Medieval Latin from Arabic as chess spread into Europe",
+      "meaning": "the rook chess piece",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "roc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French chess vocabulary from Medieval Latin",
+      "meaning": "the rook chess piece",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "rook",
       "lang": "English",
       "era": "1300s",
-      "note": "settled as the English name for the chess piece shaped like a tower",
+      "note": "settled as the English name for the chess piece shaped like a tower, from Old French roc",
       "meaning": "a chess piece moving in straight lines",
       "lat": 51.51,
       "lon": -0.13

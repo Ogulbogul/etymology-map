@@ -4,10 +4,28 @@
       "word": "manus",
       "lang": "Latin",
       "era": "ancient",
-      "note": "hand, combined with facere (to make)",
+      "note": "hand, combined with factura (a making) from facere (to make)",
       "meaning": "hand",
       "lat": 41.9,
       "lon": 12.5
+    },
+    {
+      "word": "manufactura",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a making by hand",
+      "meaning": "a making by hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "manufacture",
+      "lang": "French",
+      "era": "1500s",
+      "note": "the process of making something, especially by hand",
+      "meaning": "process of making",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "manufacture",

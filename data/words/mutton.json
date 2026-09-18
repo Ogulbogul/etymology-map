@@ -2,12 +2,21 @@
   "stops": [
     {
       "word": "multo",
-      "lang": "Gaulish/Latin",
+      "lang": "Gaulish (Celtic)",
       "era": "ancient",
-      "note": "a Gaulish-derived word for sheep used in Vulgar Latin",
+      "note": "a Celtic word for sheep, current in Gaul before and during Roman rule",
       "meaning": "sheep",
       "lat": 48.85,
       "lon": 2.35
+    },
+    {
+      "word": "multonem",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "the Gallo-Roman Latin form of the Celtic word, source of Old French moton",
+      "meaning": "sheep",
+      "lat": 41.9,
+      "lon": 12.5
     },
     {
       "word": "moton",

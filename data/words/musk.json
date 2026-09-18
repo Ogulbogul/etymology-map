@@ -20,12 +20,30 @@
     },
     {
       "word": "moschos",
-      "lang": "Greek",
+      "lang": "Late Greek",
       "era": "ancient",
       "note": "carried the aromatic substance west along trade routes",
       "meaning": "musk",
       "lat": 37.98,
       "lon": 23.73
+    },
+    {
+      "word": "muscus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "the Latin form used by European traders and scholars",
+      "meaning": "musk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "musc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the French form that passed the word into English",
+      "meaning": "musk",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "musk",

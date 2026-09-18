@@ -10,9 +10,18 @@
       "lon": -99.13
     },
     {
+      "word": "mezquite",
+      "lang": "Mexican Spanish",
+      "era": "1600s-1700s",
+      "note": "adapted from Nahuatl by Spanish-speaking settlers",
+      "meaning": "the mesquite tree",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
       "word": "mesquite",
       "lang": "English",
-      "era": "1800s",
+      "era": "1759",
       "note": "adopted directly through Spanish-speaking settlers of the American southwest",
       "meaning": "a thorny, drought-resistant tree",
       "lat": 51.51,

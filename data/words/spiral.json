@@ -10,9 +10,27 @@
       "lon": 23.73
     },
     {
+      "word": "spira",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek speira; formed the Medieval Latin adjective spiralis",
+      "meaning": "a coil, fold, twist",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "spiral",
+      "lang": "Middle French",
+      "era": "1500s",
+      "note": "from Medieval Latin spiralis",
+      "meaning": "winding around a fixed center",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "spiral",
       "lang": "English",
-      "era": "1560s",
+      "era": "1550s",
       "note": "settled as the English word for a curve winding continuously around a center",
       "meaning": "a curve winding continuously around a central point",
       "lat": 51.51,

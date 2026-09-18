@@ -1,19 +1,19 @@
 {
   "stops": [
     {
-      "word": "plunderen",
-      "lang": "Dutch/German",
+      "word": "plündern",
+      "lang": "German",
       "era": "medieval",
-      "note": "meaning \"to rob of household goods\", from \"plunder\" (household items)",
+      "note": "meaning \"to rob of household goods\", from Middle High German plunder (household goods, baggage)",
       "meaning": "to strip a household of goods",
-      "lat": 52.37,
-      "lon": 4.9
+      "lat": 52.52,
+      "lon": 13.4
     },
     {
       "word": "plunder",
       "lang": "English",
       "era": "1600s",
-      "note": "adopted during the Thirty Years' War through military contact",
+      "note": "adopted during the Thirty Years' War through contact with German-speaking mercenaries",
       "meaning": "to rob by force, especially during war",
       "lat": 51.51,
       "lon": -0.13

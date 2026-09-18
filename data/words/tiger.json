@@ -1,19 +1,37 @@
 {
   "stops": [
     {
-      "word": "tigris",
-      "lang": "Persian/Greek",
+      "word": "tigra- / tighri-",
+      "lang": "Avestan",
       "era": "ancient",
-      "note": "possibly from an old word for arrow, describing the animal's speed",
-      "meaning": "the tiger, or arrow-swift",
-      "lat": 35.69,
-      "lon": 51.39
+      "note": "sharp, pointed / arrow, an Iranian root possibly describing the animal's speed or its spotted look",
+      "meaning": "sharp, pointed; arrow",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "tigris",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "adopted from an Iranian source for the striped big cat",
+      "meaning": "the tiger",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tigris",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried directly from Greek into Latin",
+      "meaning": "the tiger",
+      "lat": 41.9,
+      "lon": 12.5
     },
     {
       "word": "tigre",
-      "lang": "Latin/Old French",
-      "era": "ancient",
-      "note": "carried through Greek and Latin into French animal vocabulary",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French animal vocabulary from Latin",
       "meaning": "the striped big cat",
       "lat": 48.85,
       "lon": 2.35

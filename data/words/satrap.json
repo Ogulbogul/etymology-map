@@ -10,6 +10,24 @@
       "lon": 52.89
     },
     {
+      "word": "satrapes",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "borrowed from Old Persian khshathrapavan",
+      "meaning": "a provincial governor of ancient Persia",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "satrapes",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek satrapes",
+      "meaning": "a provincial governor of ancient Persia",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
       "word": "satrap",
       "lang": "English",
       "era": "1400s",

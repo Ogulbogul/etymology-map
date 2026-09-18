@@ -1,18 +1,18 @@
 {
   "stops": [
     {
-      "word": "koedoe",
-      "lang": "Khoikhoi",
+      "word": "iqhude",
+      "lang": "Xhosa",
       "era": "1700s",
       "note": "the name for the large spiral-horned antelope of southern Africa",
       "meaning": "the kudu antelope",
-      "lat": -33.92,
-      "lon": 18.42
+      "lat": -32.3,
+      "lon": 27.4
     },
     {
       "word": "kudu",
       "lang": "English",
-      "era": "1800s",
+      "era": "1777",
       "note": "adopted by English-speaking colonists and naturalists",
       "meaning": "a large African antelope with spiral horns",
       "lat": 51.51,

@@ -1,19 +1,19 @@
 {
   "stops": [
     {
-      "word": "cannamella",
-      "lang": "Latin",
-      "era": "ancient",
-      "note": "literally \"sugar cane\"",
+      "word": "cannamellis",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "possibly combining canna (cane) and mellis (honey), though the origin is uncertain",
       "meaning": "sugar cane",
       "lat": 41.9,
       "lon": 12.5
     },
     {
-      "word": "caramelo",
-      "lang": "Spanish/Portuguese",
+      "word": "caramel",
+      "lang": "Old Spanish",
       "era": "medieval",
-      "note": "came to mean burnt sugar",
+      "note": "of uncertain origin, came to mean burnt sugar",
       "meaning": "burnt sugar",
       "lat": 40.42,
       "lon": -3.7
@@ -21,8 +21,8 @@
     {
       "word": "caramel",
       "lang": "French",
-      "era": "1700s",
-      "note": "adopted for the confection and its flavor",
+      "era": "1600s-1700s",
+      "note": "adopted from Spanish for the confection and its flavor",
       "meaning": "burnt-sugar confection",
       "lat": 48.85,
       "lon": 2.35
@@ -30,7 +30,7 @@
     {
       "word": "caramel",
       "lang": "English",
-      "era": "1700s-1800s",
+      "era": "1725",
       "note": "borrowed directly from French",
       "meaning": "a soft, chewy sugar candy",
       "lat": 51.51,

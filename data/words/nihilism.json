@@ -10,10 +10,19 @@
       "lon": 12.5
     },
     {
+      "word": "Nihilismus",
+      "lang": "German",
+      "era": "1817",
+      "note": "coined by German philosopher Friedrich Heinrich Jacobi for the doctrine of negation",
+      "meaning": "the doctrine of negation",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
       "word": "nihilism",
       "lang": "English",
       "era": "1810s",
-      "note": "coined for the philosophical rejection of all religious and moral principles",
+      "note": "adopted from German for the philosophical rejection of all religious and moral principles",
       "meaning": "the rejection of all religious and moral principles",
       "lat": 51.51,
       "lon": -0.13

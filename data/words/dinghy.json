@@ -2,12 +2,12 @@
   "stops": [
     {
       "word": "dingi",
-      "lang": "Bengali/Hindi",
+      "lang": "Hindi",
       "era": "medieval",
-      "note": "a small river boat used in South Asia",
+      "note": "a small river boat used in South Asia; perhaps ultimately from Sanskrit drona-m \"wooden trough\"",
       "meaning": "a small boat",
-      "lat": 22.57,
-      "lon": 88.36
+      "lat": 28.61,
+      "lon": 77.21
     },
     {
       "word": "dinghy",

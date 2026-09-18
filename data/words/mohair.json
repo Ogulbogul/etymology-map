@@ -10,9 +10,27 @@
       "lon": 44.36
     },
     {
+      "word": "mocaiarro",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "borrowed from Arabic for fine goat-hair cloth traded through Mediterranean ports",
+      "meaning": "fine goat-hair cloth",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "mocayart",
+      "lang": "French",
+      "era": "1500s",
+      "note": "carried the fabric name into French trade vocabulary",
+      "meaning": "fine goat-hair cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "mohair",
       "lang": "English",
-      "era": "1500s",
+      "era": "1560s",
       "note": "settled as the word for fine cloth woven from Angora goat hair",
       "meaning": "fabric woven from Angora goat hair",
       "lat": 51.51,

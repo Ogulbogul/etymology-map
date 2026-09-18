@@ -10,13 +10,22 @@
       "lon": 44.36
     },
     {
-      "word": "macrame",
-      "lang": "Turkish/French",
-      "era": "1800s",
-      "note": "carried through Ottoman Turkish into French decorative craft vocabulary",
-      "meaning": "knotted decorative cord work",
+      "word": "makrama",
+      "lang": "Turkish",
+      "era": "1700s",
+      "note": "a towel or napkin, carried through Ottoman Turkish trade",
+      "meaning": "towel, napkin",
       "lat": 41.01,
       "lon": 28.98
+    },
+    {
+      "word": "macrame",
+      "lang": "French",
+      "era": "1800s",
+      "note": "adapted into French decorative craft vocabulary",
+      "meaning": "knotted decorative cord work",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "macrame",

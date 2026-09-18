@@ -2,18 +2,27 @@
   "stops": [
     {
       "word": "aer",
-      "lang": "Latin/Greek",
+      "lang": "Greek",
       "era": "ancient",
-      "note": "meaning \"air\"",
-      "meaning": "air",
+      "note": "mist, haze, clouds, later broadened to mean the atmosphere or air",
+      "meaning": "mist, haze; air",
       "lat": 37.98,
       "lon": 23.73
+    },
+    {
+      "word": "aer",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek aer for the air or lower atmosphere",
+      "meaning": "air, atmosphere",
+      "lat": 41.9,
+      "lon": 12.5
     },
     {
       "word": "aria",
       "lang": "Italian",
       "era": "1600s",
-      "note": "named an expressive solo vocal piece in an opera",
+      "note": "literally air, named an expressive solo vocal piece in an opera",
       "meaning": "a solo song in an opera",
       "lat": 45.44,
       "lon": 12.33

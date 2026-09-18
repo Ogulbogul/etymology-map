@@ -1,10 +1,28 @@
 {
   "stops": [
     {
-      "word": "passer",
-      "lang": "Latin/French",
+      "word": "passus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a step, a pace, from the Proto-Indo-European root pete- (to spread)",
+      "meaning": "a step, a pace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "passare",
+      "lang": "Vulgar Latin",
       "era": "medieval",
-      "note": "meaning \"to pass\"",
+      "note": "to step, to walk, to pass, formed from passus",
+      "meaning": "to step, to walk, to pass",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "passer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried into French as the basic verb for 'to pass'",
       "meaning": "to pass",
       "lat": 48.85,
       "lon": 2.35
@@ -12,17 +30,17 @@
     {
       "word": "impasse",
       "lang": "French",
-      "era": "1700s",
-      "note": "literally \"not passable\", a dead-end street",
-      "meaning": "a dead end",
+      "era": "1600s-1700s",
+      "note": "literally 'not passable', formed from in- (not) and passe (a passing); said to have been introduced by Voltaire as a polite alternative to cul-de-sac",
+      "meaning": "an impassable road, a dead end",
       "lat": 48.85,
       "lon": 2.35
     },
     {
       "word": "impasse",
       "lang": "English",
-      "era": "1800s",
-      "note": "adopted figuratively for a deadlock",
+      "era": "1850s",
+      "note": "adopted from French, first literally for a dead-end street, then figuratively for a deadlock",
       "meaning": "a situation with no clear way forward",
       "lat": 51.51,
       "lon": -0.13

@@ -2,12 +2,12 @@
   "stops": [
     {
       "word": "knysh",
-      "lang": "Ukrainian/Polish",
+      "lang": "Russian",
       "era": "medieval",
-      "note": "a filled dumpling or pastry from Eastern Europe",
-      "meaning": "a filled dumpling",
-      "lat": 50.45,
-      "lon": 30.52
+      "note": "a kind of filled cake or pastry",
+      "meaning": "a kind of cake",
+      "lat": 55.75,
+      "lon": 37.62
     },
     {
       "word": "knish",

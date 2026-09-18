@@ -1,8 +1,17 @@
 {
   "stops": [
     {
+      "word": "kavurma",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "roasted meat, verbal noun of kavurmak, to roast or fry",
+      "meaning": "roasted meat",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
       "word": "qorma",
-      "lang": "Urdu/Turkic",
+      "lang": "Urdu",
       "era": "medieval",
       "note": "to braise, describing meat slowly cooked in a rich, spiced sauce",
       "meaning": "to braise",

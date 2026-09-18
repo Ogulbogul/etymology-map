@@ -10,10 +10,19 @@
       "lon": 44.36
     },
     {
-      "word": "moussaka",
-      "lang": "Greek/Turkish",
-      "era": "1800s",
-      "note": "adapted into a baked, layered eggplant and meat dish across the eastern Mediterranean",
+      "word": "musakka",
+      "lang": "Ottoman Turkish",
+      "era": "1700s-1800s",
+      "note": "carried through Ottoman cuisine as a layered eggplant dish",
+      "meaning": "a layered eggplant dish",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "mousakas",
+      "lang": "Greek",
+      "era": "1800s-1900s",
+      "note": "adapted into a baked, layered eggplant and meat dish",
       "meaning": "a baked, layered eggplant dish",
       "lat": 37.98,
       "lon": 23.73

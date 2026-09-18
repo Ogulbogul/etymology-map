@@ -20,6 +20,15 @@
     },
     {
       "word": "million",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "carried from Italian into French numeric vocabulary",
+      "meaning": "a thousand thousands",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "million",
       "lang": "English",
       "era": "1300s",
       "note": "adopted directly for the number one thousand thousand",

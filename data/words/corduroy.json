@@ -1,19 +1,19 @@
 {
   "stops": [
     {
-      "word": "corde du roi",
-      "lang": "French",
-      "era": "1700s",
-      "note": "literally cord of the king, a popular but likely fanciful folk explanation for the ribbed fabric's name",
-      "meaning": "the king's cord",
-      "lat": 48.85,
-      "lon": 2.35
+      "word": "duroy",
+      "lang": "English",
+      "era": "1600s-1700s",
+      "note": "an obsolete English term for a coarse woolen fabric, itself of unknown origin; combined with 'cord' to form the new word",
+      "meaning": "a coarse woolen fabric",
+      "lat": 51.51,
+      "lon": -0.13
     },
     {
       "word": "corduroy",
       "lang": "English",
       "era": "1780s",
-      "note": "settled as the English word for the ribbed cotton fabric",
+      "note": "likely formed in English from 'cord' + 'duroy'; the popular story that it derives from French 'corde du roi' (king's cord) is a folk etymology unattested in French",
       "meaning": "a ribbed cotton fabric",
       "lat": 51.51,
       "lon": -0.13

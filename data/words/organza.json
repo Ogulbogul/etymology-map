@@ -1,18 +1,27 @@
 {
   "stops": [
     {
-      "word": "Organzi",
-      "lang": "Uzbek/Persian",
+      "word": "organzino",
+      "lang": "Italian",
       "era": "medieval",
-      "note": "possibly linked to a Central Asian region along the Silk Road silk trade routes",
-      "meaning": "relating to a Central Asian trade region",
-      "lat": 41.31,
-      "lon": 69.24
+      "note": "a strong, twisted silk thread used in fine weaving; ultimate origin unknown",
+      "meaning": "a type of strong silk thread",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "organsin",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the French form of the Italian silk-thread term, known in English as \"organzine\"",
+      "meaning": "a strong silk thread",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "organza",
       "lang": "English",
-      "era": "1800s",
+      "era": "1820",
       "note": "settled as the English word for the sheer, crisp silk-like fabric",
       "meaning": "a sheer, crisp fabric",
       "lat": 51.51,

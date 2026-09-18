@@ -1,11 +1,11 @@
 {
   "stops": [
     {
-      "word": "lex",
+      "word": "legatus",
       "lang": "Latin",
       "era": "ancient",
-      "note": "law, giving rise to legare (to send as ambassador, to bequeath by will)",
-      "meaning": "law",
+      "note": "an ambassador, envoy, or deputy; one sent with a commission",
+      "meaning": "ambassador, envoy, deputy",
       "lat": 41.9,
       "lon": 12.5
     },
@@ -13,7 +13,7 @@
       "word": "legatia",
       "lang": "Medieval Latin",
       "era": "medieval",
-      "note": "a bequest, the office of a delegate, from legare",
+      "note": "a bequest, the office of a delegate, from legatus",
       "meaning": "a bequest, the office of a delegate",
       "lat": 41.9,
       "lon": 12.5

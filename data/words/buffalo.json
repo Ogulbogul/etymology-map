@@ -11,21 +11,21 @@
     },
     {
       "word": "bufalus",
-      "lang": "Late Latin",
+      "lang": "Medieval Latin",
       "era": "ancient",
-      "note": "carried into Latin for wild ox-like cattle",
+      "note": "a variant of Latin bubalus, wild ox-like cattle",
       "meaning": "wild ox-like cattle",
       "lat": 41.9,
       "lon": 12.5
     },
     {
       "word": "bufalo",
-      "lang": "Italian",
+      "lang": "Portuguese",
       "era": "medieval",
-      "note": "carried into Italian for the large horned bovine",
-      "meaning": "large horned bovine",
-      "lat": 41.9,
-      "lon": 12.5
+      "note": "carried into Portuguese for the large horned bovine, spread via Portuguese maritime trade",
+      "meaning": "water buffalo, large horned bovine",
+      "lat": 38.72,
+      "lon": -9.14
     },
     {
       "word": "buffalo",

@@ -1,27 +1,45 @@
 {
   "stops": [
     {
-      "word": "simsim",
-      "lang": "Arabic",
+      "word": "shamash-shammu",
+      "lang": "Akkadian",
       "era": "ancient",
-      "note": "the name for the small oil-rich seed, ultimately from an older Semitic root",
-      "meaning": "the sesame seed",
-      "lat": 33.31,
-      "lon": 44.36
+      "note": "Assyrian/Babylonian term literally meaning \"oil-seed\"; a very early borrowing reached Greek via Phoenician traders (Arabic simsim is a related Semitic cognate, not a direct ancestor)",
+      "meaning": "oil-seed",
+      "lat": 32.54,
+      "lon": 44.42
     },
     {
-      "word": "sesamum",
-      "lang": "Latin/Greek",
+      "word": "sesamon",
+      "lang": "Greek",
       "era": "ancient",
-      "note": "adopted through Greek into Latin for the same seed",
+      "note": "borrowed from the Assyrian/Babylonian term for the seed",
       "meaning": "the sesame seed",
       "lat": 37.98,
       "lon": 23.73
     },
     {
+      "word": "sesamum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "borrowed from Greek sesamon",
+      "meaning": "the sesame seed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sisamin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "from Medieval Latin sisaminum",
+      "meaning": "the sesame seed",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "sesame",
       "lang": "English",
-      "era": "1500s",
+      "era": "1400s",
       "note": "settled as the English word for the oil-rich seed",
       "meaning": "a small oil-rich edible seed",
       "lat": 51.51,

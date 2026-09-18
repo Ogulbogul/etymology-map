@@ -19,10 +19,19 @@
       "lon": 23.73
     },
     {
+      "word": "camelus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted into Latin from Greek, later spreading through Old French into English",
+      "meaning": "a camel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
       "word": "camel",
       "lang": "English",
       "era": "1200s",
-      "note": "settled as the English word for the desert-dwelling pack animal",
+      "note": "settled as the English word, from Old English camel, reinforced by Old North French camel, both from Latin camelus",
       "meaning": "a large desert-dwelling mammal with one or two humps",
       "lat": 51.51,
       "lon": -0.13

@@ -10,6 +10,15 @@
       "lon": 23.73
     },
     {
+      "word": "mechanicus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "adopted from Greek, relating to machines or mechanics",
+      "meaning": "relating to machines",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
       "word": "mechanic",
       "lang": "English",
       "era": "1500s",

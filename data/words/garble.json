@@ -11,12 +11,21 @@
     },
     {
       "word": "garbellare",
-      "lang": "Medieval Latin/Italian",
+      "lang": "Medieval Latin",
       "era": "medieval",
-      "note": "carried into European trade vocabulary for sorting goods",
+      "note": "carried into Mediterranean trade vocabulary for sifting or sorting goods",
       "meaning": "to sift goods for quality",
       "lat": 41.9,
       "lon": 12.5
+    },
+    {
+      "word": "garbeler",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "carried into Anglo-French for inspecting and sifting spices and drugs",
+      "meaning": "to sift goods for quality",
+      "lat": 48.85,
+      "lon": 2.35
     },
     {
       "word": "garble",

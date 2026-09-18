@@ -4,25 +4,16 @@
       "word": "faqir",
       "lang": "Arabic",
       "era": "medieval",
-      "note": "literally \"poor person\", describing an ascetic reliant on charity",
+      "note": "literally \"poor person\", from faqura (\"he was poor\"), describing an ascetic reliant on charity",
       "meaning": "a poor person, an ascetic",
       "lat": 24.47,
       "lon": 39.61
     },
     {
       "word": "fakir",
-      "lang": "Persian/Urdu",
-      "era": "medieval",
-      "note": "applied to wandering religious ascetics in South Asia",
-      "meaning": "a religious ascetic or beggar",
-      "lat": 28.61,
-      "lon": 77.21
-    },
-    {
-      "word": "fakir",
       "lang": "English",
-      "era": "1600s",
-      "note": "adopted through European contact with South Asian ascetics",
+      "era": "1610s",
+      "note": "adopted directly from Arabic for a Muslim (and later also Hindu) religious mendicant",
       "meaning": "a Muslim or Hindu religious ascetic",
       "lat": 51.51,
       "lon": -0.13

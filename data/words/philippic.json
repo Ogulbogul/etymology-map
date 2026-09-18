@@ -10,6 +10,24 @@
       "lon": 22.5
     },
     {
+      "word": "Philippicae",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Romans' name for the orations; Cicero later applied it to his own speeches against Mark Antony",
+      "meaning": "speeches against Philip / a bitter denunciation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "philippique",
+      "lang": "Middle French",
+      "era": "1560s",
+      "note": "the Middle French form that passed the word into English",
+      "meaning": "a bitter denunciation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
       "word": "philippic",
       "lang": "English",
       "era": "1590s",

@@ -1,19 +1,28 @@
 {
   "stops": [
     {
-      "word": "lazaward",
+      "word": "lazhward",
       "lang": "Persian",
       "era": "ancient",
-      "note": "blue, azure, also the name of the deep blue stone",
+      "note": "a place name in Turkestan associated with the blue stone; also blue, azure",
       "meaning": "blue, azure",
       "lat": 35.69,
       "lon": 51.39
     },
     {
+      "word": "lazuward",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "adapted from the Persian place name for the deep blue stone",
+      "meaning": "the deep blue stone",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
       "word": "lazulum",
       "lang": "Medieval Latin",
       "era": "medieval",
-      "note": "adapted from Persian for the deep blue stone",
+      "note": "adapted from Arabic for the deep blue stone",
       "meaning": "the deep blue stone",
       "lat": 41.9,
       "lon": 12.5

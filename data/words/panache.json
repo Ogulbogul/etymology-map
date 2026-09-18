@@ -1,11 +1,29 @@
 {
   "stops": [
     {
-      "word": "pennache",
-      "lang": "Italian/French",
+      "word": "pinnaculum",
+      "lang": "Late Latin",
       "era": "medieval",
-      "note": "a plume of feathers worn on a helmet, from Latin pinna (feather)",
+      "note": "\"small wing, gable, peak\", from Latin pinna (feather, point)",
+      "meaning": "a small wing or peak",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pennacchio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a plume of feathers worn on a helmet",
       "meaning": "a feather plume",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "pennache",
+      "lang": "French",
+      "era": "medieval",
+      "note": "the French form of the Italian plume word",
+      "meaning": "a tuft of feathers",
       "lat": 48.85,
       "lon": 2.35
     },

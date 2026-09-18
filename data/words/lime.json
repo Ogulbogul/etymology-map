@@ -1,13 +1,31 @@
 {
   "stops": [
     {
-      "word": "līma",
+      "word": "līmū",
       "lang": "Persian",
       "era": "medieval",
       "note": "a general Middle Eastern word for citrus fruit",
       "meaning": "citrus fruit",
       "lat": 32.65,
       "lon": 51.67
+    },
+    {
+      "word": "līma",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "citrus fruit, adapted from Persian",
+      "meaning": "citrus fruit",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "lima",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "carried the small citrus fruit into Iberian trade",
+      "meaning": "lime fruit",
+      "lat": 40.42,
+      "lon": -3.7
     },
     {
       "word": "lime",

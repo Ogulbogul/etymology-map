@@ -11,6 +11,15 @@
     },
     {
       "word": "phosphorus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Latin form of the Greek word, also used for the morning star",
+      "meaning": "light-bringing; the morning star",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "phosphorus",
       "lang": "English",
       "era": "1680",
       "note": "coined for the element after its discoverer noticed it glowed in the dark",

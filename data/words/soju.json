@@ -1,19 +1,19 @@
 {
   "stops": [
     {
-      "word": "araq",
-      "lang": "Arabic",
+      "word": "shaojiu (燒酒)",
+      "lang": "Chinese",
       "era": "medieval",
-      "note": "meaning \"distilled spirit\", the technique reached Korea via the Mongol Empire",
-      "meaning": "a distilled spirit",
-      "lat": 33.31,
-      "lon": 44.36
+      "note": "literally \"burned liquor\"; Korean soju is a Sino-Korean reading of this term (an older compound, arasoju, briefly added an Arabic-derived prefix referencing the distillation technique, but that prefix was later dropped)",
+      "meaning": "burned/distilled liquor",
+      "lat": 39.9,
+      "lon": 116.41
     },
     {
       "word": "soju",
       "lang": "Korean",
       "era": "medieval",
-      "note": "adopted the distillation technique to create Korea's clear spirit",
+      "note": "Sino-Korean reading of 燒酒, Korea's clear distilled spirit",
       "meaning": "a clear distilled spirit",
       "lat": 37.57,
       "lon": 126.98

@@ -1,6 +1,15 @@
 {
   "stops": [
     {
+      "word": "gilim",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "a coarse-woven blanket or rug",
+      "meaning": "a coarse-woven blanket",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
       "word": "kilim",
       "lang": "Ottoman Turkish",
       "era": "medieval",
