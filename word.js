@@ -126,10 +126,32 @@ function setActive(index, isActive) {
 
 // --- Pan & zoom -----------------------------------------------------------
 
+// Keeps at least PAN_MARGIN world-units of the map inside the viewBox at
+// all times, so dragging or zoom-panning can never push the whole map
+// offscreen. Bounds are derived from the current zoom: at k=1 (map exactly
+// fills the viewBox) this caps how far you can drag; at high zoom the map
+// is far larger than the viewBox, so the same margin barely constrains
+// panning at all, which is the expected feel.
+const PAN_MARGIN = 150;
+
+function clampView(next) {
+  const k = clamp(next.k, MIN_ZOOM, MAX_ZOOM);
+  const minX = PAN_MARGIN - MAP_WIDTH * k;
+  const maxX = MAP_WIDTH - PAN_MARGIN;
+  const minY = PAN_MARGIN - MAP_HEIGHT * k;
+  const maxY = MAP_HEIGHT - PAN_MARGIN;
+  return {
+    x: clamp(next.x, minX, maxX),
+    y: clamp(next.y, minY, maxY),
+    k,
+  };
+}
+
 function setView(next) {
-  view.x = next.x;
-  view.y = next.y;
-  view.k = next.k;
+  const clamped = clampView(next);
+  view.x = clamped.x;
+  view.y = clamped.y;
+  view.k = clamped.k;
   zoomLayer.setAttribute("transform", `translate(${view.x} ${view.y}) scale(${view.k})`);
   updatePinPositions();
   updateArrowPositions();
