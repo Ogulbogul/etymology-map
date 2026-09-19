@@ -55,9 +55,9 @@ def render_word_page(word, entry, word_index):
     total = len(stops)
     origin_lang = stops[0]["lang"]
 
-    title = f"{display_word} — Word Origin | Etymology Map"
+    title = f"{display_word} — Etymology & Word Origin | Etymology Map"
     description = (
-        f'See how "{word}" traveled through {total} language'
+        f'The etymology of "{word}": trace its journey through {total} language'
         f'{"" if total == 1 else "s"} on its way to English, from {origin_lang} '
         f'to today. Current meaning: {entry["current_meaning"]}'
     )
