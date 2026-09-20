@@ -69,10 +69,8 @@ def build_origin_sentence(word, stops):
             passing = ", ".join(esc(l) for l in langs[:-1]) + f" and {esc(langs[-1])}"
         middle_html = f"passing through {passing} before entering English"
 
-    return (
-        f'Where does the word &quot;{esc(word)}&quot; come from? '
-        f"It comes from {first_html}, {middle_html} ({esc(last['era'])})."
-    )
+    question = f'<span class="origin-question">Where does the word &quot;{esc(word)}&quot; come from?</span>'
+    return f"{question} It comes from {first_html}, {middle_html} ({esc(last['era'])})."
 
 
 def render_word_page(word, entry, word_index):

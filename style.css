@@ -490,6 +490,10 @@ header h1 {
   color: var(--text);
 }
 
+.origin-question {
+  color: var(--accent);
+}
+
 .journey-meta {
   margin: 0 0 10px;
   font-size: 0.85rem;
