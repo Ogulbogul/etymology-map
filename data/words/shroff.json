@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sarraf",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named a money changer, banker, or coin assayer in the medieval Islamic world",
+      "meaning": "money changer, banker",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "sarraf",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "adopted into Persian and Indo-Persian commercial vocabulary",
+      "meaning": "money changer",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "sharaf",
+      "lang": "Gujarati",
+      "era": "1500s",
+      "note": "spread into Mughal-era Indian commerce as coin testing and exchange became specialized trades",
+      "meaning": "banker, coin tester",
+      "lat": 23.03,
+      "lon": 72.58
+    },
+    {
+      "word": "shroff",
+      "lang": "English",
+      "era": "early 1600s",
+      "note": "adopted by English traders in colonial India and the Far East",
+      "meaning": "banker, money changer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "(in South and East Asia) a banker or expert money changer who verifies the authenticity of coins and currency"
+}

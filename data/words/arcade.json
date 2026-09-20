@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "arcus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plain word for a bow or arch",
+      "meaning": "a bow, arch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arcata",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named an arch, especially of a bridge",
+      "meaning": "an arch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arcade",
+      "lang": "French",
+      "era": "1640s",
+      "note": "borrowed from Italian for a series of arches forming a vaulted passage",
+      "meaning": "a vaulted, arched passage",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "arcade",
+      "lang": "English",
+      "era": "1731-1977",
+      "note": "entered for an arched passage, later a shop-lined walkway, and eventually a venue for coin-operated games",
+      "meaning": "a covered, arched passageway; a games venue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a covered passageway with arches, or a venue for coin-operated games"
+}

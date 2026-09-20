@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "neglegere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "nec- 'not' plus legere 'to pick up, select'",
+      "meaning": "to disregard, not heed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "negligee",
+      "lang": "French",
+      "era": "1300s",
+      "note": "the feminine past participle of négliger described something left carelessly undone",
+      "meaning": "in a state of neglect",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "negligee",
+      "lang": "English",
+      "era": "1750",
+      "note": "borrowed for a loose, informal gown worn in a state of studied undress",
+      "meaning": "a loose dressing gown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a woman's light dressing gown, often made of sheer fabric"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "suspicere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "sub- 'under' plus specere 'to look' - to look up at, view with suspicion",
+      "meaning": "to suspect",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sospecon",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "kept the sense of suspicion or worry",
+      "meaning": "suspicion, worry",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "soupcon",
+      "lang": "French",
+      "era": "medieval",
+      "note": "weakened from mistrust to the faintest possible trace of something",
+      "meaning": "a slight suspicion; a trace",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "soupcon",
+      "lang": "English",
+      "era": "1766",
+      "note": "borrowed for a barely perceptible hint or amount",
+      "meaning": "a slight trace or suggestion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a very small amount or trace of something"
+}

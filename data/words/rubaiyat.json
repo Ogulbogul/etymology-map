@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rubaiy",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"composed of four,\" describing a four-line poetic verse",
+      "meaning": "four-line verse form",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "rubaiyat",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "the plural form became famous through the quatrains of poet Omar Khayyam",
+      "meaning": "quatrains",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "rubaiyat",
+      "lang": "English",
+      "era": "1859",
+      "note": "entered English through Edward FitzGerald's translation \"The Rubaiyat of Omar Khayyam\"",
+      "meaning": "Persian quatrains",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quatrain, or a collection of quatrains, in Persian poetry, especially those attributed to Omar Khayyam"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rahj al-ghar",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"powder of the mine,\" or \"cave dust\"",
+      "meaning": "powdery arsenic mineral",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "realgar",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted into European alchemical and mineralogical texts",
+      "meaning": "arsenic sulfide mineral",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "realgar",
+      "lang": "Middle English",
+      "era": "1390s",
+      "note": "entered English mineralogy for the red arsenic ore",
+      "meaning": "red arsenic sulfide mineral",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, red mineral consisting of arsenic sulfide, historically used as a pigment"
+}

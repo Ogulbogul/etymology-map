@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "castellum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of castrum, 'fort'",
+      "meaning": "a small fort, castle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chastel",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "kept the sense of a fortified stronghold",
+      "meaning": "castle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chateau",
+      "lang": "French",
+      "era": "medieval",
+      "note": "as fortification gave way to aristocratic living, the word shifted toward a grand residence",
+      "meaning": "a castle; a grand country house",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chateau",
+      "lang": "English",
+      "era": "1739",
+      "note": "borrowed for a large, stately country residence",
+      "meaning": "a large French country house",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large French country house or castle"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sagma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a word for a pack-saddle, later extended to the load it carried",
+      "meaning": "pack-saddle; a pack-load",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sommaille",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "developed from the pack-load sense into a word for baggage in general",
+      "meaning": "baggage",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sommelier",
+      "lang": "French",
+      "era": "1680s",
+      "note": "narrowed from an officer in charge of a household's provisions to specifically its wine",
+      "meaning": "the officer in charge of a household's wine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sommelier",
+      "lang": "English",
+      "era": "1849",
+      "note": "borrowed for a restaurant's trained wine steward",
+      "meaning": "a restaurant's wine steward",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a trained and knowledgeable wine steward, especially in a restaurant"
+}

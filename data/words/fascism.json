@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fasces",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a bundle of rods carried before Roman magistrates as a symbol of authority",
+      "meaning": "a bundle of rods, symbol of authority",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fascio",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "literally 'bundle', applied to political associations and unions",
+      "meaning": "a bundle; a political group",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fascismo",
+      "lang": "Italian",
+      "era": "1919",
+      "note": "coined for Mussolini's authoritarian nationalist movement, consciously invoking Roman imagery",
+      "meaning": "Mussolini's authoritarian political movement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fascism",
+      "lang": "English",
+      "era": "1920s",
+      "note": "borrowed for the movement and, later, the broader ideology it named",
+      "meaning": "a far-right authoritarian political ideology",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a far-right, authoritarian political ideology and movement"
+}

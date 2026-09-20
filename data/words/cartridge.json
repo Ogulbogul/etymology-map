@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "charta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a general word for a leaf of paper",
+      "meaning": "paper, leaf of papyrus",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cartoccio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "an augmentative of carta coined for a twist of paper wrapping something",
+      "meaning": "a roll or twist of paper",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cartouche",
+      "lang": "French",
+      "era": "1500s",
+      "note": "borrowed for a paper-wrapped charge of gunpowder",
+      "meaning": "a full charge for a firearm, wrapped in paper",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cartridge",
+      "lang": "English",
+      "era": "1570s",
+      "note": "the French form was garbled in English and later extended to any small pre-packaged charge or container",
+      "meaning": "a case holding a charge of propellant and shot, ink, or film",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a container holding ammunition, ink, or other material for insertion into a device"
+}

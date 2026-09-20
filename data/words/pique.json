@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pic",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a word for a sharp point or spike",
+      "meaning": "a sharp point, spike",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "piquer",
+      "lang": "French",
+      "era": "medieval",
+      "note": "the related verb, meaning to prick or sting, developed a figurative sense of irritating",
+      "meaning": "to prick, sting; to irritate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pique",
+      "lang": "French",
+      "era": "1500s",
+      "note": "the noun named the sting of wounded pride",
+      "meaning": "a prick; a feeling of resentment",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pique",
+      "lang": "English",
+      "era": "1530s-1670s",
+      "note": "entered as a noun for wounded self-respect, later also as a verb meaning to stimulate or excite",
+      "meaning": "a feeling of irritation from wounded pride",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a feeling of irritation or resentment, especially due to wounded pride"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "faraka",
+      "lang": "Arabic",
+      "era": "ancient",
+      "note": "meant \"to rub,\" describing the final step of threshing the roasted grain",
+      "meaning": "to rub",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "farik / freekeh",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named the roasted, rubbed green wheat eaten across the Levant since antiquity",
+      "meaning": "roasted green wheat",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "freekeh",
+      "lang": "English",
+      "era": "2000s",
+      "note": "entered English through the growing popularity of Levantine and Middle Eastern cuisine",
+      "meaning": "roasted cracked green wheat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cereal food made from young green durum wheat that is roasted and rubbed, popular in Middle Eastern cooking"
+}

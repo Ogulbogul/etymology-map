@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the basic verb of hanging gave rise to a frequentative form",
+      "meaning": "to hang, cause to hang",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pencher",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "the literal sense of hanging tipped into a figurative one of leaning or inclining",
+      "meaning": "to incline, lean",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "penchant",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the present participle was turned into a noun for a settled inclination",
+      "meaning": "a strong inclination",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "penchant",
+      "lang": "English",
+      "era": "1670s",
+      "note": "adopted whole for a natural taste or leaning",
+      "meaning": "a strong liking or taste for something",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong or habitual liking for something"
+}

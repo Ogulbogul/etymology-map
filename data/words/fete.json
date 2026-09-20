@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "festus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an adjective meaning festive or joyful, giving the plural noun festa",
+      "meaning": "festive, joyful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feste",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "kept the sense of a feast or celebration",
+      "meaning": "feast, celebration; holiday",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fete",
+      "lang": "French",
+      "era": "medieval",
+      "note": "narrowed but remained a general word for a festival or party",
+      "meaning": "a festival, celebration",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fete",
+      "lang": "English",
+      "era": "1754",
+      "note": "borrowed for an elaborate festival or party, popularized by Horace Walpole",
+      "meaning": "a festival or elaborate party",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a festival, celebration, or elaborate party"
+}

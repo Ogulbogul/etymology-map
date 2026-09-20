@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "naqaba",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"to pierce, bore a hole\"",
+      "meaning": "to pierce, perforate",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "niqab",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named the face veil with an opening pierced for the eyes",
+      "meaning": "face veil",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "niqab",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through discussion of Islamic dress",
+      "meaning": "eyes-only face veil",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a face veil worn by some Muslim women, leaving an opening for the eyes"
+}

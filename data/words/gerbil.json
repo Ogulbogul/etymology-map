@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "yarbu' / jarbu",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "the desert rodent's name, literally \"flesh of the loins\"",
+      "meaning": "desert jumping rodent",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "Gerbillus",
+      "lang": "Modern Latin",
+      "era": "1800s",
+      "note": "naturalists Latinized the Arabic name for the genus",
+      "meaning": "scientific genus name",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gerbille",
+      "lang": "French",
+      "era": "1849",
+      "note": "adapted from the scientific Latin name",
+      "meaning": "gerbil",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gerbil",
+      "lang": "English",
+      "era": "1849",
+      "note": "anglicized from French for the small desert rodent",
+      "meaning": "small desert rodent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small burrowing desert rodent with long hind legs, often kept as a pet"
+}

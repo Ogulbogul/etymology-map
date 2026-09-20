@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "babagha' / babgha",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "an imitative name for the parrot, of uncertain deeper origin",
+      "meaning": "parrot",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "papagayo",
+      "lang": "Spanish",
+      "era": "1100s",
+      "note": "the bird's name and reputation for gaudy plumage spread into Iberia",
+      "meaning": "parrot",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "papegai",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "carried further north through medieval trade and literature",
+      "meaning": "parrot",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "popinjay",
+      "lang": "Middle English",
+      "era": "late 1200s",
+      "note": "the ending was reshaped to resemble \"jay\"; later applied figuratively to vain, showy people",
+      "meaning": "parrot, later a vain talkative person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vain or conceited person who dresses or talks in a flashy, showy way"
+}

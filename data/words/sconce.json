@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "abscondere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "ab- 'away' plus condere 'to put, store' - to hide away",
+      "meaning": "to hide, conceal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sconsa",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a feminine past participle naming a shielded light source",
+      "meaning": "a hidden or shielded lantern",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "esconse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the sense of a screened lantern",
+      "meaning": "a lantern with a screen; a hiding place",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sconce",
+      "lang": "English",
+      "era": "1400s",
+      "note": "narrowed from a handheld screened lantern to a wall-mounted candle bracket",
+      "meaning": "a wall-mounted candle bracket",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an ornamental wall-mounted bracket for candles or lights"
+}

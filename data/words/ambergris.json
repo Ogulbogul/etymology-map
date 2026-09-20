@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "'anbar",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named the waxy substance found floating in tropical seas",
+      "meaning": "ambergris",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "ambre",
+      "lang": "Medieval Latin",
+      "era": "1200s",
+      "note": "carried into Europe via Crusade-era trade",
+      "meaning": "ambergris",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ambre gris",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "\"gris\" (gray) was added to distinguish it from amber resin",
+      "meaning": "gray amber",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ambergris",
+      "lang": "English",
+      "era": "early 1400s",
+      "note": "its true origin as a whale secretion remained mysterious in Europe for centuries",
+      "meaning": "waxy perfume-fixative substance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a waxy substance from the intestines of sperm whales, historically prized as a fixative in perfumes"
+}

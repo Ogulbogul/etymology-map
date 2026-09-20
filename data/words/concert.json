@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "concertare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "con- 'together' plus certare 'to contend, strive' - originally about zealous conflict",
+      "meaning": "to contend with zealously, dispute",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concertare",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "the combative Latin sense flipped to cooperative agreement",
+      "meaning": "to bring into agreement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concert",
+      "lang": "French",
+      "era": "1500s",
+      "note": "adopted from Italian for harmonious accord",
+      "meaning": "agreement, harmony",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "concert",
+      "lang": "English",
+      "era": "1660s-1680s",
+      "note": "entered for agreement in design or plan, then specialized to a public musical performance",
+      "meaning": "a live musical performance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a live musical performance"
+}

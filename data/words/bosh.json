@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "boş",
+      "lang": "Turkish",
+      "era": "1800s",
+      "note": "literally meant \"empty\"",
+      "meaning": "empty, worthless",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "bosh",
+      "lang": "English",
+      "era": "1839",
+      "note": "popularized by James Justinian Morier's novel \"Ayesha\"",
+      "meaning": "nonsense",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "nonsense; empty, foolish talk"
+}

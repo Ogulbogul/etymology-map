@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "haudaj",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named a covered litter carried by a camel",
+      "meaning": "camel litter",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "haudah",
+      "lang": "Persian/Urdu",
+      "era": "1600s",
+      "note": "adapted for the seat carried on an elephant's back in South Asia",
+      "meaning": "elephant or camel seat",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "howdah",
+      "lang": "English",
+      "era": "1774",
+      "note": "entered English through British contact with South Asian royal processions and hunting",
+      "meaning": "seat for riding an elephant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a seat, often canopied, for riding on the back of an elephant or camel"
+}

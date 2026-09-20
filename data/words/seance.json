@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sedere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the verb of sitting, occupying a seat",
+      "meaning": "to sit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "seoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the sense of sitting",
+      "meaning": "to sit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "seance",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a noun for a formal sitting or session",
+      "meaning": "a sitting, a session",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "seance",
+      "lang": "English",
+      "era": "1789-1845",
+      "note": "entered for any formal sitting, then narrowed to a spiritualist session meant to contact the dead",
+      "meaning": "a session to communicate with the dead",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a meeting where people attempt to communicate with the dead through a medium"
+}

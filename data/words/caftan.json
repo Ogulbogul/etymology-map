@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "khaftan",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "a long tunic-like garment tied at the waist",
+      "meaning": "long tunic",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "qaftan",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "spread the garment and its name through the Islamic world",
+      "meaning": "long vest with sleeves",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "qaftan",
+      "lang": "Turkish",
+      "era": "1500s",
+      "note": "became a symbol of Ottoman court dress",
+      "meaning": "ceremonial robe",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "caftan / kaftan",
+      "lang": "English",
+      "era": "1590s",
+      "note": "entered English describing Ottoman and Egyptian dress; later became a Western fashion term",
+      "meaning": "long tied robe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long tunic-like garment, often tied with a sash, or a similar loose dress worn as fashionable clothing"
+}

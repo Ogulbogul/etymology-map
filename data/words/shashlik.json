@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "şış",
+      "lang": "Crimean Tatar",
+      "era": "1700s",
+      "note": "meant \"spit\"; shishlik meant \"something for the spit\"",
+      "meaning": "skewer, skewered meat",
+      "lat": 44.75,
+      "lon": 33.85
+    },
+    {
+      "word": "shashlyk",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "adopted from Crimean Tatar via Cossack contact and spread across the Russian Empire",
+      "meaning": "skewered grilled meat",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "shashlik",
+      "lang": "English",
+      "era": "late 1800s",
+      "note": "entered English describing the Caucasian and Central Asian dish",
+      "meaning": "skewered grilled meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "skewered and grilled cubes of marinated meat, especially as prepared in Russia, the Caucasus, and Central Asia"
+}

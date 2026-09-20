@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "civitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "originally 'citizenship', later 'a community of citizens, a city'",
+      "meaning": "citizenship; a city-state",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cittadella",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a diminutive of citta 'city', naming a fortress guarding it",
+      "meaning": "a little city; a fortress",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "citadelle",
+      "lang": "French",
+      "era": "1400s",
+      "note": "borrowed from Italian for a fortress commanding a city",
+      "meaning": "a fortress commanding a city",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "citadel",
+      "lang": "English",
+      "era": "1580s",
+      "note": "adopted for a fortress dominating an urban center",
+      "meaning": "a fortress protecting or dominating a city",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fortress protecting or dominating a city"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "khamlat",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "described the nap or pile of a plush woven cloth",
+      "meaning": "woolen plush cloth",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "camelot",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "folk etymology tied the fabric's name to \"camel,\" as if woven from camel hair",
+      "meaning": "fine woven fabric",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "camlet",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "entered English as a prized import fabric from the Levant",
+      "meaning": "fine goat-hair or wool fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a historic woven fabric, originally of camel or goat hair and later of wool and silk, used for cloaks and coats"
+}

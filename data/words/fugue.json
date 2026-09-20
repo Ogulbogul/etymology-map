@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "fugere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the verb of fleeing, giving the noun fuga",
+      "meaning": "to flee; a fleeing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fuga",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "kept the literal sense of flight",
+      "meaning": "flight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fuge",
+      "lang": "English",
+      "era": "1590s",
+      "note": "borrowed for a musical form where one melodic voice seems to flee and others pursue it",
+      "meaning": "a musical form of imitative voices",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "fugue",
+      "lang": "English",
+      "era": "1660s",
+      "note": "the spelling was refashioned after the French rendering of the Italian word",
+      "meaning": "a contrapuntal musical composition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a contrapuntal musical composition in which a theme is introduced and developed by imitation"
+}

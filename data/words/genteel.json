@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "gentilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'of the same clan', later 'of noble birth' in Medieval Latin",
+      "meaning": "of the same family; noble",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gentil",
+      "lang": "Old French",
+      "era": "1000s",
+      "note": "kept the sense of high birth",
+      "meaning": "high-born, noble",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gentil",
+      "lang": "French",
+      "era": "medieval",
+      "note": "softened from noble birth to elegant, fashionable manners",
+      "meaning": "stylish, elegant, graceful",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "genteel",
+      "lang": "English",
+      "era": "1590s",
+      "note": "borrowed with an altered pronunciation to distinguish it from the earlier loan 'gentle'",
+      "meaning": "fashionably elegant, suitable for polite society",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "polite, refined, or affectedly elegant"
+}

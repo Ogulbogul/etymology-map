@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "crispus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an adjective for curled or wrinkled texture",
+      "meaning": "curled, wrinkled",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "crespe",
+      "lang": "Old French",
+      "era": "1300s",
+      "note": "applied to a ruffled, crimped fabric",
+      "meaning": "a ruffle, frill; crimped cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crape",
+      "lang": "English",
+      "era": "1797",
+      "note": "borrowed for the crinkled mourning fabric",
+      "meaning": "a crinkled black fabric",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "crepe",
+      "lang": "English",
+      "era": "1877",
+      "note": "the same word was applied to a thin pancake for its wrinkled, lacy appearance",
+      "meaning": "a thin, light pancake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin, light pancake, or a light crinkled fabric"
+}

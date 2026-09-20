@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "recognoscere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "re- 'again' plus cognoscere 'to know'",
+      "meaning": "to recognize, know again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "reconoistre",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "gave rise to a noun for the act of recognizing or acknowledging",
+      "meaning": "recognition, acknowledgement",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "reconnaissance",
+      "lang": "French",
+      "era": "1700s-1800s",
+      "note": "specialized during the Napoleonic Wars into a term for surveying enemy territory",
+      "meaning": "preliminary military survey of a territory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "reconnaissance",
+      "lang": "English",
+      "era": "1810",
+      "note": "adopted directly for the military sense",
+      "meaning": "examination of enemy territory to gather information",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "military observation of a region to gather information about enemy forces"
+}

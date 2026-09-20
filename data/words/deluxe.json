@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "luxus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "originally 'dislocated', a figurative sense giving rise to a word for excess",
+      "meaning": "excess, abundance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "luxe",
+      "lang": "French",
+      "era": "medieval",
+      "note": "kept the sense of abundance and indulgence",
+      "meaning": "luxury",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "de luxe",
+      "lang": "French",
+      "era": "medieval",
+      "note": "literally 'of luxury', describing something superior in quality",
+      "meaning": "of luxury, superior",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "deluxe",
+      "lang": "English",
+      "era": "1819",
+      "note": "borrowed as an adjective for something especially luxurious",
+      "meaning": "luxurious, superior",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "of a superior, luxurious quality"
+}

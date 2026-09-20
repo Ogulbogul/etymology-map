@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "karwan-sara'i",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "compound of karwan, \"caravan,\" and sara'i, \"palace, inn\"",
+      "meaning": "inn for traveling merchant caravans",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "caravane",
+      "lang": "Old French",
+      "era": "1500s",
+      "note": "adopted during trade and crusading contact with the Islamic world",
+      "meaning": "caravan lodging",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "caravansary",
+      "lang": "English",
+      "era": "1590s",
+      "note": "entered English describing the large courtyard inns along Silk Road trade routes",
+      "meaning": "roadside inn for caravans",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a roadside inn with a large central courtyard, historically used to shelter caravans of traders and travelers"
+}

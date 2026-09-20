@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "scalae",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the plural word for stairs or a ladder",
+      "meaning": "ladder, steps",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "eschiele",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the sense of a ladder",
+      "meaning": "a ladder",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "echelon",
+      "lang": "French",
+      "era": "medieval",
+      "note": "named a single rung, then a step-like, staggered arrangement of troops",
+      "meaning": "a rung; a staggered troop formation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "echelon",
+      "lang": "English",
+      "era": "1796-1914",
+      "note": "entered for the military formation, later widened to any level or rank within a hierarchy",
+      "meaning": "a level or rank within an organization",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a level or rank within an organization or hierarchy"
+}

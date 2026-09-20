@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Makkah",
+      "lang": "Arabic",
+      "era": "ancient",
+      "note": "the sacred city, birthplace of Muhammad and center of Islamic pilgrimage",
+      "meaning": "sacred city",
+      "lat": 21.42,
+      "lon": 39.83
+    },
+    {
+      "word": "mecca",
+      "lang": "English",
+      "era": "1826",
+      "note": "generalized as a figurative common noun for any place people hold supremely important",
+      "meaning": "a place of central importance or pilgrimage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place regarded as the most important or desirable destination for people with a particular interest"
+}

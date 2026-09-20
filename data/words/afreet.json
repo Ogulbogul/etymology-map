@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "'afara",
+      "lang": "Arabic",
+      "era": "ancient",
+      "note": "meant \"to rub with dust\" or \"roll in dust\"",
+      "meaning": "to cover in dust",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "'ifrit",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "developed into the name for a powerful, dangerous demon mentioned in the Quran and later folklore",
+      "meaning": "powerful demon",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "afreet / ifrit",
+      "lang": "English",
+      "era": "1786",
+      "note": "entered English through translations of Middle Eastern folklore and the Arabian Nights",
+      "meaning": "monstrous demon or jinn",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a powerful and dangerous demon or monstrous spirit in Arabic and Islamic folklore"
+}

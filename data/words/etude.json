@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "studium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a word for zeal or application to a task",
+      "meaning": "study, zeal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estudie",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "kept the sense of study",
+      "meaning": "study",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "etude",
+      "lang": "French",
+      "era": "medieval",
+      "note": "narrowed in a musical context to a composition meant for practice",
+      "meaning": "study; a practice composition",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "etude",
+      "lang": "English",
+      "era": "1837",
+      "note": "popularized in English through Chopin's études, pieces designed to build technique",
+      "meaning": "a musical composition for developing technical skill",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short musical composition designed to develop a specific technical skill"
+}

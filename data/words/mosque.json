@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "masjid",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "from sajada, \"he worshipped,\" plus the place-prefix ma-",
+      "meaning": "place of worship",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "mezquita",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "adopted during centuries of Muslim rule in Iberia",
+      "meaning": "mosque",
+      "lat": 37.88,
+      "lon": -4.78
+    },
+    {
+      "word": "moschea",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "reshaped as it passed through Mediterranean trade",
+      "meaning": "mosque",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mosquee",
+      "lang": "French",
+      "era": "1500s",
+      "note": "adapted from Italian",
+      "meaning": "mosque",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mosque",
+      "lang": "English",
+      "era": "1717",
+      "note": "standardized after centuries of mangled Middle English spellings like \"moseak\"",
+      "meaning": "Islamic place of worship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Muslim place of worship"
+}

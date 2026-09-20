@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "serus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an adjective meaning late, giving rise to an adverb for a late hour",
+      "meaning": "late",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "soir",
+      "lang": "Old French",
+      "era": "900s",
+      "note": "narrowed to name the late part of the day",
+      "meaning": "evening",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "soiree",
+      "lang": "French",
+      "era": "medieval",
+      "note": "soir plus a feminine suffix, coined for an evening's gathering",
+      "meaning": "an evening; an evening party",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "soiree",
+      "lang": "English",
+      "era": "1793",
+      "note": "borrowed for a fashionable evening party",
+      "meaning": "an evening party",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an evening party or social gathering"
+}

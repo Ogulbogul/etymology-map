@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "brigare",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a verb meaning to brawl or fight, of disputed deeper origin",
+      "meaning": "to brawl, fight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "brigante",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named a lightly armed foot soldier or skirmisher",
+      "meaning": "a light-armed soldier, skirmisher",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "brigand",
+      "lang": "Old French",
+      "era": "1300s",
+      "note": "borrowed from Italian, keeping the military sense",
+      "meaning": "an irregular foot soldier",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "brigand",
+      "lang": "English",
+      "era": "1400",
+      "note": "shifted from soldier to freebooter, as armed troops and outright criminals blurred together",
+      "meaning": "a bandit, robber",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bandit, especially one of a gang operating in wild or remote country"
+}

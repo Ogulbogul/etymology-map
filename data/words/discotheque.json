@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "discoteca",
+      "lang": "Italian",
+      "era": "1927",
+      "note": "a coinage combining disco 'phonograph record' with a Greek-derived suffix for a collection or library",
+      "meaning": "a record library or collection",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "discotheque",
+      "lang": "French",
+      "era": "1951",
+      "note": "borrowed and shifted from a record collection to the venue playing the records",
+      "meaning": "a nightclub playing recorded dance music",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "discotheque",
+      "lang": "English",
+      "era": "1954",
+      "note": "adopted for a club devoted to dancing to recorded music",
+      "meaning": "a club for dancing to recorded pop music",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a club or party featuring dancing to recorded pop music"
+}

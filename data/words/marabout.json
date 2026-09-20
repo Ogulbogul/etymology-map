@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "rabata",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"to bind, to tie\"",
+      "meaning": "to bind, tie",
+      "lat": 34.03,
+      "lon": -5.0
+    },
+    {
+      "word": "murabit",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"one who is bound/stationed,\" a hermit or ascetic living in a fortified religious outpost",
+      "meaning": "religious hermit, ascetic",
+      "lat": 34.03,
+      "lon": -5.0
+    },
+    {
+      "word": "marabuto",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "adopted through Portuguese contact with North Africa",
+      "meaning": "Muslim holy man",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "marabout",
+      "lang": "French",
+      "era": "1600s",
+      "note": "spread through French colonial contact in North and West Africa",
+      "meaning": "Muslim holy man, shrine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marabout",
+      "lang": "English",
+      "era": "1600s",
+      "note": "entered English describing revered Muslim religious teachers and their shrines in North Africa",
+      "meaning": "Muslim holy man or hermit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Muslim religious leader or hermit in North Africa, revered as a holy man; also, his shrine or tomb"
+}

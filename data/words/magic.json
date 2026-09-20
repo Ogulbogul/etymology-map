@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "magush",
+      "lang": "Old Persian",
+      "era": "ancient",
+      "note": "named a member of the learned, priestly Magi caste",
+      "meaning": "member of the priestly class",
+      "lat": 29.93,
+      "lon": 52.89
+    },
+    {
+      "word": "magikos / magike",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek writers turned the Magi's reputed powers into an adjective for sorcery",
+      "meaning": "of the Magi, sorcery",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "magice",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "carried the sense of sorcery into Latin",
+      "meaning": "sorcery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "magique",
+      "lang": "Old French",
+      "era": "1300s",
+      "note": "passed into French as both noun and adjective",
+      "meaning": "magical, sorcery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "magic",
+      "lang": "English",
+      "era": "late 1300s",
+      "note": "settled into English describing hidden supernatural forces, later also stage illusion",
+      "meaning": "art of influencing events by hidden forces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the power of apparently influencing events using supernatural forces, or the practice of conjuring tricks for entertainment"
+}

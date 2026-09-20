@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tabula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plain word for a flat board or writing tablet",
+      "meaning": "a board, writing tablet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "table",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "plus the diminutive suffix -eau, coined for a small painted panel",
+      "meaning": "a slab; a small picture panel",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tableau",
+      "lang": "French",
+      "era": "1100s",
+      "note": "settled into the general word for a picture or painting",
+      "meaning": "a picture, painting",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tableau",
+      "lang": "English",
+      "era": "1690s",
+      "note": "borrowed for a vivid, picture-like scene or grouping of figures",
+      "meaning": "a vivid, picturesque scene or description",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vivid or graphic depiction of a scene, or a group of motionless figures representing one"
+}

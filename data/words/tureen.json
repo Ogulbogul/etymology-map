@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "terra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the plain word for earth, giving an adjective for things made of earth",
+      "meaning": "earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terrenus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'of the earth', applied to earthenware",
+      "meaning": "earthen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terrine",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a feminine noun for an earthenware jar or vessel",
+      "meaning": "an earthen vessel, jar",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tureen",
+      "lang": "English",
+      "era": "1706-1752",
+      "note": "borrowed for a covered serving dish, its spelling perhaps reshaped by association with the Italian city of Turin",
+      "meaning": "a covered dish for serving soup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deep, covered dish for serving soup or stew"
+}

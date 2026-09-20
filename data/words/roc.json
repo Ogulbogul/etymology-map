@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rukh",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "name of a monstrous bird in Persian legend, of unknown deeper origin",
+      "meaning": "giant mythical bird",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "rukhkh",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "carried the legend into Arabic storytelling, including the Arabian Nights",
+      "meaning": "giant predatory bird",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "roc",
+      "lang": "English",
+      "era": "1570s",
+      "note": "entered English through Marco Polo's travel accounts and later translations of the Arabian Nights",
+      "meaning": "legendary giant bird",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a legendary bird of enormous size and strength in Middle Eastern and Persian mythology"
+}

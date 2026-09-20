@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "vitula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a word for a stringed instrument, possibly linked to Vitula, a Roman goddess of joy",
+      "meaning": "a stringed instrument",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "viola",
+      "lang": "Old Provencal",
+      "era": "medieval",
+      "note": "kept the sense of a bowed stringed instrument",
+      "meaning": "a stringed instrument",
+      "lat": 45.76,
+      "lon": 4.85
+    },
+    {
+      "word": "viola",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "developed into a family of bowed instruments preceding the violin",
+      "meaning": "a bowed stringed instrument",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "viola",
+      "lang": "English",
+      "era": "1797",
+      "note": "borrowed for the tenor member of the violin family",
+      "meaning": "a tenor-range bowed stringed instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stringed instrument similar to but larger than a violin"
+}

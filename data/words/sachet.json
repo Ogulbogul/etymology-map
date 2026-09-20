@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "saccus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a general word for a bag",
+      "meaning": "bag, sack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sachet",
+      "lang": "French",
+      "era": "1100s",
+      "note": "a diminutive of sac coined for a little sack",
+      "meaning": "a little bag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sachet",
+      "lang": "English",
+      "era": "1838",
+      "note": "re-borrowed for a small scented bag tucked among clothes and linens",
+      "meaning": "a small perfumed bag placed among clothes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small bag or packet, especially one holding a scented substance"
+}

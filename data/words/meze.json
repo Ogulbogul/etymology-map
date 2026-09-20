@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maza",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meant \"taste\" or \"relish\"",
+      "meaning": "taste, relish",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "meze",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "adopted as the word for small savory appetizers",
+      "meaning": "appetizer",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "meze",
+      "lang": "English",
+      "era": "1904",
+      "note": "spread through the cuisines of the former Ottoman lands into English usage",
+      "meaning": "shared appetizer spread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a selection of small Middle Eastern or Mediterranean dishes served together as an appetizer"
+}

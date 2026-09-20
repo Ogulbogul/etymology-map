@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "cohortem",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "com- 'with' plus a root related to hortus 'garden' - originally an enclosure, later a body of troops",
+      "meaning": "an enclosure; a retinue of troops",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corte",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "narrowed to a noble court",
+      "meaning": "a court",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corteggio",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named the attendants who followed a person of rank",
+      "meaning": "a retinue",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cortege",
+      "lang": "French",
+      "era": "1500s",
+      "note": "borrowed from Italian for a formal train of attendants",
+      "meaning": "a train of attendants",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cortege",
+      "lang": "English",
+      "era": "1640s",
+      "note": "adopted for a solemn ceremonial procession",
+      "meaning": "a solemn procession",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a solemn procession, especially for a funeral"
+}

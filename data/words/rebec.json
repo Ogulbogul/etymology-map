@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "rabab",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named a bowed stringed instrument",
+      "meaning": "bowed stringed instrument",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "ribabe",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "carried the instrument into medieval European music",
+      "meaning": "bowed instrument",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rebec",
+      "lang": "Old French",
+      "era": "1400s",
+      "note": "reshaped, perhaps influenced by \"bec\" (beak), for the instrument's pointed shape",
+      "meaning": "pear-shaped bowed instrument",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rebec",
+      "lang": "English",
+      "era": "early 1400s",
+      "note": "entered English for the small medieval three-stringed fiddle",
+      "meaning": "medieval bowed stringed instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small medieval three-stringed musical instrument with a pear-shaped body, played with a bow"
+}

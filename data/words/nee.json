@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "nasci",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the verb of being born, whose past participle was natus",
+      "meaning": "to be born",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "naitre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the sense of birth",
+      "meaning": "to be born",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nee",
+      "lang": "French",
+      "era": "medieval",
+      "note": "the feminine past participle, literally 'born', used before a woman's birth name",
+      "meaning": "born (as)",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nee",
+      "lang": "English",
+      "era": "1758",
+      "note": "borrowed to introduce a married woman's maiden name",
+      "meaning": "born with the name of",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "used to indicate the maiden or birth name of a married woman"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sanguis + frigidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'blood' and 'cold' combined",
+      "meaning": "cold blood",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sang froid",
+      "lang": "French",
+      "era": "1600s-1700s",
+      "note": "literally 'cool blood', a metaphor for emotional composure under pressure",
+      "meaning": "coolness, composure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sang-froid",
+      "lang": "English",
+      "era": "1712",
+      "note": "borrowed whole for unflappable presence of mind",
+      "meaning": "presence of mind, composure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "composure or coolness, especially in trying circumstances"
+}

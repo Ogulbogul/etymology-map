@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pari-da-",
+      "lang": "Old Persian",
+      "era": "ancient",
+      "note": "compound of \"around\" and \"to place\"",
+      "meaning": "to place around, enclose",
+      "lat": 29.93,
+      "lon": 52.89
+    },
+    {
+      "word": "pardah",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "came to mean a screening curtain or veil",
+      "meaning": "veil, curtain",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "purdah",
+      "lang": "English",
+      "era": "1800",
+      "note": "borrowed via Urdu during British rule in India",
+      "meaning": "the seclusion of women behind a screen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the practice in some Muslim and Hindu societies of screening women from men or strangers, by a curtain, veil, or seclusion"
+}

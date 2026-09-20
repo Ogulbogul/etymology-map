@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chadar",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "carried a wide range of meanings: tent, mantle, scarf, veil, sheet",
+      "meaning": "cloth covering, veil",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "chador",
+      "lang": "English",
+      "era": "1884",
+      "note": "entered English through Western accounts of Iranian dress",
+      "meaning": "large body-and-head covering cloth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large piece of dark cloth wrapped around the body and head, worn by some Muslim women, especially in Iran"
+}

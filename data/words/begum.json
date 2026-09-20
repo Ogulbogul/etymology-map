@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "beg + -um",
+      "lang": "East Turkic",
+      "era": "medieval",
+      "note": "beg meant \"lord, chief\"; -um was a feminine suffix of nobility",
+      "meaning": "lady, princess",
+      "lat": 39.77,
+      "lon": 64.42
+    },
+    {
+      "word": "begum",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "adopted into Persianate court vocabulary of Central and South Asia",
+      "meaning": "noblewoman",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "begam",
+      "lang": "Urdu",
+      "era": "1600s",
+      "note": "used as a title for women of high rank under the Mughal Empire",
+      "meaning": "Muslim noblewoman",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "begum",
+      "lang": "English",
+      "era": "1630s",
+      "note": "entered English through British contact with Mughal and later South Asian courts",
+      "meaning": "title for a Muslim woman of rank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Muslim woman of high rank, or a title of respect for a married Muslim woman, especially in South Asia"
+}

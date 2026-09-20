@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "portare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the basic verb of carrying, combined with ad- 'to' and later re- 'back'",
+      "meaning": "to carry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rapporter",
+      "lang": "French",
+      "era": "1100s",
+      "note": "'to bring back, to refer to' - the source of a back-formed noun",
+      "meaning": "to bring back, relate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rapport",
+      "lang": "English",
+      "era": "1660s-1894",
+      "note": "entered meaning simple 'relation, reference', later specialized to the harmonious connection between two people",
+      "meaning": "relationship, connection; harmonious accord",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a close, harmonious relationship in which people understand each other's feelings"
+}

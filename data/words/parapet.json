@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "pectus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plain word for the chest or breast",
+      "meaning": "breast, chest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "petto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "kept the sense of the breast",
+      "meaning": "breast, chest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parapetto",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "para- 'defense' plus petto 'breast' - a wall built breast-high for protection",
+      "meaning": "a breast-high defensive wall",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parapet",
+      "lang": "French",
+      "era": "1500s",
+      "note": "borrowed from Italian for a fortification's breastwork",
+      "meaning": "a defensive breastwork",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "parapet",
+      "lang": "English",
+      "era": "1580s",
+      "note": "adopted for a low protective wall along a roof, bridge, or rampart",
+      "meaning": "a low protective wall",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a low protective wall along the edge of a roof, bridge, or fortification"
+}

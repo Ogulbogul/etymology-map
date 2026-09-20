@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "croquer",
+      "lang": "French",
+      "era": "1600s",
+      "note": "an imitative (echoic) verb mimicking the sound of crunching",
+      "meaning": "to crunch",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "croquette",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a diminutive of croquer coined for a small fried, crunchy food ball",
+      "meaning": "a small fried food ball",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "croquette",
+      "lang": "English",
+      "era": "1706",
+      "note": "borrowed for the fried mixture of minced meat or fish formed into small balls",
+      "meaning": "a small fried food ball or roll",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small fried food ball or roll, typically containing minced meat, fish, or vegetables"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paejamah",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "compound of pae, \"leg,\" and jamah, \"garment\"",
+      "meaning": "leg clothing, loose trousers",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "pajama",
+      "lang": "Hindi",
+      "era": "by 1800",
+      "note": "everyday trousers worn by Muslims in India, adopted by European colonists",
+      "meaning": "loose trousers tied at the waist",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "pyjamas / pajamas",
+      "lang": "English",
+      "era": "1800s",
+      "note": "Europeans in India began wearing them as nightwear, and the word followed",
+      "meaning": "sleepwear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loose two-piece garment worn for sleeping"
+}

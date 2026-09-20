@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ayatu-llah",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"miraculous sign of God\"",
+      "meaning": "sign of God",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "ayatollah",
+      "lang": "Persian",
+      "era": "1900s",
+      "note": "adopted as an honorific for senior Shiite religious scholars",
+      "meaning": "high-ranking Shiite cleric",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "ayatollah",
+      "lang": "English",
+      "era": "1950",
+      "note": "entered English through reporting on Iranian religious and political leaders",
+      "meaning": "senior Shiite religious leader",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a high-ranking Shiite religious leader and scholar in Iran"
+}

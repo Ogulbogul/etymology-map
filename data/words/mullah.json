@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mawla",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "from waliya, \"he governed\"; originally meant \"master\"",
+      "meaning": "master, patron",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "molla / mulla",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "narrowed to a title for a learned religious scholar as it spread through Persian and Turkish courts",
+      "meaning": "religious scholar",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "mullah",
+      "lang": "English",
+      "era": "1610s",
+      "note": "adopted via Ottoman and Persian contacts",
+      "meaning": "Muslim theologian and teacher of sacred law",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Muslim trained in Islamic theology and sacred law, often used as a title for a religious teacher or leader"
+}

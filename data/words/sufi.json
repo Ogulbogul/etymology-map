@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "suf",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"wool,\" referring to the coarse woolen garments worn by early Muslim ascetics",
+      "meaning": "wool",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "sufi",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"man of wool,\" naming a practitioner of Islamic mysticism",
+      "meaning": "Muslim mystic",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "Sufi",
+      "lang": "English",
+      "era": "1580s-1650s",
+      "note": "settled into English after passing through several spellings including \"Sophee\"",
+      "meaning": "member of a Muslim mystical order",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a practitioner of Sufism, the mystical branch of Islam"
+}

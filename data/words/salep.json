@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "khusa ath-thalab",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"fox testicles,\" describing the shape of the orchid's root tubers",
+      "meaning": "orchid root tuber",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "salep",
+      "lang": "Ottoman Turkish",
+      "era": "1600s",
+      "note": "shortened the Arabic phrase into a single trade name",
+      "meaning": "orchid-root powder",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "salep",
+      "lang": "French",
+      "era": "1700s",
+      "note": "spread through European trade in exotic goods",
+      "meaning": "orchid-root flour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "salep",
+      "lang": "English",
+      "era": "mid-1700s",
+      "note": "adopted for the flour and hot drink made from dried orchid tubers",
+      "meaning": "orchid-root drink or flour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flour made from dried orchid tubers, or a hot, thickened drink made from it"
+}

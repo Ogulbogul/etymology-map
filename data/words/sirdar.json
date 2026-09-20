@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sar + -dar",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "compound of sar, \"head,\" and -dar, \"holder\"",
+      "meaning": "head-holder, commander",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "sirdar",
+      "lang": "Hindi/Urdu",
+      "era": "1700s",
+      "note": "used as a title for military and community leaders in South Asia",
+      "meaning": "leader, chief",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "sirdar",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted by the British for commanders-in-chief in India and Egypt/Sudan",
+      "meaning": "commander-in-chief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a military commander-in-chief, or a title of leadership historically used in India, Egypt, and Sudan"
+}

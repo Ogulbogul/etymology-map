@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "meringue",
+      "lang": "French",
+      "era": "1700s",
+      "note": "a coinage of otherwise unknown origin for a whipped egg-white confection",
+      "meaning": "a baked whipped egg-white and sugar confection",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "meringue",
+      "lang": "English",
+      "era": "1706",
+      "note": "borrowed whole for the same light, crisp confection",
+      "meaning": "a light, crisp egg-white and sugar confection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a light, crisp confection made of whipped egg whites and sugar"
+}

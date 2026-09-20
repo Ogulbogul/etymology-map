@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hajara / hijrah",
+      "lang": "Arabic",
+      "era": "622 CE",
+      "note": "meant \"to depart\"; named Muhammad's flight from Mecca to Medina, the event that starts the Islamic calendar",
+      "meaning": "departure, flight",
+      "lat": 21.42,
+      "lon": 39.83
+    },
+    {
+      "word": "hegira",
+      "lang": "Medieval Latin",
+      "era": "1500s",
+      "note": "adopted into European chronology and history writing",
+      "meaning": "the Islamic era's starting flight",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hegira",
+      "lang": "English",
+      "era": "1580s",
+      "note": "entered English historical and religious writing",
+      "meaning": "flight or journey to escape danger",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a journey or flight to escape danger, especially with reference to Muhammad's flight from Mecca to Medina in 622 CE"
+}

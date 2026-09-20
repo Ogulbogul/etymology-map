@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sapere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the verb of tasting, and by extension, discerning wisely",
+      "meaning": "to taste; to be wise",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "savoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the present participle savant described someone knowing or learned",
+      "meaning": "to know; learned, knowing",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "savant",
+      "lang": "French",
+      "era": "1600s",
+      "note": "used as a noun for a person of great learning",
+      "meaning": "a learned man",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "savant",
+      "lang": "English",
+      "era": "1719",
+      "note": "borrowed for a scholar eminent in scientific or scholarly research",
+      "meaning": "a person of great learning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a learned or knowledgeable person, especially an expert in a specific field"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "barghul",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "named parboiled, cracked wheat, meaning roughly \"roughly crushed\"",
+      "meaning": "cracked wheat",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "burghul",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "spread the grain and its name across the medieval Middle East",
+      "meaning": "cracked wheat",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "bulgur",
+      "lang": "Ottoman Turkish",
+      "era": "1800s",
+      "note": "the sounds were rearranged in Turkish pronunciation",
+      "meaning": "cracked wheat",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "bulgur",
+      "lang": "English",
+      "era": "1926",
+      "note": "entered English food writing describing the ancient Middle Eastern grain staple",
+      "meaning": "parboiled cracked wheat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cereal food made from parboiled, dried, and cracked wheat"
+}

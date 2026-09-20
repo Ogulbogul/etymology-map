@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ghazal",
+      "lang": "Arabic",
+      "era": "ancient",
+      "note": "meant \"to sweet-talk, to flirt,\" related to ghazaal, \"young gazelle\"",
+      "meaning": "to flirt, love-talk",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "ghazal",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "developed into a lyric poetic form of rhyming couplets on love and loss",
+      "meaning": "love poem form",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "ghazal",
+      "lang": "Urdu/Hindi",
+      "era": "1600s",
+      "note": "flourished further as a major poetic form in Mughal India",
+      "meaning": "lyric poem of couplets",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "ghazal",
+      "lang": "English",
+      "era": "1800s",
+      "note": "entered English literary criticism and was later adopted by English-language poets",
+      "meaning": "poetic form of rhyming couplets",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lyric poem made of rhyming couplets, traditionally on themes of love and loss, originating in Arabic and developed in Persian and Urdu literature"
+}

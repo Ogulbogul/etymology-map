@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wadi",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "participle of wada, \"it flowed\"",
+      "meaning": "a watercourse or valley, dry except in rainy season",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "wadi",
+      "lang": "English",
+      "era": "1839",
+      "note": "borrowed directly to describe North African and Middle Eastern desert valleys",
+      "meaning": "seasonal desert watercourse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dry riverbed or valley in North Africa or the Middle East that fills with water only after heavy rain"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "al-'ud",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"the wood,\" naming the pear-shaped wooden instrument",
+      "meaning": "the wood, a stringed instrument",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "oud",
+      "lang": "English",
+      "era": "1738",
+      "note": "entered English descriptions of Middle Eastern music",
+      "meaning": "Arab lute-like instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Middle Eastern pear-shaped stringed instrument, the ancestor of the European lute"
+}

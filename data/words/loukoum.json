@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "rahat al-hulqum / luqma",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"comfort of the throat\" or \"morsel\"",
+      "meaning": "throat-soothing sweet, morsel",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "lokum",
+      "lang": "Ottoman Turkish",
+      "era": "1700s",
+      "note": "shortened from \"rahat lokum\" into the everyday name for the confection",
+      "meaning": "gel-like sugared sweet",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "loukoum",
+      "lang": "French",
+      "era": "1800s",
+      "note": "popularized in Europe as \"Turkish delight\"",
+      "meaning": "Turkish delight",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "loukoum",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted alongside the more common translated name \"Turkish delight\"",
+      "meaning": "soft sugared confection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Turkish delight, a soft, gel-like confection dusted with powdered sugar"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tela",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from texere 'to weave' - a word for woven cloth",
+      "meaning": "web, cloth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "toile",
+      "lang": "French",
+      "era": "medieval",
+      "note": "kept the sense of cloth or fabric",
+      "meaning": "cloth, linen",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "toilette",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a diminutive of toile, first for a cloth cover on a dressing table, then for the act of dressing itself",
+      "meaning": "a dressing-table cloth; the act of grooming",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "toilette",
+      "lang": "English",
+      "era": "1530s-1819",
+      "note": "entered for a cloth wrapper, then widened through 'act of dressing' to a dressing room, and eventually a bathroom",
+      "meaning": "the process of washing and dressing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the process of washing and dressing, or informally, a bathroom"
+}

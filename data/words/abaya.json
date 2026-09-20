@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "'abaya",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "named a loose cloak or mantle worn over other clothing",
+      "meaning": "cloak, mantle",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "abaya",
+      "lang": "English",
+      "era": "1856",
+      "note": "entered English through travel and trade accounts of the Middle East",
+      "meaning": "loose full-length outer garment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loose, full-length outer garment worn by some Muslim women"
+}

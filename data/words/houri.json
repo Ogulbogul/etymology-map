@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "haura",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"to be beautifully dark-eyed, like a gazelle\"",
+      "meaning": "beautifully dark-eyed",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "huri",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "developed into the name for a nymph of Paradise in Islamic tradition",
+      "meaning": "paradise nymph",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "houri",
+      "lang": "French",
+      "era": "1650s",
+      "note": "borrowed via French Orientalist writing",
+      "meaning": "paradise nymph",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "houri",
+      "lang": "English",
+      "era": "1737",
+      "note": "entered English literature describing beautiful nymphs of the Muslim paradise",
+      "meaning": "beautiful nymph of paradise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a beautiful young woman, especially one of the nymphs of Paradise in Islamic tradition"
+}

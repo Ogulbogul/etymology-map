@@ -1,0 +1,59 @@
+{
+  "stops": [
+    {
+      "word": "zabad",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "possibly a folk-adapted African name; related to words for foam and cream",
+      "meaning": "civet, musky secretion",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "zapetion",
+      "lang": "Medieval Greek",
+      "era": "medieval",
+      "note": "carried the word into Byzantine trade vocabulary",
+      "meaning": "civet",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "zibethum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adapted for European scholarly and trade texts",
+      "meaning": "civet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "zibetto",
+      "lang": "Italian",
+      "era": "1400s",
+      "note": "shifted through Italian trading ports",
+      "meaning": "civet cat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "civette",
+      "lang": "French",
+      "era": "1400s",
+      "note": "reached France via the perfume trade",
+      "meaning": "civet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "civet",
+      "lang": "English",
+      "era": "1530s",
+      "note": "named both the cat-like animal and, by the 1550s, the musky perfume ingredient from its glands",
+      "meaning": "civet cat / perfume ingredient",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cat-like mammal of Africa and Asia, or the musky secretion from its glands once prized in perfume-making"
+}

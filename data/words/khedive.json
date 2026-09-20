@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "khvadata-",
+      "lang": "Old Persian",
+      "era": "ancient",
+      "note": "compound meaning \"lord, created from oneself\"",
+      "meaning": "lord, master",
+      "lat": 29.93,
+      "lon": 52.89
+    },
+    {
+      "word": "khidiw",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meant \"prince\"",
+      "meaning": "prince",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "khidiv",
+      "lang": "Turkish",
+      "era": "1800s",
+      "note": "adopted as an Ottoman administrative title",
+      "meaning": "viceroy",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "khedive",
+      "lang": "French",
+      "era": "1867",
+      "note": "used for the Ottoman-appointed ruler of Egypt",
+      "meaning": "viceroy of Egypt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "khedive",
+      "lang": "English",
+      "era": "1867",
+      "note": "entered English describing Egypt's Ottoman-appointed governors",
+      "meaning": "Turkish viceroy of Egypt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the title of the viceroy of Egypt under nominal Ottoman rule from 1867 to 1914"
+}

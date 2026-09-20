@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "columna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plain word for a pillar",
+      "meaning": "a pillar, column",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colonnella",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "named the commander at the head of a regiment's 'little column' of soldiers",
+      "meaning": "commander of a column of troops",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coronel",
+      "lang": "French",
+      "era": "1500s",
+      "note": "borrowed from Italian with a sound change (dissimilation) that altered the first consonant",
+      "meaning": "a military commander's rank",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "colonel",
+      "lang": "English",
+      "era": "1580s",
+      "note": "the spelling was reformed to match the Italian original, though the French-derived pronunciation persisted",
+      "meaning": "a senior military officer rank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a senior military officer rank, above lieutenant colonel and below brigadier general"
+}

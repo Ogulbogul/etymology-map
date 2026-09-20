@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "paloodeh",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "a chilled dessert originally from Shiraz",
+      "meaning": "cold noodle dessert",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "faloodeh",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "reshaped after the Arab conquest of Iran, since Arabic lacks the sound \"p\"",
+      "meaning": "cold dessert",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "falooda",
+      "lang": "Hindi/Urdu",
+      "era": "1600s",
+      "note": "carried to South Asia by Central Asian dynasties and developed under the Mughals",
+      "meaning": "vermicelli and syrup dessert drink",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "falooda",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through South Asian cuisine",
+      "meaning": "iced vermicelli dessert drink",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cold South Asian dessert drink made with vermicelli noodles, milk, syrup, and sometimes ice cream"
+}

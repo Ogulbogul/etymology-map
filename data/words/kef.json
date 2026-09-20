@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kaif",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"well-being, good humor,\" the pleasure of idleness",
+      "meaning": "well-being, pleasurable idleness",
+      "lat": 34.03,
+      "lon": -5.0
+    },
+    {
+      "word": "kef",
+      "lang": "English",
+      "era": "1808",
+      "note": "entered English describing a dreamy, relaxed state, especially one induced by smoking cannabis in North Africa",
+      "meaning": "state of drowsy relaxation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of drowsy, dreamlike relaxation; also, the resin (kief) used for smoking cannabis"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "focus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a plain word for a hearth or fireplace",
+      "meaning": "hearth, fireplace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "foier",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "kept the sense of a fire or furnace",
+      "meaning": "furnace, hearth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "foyer",
+      "lang": "French",
+      "era": "medieval",
+      "note": "extended, via 'gathering place by the fire', to the green room where actors waited",
+      "meaning": "a green room for actors",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "foyer",
+      "lang": "English",
+      "era": "1859",
+      "note": "borrowed for the lobby of a theater or opera house",
+      "meaning": "the lobby of a theater",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an entrance hall or lobby, especially of a theater or hotel"
+}

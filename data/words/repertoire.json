@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "reperire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "re- (intensive) plus an old verb 'to produce, bring forth'",
+      "meaning": "to find, invent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "repertorium",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a noun formed for a catalogued list of things found",
+      "meaning": "an inventory",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "repertoire",
+      "lang": "French",
+      "era": "1300s",
+      "note": "narrowed to mean a running index or list",
+      "meaning": "an index, list",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "repertoire",
+      "lang": "English",
+      "era": "1847",
+      "note": "specialized to the stock of works a performer or company has ready to present",
+      "meaning": "a company's stock of ready performances",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the range of skills, works, or techniques a person or group is prepared to perform"
+}

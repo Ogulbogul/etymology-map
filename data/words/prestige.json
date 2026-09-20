@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "praestigium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from praestringere, 'to blindfold, dazzle' - a word for a conjuror's trick",
+      "meaning": "illusion, delusion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prestige",
+      "lang": "French",
+      "era": "1500s",
+      "note": "kept the sense of conjuring deception and false glamour",
+      "meaning": "deceit, illusion, glamour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "prestige",
+      "lang": "English",
+      "era": "1650s-1815",
+      "note": "entered meaning 'trick, illusion'; by the Napoleonic era the sense had flipped positive, tied to a dazzling reputation",
+      "meaning": "a reputation for excellence or influence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "widespread respect and admiration based on achievement or status"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "suq",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "an open marketplace at the heart of Arab cities",
+      "meaning": "marketplace",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "souk",
+      "lang": "French",
+      "era": "1826",
+      "note": "borrowed during French colonial contact in North Africa",
+      "meaning": "Arab market",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "souk",
+      "lang": "English",
+      "era": "1826",
+      "note": "adopted from French to describe Middle Eastern and North African bazaars",
+      "meaning": "open-air market",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an open-air marketplace or bazaar in an Arab city"
+}

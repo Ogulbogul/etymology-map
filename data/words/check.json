@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "shah",
+      "lang": "Persian",
+      "era": "ancient",
+      "note": "meant \"king\"; called out when the king piece was threatened in chess",
+      "meaning": "king",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "scaccus",
+      "lang": "Vulgar Latin",
+      "era": "medieval",
+      "note": "the term for chess spread into Europe through Arabic-mediated trade and translation",
+      "meaning": "chess",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "eschec",
+      "lang": "Old French",
+      "era": "c. 1300",
+      "note": "named the move that threatened the king, and by extension any sudden stoppage",
+      "meaning": "check at chess; stoppage",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "check",
+      "lang": "English",
+      "era": "c. 1300 - 1798",
+      "note": "broadened from the chess term to \"restraint\" (1510s), a verification mark (1856), and a written bank order (1798)",
+      "meaning": "restraint, verification, bank draft",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a written order to a bank to pay money; also, a mark of verification, or a stoppage or restraint"
+}

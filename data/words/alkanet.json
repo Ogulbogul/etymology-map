@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "al-hinna",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "\"the henna plant,\" whose name was extended to a related red-dye plant",
+      "meaning": "henna, red-dye plant",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "alcanna",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted a diminutive form for the European dye plant alkanet",
+      "meaning": "dye-root plant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alkanet",
+      "lang": "English",
+      "era": "mid-1300s",
+      "note": "entered English for the plant whose root yields a red dye and cosmetic stain",
+      "meaning": "red-dye root plant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a European plant whose root yields a red dye, used historically as a cosmetic stain and styptic"
+}

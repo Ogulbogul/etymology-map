@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Praslin",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the surname of Marshal Duplessis-Praslin, whose cook is credited with inventing the confection",
+      "meaning": "a French noble family's surname",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "praline",
+      "lang": "French",
+      "era": "1600s",
+      "note": "named an almond-and-caramelized-sugar candy after the Marshal",
+      "meaning": "an almond-sugar confection",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "praline",
+      "lang": "English",
+      "era": "1727-1809",
+      "note": "borrowed for the same candy, later widening to similar sugar-and-nut confections",
+      "meaning": "a nut-and-caramelized-sugar confection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a confection made of nuts and caramelized sugar"
+}

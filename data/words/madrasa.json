@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "darasa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"he studied, he read repeatedly\"; related to Hebrew darash, root of \"midrash\"",
+      "meaning": "to study",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "madrasah",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"a place of study,\" originally a generic word for any school",
+      "meaning": "school, place of learning",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "madrasa",
+      "lang": "English",
+      "era": "1620s",
+      "note": "narrowed in English usage to mean specifically an Islamic religious school",
+      "meaning": "Islamic school",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an Islamic school or college, especially one for religious instruction"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pairika",
+      "lang": "Avestan",
+      "era": "ancient",
+      "note": "named a malevolent supernatural being in ancient Iranian belief",
+      "meaning": "evil supernatural being",
+      "lat": 36.76,
+      "lon": 66.9
+    },
+    {
+      "word": "pari",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "softened over time into a beautiful, winged nymph-like spirit",
+      "meaning": "supernatural nymph",
+      "lat": 32.65,
+      "lon": 51.68
+    },
+    {
+      "word": "peri",
+      "lang": "English",
+      "era": "1777",
+      "note": "entered English literature describing graceful supernatural beings of Persian myth",
+      "meaning": "beautiful supernatural being",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a beautiful, graceful supernatural being in Persian mythology, often depicted with wings"
+}

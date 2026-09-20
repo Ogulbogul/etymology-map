@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "khamsin",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "literally \"fifty,\" for the roughly fifty days between winter and summer when the wind blows",
+      "meaning": "fifty (days of wind)",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "khamsin",
+      "lang": "English",
+      "era": "1670s-80s",
+      "note": "entered English through travel accounts of Egypt",
+      "meaning": "hot springtime desert wind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot, dust-laden south or southeasterly wind that blows over Egypt and the eastern Mediterranean in spring"
+}

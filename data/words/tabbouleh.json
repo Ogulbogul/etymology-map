@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tabil",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "meant \"seasoning\" or \"spice\"",
+      "meaning": "seasoning",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "tabbulah",
+      "lang": "Levantine Arabic",
+      "era": "medieval",
+      "note": "named the seasoned salad now eaten across the Levant",
+      "meaning": "seasoned salad",
+      "lat": 33.51,
+      "lon": 36.28
+    },
+    {
+      "word": "tabbouleh",
+      "lang": "English",
+      "era": "1939",
+      "note": "entered English through Levantine cuisine",
+      "meaning": "parsley and bulgur salad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Levantine salad of bulgur wheat, chopped parsley, tomatoes, mint, and lemon juice"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "testa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "originally an earthenware pot or jug; a humorous Vulgar Latin shift gave it the sense of 'head'",
+      "meaning": "an earthen pot; head",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "teste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the sense of head",
+      "meaning": "head",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tete-a-tete",
+      "lang": "French",
+      "era": "1690s",
+      "note": "literally 'head-to-head', a phrase for a private, face-to-face meeting",
+      "meaning": "a private, face-to-face meeting",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tete-a-tete",
+      "lang": "English",
+      "era": "1690s",
+      "note": "borrowed whole for an intimate two-person conversation",
+      "meaning": "a private conversation between two people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a private conversation between two people"
+}

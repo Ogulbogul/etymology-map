@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "papilio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "originally 'butterfly, moth'",
+      "meaning": "butterfly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "paveillon",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "applied to a large tent, whose spread canvas resembled wings",
+      "meaning": "a large tent",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "paviloun",
+      "lang": "English",
+      "era": "1200s",
+      "note": "borrowed for a stately, movable tent-house",
+      "meaning": "a large, elaborate tent",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "pavilion",
+      "lang": "English",
+      "era": "1680s-1858",
+      "note": "widened to an open park structure, then to an isolated wing attached to a larger building",
+      "meaning": "an open building for shelter or entertainment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building or structure used for entertainment, exhibitions, or as an attached wing"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "samma / samum",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "from sam, \"poison\"; samma meant \"he poisoned\"",
+      "meaning": "poisonous wind",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "simoom",
+      "lang": "English",
+      "era": "1790",
+      "note": "entered English travel writing describing the deadly desert wind",
+      "meaning": "hot, dry desert windstorm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot, dry, dust-laden desert wind in Arabia and the Sahara"
+}
