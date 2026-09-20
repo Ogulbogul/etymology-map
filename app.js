@@ -1423,7 +1423,7 @@ function setupCopyLink() {
   copyLinkBtn.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
-      copyLinkBtn.textContent = "✅";
+      copyLinkBtn.textContent = "✓";
       copyLinkBtn.classList.add("copied");
     } catch (err) {
       copyLinkBtn.textContent = "⚠️";

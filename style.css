@@ -561,6 +561,8 @@ header h1 {
 .icon-btn.copied {
   border-color: var(--accent);
   color: var(--accent);
+  font-weight: 700;
+  font-size: 1.15rem;
 }
 
 .result-trail {
