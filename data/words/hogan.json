@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hooghan",
+      "lang": "Navajo",
+      "era": "pre-1800s",
+      "note": "named the traditional Navajo dwelling, often built of logs and earth",
+      "meaning": "a home, dwelling place",
+      "lat": 35.68,
+      "lon": -109.05
+    },
+    {
+      "word": "hogan",
+      "lang": "English",
+      "era": "1870s",
+      "note": "borrowed directly into English by settlers and ethnographers in the American Southwest",
+      "meaning": "a traditional Navajo dwelling made of logs and earth",
+      "lat": 35.68,
+      "lon": -109.05
+    }
+  ],
+  "current_meaning": "a traditional Navajo dwelling constructed of logs, earth, and other natural materials"
+}

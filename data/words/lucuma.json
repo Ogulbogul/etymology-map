@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rucma",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "named the sweet, egg-yolk colored Andean fruit",
+      "meaning": "an Andean fruit with sweet, dense flesh",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "lúcuma",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted by Spanish colonists in Peru for the same fruit",
+      "meaning": "a sweet Andean fruit used in desserts",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "lucuma",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed into English through Peruvian cuisine and, more recently, the health-food market",
+      "meaning": "a sweet, dense Andean fruit used to flavor ice cream and desserts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet, dense-fleshed Andean fruit prized for flavoring ice cream and desserts, especially in Peru"
+}

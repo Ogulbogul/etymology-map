@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "inuksuk",
+      "lang": "Inuktitut",
+      "era": "pre-1800s",
+      "note": "combined 'inuk' (person) and a suffix meaning 'substitute', describing a stone figure that acts in place of a human",
+      "meaning": "something that acts in the capacity of a human",
+      "lat": 63.75,
+      "lon": -68.52
+    },
+    {
+      "word": "inuksuk",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed into English, becoming widely known after being used as the emblem of the 2010 Winter Olympics",
+      "meaning": "a stone landmark or cairn built by Arctic peoples",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stone landmark or cairn built by Inuit and other Arctic peoples, traditionally used for navigation or communication"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "milpan",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "combined 'milli' (cultivated field) and 'pan' (on, at), naming a traditional farming plot",
+      "meaning": "a cultivated field",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "milpa",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish for the traditional maize, bean, and squash farming plot",
+      "meaning": "a small farming plot, often growing maize, beans, and squash together",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "milpa",
+      "lang": "English",
+      "era": "1840s",
+      "note": "borrowed into English through anthropological and agricultural writing on Mesoamerica",
+      "meaning": "a traditional Mesoamerican farming plot using intercropped staple crops",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Mesoamerican farming plot where maize, beans, and squash are grown together"
+}

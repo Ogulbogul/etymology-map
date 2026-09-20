@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kurari",
+      "lang": "Cariban",
+      "era": "pre-1500s",
+      "note": "named the paralyzing plant poison used on hunting arrows",
+      "meaning": "an arrow poison",
+      "lat": 6.8,
+      "lon": -58.2
+    },
+    {
+      "word": "curare",
+      "lang": "Spanish/Portuguese",
+      "era": "1670s",
+      "note": "adopted by European explorers documenting Amazonian hunting practices",
+      "meaning": "a paralyzing poison extracted from plants",
+      "lat": -3.12,
+      "lon": -60.02
+    },
+    {
+      "word": "curare",
+      "lang": "English",
+      "era": "1670s-1800s",
+      "note": "entered English through scientific accounts, later used in medicine as a muscle relaxant",
+      "meaning": "a plant-derived poison used medically as a muscle relaxant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a toxic plant extract that causes paralysis, historically used as an arrow poison and later in medicine as a muscle relaxant"
+}

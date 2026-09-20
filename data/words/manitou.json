@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "manetowa",
+      "lang": "Proto-Algonquian",
+      "era": "pre-1600s",
+      "note": "named the spiritual force or power present in people, animals, and places",
+      "meaning": "spirit, sacred power",
+      "lat": 46.79,
+      "lon": -92.1
+    },
+    {
+      "word": "manitou",
+      "lang": "French",
+      "era": "1670s",
+      "note": "recorded by French missionaries and traders among Great Lakes Algonquian peoples",
+      "meaning": "a spirit or divine power",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "word": "manitou",
+      "lang": "English",
+      "era": "1670s-1800s",
+      "note": "borrowed from French accounts of Great Lakes indigenous religion",
+      "meaning": "a spiritual force or being in Algonquian belief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spiritual force or being central to Algonquian traditional religion, ranging from minor spirits to the 'Great Spirit'"
+}

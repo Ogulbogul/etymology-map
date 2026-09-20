@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kwatĩ",
+      "lang": "Tupi-Guarani",
+      "era": "pre-1500s",
+      "note": "named the long-nosed, raccoon-like mammal",
+      "meaning": "a long-nosed forest mammal",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "coati",
+      "lang": "Portuguese/Spanish",
+      "era": "1600s",
+      "note": "adopted by Iberian colonists describing the animal",
+      "meaning": "a raccoon relative with a long, flexible snout",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "coati",
+      "lang": "English",
+      "era": "1670s",
+      "note": "borrowed into English natural history writing",
+      "meaning": "a raccoon-family mammal with a long snout and tail",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a raccoon-family mammal with a long, flexible snout, found from the southwestern U.S. to South America"
+}

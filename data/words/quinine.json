@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kina",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "named the bark of the cinchona tree used to treat fevers",
+      "meaning": "bark, specifically fever-tree bark",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "quina",
+      "lang": "Spanish",
+      "era": "1630s",
+      "note": "adopted by Spanish Jesuits who learned of the fever-bark remedy in Peru",
+      "meaning": "cinchona bark used as medicine",
+      "lat": -12.05,
+      "lon": -77.04
+    },
+    {
+      "word": "quinine",
+      "lang": "French",
+      "era": "1820",
+      "note": "coined by French chemists Pelletier and Caventou when they isolated the active alkaloid",
+      "meaning": "the isolated anti-malarial alkaloid from cinchona bark",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "word": "quinine",
+      "lang": "English",
+      "era": "1820s",
+      "note": "borrowed directly from the French scientific term",
+      "meaning": "a bitter compound used to treat malaria",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bitter alkaloid derived from cinchona bark, historically used to treat malaria and to flavor tonic water"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sálal",
+      "lang": "Lower Chinook",
+      "era": "pre-1800s",
+      "note": "named the leathery-leaved shrub with edible dark berries",
+      "meaning": "a berry-producing evergreen shrub",
+      "lat": 46.19,
+      "lon": -123.83
+    },
+    {
+      "word": "salal",
+      "lang": "Chinook Jargon",
+      "era": "1800s",
+      "note": "carried into the Pacific Northwest trade language spoken by explorers and traders",
+      "meaning": "a shrub with edible berries, valued by coastal peoples",
+      "lat": 46.19,
+      "lon": -123.83
+    },
+    {
+      "word": "salal",
+      "lang": "English",
+      "era": "1814",
+      "note": "recorded in English by botanist David Douglas during his expeditions in the Pacific Northwest",
+      "meaning": "a native Pacific Northwest shrub with edible dark purple berries",
+      "lat": 49.28,
+      "lon": -123.12
+    }
+  ],
+  "current_meaning": "a Pacific Northwest evergreen shrub with edible dark berries and leathery leaves used in floral arrangements"
+}

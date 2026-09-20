@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nextamalli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "combined nextli 'ashes/lime' and tamalli 'dough', describing corn soaked in lime water",
+      "meaning": "lime-treated corn dough",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "nixtamal",
+      "lang": "Spanish",
+      "era": "1500s-1600s",
+      "note": "adopted into Mexican Spanish for the traditional corn-processing method",
+      "meaning": "corn kernels treated with lime and ready for grinding",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "nixtamalization",
+      "lang": "English",
+      "era": "1950s",
+      "note": "adopted into English food science to describe the ancient corn-processing technique",
+      "meaning": "the process of soaking corn in an alkaline solution before grinding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the traditional process of soaking and cooking maize in an alkaline solution to make it more nutritious and easier to grind"
+}

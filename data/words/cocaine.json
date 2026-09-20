@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kuka",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "named the coca shrub whose leaves were chewed for stimulant effect",
+      "meaning": "the coca plant",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "coca",
+      "lang": "Spanish",
+      "era": "1570s",
+      "note": "adopted by Spanish colonists in the Andes for the same plant",
+      "meaning": "the coca shrub",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "cocaine",
+      "lang": "German",
+      "era": "1856",
+      "note": "coined by chemist Albert Niemann, who isolated the alkaloid and added the scientific suffix '-ine'",
+      "meaning": "the stimulant alkaloid isolated from coca leaves",
+      "lat": 51.54,
+      "lon": 9.92
+    },
+    {
+      "word": "cocaine",
+      "lang": "English",
+      "era": "1870s",
+      "note": "adopted directly from the German scientific coinage",
+      "meaning": "an addictive stimulant drug derived from coca leaves",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a powerful and addictive stimulant drug derived from the coca plant"
+}

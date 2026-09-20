@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "umiaq",
+      "lang": "Inuktitut",
+      "era": "pre-1700s",
+      "note": "named the large open skin boat paddled by women for transport and whaling",
+      "meaning": "a large open boat covered in animal skin",
+      "lat": 63.75,
+      "lon": -68.52
+    },
+    {
+      "word": "umiak",
+      "lang": "English",
+      "era": "1750s",
+      "note": "borrowed by explorers and whalers describing Inuit watercraft",
+      "meaning": "a large open Inuit boat covered in animal hide",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, open Arctic boat traditionally covered in animal skins and used for transport or whaling"
+}

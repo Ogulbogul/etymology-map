@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chinamitl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named the cane or reed fence used to build raised agricultural plots in shallow lakes",
+      "meaning": "a fence of reeds or canes",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chinampa",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish to describe the Aztec raised-bed farming system",
+      "meaning": "an artificial, canal-lined agricultural plot",
+      "lat": 19.28,
+      "lon": -99.1
+    },
+    {
+      "word": "chinampa",
+      "lang": "English",
+      "era": "1840s",
+      "note": "borrowed into English through historical and archaeological writing on Aztec agriculture",
+      "meaning": "a Mesoamerican raised-field farming technique, sometimes called a 'floating garden'",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an artificial agricultural island built in shallow lake beds, developed by the Aztecs and still used in parts of Mexico"
+}

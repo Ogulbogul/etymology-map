@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "tapira",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "named the large, long-snouted forest mammal",
+      "meaning": "a large forest mammal",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "tapir",
+      "lang": "Portuguese",
+      "era": "1560s",
+      "note": "adopted by Portuguese colonists describing Brazilian wildlife",
+      "meaning": "a large, pig-like forest mammal with a short trunk",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "tapir",
+      "lang": "French",
+      "era": "1600s",
+      "note": "passed into French natural history writing describing New World animals",
+      "meaning": "a large, hoofed mammal with a flexible snout",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "word": "tapir",
+      "lang": "English",
+      "era": "1770s",
+      "note": "adopted into English zoological terminology",
+      "meaning": "a large, herbivorous mammal with a short trunk-like snout",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, herbivorous mammal with a short, flexible snout, found in the Americas and Southeast Asia"
+}

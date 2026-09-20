@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maraka",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "named the hollow, seed-filled rattle used in ceremonies",
+      "meaning": "a hollow rattle instrument",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "maracá",
+      "lang": "Portuguese",
+      "era": "1600s",
+      "note": "adopted by Portuguese colonists for the same percussion instrument",
+      "meaning": "a rattle percussion instrument",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "maraca",
+      "lang": "English",
+      "era": "1650s",
+      "note": "borrowed into English through accounts of South American music and culture",
+      "meaning": "a hand-held percussion rattle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hand-held percussion instrument consisting of a hollow shell filled with beads or seeds"
+}

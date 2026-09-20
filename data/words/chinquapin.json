@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chechinquamin",
+      "lang": "Virginia Algonquian (Powhatan)",
+      "era": "pre-1620s",
+      "note": "named the small edible nut of a dwarf chestnut tree",
+      "meaning": "a small edible chestnut-like nut",
+      "lat": 37.2,
+      "lon": -76.78
+    },
+    {
+      "word": "chinquapin",
+      "lang": "English",
+      "era": "1610s",
+      "note": "recorded by English colonists, including Captain John Smith, in early Virginia accounts",
+      "meaning": "a small native chestnut tree and its nut",
+      "lat": 37.54,
+      "lon": -77.44
+    }
+  ],
+  "current_meaning": "a small tree of the chestnut family native to North America, or its edible nut"
+}

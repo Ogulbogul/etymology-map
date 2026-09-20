@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wi·kiya·pi",
+      "lang": "Fox (Meskwaki)",
+      "era": "pre-1800s",
+      "note": "meant 'house' or 'dwelling', from the shared Algonquian root 'wik-' meaning 'to dwell'",
+      "meaning": "a house, dwelling",
+      "lat": 42.05,
+      "lon": -91.6
+    },
+    {
+      "word": "wickiup",
+      "lang": "English",
+      "era": "1843",
+      "note": "borrowed into English, first applied to Great Lakes dwellings and later to southwestern brush shelters",
+      "meaning": "a small hut or shelter made of brush and matting",
+      "lat": 35.68,
+      "lon": -109.05
+    }
+  ],
+  "current_meaning": "a small, dome-shaped hut traditionally built of brush, poles, and matting by some Native American peoples"
+}

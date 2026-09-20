@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chirimuya",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "combined 'chiri' (cold) and 'muya' (seeds), describing the high-altitude fruit tree",
+      "meaning": "cold seeds",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "chirimoya",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted by Spanish colonists in the Andes for the sweet Andean fruit",
+      "meaning": "a sweet, custard-like Andean fruit",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "cherimoya",
+      "lang": "English",
+      "era": "1750s",
+      "note": "borrowed into English botanical and culinary writing",
+      "meaning": "a sweet, custard-textured Andean fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet, custard-textured Andean fruit sometimes called the 'custard apple'"
+}

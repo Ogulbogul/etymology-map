@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mandioca",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "named the starchy root crop cultivated throughout South America",
+      "meaning": "a starchy edible root",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "manioc",
+      "lang": "Portuguese/French",
+      "era": "1560s",
+      "note": "adopted by Portuguese and French colonists for the same crop",
+      "meaning": "a starchy tropical root crop",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "manioc",
+      "lang": "English",
+      "era": "1560s-1600s",
+      "note": "borrowed into English through colonial accounts of Brazilian agriculture",
+      "meaning": "cassava, a starchy tropical root crop",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a starchy tropical root crop, also known as cassava, that is a staple food in many tropical countries"
+}

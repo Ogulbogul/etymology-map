@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "epazotl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named for the pungent-smelling herb (epatl skunk + tzotl sweat/dirt)",
+      "meaning": "a strong-smelling cooking and medicinal herb",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "epazote",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish with the Nahuatl name intact",
+      "meaning": "a pungent culinary herb used with beans and stews",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "epazote",
+      "lang": "English",
+      "era": "1920s",
+      "note": "entered English through Mexican cookbooks and Southwestern cuisine",
+      "meaning": "a strong-flavored herb used in Mexican cooking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pungent Mexican culinary herb traditionally cooked with black beans"
+}

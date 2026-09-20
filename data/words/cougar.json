@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "suasuarana",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "a compound describing the large wildcat, later corrupted through transmission",
+      "meaning": "a large wildcat (literally 'false deer')",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "çuçuarana",
+      "lang": "Portuguese",
+      "era": "1600s",
+      "note": "adopted by Portuguese colonists in Brazil, later blended with a Guarani word for the animal",
+      "meaning": "a large American wildcat",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "cougar",
+      "lang": "French",
+      "era": "1770s",
+      "note": "corrupted in French natural history writing, notably by Buffon",
+      "meaning": "a large American wildcat",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "word": "cougar",
+      "lang": "English",
+      "era": "1770s-1800s",
+      "note": "borrowed from French into English natural history usage",
+      "meaning": "a large wild cat native to the Americas, also called puma or mountain lion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, tawny wild cat native to the Americas, also known as the puma or mountain lion"
+}

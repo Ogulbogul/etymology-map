@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "onoto",
+      "lang": "Cariban",
+      "era": "pre-1500s",
+      "note": "named the red dye extracted from the seeds of a tropical shrub",
+      "meaning": "a red dye-producing seed",
+      "lat": 6.8,
+      "lon": -58.2
+    },
+    {
+      "word": "annatto",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted by Spanish colonists across the Caribbean and South America",
+      "meaning": "a red dye made from tropical shrub seeds",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "annatto",
+      "lang": "English",
+      "era": "1670s",
+      "note": "borrowed into English through colonial trade accounts",
+      "meaning": "a natural orange-red food coloring and seasoning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a natural orange-red dye and seasoning derived from the seeds of the annatto shrub, used in cheeses and traditional cooking"
+}

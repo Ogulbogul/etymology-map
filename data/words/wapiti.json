@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "waapiti",
+      "lang": "Shawnee/Cree",
+      "era": "pre-1800s",
+      "note": "literally 'white rump', describing the elk's pale rear patch",
+      "meaning": "white rump, the North American elk",
+      "lat": 39.96,
+      "lon": -82.99
+    },
+    {
+      "word": "wapiti",
+      "lang": "English",
+      "era": "1810s",
+      "note": "adopted by English-speaking settlers to distinguish the American elk from the European elk (moose)",
+      "meaning": "the North American elk",
+      "lat": 44.31,
+      "lon": -69.78
+    }
+  ],
+  "current_meaning": "the North American elk, a large deer species with impressive antlers"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maashkinoozhe",
+      "lang": "Ojibwe",
+      "era": "pre-1700s",
+      "note": "literally 'ugly pike', naming the large predatory freshwater fish",
+      "meaning": "ugly pike",
+      "lat": 46.79,
+      "lon": -92.1
+    },
+    {
+      "word": "masquinongé",
+      "lang": "Canadian French",
+      "era": "1700s",
+      "note": "adapted by French-Canadian trappers and fishers in the Great Lakes region",
+      "meaning": "a large freshwater game fish",
+      "lat": 45.5,
+      "lon": -73.57
+    },
+    {
+      "word": "muskellunge",
+      "lang": "English",
+      "era": "1780s-1790s",
+      "note": "anglicized from the French-Canadian form",
+      "meaning": "a large predatory freshwater fish of the pike family",
+      "lat": 44.98,
+      "lon": -93.27
+    }
+  ],
+  "current_meaning": "a large predatory freshwater fish of the pike family, prized by anglers in the Great Lakes region"
+}

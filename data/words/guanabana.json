@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wanabana",
+      "lang": "Taino",
+      "era": "pre-1500s",
+      "note": "named the large, spiky-skinned tropical fruit",
+      "meaning": "a large, spiny tropical fruit",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "guanábana",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted by Spanish colonists in the Caribbean for the same fruit",
+      "meaning": "soursop, a tropical fruit",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "guanabana",
+      "lang": "English",
+      "era": "1750s",
+      "note": "borrowed into English through accounts of Caribbean and tropical fruit",
+      "meaning": "soursop, a large tropical fruit with white flesh",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "soursop, a large tropical fruit with spiky green skin and sweet-tart white flesh"
+}

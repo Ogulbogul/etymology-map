@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "teocintli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "combined 'teotl' (god) and 'cintli' (dried maize), naming the wild ancestor grass of corn",
+      "meaning": "god's maize, a wild grass related to corn",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "teocinte",
+      "lang": "Spanish",
+      "era": "1600s-1800s",
+      "note": "adopted into Mexican Spanish for the wild grass related to domesticated maize",
+      "meaning": "a wild grass, the ancestor of cultivated corn",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "téosinte",
+      "lang": "French",
+      "era": "1870s",
+      "note": "adopted into French botanical literature describing the plant",
+      "meaning": "a wild grass related to maize",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    {
+      "word": "teosinte",
+      "lang": "English",
+      "era": "1880s",
+      "note": "borrowed into English botanical and genetic terminology",
+      "meaning": "a wild grass considered the evolutionary ancestor of modern corn",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wild grass native to Mexico and Central America, recognized as the evolutionary ancestor of modern corn"
+}

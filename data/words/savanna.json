@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "zabana",
+      "lang": "Taino",
+      "era": "pre-1500s",
+      "note": "named a treeless, grassy plain",
+      "meaning": "a flat, grassy plain",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "sabana",
+      "lang": "Spanish",
+      "era": "1530s",
+      "note": "adopted by Spanish explorers to describe similar grasslands across the Americas",
+      "meaning": "a flat, treeless grassland",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "savanna",
+      "lang": "English",
+      "era": "1550s",
+      "note": "anglicized from Spanish descriptions of New World landscapes",
+      "meaning": "a flat grassland with scattered trees, typically in tropical regions",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat grassland ecosystem with scattered trees, found in tropical and subtropical regions"
+}

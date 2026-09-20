@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "akuti",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "named the large, rabbit-sized forest rodent",
+      "meaning": "a forest rodent",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "agouti",
+      "lang": "Portuguese/French",
+      "era": "1600s",
+      "note": "adopted by Iberian and French colonists describing the animal",
+      "meaning": "a large, long-legged rodent",
+      "lat": -12.97,
+      "lon": -38.5
+    },
+    {
+      "word": "agouti",
+      "lang": "English",
+      "era": "1600s",
+      "note": "borrowed into English natural history accounts",
+      "meaning": "a rabbit-sized rodent native to Central and South America",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rabbit-sized, long-legged rodent native to Central and South America, also lending its name to a common animal coat coloring pattern"
+}

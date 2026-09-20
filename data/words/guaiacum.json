@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "guayacán",
+      "lang": "Taino",
+      "era": "pre-1500s",
+      "note": "named the hard, resinous tree known for its medicinal properties",
+      "meaning": "a hard, resinous tree",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "guayaco",
+      "lang": "Spanish",
+      "era": "1520s",
+      "note": "adopted by Spanish colonists, who prized the wood's resin as a treatment for disease",
+      "meaning": "a medicinal tree resin",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "guaiacum",
+      "lang": "English",
+      "era": "1530s",
+      "note": "latinized and borrowed into English, among the very first words of American indigenous origin recorded in English",
+      "meaning": "a resinous tropical hardwood tree, also called lignum vitae",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a very hard, resinous tropical tree, also known as lignum vitae, historically valued for its medicinal resin"
+}

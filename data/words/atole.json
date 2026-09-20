@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "atolli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "combined 'atl' (water) and 'olli' (viscous), describing a thick corn-based drink",
+      "meaning": "a thick, warm corn drink",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "atole",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish for the traditional warm corn beverage",
+      "meaning": "a warm, thickened corn-based drink",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "atole",
+      "lang": "English",
+      "era": "1710s-1720s",
+      "note": "borrowed into English through accounts of Mexican cuisine",
+      "meaning": "a traditional Mexican hot corn-based beverage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Mexican hot beverage made from corn flour, often flavored with cinnamon, chocolate, or fruit"
+}

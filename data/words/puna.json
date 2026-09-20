@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "puna",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "named the high, cold, treeless plateau of the Andes",
+      "meaning": "a high, cold plateau",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "puna",
+      "lang": "Spanish",
+      "era": "1550s",
+      "note": "adopted by Spanish colonists describing the Andean highlands",
+      "meaning": "a high Andean plateau; also, altitude sickness",
+      "lat": -13.53,
+      "lon": -71.97
+    },
+    {
+      "word": "puna",
+      "lang": "English",
+      "era": "1600s",
+      "note": "borrowed into English geographical writing about South America",
+      "meaning": "a high, cold, arid plateau, especially in the Andes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a high, cold, arid plateau region of the central Andes"
+}

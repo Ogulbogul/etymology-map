@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sθəqəy̓",
+      "lang": "Halkomelem",
+      "era": "pre-1800s",
+      "note": "named the red-fleshed salmon species; the name means 'red fish'",
+      "meaning": "red salmon",
+      "lat": 49.17,
+      "lon": -122.8
+    },
+    {
+      "word": "sockeye",
+      "lang": "English",
+      "era": "1870s",
+      "note": "borrowed and folk-etymologized by English-speaking fishers on the Pacific coast",
+      "meaning": "a species of Pacific salmon prized for its deep red flesh",
+      "lat": 49.28,
+      "lon": -123.12
+    }
+  ],
+  "current_meaning": "a species of Pacific salmon (Oncorhynchus nerka) known for its bright red flesh"
+}

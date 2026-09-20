@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kaiman",
+      "lang": "Cariban",
+      "era": "pre-1500s",
+      "note": "named the large reptile found in Caribbean and South American waters",
+      "meaning": "a large crocodilian reptile",
+      "lat": 6.8,
+      "lon": -58.2
+    },
+    {
+      "word": "caimán",
+      "lang": "Spanish",
+      "era": "1570s",
+      "note": "adopted by Spanish explorers describing the animal",
+      "meaning": "a crocodile-like reptile of the Americas",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "cayman",
+      "lang": "English",
+      "era": "1570s-1600s",
+      "note": "anglicized from Spanish accounts of New World wildlife",
+      "meaning": "a crocodilian reptile related to the alligator",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a crocodilian reptile closely related to the alligator, native to Central and South America"
+}

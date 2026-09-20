@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pozolli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named a frothy stew of maize kernels, from tlapozonalli 'something frothy'",
+      "meaning": "a frothy maize stew",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "pozole",
+      "lang": "Spanish",
+      "era": "1500s-1600s",
+      "note": "adopted into Mexican Spanish for the traditional hominy stew",
+      "meaning": "a hominy-based stew, often served on special occasions",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "pozole",
+      "lang": "English",
+      "era": "1950s",
+      "note": "borrowed into English through Mexican cuisine in the American Southwest",
+      "meaning": "a traditional Mexican stew made with hominy and meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Mexican stew made with hominy corn, meat, and chili, often served for celebrations"
+}

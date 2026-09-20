@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ahtlatl",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named for the wooden spear-throwing device",
+      "meaning": "spear-thrower",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "atlatl",
+      "lang": "English",
+      "era": "1870s",
+      "note": "adopted directly into English by archaeologists studying ancient weapons",
+      "meaning": "a hand-held device for throwing darts or spears with greater force",
+      "lat": 38.91,
+      "lon": -77.04
+    }
+  ],
+  "current_meaning": "an ancient hand-held tool used to launch spears or darts with increased leverage and speed"
+}

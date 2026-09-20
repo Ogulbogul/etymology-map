@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nunataq",
+      "lang": "Kalaallisut (Greenlandic)",
+      "era": "pre-1800s",
+      "note": "combined 'nuna' (land) with a suffix meaning 'thing pertaining to'",
+      "meaning": "a rocky peak surrounded by ice",
+      "lat": 64.18,
+      "lon": -51.72
+    },
+    {
+      "word": "nunatak",
+      "lang": "Danish",
+      "era": "1800s",
+      "note": "adopted through Danish scientific and colonial administration of Greenland",
+      "meaning": "a rock outcrop protruding through a glacier or ice field",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    {
+      "word": "nunatak",
+      "lang": "English",
+      "era": "1870s",
+      "note": "borrowed into English geological and glaciological terminology",
+      "meaning": "an isolated peak of rock protruding above a surrounding glacier or ice sheet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an isolated peak or ridge of rock that protrudes above the surface of a glacier or ice sheet"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ito opilwa",
+      "lang": "Muscogee (Creek)",
+      "era": "pre-1700s",
+      "note": "combined 'ito' (tree) and 'opilwa' (swamp), describing the tree's wetland habitat",
+      "meaning": "swamp tree",
+      "lat": 32.38,
+      "lon": -86.31
+    },
+    {
+      "word": "tupelo",
+      "lang": "English",
+      "era": "1730s",
+      "note": "adopted by English colonists in the American Southeast for the black gum swamp tree",
+      "meaning": "a swamp-dwelling tree valued for its wood and honey-producing flowers",
+      "lat": 32.38,
+      "lon": -86.31
+    }
+  ],
+  "current_meaning": "a swamp-dwelling tree of the southeastern United States, known for producing prized tupelo honey"
+}

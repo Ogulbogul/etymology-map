@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yą́pą",
+      "lang": "Catawban",
+      "era": "pre-1700s",
+      "note": "combined a word for 'tree' and 'leaf', naming a caffeinated holly shrub used for tea",
+      "meaning": "a small tree, or its leaf",
+      "lat": 34.85,
+      "lon": -81.06
+    },
+    {
+      "word": "yaupon",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted by English colonists in the southeastern U.S., who learned of the caffeinated tea from Native Americans",
+      "meaning": "a holly shrub whose leaves are brewed into a caffeinated tea",
+      "lat": 35.5,
+      "lon": -77.0
+    }
+  ],
+  "current_meaning": "a holly shrub native to the southeastern U.S., one of the few North American plants that naturally produces caffeine, used to brew tea"
+}

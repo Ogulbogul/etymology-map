@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kutuhlpa",
+      "lang": "Muscogee (Creek)",
+      "era": "pre-1700s",
+      "note": "literally 'winged head', describing the tree's showy flower clusters or seed pods",
+      "meaning": "winged head",
+      "lat": 32.38,
+      "lon": -86.31
+    },
+    {
+      "word": "catalpa",
+      "lang": "English",
+      "era": "1740s",
+      "note": "adopted by English-speaking colonists in the American Southeast",
+      "meaning": "a flowering tree with large heart-shaped leaves and long seed pods",
+      "lat": 32.38,
+      "lon": -86.31
+    }
+  ],
+  "current_meaning": "a flowering shade tree with large leaves, showy blossoms, and long bean-like seed pods"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mugquomp",
+      "lang": "Massachusett",
+      "era": "1600s",
+      "note": "meant a war leader or great chief; recorded by missionary John Eliot in his 1663 Bible translation",
+      "meaning": "a great chief, war leader",
+      "lat": 42.28,
+      "lon": -71.35
+    },
+    {
+      "word": "mugwump",
+      "lang": "English",
+      "era": "1830s-1884",
+      "note": "revived humorously in American English, later applied to Republicans who bolted the party in 1884",
+      "meaning": "a person who acts independently of their political party",
+      "lat": 42.36,
+      "lon": -71.06
+    }
+  ],
+  "current_meaning": "a person, especially a politician, who remains independent or neutral rather than following party lines"
+}

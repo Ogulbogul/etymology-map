@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kələkəni·kan",
+      "lang": "Unami Delaware",
+      "era": "pre-1800s",
+      "note": "meant 'mixture', naming a traditional smoking blend of leaves and bark",
+      "meaning": "a mixture, especially a smoking blend",
+      "lat": 40.97,
+      "lon": -74.18
+    },
+    {
+      "word": "kinnikinnick",
+      "lang": "English",
+      "era": "1790s",
+      "note": "adopted by English-speaking settlers and traders across North America",
+      "meaning": "a traditional smoking mixture of leaves, bark, and herbs",
+      "lat": 42.36,
+      "lon": -71.06
+    }
+  ],
+  "current_meaning": "a traditional Native American smoking mixture of leaves, bark, and herbs, also the common name of the bearberry plant"
+}

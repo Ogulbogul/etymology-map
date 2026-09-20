@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pinolli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named a flour made from roasted, ground maize and chia seeds",
+      "meaning": "ground roasted maize or chia flour",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "pinole",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish for the same roasted grain flour",
+      "meaning": "a toasted, ground maize or seed flour",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "pinole",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed into English through Mexican and Southwestern U.S. foodways",
+      "meaning": "a sweetened, toasted maize flour used as a drink or snack",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweetened, toasted maize flour, traditionally mixed with water as a drink or eaten as a snack"
+}

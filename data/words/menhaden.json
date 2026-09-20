@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "munnawhatteaug",
+      "lang": "Narragansett",
+      "era": "1600s",
+      "note": "named the oily fish that coastal Algonquian peoples used to fertilize corn crops",
+      "meaning": "a fish used as fertilizer",
+      "lat": 41.58,
+      "lon": -71.48
+    },
+    {
+      "word": "menhaden",
+      "lang": "English",
+      "era": "1750s",
+      "note": "adapted by English colonists in New England who adopted the same fish and farming practice",
+      "meaning": "a small, oily fish used historically as fertilizer and bait",
+      "lat": 42.36,
+      "lon": -71.06
+    }
+  ],
+  "current_meaning": "a small, bony, oily fish found along the Atlantic coast, harvested for fish oil and meal"
+}

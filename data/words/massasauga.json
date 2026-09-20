@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mississauga",
+      "lang": "Ojibwe",
+      "era": "pre-1800s",
+      "note": "literally 'great river-mouth', originally naming a river and its Ojibwe inhabitants in Ontario",
+      "meaning": "great river-mouth",
+      "lat": 46.79,
+      "lon": -92.1
+    },
+    {
+      "word": "massasauga",
+      "lang": "English",
+      "era": "1810s-1820s",
+      "note": "applied by English-speaking naturalists to a small rattlesnake species common near that river's marshy delta",
+      "meaning": "a small rattlesnake species found in marshy habitats",
+      "lat": 45.5,
+      "lon": -73.57
+    }
+  ],
+  "current_meaning": "a small species of rattlesnake native to marshy and grassland habitats of eastern North America"
+}

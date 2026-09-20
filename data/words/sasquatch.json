@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sásq'ets",
+      "lang": "Halkomelem",
+      "era": "pre-1900s",
+      "note": "literally 'hairy man', a figure from Coast Salish oral tradition",
+      "meaning": "a hairy, wild man-like creature",
+      "lat": 49.17,
+      "lon": -122.8
+    },
+    {
+      "word": "sasquatch",
+      "lang": "English",
+      "era": "1929",
+      "note": "coined by journalist J.W. Burns, who anglicized the Halkomelem term while collecting local legends",
+      "meaning": "a legendary ape-like creature said to inhabit North American forests",
+      "lat": 49.28,
+      "lon": -123.12
+    }
+  ],
+  "current_meaning": "a legendary large, hairy, ape-like creature said to inhabit forests of the Pacific Northwest, also called Bigfoot"
+}

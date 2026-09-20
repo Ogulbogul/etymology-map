@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "u-łalxʷən",
+      "lang": "Lower Chinook",
+      "era": "pre-1800s",
+      "note": "named the small, oil-rich smelt prized for its fat content",
+      "meaning": "a small, oily fish",
+      "lat": 46.19,
+      "lon": -123.83
+    },
+    {
+      "word": "ulakan",
+      "lang": "Chinook Jargon",
+      "era": "1800s",
+      "note": "carried into the Pacific Northwest trade language spoken among many peoples",
+      "meaning": "a small, oil-rich fish, also called candlefish",
+      "lat": 46.19,
+      "lon": -123.83
+    },
+    {
+      "word": "eulachon",
+      "lang": "English",
+      "era": "1790s-1800s",
+      "note": "anglicized by fur traders and explorers along the Pacific coast",
+      "meaning": "a small, oily anadromous fish, also called candlefish",
+      "lat": 49.28,
+      "lon": -123.12
+    }
+  ],
+  "current_meaning": "a small, oil-rich fish of the Pacific coast, historically so fatty it could be dried and burned like a candle"
+}

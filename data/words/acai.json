@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ïwasa'i",
+      "lang": "Tupi",
+      "era": "pre-1500s",
+      "note": "named the dark purple palm fruit",
+      "meaning": "a small purple palm fruit",
+      "lat": -1.46,
+      "lon": -48.5
+    },
+    {
+      "word": "açaí",
+      "lang": "Portuguese",
+      "era": "1600s",
+      "note": "adopted by Portuguese colonists in the Amazon region",
+      "meaning": "the fruit of the acai palm",
+      "lat": -1.46,
+      "lon": -48.5
+    },
+    {
+      "word": "acai",
+      "lang": "English",
+      "era": "1990s",
+      "note": "entered English amid the global health-food boom",
+      "meaning": "a small, antioxidant-rich Amazonian palm fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, dark purple Amazonian palm fruit marketed worldwide for its antioxidant content"
+}

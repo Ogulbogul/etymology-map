@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chachalacani",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "an onomatopoeic word meaning 'to chatter', describing the bird's loud repeated call",
+      "meaning": "a chatterer, gossiper",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chachalaca",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Latin American Spanish as the common name of the noisy bird",
+      "meaning": "a loud, chattering game bird",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chachalaca",
+      "lang": "English",
+      "era": "1810s",
+      "note": "borrowed into English ornithological terminology",
+      "meaning": "a loud, chicken-sized bird found from Texas to South America",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loud, chicken-sized tropical bird known for its raucous, repetitive call"
+}

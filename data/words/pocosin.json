@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "poquosin",
+      "lang": "Algonquian (Virginia/Carolina)",
+      "era": "pre-1700s",
+      "note": "referred to a marshy or swampy wetland area",
+      "meaning": "a swamp or marsh",
+      "lat": 36.0,
+      "lon": -76.5
+    },
+    {
+      "word": "pocosin",
+      "lang": "English",
+      "era": "1700s",
+      "note": "adopted by English colonists in the coastal Carolinas to describe the region's distinctive wetlands",
+      "meaning": "a freshwater evergreen shrub wetland of the southeastern coastal plain",
+      "lat": 35.5,
+      "lon": -77.0
+    }
+  ],
+  "current_meaning": "a type of freshwater wetland found on the coastal plain of the southeastern United States"
+}

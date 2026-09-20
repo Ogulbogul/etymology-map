@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "barracuda",
+      "lang": "Cariban",
+      "era": "pre-1600s",
+      "note": "possibly the source of the fierce, torpedo-shaped fish's name",
+      "meaning": "a large predatory fish",
+      "lat": 15.42,
+      "lon": -61.37
+    },
+    {
+      "word": "barracuda",
+      "lang": "Spanish",
+      "era": "1670s",
+      "note": "adopted into American Spanish in the West Indies",
+      "meaning": "a large, voracious fish of Caribbean waters",
+      "lat": 19.0,
+      "lon": -70.7
+    },
+    {
+      "word": "barracuda",
+      "lang": "English",
+      "era": "1670s",
+      "note": "borrowed directly into English from Spanish accounts of the West Indies",
+      "meaning": "a large, predatory tropical fish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, predatory tropical marine fish known for its speed and sharp teeth"
+}

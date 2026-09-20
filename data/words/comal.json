@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "comalli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named the flat clay griddle used to cook tortillas",
+      "meaning": "a flat cooking griddle",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "comal",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted into Mexican Spanish for the same cooking tool",
+      "meaning": "a flat griddle for cooking tortillas",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "comal",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed into English through Mexican and Southwestern American cuisine",
+      "meaning": "a flat griddle used for cooking tortillas and other foods",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat griddle, traditionally made of clay or cast iron, used to cook tortillas and toast spices"
+}

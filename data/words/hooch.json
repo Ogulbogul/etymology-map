@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Hoochinoo",
+      "lang": "Tlingit",
+      "era": "1800s",
+      "note": "the name of a Tlingit village and clan in Alaska known for distilling liquor",
+      "meaning": "name of a Tlingit clan/village",
+      "lat": 57.5,
+      "lon": -134.58
+    },
+    {
+      "word": "hooch",
+      "lang": "English",
+      "era": "1890s",
+      "note": "shortened by American prospectors during the Klondike Gold Rush to mean the liquor itself",
+      "meaning": "homemade or illicit alcoholic liquor",
+      "lat": 64.06,
+      "lon": -139.43
+    }
+  ],
+  "current_meaning": "informal term for alcoholic liquor, especially homemade or illegally distilled spirits"
+}

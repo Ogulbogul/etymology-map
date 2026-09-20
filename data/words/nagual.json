@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nahualli",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "named a shamanic practitioner believed able to shapeshift into an animal form",
+      "meaning": "a shapeshifting sorcerer or spirit companion",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "nagual",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "adopted by Spanish colonists documenting Mesoamerican beliefs",
+      "meaning": "a sorcerer or animal spirit companion",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "nagual",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed into English anthropological and folklore writing",
+      "meaning": "a person's animal spirit counterpart in Mesoamerican belief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in Mesoamerican folklore, a person believed to have the supernatural ability to transform into an animal"
+}
