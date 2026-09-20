@@ -475,6 +475,21 @@ header h1 {
   margin: 0 0 14px;
 }
 
+/* Plain-language "where does this word come from" summary, read naturally
+   before the stage-by-stage detail below it. */
+.origin-sentence {
+  margin: 0 0 14px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text);
+  max-width: 640px;
+}
+
+.origin-sentence em {
+  font-style: italic;
+  color: var(--text);
+}
+
 .journey-meta {
   margin: 0 0 10px;
   font-size: 0.85rem;

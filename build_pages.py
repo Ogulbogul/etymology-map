@@ -48,6 +48,33 @@ def check_slug_collisions(words):
     return collisions
 
 
+def build_origin_sentence(word, stops):
+    """A plain-language sentence answering "where does the word X come from?",
+    for visitors skimming the page and for search engines matching
+    question-phrased searches — same content either way, just phrased as an
+    answer instead of left implicit in the stage cards."""
+    first, last = stops[0], stops[-1]
+    first_html = f'{esc(first["lang"])} <em>{esc(first["word"])}</em>'
+
+    if len(stops) == 2:
+        middle_html = "adopted directly into English"
+    else:
+        langs = []
+        for s in stops[1:-1]:
+            if not langs or langs[-1] != s["lang"]:
+                langs.append(s["lang"])
+        if len(langs) == 1:
+            passing = esc(langs[0])
+        else:
+            passing = ", ".join(esc(l) for l in langs[:-1]) + f" and {esc(langs[-1])}"
+        middle_html = f"passing through {passing} before entering English"
+
+    return (
+        f'Where does the word &quot;{esc(word)}&quot; come from? '
+        f"It comes from {first_html}, {middle_html} ({esc(last['era'])})."
+    )
+
+
 def render_word_page(word, entry, word_index):
     slug = slugify(word)
     display_word = word[:1].upper() + word[1:]
@@ -103,6 +130,7 @@ def render_word_page(word, entry, word_index):
       <div id="related-words-grid" class="related-words-grid">{related_items}</div>
     </section>"""
 
+    origin_sentence = build_origin_sentence(word, stops)
     word_json = json.dumps({"word": word, **entry}, ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
@@ -151,6 +179,7 @@ def render_word_page(word, entry, word_index):
         <span id="badge-label" class="badge-label">Today it means</span>
         <span id="badge-text" class="badge-text">{esc(entry['current_meaning'])}</span>
       </div>
+      <p class="origin-sentence">{origin_sentence}</p>
       <div id="result-trail" class="result-trail">{trail_html}</div>
     </div>
 
