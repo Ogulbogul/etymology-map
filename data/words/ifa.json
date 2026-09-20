@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Ifá",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "named both the god of wisdom (also called Orunmila) and the divination system associated with him",
+      "meaning": "the Yoruba god and system of divination",
+      "lat": 7.4905,
+      "lon": 4.5521
+    },
+    {
+      "word": "Ifa",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English through anthropological and religious-studies writing on Yoruba practice",
+      "meaning": "the Yoruba divination system",
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
+  ],
+  "current_meaning": "the Yoruba system of divination associated with the god Orunmila, now also recognized by UNESCO as intangible cultural heritage"
+}

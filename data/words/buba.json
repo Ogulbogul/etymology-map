@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bùbá",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "named the loose, wide-sleeved blouse worn as part of traditional dress",
+      "meaning": "a loose blouse or tunic",
+      "lat": 6.5244,
+      "lon": 3.3792
+    },
+    {
+      "word": "buba",
+      "lang": "English",
+      "era": "1937",
+      "note": "entered English print describing West African dress",
+      "meaning": "a loose-fitting blouse or top",
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
+  ],
+  "current_meaning": "a loose-fitting blouse or tunic worn as part of traditional West African dress"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "òrìṣà",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "named the intermediary deities and spirits of Yoruba religion",
+      "meaning": "a deity or spirit",
+      "lat": 7.4905,
+      "lon": 4.5521
+    },
+    {
+      "word": "orichá",
+      "lang": "Spanish",
+      "era": "1700s-1800s",
+      "note": "carried to Cuba by enslaved Yoruba people and reshaped in Lucumí/Santería practice",
+      "meaning": "a Santería deity linked to a Catholic saint",
+      "lat": 23.1136,
+      "lon": -82.3666
+    },
+    {
+      "word": "orisha",
+      "lang": "English",
+      "era": "1854",
+      "note": "entered English print in the United States describing Yoruba and Santería religious practice",
+      "meaning": "a Yoruba deity",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "current_meaning": "a deity or spirit in the Yoruba religion, also venerated in Santería and other diaspora traditions"
+}

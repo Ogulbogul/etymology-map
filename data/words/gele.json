@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gele",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "from ga (\"high\") and ele (\"eminence\"), describing the towering, elevated wrap",
+      "meaning": "an elaborately tied, elevated head wrap",
+      "lat": 6.5244,
+      "lon": 3.3792
+    },
+    {
+      "word": "gele",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English fashion vocabulary through the Nigerian diaspora",
+      "meaning": "a tall, elaborately wrapped Yoruba headscarf",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "current_meaning": "a large, elaborately tied Nigerian head wrap worn especially on formal occasions"
+}

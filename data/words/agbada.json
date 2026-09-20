@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "agbádá",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "described the flowing, voluminous ceremonial robe worn by men over other garments",
+      "meaning": "a large, flowing robe",
+      "lat": 6.5244,
+      "lon": 3.3792
+    },
+    {
+      "word": "agbada",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English fashion writing via Nigerian and wider West African diaspora culture",
+      "meaning": "a wide-sleeved, flowing ceremonial robe",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "current_meaning": "a large, flowing wide-sleeved robe worn as ceremonial menswear across West Africa"
+}

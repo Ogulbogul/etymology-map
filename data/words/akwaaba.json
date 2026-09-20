@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "akwaaba",
+      "lang": "Akan (Twi)",
+      "era": "traditional",
+      "note": "a Twi greeting extended to arriving visitors",
+      "meaning": "welcome",
+      "lat": 6.6885,
+      "lon": -1.6244
+    },
+    {
+      "word": "akwaaba",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "carried into English through Ghanaian tourism, heritage-return campaigns, and diaspora hospitality branding",
+      "meaning": "a Ghanaian greeting of welcome",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "current_meaning": "a Twi/Akan word for \"welcome\", used in English especially in Ghanaian hospitality and diaspora heritage contexts"
+}

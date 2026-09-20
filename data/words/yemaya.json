@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Yemọja",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "compound of iye (\"mother\"), ọmọ (\"child\"), and ẹja (\"fish\"): \"mother whose children are like the fish\"",
+      "meaning": "river goddess of motherhood and creation",
+      "lat": 7.4905,
+      "lon": 4.5521
+    },
+    {
+      "word": "Yemayá",
+      "lang": "Spanish",
+      "era": "1800s",
+      "note": "creolized in Cuba as enslaved Yoruba carried her worship into Santería/Lucumí practice",
+      "meaning": "orisha of the sea and motherhood in Santería",
+      "lat": 23.1136,
+      "lon": -82.3666
+    },
+    {
+      "word": "Yemaya",
+      "lang": "English",
+      "era": "1900s",
+      "note": "spread into English through Santería and wider diaspora spiritual writing",
+      "meaning": "orisha and goddess of the sea and motherhood",
+      "lat": 40.7128,
+      "lon": -74.006
+    }
+  ],
+  "current_meaning": "the Yoruba-derived orisha of the sea and motherhood, venerated across Santería and other diaspora religions"
+}

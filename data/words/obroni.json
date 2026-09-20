@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oburoni",
+      "lang": "Akan (Twi)",
+      "era": "1910s",
+      "note": "literally \"one from over the horizon\", used for foreigners and later especially for white or Western visitors",
+      "meaning": "a foreigner, especially a white or Western person",
+      "lat": 6.6885,
+      "lon": -1.6244
+    },
+    {
+      "word": "obroni",
+      "lang": "English",
+      "era": "1918",
+      "note": "entered English print describing Ghanaian usage of the term for outsiders",
+      "meaning": "a foreigner in Ghana, especially a white person",
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
+  ],
+  "current_meaning": "a Ghanaian (Akan) term, used in English, for a foreigner or outsider, especially one of European descent"
+}

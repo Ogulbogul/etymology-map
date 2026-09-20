@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ìrókò",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "named the large, sacred hardwood tree of the West African rainforest",
+      "meaning": "the iroko tree, regarded as sacred",
+      "lat": 7.4905,
+      "lon": 4.5521
+    },
+    {
+      "word": "iroko",
+      "lang": "English",
+      "era": "1850s",
+      "note": "entered English through the colonial-era timber trade as the name for the wood, sold as \"African teak\"",
+      "meaning": "a West African hardwood tree and its timber",
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
+  ],
+  "current_meaning": "a large West African hardwood tree, or the reddish-brown timber it produces"
+}

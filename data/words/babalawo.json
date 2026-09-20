@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "babaláwo",
+      "lang": "Yoruba",
+      "era": "traditional",
+      "note": "compound of baba (\"father\") and awo (\"secret\"), naming the priest who guards the secrets of Ifá",
+      "meaning": "father of secrets; a priest of Ifá divination",
+      "lat": 7.4905,
+      "lon": 4.5521
+    },
+    {
+      "word": "babalawo",
+      "lang": "English",
+      "era": "1855",
+      "note": "entered English print describing Yoruba religious practice",
+      "meaning": "a Yoruba diviner-priest of the Ifá oracle",
+      "lat": 51.5074,
+      "lon": -0.1278
+    }
+  ],
+  "current_meaning": "a Yoruba priest and diviner trained to interpret the Ifá oracle"
+}
