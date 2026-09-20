@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kujenga",
+      "lang": "Swahili",
+      "era": "1970s",
+      "note": "the verb inspired the name of a stacking-block game created by Leslie Scott, who grew up speaking Swahili in East Africa",
+      "meaning": "to build or construct",
+      "lat": -1.29,
+      "lon": 36.82
+    },
+    {
+      "word": "Jenga",
+      "lang": "English",
+      "era": "1983",
+      "note": "trademarked as the name of the wooden block-stacking game",
+      "meaning": "a game of stacking and removing wooden blocks without toppling the tower",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a game in which players remove and restack wooden blocks from a tower without making it fall; loosely, any precarious stack"
+}

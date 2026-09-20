@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shamba",
+      "lang": "Swahili",
+      "era": "1840s",
+      "note": "of uncertain deeper origin within Swahili, denoting small-scale farmland",
+      "meaning": "a cultivated plot, farm, or plantation",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "shamba",
+      "lang": "English",
+      "era": "1900s",
+      "note": "used in East African English for a smallholding or plot of crops",
+      "meaning": "a small farm or cultivated plot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small cultivated farm or plot of land, especially in East Africa"
+}

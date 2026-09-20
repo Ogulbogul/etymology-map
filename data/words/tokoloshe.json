@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "uthikoloshe",
+      "lang": "Xhosa",
+      "era": "1830s",
+      "note": "a dwarf-like trickster spirit in Nguni folklore, also borrowed as Zulu utokoloshe",
+      "meaning": "a mischievous water spirit",
+      "lat": -32.3,
+      "lon": 26.4
+    },
+    {
+      "word": "tokoloshe",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into South African English",
+      "meaning": "a mischievous, malevolent spirit of southern African folklore",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mischievous or malevolent spirit in southern African folklore, said to be small and impish"
+}

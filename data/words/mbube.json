@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "imbube",
+      "lang": "Zulu",
+      "era": "ancient",
+      "note": "an everyday Zulu word for the animal",
+      "meaning": "lion",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "mbube",
+      "lang": "English",
+      "era": "1939",
+      "note": "named after Solomon Linda's 1939 recording \"Mbube,\" later reworked as \"The Lion Sleeps Tonight\"",
+      "meaning": "a powerful, energetic style of Zulu a cappella singing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a style of energetic Zulu a cappella singing, later the basis for the song \"The Lion Sleeps Tonight\""
+}

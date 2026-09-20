@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "umuthi",
+      "lang": "Zulu",
+      "era": "1850s",
+      "note": "extended to mean medicine, since traditional remedies were made from tree bark, roots, and leaves",
+      "meaning": "tree",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "muti",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into South African English and Afrikaans as a word for medicine",
+      "meaning": "traditional medicine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "traditional herbal medicine, especially in southern Africa"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ugogo",
+      "lang": "Zulu",
+      "era": "ancient",
+      "note": "an ancient reduplicated word used as a term of respect for an elder woman",
+      "meaning": "grandmother",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "gogo",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into South African English",
+      "meaning": "grandmother, or an elderly woman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a grandmother, or a term of respect for an elderly woman, especially in southern Africa"
+}

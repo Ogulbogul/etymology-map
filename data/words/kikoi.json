@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kikoi",
+      "lang": "Swahili",
+      "era": "1860s",
+      "note": "of unknown deeper origin, traditionally worn by East African men as a wraparound cloth",
+      "meaning": "a woven wraparound cloth",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "kikoi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English through East African trade and travel writing",
+      "meaning": "a striped cotton wrap or sarong",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a brightly striped cotton cloth worn as a wrap or sarong, originally from East Africa"
+}

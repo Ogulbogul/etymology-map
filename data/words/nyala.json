@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "inyala",
+      "lang": "Zulu",
+      "era": "1800s",
+      "note": "a descriptive name for the antelope's wary, elusive nature; also cited from Tsonga nyala",
+      "meaning": "shifty one",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "nyala",
+      "lang": "English",
+      "era": "1899",
+      "note": "adopted into English through southern African wildlife writing",
+      "meaning": "a spiral-horned southern African antelope",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spiral-horned antelope native to southern Africa"
+}

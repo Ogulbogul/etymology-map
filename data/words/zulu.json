@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "izulu",
+      "lang": "Zulu",
+      "era": "ancient",
+      "note": "the root word from which the Zulu royal clan's founder took his name",
+      "meaning": "sky, heaven",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "uZulu",
+      "lang": "Zulu",
+      "era": "c. 1709",
+      "note": "his descendants and followers became known as amaZulu, 'the people of Zulu'",
+      "meaning": "personal name of the founder of the amaZulu clan",
+      "lat": -28.3,
+      "lon": 31.42
+    },
+    {
+      "word": "Zulu",
+      "lang": "English",
+      "era": "1824",
+      "note": "adopted into English to name the nation, language, and culture",
+      "meaning": "the Zulu people or their language",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Zulu people or language of southern Africa; also used for the letter Z in the NATO phonetic alphabet and for Coordinated Universal Time"
+}

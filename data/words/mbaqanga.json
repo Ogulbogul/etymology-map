@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "umbaqanga",
+      "lang": "Zulu",
+      "era": "1900s",
+      "note": "originally an everyday steamed maize dish; applied to music as a term for its humble, 'mixed' style",
+      "meaning": "steamed maize bread, a mixture",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "mbaqanga",
+      "lang": "English",
+      "era": "1960s",
+      "note": "adopted into English through the South African recording industry",
+      "meaning": "a South African township music genre blending traditional and jazz styles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a style of South African popular music blending Zulu vocal harmonies with jazz and dance rhythms"
+}

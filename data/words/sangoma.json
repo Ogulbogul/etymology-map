@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "isangoma",
+      "lang": "Zulu",
+      "era": "1800s",
+      "note": "from a prefix plus ngoma, 'drum', describing a healer who drums out spirits during divination",
+      "meaning": "diviner, witch doctor",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "sangoma",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into South African English",
+      "meaning": "a traditional diviner and spiritual healer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional spiritual healer and diviner among the Zulu and related peoples of southern Africa"
+}

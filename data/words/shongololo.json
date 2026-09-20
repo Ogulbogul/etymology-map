@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ishongololo",
+      "lang": "Zulu",
+      "era": "ancient",
+      "note": "from ukushonga, 'to roll up', describing how the creature coils when disturbed",
+      "meaning": "millipede",
+      "lat": -29.86,
+      "lon": 31.02
+    },
+    {
+      "word": "shongololo",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into South African English",
+      "meaning": "a large African millipede",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large African millipede that rolls into a coil when disturbed"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "panga",
+      "lang": "Swahili",
+      "era": "1800s",
+      "note": "a Bantu word for a heavy, broad blade used to cut brush and crops",
+      "meaning": "a large broad-bladed knife",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "panga",
+      "lang": "English",
+      "era": "1930s",
+      "note": "borrowed into English during the colonial period in East Africa",
+      "meaning": "a large machete used as a tool or weapon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, broad-bladed African knife used as a tool or weapon, similar to a machete"
+}

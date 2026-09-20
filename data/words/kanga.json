@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kanga",
+      "lang": "Swahili",
+      "era": "1800s",
+      "note": "the printed cotton cloth was named for its resemblance to the speckled bird's markings",
+      "meaning": "speckled guineafowl",
+      "lat": -6.16,
+      "lon": 39.2
+    },
+    {
+      "word": "kanga",
+      "lang": "English",
+      "era": "1900s",
+      "note": "adopted into English to describe the traditional East African garment",
+      "meaning": "a brightly patterned cotton wrap",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a brightly coloured, patterned cotton cloth worn as a wrap in East Africa"
+}
