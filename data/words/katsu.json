@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cutlet",
+      "lang": "English",
+      "era": "1700s",
+      "note": "the English word for a thin slice of breaded, fried meat",
+      "meaning": "a thin, breaded slice of meat",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "katsuretsu",
+      "lang": "Japanese",
+      "era": "Meiji era",
+      "note": "borrowed and adapted into a breaded, deep-fried cutlet dish, then clipped to 'katsu'",
+      "meaning": "a breaded, deep-fried cutlet",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "katsu",
+      "lang": "English",
+      "era": "2000s-2010s",
+      "note": "re-imported into English as Japanese-style curry and cutlet dishes spread abroad",
+      "meaning": "a Japanese-style breaded, deep-fried cutlet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese-style breaded and deep-fried cutlet, typically pork or chicken"
+}

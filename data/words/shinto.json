@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shindō",
+      "lang": "Japanese",
+      "era": "6th century",
+      "note": "coined using borrowed Chinese characters to distinguish the native 'way of the gods' from Buddhism",
+      "meaning": "the way of the kami, or gods",
+      "lat": 35.02,
+      "lon": 135.76
+    },
+    {
+      "word": "Shinto",
+      "lang": "English",
+      "era": "1600s-1800s",
+      "note": "adopted by Western missionaries and scholars naming Japan's indigenous religion",
+      "meaning": "Japan's indigenous nature and ancestor worship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the indigenous animist and ancestor-venerating religion of Japan"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pancha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'five'",
+      "meaning": "five",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "ayatana",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'seat, abode, resting place'",
+      "meaning": "seat, resting place",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "panchayat",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named a village council, originally of five members",
+      "meaning": "a village council",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "panchayat",
+      "lang": "English",
+      "era": "1880s",
+      "note": "adopted by British administrators to describe local Indian self-government",
+      "meaning": "a local self-governing village council in South Asia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A local self-governing council at the village or small-town level in India and neighboring countries."
+}

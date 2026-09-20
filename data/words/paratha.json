@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "atta + parat",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "combined 'flour, dough' and 'layer' to describe a folded flatbread",
+      "meaning": "layered dough",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "paratha",
+      "lang": "Hindi",
+      "era": "1900s",
+      "note": "the fused form became the name of the dish itself",
+      "meaning": "a pan-fried layered flatbread",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "paratha",
+      "lang": "English",
+      "era": "1909",
+      "note": "adopted directly from Hindi into English food writing",
+      "meaning": "a flaky, pan-fried layered flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A flaky, pan-fried, layered flatbread from the Indian subcontinent."
+}

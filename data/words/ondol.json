@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ondol",
+      "lang": "Korean",
+      "era": "ancient",
+      "note": "combining 'on' (warm) and 'dol' (stone), naming a traditional underfloor heating system",
+      "meaning": "a traditional radiant underfloor heating system",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "ondol",
+      "lang": "English",
+      "era": "20th century",
+      "note": "borrowed by architects and writers describing traditional Korean home heating",
+      "meaning": "a Korean underfloor heating system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Korean underfloor heating system that warms living spaces from below"
+}

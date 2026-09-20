@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "taravari",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'one-edged sword, blade'",
+      "meaning": "a sword, blade",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "talwar",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the everyday word for a curved sword",
+      "meaning": "a curved sword or sabre",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "tulwar",
+      "lang": "English",
+      "era": "19th c.",
+      "note": "British soldiers in India adopted the word for the Indian curved sword",
+      "meaning": "a curved, one-edged sword used in South Asia, especially under the Mughals",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A type of curved, single-edged sword traditionally used in the Indian subcontinent."
+}

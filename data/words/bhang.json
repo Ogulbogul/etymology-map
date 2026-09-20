@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "bhangah",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "named hemp or cannabis",
+      "meaning": "hemp, cannabis",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "bhang",
+      "lang": "Hindi",
+      "era": "16th c.",
+      "note": "the everyday North Indian word for a cannabis preparation",
+      "meaning": "an edible or drinkable cannabis preparation",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "bangue",
+      "lang": "Portuguese",
+      "era": "1560s",
+      "note": "Portuguese travelers in India recorded the word for Europe",
+      "meaning": "the Indian cannabis drink",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "bhang",
+      "lang": "English",
+      "era": "17th c.",
+      "note": "settled as the English name for the Indian cannabis preparation",
+      "meaning": "a preparation of cannabis leaves, consumed in South Asia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "An edible or drinkable preparation of cannabis leaves, traditionally consumed in South Asia."
+}

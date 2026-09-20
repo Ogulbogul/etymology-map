@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ghata",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'pot, jar'",
+      "meaning": "an earthenware pot",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "ghariyal",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named the crocodile whose male snout bears a pot-shaped growth",
+      "meaning": "the long-snouted crocodile with a pot-shaped nose knob",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "gharial",
+      "lang": "English",
+      "era": "1815-25",
+      "note": "entered English via French naturalist writing on the Indian crocodilian",
+      "meaning": "a long, thin-snouted fish-eating crocodile native to the Indian subcontinent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A critically endangered, long-snouted crocodilian native to river systems of the Indian subcontinent."
+}

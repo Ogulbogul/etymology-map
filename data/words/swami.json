@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "svamin",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'lord, master, one's own master', from sva- 'self, own'",
+      "meaning": "lord, master",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "swami",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "a respectful title for a Brahmin or religious teacher",
+      "meaning": "master; religious teacher",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "swami",
+      "lang": "English",
+      "era": "1773",
+      "note": "first meant a Hindu idol, later a Hindu religious teacher",
+      "meaning": "a Hindu religious teacher or ascetic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A Hindu religious teacher or spiritual master, used as a title of respect."
+}

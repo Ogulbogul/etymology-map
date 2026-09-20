@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nimba",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "named the bitter, medicinal tree",
+      "meaning": "the neem tree",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "nim",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the everyday name for the tree",
+      "meaning": "neem tree",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "neem",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "adopted into English via colonial botany and later herbal medicine",
+      "meaning": "a fast-growing tree valued for its medicinal and pesticidal properties",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A fast-growing tropical tree native to South Asia, valued for its medicinal, pesticidal, and cosmetic uses."
+}

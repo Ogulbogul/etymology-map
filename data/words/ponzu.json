@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pons",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "Dutch traders' word for a citrus punch drink, encountered through contact in the East Indies",
+      "meaning": "a mixed citrus drink",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "ponzu",
+      "lang": "Japanese",
+      "era": "1800s",
+      "note": "reborrowed and blended with native 'su' (vinegar) to name a tart citrus sauce",
+      "meaning": "a citrus-based seasoned vinegar sauce",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "ponzu",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "adopted by cooks and menus as Japanese cuisine spread abroad",
+      "meaning": "a tart citrus and soy dipping sauce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tart Japanese sauce made from citrus juice, vinegar, and soy sauce"
+}

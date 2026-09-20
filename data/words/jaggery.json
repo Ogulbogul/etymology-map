@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sharkara",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'gravel, sugar', naming crystallized sugar",
+      "meaning": "sugar, gravel",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "cakkarai",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "South Indian term for unrefined palm or cane sugar",
+      "meaning": "unrefined sugar",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "jagara",
+      "lang": "Portuguese",
+      "era": "16th c.",
+      "note": "Portuguese traders in India picked up the South Indian word",
+      "meaning": "unrefined palm sugar",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "jaggery",
+      "lang": "English",
+      "era": "1690s",
+      "note": "entered English via Indo-Portuguese trade",
+      "meaning": "coarse, dark sugar made from palm sap or sugarcane",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A coarse, dark sugar made by boiling down palm sap or sugarcane juice."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "washi",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "literally 'Japanese paper', made by hand from local plant fibers",
+      "meaning": "traditional handmade Japanese paper",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "washi",
+      "lang": "English",
+      "era": "2000s-2010s",
+      "note": "borrowed by crafters after decorative washi tape became a popular stationery item",
+      "meaning": "traditional Japanese handmade paper, or tape made from it",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "traditional handmade Japanese paper, now also known through decorative washi tape"
+}

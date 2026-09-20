@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ghattah",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'landing place'",
+      "meaning": "a landing place, riverbank",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "ghat",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "came to mean steps down to a river, or a mountain pass",
+      "meaning": "steps to a river, or a mountain pass",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "ghat",
+      "lang": "English",
+      "era": "1783",
+      "note": "British travelers in India adopted the word for both riverside steps and mountain passes",
+      "meaning": "a flight of steps to a river, or a mountain pass",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A set of steps leading down to a river (especially for bathing or cremation), or a mountain pass in South Asia."
+}

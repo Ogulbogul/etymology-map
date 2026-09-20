@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shamisen",
+      "lang": "Japanese",
+      "era": "16th century",
+      "note": "named a three-stringed plucked lute developed from an Okinawan instrument",
+      "meaning": "a three-stringed banjo-like instrument",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shamisen",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed by Western musicologists describing Japanese instruments",
+      "meaning": "a traditional three-stringed Japanese lute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese three-stringed plucked lute"
+}

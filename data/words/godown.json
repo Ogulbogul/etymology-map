@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kidangu",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "meant 'a place where goods lie', a storeroom",
+      "meaning": "a storeroom, warehouse",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "gudang",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "adopted the South Indian word for a warehouse",
+      "meaning": "a warehouse",
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    {
+      "word": "gudão",
+      "lang": "Portuguese",
+      "era": "1552",
+      "note": "Portuguese traders in Asia recorded the word",
+      "meaning": "a warehouse",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "godown",
+      "lang": "English",
+      "era": "late 1500s",
+      "note": "British East India Company officers adopted the word",
+      "meaning": "a warehouse or storeroom, especially in South and East Asia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A warehouse or storeroom, a term still used in parts of South and East Asia."
+}

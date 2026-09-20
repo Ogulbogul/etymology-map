@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tam-tam",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "an echoic word imitating the sound of a beaten drum",
+      "meaning": "a hand drum, named for its sound",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "tom-tom",
+      "lang": "English",
+      "era": "1690s",
+      "note": "British traders in India borrowed the drum's imitative name",
+      "meaning": "a small drum played with the hands",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A small drum, typically played with the hands, used in various musical traditions."
+}

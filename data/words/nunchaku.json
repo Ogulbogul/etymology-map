@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nunchaku",
+      "lang": "Okinawan",
+      "era": "17th-18th century",
+      "note": "developed on Okinawa, possibly from a rice-threshing flail, as a concealed farmer's weapon",
+      "meaning": "a two-stick weapon joined by a cord or chain",
+      "lat": 26.21,
+      "lon": 127.68
+    },
+    {
+      "word": "nunchaku",
+      "lang": "Japanese",
+      "era": "20th century",
+      "note": "absorbed into mainland Japanese as Okinawan karate spread nationally",
+      "meaning": "a martial-arts flail weapon",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "nunchaku",
+      "lang": "English",
+      "era": "1970s",
+      "note": "popularized worldwide by martial-arts films, especially Bruce Lee's",
+      "meaning": "a martial-arts weapon of two sticks linked by a cord",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a martial-arts weapon consisting of two sticks connected by a short chain or cord"
+}

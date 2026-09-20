@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pura",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "related to 'full', named a small filled cake",
+      "meaning": "a small filled cake",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "puri",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "became the name of a deep-fried puffed bread",
+      "meaning": "a small deep-fried puffed bread",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "puri",
+      "lang": "English",
+      "era": "1830s",
+      "note": "British writers on Indian food adopted the word",
+      "meaning": "a small, round, unleavened bread that puffs up when fried",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A small, round, unleavened bread that puffs up when deep-fried, common across South Asia."
+}

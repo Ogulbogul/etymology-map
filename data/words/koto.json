@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "koto",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "named the long, multi-stringed zither introduced from continental Asia and adapted at court",
+      "meaning": "a long plucked zither",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "koto",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed by Western writers describing Japanese classical music",
+      "meaning": "a traditional Japanese thirteen-stringed zither",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese plucked zither with movable bridges"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mahamatra",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "compound of 'great' and 'measure', a title for a high official or elephant keeper",
+      "meaning": "high official; elephant keeper",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "mahaut",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "narrowed to mean specifically an elephant driver",
+      "meaning": "an elephant driver or keeper",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "mahout",
+      "lang": "English",
+      "era": "1810",
+      "note": "British colonists in India adopted the word",
+      "meaning": "a person who rides and tends a working elephant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A person who works with, rides, and tends an elephant."
+}

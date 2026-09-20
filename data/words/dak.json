@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "drak",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'quickly'",
+      "meaning": "quickly",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "dak",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named the relay mail and transport system",
+      "meaning": "the postal relay system",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "dak",
+      "lang": "English",
+      "era": "1820s",
+      "note": "British colonial administrators adopted the word for India's relay postal service",
+      "meaning": "a mail or passenger relay system using stationed bearers or horses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Historically, a relay system of mail or passenger transport in South Asia using bearers or horses stationed along a route."
+}

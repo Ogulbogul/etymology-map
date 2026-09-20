@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "zaibatsu",
+      "lang": "Japanese",
+      "era": "late 1800s",
+      "note": "literally 'financial clique', naming the family-controlled industrial and banking conglomerates of imperial Japan",
+      "meaning": "a powerful family-owned business conglomerate",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "zaibatsu",
+      "lang": "English",
+      "era": "early-mid 1900s",
+      "note": "borrowed by economists and journalists describing Japan's industrial giants",
+      "meaning": "a large, family-controlled Japanese business conglomerate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, family-controlled industrial and financial conglomerate, historically associated with prewar Japan"
+}

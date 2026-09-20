@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tanuki",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named the raccoon dog, a trickster figure in Japanese folklore",
+      "meaning": "a raccoon dog, or the mischievous spirit said to take its form",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "tanuki",
+      "lang": "English",
+      "era": "1900s-1900s",
+      "note": "borrowed by naturalists and folklorists describing Japanese wildlife and myth",
+      "meaning": "the Japanese raccoon dog or its folkloric trickster spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Japanese raccoon dog, or the shapeshifting trickster spirit of folklore based on it"
+}

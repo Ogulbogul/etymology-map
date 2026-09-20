@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "namas",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'bowing, obeisance', from a root meaning 'to bend'",
+      "meaning": "obeisance, a bow",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "namaste",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "combined with 'te' ('to you') as an everyday greeting",
+      "meaning": "a respectful greeting, 'I bow to you'",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "namaste",
+      "lang": "English",
+      "era": "1880",
+      "note": "adopted into English as a greeting and, later, a yoga-class closing",
+      "meaning": "a respectful greeting with joined palms and a slight bow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A respectful South Asian greeting, spoken while pressing the palms together and bowing slightly, widely adopted in yoga practice."
+}

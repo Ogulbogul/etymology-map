@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "taiyaki",
+      "lang": "Japanese",
+      "era": "early 1900s",
+      "note": "literally 'baked sea bream', a fish-shaped cake mimicking a prized fish's form",
+      "meaning": "a fish-shaped cake filled with sweet paste",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "taiyaki",
+      "lang": "English",
+      "era": "2010s",
+      "note": "borrowed as the street snack gained popularity through Japanese dessert shops abroad",
+      "meaning": "a fish-shaped Japanese pastry with a sweet filling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fish-shaped Japanese cake, typically filled with sweet red bean paste or custard"
+}

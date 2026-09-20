@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pakvavata",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "compound of 'cooked' and 'a small lump, cake'",
+      "meaning": "a fried lump of dough",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "pakora",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the everyday word for the fried snack",
+      "meaning": "a fried vegetable fritter",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "pakora",
+      "lang": "English",
+      "era": "1932",
+      "note": "British writers on Indian cuisine adopted the word",
+      "meaning": "a deep-fried snack of vegetables in gram-flour batter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A deep-fried South Asian snack made from vegetables dipped in spiced gram-flour batter."
+}

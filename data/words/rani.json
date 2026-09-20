@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rajni",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "the feminine form of rajan, 'king'",
+      "meaning": "queen",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "rani",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the everyday word for a queen or princely ruler's wife",
+      "meaning": "queen, princess",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "rani",
+      "lang": "English",
+      "era": "1673",
+      "note": "British traders and colonists adopted the title",
+      "meaning": "a queen or female ruler in the Indian subcontinent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A title for a queen or the wife of a raja in the Indian subcontinent."
+}

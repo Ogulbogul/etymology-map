@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sencha",
+      "lang": "Japanese",
+      "era": "18th century",
+      "note": "literally 'roasted tea', naming a new method of steaming and rolling green tea leaves",
+      "meaning": "steamed and rolled green tea",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "sencha",
+      "lang": "English",
+      "era": "1900s-2000s",
+      "note": "borrowed by tea merchants and writers as Japanese green tea spread abroad",
+      "meaning": "a common variety of Japanese green tea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the most common variety of Japanese green tea, made from steamed, rolled leaves"
+}

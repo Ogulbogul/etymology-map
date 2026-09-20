@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lo mihn",
+      "lang": "Cantonese",
+      "era": "19th century",
+      "note": "literally 'stirred noodles', a dish of noodles tossed rather than fried in sauce",
+      "meaning": "noodles tossed with sauce and toppings",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "lo mein",
+      "lang": "English",
+      "era": "mid-1900s",
+      "note": "borrowed into American English through Chinese-American restaurant menus",
+      "meaning": "a Chinese-American dish of soft noodles tossed with sauce",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a Chinese dish of soft wheat noodles tossed with sauce, vegetables, and meat"
+}

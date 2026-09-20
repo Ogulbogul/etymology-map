@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shakuhachi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named for its standard length, one shaku eight sun, a bamboo end-blown flute",
+      "meaning": "a bamboo end-blown flute",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shakuhachi",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "borrowed by musicologists and later world-music enthusiasts",
+      "meaning": "a traditional Japanese bamboo flute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese end-blown bamboo flute"
+}

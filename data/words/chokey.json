@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "catuska",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'consisting of four, quadrangular'",
+      "meaning": "four-sided",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "chauki",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "narrowed to mean a four-sided guardhouse, customs post, or police station",
+      "meaning": "a police post, customs house, or lockup",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "chokey",
+      "lang": "English",
+      "era": "1698",
+      "note": "British soldiers and traders adopted the word for a lockup, later general slang for jail",
+      "meaning": "prison, jail",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "British slang for prison or jail."
+}

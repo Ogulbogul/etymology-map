@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sati",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'virtuous, true', literally 'existing', used for a devoted wife",
+      "meaning": "a virtuous, faithful wife",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "sati",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "applied specifically to a widow who immolated herself on her husband's pyre",
+      "meaning": "a widow's self-immolation, or the widow herself",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "suttee",
+      "lang": "English",
+      "era": "1786",
+      "note": "British colonial writers adopted the word for the practice and the widow who performed it",
+      "meaning": "the historical practice of a Hindu widow's self-immolation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A historical Hindu practice in which a widow immolated herself on her husband's funeral pyre; also refers to the widow herself."
+}

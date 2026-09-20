@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vettiver",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "compound of 'dig up' and 'root'",
+      "meaning": "the fragrant grass root",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "vétiver",
+      "lang": "French",
+      "era": "1858",
+      "note": "French colonial botanists in the Indian Ocean adopted the Tamil name",
+      "meaning": "the aromatic grass and its root",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vetiver",
+      "lang": "English",
+      "era": "1858",
+      "note": "borrowed from French into English",
+      "meaning": "a fragrant grass whose roots yield an oil used in perfumery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A fragrant tropical grass whose roots yield an essential oil widely used in perfumery."
+}

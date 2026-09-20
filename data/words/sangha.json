@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "samgha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "compound meaning 'together' and 'in contact', a gathered community",
+      "meaning": "an assembly, community",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "sangha",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "remained the general word for community or association",
+      "meaning": "a community, association",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "sangha",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "adopted in English writing on Buddhism for the monastic community",
+      "meaning": "the Buddhist monastic community, or community of practitioners",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "The Buddhist monastic community of monks and nuns; more broadly, a spiritual community."
+}

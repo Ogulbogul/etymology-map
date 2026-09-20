@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wǔshù",
+      "lang": "Chinese",
+      "era": "20th century",
+      "note": "literally 'martial art', adopted as the official modern term covering Chinese fighting arts and sport forms",
+      "meaning": "Chinese martial arts",
+      "lat": 39.9,
+      "lon": 116.41
+    },
+    {
+      "word": "wushu",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "borrowed as competitive wushu spread internationally through sport federations",
+      "meaning": "Chinese martial arts, especially the modern competitive sport form",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Chinese martial arts, especially as practiced in the modern competitive sport"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sadhu",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'good, virtuous', from a root meaning 'to accomplish'",
+      "meaning": "good; a holy man",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "sadhu",
+      "lang": "English",
+      "era": "1835",
+      "note": "adopted for a Hindu ascetic or holy man",
+      "meaning": "a Hindu religious ascetic or holy man",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A Hindu religious ascetic or holy man who has renounced worldly life."
+}

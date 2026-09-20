@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kaizen",
+      "lang": "Japanese",
+      "era": "1950s-1960s",
+      "note": "literally 'improvement', formalized as a philosophy of continuous small changes in Toyota's production system",
+      "meaning": "continuous, incremental improvement",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kaizen",
+      "lang": "English",
+      "era": "1980s",
+      "note": "borrowed by Western management theory as Japanese manufacturing methods were studied and copied",
+      "meaning": "a business philosophy of continuous incremental improvement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a business philosophy centered on continuous, incremental improvement"
+}

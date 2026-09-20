@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "veda",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "from a root meaning 'to know', denoting knowledge, especially sacred knowledge",
+      "meaning": "sacred knowledge",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "Veda",
+      "lang": "English",
+      "era": "18th-19th c.",
+      "note": "adopted in English scholarship on Hindu scripture",
+      "meaning": "any of the four oldest and most sacred Hindu scriptures",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Any of the four ancient Sanskrit texts that form the oldest scriptures of Hinduism."
+}

@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "laksha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "literally '100,000', a reference to the vast numbers of insects that produce the resin",
+      "meaning": "red resinous dye",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "lakkha",
+      "lang": "Prakrit",
+      "era": "ancient/medieval",
+      "note": "the vernacular form carried the word into everyday speech",
+      "meaning": "the resin",
+      "lat": 25.59,
+      "lon": 85.14
+    },
+    {
+      "word": "lakh",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "settled as the everyday North Indian word for the resin",
+      "meaning": "the scarlet resin",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "lak",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "traders adopted the Hindi word for the traded commodity",
+      "meaning": "resin used in varnish and dye",
+      "lat": 29.61,
+      "lon": 52.53
+    },
+    {
+      "word": "lac",
+      "lang": "English",
+      "era": "1600s",
+      "note": "entered English via Persian-Indian trade for the insect resin used in varnish",
+      "meaning": "a resinous secretion used for varnish and dye",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A resinous secretion of the lac insect, used to make shellac, varnish, and dye."
+}

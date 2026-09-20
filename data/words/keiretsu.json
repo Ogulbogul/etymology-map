@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "keiretsu",
+      "lang": "Japanese",
+      "era": "post-1945",
+      "note": "literally 'series' or 'grouping', naming networks of allied companies that replaced the dissolved zaibatsu",
+      "meaning": "a network of businesses linked by cross-shareholding",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "keiretsu",
+      "lang": "English",
+      "era": "1980s",
+      "note": "borrowed by business writers analyzing Japan's postwar economic structure",
+      "meaning": "a network of interlinked Japanese companies",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a network of Japanese businesses linked by cross-shareholding and close business ties"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mogusa",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "the native name for dried mugwort burned on the skin in traditional medicine",
+      "meaning": "dried mugwort used for burning treatments",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "moxa",
+      "lang": "Dutch",
+      "era": "1670s",
+      "note": "shortened and carried into European medical writing by a Dutch minister describing the remedy from Japan",
+      "meaning": "combustible dried herb used for therapeutic burning",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "moxa",
+      "lang": "English",
+      "era": "1675",
+      "note": "adopted into English medical vocabulary soon after the Dutch account appeared",
+      "meaning": "a dried herb burned on or near the skin in traditional therapy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dried mugwort burned on or near the skin in the traditional therapy called moxibustion"
+}

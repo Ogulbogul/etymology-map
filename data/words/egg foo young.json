@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fu4 jung4 daan2",
+      "lang": "Cantonese",
+      "era": "19th century",
+      "note": "literally 'hibiscus egg', naming an omelet dish named for its flower-like appearance",
+      "meaning": "an egg omelet dish",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "egg foo young",
+      "lang": "English",
+      "era": "late 1800s-early 1900s",
+      "note": "adapted with reversed word order into Chinese-American restaurant menus",
+      "meaning": "a Chinese-American omelet dish with vegetables and meat, served in gravy",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a Chinese-American omelet dish made with vegetables and meat, typically served with gravy"
+}

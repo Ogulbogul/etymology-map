@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shabu-shabu",
+      "lang": "Japanese",
+      "era": "1950s",
+      "note": "an onomatopoeic name mimicking the swishing sound of meat swirled through hot broth",
+      "meaning": "thin sliced meat swished and cooked in broth",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shabu-shabu",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "borrowed as Japanese hot-pot restaurants spread internationally",
+      "meaning": "a Japanese hot-pot dish of meat and vegetables swished in broth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese hot-pot dish in which thin slices of meat and vegetables are swished through simmering broth"
+}

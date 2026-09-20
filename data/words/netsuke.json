@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "netsuke",
+      "lang": "Japanese",
+      "era": "17th-18th century",
+      "note": "named the small carved toggle used to fasten a pouch to a kimono sash",
+      "meaning": "a small carved fastening toggle",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "netsuke",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed by Western art collectors after Japan opened to trade",
+      "meaning": "a miniature Japanese carved toggle, now prized as art",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, intricately carved Japanese toggle, now collected as miniature sculpture"
+}

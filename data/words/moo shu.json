@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mù xū ròu",
+      "lang": "Chinese",
+      "era": "19th century",
+      "note": "literally 'wood shavings pork', describing scrambled egg bits that resemble small wood chips",
+      "meaning": "a stir-fried dish of shredded pork, egg, and vegetables",
+      "lat": 39.9,
+      "lon": 116.41
+    },
+    {
+      "word": "moo shu",
+      "lang": "English",
+      "era": "mid-1900s",
+      "note": "adapted into Chinese-American restaurant menus, often served wrapped in thin pancakes",
+      "meaning": "a Chinese-American stir-fried dish served in thin pancakes",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a Chinese-American dish of shredded pork, egg, and vegetables, typically rolled in a thin pancake"
+}

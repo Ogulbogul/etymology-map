@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "bhagavati",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "an epithet of a goddess, 'the blessed one'",
+      "meaning": "the blessed goddess",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "pakavati",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "South Indian temple term for a shrine of the goddess",
+      "meaning": "a temple of the goddess",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "pagode",
+      "lang": "Portuguese",
+      "era": "16th c.",
+      "note": "Portuguese traders in South India applied the word to Asian temples generally",
+      "meaning": "an Asian temple",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "pagoda",
+      "lang": "English",
+      "era": "1580s",
+      "note": "borrowed via Portuguese for tiered Asian temple towers",
+      "meaning": "a tiered tower temple, especially Buddhist",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A tiered tower, typically Buddhist, common across South and East Asia."
+}

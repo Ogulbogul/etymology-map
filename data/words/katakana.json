@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "katakana",
+      "lang": "Japanese",
+      "era": "9th century",
+      "note": "developed as an angular phonetic script derived from fragments of Chinese characters",
+      "meaning": "an angular phonetic syllabary",
+      "lat": 35.02,
+      "lon": 135.76
+    },
+    {
+      "word": "katakana",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "borrowed by linguists and Japanese-language textbooks",
+      "meaning": "the angular Japanese phonetic writing system, used mainly for foreign words",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the two phonetic syllabaries used in Japanese writing, used chiefly for foreign loanwords"
+}

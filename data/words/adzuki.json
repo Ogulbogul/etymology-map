@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "azuki",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "the native name for the small reddish bean used in sweets",
+      "meaning": "a small red bean",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "adzuki",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "borrowed by botanists and cooks describing the bean and its uses",
+      "meaning": "a small red bean used in East Asian sweets",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small reddish bean commonly used in East Asian sweet pastes and desserts"
+}

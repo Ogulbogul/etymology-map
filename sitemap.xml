@@ -56,6 +56,7 @@
   <url><loc>https://etymologymap.com/words/advent</loc></url>
   <url><loc>https://etymologymap.com/words/adventure</loc></url>
   <url><loc>https://etymologymap.com/words/advocate</loc></url>
+  <url><loc>https://etymologymap.com/words/adzuki</loc></url>
   <url><loc>https://etymologymap.com/words/aegis</loc></url>
   <url><loc>https://etymologymap.com/words/affect</loc></url>
   <url><loc>https://etymologymap.com/words/affidavit</loc></url>
@@ -69,6 +70,7 @@
   <url><loc>https://etymologymap.com/words/aggregate</loc></url>
   <url><loc>https://etymologymap.com/words/aggressive</loc></url>
   <url><loc>https://etymologymap.com/words/agoraphobia</loc></url>
+  <url><loc>https://etymologymap.com/words/ahimsa</loc></url>
   <url><loc>https://etymologymap.com/words/aikido</loc></url>
   <url><loc>https://etymologymap.com/words/akvavit</loc></url>
   <url><loc>https://etymologymap.com/words/alabaster</loc></url>
@@ -118,6 +120,7 @@
   <url><loc>https://etymologymap.com/words/amortize</loc></url>
   <url><loc>https://etymologymap.com/words/amphibian</loc></url>
   <url><loc>https://etymologymap.com/words/amputate</loc></url>
+  <url><loc>https://etymologymap.com/words/amrita</loc></url>
   <url><loc>https://etymologymap.com/words/anarchy</loc></url>
   <url><loc>https://etymologymap.com/words/anatomy</loc></url>
   <url><loc>https://etymologymap.com/words/andante</loc></url>
@@ -128,6 +131,7 @@
   <url><loc>https://etymologymap.com/words/anger</loc></url>
   <url><loc>https://etymologymap.com/words/angst</loc></url>
   <url><loc>https://etymologymap.com/words/anime</loc></url>
+  <url><loc>https://etymologymap.com/words/anna</loc></url>
   <url><loc>https://etymologymap.com/words/annex</loc></url>
   <url><loc>https://etymologymap.com/words/annual</loc></url>
   <url><loc>https://etymologymap.com/words/anorak</loc></url>
@@ -141,6 +145,7 @@
   <url><loc>https://etymologymap.com/words/antiseptic</loc></url>
   <url><loc>https://etymologymap.com/words/antithesis</loc></url>
   <url><loc>https://etymologymap.com/words/anxiety</loc></url>
+  <url><loc>https://etymologymap.com/words/ao-dai</loc></url>
   <url><loc>https://etymologymap.com/words/apartheid</loc></url>
   <url><loc>https://etymologymap.com/words/apathy</loc></url>
   <url><loc>https://etymologymap.com/words/apparent</loc></url>
@@ -184,6 +189,8 @@
   <url><loc>https://etymologymap.com/words/artifact</loc></url>
   <url><loc>https://etymologymap.com/words/artillery</loc></url>
   <url><loc>https://etymologymap.com/words/artisan</loc></url>
+  <url><loc>https://etymologymap.com/words/aryan</loc></url>
+  <url><loc>https://etymologymap.com/words/asana</loc></url>
   <url><loc>https://etymologymap.com/words/ascend</loc></url>
   <url><loc>https://etymologymap.com/words/asceticism</loc></url>
   <url><loc>https://etymologymap.com/words/ascribe</loc></url>
@@ -203,6 +210,7 @@
   <url><loc>https://etymologymap.com/words/asymptote</loc></url>
   <url><loc>https://etymologymap.com/words/athlete</loc></url>
   <url><loc>https://etymologymap.com/words/atlas</loc></url>
+  <url><loc>https://etymologymap.com/words/atman</loc></url>
   <url><loc>https://etymologymap.com/words/atoll</loc></url>
   <url><loc>https://etymologymap.com/words/atom</loc></url>
   <url><loc>https://etymologymap.com/words/atrium</loc></url>
@@ -237,15 +245,19 @@
   <url><loc>https://etymologymap.com/words/axiom</loc></url>
   <url><loc>https://etymologymap.com/words/axolotl</loc></url>
   <url><loc>https://etymologymap.com/words/ayatollah</loc></url>
+  <url><loc>https://etymologymap.com/words/ayurveda</loc></url>
   <url><loc>https://etymologymap.com/words/azimuth</loc></url>
   <url><loc>https://etymologymap.com/words/azure</loc></url>
   <url><loc>https://etymologymap.com/words/baba-ghanoush</loc></url>
   <url><loc>https://etymologymap.com/words/babouche</loc></url>
+  <url><loc>https://etymologymap.com/words/babu</loc></url>
   <url><loc>https://etymologymap.com/words/babushka</loc></url>
   <url><loc>https://etymologymap.com/words/bacteria</loc></url>
   <url><loc>https://etymologymap.com/words/bag</loc></url>
   <url><loc>https://etymologymap.com/words/bagel</loc></url>
   <url><loc>https://etymologymap.com/words/baguette</loc></url>
+  <url><loc>https://etymologymap.com/words/baht</loc></url>
+  <url><loc>https://etymologymap.com/words/baijiu</loc></url>
   <url><loc>https://etymologymap.com/words/bail</loc></url>
   <url><loc>https://etymologymap.com/words/bait</loc></url>
   <url><loc>https://etymologymap.com/words/baklava</loc></url>
@@ -267,6 +279,8 @@
   <url><loc>https://etymologymap.com/words/bankrupt</loc></url>
   <url><loc>https://etymologymap.com/words/banshee</loc></url>
   <url><loc>https://etymologymap.com/words/bantam</loc></url>
+  <url><loc>https://etymologymap.com/words/banyan</loc></url>
+  <url><loc>https://etymologymap.com/words/banzai</loc></url>
   <url><loc>https://etymologymap.com/words/bao</loc></url>
   <url><loc>https://etymologymap.com/words/barbecue</loc></url>
   <url><loc>https://etymologymap.com/words/bard</loc></url>
@@ -295,9 +309,13 @@
   <url><loc>https://etymologymap.com/words/berbere</loc></url>
   <url><loc>https://etymologymap.com/words/beret</loc></url>
   <url><loc>https://etymologymap.com/words/berserk</loc></url>
+  <url><loc>https://etymologymap.com/words/beryl</loc></url>
   <url><loc>https://etymologymap.com/words/betel</loc></url>
   <url><loc>https://etymologymap.com/words/betray</loc></url>
   <url><loc>https://etymologymap.com/words/bezoar</loc></url>
+  <url><loc>https://etymologymap.com/words/bhaji</loc></url>
+  <url><loc>https://etymologymap.com/words/bhakti</loc></url>
+  <url><loc>https://etymologymap.com/words/bhang</loc></url>
   <url><loc>https://etymologymap.com/words/bhangra</loc></url>
   <url><loc>https://etymologymap.com/words/bibimbap</loc></url>
   <url><loc>https://etymologymap.com/words/bibliography</loc></url>
@@ -350,6 +368,7 @@
   <url><loc>https://etymologymap.com/words/bouquet</loc></url>
   <url><loc>https://etymologymap.com/words/boutique</loc></url>
   <url><loc>https://etymologymap.com/words/braai</loc></url>
+  <url><loc>https://etymologymap.com/words/brahmin</loc></url>
   <url><loc>https://etymologymap.com/words/braise</loc></url>
   <url><loc>https://etymologymap.com/words/brandy</loc></url>
   <url><loc>https://etymologymap.com/words/bratwurst</loc></url>
@@ -379,6 +398,7 @@
   <url><loc>https://etymologymap.com/words/bull</loc></url>
   <url><loc>https://etymologymap.com/words/bulletin</loc></url>
   <url><loc>https://etymologymap.com/words/bungalow</loc></url>
+  <url><loc>https://etymologymap.com/words/bunraku</loc></url>
   <url><loc>https://etymologymap.com/words/buoy</loc></url>
   <url><loc>https://etymologymap.com/words/bupkis</loc></url>
   <url><loc>https://etymologymap.com/words/bureau</loc></url>
@@ -506,6 +526,7 @@
   <url><loc>https://etymologymap.com/words/chakra</loc></url>
   <url><loc>https://etymologymap.com/words/chameleon</loc></url>
   <url><loc>https://etymologymap.com/words/champagne</loc></url>
+  <url><loc>https://etymologymap.com/words/champak</loc></url>
   <url><loc>https://etymologymap.com/words/champion</loc></url>
   <url><loc>https://etymologymap.com/words/chance</loc></url>
   <url><loc>https://etymologymap.com/words/chandelier</loc></url>
@@ -527,6 +548,7 @@
   <url><loc>https://etymologymap.com/words/cheddar</loc></url>
   <url><loc>https://etymologymap.com/words/cheetah</loc></url>
   <url><loc>https://etymologymap.com/words/chemist</loc></url>
+  <url><loc>https://etymologymap.com/words/cheongsam</loc></url>
   <url><loc>https://etymologymap.com/words/cheroot</loc></url>
   <url><loc>https://etymologymap.com/words/chess</loc></url>
   <url><loc>https://etymologymap.com/words/chevron</loc></url>
@@ -537,22 +559,27 @@
   <url><loc>https://etymologymap.com/words/chili</loc></url>
   <url><loc>https://etymologymap.com/words/chimera</loc></url>
   <url><loc>https://etymologymap.com/words/chimpanzee</loc></url>
+  <url><loc>https://etymologymap.com/words/chin-chin</loc></url>
   <url><loc>https://etymologymap.com/words/china</loc></url>
   <url><loc>https://etymologymap.com/words/chinchilla</loc></url>
   <url><loc>https://etymologymap.com/words/chinook</loc></url>
   <url><loc>https://etymologymap.com/words/chintz</loc></url>
   <url><loc>https://etymologymap.com/words/chipmunk</loc></url>
   <url><loc>https://etymologymap.com/words/chipotle</loc></url>
+  <url><loc>https://etymologymap.com/words/chit</loc></url>
   <url><loc>https://etymologymap.com/words/chivalrous</loc></url>
   <url><loc>https://etymologymap.com/words/chivalry</loc></url>
   <url><loc>https://etymologymap.com/words/chlorine</loc></url>
   <url><loc>https://etymologymap.com/words/chlorophyll</loc></url>
   <url><loc>https://etymologymap.com/words/chocolate</loc></url>
+  <url><loc>https://etymologymap.com/words/chokey</loc></url>
+  <url><loc>https://etymologymap.com/words/chop-chop</loc></url>
   <url><loc>https://etymologymap.com/words/chop-suey</loc></url>
   <url><loc>https://etymologymap.com/words/choreography</loc></url>
   <url><loc>https://etymologymap.com/words/chorus</loc></url>
   <url><loc>https://etymologymap.com/words/chow</loc></url>
   <url><loc>https://etymologymap.com/words/chow-mein</loc></url>
+  <url><loc>https://etymologymap.com/words/choy-sum</loc></url>
   <url><loc>https://etymologymap.com/words/chromium</loc></url>
   <url><loc>https://etymologymap.com/words/chronic</loc></url>
   <url><loc>https://etymologymap.com/words/chronology</loc></url>
@@ -728,6 +755,7 @@
   <url><loc>https://etymologymap.com/words/convolution</loc></url>
   <url><loc>https://etymologymap.com/words/cooee</loc></url>
   <url><loc>https://etymologymap.com/words/cookie</loc></url>
+  <url><loc>https://etymologymap.com/words/coolie</loc></url>
   <url><loc>https://etymologymap.com/words/cooperate</loc></url>
   <url><loc>https://etymologymap.com/words/copper</loc></url>
   <url><loc>https://etymologymap.com/words/copra</loc></url>
@@ -749,9 +777,11 @@
   <url><loc>https://etymologymap.com/words/corrupt</loc></url>
   <url><loc>https://etymologymap.com/words/cortege</loc></url>
   <url><loc>https://etymologymap.com/words/cortex</loc></url>
+  <url><loc>https://etymologymap.com/words/corundum</loc></url>
   <url><loc>https://etymologymap.com/words/cosmic</loc></url>
   <url><loc>https://etymologymap.com/words/cosmonaut</loc></url>
   <url><loc>https://etymologymap.com/words/cosmos</loc></url>
+  <url><loc>https://etymologymap.com/words/cosplay</loc></url>
   <url><loc>https://etymologymap.com/words/cot</loc></url>
   <url><loc>https://etymologymap.com/words/cotton</loc></url>
   <url><loc>https://etymologymap.com/words/count</loc></url>
@@ -764,6 +794,7 @@
   <url><loc>https://etymologymap.com/words/couscous</loc></url>
   <url><loc>https://etymologymap.com/words/cousin</loc></url>
   <url><loc>https://etymologymap.com/words/couture</loc></url>
+  <url><loc>https://etymologymap.com/words/cowrie</loc></url>
   <url><loc>https://etymologymap.com/words/coyote</loc></url>
   <url><loc>https://etymologymap.com/words/cranium</loc></url>
   <url><loc>https://etymologymap.com/words/cravat</loc></url>
@@ -808,6 +839,7 @@
   <url><loc>https://etymologymap.com/words/cushy</loc></url>
   <url><loc>https://etymologymap.com/words/custodian</loc></url>
   <url><loc>https://etymologymap.com/words/custody</loc></url>
+  <url><loc>https://etymologymap.com/words/cutcha</loc></url>
   <url><loc>https://etymologymap.com/words/cyan</loc></url>
   <url><loc>https://etymologymap.com/words/cycle</loc></url>
   <url><loc>https://etymologymap.com/words/cyclone</loc></url>
@@ -818,12 +850,16 @@
   <url><loc>https://etymologymap.com/words/dacoit</loc></url>
   <url><loc>https://etymologymap.com/words/dahlia</loc></url>
   <url><loc>https://etymologymap.com/words/daikon</loc></url>
+  <url><loc>https://etymologymap.com/words/daimyo</loc></url>
+  <url><loc>https://etymologymap.com/words/dak</loc></url>
   <url><loc>https://etymologymap.com/words/dal</loc></url>
   <url><loc>https://etymologymap.com/words/dalmatian</loc></url>
   <url><loc>https://etymologymap.com/words/damask</loc></url>
   <url><loc>https://etymologymap.com/words/dandelion</loc></url>
   <url><loc>https://etymologymap.com/words/dangle</loc></url>
+  <url><loc>https://etymologymap.com/words/darshan</loc></url>
   <url><loc>https://etymologymap.com/words/date</loc></url>
+  <url><loc>https://etymologymap.com/words/dazibao</loc></url>
   <url><loc>https://etymologymap.com/words/dazzle</loc></url>
   <url><loc>https://etymologymap.com/words/de-facto</loc></url>
   <url><loc>https://etymologymap.com/words/debacle</loc></url>
@@ -873,6 +909,7 @@
   <url><loc>https://etymologymap.com/words/denominate</loc></url>
   <url><loc>https://etymologymap.com/words/denouement</loc></url>
   <url><loc>https://etymologymap.com/words/density</loc></url>
+  <url><loc>https://etymologymap.com/words/deodar</loc></url>
   <url><loc>https://etymologymap.com/words/deport</loc></url>
   <url><loc>https://etymologymap.com/words/depose</loc></url>
   <url><loc>https://etymologymap.com/words/deposit</loc></url>
@@ -897,6 +934,9 @@
   <url><loc>https://etymologymap.com/words/detour</loc></url>
   <url><loc>https://etymologymap.com/words/deus-ex-machina</loc></url>
   <url><loc>https://etymologymap.com/words/dharma</loc></url>
+  <url><loc>https://etymologymap.com/words/dhoti</loc></url>
+  <url><loc>https://etymologymap.com/words/dhurrie</loc></url>
+  <url><loc>https://etymologymap.com/words/dhyana</loc></url>
   <url><loc>https://etymologymap.com/words/diabetes</loc></url>
   <url><loc>https://etymologymap.com/words/diagnosis</loc></url>
   <url><loc>https://etymologymap.com/words/diagonal</loc></url>
@@ -954,18 +994,21 @@
   <url><loc>https://etymologymap.com/words/diverse</loc></url>
   <url><loc>https://etymologymap.com/words/divert</loc></url>
   <url><loc>https://etymologymap.com/words/divulge</loc></url>
+  <url><loc>https://etymologymap.com/words/diwali</loc></url>
   <url><loc>https://etymologymap.com/words/djellaba</loc></url>
   <url><loc>https://etymologymap.com/words/docile</loc></url>
   <url><loc>https://etymologymap.com/words/dock</loc></url>
   <url><loc>https://etymologymap.com/words/doctor</loc></url>
   <url><loc>https://etymologymap.com/words/doctrine</loc></url>
   <url><loc>https://etymologymap.com/words/document</loc></url>
+  <url><loc>https://etymologymap.com/words/doenjang</loc></url>
   <url><loc>https://etymologymap.com/words/doge</loc></url>
   <url><loc>https://etymologymap.com/words/dogma</loc></url>
   <url><loc>https://etymologymap.com/words/dojo</loc></url>
   <url><loc>https://etymologymap.com/words/dolma</loc></url>
   <url><loc>https://etymologymap.com/words/domino</loc></url>
   <url><loc>https://etymologymap.com/words/donate</loc></url>
+  <url><loc>https://etymologymap.com/words/doolally</loc></url>
   <url><loc>https://etymologymap.com/words/doppelganger</loc></url>
   <url><loc>https://etymologymap.com/words/dosa</loc></url>
   <url><loc>https://etymologymap.com/words/double</loc></url>
@@ -1007,6 +1050,7 @@
   <url><loc>https://etymologymap.com/words/educate</loc></url>
   <url><loc>https://etymologymap.com/words/efficient</loc></url>
   <url><loc>https://etymologymap.com/words/egg</loc></url>
+  <url><loc>https://etymologymap.com/words/egg-foo-young</loc></url>
   <url><loc>https://etymologymap.com/words/egregious</loc></url>
   <url><loc>https://etymologymap.com/words/egress</loc></url>
   <url><loc>https://etymologymap.com/words/egusi</loc></url>
@@ -1225,6 +1269,7 @@
   <url><loc>https://etymologymap.com/words/fugue</loc></url>
   <url><loc>https://etymologymap.com/words/fundamental</loc></url>
   <url><loc>https://etymologymap.com/words/furnish</loc></url>
+  <url><loc>https://etymologymap.com/words/furoshiki</loc></url>
   <url><loc>https://etymologymap.com/words/fuselage</loc></url>
   <url><loc>https://etymologymap.com/words/fustian</loc></url>
   <url><loc>https://etymologymap.com/words/futon</loc></url>
@@ -1276,7 +1321,10 @@
   <url><loc>https://etymologymap.com/words/gestalt</loc></url>
   <url><loc>https://etymologymap.com/words/gesture</loc></url>
   <url><loc>https://etymologymap.com/words/get</loc></url>
+  <url><loc>https://etymologymap.com/words/geta</loc></url>
   <url><loc>https://etymologymap.com/words/geyser</loc></url>
+  <url><loc>https://etymologymap.com/words/gharial</loc></url>
+  <url><loc>https://etymologymap.com/words/ghat</loc></url>
   <url><loc>https://etymologymap.com/words/ghazal</loc></url>
   <url><loc>https://etymologymap.com/words/ghee</loc></url>
   <url><loc>https://etymologymap.com/words/gherkin</loc></url>
@@ -1302,6 +1350,7 @@
   <url><loc>https://etymologymap.com/words/gnocchi</loc></url>
   <url><loc>https://etymologymap.com/words/gnu</loc></url>
   <url><loc>https://etymologymap.com/words/gochujang</loc></url>
+  <url><loc>https://etymologymap.com/words/godown</loc></url>
   <url><loc>https://etymologymap.com/words/golem</loc></url>
   <url><loc>https://etymologymap.com/words/golf</loc></url>
   <url><loc>https://etymologymap.com/words/gondola</loc></url>
@@ -1331,6 +1380,7 @@
   <url><loc>https://etymologymap.com/words/grotesque</loc></url>
   <url><loc>https://etymologymap.com/words/guacamole</loc></url>
   <url><loc>https://etymologymap.com/words/guano</loc></url>
+  <url><loc>https://etymologymap.com/words/guanxi</loc></url>
   <url><loc>https://etymologymap.com/words/guarantee</loc></url>
   <url><loc>https://etymologymap.com/words/guava</loc></url>
   <url><loc>https://etymologymap.com/words/guerrilla</loc></url>
@@ -1340,11 +1390,13 @@
   <url><loc>https://etymologymap.com/words/gulag</loc></url>
   <url><loc>https://etymologymap.com/words/gumbo</loc></url>
   <url><loc>https://etymologymap.com/words/gung-ho</loc></url>
+  <url><loc>https://etymologymap.com/words/gunny</loc></url>
   <url><loc>https://etymologymap.com/words/guru</loc></url>
   <url><loc>https://etymologymap.com/words/gustatory</loc></url>
   <url><loc>https://etymologymap.com/words/gusto</loc></url>
   <url><loc>https://etymologymap.com/words/gymkhana</loc></url>
   <url><loc>https://etymologymap.com/words/gymnasium</loc></url>
+  <url><loc>https://etymologymap.com/words/gyoza</loc></url>
   <url><loc>https://etymologymap.com/words/gyro</loc></url>
   <url><loc>https://etymologymap.com/words/gyroscope</loc></url>
   <url><loc>https://etymologymap.com/words/habeas-corpus</loc></url>
@@ -1359,12 +1411,14 @@
   <url><loc>https://etymologymap.com/words/haka</loc></url>
   <url><loc>https://etymologymap.com/words/hallelujah</loc></url>
   <url><loc>https://etymologymap.com/words/hallucination</loc></url>
+  <url><loc>https://etymologymap.com/words/hallyu</loc></url>
   <url><loc>https://etymologymap.com/words/halva</loc></url>
   <url><loc>https://etymologymap.com/words/hamburger</loc></url>
   <url><loc>https://etymologymap.com/words/hammock</loc></url>
   <url><loc>https://etymologymap.com/words/hamster</loc></url>
   <url><loc>https://etymologymap.com/words/hanbok</loc></url>
   <url><loc>https://etymologymap.com/words/hangul</loc></url>
+  <url><loc>https://etymologymap.com/words/hapkido</loc></url>
   <url><loc>https://etymologymap.com/words/happen</loc></url>
   <url><loc>https://etymologymap.com/words/happy</loc></url>
   <url><loc>https://etymologymap.com/words/hara-kiri</loc></url>
@@ -1374,6 +1428,7 @@
   <url><loc>https://etymologymap.com/words/harlequin</loc></url>
   <url><loc>https://etymologymap.com/words/harmony</loc></url>
   <url><loc>https://etymologymap.com/words/harpsichord</loc></url>
+  <url><loc>https://etymologymap.com/words/hartal</loc></url>
   <url><loc>https://etymologymap.com/words/hashish</loc></url>
   <url><loc>https://etymologymap.com/words/hazard</loc></url>
   <url><loc>https://etymologymap.com/words/hedonism</loc></url>
@@ -1394,9 +1449,11 @@
   <url><loc>https://etymologymap.com/words/hex</loc></url>
   <url><loc>https://etymologymap.com/words/hexagon</loc></url>
   <url><loc>https://etymologymap.com/words/hibachi</loc></url>
+  <url><loc>https://etymologymap.com/words/hibakusha</loc></url>
   <url><loc>https://etymologymap.com/words/hickory</loc></url>
   <url><loc>https://etymologymap.com/words/hijab</loc></url>
   <url><loc>https://etymologymap.com/words/hippopotamus</loc></url>
+  <url><loc>https://etymologymap.com/words/hiragana</loc></url>
   <url><loc>https://etymologymap.com/words/history</loc></url>
   <url><loc>https://etymologymap.com/words/hit</loc></url>
   <url><loc>https://etymologymap.com/words/hoisin</loc></url>
@@ -1441,6 +1498,7 @@
   <url><loc>https://etymologymap.com/words/igloo</loc></url>
   <url><loc>https://etymologymap.com/words/iguana</loc></url>
   <url><loc>https://etymologymap.com/words/ikebana</loc></url>
+  <url><loc>https://etymologymap.com/words/ikigai</loc></url>
   <url><loc>https://etymologymap.com/words/ill</loc></url>
   <url><loc>https://etymologymap.com/words/illuminate</loc></url>
   <url><loc>https://etymologymap.com/words/illusion</loc></url>
@@ -1547,8 +1605,10 @@
   <url><loc>https://etymologymap.com/words/itinerary</loc></url>
   <url><loc>https://etymologymap.com/words/jackal</loc></url>
   <url><loc>https://etymologymap.com/words/jade</loc></url>
+  <url><loc>https://etymologymap.com/words/jaggery</loc></url>
   <url><loc>https://etymologymap.com/words/jaguar</loc></url>
   <url><loc>https://etymologymap.com/words/janissary</loc></url>
+  <url><loc>https://etymologymap.com/words/japa</loc></url>
   <url><loc>https://etymologymap.com/words/jar</loc></url>
   <url><loc>https://etymologymap.com/words/jargon</loc></url>
   <url><loc>https://etymologymap.com/words/jasmine</loc></url>
@@ -1564,11 +1624,13 @@
   <url><loc>https://etymologymap.com/words/jicama</loc></url>
   <url><loc>https://etymologymap.com/words/jihad</loc></url>
   <url><loc>https://etymologymap.com/words/jinn</loc></url>
+  <url><loc>https://etymologymap.com/words/jiu-jitsu</loc></url>
   <url><loc>https://etymologymap.com/words/jodhpurs</loc></url>
   <url><loc>https://etymologymap.com/words/join</loc></url>
   <url><loc>https://etymologymap.com/words/joint</loc></url>
   <url><loc>https://etymologymap.com/words/jollof</loc></url>
   <url><loc>https://etymologymap.com/words/jubilee</loc></url>
+  <url><loc>https://etymologymap.com/words/juche</loc></url>
   <url><loc>https://etymologymap.com/words/judge</loc></url>
   <url><loc>https://etymologymap.com/words/judgment</loc></url>
   <url><loc>https://etymologymap.com/words/judo</loc></url>
@@ -1590,17 +1652,27 @@
   <url><loc>https://etymologymap.com/words/juxtapose</loc></url>
   <url><loc>https://etymologymap.com/words/kabuki</loc></url>
   <url><loc>https://etymologymap.com/words/kahuna</loc></url>
+  <url><loc>https://etymologymap.com/words/kaizen</loc></url>
   <url><loc>https://etymologymap.com/words/kaleidoscope</loc></url>
+  <url><loc>https://etymologymap.com/words/kalpa</loc></url>
   <url><loc>https://etymologymap.com/words/kalua</loc></url>
   <url><loc>https://etymologymap.com/words/kamikaze</loc></url>
+  <url><loc>https://etymologymap.com/words/kanban</loc></url>
   <url><loc>https://etymologymap.com/words/kangaroo</loc></url>
   <url><loc>https://etymologymap.com/words/kanji</loc></url>
+  <url><loc>https://etymologymap.com/words/kantha</loc></url>
+  <url><loc>https://etymologymap.com/words/kaolin</loc></url>
   <url><loc>https://etymologymap.com/words/kaput</loc></url>
+  <url><loc>https://etymologymap.com/words/karaage</loc></url>
   <url><loc>https://etymologymap.com/words/karaoke</loc></url>
   <url><loc>https://etymologymap.com/words/karate</loc></url>
   <url><loc>https://etymologymap.com/words/karma</loc></url>
+  <url><loc>https://etymologymap.com/words/karoshi</loc></url>
   <url><loc>https://etymologymap.com/words/kasha</loc></url>
+  <url><loc>https://etymologymap.com/words/kata</loc></url>
+  <url><loc>https://etymologymap.com/words/katakana</loc></url>
   <url><loc>https://etymologymap.com/words/katana</loc></url>
+  <url><loc>https://etymologymap.com/words/katsu</loc></url>
   <url><loc>https://etymologymap.com/words/kawaii</loc></url>
   <url><loc>https://etymologymap.com/words/kayak</loc></url>
   <url><loc>https://etymologymap.com/words/kebab</loc></url>
@@ -1609,11 +1681,15 @@
   <url><loc>https://etymologymap.com/words/keelhaul</loc></url>
   <url><loc>https://etymologymap.com/words/kef</loc></url>
   <url><loc>https://etymologymap.com/words/keg</loc></url>
+  <url><loc>https://etymologymap.com/words/keiretsu</loc></url>
+  <url><loc>https://etymologymap.com/words/kendo</loc></url>
   <url><loc>https://etymologymap.com/words/ketchup</loc></url>
+  <url><loc>https://etymologymap.com/words/khadi</loc></url>
   <url><loc>https://etymologymap.com/words/khaki</loc></url>
   <url><loc>https://etymologymap.com/words/khamsin</loc></url>
   <url><loc>https://etymologymap.com/words/khan</loc></url>
   <url><loc>https://etymologymap.com/words/khedive</loc></url>
+  <url><loc>https://etymologymap.com/words/kheer</loc></url>
   <url><loc>https://etymologymap.com/words/kibbutz</loc></url>
   <url><loc>https://etymologymap.com/words/kibitz</loc></url>
   <url><loc>https://etymologymap.com/words/kid</loc></url>
@@ -1621,11 +1697,13 @@
   <url><loc>https://etymologymap.com/words/kilim</loc></url>
   <url><loc>https://etymologymap.com/words/kilometer</loc></url>
   <url><loc>https://etymologymap.com/words/kilt</loc></url>
+  <url><loc>https://etymologymap.com/words/kimbap</loc></url>
   <url><loc>https://etymologymap.com/words/kimchi</loc></url>
   <url><loc>https://etymologymap.com/words/kimono</loc></url>
   <url><loc>https://etymologymap.com/words/kindergarten</loc></url>
   <url><loc>https://etymologymap.com/words/kindle</loc></url>
   <url><loc>https://etymologymap.com/words/kiosk</loc></url>
+  <url><loc>https://etymologymap.com/words/kirigami</loc></url>
   <url><loc>https://etymologymap.com/words/kismet</loc></url>
   <url><loc>https://etymologymap.com/words/kitsch</loc></url>
   <url><loc>https://etymologymap.com/words/kiwi</loc></url>
@@ -1634,19 +1712,25 @@
   <url><loc>https://etymologymap.com/words/knife</loc></url>
   <url><loc>https://etymologymap.com/words/knish</loc></url>
   <url><loc>https://etymologymap.com/words/koala</loc></url>
+  <url><loc>https://etymologymap.com/words/koan</loc></url>
+  <url><loc>https://etymologymap.com/words/koel</loc></url>
   <url><loc>https://etymologymap.com/words/kofta</loc></url>
   <url><loc>https://etymologymap.com/words/kohl</loc></url>
   <url><loc>https://etymologymap.com/words/koi</loc></url>
+  <url><loc>https://etymologymap.com/words/kombu</loc></url>
   <url><loc>https://etymologymap.com/words/kombucha</loc></url>
   <url><loc>https://etymologymap.com/words/kookaburra</loc></url>
   <url><loc>https://etymologymap.com/words/korma</loc></url>
   <url><loc>https://etymologymap.com/words/kosher</loc></url>
+  <url><loc>https://etymologymap.com/words/koto</loc></url>
   <url><loc>https://etymologymap.com/words/kowtow</loc></url>
   <url><loc>https://etymologymap.com/words/kremlin</loc></url>
   <url><loc>https://etymologymap.com/words/krypton</loc></url>
   <url><loc>https://etymologymap.com/words/kudu</loc></url>
+  <url><loc>https://etymologymap.com/words/kudzu</loc></url>
   <url><loc>https://etymologymap.com/words/kumis</loc></url>
   <url><loc>https://etymologymap.com/words/kumquat</loc></url>
+  <url><loc>https://etymologymap.com/words/kundalini</loc></url>
   <url><loc>https://etymologymap.com/words/kung-fu</loc></url>
   <url><loc>https://etymologymap.com/words/kung-pao</loc></url>
   <url><loc>https://etymologymap.com/words/kvass</loc></url>
@@ -1655,6 +1739,7 @@
   <url><loc>https://etymologymap.com/words/kwanzaa</loc></url>
   <url><loc>https://etymologymap.com/words/labneh</loc></url>
   <url><loc>https://etymologymap.com/words/labyrinth</loc></url>
+  <url><loc>https://etymologymap.com/words/lac</loc></url>
   <url><loc>https://etymologymap.com/words/lace</loc></url>
   <url><loc>https://etymologymap.com/words/laconic</loc></url>
   <url><loc>https://etymologymap.com/words/lacquer</loc></url>
@@ -1664,12 +1749,15 @@
   <url><loc>https://etymologymap.com/words/laksa</loc></url>
   <url><loc>https://etymologymap.com/words/lanai</loc></url>
   <url><loc>https://etymologymap.com/words/landscape</loc></url>
+  <url><loc>https://etymologymap.com/words/langur</loc></url>
   <url><loc>https://etymologymap.com/words/lapis-lazuli</loc></url>
   <url><loc>https://etymologymap.com/words/larva</loc></url>
   <url><loc>https://etymologymap.com/words/larynx</loc></url>
   <url><loc>https://etymologymap.com/words/lasagna</loc></url>
   <url><loc>https://etymologymap.com/words/lascar</loc></url>
+  <url><loc>https://etymologymap.com/words/lassi</loc></url>
   <url><loc>https://etymologymap.com/words/lasso</loc></url>
+  <url><loc>https://etymologymap.com/words/lathi</loc></url>
   <url><loc>https://etymologymap.com/words/latte</loc></url>
   <url><loc>https://etymologymap.com/words/lavender</loc></url>
   <url><loc>https://etymologymap.com/words/law</loc></url>
@@ -1713,14 +1801,17 @@
   <url><loc>https://etymologymap.com/words/lithium</loc></url>
   <url><loc>https://etymologymap.com/words/litigation</loc></url>
   <url><loc>https://etymologymap.com/words/llama</loc></url>
+  <url><loc>https://etymologymap.com/words/lo-mein</loc></url>
   <url><loc>https://etymologymap.com/words/loch</loc></url>
   <url><loc>https://etymologymap.com/words/loft</loc></url>
   <url><loc>https://etymologymap.com/words/loggia</loc></url>
   <url><loc>https://etymologymap.com/words/logic</loc></url>
   <url><loc>https://etymologymap.com/words/logos</loc></url>
+  <url><loc>https://etymologymap.com/words/longan</loc></url>
   <url><loc>https://etymologymap.com/words/loofah</loc></url>
   <url><loc>https://etymologymap.com/words/loose</loc></url>
   <url><loc>https://etymologymap.com/words/loot</loc></url>
+  <url><loc>https://etymologymap.com/words/loquat</loc></url>
   <url><loc>https://etymologymap.com/words/lottery</loc></url>
   <url><loc>https://etymologymap.com/words/lotto</loc></url>
   <url><loc>https://etymologymap.com/words/loukoum</loc></url>
@@ -1753,10 +1844,13 @@
   <url><loc>https://etymologymap.com/words/magnolia</loc></url>
   <url><loc>https://etymologymap.com/words/magnum-opus</loc></url>
   <url><loc>https://etymologymap.com/words/maharajah</loc></url>
+  <url><loc>https://etymologymap.com/words/mahatma</loc></url>
   <url><loc>https://etymologymap.com/words/mahimahi</loc></url>
   <url><loc>https://etymologymap.com/words/mahjong</loc></url>
+  <url><loc>https://etymologymap.com/words/mahout</loc></url>
   <url><loc>https://etymologymap.com/words/maintain</loc></url>
   <url><loc>https://etymologymap.com/words/maize</loc></url>
+  <url><loc>https://etymologymap.com/words/makgeolli</loc></url>
   <url><loc>https://etymologymap.com/words/malachite</loc></url>
   <url><loc>https://etymologymap.com/words/malaise</loc></url>
   <url><loc>https://etymologymap.com/words/malamute</loc></url>
@@ -1806,11 +1900,13 @@
   <url><loc>https://etymologymap.com/words/matrix</loc></url>
   <url><loc>https://etymologymap.com/words/mattress</loc></url>
   <url><loc>https://etymologymap.com/words/matzo</loc></url>
+  <url><loc>https://etymologymap.com/words/maund</loc></url>
   <url><loc>https://etymologymap.com/words/mausoleum</loc></url>
   <url><loc>https://etymologymap.com/words/mauve</loc></url>
   <url><loc>https://etymologymap.com/words/maven</loc></url>
   <url><loc>https://etymologymap.com/words/maverick</loc></url>
   <url><loc>https://etymologymap.com/words/maximum</loc></url>
+  <url><loc>https://etymologymap.com/words/maya</loc></url>
   <url><loc>https://etymologymap.com/words/mayday</loc></url>
   <url><loc>https://etymologymap.com/words/mayonnaise</loc></url>
   <url><loc>https://etymologymap.com/words/mazel-tov</loc></url>
@@ -1875,8 +1971,10 @@
   <url><loc>https://etymologymap.com/words/mobile</loc></url>
   <url><loc>https://etymologymap.com/words/moccasin</loc></url>
   <url><loc>https://etymologymap.com/words/mocha</loc></url>
+  <url><loc>https://etymologymap.com/words/mochi</loc></url>
   <url><loc>https://etymologymap.com/words/modus-operandi</loc></url>
   <url><loc>https://etymologymap.com/words/mohair</loc></url>
+  <url><loc>https://etymologymap.com/words/moksha</loc></url>
   <url><loc>https://etymologymap.com/words/molecule</loc></url>
   <url><loc>https://etymologymap.com/words/mollusk</loc></url>
   <url><loc>https://etymologymap.com/words/molybdenum</loc></url>
@@ -1891,6 +1989,7 @@
   <url><loc>https://etymologymap.com/words/monopoly</loc></url>
   <url><loc>https://etymologymap.com/words/monsoon</loc></url>
   <url><loc>https://etymologymap.com/words/montage</loc></url>
+  <url><loc>https://etymologymap.com/words/moo-shu</loc></url>
   <url><loc>https://etymologymap.com/words/moose</loc></url>
   <url><loc>https://etymologymap.com/words/moral</loc></url>
   <url><loc>https://etymologymap.com/words/morale</loc></url>
@@ -1913,9 +2012,11 @@
   <url><loc>https://etymologymap.com/words/mousse</loc></url>
   <url><loc>https://etymologymap.com/words/move</loc></url>
   <url><loc>https://etymologymap.com/words/movement</loc></url>
+  <url><loc>https://etymologymap.com/words/moxa</loc></url>
   <url><loc>https://etymologymap.com/words/mozzarella</loc></url>
   <url><loc>https://etymologymap.com/words/muay-thai</loc></url>
   <url><loc>https://etymologymap.com/words/muck</loc></url>
+  <url><loc>https://etymologymap.com/words/mudra</loc></url>
   <url><loc>https://etymologymap.com/words/muesli</loc></url>
   <url><loc>https://etymologymap.com/words/muezzin</loc></url>
   <url><loc>https://etymologymap.com/words/mufti</loc></url>
@@ -1939,6 +2040,7 @@
   <url><loc>https://etymologymap.com/words/mutton</loc></url>
   <url><loc>https://etymologymap.com/words/mutual</loc></url>
   <url><loc>https://etymologymap.com/words/muumuu</loc></url>
+  <url><loc>https://etymologymap.com/words/mynah</loc></url>
   <url><loc>https://etymologymap.com/words/myrrh</loc></url>
   <url><loc>https://etymologymap.com/words/mystery</loc></url>
   <url><loc>https://etymologymap.com/words/myth</loc></url>
@@ -1947,7 +2049,10 @@
   <url><loc>https://etymologymap.com/words/nabob</loc></url>
   <url><loc>https://etymologymap.com/words/nadir</loc></url>
   <url><loc>https://etymologymap.com/words/nag</loc></url>
+  <url><loc>https://etymologymap.com/words/nainsook</loc></url>
   <url><loc>https://etymologymap.com/words/naive</loc></url>
+  <url><loc>https://etymologymap.com/words/namaste</loc></url>
+  <url><loc>https://etymologymap.com/words/napa-cabbage</loc></url>
   <url><loc>https://etymologymap.com/words/naphtha</loc></url>
   <url><loc>https://etymologymap.com/words/narcissism</loc></url>
   <url><loc>https://etymologymap.com/words/narcotic</loc></url>
@@ -1956,26 +2061,32 @@
   <url><loc>https://etymologymap.com/words/nasi-goreng</loc></url>
   <url><loc>https://etymologymap.com/words/nation</loc></url>
   <url><loc>https://etymologymap.com/words/native</loc></url>
+  <url><loc>https://etymologymap.com/words/natto</loc></url>
   <url><loc>https://etymologymap.com/words/nature</loc></url>
+  <url><loc>https://etymologymap.com/words/nautch</loc></url>
   <url><loc>https://etymologymap.com/words/nebula</loc></url>
   <url><loc>https://etymologymap.com/words/nectar</loc></url>
   <url><loc>https://etymologymap.com/words/nee</loc></url>
+  <url><loc>https://etymologymap.com/words/neem</loc></url>
   <url><loc>https://etymologymap.com/words/neglect</loc></url>
   <url><loc>https://etymologymap.com/words/negligee</loc></url>
   <url><loc>https://etymologymap.com/words/nemesis</loc></url>
   <url><loc>https://etymologymap.com/words/neon</loc></url>
   <url><loc>https://etymologymap.com/words/nephew</loc></url>
+  <url><loc>https://etymologymap.com/words/netsuke</loc></url>
   <url><loc>https://etymologymap.com/words/neurology</loc></url>
   <url><loc>https://etymologymap.com/words/neutron</loc></url>
   <url><loc>https://etymologymap.com/words/niche</loc></url>
   <url><loc>https://etymologymap.com/words/nickel</loc></url>
   <url><loc>https://etymologymap.com/words/niece</loc></url>
   <url><loc>https://etymologymap.com/words/nihilism</loc></url>
+  <url><loc>https://etymologymap.com/words/nilgai</loc></url>
   <url><loc>https://etymologymap.com/words/ninja</loc></url>
   <url><loc>https://etymologymap.com/words/niqab</loc></url>
   <url><loc>https://etymologymap.com/words/nirvana</loc></url>
   <url><loc>https://etymologymap.com/words/nitrogen</loc></url>
   <url><loc>https://etymologymap.com/words/nizam</loc></url>
+  <url><loc>https://etymologymap.com/words/noh</loc></url>
   <url><loc>https://etymologymap.com/words/nominal</loc></url>
   <url><loc>https://etymologymap.com/words/nominate</loc></url>
   <url><loc>https://etymologymap.com/words/nominee</loc></url>
@@ -1991,6 +2102,8 @@
   <url><loc>https://etymologymap.com/words/novel</loc></url>
   <url><loc>https://etymologymap.com/words/novice</loc></url>
   <url><loc>https://etymologymap.com/words/nuance</loc></url>
+  <url><loc>https://etymologymap.com/words/nullah</loc></url>
+  <url><loc>https://etymologymap.com/words/nunchaku</loc></url>
   <url><loc>https://etymologymap.com/words/nuoc-mam</loc></url>
   <url><loc>https://etymologymap.com/words/nurse</loc></url>
   <url><loc>https://etymologymap.com/words/nutriment</loc></url>
@@ -2036,12 +2149,16 @@
   <url><loc>https://etymologymap.com/words/olfactory</loc></url>
   <url><loc>https://etymologymap.com/words/oligarchy</loc></url>
   <url><loc>https://etymologymap.com/words/olympic</loc></url>
+  <url><loc>https://etymologymap.com/words/omakase</loc></url>
   <url><loc>https://etymologymap.com/words/ombudsman</loc></url>
   <url><loc>https://etymologymap.com/words/omelette</loc></url>
   <url><loc>https://etymologymap.com/words/omit</loc></url>
   <url><loc>https://etymologymap.com/words/omniscient</loc></url>
   <url><loc>https://etymologymap.com/words/omnivore</loc></url>
+  <url><loc>https://etymologymap.com/words/ondol</loc></url>
   <url><loc>https://etymologymap.com/words/onerous</loc></url>
+  <url><loc>https://etymologymap.com/words/onigiri</loc></url>
+  <url><loc>https://etymologymap.com/words/onsen</loc></url>
   <url><loc>https://etymologymap.com/words/onyx</loc></url>
   <url><loc>https://etymologymap.com/words/oolong</loc></url>
   <url><loc>https://etymologymap.com/words/opal</loc></url>
@@ -2082,13 +2199,16 @@
   <url><loc>https://etymologymap.com/words/pad-thai</loc></url>
   <url><loc>https://etymologymap.com/words/paddy</loc></url>
   <url><loc>https://etymologymap.com/words/paella</loc></url>
+  <url><loc>https://etymologymap.com/words/pagoda</loc></url>
   <url><loc>https://etymologymap.com/words/pajamas</loc></url>
+  <url><loc>https://etymologymap.com/words/pakora</loc></url>
   <url><loc>https://etymologymap.com/words/palanquin</loc></url>
   <url><loc>https://etymologymap.com/words/palaver</loc></url>
   <url><loc>https://etymologymap.com/words/palladium</loc></url>
   <url><loc>https://etymologymap.com/words/pampas</loc></url>
   <url><loc>https://etymologymap.com/words/panacea</loc></url>
   <url><loc>https://etymologymap.com/words/panache</loc></url>
+  <url><loc>https://etymologymap.com/words/panchayat</loc></url>
   <url><loc>https://etymologymap.com/words/pancreas</loc></url>
   <url><loc>https://etymologymap.com/words/panda</loc></url>
   <url><loc>https://etymologymap.com/words/paneer</loc></url>
@@ -2110,6 +2230,7 @@
   <url><loc>https://etymologymap.com/words/parameter</loc></url>
   <url><loc>https://etymologymap.com/words/paranoia</loc></url>
   <url><loc>https://etymologymap.com/words/parapet</loc></url>
+  <url><loc>https://etymologymap.com/words/paratha</loc></url>
   <url><loc>https://etymologymap.com/words/pardon</loc></url>
   <url><loc>https://etymologymap.com/words/parent</loc></url>
   <url><loc>https://etymologymap.com/words/pariah</loc></url>
@@ -2123,6 +2244,7 @@
   <url><loc>https://etymologymap.com/words/pasta</loc></url>
   <url><loc>https://etymologymap.com/words/pastel</loc></url>
   <url><loc>https://etymologymap.com/words/pastrami</loc></url>
+  <url><loc>https://etymologymap.com/words/patchouli</loc></url>
   <url><loc>https://etymologymap.com/words/pate</loc></url>
   <url><loc>https://etymologymap.com/words/patella</loc></url>
   <url><loc>https://etymologymap.com/words/paternal</loc></url>
@@ -2134,6 +2256,7 @@
   <url><loc>https://etymologymap.com/words/pearl</loc></url>
   <url><loc>https://etymologymap.com/words/pecan</loc></url>
   <url><loc>https://etymologymap.com/words/pediatric</loc></url>
+  <url><loc>https://etymologymap.com/words/peepal</loc></url>
   <url><loc>https://etymologymap.com/words/pekoe</loc></url>
   <url><loc>https://etymologymap.com/words/pelvis</loc></url>
   <url><loc>https://etymologymap.com/words/pemmican</loc></url>
@@ -2189,6 +2312,7 @@
   <url><loc>https://etymologymap.com/words/physique</loc></url>
   <url><loc>https://etymologymap.com/words/piano</loc></url>
   <url><loc>https://etymologymap.com/words/piazza</loc></url>
+  <url><loc>https://etymologymap.com/words/pice</loc></url>
   <url><loc>https://etymologymap.com/words/picnic</loc></url>
   <url><loc>https://etymologymap.com/words/pierogi</loc></url>
   <url><loc>https://etymologymap.com/words/pilaf</loc></url>
@@ -2235,6 +2359,7 @@
   <url><loc>https://etymologymap.com/words/poltergeist</loc></url>
   <url><loc>https://etymologymap.com/words/pomade</loc></url>
   <url><loc>https://etymologymap.com/words/poncho</loc></url>
+  <url><loc>https://etymologymap.com/words/ponzu</loc></url>
   <url><loc>https://etymologymap.com/words/poodle</loc></url>
   <url><loc>https://etymologymap.com/words/popinjay</loc></url>
   <url><loc>https://etymologymap.com/words/poppadom</loc></url>
@@ -2335,9 +2460,11 @@
   <url><loc>https://etymologymap.com/words/psyche</loc></url>
   <url><loc>https://etymologymap.com/words/psychiatry</loc></url>
   <url><loc>https://etymologymap.com/words/psychology</loc></url>
+  <url><loc>https://etymologymap.com/words/pu-erh</loc></url>
   <url><loc>https://etymologymap.com/words/publicize</loc></url>
   <url><loc>https://etymologymap.com/words/puce</loc></url>
   <url><loc>https://etymologymap.com/words/pueblo</loc></url>
+  <url><loc>https://etymologymap.com/words/puja</loc></url>
   <url><loc>https://etymologymap.com/words/pukka</loc></url>
   <url><loc>https://etymologymap.com/words/pulmonary</loc></url>
   <url><loc>https://etymologymap.com/words/puma</loc></url>
@@ -2347,15 +2474,19 @@
   <url><loc>https://etymologymap.com/words/puncture</loc></url>
   <url><loc>https://etymologymap.com/words/pundit</loc></url>
   <url><loc>https://etymologymap.com/words/pungent</loc></url>
+  <url><loc>https://etymologymap.com/words/punkah</loc></url>
   <url><loc>https://etymologymap.com/words/pupa</loc></url>
   <url><loc>https://etymologymap.com/words/pupil</loc></url>
   <url><loc>https://etymologymap.com/words/purdah</loc></url>
   <url><loc>https://etymologymap.com/words/puree</loc></url>
+  <url><loc>https://etymologymap.com/words/puri</loc></url>
   <url><loc>https://etymologymap.com/words/pursue</loc></url>
   <url><loc>https://etymologymap.com/words/pursuit</loc></url>
+  <url><loc>https://etymologymap.com/words/puttee</loc></url>
   <url><loc>https://etymologymap.com/words/pyjamas</loc></url>
   <url><loc>https://etymologymap.com/words/pyrrhic</loc></url>
   <url><loc>https://etymologymap.com/words/python</loc></url>
+  <url><loc>https://etymologymap.com/words/qigong</loc></url>
   <url><loc>https://etymologymap.com/words/quadruple</loc></url>
   <url><loc>https://etymologymap.com/words/quahog</loc></url>
   <url><loc>https://etymologymap.com/words/qualify</loc></url>
@@ -2388,10 +2519,13 @@
   <url><loc>https://etymologymap.com/words/raga</loc></url>
   <url><loc>https://etymologymap.com/words/ragged</loc></url>
   <url><loc>https://etymologymap.com/words/ragout</loc></url>
+  <url><loc>https://etymologymap.com/words/raita</loc></url>
+  <url><loc>https://etymologymap.com/words/raj</loc></url>
   <url><loc>https://etymologymap.com/words/rajah</loc></url>
   <url><loc>https://etymologymap.com/words/raki</loc></url>
   <url><loc>https://etymologymap.com/words/ramen</loc></url>
   <url><loc>https://etymologymap.com/words/ranch</loc></url>
+  <url><loc>https://etymologymap.com/words/rani</loc></url>
   <url><loc>https://etymologymap.com/words/ransack</loc></url>
   <url><loc>https://etymologymap.com/words/rapport</loc></url>
   <url><loc>https://etymologymap.com/words/ratatouille</loc></url>
@@ -2430,6 +2564,7 @@
   <url><loc>https://etymologymap.com/words/regress</loc></url>
   <url><loc>https://etymologymap.com/words/regular</loc></url>
   <url><loc>https://etymologymap.com/words/reign</loc></url>
+  <url><loc>https://etymologymap.com/words/reiki</loc></url>
   <url><loc>https://etymologymap.com/words/reindeer</loc></url>
   <url><loc>https://etymologymap.com/words/reject</loc></url>
   <url><loc>https://etymologymap.com/words/relate</loc></url>
@@ -2508,6 +2643,7 @@
   <url><loc>https://etymologymap.com/words/roc</loc></url>
   <url><loc>https://etymologymap.com/words/rodeo</loc></url>
   <url><loc>https://etymologymap.com/words/rondo</loc></url>
+  <url><loc>https://etymologymap.com/words/ronin</loc></url>
   <url><loc>https://etymologymap.com/words/rook</loc></url>
   <url><loc>https://etymologymap.com/words/root</loc></url>
   <url><loc>https://etymologymap.com/words/roti</loc></url>
@@ -2527,9 +2663,11 @@
   <url><loc>https://etymologymap.com/words/rule</loc></url>
   <url><loc>https://etymologymap.com/words/rumba</loc></url>
   <url><loc>https://etymologymap.com/words/rune</loc></url>
+  <url><loc>https://etymologymap.com/words/rupee</loc></url>
   <url><loc>https://etymologymap.com/words/rupture</loc></url>
   <url><loc>https://etymologymap.com/words/rural</loc></url>
   <url><loc>https://etymologymap.com/words/rutabaga</loc></url>
+  <url><loc>https://etymologymap.com/words/ryokan</loc></url>
   <url><loc>https://etymologymap.com/words/sabbath</loc></url>
   <url><loc>https://etymologymap.com/words/saber</loc></url>
   <url><loc>https://etymologymap.com/words/sable</loc></url>
@@ -2540,6 +2678,7 @@
   <url><loc>https://etymologymap.com/words/sacred</loc></url>
   <url><loc>https://etymologymap.com/words/sacrifice</loc></url>
   <url><loc>https://etymologymap.com/words/sacrilege</loc></url>
+  <url><loc>https://etymologymap.com/words/sadhu</loc></url>
   <url><loc>https://etymologymap.com/words/safari</loc></url>
   <url><loc>https://etymologymap.com/words/safflower</loc></url>
   <url><loc>https://etymologymap.com/words/saffron</loc></url>
@@ -2558,6 +2697,7 @@
   <url><loc>https://etymologymap.com/words/salsa</loc></url>
   <url><loc>https://etymologymap.com/words/saluki</loc></url>
   <url><loc>https://etymologymap.com/words/salute</loc></url>
+  <url><loc>https://etymologymap.com/words/samadhi</loc></url>
   <url><loc>https://etymologymap.com/words/samba</loc></url>
   <url><loc>https://etymologymap.com/words/sambal</loc></url>
   <url><loc>https://etymologymap.com/words/sambar</loc></url>
@@ -2570,7 +2710,9 @@
   <url><loc>https://etymologymap.com/words/sanctify</loc></url>
   <url><loc>https://etymologymap.com/words/sanction</loc></url>
   <url><loc>https://etymologymap.com/words/sanctuary</loc></url>
+  <url><loc>https://etymologymap.com/words/sandalwood</loc></url>
   <url><loc>https://etymologymap.com/words/sang-froid</loc></url>
+  <url><loc>https://etymologymap.com/words/sangha</loc></url>
   <url><loc>https://etymologymap.com/words/sangria</loc></url>
   <url><loc>https://etymologymap.com/words/sanguine</loc></url>
   <url><loc>https://etymologymap.com/words/sapphire</loc></url>
@@ -2585,7 +2727,9 @@
   <url><loc>https://etymologymap.com/words/satire</loc></url>
   <url><loc>https://etymologymap.com/words/satisfaction</loc></url>
   <url><loc>https://etymologymap.com/words/satisfy</loc></url>
+  <url><loc>https://etymologymap.com/words/satori</loc></url>
   <url><loc>https://etymologymap.com/words/satrap</loc></url>
+  <url><loc>https://etymologymap.com/words/satsuma</loc></url>
   <url><loc>https://etymologymap.com/words/sauce</loc></url>
   <url><loc>https://etymologymap.com/words/sauerkraut</loc></url>
   <url><loc>https://etymologymap.com/words/sauna</loc></url>
@@ -2633,57 +2777,75 @@
   <url><loc>https://etymologymap.com/words/seminar</loc></url>
   <url><loc>https://etymologymap.com/words/semper-fidelis</loc></url>
   <url><loc>https://etymologymap.com/words/senate</loc></url>
+  <url><loc>https://etymologymap.com/words/sencha</loc></url>
   <url><loc>https://etymologymap.com/words/senna</loc></url>
   <url><loc>https://etymologymap.com/words/sensei</loc></url>
   <url><loc>https://etymologymap.com/words/sentiment</loc></url>
   <url><loc>https://etymologymap.com/words/sentinel</loc></url>
   <url><loc>https://etymologymap.com/words/sepia</loc></url>
   <url><loc>https://etymologymap.com/words/sepoy</loc></url>
+  <url><loc>https://etymologymap.com/words/seppuku</loc></url>
   <url><loc>https://etymologymap.com/words/sequel</loc></url>
   <url><loc>https://etymologymap.com/words/sequence</loc></url>
   <url><loc>https://etymologymap.com/words/sequin</loc></url>
   <url><loc>https://etymologymap.com/words/sequoia</loc></url>
   <url><loc>https://etymologymap.com/words/seraglio</loc></url>
+  <url><loc>https://etymologymap.com/words/serendipity</loc></url>
   <url><loc>https://etymologymap.com/words/serenity</loc></url>
   <url><loc>https://etymologymap.com/words/serum</loc></url>
   <url><loc>https://etymologymap.com/words/servant</loc></url>
   <url><loc>https://etymologymap.com/words/sesame</loc></url>
   <url><loc>https://etymologymap.com/words/session</loc></url>
+  <url><loc>https://etymologymap.com/words/seva</loc></url>
   <url><loc>https://etymologymap.com/words/sfumato</loc></url>
+  <url><loc>https://etymologymap.com/words/shabu-shabu</loc></url>
   <url><loc>https://etymologymap.com/words/shack</loc></url>
   <url><loc>https://etymologymap.com/words/shagreen</loc></url>
   <url><loc>https://etymologymap.com/words/shah</loc></url>
   <url><loc>https://etymologymap.com/words/shakshuka</loc></url>
+  <url><loc>https://etymologymap.com/words/shakuhachi</loc></url>
   <url><loc>https://etymologymap.com/words/shalom</loc></url>
   <url><loc>https://etymologymap.com/words/shalwar</loc></url>
+  <url><loc>https://etymologymap.com/words/shamisen</loc></url>
   <url><loc>https://etymologymap.com/words/shampoo</loc></url>
   <url><loc>https://etymologymap.com/words/shamrock</loc></url>
+  <url><loc>https://etymologymap.com/words/shanghai</loc></url>
+  <url><loc>https://etymologymap.com/words/shanti</loc></url>
+  <url><loc>https://etymologymap.com/words/shar-pei</loc></url>
   <url><loc>https://etymologymap.com/words/shashlik</loc></url>
   <url><loc>https://etymologymap.com/words/shawarma</loc></url>
   <url><loc>https://etymologymap.com/words/shawl</loc></url>
   <url><loc>https://etymologymap.com/words/shea</loc></url>
   <url><loc>https://etymologymap.com/words/sheikh</loc></url>
+  <url><loc>https://etymologymap.com/words/shellac</loc></url>
   <url><loc>https://etymologymap.com/words/sherbet</loc></url>
   <url><loc>https://etymologymap.com/words/sherry</loc></url>
   <url><loc>https://etymologymap.com/words/shiatsu</loc></url>
   <url><loc>https://etymologymap.com/words/shih-tzu</loc></url>
   <url><loc>https://etymologymap.com/words/shiitake</loc></url>
+  <url><loc>https://etymologymap.com/words/shinkansen</loc></url>
+  <url><loc>https://etymologymap.com/words/shinto</loc></url>
   <url><loc>https://etymologymap.com/words/shisha</loc></url>
+  <url><loc>https://etymologymap.com/words/shishito</loc></url>
   <url><loc>https://etymologymap.com/words/shmooze</loc></url>
+  <url><loc>https://etymologymap.com/words/shochu</loc></url>
   <url><loc>https://etymologymap.com/words/shogun</loc></url>
   <url><loc>https://etymologymap.com/words/shoji</loc></url>
   <url><loc>https://etymologymap.com/words/shrine</loc></url>
   <url><loc>https://etymologymap.com/words/shroff</loc></url>
   <url><loc>https://etymologymap.com/words/shrub</loc></url>
   <url><loc>https://etymologymap.com/words/shtick</loc></url>
+  <url><loc>https://etymologymap.com/words/shuriken</loc></url>
   <url><loc>https://etymologymap.com/words/siege</loc></url>
   <url><loc>https://etymologymap.com/words/siesta</loc></url>
+  <url><loc>https://etymologymap.com/words/sifu</loc></url>
   <url><loc>https://etymologymap.com/words/signal</loc></url>
   <url><loc>https://etymologymap.com/words/silhouette</loc></url>
   <url><loc>https://etymologymap.com/words/silicon</loc></url>
   <url><loc>https://etymologymap.com/words/silk</loc></url>
   <url><loc>https://etymologymap.com/words/simoom</loc></url>
   <url><loc>https://etymologymap.com/words/sincere</loc></url>
+  <url><loc>https://etymologymap.com/words/sine</loc></url>
   <url><loc>https://etymologymap.com/words/sine-qua-non</loc></url>
   <url><loc>https://etymologymap.com/words/single</loc></url>
   <url><loc>https://etymologymap.com/words/sinigang</loc></url>
@@ -2741,6 +2903,7 @@
   <url><loc>https://etymologymap.com/words/soluble</loc></url>
   <url><loc>https://etymologymap.com/words/solution</loc></url>
   <url><loc>https://etymologymap.com/words/solvent</loc></url>
+  <url><loc>https://etymologymap.com/words/som-tam</loc></url>
   <url><loc>https://etymologymap.com/words/sombrero</loc></url>
   <url><loc>https://etymologymap.com/words/sommelier</loc></url>
   <url><loc>https://etymologymap.com/words/sonata</loc></url>
@@ -2810,6 +2973,7 @@
   <url><loc>https://etymologymap.com/words/strontium</loc></url>
   <url><loc>https://etymologymap.com/words/strudel</loc></url>
   <url><loc>https://etymologymap.com/words/studio</loc></url>
+  <url><loc>https://etymologymap.com/words/stupa</loc></url>
   <url><loc>https://etymologymap.com/words/subject</loc></url>
   <url><loc>https://etymologymap.com/words/subjugate</loc></url>
   <url><loc>https://etymologymap.com/words/submerge</loc></url>
@@ -2832,6 +2996,7 @@
   <url><loc>https://etymologymap.com/words/sugar</loc></url>
   <url><loc>https://etymologymap.com/words/suit</loc></url>
   <url><loc>https://etymologymap.com/words/suite</loc></url>
+  <url><loc>https://etymologymap.com/words/sukiyaki</loc></url>
   <url><loc>https://etymologymap.com/words/sulfur</loc></url>
   <url><loc>https://etymologymap.com/words/sultan</loc></url>
   <url><loc>https://etymologymap.com/words/sultana</loc></url>
@@ -2845,6 +3010,7 @@
   <url><loc>https://etymologymap.com/words/supply</loc></url>
   <url><loc>https://etymologymap.com/words/support</loc></url>
   <url><loc>https://etymologymap.com/words/suppose</loc></url>
+  <url><loc>https://etymologymap.com/words/surimi</loc></url>
   <url><loc>https://etymologymap.com/words/surname</loc></url>
   <url><loc>https://etymologymap.com/words/surprise</loc></url>
   <url><loc>https://etymologymap.com/words/surrender</loc></url>
@@ -2855,7 +3021,10 @@
   <url><loc>https://etymologymap.com/words/sushi</loc></url>
   <url><loc>https://etymologymap.com/words/suspect</loc></url>
   <url><loc>https://etymologymap.com/words/sustain</loc></url>
+  <url><loc>https://etymologymap.com/words/sutra</loc></url>
+  <url><loc>https://etymologymap.com/words/suttee</loc></url>
   <url><loc>https://etymologymap.com/words/suture</loc></url>
+  <url><loc>https://etymologymap.com/words/swami</loc></url>
   <url><loc>https://etymologymap.com/words/swastika</loc></url>
   <url><loc>https://etymologymap.com/words/syllogism</loc></url>
   <url><loc>https://etymologymap.com/words/symbiosis</loc></url>
@@ -2877,6 +3046,8 @@
   <url><loc>https://etymologymap.com/words/tahini</loc></url>
   <url><loc>https://etymologymap.com/words/tai-chi</loc></url>
   <url><loc>https://etymologymap.com/words/taiga</loc></url>
+  <url><loc>https://etymologymap.com/words/taiko</loc></url>
+  <url><loc>https://etymologymap.com/words/taiyaki</loc></url>
   <url><loc>https://etymologymap.com/words/take</loc></url>
   <url><loc>https://etymologymap.com/words/talc</loc></url>
   <url><loc>https://etymologymap.com/words/talisman</loc></url>
@@ -2889,8 +3060,12 @@
   <url><loc>https://etymologymap.com/words/tangible</loc></url>
   <url><loc>https://etymologymap.com/words/tango</loc></url>
   <url><loc>https://etymologymap.com/words/tank</loc></url>
+  <url><loc>https://etymologymap.com/words/tanka</loc></url>
   <url><loc>https://etymologymap.com/words/tantalize</loc></url>
+  <url><loc>https://etymologymap.com/words/tantra</loc></url>
+  <url><loc>https://etymologymap.com/words/tanuki</loc></url>
   <url><loc>https://etymologymap.com/words/tao</loc></url>
+  <url><loc>https://etymologymap.com/words/taoism</loc></url>
   <url><loc>https://etymologymap.com/words/tapa</loc></url>
   <url><loc>https://etymologymap.com/words/tapas</loc></url>
   <url><loc>https://etymologymap.com/words/tapioca</loc></url>
@@ -2927,6 +3102,7 @@
   <url><loc>https://etymologymap.com/words/tent</loc></url>
   <url><loc>https://etymologymap.com/words/tenure</loc></url>
   <url><loc>https://etymologymap.com/words/tepee</loc></url>
+  <url><loc>https://etymologymap.com/words/teppanyaki</loc></url>
   <url><loc>https://etymologymap.com/words/tequila</loc></url>
   <url><loc>https://etymologymap.com/words/teriyaki</loc></url>
   <url><loc>https://etymologymap.com/words/terminology</loc></url>
@@ -2941,6 +3117,7 @@
   <url><loc>https://etymologymap.com/words/tete-a-tete</loc></url>
   <url><loc>https://etymologymap.com/words/text</loc></url>
   <url><loc>https://etymologymap.com/words/texture</loc></url>
+  <url><loc>https://etymologymap.com/words/thali</loc></url>
   <url><loc>https://etymologymap.com/words/theater</loc></url>
   <url><loc>https://etymologymap.com/words/theocracy</loc></url>
   <url><loc>https://etymologymap.com/words/theology</loc></url>
@@ -2972,11 +3149,17 @@
   <url><loc>https://etymologymap.com/words/tofu</loc></url>
   <url><loc>https://etymologymap.com/words/toilet</loc></url>
   <url><loc>https://etymologymap.com/words/toilette</loc></url>
+  <url><loc>https://etymologymap.com/words/tola</loc></url>
   <url><loc>https://etymologymap.com/words/tom-yum</loc></url>
+  <url><loc>https://etymologymap.com/words/tom-tom</loc></url>
   <url><loc>https://etymologymap.com/words/tomahawk</loc></url>
   <url><loc>https://etymologymap.com/words/tomato</loc></url>
+  <url><loc>https://etymologymap.com/words/tong</loc></url>
+  <url><loc>https://etymologymap.com/words/tonga</loc></url>
   <url><loc>https://etymologymap.com/words/topaz</loc></url>
+  <url><loc>https://etymologymap.com/words/topee</loc></url>
   <url><loc>https://etymologymap.com/words/torah</loc></url>
+  <url><loc>https://etymologymap.com/words/torii</loc></url>
   <url><loc>https://etymologymap.com/words/torment</loc></url>
   <url><loc>https://etymologymap.com/words/tornado</loc></url>
   <url><loc>https://etymologymap.com/words/torrent</loc></url>
@@ -3036,11 +3219,13 @@
   <url><loc>https://etymologymap.com/words/tteokbokki</loc></url>
   <url><loc>https://etymologymap.com/words/tuk-tuk</loc></url>
   <url><loc>https://etymologymap.com/words/tulip</loc></url>
+  <url><loc>https://etymologymap.com/words/tulwar</loc></url>
   <url><loc>https://etymologymap.com/words/tundra</loc></url>
   <url><loc>https://etymologymap.com/words/tungsten</loc></url>
   <url><loc>https://etymologymap.com/words/turban</loc></url>
   <url><loc>https://etymologymap.com/words/tureen</loc></url>
   <url><loc>https://etymologymap.com/words/turquoise</loc></url>
+  <url><loc>https://etymologymap.com/words/tussore</loc></url>
   <url><loc>https://etymologymap.com/words/tweed</loc></url>
   <url><loc>https://etymologymap.com/words/tycoon</loc></url>
   <url><loc>https://etymologymap.com/words/tyke</loc></url>
@@ -3050,11 +3235,13 @@
   <url><loc>https://etymologymap.com/words/ubuntu</loc></url>
   <url><loc>https://etymologymap.com/words/udon</loc></url>
   <url><loc>https://etymologymap.com/words/ugly</loc></url>
+  <url><loc>https://etymologymap.com/words/ukiyo-e</loc></url>
   <url><loc>https://etymologymap.com/words/ukulele</loc></url>
   <url><loc>https://etymologymap.com/words/ultramarine</loc></url>
   <url><loc>https://etymologymap.com/words/umami</loc></url>
   <url><loc>https://etymologymap.com/words/umbrella</loc></url>
   <url><loc>https://etymologymap.com/words/umlaut</loc></url>
+  <url><loc>https://etymologymap.com/words/unagi</loc></url>
   <url><loc>https://etymologymap.com/words/uncle</loc></url>
   <url><loc>https://etymologymap.com/words/uniform</loc></url>
   <url><loc>https://etymologymap.com/words/universe</loc></url>
@@ -3075,6 +3262,7 @@
   <url><loc>https://etymologymap.com/words/vanilla</loc></url>
   <url><loc>https://etymologymap.com/words/vast</loc></url>
   <url><loc>https://etymologymap.com/words/vaudeville</loc></url>
+  <url><loc>https://etymologymap.com/words/veda</loc></url>
   <url><loc>https://etymologymap.com/words/veena</loc></url>
   <url><loc>https://etymologymap.com/words/vein</loc></url>
   <url><loc>https://etymologymap.com/words/veld</loc></url>
@@ -3105,6 +3293,7 @@
   <url><loc>https://etymologymap.com/words/verve</loc></url>
   <url><loc>https://etymologymap.com/words/veteran</loc></url>
   <url><loc>https://etymologymap.com/words/veterinarian</loc></url>
+  <url><loc>https://etymologymap.com/words/vetiver</loc></url>
   <url><loc>https://etymologymap.com/words/veto</loc></url>
   <url><loc>https://etymologymap.com/words/vice</loc></url>
   <url><loc>https://etymologymap.com/words/vice-versa</loc></url>
@@ -3153,6 +3342,7 @@
   <url><loc>https://etymologymap.com/words/wagon</loc></url>
   <url><loc>https://etymologymap.com/words/wagyu</loc></url>
   <url><loc>https://etymologymap.com/words/wahine</loc></url>
+  <url><loc>https://etymologymap.com/words/wallah</loc></url>
   <url><loc>https://etymologymap.com/words/waltz</loc></url>
   <url><loc>https://etymologymap.com/words/wampum</loc></url>
   <url><loc>https://etymologymap.com/words/wanderlust</loc></url>
@@ -3161,6 +3351,7 @@
   <url><loc>https://etymologymap.com/words/warrant</loc></url>
   <url><loc>https://etymologymap.com/words/warranty</loc></url>
   <url><loc>https://etymologymap.com/words/wasabi</loc></url>
+  <url><loc>https://etymologymap.com/words/washi</loc></url>
   <url><loc>https://etymologymap.com/words/wat</loc></url>
   <url><loc>https://etymologymap.com/words/weak</loc></url>
   <url><loc>https://etymologymap.com/words/whirl</loc></url>
@@ -3178,15 +3369,20 @@
   <url><loc>https://etymologymap.com/words/worsted</loc></url>
   <url><loc>https://etymologymap.com/words/wrong</loc></url>
   <url><loc>https://etymologymap.com/words/wunderkind</loc></url>
+  <url><loc>https://etymologymap.com/words/wushu</loc></url>
   <url><loc>https://etymologymap.com/words/xebec</loc></url>
   <url><loc>https://etymologymap.com/words/xenon</loc></url>
   <url><loc>https://etymologymap.com/words/xenophobia</loc></url>
   <url><loc>https://etymologymap.com/words/xylophone</loc></url>
   <url><loc>https://etymologymap.com/words/yacht</loc></url>
   <url><loc>https://etymologymap.com/words/yak</loc></url>
+  <url><loc>https://etymologymap.com/words/yakitori</loc></url>
   <url><loc>https://etymologymap.com/words/yakka</loc></url>
+  <url><loc>https://etymologymap.com/words/yakuza</loc></url>
   <url><loc>https://etymologymap.com/words/yam</loc></url>
+  <url><loc>https://etymologymap.com/words/yamen</loc></url>
   <url><loc>https://etymologymap.com/words/yankee</loc></url>
+  <url><loc>https://etymologymap.com/words/yantra</loc></url>
   <url><loc>https://etymologymap.com/words/yashmak</loc></url>
   <url><loc>https://etymologymap.com/words/yenta</loc></url>
   <url><loc>https://etymologymap.com/words/yerba-mate</loc></url>
@@ -3196,8 +3392,12 @@
   <url><loc>https://etymologymap.com/words/yoga</loc></url>
   <url><loc>https://etymologymap.com/words/yogi</loc></url>
   <url><loc>https://etymologymap.com/words/yogurt</loc></url>
+  <url><loc>https://etymologymap.com/words/yuga</loc></url>
+  <url><loc>https://etymologymap.com/words/yukata</loc></url>
   <url><loc>https://etymologymap.com/words/yurt</loc></url>
+  <url><loc>https://etymologymap.com/words/yuzu</loc></url>
   <url><loc>https://etymologymap.com/words/za-atar</loc></url>
+  <url><loc>https://etymologymap.com/words/zaibatsu</loc></url>
   <url><loc>https://etymologymap.com/words/zany</loc></url>
   <url><loc>https://etymologymap.com/words/zealous</loc></url>
   <url><loc>https://etymologymap.com/words/zebra</loc></url>

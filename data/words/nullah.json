@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nadi",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'river, stream'",
+      "meaning": "river, stream",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "nala",
+      "lang": "Bengali",
+      "era": "medieval",
+      "note": "narrowed to mean a dry watercourse or ravine",
+      "meaning": "a dry riverbed or ravine",
+      "lat": 22.57,
+      "lon": 88.36
+    },
+    {
+      "word": "nullah",
+      "lang": "English",
+      "era": "1770s",
+      "note": "British colonials in Bengal and North India adopted the word",
+      "meaning": "a ravine or watercourse, dry except after rain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A ravine, gully, or watercourse, typically dry except during monsoon rains, in South and East Asia."
+}

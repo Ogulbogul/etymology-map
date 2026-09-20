@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yantra",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "from a root meaning 'to restrain, support', denoting an instrument or device",
+      "meaning": "an instrument, device, or mechanical contrivance",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "yantra",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "adopted in English writing on Hindu and tantric ritual for a mystical geometric diagram",
+      "meaning": "a geometric diagram used as a focus for meditation and worship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A geometric diagram used in Hindu and tantric traditions as a tool for meditation and worship."
+}

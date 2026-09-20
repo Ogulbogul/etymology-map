@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kaparda",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "named the small shell used as ornament and currency",
+      "meaning": "a small sea shell",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "kavadi",
+      "lang": "Marathi",
+      "era": "medieval",
+      "note": "the word passed into western Indian vernacular",
+      "meaning": "cowrie shell",
+      "lat": 19.08,
+      "lon": 72.88
+    },
+    {
+      "word": "kauri",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "became the everyday North Indian term for the shell-money",
+      "meaning": "shell used as currency",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "cowrie",
+      "lang": "English",
+      "era": "1660s",
+      "note": "British traders adopted the word for the shells used across Asian and African trade networks",
+      "meaning": "a small glossy shell once used as currency",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A small, glossy sea shell historically used as currency and jewelry across Asia, Africa, and the Pacific."
+}

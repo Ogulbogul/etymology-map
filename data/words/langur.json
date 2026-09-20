@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "langula",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'tail'",
+      "meaning": "tail",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "langur",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named the long-tailed monkey",
+      "meaning": "a long-tailed monkey",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "langur",
+      "lang": "English",
+      "era": "1820s",
+      "note": "British naturalists in India adopted the name",
+      "meaning": "a long-tailed leaf-eating monkey native to South Asia",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A long-tailed, leaf-eating monkey native to South and Southeast Asia."
+}

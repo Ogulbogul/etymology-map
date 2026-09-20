@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tanga",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named a light two-wheeled horse cart",
+      "meaning": "a light, two-wheeled horse-drawn carriage",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "tonga",
+      "lang": "English",
+      "era": "1870s",
+      "note": "British colonials adopted the word for the common South Asian carriage",
+      "meaning": "a small, light, two-wheeled horse-drawn carriage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A light, two-wheeled horse-drawn carriage traditionally used for transport in South Asia."
+}

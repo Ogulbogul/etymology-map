@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gōng'àn",
+      "lang": "Chinese",
+      "era": "medieval",
+      "note": "originally meant a legal case record used in Chan Buddhist teaching debates",
+      "meaning": "a public legal case, used as a teaching riddle",
+      "lat": 39.9,
+      "lon": 116.41
+    },
+    {
+      "word": "kōan",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "adopted into Zen Buddhism as a paradoxical riddle used in meditation",
+      "meaning": "a paradoxical question used to provoke insight",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "koan",
+      "lang": "English",
+      "era": "early 1900s",
+      "note": "entered English through D. T. Suzuki's writings introducing Zen to the West",
+      "meaning": "an unanswerable riddle used in Zen meditation practice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a paradoxical question or riddle used in Zen Buddhism to provoke sudden insight"
+}

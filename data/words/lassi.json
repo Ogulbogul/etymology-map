@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lasya",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "root meaning 'stickiness' (an alternate theory traces it to rasa, 'juice')",
+      "meaning": "stickiness; juice",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "lassi",
+      "lang": "Punjabi",
+      "era": "medieval",
+      "note": "became the name of the churned yogurt drink",
+      "meaning": "a yogurt-based drink",
+      "lat": 31.63,
+      "lon": 74.87
+    },
+    {
+      "word": "lassi",
+      "lang": "English",
+      "era": "1882",
+      "note": "British writers on India adopted the word",
+      "meaning": "a chilled, blended yogurt drink, sweetened or salted",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A chilled, blended yogurt drink from South Asia, served sweet, salty, or flavored with fruit."
+}

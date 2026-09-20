@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "maya",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "originally meant 'wisdom, extraordinary power', later shifted to mean 'illusion'",
+      "meaning": "creative power; illusion",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "maya",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "adopted in English discussions of Hindu and Buddhist philosophy",
+      "meaning": "the illusory nature of the physical world",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "In Hindu and Buddhist philosophy, the illusory nature of the physical world that conceals ultimate reality."
+}

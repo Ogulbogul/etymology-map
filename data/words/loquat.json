@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lòuh gwāt",
+      "lang": "Cantonese",
+      "era": "ancient",
+      "note": "literally 'reed orange' or 'rush orange', an old name for the small orange fruit",
+      "meaning": "a small, sweet orange fruit",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "loquat",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed by traders and botanists as the fruit tree was introduced to Western gardens",
+      "meaning": "a small, sweet-tart yellow-orange fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, sweet-tart orange fruit borne by an evergreen tree originally native to China"
+}

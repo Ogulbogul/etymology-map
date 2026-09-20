@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Bunraku-za",
+      "lang": "Japanese",
+      "era": "early 1800s",
+      "note": "named after Uemura Bunrakuken, a puppeteer whose troupe revived the traditional art",
+      "meaning": "a puppet theater troupe's name",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "bunraku",
+      "lang": "English",
+      "era": "20th century",
+      "note": "borrowed as a general term for Japanese traditional puppet theater",
+      "meaning": "a traditional Japanese puppet theater form",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese form of puppet theater performed with large, intricately controlled puppets"
+}

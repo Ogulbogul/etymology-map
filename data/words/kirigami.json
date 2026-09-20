@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kirigami",
+      "lang": "Japanese",
+      "era": "20th century",
+      "note": "combining 'kiru' (to cut) and 'kami' (paper), coined on the model of origami for paper craft that allows cutting",
+      "meaning": "the art of paper cutting and folding",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kirigami",
+      "lang": "English",
+      "era": "1960s-1970s",
+      "note": "borrowed by craft writers as an origami-related term for cut-paper art",
+      "meaning": "the Japanese art of paper cutting combined with folding",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese paper craft that combines cutting with folding, related to origami"
+}

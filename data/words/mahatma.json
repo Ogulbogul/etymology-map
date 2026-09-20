@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mahatman",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "compound of 'great' and 'soul, self'",
+      "meaning": "great-souled one",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "mahatma",
+      "lang": "English",
+      "era": "1884",
+      "note": "adopted by Theosophists for beings of great spiritual power",
+      "meaning": "a revered, great-souled person",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "Mahatma",
+      "lang": "English",
+      "era": "1915",
+      "note": "applied to Gandhi, popularly credited to Rabindranath Tagore",
+      "meaning": "an honorific for a person of great spiritual stature",
+      "lat": 22.57,
+      "lon": 88.36
+    }
+  ],
+  "current_meaning": "An honorific title meaning 'great soul,' famously applied to Mohandas Gandhi."
+}

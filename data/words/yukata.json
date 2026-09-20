@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "yukata",
+      "lang": "Japanese",
+      "era": "Edo era",
+      "note": "literally 'bathing cloth', a light cotton robe originally worn after bathing",
+      "meaning": "a casual, unlined cotton kimono",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "yukata",
+      "lang": "English",
+      "era": "20th century",
+      "note": "borrowed by writers on Japanese dress and by summer-festival culture abroad",
+      "meaning": "a casual summer kimono, often worn at festivals",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a light, casual cotton kimono traditionally worn in summer or after bathing"
+}

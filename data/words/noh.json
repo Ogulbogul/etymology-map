@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nō",
+      "lang": "Japanese",
+      "era": "14th century",
+      "note": "named a masked, stylized form of musical drama refined for the samurai court",
+      "meaning": "skill, talent; a classical masked drama form",
+      "lat": 35.02,
+      "lon": 135.76
+    },
+    {
+      "word": "noh",
+      "lang": "English",
+      "era": "early 1900s",
+      "note": "entered English theater criticism as Japanese drama became known in the West",
+      "meaning": "classical Japanese masked musical drama",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a classical Japanese form of masked, highly stylized musical theater"
+}

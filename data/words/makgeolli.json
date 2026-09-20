@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "makgeolli",
+      "lang": "Korean",
+      "era": "medieval",
+      "note": "named an unrefined, milky rice wine traditionally made by farmers",
+      "meaning": "a cloudy, lightly fermented rice wine",
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    {
+      "word": "makgeolli",
+      "lang": "English",
+      "era": "2000s-2010s",
+      "note": "borrowed by drink writers as Korean cuisine and traditional drinks gained international attention",
+      "meaning": "a traditional Korean milky rice wine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Korean alcoholic drink made from fermented rice, milky and lightly sparkling"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kata",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named a fixed sequence of movements used to formally practice a martial art",
+      "meaning": "a form; a set pattern of movements",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kata",
+      "lang": "English",
+      "era": "20th century",
+      "note": "borrowed alongside karate and judo instruction as they spread to the West",
+      "meaning": "a prescribed sequence of martial-arts movements practiced solo",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal, prescribed sequence of movements practiced in a martial art"
+}

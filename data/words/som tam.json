@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "s̄̂mtảa",
+      "lang": "Thai",
+      "era": "20th century",
+      "note": "combining 'som' (sour) and 'tam' (pounded), naming a spicy salad made by pounding shredded green papaya",
+      "meaning": "pounded sour salad",
+      "lat": 13.75,
+      "lon": 100.5
+    },
+    {
+      "word": "som tam",
+      "lang": "English",
+      "era": "late 1900s-2000s",
+      "note": "borrowed by food writers and menus as Thai cuisine spread internationally",
+      "meaning": "a spicy Thai green papaya salad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spicy, tangy Thai salad made from pounded shredded green papaya"
+}

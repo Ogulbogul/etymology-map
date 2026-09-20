@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pachchai ilai",
+      "lang": "Tamil",
+      "era": "medieval",
+      "note": "literally 'green leaf', the local name for the aromatic plant",
+      "meaning": "green leaf; the patchouli plant",
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    {
+      "word": "patchouli",
+      "lang": "English",
+      "era": "1845",
+      "note": "borrowed directly from the Tamil name via Madras trade",
+      "meaning": "an aromatic plant and its heavy, musky oil",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A bushy herb of the mint family, and the heavy, musky essential oil made from its leaves."
+}

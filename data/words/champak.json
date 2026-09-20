@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "campaka",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "named the fragrant magnolia-family tree",
+      "meaning": "a fragrant flowering tree",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "champak",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "the everyday name for the tree and its blossom",
+      "meaning": "the champak tree and flower",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "champac",
+      "lang": "English",
+      "era": "1770",
+      "note": "British botanists and poets adopted the name",
+      "meaning": "an Asian magnolia-family tree with fragrant yellow flowers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "An Asian flowering tree of the magnolia family, prized for its fragrant yellow blossoms."
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tula",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'weighing, balance'",
+      "meaning": "weighing, balance",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "tola",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "became the name of a traditional unit of weight",
+      "meaning": "a unit of weight, especially for gold",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "tola",
+      "lang": "English",
+      "era": "1833",
+      "note": "adopted as the standardized British Indian unit of mass",
+      "meaning": "a South Asian unit of mass, about 11.7 grams, used for gold and silver",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A traditional South Asian unit of mass (about 11.7 grams), still used to measure gold and silver."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kaccha",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "meant 'raw, uncooked, unripe, makeshift'",
+      "meaning": "raw, unripe, makeshift",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "cutcha",
+      "lang": "English",
+      "era": "1830s",
+      "note": "British colonials in India adopted the word for crude, temporary construction, contrasted with 'pucka'",
+      "meaning": "crude, makeshift, or temporary, especially of buildings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Indian English for something crude, makeshift, or impermanent (the opposite of 'pukka')."
+}

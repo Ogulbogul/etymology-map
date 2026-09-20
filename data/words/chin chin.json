@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "qǐng qǐng",
+      "lang": "Chinese",
+      "era": "ancient",
+      "note": "a reduplicated polite phrase meaning 'please, please', used as a greeting",
+      "meaning": "please; an invitation or greeting",
+      "lat": 39.9,
+      "lon": 116.41
+    },
+    {
+      "word": "chin-chin",
+      "lang": "Chinese Pidgin English",
+      "era": "1800s",
+      "note": "adapted into the pidgin trade language of Canton's foreign trading ports as a toast or greeting",
+      "meaning": "a greeting or drinking toast",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "chin chin",
+      "lang": "English",
+      "era": "1900s",
+      "note": "spread into general British English as an informal drinking toast",
+      "meaning": "a casual toast said before drinking",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an informal toast said before drinking, roughly equivalent to 'cheers'"
+}

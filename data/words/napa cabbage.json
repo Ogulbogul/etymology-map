@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nappa",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "a colloquial word for leafy greens generally, later applied to the specific cabbage variety",
+      "meaning": "leafy green vegetables",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "napa cabbage",
+      "lang": "English",
+      "era": "early-mid 1900s",
+      "note": "adopted in American English as Japanese-American farmers grew and sold the vegetable in California",
+      "meaning": "a mild, crinkly-leafed variety of Chinese cabbage",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "a mild, elongated variety of Chinese cabbage with crinkled, pale green leaves"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "samadhi",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "compound of 'together', 'toward', and 'placing', meaning intense concentration",
+      "meaning": "a state of meditative absorption",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "samadhi",
+      "lang": "English",
+      "era": "1827",
+      "note": "adopted in English writing on yoga and Buddhist meditation",
+      "meaning": "a state of intense meditative absorption, the highest stage of yogic practice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "In yoga and Buddhist meditation, a state of intense concentrative absorption, considered the highest stage of meditative practice."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hibakusha",
+      "lang": "Japanese",
+      "era": "1945",
+      "note": "literally 'bomb-affected person', coined to name survivors of the atomic bombings",
+      "meaning": "a survivor of the atomic bombings of Hiroshima and Nagasaki",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "hibakusha",
+      "lang": "English",
+      "era": "1950s-1960s",
+      "note": "adopted directly into English-language journalism and history for lack of an equivalent term",
+      "meaning": "a survivor of the 1945 atomic bombings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a survivor of the 1945 atomic bombings of Hiroshima and Nagasaki"
+}

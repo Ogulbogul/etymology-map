@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pala",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'protector', from a root meaning 'to protect'",
+      "meaning": "protector, guardian",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "-wala",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "became a common suffix meaning 'the person connected with X'",
+      "meaning": "a person who does or deals in something",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "wallah",
+      "lang": "English",
+      "era": "1776",
+      "note": "British colonials mistook the suffix for a standalone noun meaning 'fellow, man'",
+      "meaning": "a person associated with a specified job or task",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Informal British English for a person associated with a particular job or activity (e.g., 'the tea wallah')."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mudra",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'seal, mark, gesture'",
+      "meaning": "seal, sign, gesture",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "mudra",
+      "lang": "English",
+      "era": "1811",
+      "note": "adopted in English writing on Hindu and Buddhist ritual and yoga",
+      "meaning": "a symbolic hand gesture used in ritual and yoga",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A symbolic hand or body gesture used in Hindu and Buddhist ritual, dance, and yoga."
+}

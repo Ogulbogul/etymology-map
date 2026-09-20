@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "surimi",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "literally 'ground meat', a traditional method of processing minced fish",
+      "meaning": "processed, ground fish paste",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "surimi",
+      "lang": "English",
+      "era": "1980s",
+      "note": "borrowed by the seafood industry when imitation crab products spread to Western markets",
+      "meaning": "processed fish paste, often shaped into imitation crab or shellfish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a processed fish paste, commonly formed into imitation crab and other seafood products"
+}

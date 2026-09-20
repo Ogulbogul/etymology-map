@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "reiki",
+      "lang": "Japanese",
+      "era": "1922",
+      "note": "combining 'rei' (spirit) and 'ki' (energy), coined by Mikao Usui for a hands-on healing practice",
+      "meaning": "spiritually guided life-force energy",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "reiki",
+      "lang": "English",
+      "era": "1970s-1980s",
+      "note": "spread to the West through students of Usui's successors teaching alternative healing",
+      "meaning": "an alternative healing practice using hands-on energy transfer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an alternative therapy in which practitioners channel healing energy through light touch"
+}

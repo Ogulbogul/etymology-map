@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kompu",
+      "lang": "Ainu",
+      "era": "ancient",
+      "note": "the indigenous Ainu name for the edible kelp harvested off Hokkaido",
+      "meaning": "edible kelp",
+      "lat": 43.06,
+      "lon": 141.35
+    },
+    {
+      "word": "konbu",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "adopted from Ainu trade and became a staple of Japanese broth-making",
+      "meaning": "dried kelp used for stock",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "kombu",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "borrowed by cooks as Japanese cuisine and dashi stock spread internationally",
+      "meaning": "dried edible kelp used to make Japanese broth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an edible kelp, dried and used to make the savory Japanese stock called dashi"
+}

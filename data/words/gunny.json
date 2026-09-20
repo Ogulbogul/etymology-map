@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "goni",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "named a sack, likely itself borrowed from a Dravidian word",
+      "meaning": "a sack",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "goni",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "remained the everyday word for a coarse sack",
+      "meaning": "coarse sack or sacking cloth",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "gunny",
+      "lang": "English",
+      "era": "1711",
+      "note": "Anglo-Indian traders adopted the word for coarse jute sacking",
+      "meaning": "coarse sacking made of jute or hemp",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A coarse, heavy fabric, usually made of jute, used to make sacks."
+}

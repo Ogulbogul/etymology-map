@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "jūjutsu",
+      "lang": "Japanese",
+      "era": "1600s-1800s",
+      "note": "coined for the samurai art of unarmed combat, literally 'gentle technique'",
+      "meaning": "the gentle/yielding art of grappling",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "jiu-jitsu",
+      "lang": "English",
+      "era": "1870s-1900s",
+      "note": "borrowed as Western visitors and demonstrators popularized Japanese unarmed combat",
+      "meaning": "a Japanese grappling-based martial art",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a martial art and combat sport built around grappling, joint locks, and submissions"
+}

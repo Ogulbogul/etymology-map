@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "karaage",
+      "lang": "Japanese",
+      "era": "18th-19th century",
+      "note": "literally 'Chinese-style frying', naming lightly floured deep-fried food adapted from a continental technique",
+      "meaning": "food lightly coated and deep-fried",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "karaage",
+      "lang": "English",
+      "era": "2010s",
+      "note": "borrowed by menus as Japanese fried chicken gained international popularity",
+      "meaning": "Japanese-style bite-sized fried chicken",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Japanese-style deep-fried chicken, lightly marinated and coated before frying"
+}

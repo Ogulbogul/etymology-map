@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "moksha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "from a root meaning 'to free oneself', denoting release or liberation",
+      "meaning": "liberation, release",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "moksha",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "adopted in English writing on Hindu and Jain philosophy",
+      "meaning": "liberation from the cycle of death and rebirth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "In Hindu, Jain, and Buddhist philosophy, liberation from the cycle of death and rebirth."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "torii",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "named the traditional gateway marking the entrance to a Shinto shrine",
+      "meaning": "a sacred gate before a shrine",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "torii",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed by Western travelers and scholars describing Japanese religious architecture",
+      "meaning": "a traditional Japanese shrine gate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a traditional Japanese gate marking the entrance to a Shinto shrine"
+}

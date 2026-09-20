@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ayus",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'life, vital force, longevity'",
+      "meaning": "life, longevity",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "veda",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'knowledge', from a root meaning 'to know'",
+      "meaning": "knowledge",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "Ayurveda",
+      "lang": "English",
+      "era": "19th-20th c.",
+      "note": "the compound was adopted whole as the name for the traditional Indian system of medicine",
+      "meaning": "a traditional system of medicine based on balance and natural healing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A traditional system of medicine native to the Indian subcontinent, focused on balance among body, mind, and spirit."
+}

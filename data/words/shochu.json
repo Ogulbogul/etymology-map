@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "shōchū",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named a distilled spirit made from rice, barley, or sweet potato",
+      "meaning": "a clear distilled spirit",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "shochu",
+      "lang": "English",
+      "era": "late 1900s-2000s",
+      "note": "borrowed by drink writers as the spirit gained an international following",
+      "meaning": "a Japanese distilled liquor, typically lower proof than sake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese distilled spirit made from grain, sweet potato, or other starches"
+}

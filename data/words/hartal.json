@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "hatta",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'market'",
+      "meaning": "market",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "talaka",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'lock'",
+      "meaning": "lock",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "hadtal",
+      "lang": "Gujarati",
+      "era": "medieval",
+      "note": "the compound came to mean closing shops in protest",
+      "meaning": "the closing of shops and businesses in protest",
+      "lat": 23.02,
+      "lon": 72.57
+    },
+    {
+      "word": "hartal",
+      "lang": "English",
+      "era": "early 1900s",
+      "note": "entered English through Gandhi's independence movement, which popularized the mass protest strike",
+      "meaning": "a general strike or mass closure of businesses as protest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A general strike or mass shutdown of shops and businesses, used as a form of political protest in South Asia."
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lùhngngáahn",
+      "lang": "Cantonese",
+      "era": "ancient",
+      "note": "literally 'dragon eye', describing the fruit's translucent flesh around a dark seed",
+      "meaning": "a small, round fruit resembling an eye",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "longan",
+      "lang": "English",
+      "era": "17th-18th century",
+      "note": "borrowed by traders and naturalists documenting Chinese fruits",
+      "meaning": "a small, sweet fruit related to the lychee",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, sweet tropical fruit with translucent flesh, closely related to the lychee"
+}

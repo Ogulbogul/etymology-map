@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mochi",
+      "lang": "Japanese",
+      "era": "ancient",
+      "note": "named rice pounded into a sticky, chewy cake, tied to New Year traditions",
+      "meaning": "pounded glutinous rice cake",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "mochi",
+      "lang": "English",
+      "era": "late 1900s-2000s",
+      "note": "borrowed as Japanese sweets, including mochi ice cream, spread internationally",
+      "meaning": "a chewy rice cake, often filled with sweet paste or ice cream",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft, chewy Japanese rice cake, often filled with sweet paste or ice cream"
+}

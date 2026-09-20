@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hiragana",
+      "lang": "Japanese",
+      "era": "9th century",
+      "note": "developed as a cursive, simplified script from Chinese characters, associated early on with women's writing",
+      "meaning": "a rounded phonetic syllabary",
+      "lat": 35.02,
+      "lon": 135.76
+    },
+    {
+      "word": "hiragana",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "borrowed by linguists and Japanese-language textbooks",
+      "meaning": "the rounded Japanese phonetic writing system",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the two phonetic syllabaries used in Japanese writing, marked by rounded characters"
+}

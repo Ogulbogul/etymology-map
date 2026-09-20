@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "onigiri",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "named a hand-formed ball of rice, originally a portable soldier's or traveler's meal",
+      "meaning": "a rice ball, often wrapped in seaweed",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "onigiri",
+      "lang": "English",
+      "era": "2000s-2010s",
+      "note": "borrowed as convenience-store rice balls became a recognizable Japanese food export",
+      "meaning": "a Japanese rice ball, often filled and wrapped in seaweed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hand-shaped Japanese rice ball, often filled and wrapped in seaweed"
+}

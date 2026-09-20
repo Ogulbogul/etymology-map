@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ukiyo-e",
+      "lang": "Japanese",
+      "era": "Edo era",
+      "note": "literally 'pictures of the floating world', naming woodblock prints of urban pleasures and landscapes",
+      "meaning": "woodblock prints depicting everyday and pleasure-district life",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "ukiyo-e",
+      "lang": "English",
+      "era": "1870s-1880s",
+      "note": "borrowed by Western art critics during the Japonisme craze that influenced Impressionist painters",
+      "meaning": "traditional Japanese woodblock prints",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a genre of Japanese woodblock prints depicting landscapes, actors, and everyday life"
+}

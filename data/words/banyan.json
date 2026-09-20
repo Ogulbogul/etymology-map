@@ -1,0 +1,50 @@
+{
+  "stops": [
+    {
+      "word": "vanij",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'merchant, trader'",
+      "meaning": "a merchant",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "vaniyo",
+      "lang": "Gujarati",
+      "era": "medieval",
+      "note": "named the Gujarati merchant caste",
+      "meaning": "a member of the trading caste",
+      "lat": 23.02,
+      "lon": 72.57
+    },
+    {
+      "word": "baniyan",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "Arab traders adopted the word for the Hindu merchants they dealt with",
+      "meaning": "a Hindu merchant",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "baniano",
+      "lang": "Portuguese",
+      "era": "16th c.",
+      "note": "Portuguese traders at Persian Gulf ports used the term",
+      "meaning": "a Hindu merchant",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "banyan",
+      "lang": "English",
+      "era": "1630s",
+      "note": "applied first to the merchants, then to the fig tree they traded and sheltered beneath at a Gulf port",
+      "meaning": "the sacred fig tree with aerial roots",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A large fig tree native to India that grows aerial roots from its branches, forming multiple trunks."
+}

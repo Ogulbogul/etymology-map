@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paksha",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "meant 'wing'",
+      "meaning": "wing",
+      "lat": 25.32,
+      "lon": 82.97
+    },
+    {
+      "word": "pankha",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "named a hand fan, evoking the flapping of bird wings",
+      "meaning": "a hand fan",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "punkah",
+      "lang": "English",
+      "era": "late 1700s",
+      "note": "British colonials in India adopted the word for a large cloth fan pulled by a servant",
+      "meaning": "a large swinging cloth fan used to cool a room",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A large fan, traditionally made of cloth on a frame and pulled by cord, used to cool a room in South Asia."
+}

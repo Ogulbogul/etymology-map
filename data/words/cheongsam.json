@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chèuhngsāam",
+      "lang": "Cantonese",
+      "era": "1920s",
+      "note": "literally 'long garment', naming a fitted, high-collared dress that became fashionable in Shanghai and Hong Kong",
+      "meaning": "a fitted, high-collared traditional dress",
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    {
+      "word": "cheongsam",
+      "lang": "English",
+      "era": "1950s-1960s",
+      "note": "borrowed by Western fashion writers describing the elegant Chinese dress",
+      "meaning": "a fitted, high-collared Chinese dress",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fitted, high-collared traditional Chinese dress, typically with side slits"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rōnin",
+      "lang": "Japanese",
+      "era": "medieval",
+      "note": "literally 'wave man', describing a samurai adrift without a master to serve",
+      "meaning": "a masterless, wandering samurai",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "ronin",
+      "lang": "English",
+      "era": "1800s-1900s",
+      "note": "borrowed through histories and later popular culture about samurai Japan",
+      "meaning": "a masterless samurai, or by extension, a lone unaffiliated agent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a masterless samurai in feudal Japan; by extension, someone acting without an affiliation or sponsor"
+}

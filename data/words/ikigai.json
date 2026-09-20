@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ikigai",
+      "lang": "Japanese",
+      "era": "20th century",
+      "note": "combining 'iki' (life) and 'kai' (worth/effect), naming one's sense of purpose",
+      "meaning": "a reason for being; what makes life worthwhile",
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    {
+      "word": "ikigai",
+      "lang": "English",
+      "era": "2010s",
+      "note": "popularized by self-help and wellness writers seeking a Japanese framework for purpose",
+      "meaning": "a personal sense of purpose that gives life meaning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Japanese concept describing one's sense of purpose or reason for living"
+}
