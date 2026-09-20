@@ -36,7 +36,7 @@ def write_sitemap(words):
     """Regenerates sitemap.xml from the full word list, so every word page
     stays discoverable to search engines without any manual upkeep — this
     runs automatically every time this script runs, alongside the index."""
-    static_pages = ["", "about.html", "privacy.html"]
+    static_pages = ["", "about", "privacy"]
     urls = [f"{SITE_URL}/{page}" for page in static_pages]
     urls += [
         f"{SITE_URL}/words/{build_pages.slugify(word)}" for word in words
