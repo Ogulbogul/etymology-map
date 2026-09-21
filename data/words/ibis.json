@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "hib",
+      "lang": "Egyptian",
+      "era": "ancient",
+      "note": "named the sacred wading bird associated with the god Thoth",
+      "meaning": "the sacred ibis bird",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "ibis",
+      "lang": "Ancient Greek",
+      "era": "ancient",
+      "note": "adopted by Greek writers describing Egyptian religious life",
+      "meaning": "the Egyptian sacred bird",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ibis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "carried into Latin natural histories such as Pliny's",
+      "meaning": "a long-legged wading bird",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ibis",
+      "lang": "English",
+      "era": "late 1300s",
+      "note": "entered English through Latin natural-history texts",
+      "meaning": "a long-legged wading bird related to herons and storks",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A long-legged wading bird with a curved bill; several species are found worldwide, and it was sacred in ancient Egypt."
+}

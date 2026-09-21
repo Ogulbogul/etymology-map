@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "hbny",
+      "lang": "Egyptian",
+      "era": "ancient",
+      "note": "named a dense black wood sourced from Nubia",
+      "meaning": "a dense black wood",
+      "lat": 24.09,
+      "lon": 32.9
+    },
+    {
+      "word": "ebenos",
+      "lang": "Ancient Greek",
+      "era": "ancient",
+      "note": "Greek traders adapted the Egyptian name for the prized black wood",
+      "meaning": "ebony wood",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ebenus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Romans continued using the Greek-derived term in natural histories",
+      "meaning": "ebony wood",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ebony",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled into English via Latin, later extended to describe a deep black color",
+      "meaning": "a hard black wood, or the color black",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A dense, black hardwood prized for fine furniture and carvings; also used to describe a deep black color."
+}

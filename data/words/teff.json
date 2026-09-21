@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "teffa",
+      "lang": "Amharic",
+      "era": "medieval",
+      "note": "named for its tiny seeds, easily 'lost' during harvesting and threshing",
+      "meaning": "a minute, easily-scattered cereal grain",
+      "lat": 9.03,
+      "lon": 38.74
+    },
+    {
+      "word": "teff",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed directly as Western travelers described Ethiopia's staple grain",
+      "meaning": "a tiny nutritious cereal grain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A tiny, nutrient-dense cereal grain native to Ethiopia, ground into flour for injera bread and prized today as a gluten-free grain."
+}

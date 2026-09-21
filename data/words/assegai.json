@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "zaghaya",
+      "lang": "Berber",
+      "era": "medieval",
+      "note": "a Berber word for a slender throwing spear used across North Africa",
+      "meaning": "a spear",
+      "lat": 31.63,
+      "lon": -7.99
+    },
+    {
+      "word": "az-zaghayah",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "Arabic absorbed the Berber word along with its definite article",
+      "meaning": "a spear",
+      "lat": 30.04,
+      "lon": 31.24
+    },
+    {
+      "word": "azagaia",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "Portuguese explorers adopted the term while trading along the African coast",
+      "meaning": "a light throwing spear",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "assegai",
+      "lang": "English",
+      "era": "1600s",
+      "note": "entered English through accounts of southern African warfare, especially Zulu weaponry",
+      "meaning": "a slender, iron-tipped spear used by southern African peoples",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A slender, iron-tipped spear historically used as a stabbing or throwing weapon by southern African peoples such as the Zulu."
+}

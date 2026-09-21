@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aginaw",
+      "lang": "Berber",
+      "era": "medieval",
+      "note": "a Saharan Berber term used by North Africans for the peoples and lands south of the Sahara",
+      "meaning": "black people, or land of the black people",
+      "lat": 16.77,
+      "lon": -3.01
+    },
+    {
+      "word": "Guine",
+      "lang": "Portuguese",
+      "era": "1400s",
+      "note": "Portuguese explorers adopted the North African term for the West African coast they were charting",
+      "meaning": "the West African coastal region",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "guinea",
+      "lang": "English",
+      "era": "1600s",
+      "note": "coins struck from West African gold, and the region's name, gave English 'guinea' for the coin, plus guinea fowl and guinea pig",
+      "meaning": "a former English gold coin; also part of animal names like guinea fowl and guinea pig",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Historically a British gold coin (still used as a unit of value in some pricing); the name also survives in 'guinea fowl' and 'guinea pig,' referencing West Africa."
+}

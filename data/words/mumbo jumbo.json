@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "maamajomboo",
+      "lang": "Mandinka",
+      "era": "1700s",
+      "note": "a costumed ancestral-spirit dancer summoned to settle village disputes",
+      "meaning": "a masked enforcer figure in Mandinka ceremonies",
+      "lat": 12.65,
+      "lon": -8.0
+    },
+    {
+      "word": "mumbo jumbo",
+      "lang": "English",
+      "era": "1700s-1800s",
+      "note": "European travelers' accounts mocked the ritual as baffling, shifting its sense to nonsense",
+      "meaning": "obscure or meaningless language, ritual, or jargon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "Confusing or meaningless language, ritual, or jargon intended to obscure rather than clarify."
+}

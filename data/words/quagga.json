@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quacha",
+      "lang": "Khoikhoi",
+      "era": "1600s",
+      "note": "named for the sound of its bark-like call",
+      "meaning": "a zebra-like wild equine",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "quagga",
+      "lang": "Afrikaans",
+      "era": "1700s",
+      "note": "Cape Dutch settlers adopted the Khoikhoi name for the striped plains animal",
+      "meaning": "the striped, now-extinct plains equine",
+      "lat": -33.92,
+      "lon": 18.42
+    },
+    {
+      "word": "quagga",
+      "lang": "English",
+      "era": "1800s",
+      "note": "adopted into English natural history before the animal's extinction in 1883",
+      "meaning": "an extinct subspecies of plains zebra",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "An extinct subspecies of plains zebra, partially striped, that once lived in South Africa; the name also now labels the invasive quagga mussel."
+}

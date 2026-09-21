@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hai-hai",
+      "lang": "Malagasy",
+      "era": "long-standing",
+      "note": "Malagasy communities traditionally avoided naming this feared, taboo nocturnal animal directly",
+      "meaning": "an avoidance name for a rare nocturnal lemur",
+      "lat": -18.88,
+      "lon": 47.51
+    },
+    {
+      "word": "aye-aye",
+      "lang": "French",
+      "era": "1780s",
+      "note": "French naturalist Sonnerat recorded the Malagasy name while cataloguing Madagascar's wildlife",
+      "meaning": "a small nocturnal lemur species",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aye-aye",
+      "lang": "English",
+      "era": "1800s",
+      "note": "entered English zoological vocabulary alongside French natural-history accounts",
+      "meaning": "a rare nocturnal lemur native to Madagascar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "A rare, nocturnal lemur native to Madagascar, notable for its large eyes, rodent-like teeth, and long, thin middle finger used to extract grubs from wood."
+}
