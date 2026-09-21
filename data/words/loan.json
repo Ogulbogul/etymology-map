@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lán",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "brought by Viking settlers, it displaced the native Old English cognate 'læn'",
+      "meaning": "that which is lent; a gift from a superior",
+      "lat": 60.4,
+      "lon": 5.3
+    },
+    {
+      "word": "lone",
+      "lang": "Middle English",
+      "era": "late 1100s",
+      "note": "adopted directly into English in the north and east, Danelaw territory",
+      "meaning": "a thing lent, with expectation of return",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "loan",
+      "lang": "English",
+      "era": "1540s onward",
+      "note": "gained a verb use and settled into its modern financial sense",
+      "meaning": "money or property lent, usually with interest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sum of money or item lent, to be returned or repaid"
+}

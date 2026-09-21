@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skrap",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "named the leftover trifles or scraps from a meal",
+      "meaning": "scraps, trifles",
+      "lat": 60.4,
+      "lon": 5.3
+    },
+    {
+      "word": "scrappe",
+      "lang": "Middle English",
+      "era": "late 1300s",
+      "note": "borrowed to describe food remains after eating",
+      "meaning": "piece of food remaining after a meal",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "scrap",
+      "lang": "English",
+      "era": "1580s onward",
+      "note": "widened from food to any small leftover piece, later metal remnants",
+      "meaning": "a small detached piece or remnant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small leftover piece, or discarded material such as metal"
+}

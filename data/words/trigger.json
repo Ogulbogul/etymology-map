@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "trekker",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "from 'trekken', to pull or draw, used for any pull-lever such as a drawer-pull or bell-pull",
+      "meaning": "a pull, a lever",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "tricker",
+      "lang": "English",
+      "era": "early 1600s",
+      "note": "anglicized spelling adopted for the lever of a gunlock",
+      "meaning": "the lever of a gunlock",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "trigger",
+      "lang": "English",
+      "era": "mid-1700s onward",
+      "note": "spelling shifted closer to the Dutch original; sense broadened figuratively",
+      "meaning": "a device that sets off a mechanism, or anything that sets off a reaction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device that fires a mechanism, or anything that sets off a chain of events"
+}

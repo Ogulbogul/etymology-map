@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "(trampcykel med) mo(tor och) ped(aler)",
+      "lang": "Swedish",
+      "era": "1952",
+      "note": "coined by Swedish journalist Harald Nielsen as a blend meaning 'pedal cycle with motor and pedals'",
+      "meaning": "a pedal cycle fitted with an engine",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "Moped",
+      "lang": "German",
+      "era": "1950s",
+      "note": "the Swedish coinage passed into German usage as manufacturing and trade spread the term",
+      "meaning": "a light motorized pedal bicycle",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "moped",
+      "lang": "English",
+      "era": "1956 onward",
+      "note": "borrowed into English for the same lightweight motorbike",
+      "meaning": "a light motorized bicycle with pedals",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small motorcycle, originally pedal-assisted, with a low-powered engine"
+}

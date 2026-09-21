@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kril",
+      "lang": "Norwegian",
+      "era": "1800s",
+      "note": "a whalers' term for the tiny creatures whales feed on",
+      "meaning": "small fry of fish",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "krill",
+      "lang": "English",
+      "era": "1886 onward",
+      "note": "adopted by English-speaking whalers and scientists for the shrimp-like crustaceans",
+      "meaning": "tiny shrimp-like marine crustaceans",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "small shrimp-like marine crustaceans that are a key food source for whales"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vrolijc",
+      "lang": "Dutch",
+      "era": "medieval",
+      "note": "a compound of 'vro-' (glad, merry) and 'lijc' (-like)",
+      "meaning": "happy, merry",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "frolic",
+      "lang": "English",
+      "era": "1530s",
+      "note": "borrowed first as an adjective describing merry high spirits",
+      "meaning": "joyous, merry, full of mirth",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "frolic",
+      "lang": "English",
+      "era": "1580s onward",
+      "note": "gained verb and noun uses for playful romping",
+      "meaning": "to play and run about happily",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to play or run about happily; playful behavior"
+}

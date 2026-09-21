@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "snöggr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "originally described something trim or closely cropped",
+      "meaning": "short-haired, trim",
+      "lat": 60.4,
+      "lon": 5.3
+    },
+    {
+      "word": "snug",
+      "lang": "English",
+      "era": "1590s",
+      "note": "first used of ships riding trim and sheltered from weather",
+      "meaning": "compact, trim, protected from the weather",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "snug",
+      "lang": "English",
+      "era": "1620s onward",
+      "note": "sense widened from ships to general comfort and closeness of fit",
+      "meaning": "cozy, comfortable, closely fitting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cozy and comfortable, or fitting closely"
+}

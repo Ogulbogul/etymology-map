@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skrapa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "meant to scrape or erase a surface, reinforcing a similar Old English word",
+      "meaning": "to scrape, erase",
+      "lat": 60.4,
+      "lon": 5.3
+    },
+    {
+      "word": "scrapen",
+      "lang": "Middle English",
+      "era": "early 1200s",
+      "note": "first used for erasing writing with a knife",
+      "meaning": "to make erasures, to erase",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "scrape",
+      "lang": "English",
+      "era": "late 1300s onward",
+      "note": "broadened to removing any outer layer with a rough tool",
+      "meaning": "to drag something rough or sharp across a surface",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to drag a sharp or rough object across a surface, removing part of it"
+}
