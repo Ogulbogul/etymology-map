@@ -24,6 +24,9 @@ const arrowLayer = document.getElementById("arrow-layer");
 const pinLayer = document.getElementById("pin-layer");
 const badgeEl = document.getElementById("current-meaning-badge");
 const badgeTextEl = document.getElementById("badge-text");
+const originSentenceEl = document.getElementById("origin-sentence");
+const fullStoryEl = document.getElementById("full-story");
+const fullStoryTextEl = document.getElementById("full-story-text");
 const zoomInBtn = document.getElementById("zoom-in-btn");
 const zoomOutBtn = document.getElementById("zoom-out-btn");
 const zoomResetBtn = document.getElementById("zoom-reset-btn");
@@ -479,6 +482,11 @@ function clearResult() {
   arrowLayer.innerHTML = "";
   pinLayer.innerHTML = "";
   badgeEl.hidden = true;
+  originSentenceEl.hidden = true;
+  originSentenceEl.innerHTML = "";
+  fullStoryEl.hidden = true;
+  fullStoryEl.open = false;
+  fullStoryTextEl.innerHTML = "";
   setView({ x: 0, y: 0, k: 1 });
   renderExampleChips();
 }
@@ -713,6 +721,83 @@ function zoomAroundCenter(factor) {
 
 // --- Rendering --------------------------------------------------------
 
+// Mirrors build_origin_sentence() in build_pages.py, so a word traced from
+// the homepage's own search box reads identically to its static permalink
+// page instead of missing this content entirely.
+function buildOriginSentence(word, stops) {
+  const first = stops[0];
+  const last = stops[stops.length - 1];
+  const firstHtml = `${escapeHtml(first.lang)} <em>${escapeHtml(first.word)}</em>`;
+
+  let middleHtml;
+  if (stops.length === 2) {
+    middleHtml = "adopted directly into English";
+  } else {
+    const langs = [];
+    stops.slice(1, -1).forEach((s) => {
+      if (!langs.length || langs[langs.length - 1] !== s.lang) langs.push(s.lang);
+    });
+    const passing =
+      langs.length === 1
+        ? escapeHtml(langs[0])
+        : langs
+            .slice(0, -1)
+            .map(escapeHtml)
+            .join(", ") + ` and ${escapeHtml(langs[langs.length - 1])}`;
+    middleHtml = `passing through ${passing} before entering English`;
+  }
+
+  const question = `<span class="origin-question">Where does the word &quot;${escapeHtml(word)}&quot; come from?</span>`;
+  return `${question} It comes from ${firstHtml}, ${middleHtml} (${escapeHtml(last.era)}).`;
+}
+
+function sentenceCase(text) {
+  const t = text.trim();
+  if (!t) return "";
+  const capped = t[0].toUpperCase() + t.slice(1);
+  return /[.!?]$/.test(capped) ? capped : `${capped}.`;
+}
+
+const MIDDLE_CONNECTORS = [
+  "By {era}, the word had taken hold in {lang} as {form}.",
+  "From there it passed into {lang} as {form} by {era}.",
+  "{lang} picked it up next, as {form}, around {era}.",
+];
+
+// Mirrors build_narrative() in build_pages.py.
+function buildNarrative(word, stops, currentMeaning) {
+  const displayWord = word[0].toUpperCase() + word.slice(1);
+  const first = stops[0];
+  const last = stops[stops.length - 1];
+  const middles = stops.slice(1, -1);
+  const parts = [];
+
+  parts.push(
+    `${escapeHtml(displayWord)}’s story begins in ${escapeHtml(first.lang)}: ` +
+      `<em>${escapeHtml(first.word)}</em> meant “${escapeHtml(first.meaning)}.”`
+  );
+  if (first.note) parts.push(escapeHtml(sentenceCase(first.note)));
+
+  middles.forEach((stop, i) => {
+    const template = MIDDLE_CONNECTORS[i % MIDDLE_CONNECTORS.length];
+    const line = template
+      .replace("{era}", escapeHtml(stop.era))
+      .replace("{lang}", escapeHtml(stop.lang))
+      .replace("{form}", `<em>${escapeHtml(stop.word)}</em>`);
+    parts.push(line);
+    if (stop.note) parts.push(escapeHtml(sentenceCase(stop.note)));
+  });
+
+  parts.push(`It reached English by ${escapeHtml(last.era)} as <em>${escapeHtml(last.word)}</em>.`);
+  if (last.note) parts.push(escapeHtml(sentenceCase(last.note)));
+
+  let meaningClause = currentMeaning.trim().replace(/\.$/, "");
+  if (meaningClause) meaningClause = meaningClause[0].toLowerCase() + meaningClause.slice(1);
+  parts.push(`Today, ${escapeHtml(word)} means ${escapeHtml(meaningClause)}.`);
+
+  return parts.filter(Boolean).join(" ");
+}
+
 function renderWord(word, entry) {
   clearResult();
   clearMessage();
@@ -825,6 +910,11 @@ function renderWord(word, entry) {
 
   badgeEl.hidden = false;
   badgeTextEl.textContent = entry.current_meaning;
+
+  originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
+  originSentenceEl.hidden = false;
+  fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
+  fullStoryEl.hidden = false;
 }
 
 function escapeHtml(str) {
