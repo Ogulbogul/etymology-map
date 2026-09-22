@@ -315,7 +315,10 @@ function resetToHome() {
   const url = new URL(window.location.href);
   url.search = "";
   history.pushState({}, "", url);
-  wordInput.focus();
+  // Skip on mobile widths: focusing the input pops the virtual keyboard,
+  // which is jarring right after a navigation the user didn't ask to type
+  // into. Desktop keeps the focus so the cursor is ready to type.
+  if (window.innerWidth >= 600) wordInput.focus();
 }
 
 function setupHomeLink() {
