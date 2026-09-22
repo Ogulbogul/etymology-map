@@ -1261,12 +1261,61 @@ main#result {
 }
 
 @media (max-width: 600px) {
+  /* A short page (nothing traced yet) previously sat pinned to the very
+     top with a wall of empty space below it. Center the whole block
+     (title through footer) as one group instead, so the empty space
+     splits evenly above and below it. Scoped to the empty state only —
+     with a result showing, content is normally tall enough to fill the
+     viewport on its own, and centering a block taller than the viewport
+     would push its top edge above y=0, which is why this isn't applied
+     unconditionally. Degrades safely if :has() isn't supported: content
+     just stays top-aligned, same as before this change. */
   #app {
-    padding-top: 20px;
+    padding-top: 28px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #app:has(#result.is-empty) {
+    justify-content: center;
+  }
+
+  /* Once a result exists, tighten the spacing above and around the word
+     title so the actual result (map, stage cards) shows up sooner on a
+     short mobile screen instead of needing an extra scroll to reach it. */
+  .result-header {
+    margin: 16px 0 4px;
+  }
+
+  .result-word {
+    font-size: 1.4rem;
+  }
+
+  .current-meaning {
+    margin-bottom: 10px;
+  }
+
+  .origin-sentence {
+    margin-bottom: 10px;
+  }
+
+  main#result {
+    margin-top: 10px;
   }
 
   header h1 {
     font-size: 1.5rem;
+  }
+
+  /* Normally the tagline's own margin separates the title row from the
+     search row. When a result is showing, the tagline is hidden entirely
+     (see below) — without this, that spacing collapses too, and the
+     theme toggle (end of the title row) crowds right up against
+     Trace/Surprise me (end of the search row) right below it. Putting
+     the gap on the row itself keeps it regardless of tagline visibility. */
+  .header-top {
+    margin-bottom: 14px;
   }
 
   .tagline {
@@ -1282,7 +1331,6 @@ main#result {
     width: 44px;
     height: 44px;
     padding: 0;
-    font-size: 1.15rem;
   }
 
   .btn-text {
@@ -1290,7 +1338,9 @@ main#result {
   }
 
   .btn-icon-only {
-    display: inline;
+    display: block;
+    width: 20px;
+    height: 20px;
   }
 
   /* Once a result is showing, the tagline and word-count hint (both only
