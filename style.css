@@ -434,11 +434,16 @@ header h1 {
 /* Collapsed by default so the page keeps its at-a-glance feel; the full
    narrative only appears if someone chooses to open it. Search engines
    still index the content inside a collapsed <details> the same as
-   visible content, so this costs nothing on the SEO side. */
+   visible content, so this costs nothing on the SEO side. Styled like
+   the rest of the site's cards (stage cards, word-list panel) rather
+   than a bare text link, so it reads as part of the page, not an
+   afterthought bolted below it. */
 .full-story {
   margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border);
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  border-radius: 10px;
+  padding: 12px 14px;
 }
 
 .full-story summary {
@@ -467,8 +472,12 @@ header h1 {
   transform: rotate(90deg);
 }
 
+.full-story[open] summary {
+  margin-bottom: 10px;
+}
+
 .full-story p {
-  margin: 12px 0 0;
+  margin: 0;
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text);
@@ -649,7 +658,7 @@ main#result {
   display: flex;
   gap: 20px;
   margin-top: 14px;
-  align-items: stretch;
+  align-items: flex-start;
   flex-wrap: wrap;
   transition: gap 0.4s ease;
 }
