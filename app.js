@@ -27,6 +27,9 @@ const badgeTextEl = document.getElementById("badge-text");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+const relatedWordsEl = document.getElementById("related-words");
+const relatedWordsLangEl = document.getElementById("related-words-lang");
+const relatedWordsGridEl = document.getElementById("related-words-grid");
 const zoomInBtn = document.getElementById("zoom-in-btn");
 const zoomOutBtn = document.getElementById("zoom-out-btn");
 const zoomResetBtn = document.getElementById("zoom-reset-btn");
@@ -487,6 +490,8 @@ function clearResult() {
   fullStoryEl.hidden = true;
   fullStoryEl.open = false;
   fullStoryTextEl.innerHTML = "";
+  relatedWordsEl.hidden = true;
+  relatedWordsGridEl.innerHTML = "";
   setView({ x: 0, y: 0, k: 1 });
   renderExampleChips();
 }
@@ -831,6 +836,41 @@ function buildNarrative(word, stops, currentMeaning) {
   return parts.filter(Boolean).join(" ");
 }
 
+function pickRandom(arr, n) {
+  const copy = arr.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy.slice(0, n);
+}
+
+// Mirrors renderRelatedWords() in word.js, so tracing a word from the
+// homepage offers the same "keep exploring" incentive near the bottom of
+// the results as its static permalink page does, instead of only having
+// discovery tools (word list, autocomplete, surprise me) up at the top.
+function renderRelatedWords(baseWord, originLang) {
+  const candidates = Object.keys(wordIndex).filter(
+    (key) => key !== baseWord && wordIndex[key] === originLang
+  );
+  if (candidates.length === 0) {
+    relatedWordsEl.hidden = true;
+    return;
+  }
+
+  const picks = pickRandom(candidates, 8).sort((a, b) => a.localeCompare(b));
+  relatedWordsLangEl.textContent = originLang;
+  relatedWordsGridEl.innerHTML = "";
+  picks.forEach((key) => {
+    const a = document.createElement("a");
+    a.className = "related-word-item";
+    a.href = `/words/${slugify(key)}`;
+    a.textContent = key;
+    relatedWordsGridEl.appendChild(a);
+  });
+  relatedWordsEl.hidden = false;
+}
+
 function renderWord(word, entry) {
   clearResult();
   clearMessage();
@@ -948,6 +988,8 @@ function renderWord(word, entry) {
   originSentenceEl.hidden = false;
   fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
   fullStoryEl.hidden = false;
+
+  renderRelatedWords(word, entry.stops[0].lang);
 }
 
 function escapeHtml(str) {
