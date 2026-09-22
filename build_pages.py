@@ -84,10 +84,40 @@ def sentence(text):
     return text
 
 
+def is_redundant_note(note, meaning):
+    """True if a note is just a bare restatement of the meaning field
+    ('meaning "time"' alongside meaning: "time") rather than adding any
+    real context — appending it as its own sentence would just repeat
+    what the opening/connector sentence already said."""
+    n = note.strip().strip('"').strip()
+    m = meaning.strip().strip('"').strip()
+    for prefix in ("meaning ", "means "):
+        if n.lower().startswith(prefix):
+            n = n[len(prefix):].strip().strip('"').strip()
+            return n.lower() == m.lower()
+    return False
+
+
+def note_sentence(stop):
+    note = stop.get("note")
+    if not note or is_redundant_note(note, stop.get("meaning", "")):
+        return ""
+    return esc(sentence(note))
+
+
 MIDDLE_CONNECTORS = [
     "By {era}, the word had taken hold in {lang} as {form}.",
     "From there it passed into {lang} as {form} by {era}.",
     "{lang} picked it up next, as {form}, around {era}.",
+]
+
+# Used instead when a stage shares its language with the one right before
+# it (e.g. German Zeit -> German Zeitgeist) — the MIDDLE_CONNECTORS phrasing
+# implies arriving in a new language, which reads wrong for what's really a
+# word formed within a language it was already in.
+SAME_LANG_CONNECTORS = [
+    "Within {lang}, it grew into {form} by {era}.",
+    "By {era}, {lang} speakers had reshaped it into {form}.",
 ]
 
 
@@ -106,25 +136,25 @@ def build_narrative(word, stops, current_meaning):
         f'<em>{esc(first["word"])}</em> meant “{esc(first["meaning"])}.”'
     )
     parts.append(opening)
-    if first.get("note"):
-        parts.append(esc(sentence(first["note"])))
+    parts.append(note_sentence(first))
 
+    prev_lang = first["lang"]
     for i, stop in enumerate(middles):
-        template = MIDDLE_CONNECTORS[i % len(MIDDLE_CONNECTORS)]
+        connectors = SAME_LANG_CONNECTORS if stop["lang"] == prev_lang else MIDDLE_CONNECTORS
+        template = connectors[i % len(connectors)]
         line = (
             template.replace("{era}", esc(stop["era"]))
             .replace("{lang}", esc(stop["lang"]))
             .replace("{form}", f'<em>{esc(stop["word"])}</em>')
         )
         parts.append(line)
-        if stop.get("note"):
-            parts.append(esc(sentence(stop["note"])))
+        parts.append(note_sentence(stop))
+        prev_lang = stop["lang"]
 
     parts.append(
         f'It reached English by {esc(last["era"])} as <em>{esc(last["word"])}</em>.'
     )
-    if last.get("note"):
-        parts.append(esc(sentence(last["note"])))
+    parts.append(note_sentence(last))
 
     meaning_clause = current_meaning.strip().rstrip(".")
     if meaning_clause:

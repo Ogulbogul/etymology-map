@@ -481,7 +481,6 @@ header h1 {
   font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text);
-  max-width: 680px;
 }
 
 .full-story em {

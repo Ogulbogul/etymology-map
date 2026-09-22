@@ -758,10 +758,40 @@ function sentenceCase(text) {
   return /[.!?]$/.test(capped) ? capped : `${capped}.`;
 }
 
+// True if a note is just a bare restatement of the meaning field
+// ('meaning "time"' alongside meaning: "time") rather than adding any real
+// context — appending it as its own sentence would just repeat what the
+// opening/connector sentence already said.
+function isRedundantNote(note, meaning) {
+  let n = note.trim().replace(/^"|"$/g, "").trim();
+  const m = meaning.trim().replace(/^"|"$/g, "").trim().toLowerCase();
+  const lower = n.toLowerCase();
+  for (const prefix of ["meaning ", "means "]) {
+    if (lower.startsWith(prefix)) {
+      n = n.slice(prefix.length).trim().replace(/^"|"$/g, "").trim();
+      return n.toLowerCase() === m;
+    }
+  }
+  return false;
+}
+
+function noteSentence(stop) {
+  if (!stop.note || isRedundantNote(stop.note, stop.meaning || "")) return "";
+  return escapeHtml(sentenceCase(stop.note));
+}
+
 const MIDDLE_CONNECTORS = [
   "By {era}, the word had taken hold in {lang} as {form}.",
   "From there it passed into {lang} as {form} by {era}.",
   "{lang} picked it up next, as {form}, around {era}.",
+];
+
+// Used instead when a stage shares its language with the one right before
+// it — the MIDDLE_CONNECTORS phrasing implies arriving in a new language,
+// which reads wrong for a word formed within a language it was already in.
+const SAME_LANG_CONNECTORS = [
+  "Within {lang}, it grew into {form} by {era}.",
+  "By {era}, {lang} speakers had reshaped it into {form}.",
 ];
 
 // Mirrors build_narrative() in build_pages.py.
@@ -776,20 +806,23 @@ function buildNarrative(word, stops, currentMeaning) {
     `${escapeHtml(displayWord)}’s story begins in ${escapeHtml(first.lang)}: ` +
       `<em>${escapeHtml(first.word)}</em> meant “${escapeHtml(first.meaning)}.”`
   );
-  if (first.note) parts.push(escapeHtml(sentenceCase(first.note)));
+  parts.push(noteSentence(first));
 
+  let prevLang = first.lang;
   middles.forEach((stop, i) => {
-    const template = MIDDLE_CONNECTORS[i % MIDDLE_CONNECTORS.length];
+    const connectors = stop.lang === prevLang ? SAME_LANG_CONNECTORS : MIDDLE_CONNECTORS;
+    const template = connectors[i % connectors.length];
     const line = template
       .replace("{era}", escapeHtml(stop.era))
       .replace("{lang}", escapeHtml(stop.lang))
       .replace("{form}", `<em>${escapeHtml(stop.word)}</em>`);
     parts.push(line);
-    if (stop.note) parts.push(escapeHtml(sentenceCase(stop.note)));
+    parts.push(noteSentence(stop));
+    prevLang = stop.lang;
   });
 
   parts.push(`It reached English by ${escapeHtml(last.era)} as <em>${escapeHtml(last.word)}</em>.`);
-  if (last.note) parts.push(escapeHtml(sentenceCase(last.note)));
+  parts.push(noteSentence(last));
 
   let meaningClause = currentMeaning.trim().replace(/\.$/, "");
   if (meaningClause) meaningClause = meaningClause[0].toLowerCase() + meaningClause.slice(1);
