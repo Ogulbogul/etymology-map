@@ -462,18 +462,22 @@ header h1 {
   display: none;
 }
 
-.full-story summary::before {
+.full-story summary::after {
   content: "\25B8";
   display: inline-block;
   transition: transform 0.15s ease;
 }
 
-.full-story[open] summary::before {
+.full-story[open] summary::after {
   transform: rotate(90deg);
 }
 
 .full-story[open] summary {
   margin-bottom: 10px;
+}
+
+.full-story[open] {
+  padding-bottom: 18px;
 }
 
 .full-story p {
