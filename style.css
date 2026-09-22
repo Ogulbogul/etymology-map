@@ -431,6 +431,54 @@ header h1 {
   gap: 6px;
 }
 
+/* Collapsed by default so the page keeps its at-a-glance feel; the full
+   narrative only appears if someone chooses to open it. Search engines
+   still index the content inside a collapsed <details> the same as
+   visible content, so this costs nothing on the SEO side. */
+.full-story {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.full-story summary {
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--accent);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+}
+
+.full-story summary::-webkit-details-marker {
+  display: none;
+}
+
+.full-story summary::before {
+  content: "\25B8";
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.full-story[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.full-story p {
+  margin: 12px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 680px;
+}
+
+.full-story em {
+  font-style: italic;
+}
+
 .related-word-item {
   display: block;
   padding: 6px 10px;

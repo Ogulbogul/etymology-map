@@ -73,6 +73,66 @@ def build_origin_sentence(word, stops):
     return f"{question} It comes from {first_html}, {middle_html} ({esc(last['era'])})."
 
 
+def sentence(text):
+    """Capitalizes a note fragment into a standalone sentence."""
+    text = text.strip()
+    if not text:
+        return ""
+    text = text[0].upper() + text[1:]
+    if text[-1] not in ".!?":
+        text += "."
+    return text
+
+
+MIDDLE_CONNECTORS = [
+    "By {era}, the word had taken hold in {lang} as {form}.",
+    "From there it passed into {lang} as {form} by {era}.",
+    "{lang} picked it up next, as {form}, around {era}.",
+]
+
+
+def build_narrative(word, stops, current_meaning):
+    """A short, plainly-written paragraph synthesized entirely from the
+    stops data already on hand (no new research) — real connected prose
+    for visitors who want the story, sitting collapsed by default so it
+    never competes with the at-a-glance stage cards for attention."""
+    display_word = word[0].upper() + word[1:]
+    first, last = stops[0], stops[-1]
+    middles = stops[1:-1]
+
+    parts = []
+    opening = (
+        f'{esc(display_word)}’s story begins in {esc(first["lang"])}: '
+        f'<em>{esc(first["word"])}</em> meant “{esc(first["meaning"])}.”'
+    )
+    parts.append(opening)
+    if first.get("note"):
+        parts.append(esc(sentence(first["note"])))
+
+    for i, stop in enumerate(middles):
+        template = MIDDLE_CONNECTORS[i % len(MIDDLE_CONNECTORS)]
+        line = (
+            template.replace("{era}", esc(stop["era"]))
+            .replace("{lang}", esc(stop["lang"]))
+            .replace("{form}", f'<em>{esc(stop["word"])}</em>')
+        )
+        parts.append(line)
+        if stop.get("note"):
+            parts.append(esc(sentence(stop["note"])))
+
+    parts.append(
+        f'It reached English by {esc(last["era"])} as <em>{esc(last["word"])}</em>.'
+    )
+    if last.get("note"):
+        parts.append(esc(sentence(last["note"])))
+
+    meaning_clause = current_meaning.strip().rstrip(".")
+    if meaning_clause:
+        meaning_clause = meaning_clause[0].lower() + meaning_clause[1:]
+    parts.append(f'Today, {esc(word)} means {esc(meaning_clause)}.')
+    return " ".join(p for p in parts if p)
+
+
 def render_word_page(word, entry, word_index):
     slug = slugify(word)
     display_word = word[:1].upper() + word[1:]
@@ -129,6 +189,7 @@ def render_word_page(word, entry, word_index):
     </section>"""
 
     origin_sentence = build_origin_sentence(word, stops)
+    narrative_html = build_narrative(word, stops, entry["current_meaning"])
     word_json = json.dumps({"word": word, **entry}, ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
@@ -210,6 +271,11 @@ def render_word_page(word, entry, word_index):
         <div class="map-hint">Drag to pan &middot; scroll to zoom</div>
       </section>
     </main>
+
+    <details class="full-story">
+      <summary>Read the full story</summary>
+      <p>{narrative_html}</p>
+    </details>
 {related_html}
     <div id="share-modal" class="modal-overlay" hidden>
       <div class="modal-card">
