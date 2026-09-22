@@ -352,7 +352,8 @@ function pickExampleWords(count) {
 function renderExampleChips() {
   if (!emptyChipsBar) return;
   emptyChipsBar.querySelectorAll(".example-chip").forEach((el) => el.remove());
-  pickExampleWords(6).forEach((word) => {
+  const count = window.innerWidth < 600 ? 2 : 6;
+  pickExampleWords(count).forEach((word) => {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "example-chip";

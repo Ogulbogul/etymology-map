@@ -1250,11 +1250,70 @@ main#result {
   .map-wrap { flex: 1 1 100%; order: -1; }
 }
 
-/* Below this width there isn't room for the input and both buttons on one
-   line. Rather than lean on flex-wrap's per-item fitting (its exact break
-   point shifts with font metrics), force the input onto its own full-width
-   row so the two buttons always wrap together onto a predictable row below,
-   never getting cut off. */
+/* On narrow screens the full search chrome (title, tagline, search row,
+   word list, hint) ate the entire first screen, pushing an actual result
+   below the fold. Trace/Surprise me become icon-only compact buttons so
+   the input can share one row with them instead of wrapping to a row of
+   its own, and the tagline/word-count hint (useful before a first search,
+   dead weight once a result is showing) hide once there's a result. */
+.btn-icon-only {
+  display: none;
+}
+
 @media (max-width: 600px) {
-  .input-wrap { flex-basis: 100%; }
+  #app {
+    padding-top: 20px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    margin-bottom: 14px;
+  }
+
+  #trace-btn,
+  #surprise-btn {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    font-size: 1.15rem;
+  }
+
+  .btn-text {
+    display: none;
+  }
+
+  .btn-icon-only {
+    display: inline;
+  }
+
+  /* Once a result is showing, the tagline and word-count hint (both only
+     useful before a first search) are just dead weight above the fold —
+     hide them to give the actual result more of the first screen. Degrades
+     safely if :has() isn't supported: both simply stay visible. */
+  #app:has(#result:not(.is-empty)) .tagline,
+  #app:has(#result:not(.is-empty)) .hint {
+    display: none;
+  }
+
+  .empty-chips-bar {
+    padding: 8px 10px;
+    gap: 6px 8px;
+    min-height: auto;
+  }
+
+  .empty-chips-label {
+    font-size: 0.76rem;
+  }
+
+  .example-chip {
+    padding: 4px 10px;
+    font-size: 0.78rem;
+  }
 }

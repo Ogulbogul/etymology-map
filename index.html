@@ -41,13 +41,20 @@
           />
           <ul id="autocomplete-list" class="autocomplete-list" role="listbox" hidden></ul>
         </div>
-        <button id="trace-btn" class="primary-btn">Trace</button>
+        <button id="trace-btn" class="primary-btn" type="button" aria-label="Trace">
+          <span class="btn-text">Trace</span>
+          <span class="btn-icon-only" aria-hidden="true">&#128269;</span>
+        </button>
         <button
           id="surprise-btn"
           class="secondary-btn search-bar-secondary-btn"
           type="button"
           title="Trace a random word from the collection"
-        >Surprise me</button>
+          aria-label="Surprise me"
+        >
+          <span class="btn-text">Surprise me</span>
+          <span class="btn-icon-only" aria-hidden="true">&#127922;</span>
+        </button>
       </div>
       <div id="message" class="message" hidden></div>
       <div class="search-actions">
