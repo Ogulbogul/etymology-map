@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "scutarius",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'scutum', a long shield, the same root as 'escutcheon'",
+      "meaning": "shield-bearer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "esquier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a young man training for knighthood by serving a knight",
+      "meaning": "knight's attendant",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "squire",
+      "lang": "English",
+      "era": "1300s",
+      "note": "later the chief landowner of an English village; 'esquire' survives as a courtesy title",
+      "meaning": "knight's attendant; country gentleman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young nobleman who served a knight; a country landowner"
+}

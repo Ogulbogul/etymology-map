@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lancea",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Roman writers said the word came from Spain or Gaul",
+      "meaning": "light spear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the long spear of the mounted knight, couched under the arm to charge",
+      "meaning": "cavalry spear",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lance",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'freelance' was coined by Walter Scott in 1819 for a mercenary knight",
+      "meaning": "a long spear; to pierce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long spear used by mounted knights; to cut open with a blade"
+}

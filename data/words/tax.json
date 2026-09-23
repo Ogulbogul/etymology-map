@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "taxare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'tangere', to touch; also gives 'taxing' in the sense of burdensome",
+      "meaning": "to assess, to value",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "taxer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for the official assessment of what was owed",
+      "meaning": "to impose a levy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tax",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the noun, a compulsory payment to the state, followed the verb",
+      "meaning": "to levy; a levy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "money that people and businesses must pay to the government"
+}

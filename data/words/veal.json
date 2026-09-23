@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vitellus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'vitulus', calf, a word possibly tied to 'vetus', a yearling",
+      "meaning": "little calf",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "veel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman nobles ate the meat while English farmhands kept raising the 'calf'",
+      "meaning": "calf; calf meat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "veal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "one of several pairs where the French word names the meat and the English word names the animal",
+      "meaning": "the meat of a calf",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the meat of a young calf"
+}

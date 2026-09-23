@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gardo",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word for an enclosure, related to English 'yard'",
+      "meaning": "enclosure",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "gardin",
+      "lang": "Old North French",
+      "era": "medieval",
+      "note": "Norman form; Parisian French said 'jardin'",
+      "meaning": "enclosed garden",
+      "lat": 49.44,
+      "lon": 1.1
+    },
+    {
+      "word": "garden",
+      "lang": "English",
+      "era": "1300s",
+      "note": "so native English 'yard' and French-derived 'garden' share one Germanic root",
+      "meaning": "cultivated ground",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of ground used for growing flowers, fruit or vegetables"
+}

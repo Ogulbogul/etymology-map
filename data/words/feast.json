@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "festa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "neuter plural of 'festus', joyful, the same root as 'festival'",
+      "meaning": "festivals, holidays",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a religious festival day; the lost 's' is marked in modern French 'fête' by the circumflex",
+      "meaning": "religious festival",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "feast",
+      "lang": "English",
+      "era": "1200s",
+      "note": "moved from holy days to the lavish meals that marked them",
+      "meaning": "a large celebratory meal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large meal, typically a celebratory one; a religious festival"
+}

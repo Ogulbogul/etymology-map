@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "merces",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'merchant' and 'mercenary'",
+      "meaning": "wages, reward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "merci",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Christian writers used it for the heavenly reward for kindness, hence kindness itself; modern French uses it for 'thanks'",
+      "meaning": "grace, pity",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mercy",
+      "lang": "English",
+      "era": "1100s",
+      "note": "'at the mercy of' dates from the 1300s",
+      "meaning": "compassion shown to someone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "compassion or forgiveness shown to someone in one's power"
+}

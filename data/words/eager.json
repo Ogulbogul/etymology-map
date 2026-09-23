@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "acer",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'acid' and 'acrid'",
+      "meaning": "sharp, keen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aigre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant sour or harsh; it also gives 'vinegar', sour wine",
+      "meaning": "sour, keen",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "eager",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense of keenness won out over sourness",
+      "meaning": "keenly wanting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strongly wanting to do or have something"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "riparius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'ripa', riverbank, which also gives 'riparian' and 'Riviera'",
+      "meaning": "of a riverbank",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "riviere",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "shifted from the bank to the water flowing between banks",
+      "meaning": "river; riverbank",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "river",
+      "lang": "English",
+      "era": "1200s",
+      "note": "largely replaced Old English 'ea', which lingers in place-names like Eton",
+      "meaning": "a large natural stream",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large natural stream of water flowing to the sea or a lake"
+}

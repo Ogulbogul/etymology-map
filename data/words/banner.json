@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bandwa",
+      "lang": "Gothic",
+      "era": "ancient",
+      "note": "a Germanic word for a sign or signal",
+      "meaning": "sign, signal",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "banere",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a lord's flag, which vassals rallied to in battle",
+      "meaning": "war flag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "banner",
+      "lang": "English",
+      "era": "1200s",
+      "note": "later used for newspaper headlines and web advertising",
+      "meaning": "a long strip of cloth bearing a design",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long strip of cloth with a slogan or design"
+}

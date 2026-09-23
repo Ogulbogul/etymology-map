@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lactuca",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'lac', milk, for the milky sap that seeps from cut stems",
+      "meaning": "lettuce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "laitues",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "plural of 'laitue'; English borrowed the plural and treated it as singular",
+      "meaning": "lettuces",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lettuce",
+      "lang": "English",
+      "era": "1200s",
+      "note": "later picked up American slang sense of paper money, from its green leaves",
+      "meaning": "a salad plant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a leafy green plant eaten raw in salads"
+}

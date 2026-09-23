@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "navis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root gives 'naval', 'navigate', and the 'nave' of a church",
+      "meaning": "ship",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "navie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a collective term for ships",
+      "meaning": "fleet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "navy",
+      "lang": "English",
+      "era": "1500s",
+      "note": "came to mean a state's organized sea force; 'navy blue' is from Royal Navy uniforms",
+      "meaning": "a nation's warships and sailors",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a country's warships and the people who serve on them"
+}

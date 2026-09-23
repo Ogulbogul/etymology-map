@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "turris",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "probably borrowed from an older Mediterranean language, akin to Greek 'tyrsis'",
+      "meaning": "tower",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tur",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "reinforced an earlier Old English borrowing, 'torr'",
+      "meaning": "tower",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tower",
+      "lang": "English",
+      "era": "1100s",
+      "note": "the Tower of London, begun by William the Conqueror, made the word synonymous with royal power",
+      "meaning": "a tall, narrow building",
+      "lat": 51.51,
+      "lon": -0.08
+    }
+  ],
+  "current_meaning": "a tall, narrow building or part of a building"
+}

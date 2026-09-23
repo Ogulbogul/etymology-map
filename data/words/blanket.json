@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blank",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word for shining or white, also the source of 'blank'",
+      "meaning": "white, bright",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "blanquette",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "undyed white woollen cloth",
+      "meaning": "white woollen cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "blanket",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the adjective 'blanket', covering everything, dates from the 1800s",
+      "meaning": "a woollen bed covering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large piece of warm cloth used as a bed covering; covering all cases"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ferus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'feral'",
+      "meaning": "wild, untamed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fiers",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant proud and bold; modern French 'fier' means proud",
+      "meaning": "proud, bold",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fierce",
+      "lang": "English",
+      "era": "1200s",
+      "note": "kept the older sense of violent wildness",
+      "meaning": "violent, intense",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "violent, aggressive or intense"
+}

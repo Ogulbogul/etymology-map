@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "pullus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used for the young of any animal, then especially for chicks",
+      "meaning": "young animal, chick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pouletrie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "formed from 'poulet', a young fowl, plus the collective ending -erie",
+      "meaning": "domestic fowl collectively",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pultrie",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "also meant the poultry market; London still has a street called Poultry",
+      "meaning": "domestic fowl; a poultry market",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "poultry",
+      "lang": "English",
+      "era": "1500s",
+      "note": "settled as the general term for farmed birds",
+      "meaning": "domestic birds kept for eggs or meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "chickens, ducks, geese and other domestic birds"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pasta",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from Greek 'pastē', a barley porridge sprinkled with salt",
+      "meaning": "dough, paste",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "paste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the dough bakers worked with; the same word later gave 'pâté' and 'pâtisserie'",
+      "meaning": "dough",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pastry",
+      "lang": "English",
+      "era": "1530s",
+      "note": "formed in English from 'paste' plus -ry, on the model of 'pantry'",
+      "meaning": "baked goods made of dough",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dough of flour, fat and water; baked goods made from it"
+}

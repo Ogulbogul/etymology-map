@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chrisma",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "consecrated anointing oil, from Greek; it blended with a Gaulish word 'crama'",
+      "meaning": "anointing oil",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cresme",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the mixed word came to mean the rich top layer of milk",
+      "meaning": "cream",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cream",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'the best part', as in 'cream of the crop', followed",
+      "meaning": "the fatty part of milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the thick, fatty part of milk; the best of a group"
+}

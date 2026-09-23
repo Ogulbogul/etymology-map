@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bouc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a he-goat, from a Germanic or Celtic word related to 'buck'",
+      "meaning": "male goat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bochier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "originally one who slaughtered goats, then any meat-seller",
+      "meaning": "goat-slaughterer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "butcher",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the verb 'to butcher', to botch or massacre, followed in the 1500s",
+      "meaning": "a meat-seller",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who cuts and sells meat; to kill brutally or ruin"
+}

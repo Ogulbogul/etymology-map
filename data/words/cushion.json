@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "coxa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Vulgar Latin 'coxinus' was a pad to sit on",
+      "meaning": "hip",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "coissin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a stuffed cloth bag for comfort on hard benches",
+      "meaning": "cushion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cushion",
+      "lang": "English",
+      "era": "1300s",
+      "note": "later used figuratively for anything that softens a blow",
+      "meaning": "a soft pad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft pad for sitting or leaning on; something that absorbs impact"
+}

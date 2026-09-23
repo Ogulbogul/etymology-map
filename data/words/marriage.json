@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maritare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'maritus', husband, possibly related to 'mas', male",
+      "meaning": "to wed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mariage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "under feudal law a lord could control his wards' marriages",
+      "meaning": "wedding, union",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marriage",
+      "lang": "English",
+      "era": "1200s",
+      "note": "gradually displaced Old English 'wedlock'",
+      "meaning": "legal union of spouses",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the legally recognized union of two people as partners"
+}

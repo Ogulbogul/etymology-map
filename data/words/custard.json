@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "crusta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same word gives 'crust' and 'crustacean'",
+      "meaning": "shell, crust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "croustade",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an open pie baked in a pastry crust",
+      "meaning": "pie in a crust",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crustade",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "the r shifted position and dropped away in everyday speech",
+      "meaning": "an open meat or fruit pie",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "custard",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the name moved from the pie to its egg-and-milk filling",
+      "meaning": "a sweet sauce or set dish of eggs and milk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sweet dish or sauce made with milk and eggs"
+}

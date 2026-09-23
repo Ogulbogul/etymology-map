@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cortina",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used in the Latin Bible for the hangings of the Tabernacle",
+      "meaning": "hanging, curtain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cortine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "hung around beds and doorways to keep out draughts",
+      "meaning": "bed curtain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "curtain",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the theatre curtain, and 'curtains' meaning the end, came later",
+      "meaning": "a hanging cloth screen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of cloth hung to cover a window or screen a stage"
+}

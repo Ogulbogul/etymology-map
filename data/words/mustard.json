@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mustum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "fresh grape juice, which Romans mixed with ground seeds to make the condiment",
+      "meaning": "new wine, must",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "moustarde",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "named after the must rather than the seeds; Dijon became its centre of production",
+      "meaning": "mustard condiment",
+      "lat": 47.32,
+      "lon": 5.04
+    },
+    {
+      "word": "mustard",
+      "lang": "English",
+      "era": "1200s",
+      "note": "later applied to the plant itself as well as the paste",
+      "meaning": "a spicy yellow condiment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot-tasting paste made from the seeds of the mustard plant"
+}

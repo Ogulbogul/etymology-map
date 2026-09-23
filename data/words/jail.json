@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caveola",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'cavea', cage or hollow",
+      "meaning": "little cage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gaiole",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French had a competing form 'gaole', which gave British 'gaol'",
+      "meaning": "cage, prison",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "jail",
+      "lang": "English",
+      "era": "1200s",
+      "note": "English kept both spellings for centuries, both pronounced 'jail'",
+      "meaning": "a prison",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place for holding people accused or convicted of crimes"
+}

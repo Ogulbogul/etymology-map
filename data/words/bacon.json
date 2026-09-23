@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bakkô",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word for the back, related to English 'back'",
+      "meaning": "back, side of meat",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "bacon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for a side or flitch of pork cut from the animal's back",
+      "meaning": "side of pork",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bacon",
+      "lang": "English",
+      "era": "1300s",
+      "note": "narrowed to cured pork; 'bring home the bacon' dates from the early 1900s",
+      "meaning": "cured pork",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cured meat from the back or sides of a pig"
+}

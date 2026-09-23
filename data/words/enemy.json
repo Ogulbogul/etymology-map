@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "inimicus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in-', not, plus 'amicus', friend",
+      "meaning": "unfriendly; foe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "enemi",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for both personal foes and the Devil",
+      "meaning": "foe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enemy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "largely replaced Old English 'feond', which narrowed to 'fiend'",
+      "meaning": "a hostile opponent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person or group actively opposed or hostile to another"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "krappô",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a hook, the same root as 'grapple'",
+      "meaning": "hook",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "grape",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "first a hooked vine-knife, then the bunch cut with it",
+      "meaning": "bunch of grapes",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grape",
+      "lang": "English",
+      "era": "1200s",
+      "note": "replaced Old English 'winberie', wine-berry",
+      "meaning": "a single berry of the vine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small juicy fruit growing in bunches on a vine"
+}

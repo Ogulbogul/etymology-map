@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "servientem",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'servire', to serve, the same root as 'servant'",
+      "meaning": "serving",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sergent",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a servant or retainer, later an officer who enforced a lord's orders",
+      "meaning": "servant, officer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sergeant",
+      "lang": "English",
+      "era": "1500s",
+      "note": "fixed as a military rank in the 16th century",
+      "meaning": "a non-commissioned officer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a non-commissioned military rank; a police rank above constable"
+}
