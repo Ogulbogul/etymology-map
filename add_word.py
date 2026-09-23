@@ -19,7 +19,9 @@ entry. sitemap.xml is also regenerated every run, so search engines can
 discover every word page without any separate manual step.
 """
 import json
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 import build_pages
@@ -32,20 +34,60 @@ SITE_URL = "https://etymologymap.com"
 REQUIRED_STOP_FIELDS = ("word", "lang", "era", "note", "meaning", "lat", "lon")
 
 
+def _git_last_modified_dates():
+    """Maps each tracked page path to the date of its most recent commit.
+    Pages that were regenerated but came out byte-identical never show up
+    in a commit diff, so their git history — and thus this date — only
+    moves when the page's actual content changes, not on every rebuild."""
+    try:
+        out = subprocess.run(
+            [
+                "git", "log", "--format=%x01%ad", "--date=short",
+                "--name-only", "--",
+                "words", "index.html", "about.html", "privacy.html",
+            ],
+            cwd=ROOT, capture_output=True, text=True, check=True,
+        ).stdout
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return {}
+    dates = {}
+    current_date = None
+    for line in out.splitlines():
+        if line.startswith("\x01"):
+            current_date = line[1:]
+        elif line.strip():
+            dates.setdefault(line.strip(), current_date)
+    return dates
+
+
 def write_sitemap(words):
     """Regenerates sitemap.xml from the full word list, so every word page
     stays discoverable to search engines without any manual upkeep — this
-    runs automatically every time this script runs, alongside the index."""
-    static_pages = ["", "about", "privacy"]
-    urls = [f"{SITE_URL}/{page}" for page in static_pages]
-    urls += [
-        f"{SITE_URL}/words/{build_pages.slugify(word)}" for word in words
+    runs automatically every time this script runs, alongside the index.
+
+    Each URL carries a <lastmod> so Google can tell which pages actually
+    changed instead of treating all 3,000+ as equally stale forever, which
+    otherwise starves crawl priority on a site this size."""
+    dates = _git_last_modified_dates()
+    today = date.today().isoformat()
+    static_files = {"": "index.html", "about": "about.html", "privacy": "privacy.html"}
+
+    def entry(loc, git_path):
+        lastmod = dates.get(git_path, today)
+        return f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod></url>"
+
+    entries = [
+        entry(f"{SITE_URL}/{page}", git_path)
+        for page, git_path in static_files.items()
     ]
-    entries = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
+    entries += [
+        entry(f"{SITE_URL}/words/{slug}", f"words/{slug}.html")
+        for slug in (build_pages.slugify(word) for word in words)
+    ]
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"{entries}\n"
+        + "\n".join(entries) + "\n"
         "</urlset>\n"
     )
     SITEMAP_PATH.write_text(xml, encoding="utf-8")
