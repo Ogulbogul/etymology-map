@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skvala",
+      "lang": "Swedish",
+      "era": "medieval",
+      "note": "an imitative word for water gushing or pouring out noisily",
+      "meaning": "to gush, to cry out",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "squall",
+      "lang": "English",
+      "era": "1630s",
+      "note": "first a verb for crying out loudly, as a baby does",
+      "meaning": "to scream",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "squall",
+      "lang": "English",
+      "era": "1690s",
+      "note": "sailors applied it to a sudden, violent gust of wind and rain",
+      "meaning": "a sudden storm",
+      "lat": 50.37,
+      "lon": -4.14
+    }
+  ],
+  "current_meaning": "a sudden violent gust of wind or storm; a loud cry"
+}

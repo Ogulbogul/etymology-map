@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "klumsa",
+      "lang": "Swedish",
+      "era": "medieval",
+      "note": "Scandinavian dialect verb for being numb or stiff with cold, related to 'clam' and 'clamp'",
+      "meaning": "to be numb with cold",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "clumse",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "survived in northern English dialect meaning stiff-fingered or benumbed",
+      "meaning": "benumbed, stiff with cold",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "clumsy",
+      "lang": "English",
+      "era": "1590s",
+      "note": "from fingers too cold to work properly, it broadened to any awkward, ungainly movement",
+      "meaning": "awkward in movement or handling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "moving or doing things awkwardly and carelessly"
+}

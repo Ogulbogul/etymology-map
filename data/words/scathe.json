@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skaða",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a verb for doing harm; the related German 'Schaden' gives 'schadenfreude'",
+      "meaning": "to harm, injure",
+      "lat": 63.43,
+      "lon": 10.39
+    },
+    {
+      "word": "scathe",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "reinforced an Old English cognate, 'sceaþa', meaning a criminal or enemy",
+      "meaning": "harm, damage",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "scathing",
+      "lang": "English",
+      "era": "1790s",
+      "note": "the verb faded, but survives in 'unscathed' and in 'scathing' for harshly critical words",
+      "meaning": "witheringly critical",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "(archaic) to harm; now mostly in 'scathing' and 'unscathed'"
+}

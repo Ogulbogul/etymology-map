@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "slóð",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a track or trail left behind by a person or animal",
+      "meaning": "trail, track",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "sleuth-hound",
+      "lang": "Scots",
+      "era": "1300s",
+      "note": "a bloodhound bred to follow a scent trail, used in the Scottish borders to track raiders",
+      "meaning": "tracking dog",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "sleuth",
+      "lang": "English",
+      "era": "1870s",
+      "note": "American slang shortened it and applied it to a detective who tracks down criminals",
+      "meaning": "detective",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a detective"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "þeim",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "dative plural of the Norse demonstrative, used for 'to/for those'",
+      "meaning": "to them",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "þem",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "displaced Old English 'heom', which had become easy to confuse with 'him'",
+      "meaning": "them",
+      "lat": 53.23,
+      "lon": -0.54
+    },
+    {
+      "word": "them",
+      "lang": "English",
+      "era": "1400s",
+      "note": "Chaucer's London English still used 'hem'; 'them' won out in the following century",
+      "meaning": "them",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the object form of 'they'"
+}

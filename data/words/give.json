@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gefa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "the Norse hard-g form of a verb shared across Germanic languages",
+      "meaning": "to give",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "given",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "the Norse pronunciation replaced native Old English 'giefan', which was pronounced 'yeevan' and gave dialect 'yive'",
+      "meaning": "to give",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "give",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the hard-g northern form became standard English",
+      "meaning": "to hand over freely",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to freely hand something over to someone"
+}

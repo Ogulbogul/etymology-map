@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blunda",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to shut the eyes; related to Norwegian blunde 'to doze'",
+      "meaning": "to shut one's eyes",
+      "lat": 63.43,
+      "lon": 10.39
+    },
+    {
+      "word": "blunderen",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "used of moving blindly or stumbling about, as someone with eyes shut would",
+      "meaning": "to stumble about blindly",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "blunder",
+      "lang": "English",
+      "era": "1700s",
+      "note": "the noun for a careless, embarrassing mistake grew out of the image of blind stumbling",
+      "meaning": "a stupid or careless mistake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stupid or careless mistake; to make one"
+}

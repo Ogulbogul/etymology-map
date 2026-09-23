@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "þeirra",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "genitive plural of the demonstrative 'sá', 'that one'",
+      "meaning": "of them",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "þeir",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "spread south from the Danelaw, replacing Old English 'hiera', which sounded too close to 'her'",
+      "meaning": "belonging to them",
+      "lat": 53.23,
+      "lon": -0.54
+    },
+    {
+      "word": "their",
+      "lang": "English",
+      "era": "1400s",
+      "note": "a rare case of a core pronoun borrowed from another language, reaching London English last",
+      "meaning": "belonging to them",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "belonging to or associated with them"
+}

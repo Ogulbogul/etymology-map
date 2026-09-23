@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rotinn",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a past participle form, 'having rotted', cousin of native English 'rot'",
+      "meaning": "decayed",
+      "lat": 63.43,
+      "lon": 10.39
+    },
+    {
+      "word": "roten",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "edged out Old English 'rotod' as the everyday adjective",
+      "meaning": "decomposed, putrid",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "rotten",
+      "lang": "English",
+      "era": "1800s",
+      "note": "by the 19th century it also served as casual slang for anything bad or unpleasant",
+      "meaning": "decayed; very bad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "decayed and decomposing; very bad or unpleasant"
+}

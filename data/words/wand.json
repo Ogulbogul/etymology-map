@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vǫndr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a slender, flexible stick or switch, possibly related to 'wind' in the sense of bending",
+      "meaning": "switch, twig",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "wand",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "used for a young shoot and for a rod of authority carried by officials",
+      "meaning": "slender stick; staff of office",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "wand",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the magical sense, a rod used by conjurers and fairies, became prominent in Renaissance literature",
+      "meaning": "a magic rod",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin rod, especially one used to perform magic"
+}

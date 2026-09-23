@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rigga",
+      "lang": "Norwegian",
+      "era": "medieval",
+      "note": "a nautical verb for binding or wrapping, used of fitting a ship",
+      "meaning": "to bind, wrap",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "rig",
+      "lang": "English",
+      "era": "1480s",
+      "note": "first a sailors' term for fitting a ship with masts, sails and lines",
+      "meaning": "to equip a ship",
+      "lat": 50.37,
+      "lon": -4.14
+    },
+    {
+      "word": "rig",
+      "lang": "English",
+      "era": "1700s",
+      "note": "the sense 'to manipulate dishonestly' arose from slang for a trick or swindle",
+      "meaning": "to fix fraudulently",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fit out with equipment; to manipulate an outcome dishonestly"
+}

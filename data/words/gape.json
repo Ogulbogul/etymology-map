@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gapa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "the same Norse root gives 'Ginnungagap', the yawning void of Norse creation myth",
+      "meaning": "to open the mouth wide",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "gape",
+      "lang": "English",
+      "era": "1200s",
+      "note": "came to suggest staring open-mouthed in astonishment, not just opening wide",
+      "meaning": "to stare open-mouthed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stare with the mouth open in wonder; to be wide open"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "álfr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "an elf, one of the supernatural beings of Norse mythology",
+      "meaning": "elf",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "auf",
+      "lang": "English",
+      "era": "1620s",
+      "note": "used for a changeling, the misshapen or dim child fairies were believed to leave in place of a stolen baby",
+      "meaning": "an elf's child, changeling",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "oaf",
+      "lang": "English",
+      "era": "1630s",
+      "note": "the changeling's supposed dullness gave the modern sense",
+      "meaning": "a stupid, clumsy person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stupid, uncultured, or clumsy person"
+}
