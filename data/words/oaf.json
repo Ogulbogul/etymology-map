@@ -10,20 +10,11 @@
       "lon": -21.94
     },
     {
-      "word": "auf",
-      "lang": "English",
-      "era": "1620s",
-      "note": "used for a changeling, the misshapen or dim child fairies were believed to leave in place of a stolen baby",
-      "meaning": "an elf's child, changeling",
-      "lat": 53.96,
-      "lon": -1.08
-    },
-    {
       "word": "oaf",
       "lang": "English",
-      "era": "1630s",
-      "note": "the changeling's supposed dullness gave the modern sense",
-      "meaning": "a stupid, clumsy person",
+      "era": "1620s",
+      "note": "used for a changeling, the misshapen or dim child fairies were believed to leave in place of a stolen baby; later, the changeling's supposed dullness gave the modern sense",
+      "meaning": "an elf's child, changeling; later a stupid, clumsy person",
       "lat": 51.51,
       "lon": -0.13
     }
