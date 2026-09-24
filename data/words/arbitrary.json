@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "arbitrarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'arbiter', judge",
+      "meaning": "depending on a judge's will",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arbitraire",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a learned borrowing",
+      "meaning": "arbitrary",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "arbitrary",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the sense 'random, unreasoned' dates from the 1600s",
+      "meaning": "discretionary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "based on random choice"
+}

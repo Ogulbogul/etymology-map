@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "accumulare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'cumulus', heap",
+      "meaning": "to heap up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "accumulate",
+      "lang": "English",
+      "era": "1520s",
+      "note": "'cumulus' clouds share the root",
+      "meaning": "to heap up",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to gather together"
+}

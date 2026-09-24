@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "concretus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'concrescere', to grow together",
+      "meaning": "grown together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concrete",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the building material was named in the 1830s",
+      "meaning": "solid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building material; real and definite"
+}

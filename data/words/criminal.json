@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "crimen",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'cernere', to decide",
+      "meaning": "charge, crime",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "criminel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "criminal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "criminal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'criminal' as a noun dates from the 1600s",
+      "meaning": "relating to crime",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who has committed a crime"
+}

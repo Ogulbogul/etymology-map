@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "toxikon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'toxon', bow",
+      "meaning": "poison for arrows",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "toxicus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Romans dropped the arrow sense and kept 'poison'",
+      "meaning": "poisonous",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "toxic",
+      "lang": "English",
+      "era": "1660s",
+      "note": "'toxic relationship' dates from the 2000s",
+      "meaning": "poisonous",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "poisonous; harmful"
+}

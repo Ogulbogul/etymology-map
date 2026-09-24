@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "corrodere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'rodere', to gnaw",
+      "meaning": "to gnaw away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corrode",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'corrosive' followed",
+      "meaning": "to gnaw away",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to destroy slowly by chemical action"
+}

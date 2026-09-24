@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cadaver",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'cadere', to fall",
+      "meaning": "dead body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cadaver",
+      "lang": "English",
+      "era": "1400s",
+      "note": "medical students' 'cadavers' date from the 1800s",
+      "meaning": "corpse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a corpse"
+}

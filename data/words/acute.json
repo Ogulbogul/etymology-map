@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "acutus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'acuere', to sharpen, the root of 'acumen'",
+      "meaning": "sharpened",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "acute",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'acute angle' dates from the 1500s; 'acute accent' from the 1600s",
+      "meaning": "sharp",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "severe; sharp; less than 90 degrees"
+}

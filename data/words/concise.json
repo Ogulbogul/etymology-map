@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "concisus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'concidere', to cut up",
+      "meaning": "cut off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "concise",
+      "lang": "English",
+      "era": "1590s",
+      "note": "the Concise Oxford Dictionary appeared in 1911",
+      "meaning": "brief",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "giving much information clearly in few words"
+}

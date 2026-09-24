@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "astronomia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'astron', star, plus 'nomos', law",
+      "meaning": "star arrangement",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "astronomie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'astronomia'",
+      "meaning": "astronomy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "astronomy",
+      "lang": "English",
+      "era": "1200s",
+      "note": "split from astrology in the 1600s",
+      "meaning": "study of stars",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of stars and planets"
+}

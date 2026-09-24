@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pax",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'peace' and 'pacify'",
+      "meaning": "peace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "apaisier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'a-' plus 'pais', peace",
+      "meaning": "to bring to peace",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "appease",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'appeasement' became a political term in the 1930s",
+      "meaning": "to pacify",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to pacify by giving in to demands"
+}

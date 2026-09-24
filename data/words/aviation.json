@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "avis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'aviary'",
+      "meaning": "bird",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aviation",
+      "lang": "French",
+      "era": "1800s",
+      "note": "coined by Guillaume de La Landelle in 1863",
+      "meaning": "aviation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aviation",
+      "lang": "English",
+      "era": "1866",
+      "note": "the Wright brothers flew in 1903",
+      "meaning": "flight",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the design and operation of aircraft"
+}

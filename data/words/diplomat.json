@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "diplōma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'diploun', to double: official documents were folded",
+      "meaning": "folded paper",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "diplomate",
+      "lang": "French",
+      "era": "1700s",
+      "note": "coined in French in the 1790s",
+      "meaning": "diplomat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "diplomat",
+      "lang": "English",
+      "era": "1810s",
+      "note": "'diplomatic' as tactful dates from the 1800s",
+      "meaning": "envoy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official representing a country abroad"
+}

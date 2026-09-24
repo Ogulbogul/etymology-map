@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "distinctus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'distinguere', to separate",
+      "meaning": "separated",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "distinct",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "distinct",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "distinct",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'distinctive' followed",
+      "meaning": "separate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "recognizably different"
+}

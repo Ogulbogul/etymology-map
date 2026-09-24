@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ultimus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "superlative of 'ulter', beyond",
+      "meaning": "last",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ultimatus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "completed, brought to an end",
+      "meaning": "final",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ultimate",
+      "lang": "English",
+      "era": "1650s",
+      "note": "'ultimate frisbee' dates from the 1960s",
+      "meaning": "last",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "being the best or most extreme; final"
+}

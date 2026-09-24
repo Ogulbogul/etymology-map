@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "adolescens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "present participle of 'adolescere', to grow up",
+      "meaning": "growing up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adolescent",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'adult' comes from the past participle of the same verb",
+      "meaning": "youth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young person developing into an adult"
+}

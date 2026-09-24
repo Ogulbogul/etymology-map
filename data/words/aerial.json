@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aerius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'aēr', air",
+      "meaning": "airy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aerial",
+      "lang": "English",
+      "era": "1600s",
+      "note": "radio 'aerials' date from the 1900s",
+      "meaning": "airy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "existing in the air; an antenna"
+}

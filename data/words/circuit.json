@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "circuitus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'circum', around, plus 'ire', to go",
+      "meaning": "a going around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circuit",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "judges travelled on circuit to hold courts",
+      "meaning": "circuit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "circuit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "electric 'circuits' date from the 1700s",
+      "meaning": "circular route",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a roughly circular route; a path for electric current"
+}

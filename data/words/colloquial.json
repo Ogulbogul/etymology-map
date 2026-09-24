@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "colloquium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'loqui', to speak",
+      "meaning": "conversation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colloquial",
+      "lang": "English",
+      "era": "1750s",
+      "note": "'colloquium' as a seminar dates from the 1800s",
+      "meaning": "conversational",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "used in ordinary conversation"
+}

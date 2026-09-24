@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "abhorrere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ab-', from, plus 'horrere', to bristle",
+      "meaning": "to shrink back in horror",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "abhorrer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "to abhor",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "abhor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'nature abhors a vacuum' comes from Aristotle via Latin",
+      "meaning": "to shrink from",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to regard with disgust"
+}

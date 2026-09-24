@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deterrere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'terrere', to frighten",
+      "meaning": "to frighten off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deter",
+      "lang": "English",
+      "era": "1570s",
+      "note": "'nuclear deterrent' dates from the 1950s",
+      "meaning": "to frighten off",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to discourage"
+}

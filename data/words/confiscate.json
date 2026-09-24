@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "confiscare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'fiscus', treasury, the root of 'fiscal'",
+      "meaning": "to seize for the treasury",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confiscate",
+      "lang": "English",
+      "era": "1550s",
+      "note": "'fiscus' was a basket for money",
+      "meaning": "to seize",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to take possession of by authority"
+}

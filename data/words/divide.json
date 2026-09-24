@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dividere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'dis-' plus a root meaning to separate",
+      "meaning": "to separate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "divide",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'divide and rule' translates Latin 'divide et impera'",
+      "meaning": "to separate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to separate into parts"
+}

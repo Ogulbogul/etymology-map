@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "unanimus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'unus', one, plus 'animus', mind",
+      "meaning": "of one mind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "unanimous",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'unanimity' is older, from the 1400s",
+      "meaning": "of one mind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fully in agreement"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "denuntiare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'nuntiare', to announce",
+      "meaning": "to announce officially",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "denoncier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to make known",
+      "meaning": "to proclaim",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "denounce",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'publicly condemn' dates from the 1600s",
+      "meaning": "to proclaim",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to publicly declare to be wrong"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "frons",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'frons': face to face",
+      "meaning": "forehead, front",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confronter",
+      "lang": "French",
+      "era": "1500s",
+      "note": "came via Medieval Latin 'confrontare'",
+      "meaning": "to confront",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "confront",
+      "lang": "English",
+      "era": "1560s",
+      "note": "'confrontation' followed",
+      "meaning": "to face",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to face up to"
+}

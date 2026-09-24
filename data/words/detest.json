@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "detestari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'testari', to witness",
+      "meaning": "to curse while calling the gods to witness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "detester",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "to detest",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "detest",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'detestable' is older, from the 1300s",
+      "meaning": "to hate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to dislike intensely"
+}

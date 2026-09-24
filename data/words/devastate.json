@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "devastare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'vastare', to lay waste",
+      "meaning": "to lay waste",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "devastate",
+      "lang": "English",
+      "era": "1630s",
+      "note": "emotional 'devastated' dates from the 1900s",
+      "meaning": "to lay waste",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to destroy; to overwhelm with grief"
+}

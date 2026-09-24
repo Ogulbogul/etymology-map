@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dignificare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "'dignus', worthy, plus 'facere', to make",
+      "meaning": "to make worthy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dignifier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "to dignify",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dignify",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'dignified' followed",
+      "meaning": "to honour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make something seem worthy"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "commissio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'committere', to entrust",
+      "meaning": "a bringing together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "commission",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an authority entrusted",
+      "meaning": "commission",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "commission",
+      "lang": "English",
+      "era": "1300s",
+      "note": "sales 'commissions' date from the 1700s",
+      "meaning": "authority",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instruction; a payment to an agent; a body of officials"
+}

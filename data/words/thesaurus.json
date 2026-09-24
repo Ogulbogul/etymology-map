@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "thēsauros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, the root of 'treasure'",
+      "meaning": "treasure, storehouse",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "thesaurus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Roman writers used it for a treasury or storehouse",
+      "meaning": "treasury",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "thesaurus",
+      "lang": "English",
+      "era": "1820s",
+      "note": "Roget's Thesaurus of 1852 fixed the sense 'book of synonyms'",
+      "meaning": "dictionary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a book of synonyms"
+}

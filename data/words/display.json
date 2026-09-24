@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "displicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'dis-' plus 'plicare', to fold",
+      "meaning": "to unfold",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "despleier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of banners",
+      "meaning": "to unfold",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "display",
+      "lang": "English",
+      "era": "1300s",
+      "note": "computer 'displays' date from the 1900s",
+      "meaning": "to unfold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to put on show"
+}

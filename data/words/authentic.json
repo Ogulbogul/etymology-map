@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "authentikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'authentēs', one who acts on his own authority",
+      "meaning": "original, genuine",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "autentique",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Late Latin 'authenticus'",
+      "meaning": "authoritative",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "authentic",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'genuine' dates from the 1600s",
+      "meaning": "authoritative",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "genuine"
+}

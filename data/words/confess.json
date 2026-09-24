@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "confiteri",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'fateri', to admit",
+      "meaning": "to acknowledge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "confesser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for religious confession",
+      "meaning": "to confess",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "confess",
+      "lang": "English",
+      "era": "1300s",
+      "note": "Augustine's 'Confessions' (c. 400) made it a word for spiritual memoirs",
+      "meaning": "to admit sins",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to admit a fault"
+}

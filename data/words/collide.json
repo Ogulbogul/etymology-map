@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "collidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'laedere', to strike",
+      "meaning": "to strike together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "collide",
+      "lang": "English",
+      "era": "1620s",
+      "note": "particle 'colliders' date from the 1900s",
+      "meaning": "to strike together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to hit something"
+}

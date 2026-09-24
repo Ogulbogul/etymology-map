@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "abdicare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ab-', away, plus 'dicare', to proclaim",
+      "meaning": "to disown",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "abdicate",
+      "lang": "English",
+      "era": "1540s",
+      "note": "Edward VIII's abdication in 1936 made it famous",
+      "meaning": "to disown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give up a throne"
+}

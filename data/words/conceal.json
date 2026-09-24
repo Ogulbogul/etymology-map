@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "concelare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'celare', to hide",
+      "meaning": "to hide",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conceler",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "to hide",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "conceal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'concealed carry' is 1900s American law",
+      "meaning": "to hide",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep from sight"
+}
