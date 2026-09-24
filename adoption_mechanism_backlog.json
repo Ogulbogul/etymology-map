@@ -12968,29 +12968,6 @@
       "current_note": "shortened and settled as the English word for the hooded venomous snake"
     }
   ],
-  "coca": [
-    {
-      "stop_index": 0,
-      "lang": "Quechua",
-      "word": "kuka",
-      "era": "pre-1500s",
-      "current_note": "the name for the plant whose leaves are chewed as a mild stimulant"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "coca",
-      "era": "1500s-1600s",
-      "current_note": "the Inca reserved coca for nobility and religious rites"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "coca",
-      "era": "1700s-1800s",
-      "current_note": "chewed by Andean workers to fight altitude sickness and fatigue"
-    }
-  ],
   "coda": [
     {
       "stop_index": 0,
@@ -16212,22 +16189,6 @@
       "current_note": "settled as the English word for a complicated twisting or coiling"
     }
   ],
-  "cooee": [
-    {
-      "stop_index": 0,
-      "lang": "Dharug",
-      "word": "guu-wi",
-      "era": "1700s",
-      "current_note": "a loud, far-carrying call used to attract attention across distance"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cooee",
-      "era": "1790s",
-      "current_note": "Dharug for 'come here'; used as a bush call across Australia"
-    }
-  ],
   "cooperate": [
     {
       "stop_index": 0,
@@ -16279,29 +16240,6 @@
       "word": "copper",
       "era": "1200s",
       "current_note": "settled as the modern English word for the metal"
-    }
-  ],
-  "copra": [
-    {
-      "stop_index": 0,
-      "lang": "Malayalam",
-      "word": "koppara",
-      "era": "medieval",
-      "current_note": "the dried coconut kernel"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Portuguese",
-      "word": "copra",
-      "era": "1500s-1600s",
-      "current_note": "Malayalam 'koppara', coconut"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "copra",
-      "era": "1600s-1700s",
-      "current_note": "copra oil became a mainstay of Pacific plantation economies in the 1800s"
     }
   ],
   "copy": [
@@ -18735,29 +18673,6 @@
       "current_note": "the adjective 'delicate, petite' grew out of the prized-titbit sense"
     }
   ],
-  "dal": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "dala",
-      "era": "ancient",
-      "current_note": "meaning \"split\", describing split pulses"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "dal",
-      "era": "medieval",
-      "current_note": "applied to split lentils and the dishes made from them"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dal",
-      "era": "1900s",
-      "current_note": "Sanskrit 'to split', since the lentils are split pulses"
-    }
-  ],
   "dalmatian": [
     {
       "stop_index": 0,
@@ -18896,29 +18811,6 @@
       "word": "dangle",
       "era": "1600s",
       "current_note": "settled as the English word for hanging loosely and swinging"
-    }
-  ],
-  "darshan": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "darshana",
-      "era": "ancient",
-      "current_note": "from a root meaning 'to see', denoting vision or sight"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "darshan",
-      "era": "medieval",
-      "current_note": "narrowed to mean the auspicious viewing of a deity or holy person"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "darshan",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English writing on Hindu religious practice"
     }
   ],
   "data": [
@@ -21160,22 +21052,6 @@
       "current_note": "'devout' and 'devotion' are older"
     }
   ],
-  "dhyana": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "dhyana",
-      "era": "ancient",
-      "current_note": "from a root meaning 'to think, contemplate'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dhyana",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English writing on yoga and Buddhist meditation"
-    }
-  ],
   "diabetes": [
     {
       "stop_index": 0,
@@ -21748,22 +21624,6 @@
       "word": "dilute",
       "era": "1550s",
       "current_note": "the chemical sense followed"
-    }
-  ],
-  "dim sum": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "dim sam",
-      "era": "medieval",
-      "current_note": "literally \"touch the heart\", small savory dishes served with tea"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dim sum",
-      "era": "1900s",
-      "current_note": "Cantonese 'touch the heart'; served with 'yum cha', drinking tea"
     }
   ],
   "diminish": [
@@ -22857,29 +22717,6 @@
       "current_note": "settled as the English word for revealing private or secret information"
     }
   ],
-  "diwali": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "dipavali",
-      "era": "ancient",
-      "current_note": "compound of 'light' and 'row, series'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "diwali",
-      "era": "medieval",
-      "current_note": "became the name of the festival of lights"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "Diwali",
-      "era": "20th c.",
-      "current_note": "adopted in English for the major Hindu, Jain, and Sikh festival"
-    }
-  ],
   "docile": [
     {
       "stop_index": 0,
@@ -23062,22 +22899,6 @@
       "word": "dogma",
       "era": "1600s",
       "current_note": "settled as the word for a firmly held belief accepted as authoritative"
-    }
-  ],
-  "dojo": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "do + jo",
-      "era": "medieval",
-      "current_note": "combining \"do\" (way) and \"jo\" (place), originally a Buddhist training hall"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dojo",
-      "era": "1900s",
-      "current_note": "Japanese 'place of the way', originally a hall for Buddhist meditation"
     }
   ],
   "dolma": [
@@ -24747,29 +24568,6 @@
       "current_note": "settled as the English word for a select, superior group"
     }
   ],
-  "elixir": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-iksir",
-      "era": "medieval",
-      "current_note": "a legendary substance alchemists sought to turn base metal into gold"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "elixir",
-      "era": "medieval",
-      "current_note": "Arabic 'al-iksir', from Greek 'xērion', a drying powder for wounds; alchemists sought an elixir of life"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "elixir",
-      "era": "1300s",
-      "current_note": "settled as the word for a magical or curative potion"
-    }
-  ],
   "ellipse": [
     {
       "stop_index": 0,
@@ -24800,29 +24598,6 @@
       "word": "eloquent",
       "era": "1400s",
       "current_note": "settled as the English word for fluent, persuasive speech"
-    }
-  ],
-  "elote": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "elotl",
-      "era": "pre-1500s",
-      "current_note": "named a tender, fresh ear of corn"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "elote",
-      "era": "1600s",
-      "current_note": "Mexican street vendors serve it with mayonnaise, cheese and chilli"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "elote",
-      "era": "2000s",
-      "current_note": "borrowed into English food culture as Mexican street corn grew popular"
     }
   ],
   "elude": [
@@ -25089,22 +24864,6 @@
       "current_note": "'eminent domain' is a legal term from the 1700s"
     }
   ],
-  "emir": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "amir",
-      "era": "medieval",
-      "current_note": "literally commander, a title for a Muslim ruler or military leader"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "emir",
-      "era": "1600s",
-      "current_note": "the same Arabic word gave 'admiral'; the United Arab Emirates take their name from it"
-    }
-  ],
   "emit": [
     {
       "stop_index": 0,
@@ -25119,22 +24878,6 @@
       "word": "emit",
       "era": "1620s",
       "current_note": "settled as the English word for sending out light, sound, gas, or other matter"
-    }
-  ],
-  "emoji": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "emoji",
-      "era": "1990s",
-      "current_note": "coined from \"e\" (picture) and \"moji\" (character), not from \"emotion\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "emoji",
-      "era": "2010s",
-      "current_note": "spread globally with smartphone keyboards"
     }
   ],
   "emotion": [
@@ -28413,22 +28156,6 @@
       "current_note": "replaced Old English 'geleafa'"
     }
   ],
-  "fakir": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "faqir",
-      "era": "medieval",
-      "current_note": "literally \"poor person\", from faqura (\"he was poor\"), describing an ascetic reliant on charity"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "fakir",
-      "era": "1610s",
-      "current_note": "Arabic 'poor man'; British writers applied it to Hindu yogis performing feats of endurance"
-    }
-  ],
   "falafel": [
     {
       "stop_index": 0,
@@ -28700,29 +28427,6 @@
       "current_note": "Arabic 'fatt', crumbs, from the toasted flatbread pieces"
     }
   ],
-  "fatwa": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "fata",
-      "era": "medieval",
-      "current_note": "meant \"to instruct by a legal decision\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "fetwa",
-      "era": "medieval",
-      "current_note": "named a formal ruling given by a mufti"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "fatwa",
-      "era": "1620s",
-      "current_note": "entered English legal and religious vocabulary; gained wide notoriety after the 1989 Rushdie affair"
-    }
-  ],
   "fault": [
     {
       "stop_index": 0,
@@ -28939,29 +28643,6 @@
       "current_note": "zoologists named the cat family Felidae"
     }
   ],
-  "fellah": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "falaha",
-      "era": "medieval",
-      "current_note": "meant \"to plow, to till the soil\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "fallah",
-      "era": "medieval",
-      "current_note": "named the peasant farmer who worked the land"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "fellah",
-      "era": "1743",
-      "current_note": "entered English through accounts of Egyptian rural life"
-    }
-  ],
   "fellow": [
     {
       "stop_index": 0,
@@ -28992,29 +28673,6 @@
       "word": "felony",
       "era": "1300s",
       "current_note": "settled as the English word for a serious criminal offense"
-    }
-  ],
-  "felucca": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "fulk",
-      "era": "medieval",
-      "current_note": "a general Arabic word for a boat or ship"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "feluca",
-      "era": "medieval",
-      "current_note": "adopted for the traditional Mediterranean sailing vessel"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "felucca",
-      "era": "1600s",
-      "current_note": "still used as sailing boats on the Nile at Aswan"
     }
   ],
   "female": [
@@ -29054,22 +28712,6 @@
       "word": "femur",
       "era": "1500s",
       "current_note": "Latin 'thigh'; the longest bone in the human body"
-    }
-  ],
-  "feng shui": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "feng + shui",
-      "era": "ancient",
-      "current_note": "combining \"feng\" (wind) and \"shui\" (water)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "feng shui",
-      "era": "1900s",
-      "current_note": "Chinese 'wind-water', from an ancient text on siting graves where energy flows"
     }
   ],
   "ferment": [
