@@ -628,36 +628,6 @@
       "current_note": "record 'albums' date from the 1900s"
     }
   ],
-  "alcohol": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-kuḥl",
-      "era": "medieval",
-      "current_note": "a fine powder of antimony used as eye makeup"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "alcohol",
-      "era": "c. 1500s",
-      "current_note": "scholars in Spain generalized it to mean any fine distilled essence"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "alcool",
-      "era": "c. 1600s",
-      "current_note": "narrowed to mean the spirit distilled from wine"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "alcohol",
-      "era": "c. 1700s",
-      "current_note": "settled on its modern chemical sense"
-    }
-  ],
   "alias": [
     {
       "stop_index": 0,
@@ -931,59 +901,6 @@
       "current_note": "Latin 'nourishing mother', once a title of goddesses such as Ceres and the Virgin Mary; Bologna's university motto calls itself 'alma mater studiorum'"
     }
   ],
-  "almanac": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-manakh",
-      "era": "medieval",
-      "current_note": "possibly referring to climate or a yearly calendar of the stars"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "almanachus",
-      "era": "medieval",
-      "current_note": "Roger Bacon used the word in the 1260s for astronomical tables; its Arabic origin is still debated"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "almanac",
-      "era": "medieval",
-      "current_note": "settled as the English word for an annual reference book"
-    }
-  ],
-  "alphabet": [
-    {
-      "stop_index": 0,
-      "lang": "Phoenician",
-      "word": "ʾālep, bēt",
-      "era": "ancient",
-      "current_note": "the first two letters, meaning ox and house; the Greek letters came from this script"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Greek",
-      "word": "alphabētos",
-      "era": "ancient",
-      "current_note": "joined the first two letters, alpha and beta"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Late Latin",
-      "word": "alphabetum",
-      "era": "ancient",
-      "current_note": "used by Christian writers such as Tertullian"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "alphabet",
-      "era": "1500s",
-      "current_note": "replaced the older English 'ABC'"
-    }
-  ],
   "altar": [
     {
       "stop_index": 0,
@@ -1094,22 +1011,6 @@
       "current_note": "settled as the word for any blended mixture"
     }
   ],
-  "amandla": [
-    {
-      "stop_index": 0,
-      "lang": "Zulu",
-      "word": "amandla",
-      "era": "1800s",
-      "current_note": "an everyday word for strength, shared with Xhosa amandla"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amandla",
-      "era": "1961",
-      "current_note": "used in the call-and-response 'Amandla! Awethu!', 'Power! It is ours!', at anti-apartheid rallies"
-    }
-  ],
   "amateur": [
     {
       "stop_index": 0,
@@ -1138,29 +1039,6 @@
       "word": "amateur",
       "era": "1780s",
       "current_note": "from the French for 'lover'; Victorian sport made the amateur, who competed unpaid, a social ideal"
-    }
-  ],
-  "amber": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "anbar",
-      "era": "medieval",
-      "current_note": "originally referring to ambergris, a whale-derived substance"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "ambre",
-      "era": "medieval",
-      "current_note": "the meaning shifted to include fossilized tree resin"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "amber",
-      "era": "medieval",
-      "current_note": "settled to mean the golden fossilized resin"
     }
   ],
   "ambition": [
@@ -1333,29 +1211,6 @@
       "current_note": "settled as the English word for something done in a friendly, cooperative way"
     }
   ],
-  "ammonia": [
-    {
-      "stop_index": 0,
-      "lang": "Egyptian",
-      "word": "Amun",
-      "era": "ancient",
-      "current_note": "name of the ram-headed god whose desert oracle-temple gave salt deposits nearby his name"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Ancient Greek",
-      "word": "Ammon",
-      "era": "ancient",
-      "current_note": "Greeks renamed the god Ammon and the salts mined near his Libyan temple after him"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ammonia",
-      "era": "1782",
-      "current_note": "coined in scientific Latin by chemist Torbern Bergman for the pungent gas from sal ammoniac"
-    }
-  ],
   "ammunition": [
     {
       "stop_index": 0,
@@ -1409,22 +1264,6 @@
       "word": "amnesty",
       "era": "1570s",
       "current_note": "settled as the English word for an official pardon for past offenses"
-    }
-  ],
-  "amok": [
-    {
-      "stop_index": 0,
-      "lang": "Malay",
-      "word": "amuk",
-      "era": "medieval",
-      "current_note": "describing a state of murderous frenzy"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amok",
-      "era": "1600s-1700s",
-      "current_note": "Portuguese and later British accounts of Malay warriors running frenzied through crowds made 'run amok' a set phrase"
     }
   ],
   "amortize": [
@@ -1521,22 +1360,6 @@
       "current_note": "settled as the medical word for surgically removing a limb"
     }
   ],
-  "amrita": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "amrita",
-      "era": "ancient",
-      "current_note": "compound of 'not' and 'dead', meaning 'immortal, deathless'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amrita",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English writing on Hindu mythology and philosophy"
-    }
-  ],
   "amuse": [
     {
       "stop_index": 0,
@@ -1574,22 +1397,6 @@
       "word": "analysis",
       "era": "1580s",
       "current_note": "'psychoanalysis' dates from the 1900s"
-    }
-  ],
-  "anansi": [
-    {
-      "stop_index": 0,
-      "lang": "Akan (Twi)",
-      "word": "ananse",
-      "era": "1700s",
-      "current_note": "the Twi word simply means \"spider\", first recorded around 1700-1710 as the name of the trickster figure"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "Anansi",
-      "era": "1700s-1800s",
-      "current_note": "carried to the Caribbean with enslaved Akan people and kept as the name of the spider trickster in Jamaican and wider English folklore"
     }
   ],
   "anarchy": [
@@ -1789,52 +1596,6 @@
       "current_note": "used of both body and mind"
     }
   ],
-  "anime": [
-    {
-      "stop_index": 0,
-      "lang": "English",
-      "word": "animation",
-      "era": "1800s-1900s",
-      "current_note": "the general term for the art of moving drawings"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Japanese",
-      "word": "anime",
-      "era": "1900s",
-      "current_note": "borrowed and clipped from English \"animation\""
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "anime",
-      "era": "1980s-1990s",
-      "current_note": "re-borrowed into English with a narrower meaning"
-    }
-  ],
-  "anna": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "anna",
-      "era": "ancient",
-      "current_note": "meant 'food, grain'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "ana",
-      "era": "medieval",
-      "current_note": "became the name of a small coin, one-sixteenth of a rupee"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "anna",
-      "era": "1720s",
-      "current_note": "British India adopted the term for the currency subunit"
-    }
-  ],
   "annex": [
     {
       "stop_index": 0,
@@ -1957,22 +1718,6 @@
       "word": "anonymous",
       "era": "1600s",
       "current_note": "'Anonymous' as a signature dates from the 1600s"
-    }
-  ],
-  "anorak": [
-    {
-      "stop_index": 0,
-      "lang": "Greenlandic Inuit",
-      "word": "anoraq",
-      "era": "ancient",
-      "current_note": "a hooded, weatherproof outer garment"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "anorak",
-      "era": "1920s",
-      "current_note": "British 'anorak' for an obsessive hobbyist comes from trainspotters' typical jacket"
     }
   ],
   "antagonist": [
@@ -2218,45 +1963,6 @@
       "word": "anxious",
       "era": "1620s",
       "current_note": "'anxiety' followed"
-    }
-  ],
-  "ao dai": [
-    {
-      "stop_index": 0,
-      "lang": "Vietnamese",
-      "word": "áo dài",
-      "era": "18th century",
-      "current_note": "literally 'long shirt', a fitted tunic worn over trousers that evolved into Vietnam's national dress"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ao dai",
-      "era": "mid-1900s",
-      "current_note": "the modern fitted form was designed in the 1930s by the Hanoi artist Cát Tường"
-    }
-  ],
-  "apartheid": [
-    {
-      "stop_index": 0,
-      "lang": "Afrikaans/Dutch",
-      "word": "apart",
-      "era": "medieval",
-      "current_note": "meaning \"separate\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Afrikaans",
-      "word": "apartheid",
-      "era": "1900s",
-      "current_note": "literally \"separateness\", the name of South Africa's system of racial segregation"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "apartheid",
-      "era": "1900s",
-      "current_note": "the policy was made law after the National Party's 1948 election victory"
     }
   ],
   "apathy": [
@@ -2629,36 +2335,6 @@
       "word": "aquarium",
       "era": "1830s",
       "current_note": "first used for a pond or tank for water plants"
-    }
-  ],
-  "arabesque": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "'arab",
-      "era": "ancient",
-      "current_note": "the people's own name for themselves"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "arabesco",
-      "era": "1500s",
-      "current_note": "coined to describe flowing Moorish and Islamic decorative patterns"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "arabesque",
-      "era": "1500s",
-      "current_note": "adapted from Italian art criticism"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "arabesque",
-      "era": "1786",
-      "current_note": "later extended to a musical passage (1853) and a ballet pose (1830)"
     }
   ],
   "arachnid": [
@@ -3495,36 +3171,6 @@
       "current_note": "settled as the English word for an object made with human skill"
     }
   ],
-  "aryan": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "arya",
-      "era": "ancient",
-      "current_note": "an ethno-cultural self-designation meaning roughly 'noble, of good family'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old Persian",
-      "word": "ariya",
-      "era": "ancient",
-      "current_note": "the related Iranian self-designation, source of the name 'Iran'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "German",
-      "word": "Arier",
-      "era": "1819",
-      "current_note": "philologist Friedrich Schlegel linked the word to Indo-European studies"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "Aryan",
-      "era": "1839",
-      "current_note": "Max Müller popularized it as a language term; Nazi racial ideology later misused it"
-    }
-  ],
   "asana": [
     {
       "stop_index": 0,
@@ -3587,22 +3233,6 @@
       "word": "ascribe",
       "era": "1400s",
       "current_note": "settled as the English word for attributing something to a cause or source"
-    }
-  ],
-  "ashram": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "ashrama",
-      "era": "ancient",
-      "current_note": "a hermitage or spiritual retreat"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ashram",
-      "era": "1900s",
-      "current_note": "Gandhi's Sabarmati Ashram, founded in 1917, made the word known worldwide"
     }
   ],
   "asooke": [
@@ -4078,38 +3708,6 @@
       "current_note": "adopted for any bound book of maps"
     }
   ],
-  "atlatl": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "ahtlatl",
-      "era": "pre-1500s",
-      "current_note": "named for the wooden spear-throwing device"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "atlatl",
-      "era": "1870s",
-      "current_note": "the Aztecs used the spear-thrower against Spanish armour; archaeologists found examples worldwide"
-    }
-  ],
-  "atman": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "atman",
-      "era": "ancient",
-      "current_note": "meant 'breath, soul, self', properly 'breath'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "atman",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English writing on Hindu philosophy"
-    }
-  ],
   "atole": [
     {
       "stop_index": 0,
@@ -4131,22 +3729,6 @@
       "word": "atole",
       "era": "1710s-1720s",
       "current_note": "borrowed into English through accounts of Mexican cuisine"
-    }
-  ],
-  "atoll": [
-    {
-      "stop_index": 0,
-      "lang": "Dhivehi",
-      "word": "atolu",
-      "era": "medieval",
-      "current_note": "the Maldivian word for a ring-shaped coral formation"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "atoll",
-      "era": "1600s-1800s",
-      "current_note": "the Maldivian word 'atolhu' entered English through Charles Darwin's 1842 study of coral reefs"
     }
   ],
   "atom": [
@@ -4856,22 +4438,6 @@
       "current_note": "likely from Dutch 'hou' vast', hold fast"
     }
   ],
-  "avatar": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "avatara",
-      "era": "ancient",
-      "current_note": "literally \"descent\", the earthly incarnation of a deity"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "avatar",
-      "era": "1700s-1800s",
-      "current_note": "a descent of a Hindu god, especially Vishnu, to Earth; computer 'avatars' date from the 1980s"
-    }
-  ],
   "avenge": [
     {
       "stop_index": 0,
@@ -5081,22 +4647,6 @@
       "current_note": "settled as the word for a statement accepted as self-evidently true"
     }
   ],
-  "axolotl": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "axolotl",
-      "era": "pre-1500s",
-      "current_note": "possibly meaning \"water monster\" or \"water dog\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "axolotl",
-      "era": "1800s",
-      "current_note": "Nahuatl 'water monster'; it survives wild only in the lake canals of Xochimilco near Mexico City"
-    }
-  ],
   "ayahuasca": [
     {
       "stop_index": 0,
@@ -5143,29 +4693,6 @@
       "current_note": "entered English through reporting on Iranian religious and political leaders"
     }
   ],
-  "aye-aye": [
-    {
-      "stop_index": 0,
-      "lang": "Malagasy",
-      "word": "hai-hai",
-      "era": "long-standing",
-      "current_note": "Malagasy communities traditionally avoided naming this feared, taboo nocturnal animal directly"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "aye-aye",
-      "era": "1780s",
-      "current_note": "French naturalist Sonnerat recorded the Malagasy name while cataloguing Madagascar's wildlife"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "aye-aye",
-      "era": "1800s",
-      "current_note": "entered English zoological vocabulary alongside French natural-history accounts"
-    }
-  ],
   "ayurveda": [
     {
       "stop_index": 0,
@@ -5187,29 +4714,6 @@
       "word": "Ayurveda",
       "era": "19th-20th c.",
       "current_note": "the compound was adopted whole as the name for the traditional Indian system of medicine"
-    }
-  ],
-  "azure": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "lazhward",
-      "era": "medieval",
-      "current_note": "the name of a region famous for its deep-blue lapis lazuli stone"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "azur",
-      "era": "medieval",
-      "current_note": "carried through Arabic and French for the vivid blue color and pigment"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "azure",
-      "era": "1300s",
-      "current_note": "settled as the English word for a bright blue color"
     }
   ],
   "baba ghanoush": [
@@ -5272,22 +4776,6 @@
       "word": "babouche",
       "era": "1690s",
       "current_note": "entered English describing the soft Middle Eastern slipper"
-    }
-  ],
-  "babushka": [
-    {
-      "stop_index": 0,
-      "lang": "Russian",
-      "word": "babushka",
-      "era": "1800s",
-      "current_note": "literally little grandmother, also the headscarf grandmothers typically wore"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "babushka",
-      "era": "1930s",
-      "current_note": "settled as the word for the triangular headscarf"
     }
   ],
   "bacon": [
