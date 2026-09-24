@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "futilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a vessel that pours out easily, from 'fundere', to pour",
+      "meaning": "leaky",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "futile",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "vain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "futile",
+      "lang": "English",
+      "era": "1550s",
+      "note": "'futility' dates from the 1600s",
+      "meaning": "leaky; useless",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "pointless"
+}

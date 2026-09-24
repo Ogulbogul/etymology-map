@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "humidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'humere', to be moist",
+      "meaning": "moist",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "humid",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'humidity' dates from the 1300s",
+      "meaning": "moist",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "damp and warm"
+}

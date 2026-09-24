@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lucidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'lux', light",
+      "meaning": "bright, clear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lucid",
+      "lang": "English",
+      "era": "1590s",
+      "note": "'lucid dreaming' dates from the 1900s",
+      "meaning": "bright",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clear and easy to understand"
+}

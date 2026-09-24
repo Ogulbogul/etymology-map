@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "camera",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'chamber'",
+      "meaning": "room, chamber",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "camarada",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "a group sharing a room, especially soldiers in barracks; came via French 'camarade'",
+      "meaning": "roommate, fellow soldier",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "comrade",
+      "lang": "English",
+      "era": "1590s",
+      "note": "the socialist form of address dates from the 1880s",
+      "meaning": "companion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a companion who shares one's activities"
+}

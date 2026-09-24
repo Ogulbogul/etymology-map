@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dubius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'duo', two: of two minds, the root of 'doubt'",
+      "meaning": "wavering",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dubious",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'dubious honour' dates from the 1800s",
+      "meaning": "doubtful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "hesitating or doubting; suspect"
+}

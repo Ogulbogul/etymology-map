@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "saliva",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly related to 'sal', salt",
+      "meaning": "spit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "saliva",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'salivate' dates from the 1600s",
+      "meaning": "spit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "spit"
+}

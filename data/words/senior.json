@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "senior",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "comparative of 'senex', old, the root of 'senate'",
+      "meaning": "older",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "senior",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'senior citizen' dates from the 1930s",
+      "meaning": "older",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "older; higher in rank"
+}

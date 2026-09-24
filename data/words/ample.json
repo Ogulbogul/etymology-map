@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "amplus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'amplify'",
+      "meaning": "large, spacious",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ample",
+      "lang": "English",
+      "era": "1400s",
+      "note": "came into English through French 'ample'",
+      "meaning": "spacious",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "enough or more than enough"
+}

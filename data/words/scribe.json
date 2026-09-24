@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "scriba",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'scribere', to write",
+      "meaning": "writer, clerk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scribe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "medieval monks copied manuscripts",
+      "meaning": "scribe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scribe",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'scribble' comes from the same root",
+      "meaning": "copyist",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who copies documents"
+}

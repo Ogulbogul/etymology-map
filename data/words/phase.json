@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phasis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'phainein', to show: the moon's appearances",
+      "meaning": "appearance",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phase",
+      "lang": "English",
+      "era": "1810s",
+      "note": "general 'phases' of development date from the 1800s",
+      "meaning": "lunar phase",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stage in a process"
+}

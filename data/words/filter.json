@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "filtir",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word; felt was used to strain liquids",
+      "meaning": "felt",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "filtre",
+      "lang": "French",
+      "era": "1500s",
+      "note": "came via Medieval Latin 'filtrum'",
+      "meaning": "felt, strainer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "filter",
+      "lang": "English",
+      "era": "1560s",
+      "note": "photo 'filters' date from the 1900s; social media filters from the 2010s",
+      "meaning": "strainer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device that removes impurities"
+}

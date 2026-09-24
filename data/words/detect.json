@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "detectus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'detegere', to uncover: 'de-' plus 'tegere', to cover",
+      "meaning": "uncovered",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "detect",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'detective' dates from the 1840s",
+      "meaning": "to uncover",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to discover the presence of"
+}

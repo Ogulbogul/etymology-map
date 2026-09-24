@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "facultas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'facilis', easy, the root of 'facility'",
+      "meaning": "ability",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "faculté",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the medieval university's faculties of arts, law and medicine",
+      "meaning": "ability; branch of learning",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "faculty",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the teaching staff sense is American, from the 1800s",
+      "meaning": "ability; branch of learning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an inherent ability; teaching staff"
+}

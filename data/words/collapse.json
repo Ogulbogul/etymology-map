@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "collapsus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'collabi', to fall together",
+      "meaning": "fallen together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "collapse",
+      "lang": "English",
+      "era": "1730s",
+      "note": "first a medical term for a sudden failure of strength",
+      "meaning": "to fall together",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fall down suddenly"
+}

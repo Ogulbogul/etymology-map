@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "decidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-', off, plus 'caedere', to cut: to cut off debate",
+      "meaning": "to cut off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decider",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a legal term for settling a dispute",
+      "meaning": "to decide",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "decide",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'decisive' followed",
+      "meaning": "to settle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make a choice"
+}

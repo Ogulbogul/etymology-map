@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tropikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'tropē', turning: the sun turns back at the solstice",
+      "meaning": "of the turning",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tropique",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'tropicus'",
+      "meaning": "tropic",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tropic",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the 'tropics' as a hot region date from the 1500s",
+      "meaning": "solstice line",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of two lines of latitude around the equator"
+}

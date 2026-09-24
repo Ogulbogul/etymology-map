@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "declinare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'clinare', to lean",
+      "meaning": "to bend aside",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decliner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also grammatical declension",
+      "meaning": "to turn aside",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "decline",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'politely refuse' dates from the 1600s",
+      "meaning": "to sink; to turn aside",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to become smaller; to refuse politely"
+}

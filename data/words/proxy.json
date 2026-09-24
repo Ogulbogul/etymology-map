@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "procuratio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'procurare', to take care of",
+      "meaning": "management",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "procuracie",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "an Anglo-French contraction",
+      "meaning": "power of attorney",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "proxy",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'proxy war' dates from the 1950s",
+      "meaning": "agent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the authority to act for another"
+}

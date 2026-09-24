@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cavitas",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'cavus', hollow",
+      "meaning": "hollowness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cavity",
+      "lang": "English",
+      "era": "1540s",
+      "note": "dental 'cavities' date from the 1800s",
+      "meaning": "hollow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hollow space"
+}

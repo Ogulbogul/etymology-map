@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "erodere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'e-' plus 'rodere', to gnaw, the root of 'rodent'",
+      "meaning": "to gnaw away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "erode",
+      "lang": "English",
+      "era": "1610s",
+      "note": "geological 'erosion' dates from the 1800s",
+      "meaning": "to eat away",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to gradually wear away"
+}

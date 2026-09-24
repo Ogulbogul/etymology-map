@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fungus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from Greek 'spongos', sponge",
+      "meaning": "mushroom",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fungus",
+      "lang": "English",
+      "era": "1520s",
+      "note": "the plural 'fungi' keeps the Latin form",
+      "meaning": "mushroom",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spore-producing organism such as a mushroom"
+}

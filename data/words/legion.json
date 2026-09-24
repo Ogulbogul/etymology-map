@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "legio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'legere', to choose or gather",
+      "meaning": "levy of troops",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "legion",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a Roman army unit of about 5,000 men",
+      "meaning": "legion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "legion",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'legion' for 'very many' comes from the Gospel demon who said 'my name is Legion'",
+      "meaning": "army unit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large military unit; a great number"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "adultus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'adolescere', to grow up, the root of 'adolescent'",
+      "meaning": "grown up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "adult",
+      "lang": "English",
+      "era": "1530s",
+      "note": "'adult' as a euphemism for sexual content dates from the 1950s",
+      "meaning": "grown up",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fully grown person"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "summum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'summus', highest",
+      "meaning": "highest point",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "somete",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a diminutive of 'som', top",
+      "meaning": "top",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "summit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "political 'summits' date from the 1950s",
+      "meaning": "top",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the highest point; a meeting of leaders"
+}

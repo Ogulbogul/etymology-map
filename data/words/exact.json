@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "exigere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'agere', to drive",
+      "meaning": "to drive out, demand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exactus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'exigere', weighed out exactly",
+      "meaning": "precisely weighed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exact",
+      "lang": "English",
+      "era": "1530s",
+      "note": "to 'exact' revenge keeps the 'demand' sense",
+      "meaning": "precise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "precise; to demand"
+}

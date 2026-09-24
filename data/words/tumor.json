@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tumor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tumere', to swell",
+      "meaning": "swelling",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tumor",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'tumescent' shares the root",
+      "meaning": "swelling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a swelling caused by abnormal growth"
+}

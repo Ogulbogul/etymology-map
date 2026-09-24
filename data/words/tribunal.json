@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tribunal",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tribunus', the tribune who judged cases",
+      "meaning": "judge's platform",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tribunal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "war crimes 'tribunals' date from the 1940s",
+      "meaning": "judgement seat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a court of justice"
+}

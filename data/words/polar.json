@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "polaris",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'polus', pole, from Greek 'polos', axis",
+      "meaning": "of the poles",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "polar",
+      "lang": "English",
+      "era": "1550s",
+      "note": "'polar bear' dates from the 1780s",
+      "meaning": "of the poles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the North or South Pole"
+}

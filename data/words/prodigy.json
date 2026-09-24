@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prodigium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a sign of future events",
+      "meaning": "omen, portent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prodigy",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'child prodigy' dates from the 1800s",
+      "meaning": "omen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person with exceptional abilities"
+}

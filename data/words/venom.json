@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "venenum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'Venus', originally a love potion",
+      "meaning": "poison, love potion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "venim",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "snake venom",
+      "meaning": "poison",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "venom",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'venomous' followed",
+      "meaning": "poison",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "poison secreted by animals"
+}

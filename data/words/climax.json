@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "klimax",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'klinein', to slope",
+      "meaning": "ladder",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "climax",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a figure of speech where ideas rise in intensity, like rungs of a ladder",
+      "meaning": "rhetorical ascent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "climax",
+      "lang": "English",
+      "era": "1580s",
+      "note": "the sense 'highest point' dates from the 1700s",
+      "meaning": "rhetorical figure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the most intense point"
+}

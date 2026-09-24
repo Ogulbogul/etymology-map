@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dies mali",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "two days each month marked unlucky in medieval calendars",
+      "meaning": "evil days",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dis mal",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "the 'Egyptian days' of misfortune",
+      "meaning": "unlucky days",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "dismal",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the sense 'gloomy' dates from the 1500s",
+      "meaning": "unlucky days",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "depressing; dreary"
+}

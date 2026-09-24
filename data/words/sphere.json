@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sphaira",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, a ball or globe",
+      "meaning": "ball",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "espere",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'sphaera'",
+      "meaning": "globe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sphere",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'sphere of influence' dates from the 1800s",
+      "meaning": "celestial globe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a round solid figure; an area of activity"
+}

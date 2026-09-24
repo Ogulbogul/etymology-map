@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "splendidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'splendere', to shine",
+      "meaning": "shining, brilliant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "splendid",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'splendid isolation' was a British policy slogan of the 1890s",
+      "meaning": "brilliant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "magnificent; excellent"
+}

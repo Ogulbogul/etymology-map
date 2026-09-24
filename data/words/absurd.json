@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "absurdus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ab-', off, plus 'surdus', deaf or muffled: a jarring sound",
+      "meaning": "out of tune",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "absurde",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "absurd",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "absurd",
+      "lang": "English",
+      "era": "1550s",
+      "note": "the 'Theatre of the Absurd' dates from the 1960s",
+      "meaning": "unreasonable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "wildly unreasonable or illogical"
+}

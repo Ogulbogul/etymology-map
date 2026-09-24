@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "asserere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'serere', to join",
+      "meaning": "to claim, join to oneself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "assert",
+      "lang": "English",
+      "era": "1600s",
+      "note": "first meant to claim or free someone at law; 'assertion' is recorded earlier, from the 1400s",
+      "meaning": "to declare",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to state confidently"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "perire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'per-', through, plus 'ire', to go",
+      "meaning": "to pass away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "perir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "its stem 'periss-' gave the English form",
+      "meaning": "to perish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "perish",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'perishable' food dates from the 1600s",
+      "meaning": "to die",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to die; to rot"
+}

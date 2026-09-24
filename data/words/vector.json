@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vector",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'vehere', to carry, the root of 'vehicle'",
+      "meaning": "carrier",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vector",
+      "lang": "English",
+      "era": "1700s",
+      "note": "mathematical vectors date from the 1840s; disease vectors from the 1900s",
+      "meaning": "carrier",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quantity with direction; a disease carrier"
+}

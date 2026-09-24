@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "symptōma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'sympiptein', to fall together",
+      "meaning": "occurrence, chance",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "symptom",
+      "lang": "English",
+      "era": "1540s",
+      "note": "came via Late Latin 'symptoma'",
+      "meaning": "sign of disease",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a physical sign of illness"
+}

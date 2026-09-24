@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hybrida",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "offspring of a tame sow and wild boar, possibly influenced by Greek 'hybris'",
+      "meaning": "mongrel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hybrid",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'hybrid' cars date from the 1990s",
+      "meaning": "crossbreed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the offspring of two different species"
+}

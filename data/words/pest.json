@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pestis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a deadly disease",
+      "meaning": "plague",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "peste",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "plague",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pest",
+      "lang": "English",
+      "era": "1550s",
+      "note": "the sense 'annoying creature' dates from the 1600s",
+      "meaning": "plague",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a destructive insect or animal; an annoying person"
+}

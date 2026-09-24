@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "acidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'acere', to be sour, the root of 'acerbic'",
+      "meaning": "sour",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "acid",
+      "lang": "English",
+      "era": "1620s",
+      "note": "the chemical sense dates from the 1600s; 'acid' as LSD from the 1960s",
+      "meaning": "sour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sour, corrosive chemical substance"
+}

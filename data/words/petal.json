@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "petalon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'petalos', spread out",
+      "meaning": "leaf",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "petal",
+      "lang": "English",
+      "era": "1720s",
+      "note": "coined in botanical Latin as 'petalum'",
+      "meaning": "flower leaf",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a coloured part of a flower"
+}

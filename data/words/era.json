@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aera",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "plural of 'aes', copper or brass: the number counted with copper counters, then a fixed date",
+      "meaning": "counters for calculation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "era",
+      "lang": "English",
+      "era": "1610s",
+      "note": "the Spanish 'era' dating system used 38 BC as its start",
+      "meaning": "epoch",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long and distinct period of history"
+}

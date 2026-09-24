@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "divinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'divus', god",
+      "meaning": "of a god",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "devin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "relating to God",
+      "meaning": "divine",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "divine",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'divine' as 'delightful' dates from the 1500s",
+      "meaning": "godly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to God; excellent"
+}

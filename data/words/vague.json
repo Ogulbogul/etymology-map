@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vagus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'vagrant' and 'vagabond'",
+      "meaning": "wandering",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vague",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "vague",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vague",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'vague' as absent-minded dates from the 1800s",
+      "meaning": "uncertain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unclear; uncertain"
+}
