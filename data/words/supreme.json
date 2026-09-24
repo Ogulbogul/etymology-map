@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "supremus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "superlative of 'superus', above",
+      "meaning": "highest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "suprême",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "supreme",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "supreme",
+      "lang": "English",
+      "era": "1520s",
+      "note": "the US Supreme Court dates from 1789",
+      "meaning": "highest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "highest in rank"
+}

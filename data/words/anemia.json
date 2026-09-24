@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "anaimia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'an-', without, plus 'haima', blood",
+      "meaning": "lack of blood",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "anemia",
+      "lang": "English",
+      "era": "1820s",
+      "note": "coined in modern medical Latin",
+      "meaning": "lack of blood",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a shortage of red blood cells"
+}

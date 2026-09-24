@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tornare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'turn'",
+      "meaning": "to turn",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "entourage",
+      "lang": "French",
+      "era": "1800s",
+      "note": "from 'entourer', to surround",
+      "meaning": "surroundings",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "entourage",
+      "lang": "English",
+      "era": "1830s",
+      "note": "the sense 'group of attendants' dates from the 1800s",
+      "meaning": "surroundings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of people attending an important person"
+}

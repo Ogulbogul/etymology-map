@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "syllabē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'syn', together, plus 'lambanein', to take",
+      "meaning": "what is held together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sillabe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Anglo-French added an extra 'l' to the older 'sillabe'",
+      "meaning": "syllable",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "syllable",
+      "lang": "English",
+      "era": "1300s",
+      "note": "used by grammarians for each beat of a spoken word",
+      "meaning": "syllable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a unit of pronunciation"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "recens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly related to Greek 'kainos', new",
+      "meaning": "fresh, new",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "recent",
+      "lang": "English",
+      "era": "1530s",
+      "note": "came into English through French 'récent'",
+      "meaning": "fresh",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having happened not long ago"
+}

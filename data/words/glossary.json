@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "glōssa",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek; a 'gloss' explained a difficult word",
+      "meaning": "tongue, obscure word",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "glossary",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came via Latin 'glossarium'",
+      "meaning": "list of hard words",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an alphabetical list of terms with definitions"
+}

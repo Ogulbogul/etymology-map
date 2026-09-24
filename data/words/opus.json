@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "opus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'opera' and 'operate'",
+      "meaning": "work",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "opus",
+      "lang": "English",
+      "era": "1800s",
+      "note": "'magnum opus' means great work",
+      "meaning": "musical work",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a musical composition"
+}

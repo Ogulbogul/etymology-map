@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'pendulum'",
+      "meaning": "to hang",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pendant",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "present participle of 'pendre'",
+      "meaning": "hanging",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pendant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "jewellery 'pendants' followed",
+      "meaning": "hanging ornament",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of jewellery hanging from a chain"
+}

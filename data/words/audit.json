@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "auditus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'audire', to hear: accounts were read aloud to be checked",
+      "meaning": "a hearing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audit",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "used for hearing and checking accounts read aloud",
+      "meaning": "hearing",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "audit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the university sense 'audit a class' is American, from the 1900s",
+      "meaning": "examination of accounts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official inspection of accounts"
+}

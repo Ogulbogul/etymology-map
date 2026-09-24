@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tekhnē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, the root of 'technology'",
+      "meaning": "art, skill",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "technique",
+      "lang": "French",
+      "era": "1700s",
+      "note": "coined in French from 'technikos'",
+      "meaning": "technique",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "technique",
+      "lang": "English",
+      "era": "1817",
+      "note": "'technical' dates from the 1600s",
+      "meaning": "method of performance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a way of carrying out a task"
+}

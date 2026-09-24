@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "conflictus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'confligere', to strike together",
+      "meaning": "a striking together",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conflict",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'conflict of interest' dates from the 1700s",
+      "meaning": "fight",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a serious disagreement"
+}

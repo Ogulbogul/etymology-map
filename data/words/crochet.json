@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "krok",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a Norse word, the root of 'crook'",
+      "meaning": "hook",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "crochet",
+      "lang": "French",
+      "era": "1800s",
+      "note": "a diminutive of 'croc', hook",
+      "meaning": "small hook",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crochet",
+      "lang": "English",
+      "era": "1840s",
+      "note": "crochet spread as a Victorian craft",
+      "meaning": "hooked needlework",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "needlework using a hooked needle"
+}

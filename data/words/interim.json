@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "interim",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'inter', between",
+      "meaning": "meanwhile",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "interim",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'interim report' dates from the 1800s",
+      "meaning": "meanwhile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "temporary; the meantime"
+}

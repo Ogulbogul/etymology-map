@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aristokratia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'aristos', best, plus 'kratos', power",
+      "meaning": "rule of the best",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "aristocrate",
+      "lang": "French",
+      "era": "1700s",
+      "note": "coined during the French Revolution for nobles",
+      "meaning": "aristocrat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aristocrat",
+      "lang": "English",
+      "era": "1789",
+      "note": "'aristocracy' was borrowed much earlier, in the 1500s",
+      "meaning": "noble",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a member of the nobility"
+}

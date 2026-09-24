@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "edictum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'e-', out, plus 'dicere', to say",
+      "meaning": "proclamation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "edit",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a royal decree",
+      "meaning": "decree",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "edict",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the Edict of Nantes of 1598 granted religious toleration",
+      "meaning": "decree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official order"
+}

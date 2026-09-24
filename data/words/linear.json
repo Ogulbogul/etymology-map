@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "linearis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'linea', line",
+      "meaning": "of lines",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "linear",
+      "lang": "English",
+      "era": "1640s",
+      "note": "'linear' thinking dates from the 1900s",
+      "meaning": "of lines",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "arranged in a straight line"
+}

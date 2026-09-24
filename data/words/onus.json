@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "onus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to Sanskrit 'anas', cart",
+      "meaning": "burden",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "onus",
+      "lang": "English",
+      "era": "1640s",
+      "note": "'onus of proof' is a legal phrase",
+      "meaning": "burden",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a duty or responsibility"
+}

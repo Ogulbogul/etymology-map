@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "arkheia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'arkhē', government",
+      "meaning": "public records",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "archif",
+      "lang": "French",
+      "era": "1600s",
+      "note": "came via Latin 'archivum'",
+      "meaning": "records",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "archive",
+      "lang": "English",
+      "era": "1600s",
+      "note": "computer 'archives' date from the 1960s",
+      "meaning": "record office",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of historical records"
+}

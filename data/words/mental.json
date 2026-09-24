@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mentalis",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'mens', mind",
+      "meaning": "of the mind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mental",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'go mental' is 1920s British slang",
+      "meaning": "of the mind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the mind"
+}

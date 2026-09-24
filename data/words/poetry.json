@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "poiētria",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek 'poiētēs', maker, the root of 'poet'",
+      "meaning": "poetess",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "poeterie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Medieval Latin 'poetria'",
+      "meaning": "poetry",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "poetry",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'poetic justice' dates from the 1600s",
+      "meaning": "poetry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "literary work in verse"
+}

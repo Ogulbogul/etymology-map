@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "crux",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'crucifix' and 'crusade'",
+      "meaning": "cross",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "crucial",
+      "lang": "French",
+      "era": "1700s",
+      "note": "Francis Bacon's 'instantia crucis', a crossroads test, gave the sense 'decisive'",
+      "meaning": "cross-shaped",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crucial",
+      "lang": "English",
+      "era": "1830s",
+      "note": "'crucial' as 'very important' dates from the 1900s",
+      "meaning": "decisive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "decisive; critical"
+}

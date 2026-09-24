@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rapidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'rapere', to seize, the root of 'rapture'",
+      "meaning": "tearing away, swift",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rapide",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a learned borrowing",
+      "meaning": "swift",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rapid",
+      "lang": "English",
+      "era": "1630s",
+      "note": "river 'rapids' date from the 1760s",
+      "meaning": "swift",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "happening quickly"
+}

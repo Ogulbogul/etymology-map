@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stigma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'stizein', to prick: a mark burned on slaves",
+      "meaning": "mark, brand",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "stigma",
+      "lang": "English",
+      "era": "1590s",
+      "note": "religious 'stigmata' date from the 1600s",
+      "meaning": "brand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mark of disgrace"
+}

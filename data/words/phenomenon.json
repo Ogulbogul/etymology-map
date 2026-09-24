@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phainomenon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'phainein', to show",
+      "meaning": "thing appearing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phenomenon",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'phenomenal' as 'amazing' dates from the 1800s",
+      "meaning": "observable fact",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fact or event that is observed"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "excitare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'citare', to set in motion",
+      "meaning": "to rouse, call out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exciter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "to rouse",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "excite",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'exciting' as thrilling dates from the 1800s",
+      "meaning": "to stir up",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to cause strong feelings of enthusiasm"
+}

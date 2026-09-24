@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "arbiter",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly 'ad-' plus 'baetere', to go: one who goes to see",
+      "meaning": "judge, witness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arbiter",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'arbiter of taste' dates from the 1700s",
+      "meaning": "judge",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who settles a dispute"
+}

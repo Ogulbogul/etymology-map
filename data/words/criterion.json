@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kritērion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'kritēs', judge",
+      "meaning": "means of judging",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "criterion",
+      "lang": "English",
+      "era": "1610s",
+      "note": "the plural 'criteria' keeps the Greek form",
+      "meaning": "standard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a standard for judging"
+}

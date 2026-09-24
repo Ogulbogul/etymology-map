@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "welk",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word, possibly related to 'walk'",
+      "meaning": "weak",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "gauche",
+      "lang": "French",
+      "era": "1700s",
+      "note": "left-handed people were thought clumsy",
+      "meaning": "left; clumsy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gauche",
+      "lang": "English",
+      "era": "1750s",
+      "note": "'sinister' has the same left-is-bad idea",
+      "meaning": "awkward",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "socially awkward"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "simile",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "neuter of 'similis', like",
+      "meaning": "like thing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "simile",
+      "lang": "English",
+      "era": "1300s",
+      "note": "literary 'similes' use 'like' or 'as'",
+      "meaning": "comparison",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a comparison of two unlike things"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "isos topos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek: same place in the periodic table",
+      "meaning": "same place",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "isotope",
+      "lang": "English",
+      "era": "1913",
+      "note": "coined by Margaret Todd for the chemist Frederick Soddy",
+      "meaning": "same-element variant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of two or more forms of an element"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "syllabus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a misprint of Greek 'sittyba', a label, in an edition of Cicero",
+      "meaning": "list",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "syllabus",
+      "lang": "English",
+      "era": "1650s",
+      "note": "one of the few words born from a printing error",
+      "meaning": "list of topics",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an outline of a course of study"
+}

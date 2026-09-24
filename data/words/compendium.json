@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "compendium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-' plus 'pendere', to weigh",
+      "meaning": "a saving, shortening",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compendium",
+      "lang": "English",
+      "era": "1580s",
+      "note": "a short account of a larger work",
+      "meaning": "summary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of concise information"
+}

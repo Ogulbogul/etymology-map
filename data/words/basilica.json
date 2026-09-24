@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "basilikē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'basileus', king",
+      "meaning": "royal hall",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "basilica",
+      "lang": "English",
+      "era": "1540s",
+      "note": "Roman law courts became the model for early churches",
+      "meaning": "royal hall",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large oblong church"
+}

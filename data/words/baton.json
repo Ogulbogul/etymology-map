@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bastum",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a Late Latin word, possibly from Greek 'bastazein', to carry",
+      "meaning": "stick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bâton",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a stick used as a weapon or badge of office",
+      "meaning": "stick",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "baton",
+      "lang": "English",
+      "era": "1540s",
+      "note": "a conductor's baton dates from the 1800s; relay batons from the 1900s",
+      "meaning": "staff of office",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin stick used by a conductor or relay runner"
+}

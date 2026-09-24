@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "insignia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "plural of 'insigne', mark, from 'signum', sign",
+      "meaning": "badges",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "insignia",
+      "lang": "English",
+      "era": "1640s",
+      "note": "used as a singular in English",
+      "meaning": "badges of office",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a badge or emblem of rank"
+}

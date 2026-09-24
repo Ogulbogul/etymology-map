@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pluralis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'plus', more",
+      "meaning": "of more than one",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plural",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'pluralism' dates from the 1800s",
+      "meaning": "more than one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "more than one"
+}

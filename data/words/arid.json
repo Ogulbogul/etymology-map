@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aridus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'arere', to be dry",
+      "meaning": "dry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arid",
+      "lang": "English",
+      "era": "1650s",
+      "note": "'arid' prose dates from the 1800s",
+      "meaning": "dry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having little rain"
+}

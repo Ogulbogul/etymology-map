@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "impactus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'impingere', to push against",
+      "meaning": "pushed against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "impact",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the figurative sense 'strong effect' dates from the 1800s",
+      "meaning": "collision",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collision; a strong effect"
+}

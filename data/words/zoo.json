@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "zōion",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, the root of 'zoology'",
+      "meaning": "animal",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "zoo",
+      "lang": "English",
+      "era": "1847",
+      "note": "short for London's 'Zoological Gardens', opened in 1828",
+      "meaning": "zoological garden",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place where animals are kept for display"
+}

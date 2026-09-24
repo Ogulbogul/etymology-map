@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "limes",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a Roman boundary road; the root of 'eliminate'",
+      "meaning": "boundary, path",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "limite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a border line",
+      "meaning": "boundary",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "limit",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'the sky's the limit' dates from the 1900s",
+      "meaning": "boundary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a point beyond which something cannot go"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "plēthōrē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'plēthein', to be full",
+      "meaning": "fullness",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "plethora",
+      "lang": "English",
+      "era": "1540s",
+      "note": "first a medical term for too much blood",
+      "meaning": "excess of blood",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an excessive amount"
+}

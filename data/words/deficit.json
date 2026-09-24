@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "deficit",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "third person singular of 'deficere', to fail",
+      "meaning": "it is lacking",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deficit",
+      "lang": "English",
+      "era": "1780s",
+      "note": "first used in French accounting",
+      "meaning": "shortfall",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an amount by which something falls short"
+}

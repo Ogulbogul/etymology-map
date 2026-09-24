@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rigidus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'rigere', to be stiff",
+      "meaning": "stiff",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rigide",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "stiff",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rigid",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'rigor mortis' shares the root",
+      "meaning": "stiff",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unable to bend"
+}

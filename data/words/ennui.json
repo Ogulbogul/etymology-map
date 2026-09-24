@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "in odio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from the Latin phrase 'mihi in odio est'",
+      "meaning": "hateful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ennui",
+      "lang": "French",
+      "era": "1700s",
+      "note": "the same word gave 'annoy'",
+      "meaning": "boredom",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ennui",
+      "lang": "English",
+      "era": "1730s",
+      "note": "borrowed again from modern French",
+      "meaning": "boredom",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "listlessness from lack of excitement"
+}

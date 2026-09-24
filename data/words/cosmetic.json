@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kosmētikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'kosmos', order, ornament",
+      "meaning": "skilled in adorning",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cosmetic",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'cosmos' and 'cosmetic' share the idea of order and arrangement",
+      "meaning": "beautifying",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a product for improving appearance"
+}

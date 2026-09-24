@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tacitus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tacere', to be silent, the root of 'taciturn'",
+      "meaning": "silent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tacit",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'tacit approval' dates from the 1600s",
+      "meaning": "silent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "understood without being stated"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "integralis",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'integer', whole",
+      "meaning": "whole",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "integral",
+      "lang": "English",
+      "era": "1550s",
+      "note": "calculus 'integrals' date from the 1690s",
+      "meaning": "essential",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "necessary to make a whole complete"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fumus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'fumigate' and 'perfume'",
+      "meaning": "smoke",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fum",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "smoke and vapour",
+      "meaning": "smoke",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fume",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'fuming' with anger dates from the 1500s",
+      "meaning": "smoke",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "gas or vapour with a strong smell"
+}

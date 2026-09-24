@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "juvenilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'juvenis', young",
+      "meaning": "youthful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "juvenile",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'juvenile delinquent' dates from the 1810s",
+      "meaning": "youthful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to young people"
+}

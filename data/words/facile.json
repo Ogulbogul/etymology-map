@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "facilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'facere', to do",
+      "meaning": "easy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "facile",
+      "lang": "English",
+      "era": "1480s",
+      "note": "came into English through French 'facile'; the sense 'superficial' dates from the 1800s",
+      "meaning": "easy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "too simple; superficial"
+}

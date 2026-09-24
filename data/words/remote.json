@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "remotus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'removere', to move back",
+      "meaning": "moved back, distant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "remote",
+      "lang": "English",
+      "era": "1400s",
+      "note": "TV 'remotes' date from the 1950s; 'remote work' from the 1970s",
+      "meaning": "distant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "situated far away"
+}

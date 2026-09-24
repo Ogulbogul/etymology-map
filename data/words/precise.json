@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "praecisus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'praecidere', to cut off",
+      "meaning": "cut short",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "precis",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "precise",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "precise",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'précis', a summary, comes from the same word",
+      "meaning": "exact",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "exact and accurate"
+}

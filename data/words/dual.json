@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dualis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'duo', two",
+      "meaning": "containing two",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dual",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'dual carriageway' dates from the 1930s",
+      "meaning": "twofold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "consisting of two parts"
+}

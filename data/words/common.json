@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "communis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-', together, plus 'munis', bound to serve",
+      "meaning": "shared by all",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "comun",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "shared by all",
+      "meaning": "common",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "common",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the 'House of Commons' dates from the 1300s",
+      "meaning": "shared",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "shared by all; ordinary"
+}

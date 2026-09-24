@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "autonomia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'autos', self, plus 'nomos', law",
+      "meaning": "self-rule",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "autonomy",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'autonomous' vehicles date from the 2000s",
+      "meaning": "self-government",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the right of self-government"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "minutus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'minute' and 'minor'",
+      "meaning": "small",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "menu",
+      "lang": "French",
+      "era": "1700s",
+      "note": "a detailed list of dishes",
+      "meaning": "detailed list",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "menu",
+      "lang": "English",
+      "era": "1830s",
+      "note": "computer 'menus' date from the 1960s",
+      "meaning": "list of dishes",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a list of dishes; a list of options"
+}

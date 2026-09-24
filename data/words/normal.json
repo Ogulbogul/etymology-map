@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "normalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'norma', a carpenter's square",
+      "meaning": "made with a carpenter's square",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "normal",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the sense 'usual' dates from the 1800s",
+      "meaning": "perpendicular",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "conforming to a standard; usual"
+}

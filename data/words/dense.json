@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "densus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'density' shares the root",
+      "meaning": "thick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dense",
+      "lang": "English",
+      "era": "1590s",
+      "note": "'dense' as stupid dates from the 1800s",
+      "meaning": "thick",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "closely compacted; stupid"
+}

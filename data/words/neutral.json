@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "neutralis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'neuter', neither",
+      "meaning": "of neither kind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "neutre",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a learned borrowing",
+      "meaning": "neutral",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "neutral",
+      "lang": "English",
+      "era": "1400s",
+      "note": "neutral countries in war date from the 1500s",
+      "meaning": "neither",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not supporting either side"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rabies",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'rabere', to rave",
+      "meaning": "madness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rabies",
+      "lang": "English",
+      "era": "1590s",
+      "note": "the root of 'rage'",
+      "meaning": "madness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fatal viral disease of animals"
+}

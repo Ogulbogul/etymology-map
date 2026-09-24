@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oralis",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'os', mouth",
+      "meaning": "of the mouth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oral",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'oral history' dates from the 1940s",
+      "meaning": "spoken",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "spoken; relating to the mouth"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sterilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to Greek 'steira', barren cow",
+      "meaning": "barren",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sterile",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "barren",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sterile",
+      "lang": "English",
+      "era": "1550s",
+      "note": "'sterilized' medical tools date from the 1800s",
+      "meaning": "barren",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "free from bacteria; unable to reproduce"
+}

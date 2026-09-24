@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "antenna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the yard of a ship's sail",
+      "meaning": "sail yard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "antenna",
+      "lang": "English",
+      "era": "1640s",
+      "note": "radio antennas date from the 1900s",
+      "meaning": "insect feeler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an insect's feeler; an aerial"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "latex",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from Greek 'latax', dregs",
+      "meaning": "liquid, fluid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "latex",
+      "lang": "English",
+      "era": "1660s",
+      "note": "rubber tree sap was named 'latex' in the 1830s",
+      "meaning": "body fluid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "milky sap of rubber trees; a synthetic rubber"
+}

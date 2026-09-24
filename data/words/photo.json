@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "phōs",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, genitive 'phōtos'",
+      "meaning": "light",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "photo",
+      "lang": "English",
+      "era": "1860",
+      "note": "short for 'photograph', coined by John Herschel in 1839",
+      "meaning": "photograph",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a photograph"
+}

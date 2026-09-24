@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "decorum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'decere', to be fitting",
+      "meaning": "what is fitting",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "décor",
+      "lang": "French",
+      "era": "1800s",
+      "note": "stage scenery, then interior design",
+      "meaning": "decoration",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "decor",
+      "lang": "English",
+      "era": "1890s",
+      "note": "'home decor' dates from the 1900s",
+      "meaning": "stage scenery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the furnishing and decoration of a room"
+}

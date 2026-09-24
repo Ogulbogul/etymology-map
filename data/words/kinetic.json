@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kinētikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'kinein', to move, the root of 'cinema'",
+      "meaning": "moving",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "kinetic",
+      "lang": "English",
+      "era": "1850s",
+      "note": "'kinetic energy' dates from the 1870s",
+      "meaning": "of motion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to motion"
+}

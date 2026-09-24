@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "serenus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used of cloudless skies",
+      "meaning": "clear, calm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "serein",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "calm",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "serene",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'Serene Highness' is a royal title",
+      "meaning": "clear, calm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "calm and peaceful"
+}

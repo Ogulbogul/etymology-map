@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pedalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'pes', foot",
+      "meaning": "of the foot",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pedal",
+      "lang": "English",
+      "era": "1610s",
+      "note": "bicycle pedals date from the 1800s",
+      "meaning": "organ foot-key",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a foot-operated lever"
+}

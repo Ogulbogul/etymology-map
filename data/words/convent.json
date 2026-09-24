@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "conventus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'convenire', to come together",
+      "meaning": "assembly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "covent",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "London's Covent Garden was a convent garden",
+      "meaning": "religious community",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "convent",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed to communities of nuns in the 1700s",
+      "meaning": "monastery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a community of nuns"
+}

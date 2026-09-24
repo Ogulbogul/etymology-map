@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "skeptikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'skeptesthai', to look carefully",
+      "meaning": "inquiring",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "skeptic",
+      "lang": "English",
+      "era": "1580s",
+      "note": "the Sceptic school of Pyrrho doubted all knowledge",
+      "meaning": "philosophical doubter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person inclined to doubt"
+}

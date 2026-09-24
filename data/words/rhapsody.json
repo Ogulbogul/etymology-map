@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rhapsōidia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'rhaptein', to stitch, plus 'ōidē', song: reciting epic poetry",
+      "meaning": "stitched song",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "rhapsody",
+      "lang": "English",
+      "era": "1540s",
+      "note": "musical 'rhapsodies' date from the 1800s",
+      "meaning": "epic recitation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an enthusiastic expression of feeling; a free musical piece"
+}

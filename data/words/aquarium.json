@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aquarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'aqua', water",
+      "meaning": "of water",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aquarium",
+      "lang": "English",
+      "era": "1830s",
+      "note": "first used for a pond or tank for water plants",
+      "meaning": "fish tank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tank of water for fish"
+}

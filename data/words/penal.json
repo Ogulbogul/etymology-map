@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "poenalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'poena', penalty",
+      "meaning": "of punishment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "penal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'penal colonies' date from the 1800s",
+      "meaning": "punitive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to punishment"
+}

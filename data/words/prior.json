@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prior",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "comparative of an old word for 'before'",
+      "meaning": "former, superior",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prior",
+      "lang": "English",
+      "era": "1700s",
+      "note": "a monastery's 'prior' is the same word",
+      "meaning": "earlier",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "existing before"
+}

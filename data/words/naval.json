@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "navalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'navis', ship",
+      "meaning": "of ships",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "naval",
+      "lang": "English",
+      "era": "1590s",
+      "note": "'naval' and 'navel' are unrelated",
+      "meaning": "of ships",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a navy"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "karkinos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek; Hippocrates compared tumours' swollen veins to a crab's legs",
+      "meaning": "crab",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cancer",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Latin for crab; also the zodiac sign",
+      "meaning": "crab; tumour",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cancer",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the older English form was 'canker'",
+      "meaning": "tumour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a disease of abnormal cell growth"
+}

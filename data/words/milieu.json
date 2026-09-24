@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "medius locus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'medius', middle, plus 'locus', place",
+      "meaning": "middle place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "milieu",
+      "lang": "French",
+      "era": "1800s",
+      "note": "'mi', middle, plus 'lieu', place",
+      "meaning": "middle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "milieu",
+      "lang": "English",
+      "era": "1850s",
+      "note": "used of social environments",
+      "meaning": "surroundings",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person's social environment"
+}

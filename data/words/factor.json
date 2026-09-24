@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "factor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'facere', to do",
+      "meaning": "doer, maker",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "factor",
+      "lang": "English",
+      "era": "1400s",
+      "note": "mathematical 'factors' date from the 1600s",
+      "meaning": "agent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a circumstance that contributes to a result"
+}

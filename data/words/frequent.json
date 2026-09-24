@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "frequens",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly related to 'farcire', to stuff",
+      "meaning": "crowded",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "frequent",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "crowded",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "frequent",
+      "lang": "English",
+      "era": "1530s",
+      "note": "'frequent flyer' dates from the 1980s",
+      "meaning": "crowded",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "occurring often"
+}

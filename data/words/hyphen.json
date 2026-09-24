@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hyphen",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek 'hyph' hen', under one: a sign joining syllables",
+      "meaning": "together",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hyphen",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'hyphenated Americans' dates from the 1880s",
+      "meaning": "joining mark",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sign (-) joining words"
+}

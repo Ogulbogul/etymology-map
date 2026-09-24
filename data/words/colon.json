@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kōlon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, a member or clause of a sentence",
+      "meaning": "limb, clause",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "colon",
+      "lang": "English",
+      "era": "1550s",
+      "note": "the intestine 'colon' is a different Greek word, 'kolon'",
+      "meaning": "clause; punctuation mark",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a punctuation mark (:)"
+}

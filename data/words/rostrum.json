@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rostrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Roman speakers' platforms were decorated with the beaks of captured ships",
+      "meaning": "beak",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rostrum",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'rostra' in the Roman Forum were adorned with ship prows",
+      "meaning": "speaker's platform",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a raised platform"
+}

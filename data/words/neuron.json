@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "neuron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, related to Latin 'nervus'",
+      "meaning": "sinew, nerve",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "neuron",
+      "lang": "English",
+      "era": "1890s",
+      "note": "coined in German by Wilhelm Waldeyer in 1891",
+      "meaning": "nerve cell",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a nerve cell"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pentagōnon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'pente', five, plus 'gōnia', angle",
+      "meaning": "five-angled",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pentagon",
+      "lang": "English",
+      "era": "1570s",
+      "note": "the Pentagon building opened in 1943",
+      "meaning": "five-sided figure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a five-sided figure"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "corpus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'corpse' and 'corporation'",
+      "meaning": "body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corps",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a body of troops",
+      "meaning": "body",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "corps",
+      "lang": "English",
+      "era": "1700s",
+      "note": "pronounced without the p and s, as in French",
+      "meaning": "military unit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a military unit; an organized group"
+}
