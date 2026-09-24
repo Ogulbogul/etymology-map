@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tyrannos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a ruler who seized power outside tradition; some, like Peisistratos of Athens, were popular",
+      "meaning": "absolute ruler",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tyrannus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "took on the sense of a cruel ruler",
+      "meaning": "despot",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tyrant",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the 't' ending came from French 'tyrant'",
+      "meaning": "a cruel ruler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cruel and oppressive ruler"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "grammatikē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'gramma', letter; the art of letters",
+      "meaning": "art of letters",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "grammatica",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "meant Latin learning in general",
+      "meaning": "grammar",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gramarye",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "learning was associated with magic, giving 'gramarye' and later 'glamour'",
+      "meaning": "learning; magic",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "grammar",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'grammar school' originally taught Latin grammar",
+      "meaning": "rules of language",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the rules of how words are combined in a language"
+}

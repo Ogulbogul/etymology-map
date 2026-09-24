@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stratēgia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'stratēgos', general: 'stratos', army, plus 'agein', to lead",
+      "meaning": "generalship",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "stratégie",
+      "lang": "French",
+      "era": "1700s",
+      "note": "revived by French military writers",
+      "meaning": "art of war",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "strategy",
+      "lang": "English",
+      "era": "1810s",
+      "note": "entered English during the Napoleonic Wars; business use came in the 1900s",
+      "meaning": "a plan to achieve a goal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a plan of action designed to achieve a long-term aim"
+}

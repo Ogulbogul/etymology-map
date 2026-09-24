@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "boomken",
+      "lang": "Dutch",
+      "era": "1500s",
+      "note": "a diminutive of 'boom', tree or log",
+      "meaning": "little tree",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "bumpkin",
+      "lang": "English",
+      "era": "1570s",
+      "note": "first an English jibe at stout, stumpy Dutchmen, then at clumsy country folk",
+      "meaning": "a short, stumpy man",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "bumpkin",
+      "lang": "English",
+      "era": "1600s",
+      "note": "settled on the modern sense of an awkward yokel",
+      "meaning": "an unsophisticated rural person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unsophisticated person from the countryside"
+}

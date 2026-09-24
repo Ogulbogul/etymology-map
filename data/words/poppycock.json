@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pappekak",
+      "lang": "Dutch",
+      "era": "1800s",
+      "note": "a crude dialect compound, 'pap' soft food plus 'kak' dung",
+      "meaning": "soft dung",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "poppycock",
+      "lang": "English",
+      "era": "1860s",
+      "note": "adopted in American English, where Dutch dialect lingered around New York",
+      "meaning": "nonsense",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "nonsense"
+}

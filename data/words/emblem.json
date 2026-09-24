@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "emblēma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'emballein', to throw in: an inlaid ornament",
+      "meaning": "inlay",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "emblema",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a mosaic inlay; Roman villas often had an emblema at the centre of the floor",
+      "meaning": "mosaic inlay",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "emblem",
+      "lang": "English",
+      "era": "1580s",
+      "note": "Renaissance 'emblem books' paired images with moral verses",
+      "meaning": "a symbolic image",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a design or symbol representing a group or idea"
+}

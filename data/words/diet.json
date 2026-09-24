@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "diaita",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a whole way of life, including exercise, sleep and food, as prescribed by Hippocratic doctors",
+      "meaning": "way of living",
+      "lat": 36.89,
+      "lon": 27.29
+    },
+    {
+      "word": "diaeta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a prescribed regimen of health",
+      "meaning": "regimen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "diet",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed to food; 'going on a diet' to lose weight dates from the 1600s",
+      "meaning": "food eaten; eating plan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the kinds of food a person eats; a restricted eating plan"
+}

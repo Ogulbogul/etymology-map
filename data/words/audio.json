@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "audire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'audio' means 'I hear'; the same root gives 'audience' and 'audition'",
+      "meaning": "to hear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "audio",
+      "lang": "English",
+      "era": "1930s",
+      "note": "coined by radio engineers for sound frequencies",
+      "meaning": "sound",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "sound, especially when recorded or broadcast"
+}

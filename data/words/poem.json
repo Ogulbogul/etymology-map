@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "poiēma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'poiein', to make; a poet was literally 'a maker'",
+      "meaning": "a thing made",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "poema",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "narrowed to a composition in verse",
+      "meaning": "poem",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poem",
+      "lang": "English",
+      "era": "1540s",
+      "note": "arrived via French 'poème'",
+      "meaning": "a composition in verse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of writing using rhythm and imagery, usually in lines"
+}

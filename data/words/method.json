@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "methodos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'meta', after, plus 'hodos', way: following a path",
+      "meaning": "pursuit of knowledge",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "methodus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used in medicine for a systematic way of treatment",
+      "meaning": "way of teaching",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "method",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'Methodist' began as a nickname for a methodical Oxford student group in 1729",
+      "meaning": "systematic procedure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular way of doing something"
+}

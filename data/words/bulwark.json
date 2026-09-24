@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bolwerc",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "'bole', tree trunk, plus 'werc', work: a rampart of logs",
+      "meaning": "log rampart",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "bulwerk",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "also gave French 'boulevard', a street built on old city walls",
+      "meaning": "a defensive wall",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "bulwark",
+      "lang": "English",
+      "era": "1500s",
+      "note": "used figuratively for any safeguard",
+      "meaning": "a defensive wall; a safeguard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a defensive wall; a person or thing that protects"
+}

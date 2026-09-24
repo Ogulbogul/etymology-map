@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "krokodeilos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'kroke', pebble, plus 'drilos', worm; Ionian Greeks first used it for lizards basking on stone walls, and Herodotus applied it to the Nile beast",
+      "meaning": "lizard",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "crocodilus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Romans shipped crocodiles from Egypt for games in the arena",
+      "meaning": "crocodile",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cocodrille",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "the medieval form lost the first r; scholars restored it in the 1500s",
+      "meaning": "crocodile",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "crocodile",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'crocodile tears' comes from a legend that crocodiles weep while eating prey",
+      "meaning": "large reptile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large reptile with long jaws, living in tropical rivers"
+}

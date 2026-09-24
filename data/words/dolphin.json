@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "delphis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "related to 'delphys', womb, perhaps for its shape or as a 'fish with a womb'",
+      "meaning": "dolphin",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "delphinus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "also gave the French royal title 'dauphin'",
+      "meaning": "dolphin",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dolphin",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came via Old French 'daulphin'",
+      "meaning": "a marine mammal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small intelligent toothed whale with a beak-like snout"
+}

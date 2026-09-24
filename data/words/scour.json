@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "excurare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'curare', to take care of, clean",
+      "meaning": "to clean off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "schuren",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "Flemish cloth-makers and housekeepers used it for scrubbing surfaces",
+      "meaning": "to scrub",
+      "lat": 51.21,
+      "lon": 3.22
+    },
+    {
+      "word": "scour",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense of searching an area thoroughly came in the 1500s",
+      "meaning": "to scrub; to search thoroughly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to clean by hard rubbing; to search thoroughly"
+}

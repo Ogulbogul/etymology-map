@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skēnē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a tent or hut; the wooden building behind the stage where actors changed masks",
+      "meaning": "tent, stage building",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "scaena",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "shifted from the backdrop building to the stage itself",
+      "meaning": "stage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scene",
+      "lang": "English",
+      "era": "1540s",
+      "note": "later a division of a play, a view, or a public fuss",
+      "meaning": "part of a play; a setting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the place where something happens; part of a play or film"
+}

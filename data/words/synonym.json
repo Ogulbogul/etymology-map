@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "synōnymos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'syn', together, plus 'onyma', name",
+      "meaning": "having the same name",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "synonymum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used by grammarians",
+      "meaning": "synonym",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "synonym",
+      "lang": "English",
+      "era": "1400s",
+      "note": "came via French",
+      "meaning": "a word with the same meaning",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word that means the same as another"
+}

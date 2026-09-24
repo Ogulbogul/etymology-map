@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wijsseggher",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a soothsayer, literally 'wise-sayer'",
+      "meaning": "soothsayer",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "wiseacre",
+      "lang": "English",
+      "era": "1590s",
+      "note": "reshaped by folk etymology as if from 'acre', and used sarcastically",
+      "meaning": "a know-it-all",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who acts as though they know everything"
+}

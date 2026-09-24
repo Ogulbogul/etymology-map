@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "diabolos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'diaballein', to throw across, to slander; used to translate Hebrew 'satan', adversary",
+      "meaning": "slanderer, accuser",
+      "lat": 31.2,
+      "lon": 29.92
+    },
+    {
+      "word": "diabolus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "the Latin Bible's word for Satan",
+      "meaning": "the devil",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deofol",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "brought by early missionaries",
+      "meaning": "devil",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "devil",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'diabolical' comes from the same Greek word",
+      "meaning": "evil spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the supreme spirit of evil; a mischievous person"
+}

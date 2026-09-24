@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "splissen",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "related to 'split'; sailors unravelled rope ends to weave them together",
+      "meaning": "to split, splice rope",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "splice",
+      "lang": "English",
+      "era": "1520s",
+      "note": "a sailors' word that later moved to film editing and genetics",
+      "meaning": "to join by interweaving",
+      "lat": 50.37,
+      "lon": -4.14
+    }
+  ],
+  "current_meaning": "to join by weaving or overlapping ends together"
+}

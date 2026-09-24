@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dijk",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "the same Germanic root as English 'ditch'; one side dug a ditch, the other piled a bank",
+      "meaning": "embankment",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "dike",
+      "lang": "English",
+      "era": "1600s",
+      "note": "reinforced by Dutch drainage engineers working in eastern England",
+      "meaning": "a sea wall or embankment",
+      "lat": 52.4,
+      "lon": 0.26
+    }
+  ],
+  "current_meaning": "a long wall or embankment built to keep out the sea or river floods"
+}

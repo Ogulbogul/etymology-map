@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tandem",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an adverb of time",
+      "meaning": "at length, at last",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tandem",
+      "lang": "English",
+      "era": "1780s",
+      "note": "a university pun on 'at length' for horses harnessed one behind another; the two-seat bicycle followed",
+      "meaning": "one behind another",
+      "lat": 51.75,
+      "lon": -1.26
+    }
+  ],
+  "current_meaning": "a bicycle for two riders; alongside each other"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "plastikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'plassein', to mould",
+      "meaning": "fit for moulding",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "plasticus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "relating to moulding",
+      "meaning": "mouldable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plastic",
+      "lang": "English",
+      "era": "1900s",
+      "note": "applied to synthetic materials after Bakelite was invented in 1907",
+      "meaning": "synthetic material",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a synthetic material that can be moulded; easily shaped"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "programma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'pro', before, plus 'graphein', to write: a public notice posted in advance",
+      "meaning": "public notice",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "programme",
+      "lang": "French",
+      "era": "1700s",
+      "note": "a list of events or performers",
+      "meaning": "agenda, playbill",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "program",
+      "lang": "English",
+      "era": "1940s",
+      "note": "applied to computer instructions; British English keeps 'program' only for this sense",
+      "meaning": "set of computer instructions",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a planned series of events; a set of instructions for a computer"
+}

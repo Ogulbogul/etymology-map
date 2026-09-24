@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "thesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'tithenai', to put; also a term for the downbeat in music",
+      "meaning": "a placing, proposition",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "thesis",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used in rhetoric for a general question to discuss",
+      "meaning": "proposition",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "thesis",
+      "lang": "English",
+      "era": "1500s",
+      "note": "university students defended theses; now the long dissertation itself",
+      "meaning": "a proposition; dissertation",
+      "lat": 51.75,
+      "lon": -1.26
+    }
+  ],
+  "current_meaning": "a statement put forward to be argued; a long academic essay"
+}

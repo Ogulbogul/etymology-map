@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "asylon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'a-', not, plus 'sylē', right of seizure: a temple where fugitives could not be taken",
+      "meaning": "sanctuary",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "asylum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a place of refuge",
+      "meaning": "refuge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "asylum",
+      "lang": "English",
+      "era": "1400s",
+      "note": "later an institution for the mentally ill; 'political asylum' dates from the 1950s",
+      "meaning": "refuge; institution",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "protection granted to a refugee; a former term for a psychiatric hospital"
+}

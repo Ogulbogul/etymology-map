@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "alias",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'alius', other",
+      "meaning": "at another time",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alias",
+      "lang": "English",
+      "era": "1500s",
+      "note": "English lawyers used it in writs naming people known by other names",
+      "meaning": "also known as",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a false or assumed name"
+}

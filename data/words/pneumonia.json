@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pneumōn",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'pnein', to breathe; related to 'pneuma', breath",
+      "meaning": "lung",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pneumonia",
+      "lang": "New Latin",
+      "era": "1600s",
+      "note": "medical coinage for lung disease",
+      "meaning": "lung inflammation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pneumonia",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the p is silent in English but pronounced in Greek",
+      "meaning": "lung infection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an infection that inflames the lungs"
+}

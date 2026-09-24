@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pekel",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a salty brine for preserving fish, vital to the Dutch herring trade",
+      "meaning": "brine",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "pikel",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "first a spicy sauce, then preserved vegetables",
+      "meaning": "a sauce; brine",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "pickle",
+      "lang": "English",
+      "era": "1560s",
+      "note": "'in a pickle', in trouble, borrowed from a Dutch phrase meaning soaked in brine",
+      "meaning": "preserved food; a predicament",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a vegetable preserved in brine or vinegar; a difficult situation"
+}

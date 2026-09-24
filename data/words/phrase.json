@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "phrasis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'phrazein', to point out, declare",
+      "meaning": "speech, way of speaking",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "phrasis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a manner of expression",
+      "meaning": "diction",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "phrase",
+      "lang": "English",
+      "era": "1530s",
+      "note": "also used in music for a short melodic unit",
+      "meaning": "a group of words",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small group of words standing together"
+}

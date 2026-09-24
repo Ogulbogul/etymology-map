@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pompe",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "probably imitative of the sound of pumping; Dutch ships needed them constantly to clear bilge water",
+      "meaning": "pipe, ship's pump",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "pumpe",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "first recorded as a ship's pump",
+      "meaning": "ship's pump",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "pump",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the verb 'pump someone for information' dates from the 1600s",
+      "meaning": "a device for moving liquid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device that forces liquid or gas to move; to move with such a device"
+}

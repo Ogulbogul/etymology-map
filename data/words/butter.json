@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "boutyron",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "possibly 'bous', cow, plus 'tyros', cheese; Greeks thought of it as a foreign, barbarian food",
+      "meaning": "cow cheese",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "butyrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Romans used it mainly as an ointment, not a food",
+      "meaning": "butter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "butere",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "borrowed early into the West Germanic languages, like German 'Butter'",
+      "meaning": "butter",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "butter",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'butter up', to flatter, dates from the 1800s",
+      "meaning": "a dairy spread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pale yellow fat made by churning cream"
+}

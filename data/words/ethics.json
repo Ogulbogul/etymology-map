@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ēthikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from 'ēthos', custom or character; Aristotle's Nicomachean Ethics set the field",
+      "meaning": "of character",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ethica",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used by medieval scholars for moral philosophy",
+      "meaning": "moral philosophy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ethics",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the plural form follows 'physics' and 'politics' for a field of study",
+      "meaning": "moral principles",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "moral principles governing behaviour; the study of them"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "curriculum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'currere', to run; a racecourse or chariot",
+      "meaning": "a running, a course",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "curriculum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "used at Scottish universities for a course of study",
+      "meaning": "course of study",
+      "lat": 55.86,
+      "lon": -4.25
+    }
+  ],
+  "current_meaning": "the subjects in a course of study"
+}

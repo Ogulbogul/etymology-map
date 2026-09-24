@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sloep",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "possibly from 'sluipen', to glide or sneak",
+      "meaning": "small boat",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "sloop",
+      "lang": "English",
+      "era": "1620s",
+      "note": "later a small single-masted sailing boat or small warship",
+      "meaning": "a one-masted sailing boat",
+      "lat": 50.37,
+      "lon": -4.14
+    }
+  ],
+  "current_meaning": "a one-masted sailing boat"
+}

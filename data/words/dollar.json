@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Joachimsthaler",
+      "lang": "German",
+      "era": "1500s",
+      "note": "a silver coin minted from 1519 in Joachimsthal ('Joachim's valley') in Bohemia",
+      "meaning": "coin from Joachim's valley",
+      "lat": 50.37,
+      "lon": 12.91
+    },
+    {
+      "word": "daler",
+      "lang": "Dutch",
+      "era": "1500s",
+      "note": "the shortened 'thaler' spread across Europe; the Dutch 'leeuwendaler' circulated widely in colonial America",
+      "meaning": "silver coin",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "dollar",
+      "lang": "English",
+      "era": "1790s",
+      "note": "adopted as the United States currency unit in 1792",
+      "meaning": "US currency",
+      "lat": 39.95,
+      "lon": -75.17
+    }
+  ],
+  "current_meaning": "the basic currency unit of the US and several other countries"
+}

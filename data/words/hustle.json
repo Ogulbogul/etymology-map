@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "husselen",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "related to 'hotsen', to jolt",
+      "meaning": "to shake, toss",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "hustle",
+      "lang": "English",
+      "era": "1680s",
+      "note": "first meant to shake coins in a hat for a game of chance",
+      "meaning": "to shake together",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "hustle",
+      "lang": "English",
+      "era": "1800s",
+      "note": "American English added 'to hurry' and 'to swindle'",
+      "meaning": "to push; to con",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "to push roughly; to hurry; to obtain by forceful action or deceit"
+}

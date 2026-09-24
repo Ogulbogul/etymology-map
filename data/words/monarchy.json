@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "monarkhia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'monos', alone, plus 'arkhein', to rule",
+      "meaning": "rule by one",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "monarchia",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used in medieval political theory",
+      "meaning": "monarchy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "monarchy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came via Old French 'monarchie'",
+      "meaning": "rule by a sovereign",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a form of government with a king or queen as head of state"
+}

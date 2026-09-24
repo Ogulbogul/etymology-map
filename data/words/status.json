@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "status",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'stare', to stand; the root of 'state' and 'statue'",
+      "meaning": "standing, condition",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "status",
+      "lang": "English",
+      "era": "1670s",
+      "note": "'status symbol' was coined in the 1950s",
+      "meaning": "social standing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relative social or legal standing; current state"
+}

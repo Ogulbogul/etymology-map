@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "verlof",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "'ver-' plus 'lof', permission, related to English 'leave'",
+      "meaning": "permission, leave",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "furlough",
+      "lang": "English",
+      "era": "1620s",
+      "note": "brought home by English soldiers who fought in Dutch service",
+      "meaning": "leave of absence",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "furlough",
+      "lang": "English",
+      "era": "2020",
+      "note": "became widely known in Britain during the COVID-19 job retention scheme",
+      "meaning": "temporary unpaid leave",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "leave of absence, especially temporary layoff from work"
+}

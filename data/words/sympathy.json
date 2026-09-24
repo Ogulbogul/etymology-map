@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sympatheia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'syn', together, plus 'pathos', feeling; Stoics used it for the cosmic interconnectedness of things",
+      "meaning": "fellow feeling",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sympathia",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "an affinity between things",
+      "meaning": "affinity",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sympathy",
+      "lang": "English",
+      "era": "1570s",
+      "note": "first a natural affinity, then compassion for suffering",
+      "meaning": "compassion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "feelings of pity and sorrow for someone else's misfortune"
+}

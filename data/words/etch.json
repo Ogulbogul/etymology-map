@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ätzen",
+      "lang": "German",
+      "era": "medieval",
+      "note": "a causative of 'essen', to eat: literally 'to make something eat', as acid eats metal",
+      "meaning": "to corrode, cause to eat",
+      "lat": 49.45,
+      "lon": 11.08
+    },
+    {
+      "word": "etsen",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "Dutch printmakers such as Rembrandt made acid-etched plates a major art form",
+      "meaning": "to etch",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "etch",
+      "lang": "English",
+      "era": "1630s",
+      "note": "later used figuratively for something fixed firmly in memory",
+      "meaning": "to engrave with acid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to engrave a design with acid; to fix firmly in the mind"
+}
