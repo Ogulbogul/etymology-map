@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "zil",
+      "lang": "Ottoman Turkish",
+      "era": "1500s",
+      "note": "cymbals; in 1623 Avedis, an Armenian alchemist in Constantinople, began casting them and was given the name 'Zilciyan', cymbal-maker",
+      "meaning": "cymbal",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "zill",
+      "lang": "English",
+      "era": "1900s",
+      "note": "the family firm, as Zildjian, moved to Massachusetts in 1929; 'zills' became the English name for dancers' finger cymbals",
+      "meaning": "finger cymbals",
+      "lat": 42.36,
+      "lon": -71.06
+    }
+  ],
+  "current_meaning": "small finger cymbals played in pairs, especially by belly dancers"
+}

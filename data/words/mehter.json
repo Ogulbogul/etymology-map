@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mihtar",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "'greater, chief', a title for senior servants of a court",
+      "meaning": "chief",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "mehter",
+      "lang": "Ottoman Turkish",
+      "era": "1300s-1800s",
+      "note": "the Janissaries' band played on the march and in battle; its sound inspired European 'Turkish music', such as Mozart's 'Rondo alla Turca' of 1783",
+      "meaning": "military band",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "mehter",
+      "lang": "English",
+      "era": "1900s",
+      "note": "used by music historians for the Janissary band and its influence on Western composers",
+      "meaning": "Ottoman military band",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Ottoman military band of drums, cymbals and shawms"
+}

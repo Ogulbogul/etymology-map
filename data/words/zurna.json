@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "surnā",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "'festive pipe', from 'sūr', feast",
+      "meaning": "festive pipe",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "zurna",
+      "lang": "Ottoman Turkish",
+      "era": "1500s",
+      "note": "played with the big 'davul' drum at weddings, wrestling matches and in the Janissary band",
+      "meaning": "shawm",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "zurla",
+      "lang": "Macedonian",
+      "era": "1600s",
+      "note": "spread with Ottoman rule through the Balkans, where Roma musicians still play it",
+      "meaning": "shawm",
+      "lat": 41.99,
+      "lon": 21.43
+    },
+    {
+      "word": "zurna",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through writing on Turkish and Balkan folk music",
+      "meaning": "Turkish shawm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loud double-reed pipe played with the davul drum at Turkish and Balkan festivals"
+}

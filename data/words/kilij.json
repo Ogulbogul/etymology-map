@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kılıç",
+      "lang": "Ottoman Turkish",
+      "era": "1400s",
+      "note": "'sword'; its broad, flared tip gave great force to a cutting stroke",
+      "meaning": "sword",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "kilij",
+      "lang": "English",
+      "era": "1800s",
+      "note": "the US Marine Corps officers' 'Mameluke sword', given to Presley O'Bannon in 1805, follows the kilij pattern",
+      "meaning": "Turkish sabre",
+      "lat": 42.36,
+      "lon": -71.06
+    }
+  ],
+  "current_meaning": "a curved Turkish sabre"
+}

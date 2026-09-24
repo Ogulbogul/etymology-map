@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "naẓar",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "sight or glance, including a harmful envious look",
+      "meaning": "gaze",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "nazar",
+      "lang": "Turkish",
+      "era": "1500s",
+      "note": "the blue-and-white 'nazar boncuğu' glass bead is hung in homes, cars and on babies' clothes",
+      "meaning": "evil eye, amulet",
+      "lat": 38.42,
+      "lon": 27.14
+    },
+    {
+      "word": "nazar",
+      "lang": "English",
+      "era": "2000s",
+      "note": "entered English as the eye bead became a popular souvenir and jewellery motif",
+      "meaning": "evil-eye amulet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an amulet against the evil eye, especially the blue glass eye bead"
+}

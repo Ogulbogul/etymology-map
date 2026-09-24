@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ābrū",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "perhaps 'face of water', or 'cloud-like', for the swirling patterns",
+      "meaning": "water surface, cloudy",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "ebru",
+      "lang": "Ottoman Turkish",
+      "era": "1500s",
+      "note": "calligraphers used marbled sheets for book covers and borders; Europeans called imports 'Turkish paper'",
+      "meaning": "marbled paper",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "ebru",
+      "lang": "English",
+      "era": "1900s",
+      "note": "UNESCO listed Turkish ebru as intangible heritage in 2014",
+      "meaning": "paper marbling",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the Turkish art of marbling paper by floating colours on water"
+}

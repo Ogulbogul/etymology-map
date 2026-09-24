@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kaval",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "an open-ended wooden flute played by shepherds",
+      "meaning": "shepherd's flute",
+      "lat": 37.87,
+      "lon": 32.48
+    },
+    {
+      "word": "kaval",
+      "lang": "Bulgarian",
+      "era": "1600s",
+      "note": "became central to Bulgarian folk music; its breathy sound is heard in the Rhodope mountains",
+      "meaning": "folk flute",
+      "lat": 42.7,
+      "lon": 23.32
+    },
+    {
+      "word": "kaval",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through writing on Balkan and Turkish folk music",
+      "meaning": "shepherd's flute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an end-blown shepherd's flute of Turkey and the Balkans"
+}

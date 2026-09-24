@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sāz",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "meant an instrument, or the tuning of one",
+      "meaning": "musical instrument",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "saz",
+      "lang": "Turkish",
+      "era": "1500s",
+      "note": "the instrument of the wandering 'aşık' folk poets of Anatolia",
+      "meaning": "long-necked lute",
+      "lat": 37.87,
+      "lon": 32.48
+    },
+    {
+      "word": "saz",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English with Turkish folk music, and with the Turkish community in Germany and Britain",
+      "meaning": "Turkish lute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long-necked Turkish lute"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Türkmen",
+      "lang": "Turkic",
+      "era": "medieval",
+      "note": "used for the Oghuz nomads who converted to Islam",
+      "meaning": "Turkmen",
+      "lat": 37.95,
+      "lon": 58.38
+    },
+    {
+      "word": "Turcoman",
+      "lang": "English",
+      "era": "1600s",
+      "note": "English traders and travellers used 'Turcoman'; 'Turkoman carpets' became prized in the West",
+      "meaning": "a Turkmen",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a member of a Turkic people of Central Asia, mostly in Turkmenistan"
+}
