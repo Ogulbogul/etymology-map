@@ -11303,29 +11303,6 @@
       "current_note": "the shout of encouragement dates from the 1700s"
     }
   ],
-  "cheetah": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "chitraka",
-      "era": "ancient",
-      "current_note": "meaning \"spotted\" or \"variegated\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "chita",
-      "era": "medieval",
-      "current_note": "the name for the spotted big cat used in hunting"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cheetah",
-      "era": "1800s",
-      "current_note": "Hindi 'spotted one'; Mughal emperors such as Akbar kept hundreds of tame cheetahs for hunting"
-    }
-  ],
   "chef": [
     {
       "stop_index": 0,
@@ -11409,29 +11386,6 @@
       "word": "chevron",
       "era": "1300s",
       "current_note": "a heraldic charge shaped like two rafters meeting; from Old French for a rafter, 'little goat'"
-    }
-  ],
-  "chia": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "chian",
-      "era": "pre-1500s",
-      "current_note": "the name for the small, nutrient-dense seed"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chia",
-      "era": "1500s-1600s",
-      "current_note": "the Aztecs grew chia as a staple crop and paid tribute in it"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chia",
-      "era": "1900s-2000s",
-      "current_note": "the 'Chia Pet' novelty of the 1980s made the name widely known in the US"
     }
   ],
   "chiaroscuro": [
@@ -13037,22 +12991,6 @@
       "current_note": "chewed by Andean workers to fight altitude sickness and fatigue"
     }
   ],
-  "cockatoo": [
-    {
-      "stop_index": 0,
-      "lang": "Malay",
-      "word": "kakatuwa",
-      "era": "1600s",
-      "current_note": "the name for the crested parrot native to the region"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cockatoo",
-      "era": "1700s",
-      "current_note": "Malay 'kakatua', possibly imitating the bird's cry, reshaped by English 'cock'"
-    }
-  ],
   "coda": [
     {
       "stop_index": 0,
@@ -13207,22 +13145,6 @@
       "word": "coincide",
       "era": "1600s",
       "current_note": "settled as the English word for happening at the same time, or agreeing exactly"
-    }
-  ],
-  "cola": [
-    {
-      "stop_index": 0,
-      "lang": "Twi",
-      "word": "kola",
-      "era": "1700s",
-      "current_note": "the caffeine-rich nut of a West African tree, chewed as a stimulant"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cola",
-      "era": "1800s",
-      "current_note": "adopted for the nut, later the flavor of soft drinks made with it"
     }
   ],
   "coleslaw": [
@@ -14318,22 +14240,6 @@
       "word": "compose",
       "era": "1400s",
       "current_note": "settled as the English word for creating something by putting parts together"
-    }
-  ],
-  "compound": [
-    {
-      "stop_index": 0,
-      "lang": "Malay",
-      "word": "kampung",
-      "era": "medieval",
-      "current_note": "meaning \"a village\" or \"enclosure\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "compound",
-      "era": "1600s-1700s",
-      "current_note": "reshaped by folk association with the English word \"compound\", adopted for a walled enclosure"
     }
   ],
   "compress": [
@@ -17007,22 +16913,6 @@
       "current_note": "arrived via French; theatrical costumes date from the 1800s"
     }
   ],
-  "cot": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "khat",
-      "era": "medieval",
-      "current_note": "a simple bedstead made of a wooden frame and woven rope"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cot",
-      "era": "1600s",
-      "current_note": "from Hindi 'khāt', a light bed of cord stretched on a frame"
-    }
-  ],
   "council": [
     {
       "stop_index": 0,
@@ -18074,22 +17964,6 @@
       "current_note": "borrowed for the fried mixture of minced meat or fish formed into small balls"
     }
   ],
-  "crore": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "koti",
-      "era": "ancient",
-      "current_note": "ten million, a large round number used in South Asian counting"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "crore",
-      "era": "1600s",
-      "current_note": "from Sanskrit 'koti', the tip; Indian English uses lakh and crore for large numbers"
-    }
-  ],
   "crown": [
     {
       "stop_index": 0,
@@ -18384,29 +18258,6 @@
       "current_note": "settled as the English word for the pungent spice seed"
     }
   ],
-  "cummerbund": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "kamar-band",
-      "era": "medieval",
-      "current_note": "literally \"waist-band\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "kamarband",
-      "era": "medieval",
-      "current_note": "worn as part of South Asian formal dress"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cummerbund",
-      "era": "1610s",
-      "current_note": "Persian 'kamar', waist, plus 'band'; British officers in India adopted it for evening dress"
-    }
-  ],
   "cupola": [
     {
       "stop_index": 0,
@@ -18428,29 +18279,6 @@
       "word": "cupola",
       "era": "1650s",
       "current_note": "Italian 'little cup'; Brunelleschi's dome of Florence cathedral set the model"
-    }
-  ],
-  "curare": [
-    {
-      "stop_index": 0,
-      "lang": "Cariban",
-      "word": "kurari",
-      "era": "pre-1500s",
-      "current_note": "named the paralyzing plant poison used on hunting arrows"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish/Portuguese",
-      "word": "curare",
-      "era": "1670s",
-      "current_note": "Walter Raleigh described poison arrows in Guiana in 1596; curare later became a surgical muscle relaxant"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "curare",
-      "era": "1670s-1800s",
-      "current_note": "entered English through scientific accounts, later used in medicine as a muscle relaxant"
     }
   ],
   "curator": [
@@ -18829,29 +18657,6 @@
       "current_note": "narrowed to describe someone distrustful of others' motives"
     }
   ],
-  "czar": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "Caesar",
-      "era": "ancient",
-      "current_note": "the family name of Julius Caesar, later a title for Roman emperors"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Russian",
-      "word": "tsar",
-      "era": "1500s",
-      "current_note": "borrowed as the title for the Russian emperor"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "czar",
-      "era": "1600s",
-      "current_note": "settled as the English spelling, later used loosely for anyone with great authority"
-    }
-  ],
   "dachshund": [
     {
       "stop_index": 0,
@@ -18873,22 +18678,6 @@
       "word": "dachshund",
       "era": "1800s",
       "current_note": "German 'badger dog', bred to follow badgers into their burrows"
-    }
-  ],
-  "dacoit": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "dakait",
-      "era": "medieval",
-      "current_note": "a member of an armed gang of robbers"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dacoit",
-      "era": "1800s",
-      "current_note": "the British set up a special Thuggee and Dacoity Department in 1835 to suppress gang robbery"
     }
   ],
   "dahlia": [
@@ -18921,22 +18710,6 @@
       "word": "daikon",
       "era": "1900s",
       "current_note": "Japanese 'big root'"
-    }
-  ],
-  "daimyo": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "daimyō",
-      "era": "medieval",
-      "current_note": "literally 'great name', a title for feudal lords who ruled large domains"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "daimyo",
-      "era": "1800s",
-      "current_note": "Japanese 'great name'; the Meiji government abolished the domains of the daimyo in 1871"
     }
   ],
   "dainty": [
@@ -19022,29 +18795,6 @@
       "word": "damage",
       "era": "1300s",
       "current_note": "'damages' as legal compensation dates from the 1400s"
-    }
-  ],
-  "damask": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "Dimashq",
-      "era": "medieval",
-      "current_note": "the Arabic name for the city of Damascus"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "damas",
-      "era": "medieval",
-      "current_note": "named a richly patterned woven fabric after the city"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "damask",
-      "era": "medieval",
-      "current_note": "settled as the English name for the fabric and its weave"
     }
   ],
   "damsel": [
@@ -19169,29 +18919,6 @@
       "word": "darshan",
       "era": "19th-20th c.",
       "current_note": "adopted in English writing on Hindu religious practice"
-    }
-  ],
-  "dashiki": [
-    {
-      "stop_index": 0,
-      "lang": "Hausa",
-      "word": "dan ciki",
-      "era": "traditional",
-      "current_note": "literally \"underneath\", a short tunic worn under larger robes by men"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Yoruba",
-      "word": "danshiki",
-      "era": "1800s",
-      "current_note": "from Hausa 'dan ciki', under-garment"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dashiki",
-      "era": "1968",
-      "current_note": "popularized in 1960s America during the Black Power movement"
     }
   ],
   "data": [
@@ -20627,29 +20354,6 @@
       "current_note": "'self-denial' dates from the 1640s"
     }
   ],
-  "deodar": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "devadaru",
-      "era": "ancient",
-      "current_note": "compound of 'god' and 'wood, tree'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "deodar",
-      "era": "medieval",
-      "current_note": "the everyday name for the sacred Himalayan cedar"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "deodar",
-      "era": "1804",
-      "current_note": "British botanists in India adopted the name for the tree"
-    }
-  ],
   "depart": [
     {
       "stop_index": 0,
@@ -20935,22 +20639,6 @@
       "word": "derogatory",
       "era": "1500s",
       "current_note": "settled as the English word for something showing a critical or disrespectful attitude"
-    }
-  ],
-  "dervish": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "darvish",
-      "era": "medieval",
-      "current_note": "a Sufi Muslim ascetic known for whirling meditative dance"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dervish",
-      "era": "1500s",
-      "current_note": "Persian 'poor man'; the Mevlevi order founded by followers of Rumi is known for its whirling dance"
     }
   ],
   "descant": [
@@ -21470,22 +21158,6 @@
       "word": "devote",
       "era": "1580s",
       "current_note": "'devout' and 'devotion' are older"
-    }
-  ],
-  "dharma": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "dharma",
-      "era": "ancient",
-      "current_note": "duty, law, or cosmic order, a central concept in Hindu and Buddhist thought"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dharma",
-      "era": "1800s",
-      "current_note": "Sanskrit 'that which holds up'; the Buddhist sense of teaching entered English through Pali 'dhamma'"
     }
   ],
   "dhyana": [
@@ -22133,29 +21805,6 @@
       "current_note": "Italian 'diminishing', the opposite of crescendo"
     }
   ],
-  "dinar": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "denarius",
-      "era": "ancient",
-      "current_note": "a Roman silver coin, from deni (containing ten)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "dinar",
-      "era": "medieval",
-      "current_note": "Caliph Abd al-Malik minted the first gold dinars around 696"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dinar",
-      "era": "1600s",
-      "current_note": "used today in Algeria, Iraq, Jordan, Kuwait, Serbia and elsewhere"
-    }
-  ],
   "dine": [
     {
       "stop_index": 0,
@@ -22193,22 +21842,6 @@
       "word": "dinghy",
       "era": "1800s",
       "current_note": "from Hindi 'ḍingī', a small river boat"
-    }
-  ],
-  "dingo": [
-    {
-      "stop_index": 0,
-      "lang": "Dharug",
-      "word": "dingu",
-      "era": "1700s",
-      "current_note": "the name for Australia's wild dog"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dingo",
-      "era": "1789",
-      "current_note": "Watkin Tench recorded the word near Sydney in 1789"
     }
   ],
   "dinner": [
@@ -23105,36 +22738,6 @@
       "word": "diva",
       "era": "1800s-1900s",
       "current_note": "Italian 'goddess', from Latin 'diva'; used of great opera sopranos such as Adelina Patti"
-    }
-  ],
-  "divan": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "divan",
-      "era": "medieval",
-      "current_note": "originally a register or council chamber"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Ottoman Turkish",
-      "word": "divan",
-      "era": "medieval",
-      "current_note": "the council chamber, furnished with long cushioned benches"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "divan",
-      "era": "1700s",
-      "current_note": "narrowed to mean the long cushioned seat itself"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "divan",
-      "era": "1700s",
-      "current_note": "from the Ottoman council chamber, whose sides were lined with cushioned benches"
     }
   ],
   "diverse": [
@@ -24182,22 +23785,6 @@
       "current_note": "the great Delhi Durbars of 1877, 1903 and 1911 proclaimed British monarchs as emperors of India"
     }
   ],
-  "durian": [
-    {
-      "stop_index": 0,
-      "lang": "Malay",
-      "word": "duri",
-      "era": "1500s",
-      "current_note": "thorn, describing the fruit's spiky outer husk"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "durian",
-      "era": "1600s",
-      "current_note": "Malay 'duri', thorn; it is banned on many Singapore trains and hotels because of its smell"
-    }
-  ],
   "during": [
     {
       "stop_index": 0,
@@ -24791,22 +24378,6 @@
       "word": "effort",
       "era": "1480s",
       "current_note": "'effortless' dates from the 1700s"
-    }
-  ],
-  "egg foo young": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "fu4 jung4 daan2",
-      "era": "19th century",
-      "current_note": "literally 'hibiscus egg', naming an omelet dish named for its flower-like appearance"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "egg foo young",
-      "era": "late 1800s-early 1900s",
-      "current_note": "adapted with reversed word order into Chinese-American restaurant menus"
     }
   ],
   "egg": [
