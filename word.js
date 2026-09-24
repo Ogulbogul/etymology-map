@@ -13,6 +13,65 @@ const MIN_ZOOM = 1;
 const MAX_ZOOM = 14;
 const FIT_PADDING = 60;
 
+// Offscreen canvas used only to measure pin-label text width (matches
+// .pin-label's CSS font) so overlap checks don't force a synchronous
+// layout via getBBox() on every pan/zoom frame.
+const labelMeasureCtx = document.createElement("canvas").getContext("2d");
+labelMeasureCtx.font = `600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`;
+function measureLabelWidth(text) {
+  return labelMeasureCtx.measureText(text).width;
+}
+
+function rectsOverlap(a, b) {
+  return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
+}
+
+// Same idea as the share card's label placement: try a ring of offsets
+// around each pin and use the first one that doesn't overlap a label
+// already placed or another pin's dot, so two stops close together on
+// the map (e.g. neighboring countries) don't draw illegible overlapping
+// text. Cheap enough (a handful of stops, run once per position update)
+// to recompute on every pan/zoom frame rather than caching it.
+const LABEL_CANDIDATES = [
+  { dx: 13, dy: -11, anchor: "start" },
+  { dx: 13, dy: 19, anchor: "start" },
+  { dx: -13, dy: -11, anchor: "end" },
+  { dx: -13, dy: 19, anchor: "end" },
+  { dx: 13, dy: -29, anchor: "start" },
+  { dx: 13, dy: 37, anchor: "start" },
+  { dx: -13, dy: -29, anchor: "end" },
+  { dx: -13, dy: 37, anchor: "end" },
+];
+
+function placePinLabels(entries) {
+  const PAD = 4, H = 15, PIN_R = 10;
+  const placedBoxes = [];
+  return entries.map((entry, i) => {
+    let chosen = LABEL_CANDIDATES[0];
+    for (const off of LABEL_CANDIDATES) {
+      const x = entry.sx + off.dx;
+      const y = entry.sy + off.dy;
+      const x1 = off.anchor === "start" ? x : x - entry.w;
+      const x2 = off.anchor === "start" ? x + entry.w : x;
+      const box = { x1: x1 - PAD, x2: x2 + PAD, y1: y - H - PAD, y2: y + PAD };
+      const hitsLabel = placedBoxes.some((p) => rectsOverlap(box, p));
+      const hitsOtherPin = entries.some((other, j) => {
+        if (j === i) return false;
+        return (
+          box.x1 < other.sx + PIN_R && box.x2 > other.sx - PIN_R &&
+          box.y1 < other.sy + PIN_R && box.y2 > other.sy - PIN_R
+        );
+      });
+      if (!hitsLabel && !hitsOtherPin) {
+        chosen = off;
+        placedBoxes.push(box);
+        break;
+      }
+    }
+    return { ...entry, x: entry.sx + chosen.dx, y: entry.sy + chosen.dy, anchor: chosen.anchor };
+  });
+}
+
 const notFoundEl = document.getElementById("not-found-msg");
 const resultEl = document.getElementById("result");
 const panelEl = document.getElementById("panel");
@@ -158,17 +217,26 @@ function setView(next) {
 }
 
 function updatePinPositions() {
-  pinLayer.querySelectorAll(".pin-group").forEach((g) => {
+  const groups = Array.from(pinLayer.querySelectorAll(".pin-group"));
+  const entries = groups.map((g) => {
     const cx = parseFloat(g.dataset.cx);
     const cy = parseFloat(g.dataset.cy);
-    const sx = view.k * cx + view.x;
-    const sy = view.k * cy + view.y;
+    return {
+      g,
+      sx: view.k * cx + view.x,
+      sy: view.k * cy + view.y,
+      w: parseFloat(g.dataset.labelWidth) || 0,
+    };
+  });
+  const placed = placePinLabels(entries);
+  placed.forEach(({ g, sx, sy, x, y, anchor }) => {
     const circle = g.querySelector(".pin-dot");
     const label = g.querySelector(".pin-label");
     circle.setAttribute("cx", sx);
     circle.setAttribute("cy", sy);
-    label.setAttribute("x", sx + 13);
-    label.setAttribute("y", sy - 11);
+    label.setAttribute("x", x);
+    label.setAttribute("y", y);
+    label.setAttribute("text-anchor", anchor);
   });
 }
 
@@ -470,6 +538,7 @@ function renderWordPage(word, entry, baseWord) {
     g.dataset.idx = String(idx);
     g.dataset.cx = String(x);
     g.dataset.cy = String(y);
+    g.dataset.labelWidth = String(measureLabelWidth(stop.word));
 
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("r", 8.5);
@@ -639,6 +708,33 @@ function wrapCanvasText(ctx, text, maxWidth) {
   return lines;
 }
 
+// Same as wrapCanvasText, but if the text needs more than maxLines it
+// ellipsizes the last visible line instead of silently dropping the
+// remainder - a wrapped-and-clipped sentence with no visual cue reads as
+// a typo, not "there's more".
+function wrapCanvasTextClamped(ctx, text, maxWidth, maxLines) {
+  const lines = wrapCanvasText(ctx, text, maxWidth);
+  if (lines.length <= maxLines) return lines;
+  const clamped = lines.slice(0, maxLines);
+  let last = clamped[maxLines - 1];
+  while (last.length > 0 && ctx.measureText(last + "…").width > maxWidth) {
+    last = last.slice(0, -1);
+  }
+  clamped[maxLines - 1] = last.replace(/\s+$/, "") + "…";
+  return clamped;
+}
+
+function truncateToWidth(ctx, text, maxWidth) {
+  if (ctx.measureText(text).width <= maxWidth) return text;
+  let lo = 0, hi = text.length;
+  while (lo < hi) {
+    const mid = Math.ceil((lo + hi) / 2);
+    if (ctx.measureText(text.slice(0, mid) + "…").width <= maxWidth) lo = mid;
+    else hi = mid - 1;
+  }
+  return text.slice(0, lo) + "…";
+}
+
 function fitCanvasFontSize(ctx, text, maxWidth, startSize, minSize, weight) {
   let size = startSize;
   while (size > minSize) {
@@ -649,7 +745,7 @@ function fitCanvasFontSize(ctx, text, maxWidth, startSize, minSize, weight) {
   return size;
 }
 
-function computeCropRect(points, panelW, panelH, padding = 55) {
+function computeCropRect(points, panelW, panelH, padding = 40) {
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
   points.forEach(([px, py]) => {
     minX = Math.min(minX, px);
@@ -685,7 +781,74 @@ function computeCropRect(points, panelW, panelH, padding = 55) {
   return { srcX, srcY, srcW, srcH };
 }
 
-function buildShareCard(word, entry, points, colors) {
+function rectsOverlapCard(a, b) {
+  return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
+}
+
+// Greedy label placement for the pins drawn on the share-card canvas:
+// try a ring of offsets around each pin and use the first that doesn't
+// overlap a label already placed or another pin, so two stops close
+// together on the map (e.g. neighboring countries) don't draw illegible
+// overlapping text. A pin with no collision-free spot left falls back to
+// a small numbered badge instead of forcing an overlapping label.
+const CARD_LABEL_CANDIDATES = [
+  { dx: 10, dy: -8, align: "left" },
+  { dx: 10, dy: 18, align: "left" },
+  { dx: -10, dy: -8, align: "right" },
+  { dx: -10, dy: 18, align: "right" },
+  { dx: 10, dy: -26, align: "left" },
+  { dx: 10, dy: 36, align: "left" },
+  { dx: -10, dy: -26, align: "right" },
+  { dx: -10, dy: 36, align: "right" },
+];
+
+function placeCardLabels(ctx, entries, font, pinExclusionR = 9) {
+  ctx.font = font;
+  const PAD = 4, H = 13;
+  const placedBoxes = [];
+  return entries.map((entry, i) => {
+    const w = ctx.measureText(entry.text).width;
+    for (const off of CARD_LABEL_CANDIDATES) {
+      const x = entry.sx + off.dx;
+      const y = entry.sy + off.dy;
+      const x1 = off.align === "left" ? x : x - w;
+      const x2 = off.align === "left" ? x + w : x;
+      const box = { x1: x1 - PAD, x2: x2 + PAD, y1: y - H - PAD, y2: y + PAD };
+      const hitsLabel = placedBoxes.some((p) => rectsOverlapCard(box, p));
+      const hitsOtherPin = entries.some((other, j) => {
+        if (j === i) return false;
+        return (
+          box.x1 < other.sx + pinExclusionR && box.x2 > other.sx - pinExclusionR &&
+          box.y1 < other.sy + pinExclusionR && box.y2 > other.sy - pinExclusionR
+        );
+      });
+      if (!hitsLabel && !hitsOtherPin) {
+        placedBoxes.push(box);
+        return { ...entry, x, y, align: off.align, hidden: false };
+      }
+    }
+    return { ...entry, hidden: true };
+  });
+}
+
+// The site's favicon, reused as a brand mark next to the site link on the
+// card. Loaded once and cached since it's the same asset every render.
+let shareCardIconPromise = null;
+function loadShareCardIcon() {
+  if (!shareCardIconPromise) {
+    shareCardIconPromise = new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = () => resolve(null); // draw without the icon if it fails to load
+      img.src = "/share-card-mark.svg";
+    });
+  }
+  return shareCardIconPromise;
+}
+
+async function buildShareCard(word, entry, points, colors) {
+  const favicon = await loadShareCardIcon();
+
   const canvas = document.createElement("canvas");
   canvas.width = CARD_WIDTH;
   canvas.height = CARD_HEIGHT;
@@ -695,7 +858,7 @@ function buildShareCard(word, entry, points, colors) {
   ctx.fillRect(0, 0, CARD_WIDTH, CARD_HEIGHT);
 
   const padding = 48;
-  const leftW = 400;
+  const leftW = 420;
   const mapX = padding + leftW + 28;
   const mapY = padding;
   const mapW = CARD_WIDTH - mapX - padding;
@@ -713,35 +876,33 @@ function buildShareCard(word, entry, points, colors) {
   ctx.font = `700 13px ${CARD_FONT}`;
   ctx.fillText("ETYMOLOGY MAP", padding, padding + 12);
 
-  let y = padding + 76;
+  let y = padding + 68;
   const displayWord = word.charAt(0).toUpperCase() + word.slice(1);
-  const titleSize = fitCanvasFontSize(ctx, displayWord, leftW, 68, 40, "700");
+  const titleSize = fitCanvasFontSize(ctx, displayWord, leftW, 60, 36, "700");
   ctx.fillStyle = colors.text;
   ctx.font = `700 ${titleSize}px ${CARD_FONT}`;
   ctx.fillText(displayWord, padding, y);
 
-  y += 42;
-  ctx.fillStyle = colors.accent;
-  ctx.font = `700 12px ${CARD_FONT}`;
-  ctx.fillText("TODAY IT MEANS", padding, y);
-
-  y += 24;
-  ctx.fillStyle = colors.text;
-  ctx.font = `400 18px ${CARD_FONT}`;
-  const meaningLines = wrapCanvasText(ctx, entry.current_meaning, leftW).slice(0, 3);
-  meaningLines.forEach((line) => {
+  y += 34;
+  ctx.fillStyle = colors.dim;
+  ctx.font = `400 15px ${CARD_FONT}`;
+  wrapCanvasTextClamped(ctx, entry.current_meaning, leftW, 2).forEach((line) => {
     ctx.fillText(line, padding, y);
-    y += 24;
+    y += 20;
   });
+  y += 20;
 
-  y += 22;
-  const rowsRemaining = CARD_HEIGHT - padding - 30 - y;
-  const rowGap = Math.max(34, Math.min(50, rowsRemaining / entry.stops.length));
+  const rowsRemaining = CARD_HEIGHT - padding - 46 - y;
+  const rowGap = Math.max(58, Math.min(72, rowsRemaining / entry.stops.length));
   entry.stops.forEach((stop, idx) => {
-    const rowY = y + idx * rowGap;
+    // circleCenterY is the single shared vertical anchor for the circle,
+    // its number, and the stage word - using textBaseline "middle" for
+    // all three guarantees they line up regardless of font size, instead
+    // of eyeballed baseline offsets that drift out of alignment.
+    const circleCenterY = y + idx * rowGap;
 
     ctx.beginPath();
-    ctx.arc(padding + 10, rowY - 6, 10, 0, Math.PI * 2);
+    ctx.arc(padding + 10, circleCenterY, 10, 0, Math.PI * 2);
     ctx.fillStyle = colors.bg;
     ctx.fill();
     ctx.lineWidth = 2;
@@ -750,21 +911,47 @@ function buildShareCard(word, entry, points, colors) {
     ctx.fillStyle = colors.accent;
     ctx.font = `700 11px ${CARD_FONT}`;
     ctx.textAlign = "center";
-    ctx.fillText(String(idx + 1), padding + 10, rowY - 2);
+    ctx.textBaseline = "middle";
+    ctx.fillText(String(idx + 1), padding + 10, circleCenterY + 1);
     ctx.textAlign = "left";
+
+    if (idx < entry.stops.length - 1) {
+      ctx.strokeStyle = colors.border;
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(padding + 10, circleCenterY + 11);
+      ctx.lineTo(padding + 10, circleCenterY + rowGap - 11);
+      ctx.stroke();
+    }
 
     ctx.fillStyle = colors.text;
     ctx.font = `700 17px ${CARD_FONT}`;
-    ctx.fillText(stop.word, padding + 32, rowY);
+    ctx.textBaseline = "middle";
+    ctx.fillText(stop.word, padding + 32, circleCenterY);
     const wordWidth = ctx.measureText(stop.word).width;
+    ctx.fillStyle = colors.accent;
+    ctx.font = `700 12px ${CARD_FONT}`;
+    ctx.fillText(`${stop.lang.toUpperCase()} · ${stop.era}`, padding + 32 + wordWidth + 10, circleCenterY);
+    ctx.textBaseline = "alphabetic";
+
+    const flavor = stop.note || stop.meaning;
     ctx.fillStyle = colors.dim;
-    ctx.font = `400 13px ${CARD_FONT}`;
-    ctx.fillText(`  ·  ${stop.lang}`, padding + 32 + wordWidth, rowY);
+    ctx.font = `italic 400 13px ${CARD_FONT}`;
+    ctx.fillText(truncateToWidth(ctx, flavor, leftW - 32), padding + 32, circleCenterY + 26);
   });
 
+  ctx.strokeStyle = colors.border;
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(padding, CARD_HEIGHT - 46);
+  ctx.lineTo(padding + leftW, CARD_HEIGHT - 46);
+  ctx.stroke();
+
+  // tagline stays under the stage list, bottom-left of the left column
+  ctx.textBaseline = "alphabetic";
   ctx.fillStyle = colors.dim;
   ctx.font = `400 12px ${CARD_FONT}`;
-  ctx.fillText("Made with Etymology Map", padding, CARD_HEIGHT - 22);
+  ctx.fillText("Trace any word's journey", padding, CARD_HEIGHT - 22);
 
   ctx.fillStyle = colors.ocean;
   ctx.fillRect(mapX, mapY, mapW, mapH);
@@ -826,7 +1013,10 @@ function buildShareCard(word, entry, points, colors) {
     ctx.restore();
   }
 
-  entry.stops.forEach((stop, idx) => {
+  // draw every pin first, so label placement can treat all of them as
+  // obstacles regardless of draw order
+  const pinLabelFont = `700 13px ${CARD_FONT}`;
+  const screenPositions = entry.stops.map((stop, idx) => {
     const [sx, sy] = childToScreen(points[idx][0], points[idx][1]);
     ctx.beginPath();
     ctx.arc(sx, sy, 6, 0, Math.PI * 2);
@@ -835,15 +1025,68 @@ function buildShareCard(word, entry, points, colors) {
     ctx.lineWidth = 2;
     ctx.strokeStyle = colors.bg;
     ctx.stroke();
-
-    ctx.font = `700 13px ${CARD_FONT}`;
+    return { sx, sy, text: stop.word, idx };
+  });
+  const placedLabels = placeCardLabels(ctx, screenPositions, pinLabelFont);
+  placedLabels.forEach((label) => {
+    if (label.hidden) {
+      // no collision-free spot for the word itself - fall back to just
+      // the stage number, still cross-referenceable against the list
+      ctx.beginPath();
+      ctx.arc(label.sx, label.sy, 8, 0, Math.PI * 2);
+      ctx.fillStyle = colors.bg;
+      ctx.fill();
+      ctx.lineWidth = 1.5;
+      ctx.strokeStyle = colors.accent;
+      ctx.stroke();
+      ctx.fillStyle = colors.accent;
+      ctx.font = `700 10px ${CARD_FONT}`;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(String(label.idx + 1), label.sx, label.sy + 1);
+      ctx.textAlign = "left";
+      ctx.textBaseline = "alphabetic";
+      return;
+    }
+    ctx.font = pinLabelFont;
+    ctx.textAlign = label.align === "right" ? "right" : "left";
     ctx.lineJoin = "round";
     ctx.lineWidth = 3;
     ctx.strokeStyle = colors.bg;
-    ctx.strokeText(stop.word, sx + 10, sy - 8);
+    ctx.strokeText(label.text, label.x, label.y);
     ctx.fillStyle = colors.text;
-    ctx.fillText(stop.word, sx + 10, sy - 8);
+    ctx.fillText(label.text, label.x, label.y);
+    ctx.textAlign = "left";
   });
+
+  // site link + brand mark sit together in the card's actual bottom-right
+  // corner, under the map, on the same baseline as the tagline at
+  // bottom-left
+  ctx.textBaseline = "alphabetic";
+  const linkBaseline = CARD_HEIGHT - 22;
+  const linkFont = `700 15px ${CARD_FONT}`;
+  ctx.font = linkFont;
+  const linkText = "ETYMOLOGYMAP.COM";
+  const linkW = ctx.measureText(linkText).width;
+  const iconSize = 16;
+  const iconGap = 8;
+  const groupRight = CARD_WIDTH - padding;
+  const textX = groupRight - linkW;
+  const iconX = textX - iconGap - iconSize;
+  const iconY = linkBaseline - iconSize + 3;
+
+  ctx.fillStyle = colors.accent;
+  ctx.font = linkFont;
+  ctx.fillText(linkText, textX, linkBaseline);
+
+  if (favicon) {
+    ctx.drawImage(favicon, iconX, iconY, iconSize, iconSize);
+    ctx.save();
+    ctx.strokeStyle = colors.border;
+    ctx.lineWidth = 1;
+    ctx.strokeRect(iconX - 0.5, iconY - 0.5, iconSize + 1, iconSize + 1);
+    ctx.restore();
+  }
 
   return new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
 }
