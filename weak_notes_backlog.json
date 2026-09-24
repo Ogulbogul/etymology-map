@@ -327,178 +327,12 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "curator": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "curare",
-      "current_note": "to care for, to take charge of"
-    }
-  ],
   "curious": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "curios",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "current": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "currere",
-      "current_note": "to run"
-    }
-  ],
-  "curriculum vitae": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "curriculum vitae",
-      "current_note": "adopted directly into English for a written summary of one's education and career"
-    }
-  ],
-  "curry": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "curry",
-      "current_note": "adopted by British traders and colonists in South India, likely via Portuguese"
-    }
-  ],
-  "cursor": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "currere",
-      "current_note": "to run"
-    }
-  ],
-  "dachshund": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dachshund",
-      "current_note": "adopted directly from German"
-    }
-  ],
-  "dacoit": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dacoit",
-      "current_note": "adopted through British colonial administration and law in India"
-    }
-  ],
-  "dahlia": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dahlia",
-      "current_note": "adopted directly for the colorful garden flower named after the botanist"
-    }
-  ],
-  "daikon": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "daikon",
-      "current_note": "adopted directly as Japanese cuisine spread internationally"
-    }
-  ],
-  "daimyo": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "daimyo",
-      "current_note": "borrowed by Western historians writing about feudal Japan"
-    }
-  ],
-  "dal": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dal",
-      "current_note": "adopted as South Asian cuisine spread internationally"
-    }
-  ],
-  "dangle": [
-    {
-      "stop_index": 0,
-      "lang": "Scandinavian",
-      "word": "dangla",
-      "current_note": "to hang loosely, swinging back and forth"
-    }
-  ],
-  "dashiki": [
-    {
-      "stop_index": 1,
-      "lang": "Yoruba",
-      "word": "danshiki",
-      "current_note": "borrowed from Hausa and adapted as the name for a short, sleeveless men's tunic"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dashiki",
-      "current_note": "adopted into African-American English as a loose, colorful pan-African shirt worn as a symbol of Black pride"
-    }
-  ],
-  "date": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "dare",
-      "current_note": "to give"
-    }
-  ],
-  "dazibao": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dazibao",
-      "current_note": "borrowed by Western journalists reporting on China's Cultural Revolution"
-    }
-  ],
-  "dazzle": [
-    {
-      "stop_index": 0,
-      "lang": "Old Norse",
-      "word": "dasa",
-      "current_note": "to become weary or exhausted, related to being overwhelmed"
-    }
-  ],
-  "de facto": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "de facto",
-      "current_note": "adopted directly for something existing in practice, whether or not officially recognized"
-    }
-  ],
-  "debris": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "debris",
-      "current_note": "adopted directly from French"
-    }
-  ],
-  "debut": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "debut",
-      "current_note": "adopted directly from French"
-    }
-  ],
-  "decadent": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "decadent",
-      "current_note": "adopted from French for something excessively self-indulgent or in decline"
     }
   ],
   "decent": [
@@ -509,82 +343,12 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "deck": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "deck",
-      "current_note": "adopted directly from Dutch for a ship's covered floor"
-    }
-  ],
-  "deflate": [
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "deflare",
-      "current_note": "to blow away, a root used to form the reverse of inflare"
-    }
-  ],
-  "deja vu": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "deja vu",
-      "current_note": "adopted directly for the eerie feeling of having experienced something before"
-    }
-  ],
   "delicate": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "delicat",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "delicatessen": [
-    {
-      "stop_index": 2,
-      "lang": "German",
-      "word": "Delikatessen",
-      "current_note": "adopted as the plural word for fine prepared foods and the shop selling them"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "delicatessen",
-      "current_note": "adopted through German immigrant communities in the US"
-    }
-  ],
-  "delirium": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "delirium",
-      "current_note": "adopted directly for a disturbed state of mind involving confusion"
-    }
-  ],
-  "dementia": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dementia",
-      "current_note": "adopted directly for a progressive decline in cognitive ability"
-    }
-  ],
-  "democracy": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "democratia",
-      "current_note": "adopted through the study of classical political thought"
-    }
-  ],
-  "denouement": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "denouement",
-      "current_note": "adopted directly for the resolution of a story's plot"
     }
   ],
   "denounce": [
@@ -611,36 +375,12 @@
       "current_note": "to channel water from a stream"
     }
   ],
-  "dervish": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dervish",
-      "current_note": "adopted directly for the whirling Sufi mystics of the Ottoman world"
-    }
-  ],
   "detest": [
     {
       "stop_index": 1,
       "lang": "French",
       "word": "detester",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "detour": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "detour",
-      "current_note": "adopted directly from French"
-    }
-  ],
-  "deus ex machina": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "deus ex machina",
-      "current_note": "adopted into English literary criticism for a contrived plot resolution"
     }
   ],
   "devise": [
@@ -651,44 +391,12 @@
       "current_note": "to divide up property in a will"
     }
   ],
-  "dharma": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dharma",
-      "current_note": "adopted directly by scholars of Hindu and Buddhist philosophy"
-    }
-  ],
-  "diagnosis": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "diagnosis",
-      "current_note": "adopted directly for identifying the nature of a disease"
-    }
-  ],
-  "die": [
-    {
-      "stop_index": 0,
-      "lang": "Old Norse",
-      "word": "deyja",
-      "current_note": "to die, to pass out of life"
-    }
-  ],
   "dignify": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "dignifier",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "dilate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ferre",
-      "current_note": "to carry, to bear, with irregular past participle latus"
     }
   ],
   "diligent": [
@@ -699,66 +407,12 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "dim sum": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dim sum",
-      "current_note": "adopted as Cantonese cuisine spread internationally"
-    }
-  ],
-  "diminuendo": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "diminuendo",
-      "current_note": "adopted directly as a musical dynamic marking"
-    }
-  ],
-  "dinar": [
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "dinar",
-      "current_note": "adopted as the name for the gold coin of the early Islamic caliphates"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "dinar",
-      "current_note": "adopted directly as the currency name in several modern nations"
-    }
-  ],
-  "dinghy": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dinghy",
-      "current_note": "adopted through British colonial contact in India"
-    }
-  ],
-  "dingo": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dingo",
-      "current_note": "adopted directly by British settlers describing the native wild dog"
-    }
-  ],
   "discover": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "descovrir",
       "current_note": "to reveal what was hidden"
-    }
-  ],
-  "discrete": [
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "discernere",
-      "current_note": "to sift apart, to discern, with irregular past participle discretus"
     }
   ],
   "distinct": [
@@ -769,78 +423,6 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "diva": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "diva",
-      "current_note": "adopted directly from Italian, later broadened"
-    }
-  ],
-  "divan": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "divan",
-      "current_note": "adopted from French for the cushioned couch"
-    }
-  ],
-  "docile": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "docere",
-      "current_note": "to teach"
-    }
-  ],
-  "dock": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dock",
-      "current_note": "adopted directly from Dutch maritime vocabulary"
-    }
-  ],
-  "doctor": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "docere",
-      "current_note": "to teach"
-    }
-  ],
-  "doctrine": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "docere",
-      "current_note": "to teach"
-    }
-  ],
-  "document": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "docere",
-      "current_note": "to teach"
-    }
-  ],
-  "doenjang": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "doenjang",
-      "current_note": "borrowed by food writers as Korean cuisine's fermented staples gained international recognition"
-    }
-  ],
-  "dojo": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dojo",
-      "current_note": "adopted through the spread of Japanese martial arts"
-    }
-  ],
   "dollar": [
     {
       "stop_index": 2,
@@ -849,66 +431,12 @@
       "current_note": "adopted as the United States currency unit in 1792"
     }
   ],
-  "dolma": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dolma",
-      "current_note": "adopted directly as Middle Eastern and Mediterranean cuisine spread internationally"
-    }
-  ],
   "domestic": [
     {
       "stop_index": 1,
       "lang": "French",
       "word": "domestique",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "donate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "donare",
-      "current_note": "to give, to present as a gift"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "donate",
-      "current_note": "adopted directly for giving something to a cause or organization"
-    }
-  ],
-  "donga": [
-    {
-      "stop_index": 1,
-      "lang": "Afrikaans",
-      "word": "donga",
-      "current_note": "borrowed from Zulu into Afrikaans to name eroded gullies on the veld"
-    }
-  ],
-  "doppelganger": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "doppelganger",
-      "current_note": "adopted directly from German"
-    }
-  ],
-  "dosa": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dosa",
-      "current_note": "adopted directly as South Indian cuisine spread internationally"
-    }
-  ],
-  "drag": [
-    {
-      "stop_index": 0,
-      "lang": "Old Norse",
-      "word": "draga",
-      "current_note": "to pull, to haul something along the ground"
     }
   ],
   "dress": [
@@ -927,346 +455,12 @@
       "current_note": "to bore a hole, by turning something round and round"
     }
   ],
-  "druid": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "druid",
-      "current_note": "adopted from French for the ancient Celtic priesthood"
-    }
-  ],
-  "duct": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ducere",
-      "current_note": "to lead, with irregular past participle ductus"
-    }
-  ],
-  "due": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "debere",
-      "current_note": "to owe, with irregular past participle debitus"
-    }
-  ],
-  "dulce de leche": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dulce de leche",
-      "current_note": "adopted directly for the caramelized milk confection popular across Latin America"
-    }
-  ],
-  "dungarees": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dungaree",
-      "current_note": "adopted through British colonial textile trade in India"
-    }
-  ],
-  "durbar": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "durbar",
-      "current_note": "adopted by the British in colonial India for formal state receptions"
-    }
-  ],
-  "durian": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "durian",
-      "current_note": "adopted directly for the pungent, spiky tropical fruit"
-    }
-  ],
-  "dynamic": [
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "dynamique",
-      "current_note": "adopted into the new physics of forces in motion"
-    }
-  ],
-  "easel": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "easel",
-      "current_note": "adopted directly from Dutch for the artist's frame"
-    }
-  ],
-  "echidna": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "echidna",
-      "current_note": "adopted directly for the spiny anteater of Australia and New Guinea"
-    }
-  ],
-  "eclair": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "eclair",
-      "current_note": "adopted directly for the long, cream-filled pastry"
-    }
-  ],
-  "economy": [
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "oeconomia",
-      "current_note": "adopted through Greek influence on Roman administration"
-    }
-  ],
-  "ecru": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ecru",
-      "current_note": "adopted directly for the pale beige color of unbleached fabric"
-    }
-  ],
-  "edamame": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "edamame",
-      "current_note": "adopted as Japanese cuisine spread internationally"
-    }
-  ],
-  "egungun": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "egungun",
-      "current_note": "adopted into English art-history and anthropology writing about Yoruba masquerade festivals"
-    }
-  ],
-  "egusi": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "egusi",
-      "current_note": "adopted directly as West African cuisine became known internationally"
-    }
-  ],
-  "el nino": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "El Nino",
-      "current_note": "adopted directly by scientists for the periodic warm ocean current phenomenon"
-    }
-  ],
-  "elixir": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "elixir",
-      "current_note": "adopted into European alchemical and medical vocabulary"
-    }
-  ],
-  "ellipse": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ellipse",
-      "current_note": "adopted directly for the oval geometric curve"
-    }
-  ],
-  "elote": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "elote",
-      "current_note": "adopted into Mexican Spanish for corn on the cob"
-    }
-  ],
-  "embargo": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "embargo",
-      "current_note": "adopted directly from Spanish"
-    }
-  ],
-  "emir": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "emir",
-      "current_note": "adopted directly as the title for a Muslim ruler"
-    }
-  ],
-  "empanada": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "empanada",
-      "current_note": "adopted directly for the baked or fried stuffed pastry"
-    }
-  ],
-  "emphasis": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "emphasis",
-      "current_note": "adopted directly for special stress or importance"
-    }
-  ],
-  "enamored": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "amare",
-      "current_note": "to love"
-    }
-  ],
-  "enchilada": [
-    {
-      "stop_index": 0,
-      "lang": "Mexican Spanish",
-      "word": "enchilar",
-      "current_note": "to season with chili, describing a tortilla dipped in chili sauce"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "enchilada",
-      "current_note": "adopted directly for the rolled, chili-sauced tortilla dish"
-    }
-  ],
-  "encore": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "encore",
-      "current_note": "adopted directly as the audience's call for an additional performance"
-    }
-  ],
-  "energy": [
-    {
-      "stop_index": 1,
-      "lang": "Late Latin",
-      "word": "energia",
-      "current_note": "adopted through Greek philosophical writing"
-    }
-  ],
-  "enigma": [
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "aenigma",
-      "current_note": "adopted through Greek rhetorical tradition"
-    }
-  ],
-  "entomology": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "entomology",
-      "current_note": "adopted from French for the scientific study of insects"
-    }
-  ],
-  "entrepreneur": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "entrepreneur",
-      "current_note": "adopted directly from French"
-    }
-  ],
-  "epazote": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "epazote",
-      "current_note": "adopted into Mexican Spanish with the Nahuatl name intact"
-    }
-  ],
-  "equilibrium": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "equilibrium",
-      "current_note": "adopted directly for a state of balance between opposing forces"
-    }
-  ],
-  "espresso": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "espresso",
-      "current_note": "adopted directly as the strong Italian coffee style spread abroad"
-    }
-  ],
   "essence": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "essence",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "estate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "stare",
-      "current_note": "to stand"
-    }
-  ],
-  "et al": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "et al",
-      "current_note": "adopted as an abbreviation into English academic citation"
-    }
-  ],
-  "et cetera": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "et cetera",
-      "current_note": "adopted directly into English for an unspecified continuation of a list"
-    }
-  ],
-  "ethos": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ethos",
-      "current_note": "adopted directly for the characteristic spirit or values of a group"
-    }
-  ],
-  "euphoria": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "euphoria",
-      "current_note": "adopted directly for a feeling of intense happiness"
-    }
-  ],
-  "eureka": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "eureka",
-      "current_note": "adopted directly as an exclamation of triumphant discovery"
-    }
-  ],
-  "ex post facto": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ex post facto",
-      "current_note": "adopted directly into English legal vocabulary for retroactive laws"
     }
   ],
   "excel": [
@@ -1285,196 +479,12 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "executive": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "exsequi",
-      "current_note": "to follow out, to carry out, with irregular past participle executus"
-    }
-  ],
-  "extradition": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "extradition",
-      "current_note": "adopted directly for the legal surrender of a fugitive to another country"
-    }
-  ],
-  "extrovert": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "extrovert",
-      "current_note": "adopted into English psychology for an outgoing, sociable person"
-    }
-  ],
-  "facade": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "facade",
-      "current_note": "adopted directly from French"
-    }
-  ],
-  "factory": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "facere",
-      "current_note": "to make, to do"
-    }
-  ],
-  "fakir": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "fakir",
-      "current_note": "adopted directly from Arabic for a Muslim (and later also Hindu) religious mendicant"
-    }
-  ],
-  "falafel": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "falafel",
-      "current_note": "adopted as Middle Eastern cuisine spread internationally"
-    }
-  ],
-  "fallacy": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "fallere",
-      "current_note": "to deceive, to trick"
-    }
-  ],
-  "falsetto": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "falsetto",
-      "current_note": "adopted directly for the artificially high vocal register"
-    }
-  ],
-  "fascinate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "fascinare",
-      "current_note": "to bewitch, to cast a spell using the evil eye"
-    }
-  ],
-  "fashion": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "facere",
-      "current_note": "to make, to do"
-    }
-  ],
   "fatal": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "fatal",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "fatigue": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "fatigare",
-      "current_note": "to tire, to weary"
-    }
-  ],
-  "fattoush": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "fattoush",
-      "current_note": "adopted directly for the Levantine bread salad"
-    }
-  ],
-  "fauna": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "fauna",
-      "current_note": "adopted by naturalists for the animal life of a region or period"
-    }
-  ],
-  "faux pas": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "faux pas",
-      "current_note": "adopted directly for an embarrassing social mistake"
-    }
-  ],
-  "feasible": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "facere",
-      "current_note": "to make, to do"
-    }
-  ],
-  "feature": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "facere",
-      "current_note": "to make, to do"
-    }
-  ],
-  "feijoada": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "feijoada",
-      "current_note": "adopted directly as Brazilian cuisine spread internationally"
-    }
-  ],
-  "felucca": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "felucca",
-      "current_note": "borrowed from Italian for the Nile and Mediterranean sailboat"
-    }
-  ],
-  "femur": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "femur",
-      "current_note": "adopted directly as the anatomical word for the thigh bone"
-    }
-  ],
-  "feng shui": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "feng shui",
-      "current_note": "adopted as the practice of spatial arrangement spread internationally"
-    }
-  ],
-  "ferment": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "fervere",
-      "current_note": "to boil, to seethe"
-    }
-  ],
-  "fiancee": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "fiancee",
-      "current_note": "adopted directly from French"
     }
   ],
   "fiber": [
