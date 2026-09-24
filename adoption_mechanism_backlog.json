@@ -8332,59 +8332,6 @@
       "current_note": "the sense 'quality of mind' dates from the 1500s too"
     }
   ],
-  "calibre": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "qalib",
-      "era": "medieval",
-      "current_note": "a mold used for casting metal, especially for shaping bullets"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "calibre",
-      "era": "1500s",
-      "current_note": "came via Italian 'calibro' as gunnery developed in the 1500s"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "caliber",
-      "era": "1500s",
-      "current_note": "settled as the word for a firearm's bore diameter, later a measure of quality"
-    }
-  ],
-  "caliph": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "khalifa",
-      "era": "medieval",
-      "current_note": "from khalafa, \"to succeed\"; title of Muhammad's successors as leader of the Muslim community"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "califa",
-      "era": "1100s",
-      "current_note": "adopted the title into Latin chronicles"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "caliphe",
-      "era": "1100s",
-      "current_note": "carried into French from Latin"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "caliph",
-      "era": "late 1300s",
-      "current_note": "settled as the English title for the ruler of a Muslim state"
-    }
-  ],
   "call": [
     {
       "stop_index": 0,
@@ -8477,29 +8424,6 @@
       "word": "cambric",
       "era": "1530s",
       "current_note": "settled as the English word for the fine, lightweight linen fabric"
-    }
-  ],
-  "camlet": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "khamlat",
-      "era": "medieval",
-      "current_note": "described the nap or pile of a plush woven cloth"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "camelot",
-      "era": "1200s",
-      "current_note": "folk etymology tied the fabric's name to \"camel,\" as if woven from camel hair"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Middle English",
-      "word": "camlet",
-      "era": "1300s",
-      "current_note": "entered English as a prized import fabric from the Levant"
     }
   ],
   "camp": [
@@ -8734,29 +8658,6 @@
       "current_note": "'canine teeth' date from the 1300s"
     }
   ],
-  "cannibal": [
-    {
-      "stop_index": 0,
-      "lang": "Arawakan/Carib",
-      "word": "Caniba",
-      "era": "pre-1500s",
-      "current_note": "a name for the Carib people, as recorded by Columbus"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "canibal",
-      "era": "1490s",
-      "current_note": "associated with reports of the Caribs' practices"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cannibal",
-      "era": "1550s",
-      "current_note": "generalized to mean anyone who eats human flesh"
-    }
-  ],
   "cannoli": [
     {
       "stop_index": 0,
@@ -8771,29 +8672,6 @@
       "word": "cannoli",
       "era": "1930s",
       "current_note": "Sicilian 'little tubes', traditionally made for Carnival in Palermo"
-    }
-  ],
-  "canoe": [
-    {
-      "stop_index": 0,
-      "lang": "Arawakan (Taíno)",
-      "word": "kana:wa",
-      "era": "pre-1500s",
-      "current_note": "described the dugout boats used across the Caribbean"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "canoa",
-      "era": "c. 1500s",
-      "current_note": "recorded by Columbus's crew as a native Caribbean word"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "canoe",
-      "era": "c. 1550s",
-      "current_note": "Columbus recorded 'canoa' in his journal in 1492, one of the first American words in a European language"
     }
   ],
   "canon": [
@@ -9270,52 +9148,6 @@
       "current_note": "settled as the English word for taking someone or something by force"
     }
   ],
-  "capybara": [
-    {
-      "stop_index": 0,
-      "lang": "Tupi",
-      "word": "kapiyva",
-      "era": "pre-1500s",
-      "current_note": "literally 'grass-eater', naming the giant rodent of South American rivers"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Portuguese",
-      "word": "capivara",
-      "era": "1600s",
-      "current_note": "Tupi 'eater of slender grass'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "capybara",
-      "era": "1770s",
-      "current_note": "borrowed into English natural history writing"
-    }
-  ],
-  "carafe": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "gharrafa",
-      "era": "medieval",
-      "current_note": "a vessel for drawing and holding water, from gharafa (to draw water)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "carafa",
-      "era": "1500s",
-      "current_note": "carried into Italian for a glass water or wine vessel"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "carafe",
-      "era": "1800s",
-      "current_note": "settled as the English word for the glass serving vessel"
-    }
-  ],
   "caramel": [
     {
       "stop_index": 0,
@@ -9507,29 +9339,6 @@
       "word": "cargo",
       "era": "1600s",
       "current_note": "Spanish 'cargar', to load, from the same root as 'charge' and 'car'"
-    }
-  ],
-  "caribou": [
-    {
-      "stop_index": 0,
-      "lang": "Mi'kmaq",
-      "word": "qalipu",
-      "era": "pre-1600s",
-      "current_note": "possibly meaning 'snow shoveler', describing how the animal digs through snow"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Canadian French",
-      "word": "caribou",
-      "era": "1600s",
-      "current_note": "Mi'kmaq 'qalipu', snow-shoveller, for how the animal paws through snow to feed"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "caribou",
-      "era": "1660s",
-      "current_note": "used in North America, while the same animal in Eurasia is called reindeer"
     }
   ],
   "carmine": [
@@ -9879,22 +9688,6 @@
       "current_note": "settled as the English word for a particular instance, situation, or legal matter"
     }
   ],
-  "cashmere": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit/Kashmiri",
-      "word": "Kashmir",
-      "era": "ancient",
-      "current_note": "the Himalayan region famous for the fine wool of its mountain goats"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cashmere",
-      "era": "1800s",
-      "current_note": "settled as the word for the fine soft wool from Kashmir goats"
-    }
-  ],
   "casino": [
     {
       "stop_index": 0,
@@ -9939,29 +9732,6 @@
       "word": "cask",
       "era": "1500s",
       "current_note": "wine casks shaped taste in winemaking"
-    }
-  ],
-  "cassava": [
-    {
-      "stop_index": 0,
-      "lang": "Taino",
-      "word": "kasabi",
-      "era": "pre-1500s",
-      "current_note": "named the starchy root plant and the flatbread made from it"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "cazabe",
-      "era": "1550s",
-      "current_note": "the Taíno baked the root into flat 'casabe' bread, which Spanish ships carried as provisions"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cassava",
-      "era": "1550s-1600s",
-      "current_note": "anglicized from Spanish/Portuguese accounts of Caribbean and South American agriculture"
     }
   ],
   "cast": [
@@ -10024,38 +9794,6 @@
       "word": "catalogue",
       "era": "1400s",
       "current_note": "mail-order catalogues date from the 1800s"
-    }
-  ],
-  "catalpa": [
-    {
-      "stop_index": 0,
-      "lang": "Muscogee (Creek)",
-      "word": "kutuhlpa",
-      "era": "pre-1700s",
-      "current_note": "literally 'winged head', describing the tree's showy flower clusters or seed pods"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "catalpa",
-      "era": "1740s",
-      "current_note": "the naturalist Mark Catesby described and named the tree in 1731"
-    }
-  ],
-  "catamaran": [
-    {
-      "stop_index": 0,
-      "lang": "Tamil",
-      "word": "kattumaram",
-      "era": "medieval",
-      "current_note": "literally \"tied wood\", describing logs lashed together"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "catamaran",
-      "era": "1600s-1700s",
-      "current_note": "Tamil 'tied wood', a raft of lashed logs used by fishermen of the Coromandel Coast"
     }
   ],
   "catastrophe": [
@@ -10359,29 +10097,6 @@
       "current_note": "anglicized into English, later also spelled 'key' as in the Florida Keys"
     }
   ],
-  "cayman": [
-    {
-      "stop_index": 0,
-      "lang": "Cariban",
-      "word": "kaiman",
-      "era": "pre-1500s",
-      "current_note": "named the large reptile found in Caribbean and South American waters"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "caimán",
-      "era": "1570s",
-      "current_note": "the Cayman Islands were named for the crocodiles Spanish sailors saw there"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cayman",
-      "era": "1570s-1600s",
-      "current_note": "anglicized from Spanish accounts of New World wildlife"
-    }
-  ],
   "cease": [
     {
       "stop_index": 0,
@@ -10550,29 +10265,6 @@
       "word": "cemetery",
       "era": "1400s",
       "current_note": "settled as the English word for a burial ground"
-    }
-  ],
-  "cenote": [
-    {
-      "stop_index": 0,
-      "lang": "Yucatec Maya",
-      "word": "tsonot",
-      "era": "ancient",
-      "current_note": "a natural sinkhole exposing groundwater, sacred in ancient Maya religion"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "cenote",
-      "era": "1500s",
-      "current_note": "the Maya treated cenotes as sacred; offerings were thrown into the Sacred Cenote at Chichén Itzá"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cenote",
-      "era": "1890s",
-      "current_note": "John Lloyd Stephens's travel accounts of the 1840s described Yucatán's cenotes"
     }
   ],
   "census": [
@@ -10841,22 +10533,6 @@
       "current_note": "borrowed into English ornithological terminology"
     }
   ],
-  "chador": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "chadar",
-      "era": "medieval",
-      "current_note": "carried a wide range of meanings: tent, mantle, scarf, veil, sheet"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chador",
-      "era": "1884",
-      "current_note": "entered English through Western accounts of Iranian dress"
-    }
-  ],
   "chaebol": [
     {
       "stop_index": 0,
@@ -10949,22 +10625,6 @@
       "current_note": "also names the person presiding over a meeting, from where they sat"
     }
   ],
-  "chakra": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "chakra",
-      "era": "ancient",
-      "current_note": "literally \"wheel\", referring to centers of energy in the body"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chakra",
-      "era": "1800s-1900s",
-      "current_note": "Sanskrit 'wheel'; the Theosophists and later yoga teachers spread the idea of seven body chakras"
-    }
-  ],
   "chalet": [
     {
       "stop_index": 0,
@@ -11041,29 +10701,6 @@
       "word": "champagne",
       "era": "1660s",
       "current_note": "Christopher Merret described adding sugar to make wine sparkle to London's Royal Society in 1662"
-    }
-  ],
-  "champak": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "campaka",
-      "era": "ancient",
-      "current_note": "named the fragrant magnolia-family tree"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "champak",
-      "era": "medieval",
-      "current_note": "the everyday name for the tree and its blossom"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "champac",
-      "era": "1770",
-      "current_note": "British botanists and poets adopted the name"
     }
   ],
   "champion": [
@@ -11195,22 +10832,6 @@
       "word": "chaos",
       "era": "1400s",
       "current_note": "broadened from the primordial void to any state of utter disorder"
-    }
-  ],
-  "chapati": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit/Hindi",
-      "word": "capat",
-      "era": "medieval",
-      "current_note": "flat, describing an unleavened round flatbread cooked on a griddle"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chapati",
-      "era": "1810s",
-      "current_note": "cooked on a flat iron 'tava' griddle; East African Indian communities spread it to Kenya and Uganda"
     }
   ],
   "chapel": [
@@ -11744,45 +11365,6 @@
       "current_note": "Cantonese 'long garment'; it became fashionable in 1920s Shanghai, where it is called 'qipao'"
     }
   ],
-  "cherimoya": [
-    {
-      "stop_index": 0,
-      "lang": "Quechua",
-      "word": "chirimuya",
-      "era": "pre-1500s",
-      "current_note": "combined 'chiri' (cold) and 'muya' (seeds), describing the high-altitude fruit tree"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chirimoya",
-      "era": "1600s",
-      "current_note": "Quechua 'cold seeds', since the tree grows in cool Andean highlands"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cherimoya",
-      "era": "1750s",
-      "current_note": "borrowed into English botanical and culinary writing"
-    }
-  ],
-  "cheroot": [
-    {
-      "stop_index": 0,
-      "lang": "Tamil",
-      "word": "curuttu",
-      "era": "medieval",
-      "current_note": "literally \"a roll\", describing the rolled tobacco leaf"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cheroot",
-      "era": "1600s-1700s",
-      "current_note": "Tamil 'curuttu', roll; Madras cheroots were popular with British officers"
-    }
-  ],
   "cherry": [
     {
       "stop_index": 0,
@@ -11953,29 +11535,6 @@
       "current_note": "borrowed into English through Mexican breakfast cuisine"
     }
   ],
-  "chili": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "chilli",
-      "era": "pre-1500s",
-      "current_note": "the Nahuatl name for the hot pepper"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chile",
-      "era": "1500s",
-      "current_note": "Spanish writers kept the Nahuatl name, though Columbus had called the pods 'pimiento', pepper"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chili",
-      "era": "1600s",
-      "current_note": "Texas 'chili con carne' made the word a dish name in the 1800s"
-    }
-  ],
   "chimera": [
     {
       "stop_index": 0,
@@ -12015,68 +11574,6 @@
       "current_note": "narrowed to the stack that carries smoke up"
     }
   ],
-  "chinampa": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "chinamitl",
-      "era": "pre-1500s",
-      "current_note": "named the cane or reed fence used to build raised agricultural plots in shallow lakes"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chinampa",
-      "era": "1600s",
-      "current_note": "Aztec 'floating gardens' fed Tenochtitlan; some survive at Xochimilco"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chinampa",
-      "era": "1840s",
-      "current_note": "borrowed into English through historical and archaeological writing on Aztec agriculture"
-    }
-  ],
-  "chinook": [
-    {
-      "stop_index": 0,
-      "lang": "Chinookan",
-      "word": "Tsinuk",
-      "era": "ancient",
-      "current_note": "the name of a Native American people of the Pacific Northwest"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chinook",
-      "era": "1800s",
-      "current_note": "named after the people, applied to a warm wind from their homeland's direction"
-    }
-  ],
-  "chintz": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "chitra",
-      "era": "ancient",
-      "current_note": "meaning \"bright\" or \"spotted\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "chint",
-      "era": "medieval",
-      "current_note": "a spattered or spotted printed cotton cloth"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chintz",
-      "era": "1600s",
-      "current_note": "from Hindi 'chint', spotted; imports became so popular that England banned printed Indian calicoes in 1720"
-    }
-  ],
   "chipmunk": [
     {
       "stop_index": 0,
@@ -12091,29 +11588,6 @@
       "word": "chipmunk",
       "era": "1800s",
       "current_note": "perhaps from Ojibwe 'ajidamoo', red squirrel, reshaped by English 'chip' and 'munk'"
-    }
-  ],
-  "chipotle": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "chilpoctli",
-      "era": "pre-1500s",
-      "current_note": "combining \"chilli\" (chili) and \"poctli\" (smoke)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chipotle",
-      "era": "1500s-1600s",
-      "current_note": "Nahuatl 'smoked chilli'; the smoking method preserves the peppers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chipotle",
-      "era": "1900s-2000s",
-      "current_note": "popularized in the US by Tex-Mex food and the Chipotle restaurant chain, founded in 1993"
     }
   ],
   "chisel": [
@@ -12263,22 +11737,6 @@
       "current_note": "spelled 'quire' until the 1700s"
     }
   ],
-  "chop suey": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "tsap sui",
-      "era": "medieval",
-      "current_note": "literally \"mixed bits\" or \"odds and ends\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chop suey",
-      "era": "1800s-1900s",
-      "current_note": "Cantonese 'mixed bits'; associated with Chinese-American restaurants rather than China itself"
-    }
-  ],
   "chord": [
     {
       "stop_index": 0,
@@ -12346,22 +11804,6 @@
       "word": "chorus",
       "era": "1500s",
       "current_note": "settled as the word for a group of singers or a song's refrain"
-    }
-  ],
-  "choy sum": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "coi sam",
-      "era": "ancient",
-      "current_note": "literally 'vegetable heart', naming a leafy green with tender flowering stems"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "choy sum",
-      "era": "late 1900s",
-      "current_note": "borrowed into English through Cantonese-speaking grocers and restaurants"
     }
   ],
   "chromium": [
@@ -12529,29 +11971,6 @@
       "current_note": "possibly named for the Churra sheep, whose curled horns resemble the pastry"
     }
   ],
-  "chutzpah": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "hutspah",
-      "era": "ancient",
-      "current_note": "meaning \"insolence\" or \"audacity\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Yiddish",
-      "word": "khutspe",
-      "era": "medieval",
-      "current_note": "carried into everyday Yiddish speech"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chutzpah",
-      "era": "1800s-1900s",
-      "current_note": "Leo Rosten's 'The Joys of Yiddish' (1968) popularized it with the example of a man who kills his parents and pleads for mercy as an orphan"
-    }
-  ],
   "ciabatta": [
     {
       "stop_index": 0,
@@ -12589,36 +12008,6 @@
       "word": "ciao",
       "era": "1929",
       "current_note": "from Venetian 's-ciavo', your slave, a polite greeting like 'at your service'"
-    }
-  ],
-  "cider": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "shekar",
-      "era": "ancient",
-      "current_note": "a Hebrew word for any intoxicating drink, borrowed through Greek 'sikera'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Late Latin",
-      "word": "sikera",
-      "era": "ancient",
-      "current_note": "used in the Latin Bible for strong drink"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "sidre",
-      "era": "medieval",
-      "current_note": "Normandy became famous for apple cider"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "cider",
-      "era": "1300s",
-      "current_note": "in the US 'cider' can mean unfiltered apple juice"
     }
   ],
   "cigar": [
@@ -13021,36 +12410,6 @@
       "word": "clamor",
       "era": "1300s",
       "current_note": "settled as the English word for a loud, confused noise, especially of many voices"
-    }
-  ],
-  "clan": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "planta",
-      "era": "ancient",
-      "current_note": "literally \"sprout\" or \"offshoot\", the root of a family line"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old Irish",
-      "word": "cland",
-      "era": "medieval",
-      "current_note": "came to mean one's children or descendants"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Scottish Gaelic",
-      "word": "clann",
-      "era": "medieval",
-      "current_note": "used for a kin group descended from a common ancestor"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "clan",
-      "era": "1400s-1500s",
-      "current_note": "borrowed to describe Scottish Highland kin groups"
     }
   ],
   "clarify": [
@@ -13561,36 +12920,6 @@
       "current_note": "from fingers too cold to work properly, it broadened to any awkward, ungainly movement"
     }
   ],
-  "coach": [
-    {
-      "stop_index": 0,
-      "lang": "Hungarian",
-      "word": "kocsi",
-      "era": "1400s",
-      "current_note": "literally \"of Kocs\", the village where the vehicle was built"
-    },
-    {
-      "stop_index": 1,
-      "lang": "German",
-      "word": "Kutsche",
-      "era": "1500s",
-      "current_note": "the design spread across Central Europe"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "coche",
-      "era": "1500s",
-      "current_note": "adopted for the fashionable new carriages"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "coach",
-      "era": "1500s",
-      "current_note": "later extended metaphorically to a personal trainer or tutor"
-    }
-  ],
   "coalition": [
     {
       "stop_index": 0,
@@ -13653,29 +12982,6 @@
       "current_note": "settled as the English word for the land bordering the sea"
     }
   ],
-  "coati": [
-    {
-      "stop_index": 0,
-      "lang": "Tupi-Guarani",
-      "word": "kwatĩ",
-      "era": "pre-1500s",
-      "current_note": "named the long-nosed, raccoon-like mammal"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Portuguese/Spanish",
-      "word": "coati",
-      "era": "1600s",
-      "current_note": "Tupi 'belt-nose', from the way it sleeps with its long snout tucked into its belly"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "coati",
-      "era": "1670s",
-      "current_note": "borrowed into English natural history writing"
-    }
-  ],
   "cobalt": [
     {
       "stop_index": 0,
@@ -13729,36 +13035,6 @@
       "word": "coca",
       "era": "1700s-1800s",
       "current_note": "chewed by Andean workers to fight altitude sickness and fatigue"
-    }
-  ],
-  "cocaine": [
-    {
-      "stop_index": 0,
-      "lang": "Quechua",
-      "word": "kuka",
-      "era": "pre-1500s",
-      "current_note": "named the coca shrub whose leaves were chewed for stimulant effect"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "coca",
-      "era": "1570s",
-      "current_note": "Spanish colonists taxed coca, which Andean miners chewed at Potosí"
-    },
-    {
-      "stop_index": 2,
-      "lang": "German",
-      "word": "cocaine",
-      "era": "1856",
-      "current_note": "coined by chemist Albert Niemann, who isolated the alkaloid and added the scientific suffix '-ine'"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "cocaine",
-      "era": "1870s",
-      "current_note": "isolated by Albert Niemann in 1859; Freud promoted it in the 1880s"
     }
   ],
   "cockatoo": [
