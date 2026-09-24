@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "argutare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a frequentative of 'arguere', to make clear, prove",
+      "meaning": "to prattle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arguer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to put forward reasons",
+      "meaning": "to reason, accuse",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "argue",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'to quarrel' dates from the 1800s",
+      "meaning": "to reason",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to exchange opposing views"
+}

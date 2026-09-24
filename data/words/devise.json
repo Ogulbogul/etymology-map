@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "divisare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "from 'dividere', to divide",
+      "meaning": "to divide, arrange",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deviser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to divide up property in a will",
+      "meaning": "to arrange, plan",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "devise",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'device' comes from the same word",
+      "meaning": "to plan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to plan or invent"
+}

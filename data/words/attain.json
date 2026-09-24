@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "attingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'tangere', to touch",
+      "meaning": "to touch, reach",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ataindre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also gave legal 'attainder', loss of rights for treason",
+      "meaning": "to reach",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attain",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'attainable' dates from the 1600s",
+      "meaning": "to reach",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to succeed in achieving"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "plaga",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'plēgē', stroke",
+      "meaning": "blow, wound",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a divine blow or affliction",
+      "meaning": "wound, affliction",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "plague",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the Great Plague of London struck in 1665",
+      "meaning": "affliction",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a deadly contagious disease"
+}

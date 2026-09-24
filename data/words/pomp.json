@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pompē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'pempein', to send",
+      "meaning": "procession",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pompe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'pompa'",
+      "meaning": "splendour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pomp",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'pompous' followed",
+      "meaning": "splendid display",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "ceremonial splendour"
+}

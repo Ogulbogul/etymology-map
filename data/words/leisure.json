@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "licere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'licence'",
+      "meaning": "to be permitted",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "leisir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "being permitted to do as one likes",
+      "meaning": "free time",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "leisure",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'leisure centre' dates from the 1970s",
+      "meaning": "free time",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "free time"
+}

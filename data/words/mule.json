@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mulus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Romans bred mules as pack animals for their armies",
+      "meaning": "mule",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mul",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the offspring of a donkey and horse",
+      "meaning": "mule",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mule",
+      "lang": "English",
+      "era": "1200s",
+      "note": "reinforced an earlier Old English borrowing, 'mul'; 'mule' for a drug courier dates from the 1900s",
+      "meaning": "mule",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the offspring of a donkey and a horse"
+}

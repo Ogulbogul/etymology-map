@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "eidōlon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'eidos', form",
+      "meaning": "image, phantom",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "idole",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'idolum'",
+      "meaning": "idol",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "idol",
+      "lang": "English",
+      "era": "1200s",
+      "note": "pop 'idols' date from the 1900s",
+      "meaning": "false god",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an image worshipped as a god; a hero"
+}

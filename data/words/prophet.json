@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "prophētēs",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'pro-', before, plus 'phanai', to speak",
+      "meaning": "spokesman of a god",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "prophete",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'propheta'",
+      "meaning": "prophet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "prophet",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'prophet of doom' dates from the 1900s",
+      "meaning": "prophet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who predicts the future"
+}

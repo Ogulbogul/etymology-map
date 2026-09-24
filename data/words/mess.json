@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "missus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'mittere', to send: food sent to the table",
+      "meaning": "course of a meal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mes",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a dish served",
+      "meaning": "portion of food",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mess",
+      "lang": "English",
+      "era": "1300s",
+      "note": "military 'mess' halls keep this sense; 'a mess' as disorder dates from the 1800s",
+      "meaning": "portion of food",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an untidy state; a place where soldiers eat"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "festivus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'festum', feast",
+      "meaning": "festive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "festival",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an adjective first",
+      "meaning": "festive",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "festival",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the noun 'festival' dates from the 1500s",
+      "meaning": "festive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized celebration"
+}

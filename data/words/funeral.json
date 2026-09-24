@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "funus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "perhaps related to 'fumus', smoke, from funeral pyres",
+      "meaning": "burial rites",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "funerailles",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Medieval Latin 'funeralia'",
+      "meaning": "funeral rites",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "funeral",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'funeral parlour' dates from the 1880s",
+      "meaning": "burial rite",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a ceremony for burying the dead"
+}

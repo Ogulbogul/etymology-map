@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "qualitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "coined by Cicero from 'qualis', of what kind, to translate Greek 'poiotēs'",
+      "meaning": "what sort",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "qualité",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a characteristic",
+      "meaning": "nature, kind",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quality",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'quality control' dates from the 1900s",
+      "meaning": "characteristic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "how good something is"
+}

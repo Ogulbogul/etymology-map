@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quaestio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'quaerere', to seek, the root of 'quest'",
+      "meaning": "inquiry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "question",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also meant judicial torture",
+      "meaning": "question",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "question",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'question mark' dates from the 1800s",
+      "meaning": "inquiry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sentence asking for information"
+}

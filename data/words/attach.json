@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stakka",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'stake'",
+      "meaning": "stake",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "atachier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to fasten with a stake or nail",
+      "meaning": "to fasten",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attach",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'attached' in the emotional sense dates from the 1700s",
+      "meaning": "to seize by law",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to fasten; to join"
+}

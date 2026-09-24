@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nocere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'noxious' and 'innocent'",
+      "meaning": "to harm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nuisance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a legal term for harm",
+      "meaning": "harm",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nuisance",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the sense 'annoying thing' dates from the 1600s",
+      "meaning": "harm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an annoying person or thing"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rumor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to Sanskrit 'rauti', he roars",
+      "meaning": "noise, talk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rumur",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "widespread talk",
+      "meaning": "noise, talk",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rumour",
+      "lang": "English",
+      "era": "1300s",
+      "note": "American spelling drops the u",
+      "meaning": "talk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unverified story"
+}

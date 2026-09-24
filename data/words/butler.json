@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "buticularius",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'buticula', bottle",
+      "meaning": "cup-bearer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bouteillier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the servant in charge of the wine",
+      "meaning": "cup-bearer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "butler",
+      "lang": "English",
+      "era": "1200s",
+      "note": "later the head servant of a household",
+      "meaning": "wine steward",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the chief manservant of a house"
+}

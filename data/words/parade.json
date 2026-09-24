@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "parare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'prepare' and 'repair'",
+      "meaning": "to prepare",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parade",
+      "lang": "French",
+      "era": "1600s",
+      "note": "came through Spanish 'parada'",
+      "meaning": "display",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "parade",
+      "lang": "English",
+      "era": "1650s",
+      "note": "'hit parade' dates from the 1930s",
+      "meaning": "military display",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a public procession"
+}

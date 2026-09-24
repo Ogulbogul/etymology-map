@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tirer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an Old French verb of uncertain origin",
+      "meaning": "to draw",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "retirer",
+      "lang": "French",
+      "era": "1500s",
+      "note": "to pull back",
+      "meaning": "to withdraw",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "retire",
+      "lang": "English",
+      "era": "1530s",
+      "note": "the sense 'stop working for good' dates from the 1600s",
+      "meaning": "to withdraw",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to leave one's job and stop working"
+}

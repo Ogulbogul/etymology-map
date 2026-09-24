@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "possidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'potis', able, plus 'sedere', to sit: to sit as master",
+      "meaning": "to own",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "possesser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a legal term",
+      "meaning": "to own",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "possess",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'possessed' by spirits dates from the 1500s",
+      "meaning": "to own",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to own or have"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "localis",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'locus', place",
+      "meaning": "of a place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "local",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "local",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "local",
+      "lang": "English",
+      "era": "1400s",
+      "note": "British 'the local', a pub, dates from the 1930s",
+      "meaning": "of a place",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a particular area"
+}

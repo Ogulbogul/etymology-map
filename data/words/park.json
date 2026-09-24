@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "parricus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word of Germanic origin, related to 'paddock'",
+      "meaning": "enclosure",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parc",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an enclosed hunting ground",
+      "meaning": "enclosure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "park",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'car park' dates from the 1920s",
+      "meaning": "hunting enclosure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a public green area; to leave a vehicle"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "catena",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'concatenate'",
+      "meaning": "chain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chaeine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "iron chains for prisoners and anchors",
+      "meaning": "chain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chain",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'chain store' dates from the 1920s",
+      "meaning": "chain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a series of linked metal rings"
+}

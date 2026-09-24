@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cohors",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'cohort'",
+      "meaning": "enclosed yard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cort",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a king's household and law court",
+      "meaning": "royal court",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "court",
+      "lang": "English",
+      "era": "1200s",
+      "note": "tennis 'courts' date from the 1500s",
+      "meaning": "royal household; law court",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a law court; a royal household"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "providere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'pro-', ahead, plus 'videre', to see",
+      "meaning": "to foresee",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "provider",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to make ready ahead",
+      "meaning": "to foresee",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "provide",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'providence' shares the root",
+      "meaning": "to foresee; to supply",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make available"
+}

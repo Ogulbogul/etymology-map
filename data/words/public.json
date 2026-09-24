@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "publicus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'populus', people",
+      "meaning": "of the people",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "public",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "public",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "public",
+      "lang": "English",
+      "era": "1400s",
+      "note": "British 'public schools' are, confusingly, private",
+      "meaning": "of the people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the people as a whole"
+}

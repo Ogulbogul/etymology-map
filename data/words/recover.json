@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "recuperare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'recuperate'",
+      "meaning": "to get back",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "recovrer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to get back something lost",
+      "meaning": "to regain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "recover",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'regain health' dates from the 1300s",
+      "meaning": "to regain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to return to health; to regain"
+}

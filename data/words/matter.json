@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "materia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'mater', mother: the stuff things are made of",
+      "meaning": "substance, timber",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "matiere",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also a subject of discussion",
+      "meaning": "substance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "matter",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'what's the matter?' dates from the 1500s",
+      "meaning": "substance; subject",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "physical substance; a subject"
+}

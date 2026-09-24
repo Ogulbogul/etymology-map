@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "legalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'lex', law",
+      "meaning": "of the law",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "legal",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing; its native double is 'loyal'",
+      "meaning": "legal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "legal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'legal tender' dates from the 1700s",
+      "meaning": "lawful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "permitted by law"
+}

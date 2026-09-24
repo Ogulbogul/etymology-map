@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "thema",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'tithenai', to place",
+      "meaning": "proposition",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "teme",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'thema'",
+      "meaning": "theme",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "theme",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'theme park' dates from the 1960s",
+      "meaning": "topic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the subject of a talk or piece of writing"
+}

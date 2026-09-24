@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "auctor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'augere', to increase, the root of 'augment'",
+      "meaning": "originator, promoter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "autor",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of God as creator and of writers",
+      "meaning": "creator",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "author",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the 'h' was added in the 1500s, as if from Greek",
+      "meaning": "creator",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a writer of a book"
+}

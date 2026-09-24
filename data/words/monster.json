@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "monstrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'monere', to warn: a sign sent by the gods",
+      "meaning": "portent, omen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "monstre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a malformed creature",
+      "meaning": "monster",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "monster",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'monstrous' followed",
+      "meaning": "prodigy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large, ugly, frightening creature"
+}

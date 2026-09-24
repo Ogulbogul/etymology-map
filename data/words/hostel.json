@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hospitale",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'hospes', host or guest",
+      "meaning": "guesthouse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hostel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an inn or lodging",
+      "meaning": "inn",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hostel",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'youth hostels' date from the 1900s",
+      "meaning": "inn",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cheap lodging for travellers"
+}
