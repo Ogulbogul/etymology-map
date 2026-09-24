@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "reliquiae",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'relinquere', to leave behind, the root of 'relinquish'",
+      "meaning": "remains",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "relique",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "bones and belongings of saints were venerated",
+      "meaning": "sacred remains",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "relic",
+      "lang": "English",
+      "era": "1200s",
+      "note": "applied to any survival from the past",
+      "meaning": "sacred object",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an object surviving from an earlier time"
+}

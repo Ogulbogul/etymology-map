@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "robète",
+      "lang": "Walloon",
+      "era": "medieval",
+      "note": "a dialect word of the Low Countries, possibly from Middle Dutch 'robbe'; Flemish weavers and traders brought it to England",
+      "meaning": "young rabbit",
+      "lat": 50.63,
+      "lon": 5.57
+    },
+    {
+      "word": "rabbit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "first used only for the young; adults were 'coneys' until the 1700s",
+      "meaning": "young rabbit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small burrowing mammal with long ears"
+}

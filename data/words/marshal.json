@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "marhskalk",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word: 'marh' horse, plus 'skalk' servant",
+      "meaning": "horse-servant",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "mareschal",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a groom rose to command the cavalry",
+      "meaning": "farrier; commander",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marshal",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'field marshal' and US marshals came later",
+      "meaning": "horse officer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a high-ranking officer; a law officer"
+}

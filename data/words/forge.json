@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fabrica",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'faber', smith, the root of 'fabric' and 'fabricate'",
+      "meaning": "workshop",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "forge",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a blacksmith's furnace",
+      "meaning": "smithy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "forge",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'forge' as counterfeit dates from the 1300s too",
+      "meaning": "smithy; to shape metal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a blacksmith's workshop; to make or counterfeit"
+}

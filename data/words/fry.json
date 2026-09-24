@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "frigere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to Greek 'phrygein', to parch",
+      "meaning": "to roast, fry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "frire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "cooking in hot fat",
+      "meaning": "to fry",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fry",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'French fries' date from the early 1900s",
+      "meaning": "to cook in fat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to cook in hot oil or fat"
+}

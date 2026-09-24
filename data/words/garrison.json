@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "warjan",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'wary' and 'warn'",
+      "meaning": "to defend",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "garison",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "protection and supplies for a fortress",
+      "meaning": "defence, provision",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "garrison",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the sense 'troops stationed in a fort' dates from the 1500s",
+      "meaning": "defence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "troops stationed in a town or fort"
+}

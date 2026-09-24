@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "libella",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'libra', balance, also the root of 'lb' for pound",
+      "meaning": "plumb line, small balance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "livel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a tool to check a surface is flat",
+      "meaning": "carpenter's level",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "level",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'on the level', honest, dates from the 1800s",
+      "meaning": "a levelling tool",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a flat surface; a position on a scale"
+}

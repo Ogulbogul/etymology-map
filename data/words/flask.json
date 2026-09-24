@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flasco",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word, possibly Germanic",
+      "meaning": "bottle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "flasque",
+      "lang": "French",
+      "era": "1500s",
+      "note": "used for soldiers' powder flasks; Italian 'fiasco' comes from the same word",
+      "meaning": "powder flask",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "flask",
+      "lang": "English",
+      "era": "1500s",
+      "note": "later any narrow-necked bottle, including a pocket flask for spirits",
+      "meaning": "bottle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a narrow-necked bottle"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Hispania",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Roman name for the Iberian peninsula",
+      "meaning": "Spain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "espaignol",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the breed was believed to come from Spain",
+      "meaning": "Spanish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "spaniel",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'spaniel' for a fawning person dates from the 1500s",
+      "meaning": "Spanish dog",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a breed of dog with long ears"
+}

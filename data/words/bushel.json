@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bostia",
+      "lang": "Gaulish",
+      "era": "ancient",
+      "note": "a Gaulish word",
+      "meaning": "handful",
+      "lat": 46.23,
+      "lon": 2.21
+    },
+    {
+      "word": "boissel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a measure for grain",
+      "meaning": "dry measure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bushel",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'hide your light under a bushel' is from the Gospels",
+      "meaning": "grain measure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a measure of capacity for grain and fruit"
+}

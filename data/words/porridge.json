@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pot",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word for a cooking vessel, which gave French 'potage', what is cooked in a pot",
+      "meaning": "cooking pot",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "potage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "vegetables or meat stewed in a pot",
+      "meaning": "thick soup",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "porridge",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'potage' became 'pottage', then 'porridge'; oat porridge dates from the 1600s, and British slang 'doing porridge' means prison time",
+      "meaning": "vegetable soup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hot dish of oats boiled in milk or water"
+}

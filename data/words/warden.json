@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wardon",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word, related to 'ward' and 'guard'",
+      "meaning": "to guard",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "wardein",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French form; Parisian French said 'gardien'",
+      "meaning": "guardian",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "warden",
+      "lang": "English",
+      "era": "1200s",
+      "note": "prison wardens date from the 1500s",
+      "meaning": "guardian",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person responsible for supervising a place"
+}

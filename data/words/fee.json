@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fehu",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word; cattle were wealth, related to Latin 'pecus'",
+      "meaning": "cattle, property",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "fie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "land granted by a lord",
+      "meaning": "fief",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fee",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came to mean a payment for services",
+      "meaning": "land held in return for service",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a payment made for professional advice or services"
+}

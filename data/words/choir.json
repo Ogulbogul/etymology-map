@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chorus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'khoros', a dance in a ring",
+      "meaning": "chorus, dance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cuer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the part of a church where singers sat",
+      "meaning": "choir",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "choir",
+      "lang": "English",
+      "era": "1200s",
+      "note": "spelled 'quire' until the 1700s",
+      "meaning": "choir of singers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an organized group of singers"
+}

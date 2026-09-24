@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "unitas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'unus', one",
+      "meaning": "oneness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "unité",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gave English 'unity'",
+      "meaning": "oneness",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "unit",
+      "lang": "English",
+      "era": "1570s",
+      "note": "John Dee coined 'unit' from 'unity' in 1570 to translate Euclid",
+      "meaning": "a single thing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a single thing; a standard quantity"
+}

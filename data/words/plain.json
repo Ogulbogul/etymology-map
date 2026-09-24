@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "planus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'plane' and 'explain'",
+      "meaning": "flat, clear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plain",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for level country",
+      "meaning": "flat; open land",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "plain",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'plain' as unadorned dates from the 1300s too",
+      "meaning": "flat; clear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "simple; not decorated; a flat area of land"
+}

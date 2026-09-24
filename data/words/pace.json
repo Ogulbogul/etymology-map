@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "passus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'pandere', to stretch out: a stretch of the legs",
+      "meaning": "step, stride",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pas",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a Roman 'mille passus', a thousand paces, gave 'mile'",
+      "meaning": "step",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pace",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'keep pace' dates from the 1500s",
+      "meaning": "step",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a single step; speed of movement"
+}

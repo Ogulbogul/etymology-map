@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "grossus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "the root of 'gross'",
+      "meaning": "thick, bulky",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grossier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a merchant who sold in bulk, 'en gros'",
+      "meaning": "wholesaler",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grocery",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'groceries' as food items date from the 1600s",
+      "meaning": "wholesale trade",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a shop selling food and household goods"
+}

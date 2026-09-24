@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "submonere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'sub-', secretly, plus 'monere', to warn, the root of 'monitor'",
+      "meaning": "to remind privately",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "somondre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to call someone before a court",
+      "meaning": "to summon",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "summon",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'summons' as a legal writ dates from the 1200s",
+      "meaning": "to call to court",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to order someone to be present"
+}

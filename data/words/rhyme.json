@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rhythmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, the root of 'rhythm'",
+      "meaning": "measured flow",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "rime",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Old French verse was built on rhyme",
+      "meaning": "rhyme",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rhyme",
+      "lang": "English",
+      "era": "1200s",
+      "note": "spelled 'rime' until the 1600s, when the h and y were added to match 'rhythm'",
+      "meaning": "rhyme",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "correspondence of sound between word endings"
+}

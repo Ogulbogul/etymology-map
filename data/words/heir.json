@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "heres",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'heredity' and 'inherit'",
+      "meaning": "heir",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "eir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the h is silent, as in French",
+      "meaning": "heir",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "heir",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'heir apparent' dates from the 1300s",
+      "meaning": "inheritor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person legally entitled to inherit"
+}

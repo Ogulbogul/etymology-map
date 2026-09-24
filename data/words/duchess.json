@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dux",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'duke' and 'conduct'",
+      "meaning": "leader",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duchesse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the feminine suffix -esse",
+      "meaning": "duke's wife",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "duchess",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'duchess' potatoes date from the 1800s",
+      "meaning": "duke's wife",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the wife or widow of a duke"
+}

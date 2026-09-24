@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "copia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'copious'; a 'copy' made more of something",
+      "meaning": "abundance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "copie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "copying multiplied texts",
+      "meaning": "transcript",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "copy",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'copy' for advertising text dates from the 1800s",
+      "meaning": "transcript",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thing made to be like another"
+}

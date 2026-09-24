@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bank",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word, the same as English 'bench'",
+      "meaning": "bench",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "banchetto",
+      "lang": "Italian",
+      "era": "1400s",
+      "note": "a small bench, then the feast eaten sitting on it",
+      "meaning": "feast",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "banquet",
+      "lang": "English",
+      "era": "1480s",
+      "note": "arrived via French 'banquet'",
+      "meaning": "a feast",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an elaborate formal meal"
+}

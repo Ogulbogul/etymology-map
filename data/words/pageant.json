@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pagina",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a written page, later a stage scene",
+      "meaning": "page, sheet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pagyn",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "used for the wagon stages of the York and Chester mystery plays",
+      "meaning": "scene of a play",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "pageant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "beauty 'pageants' date from the 1900s",
+      "meaning": "play; stage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a public show; an elaborate procession"
+}

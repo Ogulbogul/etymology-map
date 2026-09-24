@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lardum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'lard'",
+      "meaning": "bacon fat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lardier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a room for storing bacon and meat",
+      "meaning": "meat store",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "larder",
+      "lang": "English",
+      "era": "1300s",
+      "note": "broadened to any food store",
+      "meaning": "meat store",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a room or cupboard for storing food"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bergfrid",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic word, 'berg' shelter plus 'frithu' peace",
+      "meaning": "protective tower",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "berfrei",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a movable wooden tower used to attack castle walls",
+      "meaning": "siege tower",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "belfry",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the l came from association with 'bell'",
+      "meaning": "watchtower; bell tower",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bell tower"
+}

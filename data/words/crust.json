@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "crusta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'crustacean'",
+      "meaning": "shell, crust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "crouste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the hard outer part of bread",
+      "meaning": "crust",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crust",
+      "lang": "English",
+      "era": "1300s",
+      "note": "Earth's 'crust' dates from the 1500s",
+      "meaning": "bread crust",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the hard outer layer of bread"
+}

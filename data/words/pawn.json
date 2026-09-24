@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pedo",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'pes', foot, the root of 'pedestrian'",
+      "meaning": "foot soldier",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the lowliest chess piece",
+      "meaning": "foot soldier",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pawn",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'pawn' as a pledge in a pawnshop is a different word",
+      "meaning": "chess piece",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the least valuable chess piece; a person used by others"
+}

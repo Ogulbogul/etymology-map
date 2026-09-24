@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fragilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'frangere', to break, the root of 'fraction' and 'fracture'",
+      "meaning": "breakable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fragile",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a learned borrowing; the native French form became 'frêle', frail",
+      "meaning": "breakable",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fragile",
+      "lang": "English",
+      "era": "1510s",
+      "note": "'frail' is the older form of the same word",
+      "meaning": "breakable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "easily broken"
+}

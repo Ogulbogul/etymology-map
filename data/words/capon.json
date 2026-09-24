@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capo",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from a root meaning 'to cut'",
+      "meaning": "castrated cockerel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "capon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a fattened castrated rooster",
+      "meaning": "capon",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "capon",
+      "lang": "English",
+      "era": "1000s",
+      "note": "a medieval luxury food",
+      "meaning": "capon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a castrated domestic cock fattened for eating"
+}

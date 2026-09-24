@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "titulus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used for a label on a book scroll or tomb",
+      "meaning": "inscription, label",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "title",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for book names and ranks of nobility",
+      "meaning": "title",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "title",
+      "lang": "English",
+      "era": "1300s",
+      "note": "sports 'titles' date from the 1900s",
+      "meaning": "inscription",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the name of a book or work; a rank"
+}

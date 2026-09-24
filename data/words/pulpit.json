@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pulpitum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used for the actors' platform in a Roman theatre",
+      "meaning": "stage, platform",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pulpitum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "adopted by the church for the raised desk from which scripture was read",
+      "meaning": "church reading platform",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pulpit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'the pulpit' stands for preaching itself",
+      "meaning": "preaching platform",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a raised platform in a church for preaching"
+}

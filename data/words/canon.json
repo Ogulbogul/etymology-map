@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kanōn",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, possibly from 'kanna', reed",
+      "meaning": "measuring rod, rule",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "canon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "church law and the approved list of scripture",
+      "meaning": "church rule",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "canon",
+      "lang": "English",
+      "era": "1100s",
+      "note": "literary 'canon' and 'canon' in fiction came later",
+      "meaning": "church rule",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a general rule; an accepted body of works"
+}

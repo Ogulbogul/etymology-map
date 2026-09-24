@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fraus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'frustra', in vain, the root of 'frustrate'",
+      "meaning": "deceit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fraude",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a legal term for deception",
+      "meaning": "fraud",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fraud",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'fraudster' dates from the 1970s",
+      "meaning": "deceit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "wrongful deception for gain"
+}

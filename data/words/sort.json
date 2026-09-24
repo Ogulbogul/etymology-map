@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sors",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'sorcerer', one who casts lots",
+      "meaning": "lot, fortune",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sorte",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "what fortune allotted you, then your kind",
+      "meaning": "kind, class",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sort",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'sort out' dates from the 1500s",
+      "meaning": "kind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a category of things; to arrange"
+}

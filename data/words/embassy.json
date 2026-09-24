@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "andbahti",
+      "lang": "Gothic",
+      "era": "ancient",
+      "note": "a Gothic word, borrowed into Medieval Latin as 'ambactia'",
+      "meaning": "office, service",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "ambassade",
+      "lang": "French",
+      "era": "1400s",
+      "note": "came via Italian 'ambasciata'",
+      "meaning": "mission of envoys",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "embassy",
+      "lang": "English",
+      "era": "1570s",
+      "note": "the building sense dates from the 1800s",
+      "meaning": "mission of envoys",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the official residence of an ambassador"
+}

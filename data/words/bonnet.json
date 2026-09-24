@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "abonnis",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word of uncertain origin",
+      "meaning": "cap",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bonet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a fabric first, then the cap made of it",
+      "meaning": "cloth for caps",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bonnet",
+      "lang": "English",
+      "era": "1400s",
+      "note": "car 'bonnets' in British English date from the 1900s",
+      "meaning": "cap",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hat tied under the chin; a car's hood"
+}

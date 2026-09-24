@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tapēs",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, possibly from Persian",
+      "meaning": "carpet",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tapisserie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "from 'tapis', carpet",
+      "meaning": "tapestry",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tapestry",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the Bayeux Tapestry is actually embroidery",
+      "meaning": "woven hanging",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a textile with pictures woven into it"
+}

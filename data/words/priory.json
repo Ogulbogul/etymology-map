@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "prior",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "comparative of an old word for 'before'",
+      "meaning": "former, superior",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "priorie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a religious house governed by a prior",
+      "meaning": "priory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "priory",
+      "lang": "English",
+      "era": "1300s",
+      "note": "smaller than an abbey",
+      "meaning": "monastery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small monastery or nunnery"
+}

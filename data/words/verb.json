@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "verbum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'verbal' and 'verbose'",
+      "meaning": "word",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verbe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "grammarians' term for the action word",
+      "meaning": "verb",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "verb",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'verbatim' means word for word",
+      "meaning": "verb",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word describing an action or state"
+}

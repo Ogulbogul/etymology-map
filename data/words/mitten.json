@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "possibly the source, for the mitten's soft fur-like feel",
+      "meaning": "pet name for a cat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mitaine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a glove without separate fingers, from 'mite' plus a diminutive ending",
+      "meaning": "mitten",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mitten",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the 'mitt' is a shortened form",
+      "meaning": "mitten",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a glove with one section for four fingers"
+}
