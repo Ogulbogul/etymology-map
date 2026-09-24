@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "filtrum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "felt was used to strain liquids; the source of 'filter', which English turned into 'infiltrate'",
+      "meaning": "felt used as a strainer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "infiltrate",
+      "lang": "English",
+      "era": "1750s",
+      "note": "military 'infiltration' dates from the 1900s",
+      "meaning": "to pass through a filter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to secretly enter an organization"
+}

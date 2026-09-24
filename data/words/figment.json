@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "figmentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'fingere', to shape, the root of 'fiction'",
+      "meaning": "something formed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "figment",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'figment of the imagination' dates from the 1800s",
+      "meaning": "invention",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something that exists only in the imagination"
+}

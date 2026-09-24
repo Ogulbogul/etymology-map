@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "frivolus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'friare', to crumble",
+      "meaning": "silly, worthless",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "frivolous",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'frivolous lawsuits' dates from the 1900s",
+      "meaning": "worthless",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not serious"
+}

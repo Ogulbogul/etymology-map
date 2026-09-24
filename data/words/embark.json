@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "barca",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a Late Latin word, the root of 'barque' and 'bark'",
+      "meaning": "boat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "embarquer",
+      "lang": "French",
+      "era": "1500s",
+      "note": "'en-' plus 'barque'",
+      "meaning": "to board ship",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "embark",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'embark on' a project dates from the 1600s",
+      "meaning": "to board ship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to go on board; to begin"
+}

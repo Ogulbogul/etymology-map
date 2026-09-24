@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "flexibilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'flectere', to bend",
+      "meaning": "pliant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "flexible",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'flexitime' dates from the 1970s",
+      "meaning": "bendable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to bend; adaptable"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gigas",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "from Greek 'gigas'",
+      "meaning": "giant",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "giganteus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Latin adjective 'of the giants'",
+      "meaning": "giant-like",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gigantic",
+      "lang": "English",
+      "era": "1610s",
+      "note": "'gigantism' dates from the 1800s",
+      "meaning": "like a giant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "of very great size"
+}

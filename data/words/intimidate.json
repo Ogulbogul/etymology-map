@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "intimidare",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "'in-' plus 'timidus', fearful",
+      "meaning": "to make timid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intimidate",
+      "lang": "English",
+      "era": "1640s",
+      "note": "'intimidating' followed",
+      "meaning": "to frighten",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to frighten into action"
+}

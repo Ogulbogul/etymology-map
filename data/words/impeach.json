@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "impedicare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "'in-' plus 'pedica', fetter, from 'pes', foot",
+      "meaning": "to fetter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "empeechier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to catch or entangle",
+      "meaning": "to hinder",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "impeach",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the political sense of charging an official dates from the 1600s",
+      "meaning": "to hinder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to charge a public official with misconduct"
+}

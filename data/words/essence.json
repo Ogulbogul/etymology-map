@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "essentia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "coined by Cicero from 'esse', to be, to translate Greek 'ousia'",
+      "meaning": "being",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "essence",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "essence",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "essence",
+      "lang": "English",
+      "era": "1300s",
+      "note": "perfume 'essences' date from the 1600s",
+      "meaning": "being",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the intrinsic nature of something"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ignire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'ignis', fire",
+      "meaning": "to set on fire",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ignite",
+      "lang": "English",
+      "era": "1660s",
+      "note": "car 'ignition' dates from the 1900s",
+      "meaning": "to set on fire",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to catch fire; to set on fire"
+}

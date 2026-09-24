@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stallum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word from Germanic 'stall', place",
+      "meaning": "seat in a choir",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "installer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to place a cleric in his stall in church",
+      "meaning": "to install",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "install",
+      "lang": "English",
+      "era": "1400s",
+      "note": "software 'installation' dates from the 1900s",
+      "meaning": "to place in office",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to put in place for use"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "emigrare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'e-', out, plus 'migrare', to move",
+      "meaning": "to move away",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "emigrate",
+      "lang": "English",
+      "era": "1770s",
+      "note": "'emigrant' is older, from the 1750s",
+      "meaning": "to leave one's country",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to leave one's country to live elsewhere"
+}

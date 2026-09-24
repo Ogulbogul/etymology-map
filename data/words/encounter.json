@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "contra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in-' plus 'contra': coming up against someone",
+      "meaning": "against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "encontrer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a meeting, especially in battle",
+      "meaning": "to meet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "encounter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'close encounters' dates from the 1970s",
+      "meaning": "to meet as an enemy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to unexpectedly meet"
+}

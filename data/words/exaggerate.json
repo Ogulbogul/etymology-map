@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "exaggerare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'agger', heap",
+      "meaning": "to heap up",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exaggerate",
+      "lang": "English",
+      "era": "1530s",
+      "note": "the sense 'overstate' dates from the 1560s",
+      "meaning": "to heap up",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to represent as greater than it is"
+}

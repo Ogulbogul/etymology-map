@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "intricatus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'intricare', to entangle, from 'tricae', trifles",
+      "meaning": "entangled",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "intricate",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'intrigue' shares the root",
+      "meaning": "entangled",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "very complicated"
+}

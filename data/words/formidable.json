@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "formidabilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'formido', fear",
+      "meaning": "terrifying",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "formidable",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "dreadful",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "formidable",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the sense 'impressively powerful' dates from the 1800s",
+      "meaning": "frightening",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "inspiring fear or respect"
+}

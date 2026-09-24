@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "iratus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'irasci', to be angry, from 'ira', anger",
+      "meaning": "angry",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "irate",
+      "lang": "English",
+      "era": "1830s",
+      "note": "'ire' is older, from the 1200s",
+      "meaning": "angry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "feeling great anger"
+}

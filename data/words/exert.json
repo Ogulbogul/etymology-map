@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "exserere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'serere', to join",
+      "meaning": "to thrust out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "exert",
+      "lang": "English",
+      "era": "1660s",
+      "note": "'exertion' followed",
+      "meaning": "to thrust forth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to apply force or effort"
+}

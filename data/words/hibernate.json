@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hibernare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'hibernus', wintry; Ireland's Latin name 'Hibernia' shares the root",
+      "meaning": "to pass the winter",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hibernate",
+      "lang": "English",
+      "era": "1800s",
+      "note": "computer 'hibernate' mode dates from the 1990s",
+      "meaning": "to winter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to spend the winter in a dormant state"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "scala",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'scale'",
+      "meaning": "ladder",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "escalate",
+      "lang": "English",
+      "era": "1920s",
+      "note": "back-formed from 'escalator', a 1900 trade name; the sense 'intensify' dates from the 1950s Cold War",
+      "meaning": "to ride an escalator",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to increase rapidly in intensity"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "irritare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "origin uncertain",
+      "meaning": "to excite, provoke",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "irritate",
+      "lang": "English",
+      "era": "1530s",
+      "note": "'irritating' as annoying dates from the 1700s",
+      "meaning": "to provoke",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to annoy"
+}

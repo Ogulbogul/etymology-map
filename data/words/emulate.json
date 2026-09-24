@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "aemulari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'aemulus', rivalling",
+      "meaning": "to rival",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "emulate",
+      "lang": "English",
+      "era": "1580s",
+      "note": "computer 'emulators' date from the 1960s",
+      "meaning": "to rival",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to match or surpass by imitation"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ingeniosus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'ingenium', natural talent, the root of 'engine'",
+      "meaning": "talented",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ingenious",
+      "lang": "English",
+      "era": "1400s",
+      "note": "long confused with 'ingenuous', frank",
+      "meaning": "talented",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clever and inventive"
+}

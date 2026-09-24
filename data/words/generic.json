@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "genus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'general' and 'gender'",
+      "meaning": "kind, race",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "générique",
+      "lang": "French",
+      "era": "1600s",
+      "note": "coined in French",
+      "meaning": "general",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "generic",
+      "lang": "English",
+      "era": "1670s",
+      "note": "'generic' drugs date from the 1960s",
+      "meaning": "of a genus",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to a class; not branded"
+}

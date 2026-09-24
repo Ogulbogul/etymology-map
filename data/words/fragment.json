@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fragmentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'frangere', to break",
+      "meaning": "broken piece",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fragment",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'sentence fragment' dates from the 1900s",
+      "meaning": "broken piece",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small broken part"
+}

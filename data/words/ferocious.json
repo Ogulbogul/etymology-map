@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ferox",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'ferus', wild, the root of 'fierce'",
+      "meaning": "wild, fierce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ferocious",
+      "lang": "English",
+      "era": "1640s",
+      "note": "'ferocity' followed",
+      "meaning": "fierce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "savagely fierce"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "excavare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'cavus', hollow",
+      "meaning": "to hollow out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "excavate",
+      "lang": "English",
+      "era": "1590s",
+      "note": "archaeological 'excavations' date from the 1800s",
+      "meaning": "to hollow out",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to dig out"
+}

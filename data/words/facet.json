@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "facies",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'face'",
+      "meaning": "face, form",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "facette",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a diminutive of 'face'",
+      "meaning": "little face",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "facet",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'facet' of an issue dates from the 1800s",
+      "meaning": "cut face of a gem",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one side of something"
+}
