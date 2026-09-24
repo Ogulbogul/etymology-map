@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tughragh",
+      "lang": "Oghuz Turkic",
+      "era": "medieval",
+      "note": "a royal seal or emblem among the Oghuz Turks, from whom the Seljuks and Ottomans descended",
+      "meaning": "royal emblem",
+      "lat": 37.87,
+      "lon": 32.48
+    },
+    {
+      "word": "tuğra",
+      "lang": "Ottoman Turkish",
+      "era": "1300s-1900s",
+      "note": "drawn at the head of every imperial decree and stamped on coins, it spelled out the sultan's name and titles",
+      "meaning": "sultan's monogram",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "tughra",
+      "lang": "English",
+      "era": "1800s",
+      "note": "the illuminated tughras of Suleiman the Magnificent became prized in Western museums as masterpieces of calligraphy",
+      "meaning": "an Ottoman sultan's monogram",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the ornate calligraphic monogram of an Ottoman sultan"
+}

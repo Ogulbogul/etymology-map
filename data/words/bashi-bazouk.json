@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "başıbozuk",
+      "lang": "Ottoman Turkish",
+      "era": "1800s",
+      "note": "literally 'head out of order', i.e. leaderless: irregular troops without uniform or regular pay",
+      "meaning": "irregular soldier",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "bashi-bazouk",
+      "lang": "English",
+      "era": "1850s",
+      "note": "British officers met them in the Crimean War; their 1876 massacres in Bulgaria became notorious through Gladstone's pamphlet 'Bulgarian Horrors'",
+      "meaning": "undisciplined Ottoman irregular",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an irregular, undisciplined soldier of the Ottoman army"
+}

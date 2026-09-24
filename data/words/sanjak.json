@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sanjaq",
+      "lang": "Old Turkic",
+      "era": "medieval",
+      "note": "carried as the sign of a military unit, as in other steppe armies",
+      "meaning": "banner",
+      "lat": 47.56,
+      "lon": 102.83
+    },
+    {
+      "word": "sancak",
+      "lang": "Ottoman Turkish",
+      "era": "1400s",
+      "note": "provinces were divided into sanjaks, each under a 'sanjak-bey' who held the sultan's banner",
+      "meaning": "military district",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "sanjak",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the Sandžak region between Serbia and Montenegro still bears the name of the Sanjak of Novi Pazar, Ottoman until 1912",
+      "meaning": "an Ottoman district",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an administrative district of the Ottoman Empire"
+}

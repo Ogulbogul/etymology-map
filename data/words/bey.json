@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "beg",
+      "lang": "Old Turkic",
+      "era": "700s",
+      "note": "used for nobles in the Orkhon inscriptions of the 730s, the oldest known texts in a Turkic language",
+      "meaning": "lord, chief",
+      "lat": 47.56,
+      "lon": 102.83
+    },
+    {
+      "word": "bey",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "the title of provincial governors; the Beys of Tunis kept it until Tunisia abolished its monarchy in 1957",
+      "meaning": "governor, gentleman",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "bey",
+      "lang": "English",
+      "era": "1590s",
+      "note": "brought home by English merchants and travellers in the Levant; its feminine 'begum' reached English separately through India",
+      "meaning": "a Turkish governor or title of respect",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Turkish title for a governor or chief, and formerly a polite form of address for a man"
+}

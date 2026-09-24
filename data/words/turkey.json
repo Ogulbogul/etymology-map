@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Türük",
+      "lang": "Old Turkic",
+      "era": "700s",
+      "note": "the Orkhon inscriptions of the 730s record the Turks' own name",
+      "meaning": "Turk",
+      "lat": 47.56,
+      "lon": 102.83
+    },
+    {
+      "word": "Turcus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "Europeans used it for the Seljuk and then the Ottoman Turks",
+      "meaning": "a Turk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "turkey",
+      "lang": "English",
+      "era": "1540s",
+      "note": "first the guinea fowl, which reached England through Ottoman trade routes; the name passed to the similar American bird that the Spanish brought to Europe",
+      "meaning": "guinea fowl, then the American bird",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large bird native to North America, domesticated for its meat"
+}

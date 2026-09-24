@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "dayı",
+      "lang": "Ottoman Turkish",
+      "era": "1500s",
+      "note": "a familiar name the Janissaries gave respected elders among them",
+      "meaning": "maternal uncle",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "dayı",
+      "lang": "Ottoman Turkish (Algiers)",
+      "era": "1671",
+      "note": "from 1671 the Janissary garrison of Algiers elected its own ruler under this title",
+      "meaning": "ruler of Algiers",
+      "lat": 36.75,
+      "lon": 3.06
+    },
+    {
+      "word": "dey",
+      "lang": "French",
+      "era": "1700s",
+      "note": "in 1827 Dey Hussein struck the French consul with a fly-whisk, the pretext for France's conquest of Algiers in 1830",
+      "meaning": "ruler of Algiers",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dey",
+      "lang": "English",
+      "era": "1650s",
+      "note": "used by English traders and treaty-makers dealing with the Barbary states",
+      "meaning": "governor of Algiers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the title of the rulers of Ottoman Algiers (and at times Tunis and Tripoli) until 1830"
+}

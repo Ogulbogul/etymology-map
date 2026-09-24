@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sipāhī",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "from 'sipāh', army; the same word reached English as 'sepoy' through India",
+      "meaning": "soldier",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "sipahi",
+      "lang": "Ottoman Turkish",
+      "era": "1300s-1600s",
+      "note": "cavalrymen paid with 'timar' land grants instead of wages, the backbone of early Ottoman armies",
+      "meaning": "cavalryman",
+      "lat": 40.19,
+      "lon": 29.06
+    },
+    {
+      "word": "spahi",
+      "lang": "French",
+      "era": "1830s",
+      "note": "France raised Algerian spahi cavalry regiments from 1834, known for their red cloaks",
+      "meaning": "Algerian cavalryman",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "spahi",
+      "lang": "English",
+      "era": "1560s",
+      "note": "first used for Ottoman horsemen, later for France's North African cavalry",
+      "meaning": "an Ottoman or Algerian cavalryman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an Ottoman cavalryman; later a North African cavalryman in the French army"
+}

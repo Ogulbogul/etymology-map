@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "authentēs",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "one who acts on his own authority; the root of English 'authentic'",
+      "meaning": "master, doer",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "afendis",
+      "lang": "Byzantine Greek",
+      "era": "medieval",
+      "note": "spoken Greek of Constantinople softened the word to 'afendis', lord",
+      "meaning": "lord, master",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "efendi",
+      "lang": "Ottoman Turkish",
+      "era": "1400s",
+      "note": "a title for scholars, clerics and officials; Turkey's 1934 law abolishing titles ended its official use",
+      "meaning": "sir, gentleman",
+      "lat": 40.19,
+      "lon": 29.06
+    },
+    {
+      "word": "effendi",
+      "lang": "English",
+      "era": "1610s",
+      "note": "in British-ruled Egypt it came to mean the Western-educated middle class of clerks and officials",
+      "meaning": "a Turkish gentleman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a title of respect for an educated or official man in Ottoman-era lands"
+}
