@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dombıra",
+      "lang": "Kazakh",
+      "era": "medieval",
+      "note": "played by the 'akyn' improvising poets of the steppe",
+      "meaning": "two-stringed lute",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "dombra",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through Kazakh music; Kazakhstan celebrates a national Dombra Day each July",
+      "meaning": "Kazakh lute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long-necked two-stringed lute, the national instrument of Kazakhstan"
+}

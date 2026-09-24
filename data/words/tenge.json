@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "teñge",
+      "lang": "Chagatai Turkic",
+      "era": "medieval",
+      "note": "a silver coin of the Golden Horde and the Central Asian khanates",
+      "meaning": "silver coin",
+      "lat": 39.65,
+      "lon": 66.96
+    },
+    {
+      "word": "denga",
+      "lang": "Russian",
+      "era": "1300s-1400s",
+      "note": "Muscovite princes took the Horde's coin name; Russian 'dengi', money, still comes from it",
+      "meaning": "small coin",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "teñge",
+      "lang": "Kazakh",
+      "era": "1993",
+      "note": "revived as the name of independent Kazakhstan's currency in November 1993",
+      "meaning": "Kazakh currency",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "tenge",
+      "lang": "English",
+      "era": "1990s",
+      "note": "entered English with reporting on post-Soviet Kazakhstan",
+      "meaning": "Kazakh currency",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the currency of Kazakhstan"
+}

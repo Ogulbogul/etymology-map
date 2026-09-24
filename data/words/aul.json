@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "awıl",
+      "lang": "Kipchak Turkic",
+      "era": "medieval",
+      "note": "a camp of yurts belonging to related families",
+      "meaning": "nomad camp",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "aul",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "used for the mountain villages of the Caucasus in the tales of Pushkin, Lermontov and Tolstoy",
+      "meaning": "Caucasian village",
+      "lat": 43.32,
+      "lon": 45.69
+    },
+    {
+      "word": "aul",
+      "lang": "English",
+      "era": "1830s",
+      "note": "kept in English translations of Russian Caucasian stories such as Tolstoy's 'Hadji Murat'",
+      "meaning": "a Caucasian village",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a village or nomad camp in the Caucasus or Central Asia"
+}

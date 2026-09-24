@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "yigit",
+      "lang": "Turkic",
+      "era": "medieval",
+      "note": "a brave young man; Turkish still calls a bold youth 'yiğit'",
+      "meaning": "young brave",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "dzhigit",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "Cossacks adopted the Circassian trick-riding 'dzhigitovka', standing, hanging and vaulting at full gallop",
+      "meaning": "trick rider",
+      "lat": 43.32,
+      "lon": 45.69
+    },
+    {
+      "word": "djigit",
+      "lang": "English",
+      "era": "1800s",
+      "note": "used for Cossack and Caucasian trick riders, who toured Western circuses and Wild West shows around 1900",
+      "meaning": "trick rider",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a skilled and daring horseman of the Caucasus or Central Asia"
+}

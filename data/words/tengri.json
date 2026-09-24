@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Täŋri",
+      "lang": "Old Turkic",
+      "era": "700s",
+      "note": "the Orkhon inscriptions credit the khagans' power to Heaven, 'Täŋri'",
+      "meaning": "sky, god",
+      "lat": 47.56,
+      "lon": 102.83
+    },
+    {
+      "word": "Tengri",
+      "lang": "English",
+      "era": "1900s",
+      "note": "'Tengrism', a revival of the old sky religion, gained followers in Kazakhstan and Kyrgyzstan after 1991",
+      "meaning": "Turkic sky god",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sky god of the ancient Turks and Mongols"
+}

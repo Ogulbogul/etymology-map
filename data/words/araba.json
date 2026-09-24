@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "araba",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "ox-drawn, often painted and gilded arabas carried Ottoman women on outings",
+      "meaning": "cart, carriage",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "arba",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "used for the high-wheeled carts of Crimea and the Caucasus",
+      "meaning": "high-wheeled cart",
+      "lat": 44.75,
+      "lon": 33.86
+    },
+    {
+      "word": "araba",
+      "lang": "English",
+      "era": "1810s",
+      "note": "described by English travellers in the Ottoman Empire and Crimea",
+      "meaning": "a Turkish covered cart",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a heavy covered cart or carriage of Turkey and the Caucasus"
+}

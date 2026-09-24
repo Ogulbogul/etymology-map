@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "baghatur",
+      "lang": "Old Turkic",
+      "era": "medieval",
+      "note": "a title for a brave warrior among Turks and Mongols; Mongolian 'baatar', as in Ulaanbaatar, is the same word",
+      "meaning": "hero, warrior",
+      "lat": 47.92,
+      "lon": 106.92
+    },
+    {
+      "word": "bogatyr",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "the heroes of the epic songs called 'byliny', such as Ilya Muromets, are bogatyrs",
+      "meaning": "epic hero",
+      "lat": 50.45,
+      "lon": 30.52
+    },
+    {
+      "word": "bogatyr",
+      "lang": "English",
+      "era": "1800s",
+      "note": "Viktor Vasnetsov's 1898 painting of three bogatyrs made them an emblem of Russian folklore abroad",
+      "meaning": "a Russian epic hero",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hero of Russian epic poetry"
+}

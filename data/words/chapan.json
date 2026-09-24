@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chapan",
+      "lang": "Uzbek",
+      "era": "medieval",
+      "note": "a long, often striped quilted coat worn over other clothes",
+      "meaning": "quilted coat",
+      "lat": 41.31,
+      "lon": 69.28
+    },
+    {
+      "word": "chapan",
+      "lang": "Dari",
+      "era": "1900s",
+      "note": "President Hamid Karzai's green-striped chapan made it known worldwide in the 2000s",
+      "meaning": "Afghan coat",
+      "lat": 34.53,
+      "lon": 69.17
+    },
+    {
+      "word": "chapan",
+      "lang": "English",
+      "era": "2000s",
+      "note": "entered English through reporting on Karzai and Afghan dress",
+      "meaning": "Central Asian coat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long quilted coat worn in Central Asia and Afghanistan"
+}

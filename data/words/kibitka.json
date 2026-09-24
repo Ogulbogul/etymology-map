@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kibit",
+      "lang": "Tatar",
+      "era": "medieval",
+      "note": "a booth or felt-covered shelter of the Volga nomads",
+      "meaning": "booth, tent",
+      "lat": 55.79,
+      "lon": 49.12
+    },
+    {
+      "word": "kibitka",
+      "lang": "Russian",
+      "era": "1700s",
+      "note": "a hooded wagon or sledge for long journeys, notorious for carrying exiles to Siberia",
+      "meaning": "covered wagon",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "kibitka",
+      "lang": "English",
+      "era": "1790s",
+      "note": "used in English accounts of travel across the Russian empire",
+      "meaning": "a Russian covered wagon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Russian hooded wagon or sledge; a nomad's felt tent"
+}
