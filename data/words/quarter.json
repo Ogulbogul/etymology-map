@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quartarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'quartus', fourth",
+      "meaning": "a fourth part",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "quartier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "city districts were once literally quarters",
+      "meaning": "a fourth; district",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quarter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the US 25-cent 'quarter' dates from the 1790s",
+      "meaning": "a fourth part",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of four equal parts; a district"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ficus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "probably from a Mediterranean language, like Hebrew 'pag'",
+      "meaning": "fig tree",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "figue",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "via Provençal 'figa'",
+      "meaning": "fig",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fig",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'not care a fig' dates from the 1400s",
+      "meaning": "fig fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a soft sweet fruit full of small seeds"
+}

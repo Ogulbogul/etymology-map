@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "votum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'vow'",
+      "meaning": "vow, wish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vote",
+      "lang": "Scots",
+      "era": "1400s",
+      "note": "Latin-trained Scottish lawyers and churchmen borrowed it directly from 'votum'",
+      "meaning": "a formal wish or decision",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "vote",
+      "lang": "English",
+      "era": "1400s",
+      "note": "spread into English in the 1500s, keeping the Scottish political sense",
+      "meaning": "a wish; a vote",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal expression of choice in an election"
+}

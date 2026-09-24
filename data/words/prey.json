@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "praeda",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'predator' and 'depredation'",
+      "meaning": "booty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "preie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spoils of war",
+      "meaning": "booty, prey",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "prey",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'fall prey to' dates from the 1600s",
+      "meaning": "booty; hunted animal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an animal hunted for food"
+}

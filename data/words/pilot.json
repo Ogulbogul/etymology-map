@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pedotta",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from Greek 'pēdon', oar or rudder",
+      "meaning": "steersman",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "pilote",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came through Italian 'pilota'",
+      "meaning": "ship's steersman",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pilot",
+      "lang": "English",
+      "era": "1500s",
+      "note": "aircraft 'pilots' date from 1907",
+      "meaning": "steersman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who operates an aircraft"
+}

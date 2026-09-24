@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ruina",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'ruere', to fall violently",
+      "meaning": "a collapse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ruine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of the fall of cities and empires",
+      "meaning": "collapse",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ruin",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'ruins' of buildings date from the 1400s; financial ruin followed",
+      "meaning": "collapse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "destruction; the remains of a building"
+}

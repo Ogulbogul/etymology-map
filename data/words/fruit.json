@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fructus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'frui', to enjoy",
+      "meaning": "enjoyment, produce",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fruit",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "any produce of the earth",
+      "meaning": "fruit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fruit",
+      "lang": "English",
+      "era": "1100s",
+      "note": "'fruitful' and 'fruition' followed",
+      "meaning": "produce of plants",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sweet, seed-bearing part of a plant"
+}

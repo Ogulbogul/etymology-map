@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pluma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'plumage'",
+      "meaning": "soft feather, down",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "plume",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "feathers worn in helmets and hats",
+      "meaning": "feather",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "plume",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'plume' of smoke dates from the 1800s",
+      "meaning": "feather",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a long soft feather; a rising column of smoke"
+}

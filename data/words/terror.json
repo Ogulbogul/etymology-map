@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "terror",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'terrere', to frighten, the root of 'terrible'",
+      "meaning": "great fear",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terreur",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of the dread inspired by God or by a powerful ruler",
+      "meaning": "great fear",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "terror",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the French Revolution's Reign of Terror (1793–94) gave rise to 'terrorism'",
+      "meaning": "great fear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "extreme fear"
+}

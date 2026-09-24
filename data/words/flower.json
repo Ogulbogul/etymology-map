@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flos",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'flora', 'florist' and 'flourish'",
+      "meaning": "flower",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "flor",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'the flower of' meant the finest part",
+      "meaning": "flower; the best",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "flower",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'flour' is the same word, the 'flower' or finest part of ground grain",
+      "meaning": "blossom",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the blossom of a plant"
+}

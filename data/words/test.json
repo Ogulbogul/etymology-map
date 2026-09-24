@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "testum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a clay vessel for assaying metals",
+      "meaning": "earthen pot",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "test",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gold was tested in such a pot",
+      "meaning": "pot for assaying",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "test",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'examination' dates from the 1590s",
+      "meaning": "assaying pot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a procedure to check quality or knowledge"
+}

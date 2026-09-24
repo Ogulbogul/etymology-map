@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lanterna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'lamptēr', torch, influenced by 'lucerna'",
+      "meaning": "lamp",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lanterne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a protected lamp for carrying",
+      "meaning": "lantern",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lantern",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the variant 'lanthorn' came from horn panels",
+      "meaning": "portable lamp",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lamp with a protective case"
+}

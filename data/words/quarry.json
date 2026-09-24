@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quadraria",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'quadrare', to square: a place where stone was cut square",
+      "meaning": "stone pit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "quarriere",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "masons squared blocks there",
+      "meaning": "stone pit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "quarry",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'quarry' as hunted prey comes from a different word",
+      "meaning": "stone pit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a place where stone is dug out"
+}

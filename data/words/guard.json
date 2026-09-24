@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wardon",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word; the same Germanic root gives English 'ward'",
+      "meaning": "to watch, guard",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "garder",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Germanic w became gu in French",
+      "meaning": "to guard",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "guard",
+      "lang": "English",
+      "era": "1400s",
+      "note": "English kept both 'guard' and 'ward'",
+      "meaning": "protector",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who protects or watches over"
+}

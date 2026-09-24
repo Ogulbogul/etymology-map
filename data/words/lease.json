@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "laxare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'laxus', loose, the root of 'lax' and 'relax'",
+      "meaning": "to loosen",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lesser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to let a property go to a tenant",
+      "meaning": "to let go",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lease",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'a new lease of life' dates from the 1800s",
+      "meaning": "a rental contract",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a contract to rent property"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "remedium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'re-' plus 'mederi', to heal, the root of 'medicine'",
+      "meaning": "cure",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "remede",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used in law for redress",
+      "meaning": "cure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "remedy",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'remedial' dates from the 1600s",
+      "meaning": "cure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a medicine or treatment; a means of correcting something"
+}

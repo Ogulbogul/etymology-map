@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "desertum",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'deserere', to abandon",
+      "meaning": "abandoned place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desert",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a wilderness abandoned by people",
+      "meaning": "wasteland",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "desert",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'deserts' as what one deserves comes from a different word",
+      "meaning": "wilderness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a barren, dry area of land"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "color",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly related to 'celare', to hide: a covering",
+      "meaning": "colour, hue",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colour",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gave the British spelling 'colour'",
+      "meaning": "colour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "color",
+      "lang": "English",
+      "era": "1200s",
+      "note": "Noah Webster's dictionary made 'color' standard in America",
+      "meaning": "hue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the property of reflecting light of a particular wavelength"
+}

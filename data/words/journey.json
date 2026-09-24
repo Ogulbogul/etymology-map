@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "diurnum",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'diurnus', of the day, from 'dies', day",
+      "meaning": "a day's portion",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "journee",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the same root as 'journal', a daily record",
+      "meaning": "a day's travel or work",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "journey",
+      "lang": "English",
+      "era": "1200s",
+      "note": "later any trip regardless of length",
+      "meaning": "a day's travel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an act of travelling from one place to another"
+}

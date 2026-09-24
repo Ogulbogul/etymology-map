@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "traginare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "from 'trahere', to draw, the root of 'tractor'",
+      "meaning": "to drag",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "trahiner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a trailing part of a gown",
+      "meaning": "to drag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "train",
+      "lang": "English",
+      "era": "1300s",
+      "note": "railway 'trains' date from 1820s",
+      "meaning": "a trailing thing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a line of railway carriages; to teach a skill"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "adjacens",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "the probable source of French 'aise', ease: having elbow room",
+      "meaning": "lying nearby",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desaise",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'des-', lacking, plus 'aise', ease: discomfort or inconvenience",
+      "meaning": "discomfort",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "disease",
+      "lang": "English",
+      "era": "1300s",
+      "note": "narrowed to illness by the 1400s",
+      "meaning": "discomfort",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an illness affecting the body or mind"
+}

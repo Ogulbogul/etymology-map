@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "perkē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a Greek fish name, possibly from 'perknos', dark-spotted",
+      "meaning": "perch",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "perche",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'perca'",
+      "meaning": "perch",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "perch",
+      "lang": "English",
+      "era": "1300s",
+      "note": "unrelated to 'perch', a bird's roost, from Latin 'pertica', pole",
+      "meaning": "freshwater fish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a freshwater fish with spiny fins"
+}

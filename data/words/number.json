@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "numerus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'numeral' and 'numerous'",
+      "meaning": "number",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nombre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the 'b' formed naturally between m and r in French",
+      "meaning": "number",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "number",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'numbers' as a gambling racket is 1890s American slang",
+      "meaning": "number",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an arithmetical value"
+}

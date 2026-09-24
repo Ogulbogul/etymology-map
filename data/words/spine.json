@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "spina",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the backbone was seen as a row of thorns",
+      "meaning": "thorn, backbone",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "espine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the root of 'spinach', for its spiky seeds",
+      "meaning": "thorn",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "spine",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'spineless' for cowardly dates from the 1800s",
+      "meaning": "backbone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the backbone"
+}

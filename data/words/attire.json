@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tieira",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word for order or rank",
+      "meaning": "row, order",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "atirier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'a-' plus 'tire', order: to put in order",
+      "meaning": "to arrange, equip",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attire",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the noun 'attire', clothing, followed",
+      "meaning": "to dress",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "clothes, especially formal ones"
+}

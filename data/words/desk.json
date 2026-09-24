@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "discus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'diskos', a quoit or dish",
+      "meaning": "disc, table",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desco",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "Italian for a table, from which Medieval Latin 'desca' was taken",
+      "meaning": "table",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "desk",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'dish', 'dais' and 'disc' share the root",
+      "meaning": "writing table",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a piece of furniture for writing or working"
+}

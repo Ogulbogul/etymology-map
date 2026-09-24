@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "summa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "feminine of 'summus', highest; Romans added columns upward, writing the total at the top",
+      "meaning": "highest, total",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "somme",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for money totals",
+      "meaning": "sum",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sum",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'summit' shares the root",
+      "meaning": "a total",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the total from adding numbers"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "baccinum",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "possibly a Gaulish word",
+      "meaning": "water vessel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bacin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a wide bowl for washing",
+      "meaning": "bowl",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "basin",
+      "lang": "English",
+      "era": "1200s",
+      "note": "river 'basins' date from the 1800s",
+      "meaning": "bowl",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wide bowl; a region drained by a river"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fontana",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'fons', spring, the root of 'font'",
+      "meaning": "spring",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fontaine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a natural spring",
+      "meaning": "spring, fountain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fountain",
+      "lang": "English",
+      "era": "1400s",
+      "note": "ornamental fountains spread in the Renaissance",
+      "meaning": "spring",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an ornamental jet of water"
+}

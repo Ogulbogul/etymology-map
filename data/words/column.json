@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "columna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'culmen', top, summit",
+      "meaning": "pillar",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colomne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing recorded in Old French",
+      "meaning": "pillar",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "column",
+      "lang": "English",
+      "era": "1400s",
+      "note": "newspaper 'columns' date from the 1600s",
+      "meaning": "pillar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an upright pillar; a vertical division of a page"
+}

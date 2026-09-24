@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "directiare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "from 'directus', straight",
+      "meaning": "to straighten",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dresser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to set straight or in order",
+      "meaning": "to arrange",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dress",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the garment sense dates from the 1600s",
+      "meaning": "to arrange",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a one-piece garment for women; to put on clothes"
+}

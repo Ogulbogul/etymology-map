@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tonos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'teinein', to stretch, like a string",
+      "meaning": "stretching, tension",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "tonus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a stretched string produces a note; came to English via Old French 'ton'",
+      "meaning": "sound, tone",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tone",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'tone of voice' dates from the 1600s",
+      "meaning": "a musical sound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a musical or vocal sound; a general character"
+}

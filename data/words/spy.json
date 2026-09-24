@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "spehon",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to German 'spähen', to look out",
+      "meaning": "to watch",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "espier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'espionage' shares the root",
+      "meaning": "to watch",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "spy",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'spyglass' dates from the 1700s",
+      "meaning": "to watch secretly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who secretly gathers information"
+}

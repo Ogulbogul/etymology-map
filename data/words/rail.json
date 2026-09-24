@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "regula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'rule' and 'regular'",
+      "meaning": "straight stick, rule",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "reille",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a straight bar of wood or metal",
+      "meaning": "bar, bolt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rail",
+      "lang": "English",
+      "era": "1300s",
+      "note": "railways date from the 1820s",
+      "meaning": "bar, fence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bar forming part of a fence; a railway track"
+}

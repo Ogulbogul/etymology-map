@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vox",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'vocal' and 'vowel'",
+      "meaning": "voice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vois",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Old French 'vois' still pronounced the s",
+      "meaning": "voice",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "voice",
+      "lang": "English",
+      "era": "1200s",
+      "note": "grammar's active and passive 'voice' dates from the 1300s",
+      "meaning": "sound of speech",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sound produced in speaking"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pullus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'poultry'",
+      "meaning": "young animal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poulenet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a diminutive of 'poulain', foal",
+      "meaning": "little colt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pony",
+      "lang": "English",
+      "era": "1650s",
+      "note": "first recorded in Scots English",
+      "meaning": "a small horse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small breed of horse"
+}

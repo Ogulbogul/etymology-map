@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bestia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'bestial' and 'beastly'",
+      "meaning": "wild animal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "beste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "replaced Old English 'deor', which narrowed to 'deer'",
+      "meaning": "animal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "beast",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'beast' for a brutish person dates from the 1300s",
+      "meaning": "animal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an animal, especially a large or wild one"
+}

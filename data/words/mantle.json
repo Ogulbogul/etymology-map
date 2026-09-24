@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mantellum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'mantum', cloak",
+      "meaning": "cloak",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mantel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the same word gave 'mantel' over a fireplace",
+      "meaning": "cloak",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mantle",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'take up the mantle' comes from Elijah passing his cloak to Elisha",
+      "meaning": "cloak",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a loose cloak; a responsibility"
+}

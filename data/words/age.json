@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aetas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "contracted from older 'aevitas', from 'aevum', eternity, the root of 'eternal'",
+      "meaning": "lifetime, age",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "eage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "formed with the suffix -age, as in Vulgar Latin 'aetaticum'",
+      "meaning": "age",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "age",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'Stone Age' and 'Bronze Age' were coined in the 1800s",
+      "meaning": "period of life",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the length of time something has existed; a historical period"
+}

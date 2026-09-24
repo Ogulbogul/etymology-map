@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gradus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'grade', 'gradual' and 'graduate'",
+      "meaning": "step",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "degré",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'de-' plus 'gré', step",
+      "meaning": "step, rank",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "degree",
+      "lang": "English",
+      "era": "1200s",
+      "note": "academic degrees and angle degrees date from the 1300s",
+      "meaning": "step; rank",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a unit of measure; an academic rank"
+}

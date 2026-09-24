@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "salsa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'sauce' and 'salsa'",
+      "meaning": "salted",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "saussier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a small dish for sauces",
+      "meaning": "sauce dish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "saucer",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the cup-plate sense dates from the 1700s; 'flying saucer' from 1947",
+      "meaning": "sauce dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small dish for a cup"
+}

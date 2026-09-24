@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hora",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'hōra', a season or time of day",
+      "meaning": "hour, season",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ure",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the h was silent in French and stayed silent in English",
+      "meaning": "hour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hour",
+      "lang": "English",
+      "era": "1200s",
+      "note": "replaced Old English 'tid' and 'stund'",
+      "meaning": "one twenty-fourth of a day",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a period of sixty minutes"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "granum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'granite' and 'granary'",
+      "meaning": "seed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grain",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a single seed of wheat or barley",
+      "meaning": "grain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grain",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'against the grain' refers to wood fibres",
+      "meaning": "seed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "wheat or other cereal crops; a small hard particle"
+}

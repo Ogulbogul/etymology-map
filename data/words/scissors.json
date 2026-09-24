@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cisoria",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'caedere', to cut, confused with 'scindere', to split",
+      "meaning": "cutting tools",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cisoires",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the 'sc' spelling came from confusion with Latin 'scissor', a cutter",
+      "meaning": "shears",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scissors",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'scissor kick' dates from the 1900s",
+      "meaning": "shears",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cutting tool with two crossing blades"
+}

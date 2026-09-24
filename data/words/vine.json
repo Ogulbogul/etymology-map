@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vinea",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'vinum', wine",
+      "meaning": "vineyard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vigne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Romans spread vineyards across Gaul",
+      "meaning": "vine, vineyard",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vine",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'I heard it through the grapevine' comes from telegraph wires of the 1860s",
+      "meaning": "grapevine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a climbing plant, especially a grapevine"
+}

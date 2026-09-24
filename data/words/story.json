@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "historia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'historia', inquiry",
+      "meaning": "account, narrative",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estoire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the 'hi-' was worn away in Anglo-French",
+      "meaning": "story, history",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "story",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the floor sense 'storey' may come from painted stories on windows",
+      "meaning": "a narrative",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an account of events, real or imaginary"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aquila",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'aquilus', dark-coloured",
+      "meaning": "eagle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aigle",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the Roman legions carried an eagle standard",
+      "meaning": "eagle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "eagle",
+      "lang": "English",
+      "era": "1300s",
+      "note": "replaced Old English 'earn'",
+      "meaning": "eagle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large bird of prey with a hooked beak"
+}
