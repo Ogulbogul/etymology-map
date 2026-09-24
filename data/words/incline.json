@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "inclinare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in-' plus 'clinare', to lean, the root of 'decline' and 'recline'",
+      "meaning": "to bend toward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "encliner",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to bow the head",
+      "meaning": "to bow",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "incline",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'inclined to agree' dates from the 1400s",
+      "meaning": "to lean",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to lean or slope; to be disposed to"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "appropiare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'prope', near, the root of 'propinquity'",
+      "meaning": "to come near",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aprochier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of troops advancing on a town",
+      "meaning": "to draw near",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "approach",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'approach' as a method dates from the 1900s",
+      "meaning": "to come near",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come nearer; a way of dealing with something"
+}

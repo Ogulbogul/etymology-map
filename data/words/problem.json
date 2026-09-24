@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "problēma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, 'pro-', forward, plus 'ballein', to throw",
+      "meaning": "thing put forward",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "probleme",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Latin 'problema'",
+      "meaning": "riddle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "problem",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'no problem' dates from the 1900s",
+      "meaning": "difficult question",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a matter needing a solution"
+}

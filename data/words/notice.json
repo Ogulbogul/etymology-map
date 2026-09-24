@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "notitia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'notus', known",
+      "meaning": "knowledge, fame",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "notice",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "information",
+      "meaning": "notice",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "notice",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'notice' as a warning of leaving dates from the 1500s",
+      "meaning": "information",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "attention; a written announcement"
+}

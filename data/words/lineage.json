@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "linea",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'linum', flax",
+      "meaning": "linen thread, line",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "lignage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a line of ancestors",
+      "meaning": "line of descent",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lineage",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'lineage' in biology dates from the 1900s",
+      "meaning": "ancestry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "direct descent from an ancestor"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fibra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly related to 'filum', thread",
+      "meaning": "filament",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fibre",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "fibre",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fiber",
+      "lang": "English",
+      "era": "1540s",
+      "note": "dietary 'fibre' dates from the 1970s",
+      "meaning": "filament",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thread or filament"
+}

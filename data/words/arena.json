@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "harena",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the sand-covered floor of an amphitheatre soaked up blood",
+      "meaning": "sand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arena",
+      "lang": "English",
+      "era": "1620s",
+      "note": "'political arena' dates from the 1800s",
+      "meaning": "amphitheatre",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a level area for sports or entertainment"
+}

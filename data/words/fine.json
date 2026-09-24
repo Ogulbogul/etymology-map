@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "finis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'finish' and 'finale'",
+      "meaning": "end, limit",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a payment settling a matter",
+      "meaning": "end; payment",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fine",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the adjective 'fine', excellent, grew from 'finished, perfected'",
+      "meaning": "end; settlement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "of high quality; a penalty payment"
+}

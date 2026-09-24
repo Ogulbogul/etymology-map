@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "modulus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'modus', measure",
+      "meaning": "small measure",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "modello",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "Renaissance architects built models of planned buildings",
+      "meaning": "model",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "model",
+      "lang": "English",
+      "era": "1570s",
+      "note": "fashion 'models' date from the 1900s",
+      "meaning": "architect's plan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a replica; a person who poses"
+}

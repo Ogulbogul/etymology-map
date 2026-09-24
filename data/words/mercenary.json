@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mercenarius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'merces', wages, the root of 'mercy'",
+      "meaning": "hired for pay",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "mercenaire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "hireling",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mercenary",
+      "lang": "English",
+      "era": "1300s",
+      "note": "hired soldiers were the main sense by the 1500s",
+      "meaning": "hired worker",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a professional soldier hired by a foreign army"
+}

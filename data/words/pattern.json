@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "patronus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'pater', father",
+      "meaning": "protector, model",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "patron",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a model to be copied, like a patron to be imitated",
+      "meaning": "model, pattern",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pattern",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'pattern' split from 'patron' in the 1500s",
+      "meaning": "model",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a repeated design; a model"
+}

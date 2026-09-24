@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gretan",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "possibly a Frankish word related to Old Norse 'gráta', to weep",
+      "meaning": "to weep",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "regreter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to mourn the dead",
+      "meaning": "to mourn",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "regret",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'regrets only' on invitations dates from the 1900s",
+      "meaning": "to mourn",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to feel sorry about"
+}

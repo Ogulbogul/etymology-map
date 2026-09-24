@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skern",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word for jest",
+      "meaning": "mockery",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "escarn",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "scornful mockery",
+      "meaning": "mockery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scorn",
+      "lang": "English",
+      "era": "1100s",
+      "note": "'scornful' followed",
+      "meaning": "contempt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "contempt; to reject with contempt"
+}

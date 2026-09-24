@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "credentare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "from 'credere', to believe",
+      "meaning": "to believe, trust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "graanter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French form of 'creanter'",
+      "meaning": "to promise, agree",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "grant",
+      "lang": "English",
+      "era": "1200s",
+      "note": "research 'grants' date from the 1900s",
+      "meaning": "to agree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to give; a sum of money given"
+}

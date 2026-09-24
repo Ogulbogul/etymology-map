@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bracchia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "plural of 'bracchium', arm",
+      "meaning": "arms",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "brace",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the span of two arms",
+      "meaning": "two arms",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "brace",
+      "lang": "English",
+      "era": "1300s",
+      "note": "dental 'braces' date from the 1900s",
+      "meaning": "pair; support",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a support; a pair"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "intentus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in-' plus 'tendere', to stretch",
+      "meaning": "stretched toward",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "entent",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a mind stretched toward a goal",
+      "meaning": "purpose",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "intent",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'intent on' dates from the 1600s",
+      "meaning": "purpose",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "intention; determined"
+}

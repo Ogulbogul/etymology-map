@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "totus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'totalitarian'",
+      "meaning": "whole, all",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "total",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "from Medieval Latin 'totalis'",
+      "meaning": "total",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "total",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'total' as a verb, to wreck a car, is 1950s slang",
+      "meaning": "whole",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "comprising the whole number"
+}

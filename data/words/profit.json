@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "profectus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'proficere', to make progress",
+      "meaning": "progress, advance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "profit",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gain of any kind",
+      "meaning": "benefit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "profit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "business 'profit' followed",
+      "meaning": "benefit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "financial gain"
+}

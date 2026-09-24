@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gibet",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word, possibly for a forked stick",
+      "meaning": "staff, club",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "gibet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a gallows for hanging",
+      "meaning": "gallows",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gibbet",
+      "lang": "English",
+      "era": "1200s",
+      "note": "bodies were left on gibbets as warnings",
+      "meaning": "gallows",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a gallows"
+}

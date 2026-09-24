@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kirkos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek for a ring or circle",
+      "meaning": "ring",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "circus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Rome's Circus Maximus held chariot races",
+      "meaning": "racecourse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circus",
+      "lang": "English",
+      "era": "1540s",
+      "note": "travelling circuses date from the 1790s",
+      "meaning": "Roman racecourse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a travelling show with acrobats and animals"
+}

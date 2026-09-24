@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "robur",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "hard oak wood was the image of strength",
+      "meaning": "oak, strength",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "robuste",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "strong",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "robust",
+      "lang": "English",
+      "era": "1540s",
+      "note": "used of wine and arguments",
+      "meaning": "strong",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strong and healthy"
+}

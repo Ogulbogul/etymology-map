@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "revidere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'re-' plus 'videre', to see",
+      "meaning": "to see again",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "reveue",
+      "lang": "French",
+      "era": "1500s",
+      "note": "past participle of 'reveoir'",
+      "meaning": "inspection",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "review",
+      "lang": "English",
+      "era": "1500s",
+      "note": "book and film 'reviews' date from the 1600s–1900s",
+      "meaning": "military inspection",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal assessment; a critical article"
+}

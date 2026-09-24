@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "battuere",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "the root of 'battle' and 'batter'",
+      "meaning": "to beat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "batterie",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a group of cannons firing together",
+      "meaning": "beating; artillery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "battery",
+      "lang": "English",
+      "era": "1530s",
+      "note": "Benjamin Franklin applied it to linked electrical jars in 1749",
+      "meaning": "beating; artillery",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a device storing electricity; a group of guns"
+}

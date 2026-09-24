@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "temptare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'attempt'",
+      "meaning": "to test, try",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tempter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the Devil tempting Christ",
+      "meaning": "to test",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tempt",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'temptation' followed",
+      "meaning": "to test; to entice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to entice to do something unwise"
+}

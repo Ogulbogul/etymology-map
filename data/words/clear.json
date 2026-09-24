@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "clarus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'clarify' and 'declare'",
+      "meaning": "bright, loud",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cler",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of light and sound",
+      "meaning": "bright",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "clear",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'all clear' dates from the 1800s",
+      "meaning": "bright",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "easy to see or understand; transparent"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "masculus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'mas', male, the root of 'masculine'",
+      "meaning": "male",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "masle",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the s was lost in French",
+      "meaning": "male",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "male",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'male' and 'female' are unrelated in origin",
+      "meaning": "man",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "of the sex that fathers young"
+}

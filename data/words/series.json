@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "series",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'serere', to join",
+      "meaning": "row, chain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "series",
+      "lang": "English",
+      "era": "1610s",
+      "note": "a learned borrowing straight from Latin; TV 'series' date from the 1950s",
+      "meaning": "sequence",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a number of related things in order"
+}

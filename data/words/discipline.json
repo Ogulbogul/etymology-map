@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "disciplina",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'discipulus', pupil, the root of 'disciple'",
+      "meaning": "teaching, training",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "discipline",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "monks' penitential whipping",
+      "meaning": "penance, training",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "discipline",
+      "lang": "English",
+      "era": "1200s",
+      "note": "school 'discipline' followed",
+      "meaning": "penance; training",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "training to obey rules"
+}

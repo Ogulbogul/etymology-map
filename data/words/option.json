@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "optio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'optare', to choose, the root of 'adopt'",
+      "meaning": "free choice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "option",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a learned borrowing",
+      "meaning": "option",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "option",
+      "lang": "English",
+      "era": "1600s",
+      "note": "stock 'options' date from the 1700s",
+      "meaning": "choice",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a choice"
+}

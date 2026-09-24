@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "versio",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'vertere', to turn",
+      "meaning": "a turning",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "version",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a translation of scripture",
+      "meaning": "translation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "version",
+      "lang": "English",
+      "era": "1580s",
+      "note": "software 'versions' date from the 1900s",
+      "meaning": "translation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a particular form of something"
+}

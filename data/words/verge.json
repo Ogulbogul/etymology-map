@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "virga",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a staff of office",
+      "meaning": "rod, stick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "verge",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the area under a steward's rod of authority",
+      "meaning": "rod, boundary",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "verge",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'on the verge of' dates from the 1600s",
+      "meaning": "rod; boundary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an edge or border"
+}

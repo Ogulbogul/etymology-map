@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "designare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'signare', to mark",
+      "meaning": "to mark out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "disegno",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "Renaissance artists' word for drawing as the basis of art",
+      "meaning": "drawing, plan",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "design",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'designer' labels date from the 1960s",
+      "meaning": "to plan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a plan or drawing; to plan"
+}

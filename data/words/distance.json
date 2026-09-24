@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "distantia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'dis-' plus 'stare', to stand",
+      "meaning": "standing apart",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "distance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also meant quarrel",
+      "meaning": "distance, discord",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "distance",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'keep your distance' dates from the 1500s",
+      "meaning": "discord; space between",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the space between two points"
+}

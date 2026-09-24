@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "albus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a white tablet for public notices in Rome",
+      "meaning": "white",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "album",
+      "lang": "English",
+      "era": "1650s",
+      "note": "record 'albums' date from the 1900s",
+      "meaning": "blank book",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a book for photos; a collection of recordings"
+}

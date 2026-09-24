@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "folium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'folio' and 'foil'",
+      "meaning": "leaf",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "foillage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "from 'feuille', leaf",
+      "meaning": "leaves",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "foliage",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'foliage plants' date from the 1800s",
+      "meaning": "leaves",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the leaves of plants"
+}

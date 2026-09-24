@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blundus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word, possibly Frankish",
+      "meaning": "yellow",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "blond",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'blonde' keeps the French feminine form",
+      "meaning": "fair-haired",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "blond",
+      "lang": "English",
+      "era": "1480s",
+      "note": "first recorded in the 1480s, then reborrowed from French in the 1600s; 'blond' for men and 'blonde' for women follows French gender",
+      "meaning": "fair",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having fair or pale yellow hair"
+}

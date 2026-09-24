@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "traffico",
+      "lang": "Italian",
+      "era": "1300s",
+      "note": "an Italian merchants' word of uncertain origin",
+      "meaning": "trade",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "trafique",
+      "lang": "French",
+      "era": "1500s",
+      "note": "commerce and trade goods",
+      "meaning": "trade",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "traffic",
+      "lang": "English",
+      "era": "1500s",
+      "note": "road 'traffic' dates from the 1800s",
+      "meaning": "trade",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "vehicles moving on roads; illegal trade"
+}
