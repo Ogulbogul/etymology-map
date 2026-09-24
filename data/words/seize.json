@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sacire",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Frankish legal term latinized in Merovingian law",
+      "meaning": "to claim, lay hold of",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "seisir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "feudal law: to put someone in possession of land",
+      "meaning": "to take possession",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "seize",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the engine sense, 'to jam', dates from the 1900s",
+      "meaning": "to take possession",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to take hold of suddenly and forcibly"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "circare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'circus', circle",
+      "meaning": "to go round",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cerchier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant going round and round looking",
+      "meaning": "to explore, search",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "search",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'search engine' dates from the 1980s",
+      "meaning": "to look for",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to look carefully for something"
+}

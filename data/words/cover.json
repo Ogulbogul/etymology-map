@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cooperire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'co-', completely, plus 'operire', to close",
+      "meaning": "to cover wholly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "covrir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the same verb gives 'kerchief', a head-cover",
+      "meaning": "to cover",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cover",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'cover story' and 'cover song' came in the 1900s",
+      "meaning": "to put something over",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to put something over or on top of"
+}

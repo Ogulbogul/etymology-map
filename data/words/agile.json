@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "agilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'agere', to do or drive",
+      "meaning": "nimble",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "agile",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a learned borrowing from Latin",
+      "meaning": "quick, nimble",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "agile",
+      "lang": "English",
+      "era": "1580s",
+      "note": "'agile' software methods date from 2001",
+      "meaning": "nimble",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "able to move quickly and easily"
+}

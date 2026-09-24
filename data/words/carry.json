@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carrus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a Gaulish word adopted into Latin for a four-wheeled wagon; also the root of 'car'",
+      "meaning": "wagon",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a Norman French verb meaning to haul goods by cart",
+      "meaning": "to transport by cart",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carry",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'carry on' dates from the 1600s, first as a sailing term",
+      "meaning": "to transport",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to support and move from one place to another"
+}

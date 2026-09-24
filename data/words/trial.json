@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "trier",
+      "lang": "Anglo-French",
+      "era": "medieval",
+      "note": "the Anglo-French verb 'trier', to sift or examine, of uncertain origin; also the source of English 'try'",
+      "meaning": "to sift, test",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "trial",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'trial and error' dates from the 1800s",
+      "meaning": "a legal examination",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a formal examination in a court; a test"
+}

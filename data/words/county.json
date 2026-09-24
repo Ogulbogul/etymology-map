@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "comitatus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "from 'comes', companion, the title of a count",
+      "meaning": "office of a count",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conté",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Normans applied it to the English shires",
+      "meaning": "land of a count",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "county",
+      "lang": "English",
+      "era": "1300s",
+      "note": "US states also adopted counties as divisions",
+      "meaning": "a shire",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an administrative division of a country"
+}

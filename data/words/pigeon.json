@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pipio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an imitative word from 'pipire', to chirp",
+      "meaning": "peeping chick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pijon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the chick's cheep gave the name",
+      "meaning": "young bird",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pigeon",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'stool pigeon' is 1800s American slang",
+      "meaning": "young dove",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stout bird with a small head"
+}

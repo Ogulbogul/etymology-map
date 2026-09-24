@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wala",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "possibly a Frankish word related to English 'well'",
+      "meaning": "good, well",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "galer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "its participle 'galant' meant lively, showy",
+      "meaning": "to rejoice, make merry",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gallant",
+      "lang": "English",
+      "era": "1400s",
+      "note": "courteous attention to women dates from the 1600s",
+      "meaning": "showy; brave",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "brave; charmingly attentive"
+}

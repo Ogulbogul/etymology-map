@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sobrius",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'se-', without, plus 'ebrius', drunk",
+      "meaning": "not drunk",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sobre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also meant serious and calm",
+      "meaning": "temperate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sober",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'sober' colours meaning muted dates from the 1600s",
+      "meaning": "not drunk",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not affected by alcohol; serious"
+}

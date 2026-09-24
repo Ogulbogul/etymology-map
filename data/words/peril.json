@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "periculum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'experiri', to try, the root of 'experience'",
+      "meaning": "trial, danger",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "peril",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a test or risk",
+      "meaning": "danger",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "peril",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'at your peril' dates from the 1500s",
+      "meaning": "danger",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "serious danger"
+}

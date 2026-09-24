@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "excarpsus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'excerpere', to pick out, the root of 'excerpt'",
+      "meaning": "plucked out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "escars",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant mean and sparing",
+      "meaning": "scanty, stingy",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scarce",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'make yourself scarce' dates from the 1800s",
+      "meaning": "scanty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "insufficient for the demand"
+}

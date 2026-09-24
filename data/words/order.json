@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ordo",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "originally a row of threads in a loom",
+      "meaning": "row, rank",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ordre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "religious 'orders' of monks and knights",
+      "meaning": "order, rank",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "order",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'to order' goods dates from the 1800s",
+      "meaning": "rank; arrangement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the arrangement of things; a command"
+}

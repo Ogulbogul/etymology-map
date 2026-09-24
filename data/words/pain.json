@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "poena",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'poinē', blood-money",
+      "meaning": "penalty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "peine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the root of 'penal' and 'punish'",
+      "meaning": "punishment, suffering",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pain",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'pains' as effort, 'at pains', dates from the 1500s",
+      "meaning": "punishment; suffering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "physical or mental suffering"
+}

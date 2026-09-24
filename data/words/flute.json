@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flabeolum",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "possibly from 'flare', to blow, blended with 'lute'",
+      "meaning": "a blowing instrument",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "flaüte",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a medieval wind instrument",
+      "meaning": "flute",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "flute",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'champagne flute' dates from the 1600s",
+      "meaning": "a wind instrument",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wind instrument played by blowing across a hole"
+}

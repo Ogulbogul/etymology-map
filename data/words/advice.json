@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ad visum",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "'ad', to, plus 'visum', seen, from 'videre', to see",
+      "meaning": "according to one's view",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "avis",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "modern French still uses 'avis' for opinion",
+      "meaning": "opinion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "advice",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the 'd' was added in the 1400s to look more Latin",
+      "meaning": "opinion; counsel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "guidance offered about what to do"
+}

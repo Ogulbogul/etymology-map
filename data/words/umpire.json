@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "non par",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Latin 'non', not, plus 'par', equal: a third person who is no one's equal",
+      "meaning": "not equal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nonper",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a third party called in to settle disputes",
+      "meaning": "odd man out",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "umpire",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'a noumpere' was misheard as 'an oumpere', dropping the n",
+      "meaning": "arbitrator",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official who enforces the rules of a game"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pretium",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "the same word gave 'price' and 'prize'",
+      "meaning": "value, price",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "preisier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "putting a high value on someone",
+      "meaning": "to value, prize",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "praise",
+      "lang": "English",
+      "era": "1200s",
+      "note": "split from 'price' and 'prize' as each took a different sense",
+      "meaning": "to value; to commend",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to express approval or admiration"
+}

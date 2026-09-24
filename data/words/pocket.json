@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pokka",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'poke' as in 'pig in a poke'",
+      "meaning": "bag",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "poquet",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French diminutive",
+      "meaning": "small bag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pocket",
+      "lang": "English",
+      "era": "1400s",
+      "note": "sewn-in pockets date from the 1600s",
+      "meaning": "a small bag",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small pouch in clothing"
+}

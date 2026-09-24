@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "companio",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "'com-', with, plus 'panis', bread: one who eats bread with you",
+      "meaning": "bread-sharer",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "compaignie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for bands of soldiers and merchants",
+      "meaning": "companionship; band",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "company",
+      "lang": "English",
+      "era": "1200s",
+      "note": "business 'companies' date from the 1500s",
+      "meaning": "companionship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a commercial business; the fact of being with others"
+}

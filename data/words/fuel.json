@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "focus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'focus', originally a fireplace",
+      "meaning": "hearth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fouaille",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a right to take firewood",
+      "meaning": "firewood",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fuel",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'fuel' for engines dates from the 1800s",
+      "meaning": "firewood",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "material burned to produce heat or power"
+}

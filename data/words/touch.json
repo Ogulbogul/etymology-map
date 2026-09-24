@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "toccare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "an imitative Vulgar Latin word, like 'tok' for a knock",
+      "meaning": "to knock, strike",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tochier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also gave Italian 'toccata', a piece showing off the performer's touch",
+      "meaning": "to touch, hit",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "touch",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'touch base' and 'in touch' came in the 1900s",
+      "meaning": "to make contact",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come into contact with"
+}

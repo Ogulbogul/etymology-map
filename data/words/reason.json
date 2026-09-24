@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ratio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'reri', to reckon",
+      "meaning": "reckoning, reason",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "raison",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the Latin t softened in French",
+      "meaning": "reason",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "reason",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the Age of Reason referred to the 1700s",
+      "meaning": "the power of thought",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cause or explanation; the power to think logically"
+}

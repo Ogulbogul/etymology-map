@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quiritare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "said to mean 'to call on the Quirites', Roman citizens, for help",
+      "meaning": "to wail, cry out",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "crier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a town crier shouted public announcements",
+      "meaning": "to shout",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cry",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the sense 'to weep' grew from the noise of weeping",
+      "meaning": "to shout",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to shed tears; to shout loudly"
+}

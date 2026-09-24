@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "salvare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'salvus', safe, the root of 'salvation'",
+      "meaning": "to make safe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sauver",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for spiritual salvation and physical safety",
+      "meaning": "to save",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "save",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'save' for keeping money dates from the 1400s; computer 'save' from the 1960s",
+      "meaning": "to rescue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep safe; to store for later"
+}

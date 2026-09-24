@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "missus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "past participle of 'mittere', to send, the root of 'mission'",
+      "meaning": "sent",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "message",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a verbal communication sent by a messenger",
+      "meaning": "message",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "message",
+      "lang": "English",
+      "era": "1200s",
+      "note": "text 'messages' date from the 1990s",
+      "meaning": "a communication",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a communication sent to someone"
+}

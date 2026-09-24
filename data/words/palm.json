@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "palma",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the palm tree was named for its hand-like leaves",
+      "meaning": "palm of the hand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "palme",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "palm branches were carried on Palm Sunday",
+      "meaning": "palm tree; hand",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "palm",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'palm off' dates from the 1600s",
+      "meaning": "palm tree; hand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the inner surface of the hand; a tropical tree"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "intrare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'intra', within, the root of 'interior'",
+      "meaning": "to go into",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "entrer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'entrée' and 'entrance' share the root",
+      "meaning": "to go in",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "enter",
+      "lang": "English",
+      "era": "1200s",
+      "note": "computing's 'enter key' dates from the 1970s",
+      "meaning": "to go in",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come or go into"
+}

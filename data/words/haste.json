@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "haifsts",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word; Old English had a cognate 'hæst'",
+      "meaning": "violence, strife",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "haste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "applied to hurried movement",
+      "meaning": "speed, urgency",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "haste",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'more haste, less speed' is a proverb from the 1300s",
+      "meaning": "hurry",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "excessive speed or urgency"
+}

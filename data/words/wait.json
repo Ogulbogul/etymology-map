@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wahta",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'wake' and 'watch'",
+      "meaning": "watch, guard",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "waitier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French form of Parisian 'guaitier'",
+      "meaning": "to watch, lie in ambush",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "wait",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'waiter' for a restaurant server dates from the 1600s",
+      "meaning": "to watch; to lie in wait",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stay where one is until something happens"
+}

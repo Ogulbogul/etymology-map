@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "servire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'servus', slave",
+      "meaning": "to be a slave, serve",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "servir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the root of 'servant', 'service' and 'sergeant'",
+      "meaning": "to serve",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "serve",
+      "lang": "English",
+      "era": "1200s",
+      "note": "tennis 'serve' dates from the 1500s",
+      "meaning": "to work for",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to perform duties for; to present food"
+}

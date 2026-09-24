@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pulvis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'pulverize'",
+      "meaning": "dust",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poudre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gunpowder arrived in Europe in the 1200s",
+      "meaning": "dust, powder",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "powder",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'powder room' dates from the 1930s",
+      "meaning": "dust",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fine dry particles"
+}

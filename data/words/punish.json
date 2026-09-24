@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "punire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'poena', penalty, the root of 'pain' and 'penal'",
+      "meaning": "to punish",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "punir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "its stem 'puniss-' gave the English form",
+      "meaning": "to punish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "punish",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'punishing' for exhausting dates from the 1800s",
+      "meaning": "to penalize",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to impose a penalty for an offence"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "shekar",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "a Hebrew word for any intoxicating drink, borrowed through Greek 'sikera'",
+      "meaning": "strong drink",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "sikera",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used in the Latin Bible for strong drink",
+      "meaning": "fermented liquor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sidre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Normandy became famous for apple cider",
+      "meaning": "cider",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cider",
+      "lang": "English",
+      "era": "1300s",
+      "note": "in the US 'cider' can mean unfiltered apple juice",
+      "meaning": "fermented drink",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an alcoholic drink made from apples"
+}

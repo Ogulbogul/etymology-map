@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "major",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "comparative of 'magnus', great",
+      "meaning": "greater",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "maire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the chief officer of a French town",
+      "meaning": "head of a town",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mayor",
+      "lang": "English",
+      "era": "1300s",
+      "note": "London's first mayor took office around 1189; the spelling was later reshaped after Latin 'major'",
+      "meaning": "town official",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the elected head of a city or town"
+}

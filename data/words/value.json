@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "valere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'valiant' and 'valid'",
+      "meaning": "to be strong, be worth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "valoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "its past participle 'value' became a noun",
+      "meaning": "to be worth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "value",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'values' as moral principles dates from the 1900s",
+      "meaning": "worth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the importance or worth of something"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tunna",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Gaulish word adopted in Medieval Latin",
+      "meaning": "cask",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tonnel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a barrel shape, then a tube-shaped net",
+      "meaning": "cask; tube-shaped net",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tunnel",
+      "lang": "English",
+      "era": "1400s",
+      "note": "railway tunnels spread the modern sense in the 1800s",
+      "meaning": "net; funnel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an underground passage"
+}

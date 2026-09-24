@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "copula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'co-', together, plus 'apere', to fasten",
+      "meaning": "bond, tie",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cople",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a leash joining two hunting dogs",
+      "meaning": "pair, bond",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "couple",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'a couple of' meaning 'a few' dates from the 1900s",
+      "meaning": "a pair",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "two people in a relationship; two of something"
+}

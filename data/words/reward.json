@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wardon",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'ward'",
+      "meaning": "to guard, watch",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "rewarder",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French of Parisian 'regarder'",
+      "meaning": "to look at, regard",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "reward",
+      "lang": "English",
+      "era": "1300s",
+      "note": "split from 'regard' with a different sense",
+      "meaning": "regard; recompense",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "something given in return for service"
+}
