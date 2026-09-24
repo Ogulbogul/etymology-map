@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dominium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'dominus', lord",
+      "meaning": "property, rule",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "demaine",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "land held by a lord",
+      "meaning": "lord's estate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "domain",
+      "lang": "English",
+      "era": "1600s",
+      "note": "internet 'domains' date from the 1980s",
+      "meaning": "estate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an area of control or knowledge"
+}

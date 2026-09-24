@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "memoria",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'memor', mindful",
+      "meaning": "memory",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "memorie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of commemoration of the dead",
+      "meaning": "memory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "memory",
+      "lang": "English",
+      "era": "1200s",
+      "note": "computer 'memory' dates from the 1940s",
+      "meaning": "remembrance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the faculty of remembering"
+}

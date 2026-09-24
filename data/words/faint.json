@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'feign' and 'fiction'",
+      "meaning": "to shape, feign",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feint",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "past participle of 'feindre', to feign",
+      "meaning": "sluggish, pretended",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "faint",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'feint' in fencing is the same word",
+      "meaning": "feigned; weak",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "weak and dizzy; barely noticeable"
+}

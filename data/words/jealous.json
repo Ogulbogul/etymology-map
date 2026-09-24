@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "zelus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from Greek 'zēlos', zeal or rivalry",
+      "meaning": "zeal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gelos",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "split into 'jealous' and 'zealous' in English",
+      "meaning": "jealous, zealous",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "jealous",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the Bible's 'jealous God' kept the older sense",
+      "meaning": "zealous; possessive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "feeling resentment of another's success"
+}

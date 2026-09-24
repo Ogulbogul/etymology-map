@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "foris facere",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "'foris', outside, plus 'facere', to do: to act beyond the law",
+      "meaning": "to transgress",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "forfait",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "first the crime, then the penalty",
+      "meaning": "crime; penalty",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "forfeit",
+      "lang": "English",
+      "era": "1300s",
+      "note": "games of 'forfeits' date from the 1700s",
+      "meaning": "penalty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to lose something as a penalty"
+}

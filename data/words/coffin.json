@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kophinos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, a wicker basket",
+      "meaning": "basket",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cofin",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also a pastry crust",
+      "meaning": "box, basket",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "coffin",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the burial sense dates from the 1500s",
+      "meaning": "box; pie crust",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a box in which a dead body is buried"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cancellarius",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'cancelli', a lattice or bar separating judges from the public",
+      "meaning": "usher at a lattice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "chancelier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a king's chief secretary",
+      "meaning": "secretary",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chancellor",
+      "lang": "English",
+      "era": "1000s",
+      "note": "the Chancellor of the Exchequer dates from the 1200s",
+      "meaning": "chief secretary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a senior state or university official"
+}

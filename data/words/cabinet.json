@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capanna",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "the same root as 'cabin'",
+      "meaning": "hut",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cabinet",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a diminutive of 'cabane'",
+      "meaning": "small room",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cabinet",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the king's private council met in a small room, giving the political sense in the 1600s",
+      "meaning": "small room; cupboard",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cupboard; a body of senior ministers"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "terra",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'territory' and 'terrain'",
+      "meaning": "earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "terrasse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a platform of earth",
+      "meaning": "raised platform",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "terrace",
+      "lang": "English",
+      "era": "1500s",
+      "note": "British 'terraced houses' date from the 1800s",
+      "meaning": "raised platform",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat raised area; a row of houses"
+}

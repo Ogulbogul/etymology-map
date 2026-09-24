@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "barbarus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from Greek 'barbaros', one who babbles in a foreign tongue",
+      "meaning": "foreign, wild",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "bravo",
+      "lang": "Italian",
+      "era": "1400s",
+      "note": "meant bold or wild; came into English through French 'brave'",
+      "meaning": "bold, wild",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "brave",
+      "lang": "English",
+      "era": "1480s",
+      "note": "'Bravo!' as praise shares the root",
+      "meaning": "bold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "ready to face danger"
+}

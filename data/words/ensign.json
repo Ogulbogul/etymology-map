@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "insignia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'signum', sign, the root of 'insignia'",
+      "meaning": "badges",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "enseigne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a military standard",
+      "meaning": "banner",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "ensign",
+      "lang": "English",
+      "era": "1500s",
+      "note": "US Navy 'ensigns' are junior officers",
+      "meaning": "flag; flag-bearer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flag; a junior naval officer"
+}

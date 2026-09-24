@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "treuwa",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'true' and 'trust'",
+      "meaning": "faith, pledge",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "trieve",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the medieval 'Truce of God' limited fighting",
+      "meaning": "truce",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "truce",
+      "lang": "English",
+      "era": "1200s",
+      "note": "formed in English as a plural of 'trewe'",
+      "meaning": "truce",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an agreement to stop fighting"
+}

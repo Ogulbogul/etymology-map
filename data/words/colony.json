@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "colonia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'colonus', farmer, from 'colere', to cultivate",
+      "meaning": "settlement",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "colonie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Roman colonies of veteran soldiers",
+      "meaning": "colony",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "colony",
+      "lang": "English",
+      "era": "1400s",
+      "note": "Cologne in Germany is named after a Roman 'colonia'",
+      "meaning": "settlement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a territory settled and controlled by another country"
+}

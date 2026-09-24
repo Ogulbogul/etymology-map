@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gratus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'grace' and 'gratis'",
+      "meaning": "pleasing, thankful",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gratitude",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a learned formation",
+      "meaning": "gratitude",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gratitude",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'ingratitude' is recorded earlier",
+      "meaning": "thankfulness",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the quality of being thankful"
+}

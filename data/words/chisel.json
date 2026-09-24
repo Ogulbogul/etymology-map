@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caesellum",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "from 'caedere', to cut",
+      "meaning": "cutting tool",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cisel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French 'chisel'",
+      "meaning": "chisel",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chisel",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'chiselled' features dates from the 1800s",
+      "meaning": "cutting tool",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tool with a flat cutting edge"
+}

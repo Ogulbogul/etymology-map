@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "parabola",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from Greek 'parabolē'",
+      "meaning": "speech, comparison",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "parole",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a prisoner of war's word of honour not to escape",
+      "meaning": "word, promise",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "parole",
+      "lang": "English",
+      "era": "1610s",
+      "note": "criminal 'parole' dates from the 1900s in the US",
+      "meaning": "word of honour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the conditional release of a prisoner"
+}

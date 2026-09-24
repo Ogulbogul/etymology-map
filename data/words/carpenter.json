@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carpentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a Gaulish word; the 'carpentarius' built carriages",
+      "meaning": "two-wheeled carriage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carpentier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "broadened to any woodworker",
+      "meaning": "woodworker",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carpenter",
+      "lang": "English",
+      "era": "1300s",
+      "note": "replaced Old English 'treowwyrhta', tree-worker",
+      "meaning": "woodworker",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who makes wooden structures"
+}

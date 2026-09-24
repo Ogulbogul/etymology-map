@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tutor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tueri', to watch over",
+      "meaning": "guardian",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tutour",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a guardian of a minor",
+      "meaning": "guardian",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tutor",
+      "lang": "English",
+      "era": "1300s",
+      "note": "university tutors date from the 1600s",
+      "meaning": "guardian",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a private teacher"
+}

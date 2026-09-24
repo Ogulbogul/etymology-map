@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quassicare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a probable source, through Spanish 'casco', a potsherd or helmet",
+      "meaning": "to shake, break",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "casque",
+      "lang": "French",
+      "era": "1500s",
+      "note": "'casque' meant a helmet; the barrel sense crossed over in English",
+      "meaning": "helmet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cask",
+      "lang": "English",
+      "era": "1500s",
+      "note": "wine casks shaped taste in winemaking",
+      "meaning": "barrel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large barrel"
+}

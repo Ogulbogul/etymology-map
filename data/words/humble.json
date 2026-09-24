@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "humilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'humus', earth, ground",
+      "meaning": "low, lowly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "umble",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spoken French dropped the Latin h",
+      "meaning": "humble",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "humble",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the h stayed silent until the 1800s; 'humble pie' comes from 'umbles', animal offal",
+      "meaning": "lowly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a modest view of oneself"
+}

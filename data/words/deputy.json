@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "deputare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'putare', to reckon",
+      "meaning": "to assign",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "deputé",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "past participle: one appointed",
+      "meaning": "appointed",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "deputy",
+      "lang": "English",
+      "era": "1400s",
+      "note": "US sheriff's 'deputies' date from the 1800s",
+      "meaning": "substitute",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person acting for another"
+}

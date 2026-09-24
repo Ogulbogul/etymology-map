@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "simplex",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'sem-', one, plus 'plicare', to fold: folded once",
+      "meaning": "single, plain",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "simple",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also meant humble or foolish",
+      "meaning": "innocent, plain",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "simple",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'simpleton' dates from the 1600s",
+      "meaning": "plain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "easily understood; plain"
+}

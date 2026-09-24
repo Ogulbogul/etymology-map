@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "angustia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'angustus', narrow, related to 'angere', to choke, the root of 'anger' and 'anxious'",
+      "meaning": "tightness, distress",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "anguisse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a feeling of being squeezed by pain",
+      "meaning": "choking distress",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "anguish",
+      "lang": "English",
+      "era": "1200s",
+      "note": "used of both body and mind",
+      "meaning": "severe distress",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "severe mental or physical pain"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pinctiare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "a Vulgar Latin word of uncertain origin",
+      "meaning": "to pinch",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pincier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French 'pinchier'",
+      "meaning": "to pinch",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pinch",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'pinch' meaning to steal is 1600s slang",
+      "meaning": "to squeeze",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to squeeze between finger and thumb"
+}

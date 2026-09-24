@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "riota",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word of uncertain origin",
+      "meaning": "dispute",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "riote",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "noisy revelry",
+      "meaning": "quarrel; debauchery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "riot",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'read the riot act' comes from the Riot Act of 1714",
+      "meaning": "wild living",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a violent public disturbance"
+}

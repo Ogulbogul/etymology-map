@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "duellum",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "an old form of 'bellum', war, reinterpreted as from 'duo', two",
+      "meaning": "war",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "duel",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a fight between two",
+      "meaning": "single combat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "duel",
+      "lang": "English",
+      "era": "1590s",
+      "note": "duelling was banned in England in the 1800s",
+      "meaning": "fight between two",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a contest between two people"
+}

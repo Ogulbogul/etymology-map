@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capanna",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "a Late Latin word, possibly Celtic",
+      "meaning": "hut",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cabane",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came through Provençal 'cabana'",
+      "meaning": "hut",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cabin",
+      "lang": "English",
+      "era": "1300s",
+      "note": "ship's 'cabins' date from the 1400s",
+      "meaning": "hut",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small wooden house; a room on a ship"
+}

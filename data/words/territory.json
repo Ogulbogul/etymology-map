@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "territorium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'terra', land",
+      "meaning": "land around a town",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "territoire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a region under a ruler",
+      "meaning": "territory",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "territory",
+      "lang": "English",
+      "era": "1400s",
+      "note": "'territorial waters' date from the 1800s",
+      "meaning": "region",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an area of land under one ruler"
+}

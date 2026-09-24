@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "silvaticus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from 'silva', forest, the root of 'sylvan'",
+      "meaning": "of the woods",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sauvage",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "wild animals and untamed land",
+      "meaning": "wild",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "savage",
+      "lang": "English",
+      "era": "1300s",
+      "note": "used of cruel ferocity from the 1500s",
+      "meaning": "wild",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fierce and violent"
+}

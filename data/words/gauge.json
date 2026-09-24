@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "galga",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word of uncertain origin",
+      "meaning": "measuring rod",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "gauge",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French form of 'jauge'",
+      "meaning": "standard measure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gauge",
+      "lang": "English",
+      "era": "1400s",
+      "note": "railway track 'gauge' dates from the 1840s",
+      "meaning": "measure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an instrument for measuring"
+}

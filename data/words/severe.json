@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "severus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly from 'se-', without, and 'verus', kind",
+      "meaning": "strict, serious",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "severe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a learned borrowing",
+      "meaning": "strict",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "severe",
+      "lang": "English",
+      "era": "1540s",
+      "note": "'severe weather' dates from the 1600s",
+      "meaning": "strict",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "very great or intense; strict"
+}

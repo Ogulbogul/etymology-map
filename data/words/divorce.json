@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "divortium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'divertere', to turn aside, the root of 'divert'",
+      "meaning": "separation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "divorce",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "under church law, marriages were rarely dissolved",
+      "meaning": "divorce",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "divorce",
+      "lang": "English",
+      "era": "1300s",
+      "note": "Henry VIII's divorce split England from Rome",
+      "meaning": "separation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the legal ending of a marriage"
+}

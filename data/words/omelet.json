@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lamella",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'lamina', thin layer",
+      "meaning": "thin plate",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amelette",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a thin flat egg dish, altered from 'alumelle', blade",
+      "meaning": "omelette",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "omelet",
+      "lang": "English",
+      "era": "1610s",
+      "note": "'you can't make an omelette without breaking eggs' is from French",
+      "meaning": "egg dish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dish of beaten eggs cooked flat"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "galleta",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a Medieval Latin word of uncertain origin",
+      "meaning": "jug, bowl",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "galon",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Norman French form",
+      "meaning": "liquid measure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gallon",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the US and UK gallons differ",
+      "meaning": "liquid measure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a unit of liquid volume"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "legalis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'lex', law: faithful to the law",
+      "meaning": "legal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "loial",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'loyal' and 'legal' are doublets",
+      "meaning": "faithful",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "loyal",
+      "lang": "English",
+      "era": "1530s",
+      "note": "'loyalist' dates from the 1640s",
+      "meaning": "faithful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "giving firm support to someone"
+}

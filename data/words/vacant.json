@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vacare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'vacation' and 'vacuum'",
+      "meaning": "to be empty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vacant",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of offices without holders",
+      "meaning": "empty",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vacant",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'vacant' look, meaning blank, dates from the 1500s",
+      "meaning": "empty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "not occupied; blank"
+}

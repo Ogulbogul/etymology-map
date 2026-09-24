@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paroikia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "Greek, from 'paroikos', neighbour",
+      "meaning": "district, diocese",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "paroisse",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "came via Late Latin 'parochia'",
+      "meaning": "parish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "parish",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'parochial' shares the root",
+      "meaning": "church district",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small administrative district with its own church"
+}

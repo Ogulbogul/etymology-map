@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rudis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used of rough, unpolished material",
+      "meaning": "unwrought, raw",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rude",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "unrefined in manners",
+      "meaning": "coarse, ignorant",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "rude",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'rude awakening' dates from the 1800s",
+      "meaning": "rough",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "offensively impolite"
+}

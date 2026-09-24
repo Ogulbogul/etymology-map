@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skrauda",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'shred'",
+      "meaning": "shred, strip",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "escroue",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "altered in English by 'rowle', roll",
+      "meaning": "scrap of parchment",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "scroll",
+      "lang": "English",
+      "era": "1400s",
+      "note": "computer 'scrolling' dates from the 1970s",
+      "meaning": "roll of parchment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a roll of parchment; to move text on a screen"
+}

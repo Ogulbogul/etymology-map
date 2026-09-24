@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "brutus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an Oscan word for stupid or senseless, like a beast",
+      "meaning": "heavy, dull",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "brutal",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "from 'brute', an animal",
+      "meaning": "beastlike",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "brutal",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the sense 'savagely cruel' dates from the 1600s",
+      "meaning": "beastlike",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "savagely violent"
+}
