@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blasphemare",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "from Greek 'blasphēmein', to speak evil, the root of 'blasphemy'",
+      "meaning": "to revile",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "blasmer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "shortened form of the church word",
+      "meaning": "to reproach",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "blame",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'blasphemy' was later borrowed separately, so English has both",
+      "meaning": "to find fault",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to hold responsible for a fault"
+}

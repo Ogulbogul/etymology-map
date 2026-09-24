@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "crudelis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'crudus', raw, which gave 'crude'",
+      "meaning": "rough, cruel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cruel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "kept the Latin form almost intact",
+      "meaning": "merciless",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cruel",
+      "lang": "English",
+      "era": "1200s",
+      "note": "used of fate and fortune in romances",
+      "meaning": "causing suffering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "wilfully causing pain to others"
+}

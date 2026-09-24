@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "porticus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'porta', gate; the root of 'portico'",
+      "meaning": "colonnade",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "porche",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a covered area before a church door",
+      "meaning": "covered entrance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "porch",
+      "lang": "English",
+      "era": "1200s",
+      "note": "American 'porch' means a veranda",
+      "meaning": "a covered entrance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a covered shelter at the entrance to a building"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "attemptare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'temptare', to test, the root of 'tempt'",
+      "meaning": "to try, strive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "atempter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "closely linked to 'tempt'",
+      "meaning": "to try",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attempt",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'an attempt on someone's life' dates from the 1500s",
+      "meaning": "to try",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make an effort to do something"
+}

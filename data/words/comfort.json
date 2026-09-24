@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "confortare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'com-', intensive, plus 'fortis', strong",
+      "meaning": "to strengthen greatly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "conforter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant giving courage and support, not physical ease",
+      "meaning": "to strengthen, console",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "comfort",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the sense of physical ease arose in the 1700s",
+      "meaning": "consolation",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a state of ease; consolation in grief"
+}

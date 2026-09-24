@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tributum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tribuere', to assign, originally to the tribes of Rome",
+      "meaning": "tax, levy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tribut",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "payment from a subject people",
+      "meaning": "tribute",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tribute",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'act of praise' came in the 1600s",
+      "meaning": "tax to a ruler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an act showing respect; payment to a ruler"
+}

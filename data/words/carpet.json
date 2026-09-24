@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carpere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "plucked or unravelled wool",
+      "meaning": "to pluck, card wool",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carpite",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "via Old Italian 'carpita', a thick woollen cloth",
+      "meaning": "coarse cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carpet",
+      "lang": "English",
+      "era": "1300s",
+      "note": "only in the 1700s did carpets move to the floor",
+      "meaning": "a table or bed cover",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thick woven floor covering"
+}

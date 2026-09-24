@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "delectare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a frequentative of 'delicere', to allure",
+      "meaning": "to charm",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "delit",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "spelled 'delite' in English until the 1500s",
+      "meaning": "pleasure",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "delight",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the 'gh' was added by analogy with 'light', though the words are unrelated",
+      "meaning": "great pleasure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "great pleasure"
+}

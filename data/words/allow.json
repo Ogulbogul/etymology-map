@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "allaudare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'laudare', to praise; merged with 'allocare', to assign",
+      "meaning": "to praise",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alouer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "two Latin verbs collapsed into one French word",
+      "meaning": "to praise; to assign",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "allow",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the praising sense died out and 'permit' took over",
+      "meaning": "to praise; to permit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to let someone do something"
+}

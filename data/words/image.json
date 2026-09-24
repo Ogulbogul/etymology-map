@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "imago",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "related to 'imitari', to imitate",
+      "meaning": "likeness, copy",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "image",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used of statues of saints",
+      "meaning": "likeness",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "image",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'public image' dates from the 1950s",
+      "meaning": "a likeness; statue",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a picture or representation of something"
+}

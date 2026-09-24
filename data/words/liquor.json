@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "liquor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'liquere', to be fluid",
+      "meaning": "liquid, fluid",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "licour",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "any liquid, including juices",
+      "meaning": "liquid",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "liquor",
+      "lang": "English",
+      "era": "1200s",
+      "note": "narrowed to alcoholic drink in the 1700s",
+      "meaning": "liquid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strong alcoholic drink"
+}

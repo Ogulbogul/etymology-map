@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "admirari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-', at, plus 'mirari', to wonder; the root of 'miracle' and 'mirror'",
+      "meaning": "to wonder at",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "admirer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for astonishment before it meant approval",
+      "meaning": "to marvel at",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "admire",
+      "lang": "English",
+      "era": "1590s",
+      "note": "first meant simply to be amazed, good or bad",
+      "meaning": "to regard with respect",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to regard with respect or warm approval"
+}

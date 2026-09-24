@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bannjan",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word for a public order, related to 'ban'",
+      "meaning": "to proclaim",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "banir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "an exile was proclaimed publicly",
+      "meaning": "to proclaim; to exile",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "banish",
+      "lang": "English",
+      "era": "1300s",
+      "note": "also gives 'banns' of marriage",
+      "meaning": "to exile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to send someone away as punishment"
+}

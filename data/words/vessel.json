@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vascellum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a diminutive of 'vas', vase",
+      "meaning": "small vase",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vaissel",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "both containers and ships",
+      "meaning": "container; ship",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "vessel",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'blood vessel' dates from the 1600s",
+      "meaning": "container; ship",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a ship; a hollow container"
+}

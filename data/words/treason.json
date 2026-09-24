@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "traditio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'tradere', to hand over, also the root of 'tradition' and 'traitor'",
+      "meaning": "handing over",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "traison",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "handing someone over to their enemies",
+      "meaning": "betrayal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "treason",
+      "lang": "English",
+      "era": "1200s",
+      "note": "English law defined high treason in 1351",
+      "meaning": "betrayal of a ruler",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the crime of betraying one's country"
+}

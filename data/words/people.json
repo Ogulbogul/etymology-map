@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "populus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "possibly borrowed from Etruscan",
+      "meaning": "a people, nation",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pueple",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "replaced Old English 'leode'",
+      "meaning": "people",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "people",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'populace' and 'popular' are later borrowings of the same root",
+      "meaning": "persons",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "human beings in general"
+}

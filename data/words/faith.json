@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fides",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'fidelity' and 'confide'",
+      "meaning": "trust, belief",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feid",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the final th sound came from Old French 'feid'",
+      "meaning": "faith, loyalty",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "faith",
+      "lang": "English",
+      "era": "1200s",
+      "note": "replaced Old English 'geleafa'",
+      "meaning": "belief, loyalty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "complete trust; strong religious belief"
+}

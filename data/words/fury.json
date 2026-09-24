@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "furia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Furies were Roman avenging goddesses",
+      "meaning": "rage, madness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "furie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also used for the classical Furies",
+      "meaning": "rage",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "fury",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'furious' followed",
+      "meaning": "wild rage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "extreme anger"
+}

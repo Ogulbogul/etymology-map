@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pila",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a stone pier or column",
+      "meaning": "pillar, pier",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "piler",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "gave 'pile' as in bridge supports",
+      "meaning": "column",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pillar",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'from pillar to post' comes from real tennis",
+      "meaning": "a column",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tall vertical support; a key supporter"
+}

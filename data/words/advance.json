@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "abante",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "Late Latin, from 'ab', from, plus 'ante', before",
+      "meaning": "from before",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "avancier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the 'd' was inserted in English by mistaken analogy with 'ad-' words",
+      "meaning": "to move forward",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "advance",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'in advance' and 'advance payment' came later",
+      "meaning": "to move forward",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move forward; to make progress"
+}

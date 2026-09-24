@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "viduare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'viduus', bereft, the root of 'widow'",
+      "meaning": "to empty, deprive",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "esvuidier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'es-' plus 'vuidier', to empty, the root of 'void'",
+      "meaning": "to empty out",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "avoid",
+      "lang": "English",
+      "era": "1300s",
+      "note": "shifted from clearing out to keeping away from",
+      "meaning": "to empty; to shun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to keep away from"
+}

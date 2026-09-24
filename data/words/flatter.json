@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flat",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word for smooth or flat",
+      "meaning": "flat",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "flater",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "smoothing someone down with praise",
+      "meaning": "to caress, stroke",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "flatter",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'flattering' clothes date from the 1900s",
+      "meaning": "to praise insincerely",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to praise excessively"
+}

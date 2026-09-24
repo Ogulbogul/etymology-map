@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "buc",
+      "lang": "Old English",
+      "era": "ancient",
+      "note": "an Old English word that blended with Anglo-Norman 'buquet'",
+      "meaning": "belly, trunk",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "buket",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for a washtub or pail",
+      "meaning": "pail, tub",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bucket",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'kick the bucket' dates from the 1700s",
+      "meaning": "a pail",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an open container with a handle for carrying liquid"
+}

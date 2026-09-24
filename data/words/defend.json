@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "defendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-', away, plus '-fendere', to strike",
+      "meaning": "to ward off",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "defendre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "'fence' is a shortened form of 'defence'",
+      "meaning": "to protect",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "defend",
+      "lang": "English",
+      "era": "1200s",
+      "note": "sports sense came in the 1800s",
+      "meaning": "to protect",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to protect from harm"
+}

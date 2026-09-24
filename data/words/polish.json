@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "polire",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'polite', literally 'polished'",
+      "meaning": "to make smooth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poliss-",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the stem of 'polir'",
+      "meaning": "to polish",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "polish",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the figurative sense, refined manners, came in the 1500s",
+      "meaning": "to make shiny",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make smooth and shiny by rubbing"
+}

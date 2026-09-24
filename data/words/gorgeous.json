@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gurgulio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a probable source via Old French 'gorge', throat",
+      "meaning": "gullet, throat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "gorgias",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "perhaps from a fancy neck ruff, a 'gorgerette'",
+      "meaning": "elegant, fashionable",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gorgeous",
+      "lang": "English",
+      "era": "1400s",
+      "note": "first of rich clothing, then of anything beautiful",
+      "meaning": "splendid",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "very beautiful or attractive"
+}

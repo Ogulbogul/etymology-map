@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "invidia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'invidere', to look at askance: 'in', upon, plus 'videre', to see",
+      "meaning": "envy, ill will",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "envie",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "in modern French 'envie' softened to 'desire'",
+      "meaning": "envy, desire",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "envy",
+      "lang": "English",
+      "era": "1200s",
+      "note": "one of the seven deadly sins",
+      "meaning": "resentful longing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "resentful longing for what another has"
+}

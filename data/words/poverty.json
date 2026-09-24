@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paupertas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'pauper', poor",
+      "meaning": "poverty",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poverté",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the root of 'poor' and 'impoverish'",
+      "meaning": "poverty",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "poverty",
+      "lang": "English",
+      "era": "1100s",
+      "note": "one of the monastic vows",
+      "meaning": "lack of wealth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the state of being extremely poor"
+}

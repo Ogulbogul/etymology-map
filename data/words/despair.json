@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "desperare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-', without, plus 'sperare', to hope",
+      "meaning": "to lose hope",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "desperer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "its past participle gave 'desperate'",
+      "meaning": "to despair",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "despair",
+      "lang": "English",
+      "era": "1300s",
+      "note": "used in medieval theology for a deadly sin",
+      "meaning": "loss of hope",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the complete loss of hope"
+}

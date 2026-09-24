@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "precari",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'prex', prayer",
+      "meaning": "to ask earnestly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "preier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for both asking people and asking God",
+      "meaning": "to beg, pray",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pray",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'pray tell' keeps the older asking sense",
+      "meaning": "to ask; to speak to God",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to address a god; to hope earnestly"
+}

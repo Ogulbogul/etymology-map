@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pastor",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'pascere', to feed or graze",
+      "meaning": "shepherd",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pastor",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "Christ as the Good Shepherd made it a word for clergy",
+      "meaning": "shepherd; priest",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pastor",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'pastoral' still means both rural and caring",
+      "meaning": "a spiritual shepherd",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a minister in charge of a congregation"
+}

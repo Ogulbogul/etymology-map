@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "paenitentia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'paenitere', to regret",
+      "meaning": "repentance",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "penance",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a church sacrament of confession and satisfaction",
+      "meaning": "repentance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "penance",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'penitentiary' shares the root",
+      "meaning": "a punishment for sin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a punishment taken on to show regret for wrongdoing"
+}

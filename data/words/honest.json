@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "honestus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'honos', honour",
+      "meaning": "honourable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "honeste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant respectable in social standing",
+      "meaning": "respectable",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "honest",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the sense 'not lying' became dominant in the 1500s",
+      "meaning": "honourable; truthful",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "free of deceit; truthful"
+}

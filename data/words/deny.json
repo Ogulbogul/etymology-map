@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "denegare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'negare', to say no, the root of 'negative'",
+      "meaning": "to refuse",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "denier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a legal word for rejecting a claim",
+      "meaning": "to refuse",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "deny",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'self-denial' dates from the 1640s",
+      "meaning": "to refuse; to contradict",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to state that something is not true"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "apparere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ad-' plus 'parere', to show oneself",
+      "meaning": "to come into view",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aparoir",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the same root gives 'apparent' and 'apparition'",
+      "meaning": "to appear",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "appear",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'appearance' followed",
+      "meaning": "to become visible",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to come into sight; to seem"
+}

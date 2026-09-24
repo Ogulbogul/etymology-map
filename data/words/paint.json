@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'picture' and 'pigment'",
+      "meaning": "to paint",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "peint",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the past participle became the English verb",
+      "meaning": "painted",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "paint",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'paint the town red' dates from the 1880s",
+      "meaning": "to apply colour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "coloured liquid; to cover with it"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "minister",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'minus', less; the opposite of 'magister', master",
+      "meaning": "servant",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ministre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for someone who serves God or the state",
+      "meaning": "servant; officer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "minister",
+      "lang": "English",
+      "era": "1300s",
+      "note": "government 'ministers' date from the 1600s",
+      "meaning": "servant of the church",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a head of a government department; a member of the clergy"
+}

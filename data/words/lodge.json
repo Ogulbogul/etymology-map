@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "laubja",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Frankish word related to 'leaf' and 'lobby'",
+      "meaning": "shelter of leaves",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "loge",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a temporary shelter",
+      "meaning": "hut, arbour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "lodge",
+      "lang": "English",
+      "era": "1200s",
+      "note": "Masonic 'lodges' date from the 1400s",
+      "meaning": "a small house",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small house at the gate of an estate; to stay or place"
+}

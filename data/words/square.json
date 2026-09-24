@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "exquadrare",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "'ex-' plus 'quadra', square, from 'quattuor', four",
+      "meaning": "to make square",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "esquarre",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a carpenter's set square",
+      "meaning": "square",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "square",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'square' for dull and conventional is 1940s jazz slang",
+      "meaning": "a right-angled shape",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a shape with four equal sides and right angles"
+}

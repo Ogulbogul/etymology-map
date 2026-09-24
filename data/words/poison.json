@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "potio",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the same root as 'potion'",
+      "meaning": "a drink",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "poison",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a drink, especially a medicinal or magic one",
+      "meaning": "draught; poison",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "poison",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'potion' was later borrowed separately, keeping the neutral sense",
+      "meaning": "a deadly substance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance that causes illness or death"
+}

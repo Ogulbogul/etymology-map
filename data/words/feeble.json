@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flebilis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'flere', to weep",
+      "meaning": "lamentable",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "feble",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the first l shifted, a common change in Old French",
+      "meaning": "weak",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "feeble",
+      "lang": "English",
+      "era": "1100s",
+      "note": "used of both body and mind",
+      "meaning": "weak",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "lacking physical or mental strength"
+}

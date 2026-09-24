@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "incendere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the root of 'incendiary'",
+      "meaning": "to set on fire",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "encens",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used in church rituals",
+      "meaning": "burnt aromatic",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "incense",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the verb 'incensed', enraged, keeps the burning sense",
+      "meaning": "fragrant smoke",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance burned for its sweet smell"
+}

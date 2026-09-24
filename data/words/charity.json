@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caritas",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "from 'carus', dear, the root of 'caress'",
+      "meaning": "dearness, love",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "charité",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "the church used it for love of God and neighbour",
+      "meaning": "Christian love",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "charity",
+      "lang": "English",
+      "era": "1100s",
+      "note": "narrowed to giving to the poor by the 1200s",
+      "meaning": "Christian love",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "help given to those in need; an organization that gives it"
+}

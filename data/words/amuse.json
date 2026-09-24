@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "muser",
+      "lang": "Vulgar Latin",
+      "era": "ancient",
+      "note": "a Gallo-Roman word possibly from 'musum', muzzle, like a dog sniffing with its nose in the air",
+      "meaning": "to stare, ponder",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amuser",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "meant to hold someone's attention in order to deceive them",
+      "meaning": "to divert, delude",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "amuse",
+      "lang": "English",
+      "era": "1480s",
+      "note": "the sense 'to deceive' faded, leaving 'to entertain' by the 1600s",
+      "meaning": "to entertain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make someone laugh or smile; to entertain"
+}

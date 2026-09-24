@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "provincia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a territory under a Roman magistrate; Provence in France is named after it",
+      "meaning": "area of command",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "province",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "used for church and royal divisions",
+      "meaning": "territory, region",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "province",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'provincial' came to mean unsophisticated",
+      "meaning": "a region",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a main administrative division of a country"
+}

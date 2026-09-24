@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "devorare",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'de-' plus 'vorare', to swallow, the root of 'voracious'",
+      "meaning": "to swallow down",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "devorer",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "also used of fire and war",
+      "meaning": "to eat greedily",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "devour",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'devour a book' dates from the 1500s",
+      "meaning": "to eat hungrily",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to eat hungrily; to consume"
+}
