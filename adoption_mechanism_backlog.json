@@ -658,66 +658,6 @@
       "current_note": "settled on its modern chemical sense"
     }
   ],
-  "algebra": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-jabr",
-      "era": "c. 820",
-      "current_note": "from the title of al-Khwarizmi's treatise on equations"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "algebra",
-      "era": "c. 1100s",
-      "current_note": "entered Europe through Latin translations made in Toledo"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Italian",
-      "word": "algebra",
-      "era": "c. 1400s",
-      "current_note": "also kept a folk sense of \"bone-setting\" for a time"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "algebra",
-      "era": "c. 1550s",
-      "current_note": "from the title of al-Khwarizmi's treatise 'al-jabr', 'the reunion of broken parts'; English first used it for bone-setting"
-    }
-  ],
-  "algorithm": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-Khwarizmi",
-      "era": "800s",
-      "current_note": "literally native of Khwarazm, the surname of the mathematician Muhammad ibn Musa al-Khwarizmi, whose Arabic-language treatises introduced advanced calculation methods to the West"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "algorismus",
-      "era": "medieval",
-      "current_note": "a mangled transliteration of al-Khwarizmi, entering Europe through Latin translations of Arabic mathematical texts made in Spain"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "algorisme",
-      "era": "1200s",
-      "current_note": "carried into French for the Arabic system of calculation, later reshaped to \"algorithme\" by false association with Greek arithmos (number)"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "algorithm",
-      "era": "1690s",
-      "current_note": "reshaped by association with Greek 'arithmos', number; the name of the Persian mathematician al-Khwarizmi is hidden in it"
-    }
-  ],
   "alias": [
     {
       "stop_index": 0,
@@ -748,29 +688,6 @@
       "word": "alibi",
       "era": "1700s",
       "current_note": "Latin for 'elsewhere', used as a legal plea in English courts"
-    }
-  ],
-  "alidade": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-'idada",
-      "era": "medieval",
-      "current_note": "literally \"the revolving radius\" or pointer of a measuring circle"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "alhidada",
-      "era": "1400s",
-      "current_note": "the sighting rule of the astrolabe, known to Europe through Arabic treatises translated in Spain"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "alidade",
-      "era": "1400s",
-      "current_note": "entered English as the name for the sighting arm of a surveying instrument"
     }
   ],
   "alien": [
@@ -1324,36 +1241,6 @@
       "current_note": "shortened and settled as the English word for a vehicle that transports the sick or injured"
     }
   ],
-  "amen": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "amen",
-      "era": "ancient",
-      "current_note": "meaning \"so be it\" or \"truly\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Greek",
-      "word": "amen",
-      "era": "ancient",
-      "current_note": "the Septuagint translators kept the Hebrew word untranslated"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Latin",
-      "word": "amen",
-      "era": "ancient",
-      "current_note": "carried unchanged through Christian liturgy"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "amen",
-      "era": "medieval",
-      "current_note": "used at the end of prayers in the Old English church, then as a general word of assent"
-    }
-  ],
   "amend": [
     {
       "stop_index": 0,
@@ -1840,29 +1727,6 @@
       "current_note": "settled as the medical word for an abnormal bulge in a blood vessel wall"
     }
   ],
-  "angel": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "angelos",
-      "era": "ancient",
-      "current_note": "literally \"messenger\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "angelus",
-      "era": "ancient",
-      "current_note": "Latin Christianity used it to translate Hebrew 'malakh', messenger"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old English",
-      "word": "engel",
-      "era": "medieval",
-      "current_note": "brought by Augustine's mission of 597 and replacing the native word for messenger"
-    }
-  ],
   "anger": [
     {
       "stop_index": 0,
@@ -1900,22 +1764,6 @@
       "word": "angle",
       "era": "1300s",
       "current_note": "'angle' as a point of view dates from the 1800s"
-    }
-  ],
-  "angst": [
-    {
-      "stop_index": 0,
-      "lang": "German",
-      "word": "Angst",
-      "era": "medieval",
-      "current_note": "meaning \"fear\" or \"anxiety\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "angst",
-      "era": "1900s",
-      "current_note": "Kierkegaard's writings on dread were translated with German 'Angst', and Freud's work spread it further"
     }
   ],
   "anguish": [
@@ -3109,29 +2957,6 @@
       "current_note": "'political arena' dates from the 1800s"
     }
   ],
-  "arepa": [
-    {
-      "stop_index": 0,
-      "lang": "Cumanagoto",
-      "word": "erepa",
-      "era": "medieval",
-      "current_note": "a word from an indigenous language of Venezuela for a cornmeal cake"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "arepa",
-      "era": "1600s",
-      "current_note": "Spanish chroniclers recorded the bread among the Cumanagoto of the Venezuelan coast"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "arepa",
-      "era": "1900s",
-      "current_note": "spread through Venezuelan and Colombian diaspora restaurants in US cities"
-    }
-  ],
   "argon": [
     {
       "stop_index": 0,
@@ -3638,36 +3463,6 @@
       "current_note": "settled as the medical word for joint inflammation"
     }
   ],
-  "artichoke": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-kharshūf",
-      "era": "medieval",
-      "current_note": "the Arabic name for the cultivated thistle"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old Spanish",
-      "word": "alcarchofa",
-      "era": "medieval",
-      "current_note": "adopted after Arab agriculture introduced the plant to Iberia"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Northern Italian",
-      "word": "articiocco",
-      "era": "1400s-1500s",
-      "current_note": "reshaped by folk association with \"ciocco\" (a stump)"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "artichoke",
-      "era": "1500s",
-      "current_note": "further reshaped by association with \"choke\""
-    }
-  ],
   "articulate": [
     {
       "stop_index": 0,
@@ -3792,29 +3587,6 @@
       "word": "ascribe",
       "era": "1400s",
       "current_note": "settled as the English word for attributing something to a cause or source"
-    }
-  ],
-  "ashe": [
-    {
-      "stop_index": 0,
-      "lang": "Yoruba",
-      "word": "àṣẹ",
-      "era": "traditional",
-      "current_note": "named the divine life force believed to animate gods, ancestors, and even spoken words"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Portuguese",
-      "word": "axé",
-      "era": "1800s",
-      "current_note": "creolized in Brazil as enslaved Yoruba people carried the concept into Candomblé practice"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ashe",
-      "era": "late 1900s",
-      "current_note": "spread into English through Santería, Candomblé, and diaspora spiritual writing as an affirming exclamation"
     }
   ],
   "ashram": [
@@ -5029,29 +4801,6 @@
       "current_note": "Americans kept 'fall', an older English word"
     }
   ],
-  "avalanche": [
-    {
-      "stop_index": 0,
-      "lang": "Franco-Provencal",
-      "word": "lavanche",
-      "era": "medieval",
-      "current_note": "a mass of snow and ice sliding rapidly down a mountainside"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "avalanche",
-      "era": "1700s",
-      "current_note": "reshaped in French for the sudden mountain snowslide"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "avalanche",
-      "era": "1760s",
-      "current_note": "popularized by Alpine travel writers; the Swiss French form was influenced by 'avaler', to descend"
-    }
-  ],
   "avant-garde": [
     {
       "stop_index": 0,
@@ -5438,29 +5187,6 @@
       "word": "Ayurveda",
       "era": "19th-20th c.",
       "current_note": "the compound was adopted whole as the name for the traditional Indian system of medicine"
-    }
-  ],
-  "azimuth": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "as-sumut",
-      "era": "medieval",
-      "current_note": "literally \"the ways\" or \"directions\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "azimut",
-      "era": "medieval",
-      "current_note": "Latin astronomers transcribed Arabic 'as-sumut', the directions, in translating Ptolemy's work via Arabic"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "azimuth",
-      "era": "medieval",
-      "current_note": "settled as the English astronomical and navigational term"
     }
   ],
   "azure": [
@@ -6140,38 +5866,6 @@
       "current_note": "Irish 'bean sí', woman of the fairy mounds; her keening warns of a death in old Irish families"
     }
   ],
-  "bantam": [
-    {
-      "stop_index": 0,
-      "lang": "Malay",
-      "word": "Bantam",
-      "era": "1600s",
-      "current_note": "a port town in Java that exported a small breed of chicken"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bantam",
-      "era": "1700s",
-      "current_note": "settled as the word for the small chicken breed, then any small, feisty thing"
-    }
-  ],
-  "banzai": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "banzai",
-      "era": "ancient",
-      "current_note": "literally 'ten thousand years', a traditional cheer wishing long life to the emperor"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "banzai",
-      "era": "1940s",
-      "current_note": "entered wartime English describing Japanese soldiers' charging cry"
-    }
-  ],
   "bao": [
     {
       "stop_index": 0,
@@ -6553,36 +6247,6 @@
       "current_note": "Sanskrit 'fragrant'; grown in the Punjab foothills of the Himalaya"
     }
   ],
-  "bassoon": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "bassus",
-      "era": "ancient",
-      "current_note": "the root of 'bass' and 'basso'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "basso",
-      "era": "medieval",
-      "current_note": "carried into Italian musical vocabulary for the low register"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "basson",
-      "era": "1600s",
-      "current_note": "formed for the deep-toned woodwind instrument"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "bassoon",
-      "era": "1727",
-      "current_note": "from Italian 'basso', low; the French 'basson' reached English with 18th-century orchestras"
-    }
-  ],
   "bata": [
     {
       "stop_index": 0,
@@ -6788,29 +6452,6 @@
       "word": "beauty",
       "era": "1300s",
       "current_note": "replaced Old English 'wlite' as the standard word"
-    }
-  ],
-  "beef": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "bos",
-      "era": "ancient",
-      "current_note": "the Latin word for cattle"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "boeuf",
-      "era": "medieval",
-      "current_note": "brought to England by Norman rulers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "beef",
-      "era": "medieval",
-      "current_note": "adopted for the meat, while \"cow\" stayed the native English word for the animal"
     }
   ],
   "behemoth": [
@@ -7024,22 +6665,6 @@
       "current_note": "worn by Basque shepherds, then adopted as military headgear and a symbol of artists"
     }
   ],
-  "berserk": [
-    {
-      "stop_index": 0,
-      "lang": "Old Norse",
-      "word": "berserkr",
-      "era": "medieval",
-      "current_note": "literally \"bear-shirt\", a warrior said to fight in a trance-like fury"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "berserk",
-      "era": "1800s",
-      "current_note": "Walter Scott's novel 'The Pirate' (1822) introduced 'berserkar' to English readers"
-    }
-  ],
   "besiege": [
     {
       "stop_index": 0,
@@ -7086,36 +6711,6 @@
       "current_note": "formed with the English prefix be- attached to the French root, for breaking someone's trust"
     }
   ],
-  "bezoar": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "pad-zahr",
-      "era": "medieval",
-      "current_note": "compound of pad, \"protecting,\" and zahr, \"poison\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "bazahr",
-      "era": "medieval",
-      "current_note": "passed the remedy and its name into Arabic medicine"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Medieval Latin",
-      "word": "bezoar",
-      "era": "medieval",
-      "current_note": "entered European pharmacology through translated Arabic medical texts"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "bezoar",
-      "era": "1540s",
-      "current_note": "later applied to hard masses found in animal stomachs believed to neutralize poison"
-    }
-  ],
   "bhaji": [
     {
       "stop_index": 0,
@@ -7153,36 +6748,6 @@
       "word": "bhakti",
       "era": "19th-20th c.",
       "current_note": "adopted in English writing on Hindu devotional practice and the Bhakti movement"
-    }
-  ],
-  "bhang": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "bhangah",
-      "era": "ancient",
-      "current_note": "named hemp or cannabis"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "bhang",
-      "era": "16th c.",
-      "current_note": "the everyday North Indian word for a cannabis preparation"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Portuguese",
-      "word": "bangue",
-      "era": "1560s",
-      "current_note": "Portuguese travelers in India recorded the word for Europe"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "bhang",
-      "era": "17th c.",
-      "current_note": "settled as the English name for the Indian cannabis preparation"
     }
   ],
   "bhangra": [
@@ -7869,38 +7434,6 @@
       "current_note": "'boiling point' dates from the 1700s"
     }
   ],
-  "bok choy": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "baak coi",
-      "era": "medieval",
-      "current_note": "literally white vegetable, describing the pale-stemmed leafy green"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bok choy",
-      "era": "1800s",
-      "current_note": "Cantonese 'white vegetable'; brought to North America by 19th-century Cantonese migrants"
-    }
-  ],
-  "bokeh": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "boke",
-      "era": "modern",
-      "current_note": "literally blur or haze, describing the soft out-of-focus quality of a photograph"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bokeh",
-      "era": "1990s",
-      "current_note": "popularized by a 1997 article in Photo Techniques magazine, which added the 'h' to guide pronunciation"
-    }
-  ],
   "bologna": [
     {
       "stop_index": 0,
@@ -8089,22 +7622,6 @@
       "current_note": "first recorded around Sydney; the Dharug people used it in hunting"
     }
   ],
-  "boondocks": [
-    {
-      "stop_index": 0,
-      "lang": "Tagalog",
-      "word": "bundok",
-      "era": "1800s",
-      "current_note": "literally mountain, referring to remote, rural terrain"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "boondocks",
-      "era": "1940s",
-      "current_note": "brought back by American soldiers stationed in the Philippines for remote rural areas"
-    }
-  ],
   "borage": [
     {
       "stop_index": 0,
@@ -8119,82 +7636,6 @@
       "word": "borage",
       "era": "1300s",
       "current_note": "settled as the word for the blue-flowered herb"
-    }
-  ],
-  "borax": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "buraq",
-      "era": "medieval",
-      "current_note": "the Arabic name for the mineral, used in metalworking"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "borax",
-      "era": "medieval",
-      "current_note": "used as a flux by metalworkers and imported from Tibet's salt lakes"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "borax",
-      "era": "medieval",
-      "current_note": "settled as the English mineral name"
-    }
-  ],
-  "boron": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "burah",
-      "era": "ancient",
-      "current_note": "likely the ultimate source of the word for the mineral flux"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "buraq",
-      "era": "medieval",
-      "current_note": "alchemists used borax to help melt and join metals"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Medieval Latin",
-      "word": "baurach",
-      "era": "medieval",
-      "current_note": "Latin translations of Arabic chemistry spread the term"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "borax",
-      "era": "1300s",
-      "current_note": "entered English via Anglo-French 'boras' as the name of the mineral"
-    },
-    {
-      "stop_index": 4,
-      "lang": "English",
-      "word": "boron",
-      "era": "1812",
-      "current_note": "coined by Humphry Davy by blending 'borax' with the ending of 'carbon', since the two elements share properties"
-    }
-  ],
-  "bosh": [
-    {
-      "stop_index": 0,
-      "lang": "Turkish",
-      "word": "boş",
-      "era": "1800s",
-      "current_note": "literally meant \"empty\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bosh",
-      "era": "1839",
-      "current_note": "popularized by James Justinian Morier's novel \"Ayesha\""
     }
   ],
   "bossa nova": [
@@ -8735,29 +8176,6 @@
       "current_note": "the sense 'corrupt payment' dates from the 1500s"
     }
   ],
-  "brick": [
-    {
-      "stop_index": 0,
-      "lang": "Middle Dutch",
-      "word": "brikke",
-      "era": "medieval",
-      "current_note": "a Middle Dutch word, related to 'break': a broken piece"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "brique",
-      "era": "medieval",
-      "current_note": "brick-making spread from Flanders"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "brick",
-      "era": "1400s",
-      "current_note": "'brick' for a reliable person is 1840s slang"
-    }
-  ],
   "brie": [
     {
       "stop_index": 0,
@@ -9249,43 +8667,6 @@
       "current_note": "'bullet points' date from the 1980s"
     }
   ],
-  "bulletin": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "bulla",
-      "era": "ancient",
-      "current_note": "a word for a round seal or knob attached to official documents"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "bulletta",
-      "era": "medieval",
-      "current_note": "a diminutive naming the sealed document itself"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Italian",
-      "word": "bulletino",
-      "era": "medieval",
-      "current_note": "a further diminutive for an official notice"
-    },
-    {
-      "stop_index": 3,
-      "lang": "French",
-      "word": "bulletin",
-      "era": "1500s",
-      "current_note": "modeled on the Italian form for an authenticated public report"
-    },
-    {
-      "stop_index": 4,
-      "lang": "English",
-      "word": "bulletin",
-      "era": "1765",
-      "current_note": "adopted for an official announcement, later popularized by Napoleonic-era military dispatches"
-    }
-  ],
   "bulwark": [
     {
       "stop_index": 0,
@@ -9339,29 +8720,6 @@
       "word": "bundle",
       "era": "1300s",
       "current_note": "'bundle of nerves' came in the 1900s"
-    }
-  ],
-  "bungalow": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi/Gujarati",
-      "word": "bangla",
-      "era": "c. 1600s",
-      "current_note": "literally \"of Bengal\", describing a regional house style"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Anglo-Indian English",
-      "word": "bungalow",
-      "era": "c. 1670s",
-      "current_note": "British officials adopted low, veranda'd Bengali-style houses"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bungalow",
-      "era": "c. 1800s",
-      "current_note": "brought back to Britain and later popularized worldwide"
     }
   ],
   "bunraku": [
@@ -9534,22 +8892,6 @@
       "word": "bushel",
       "era": "1300s",
       "current_note": "'hide your light under a bushel' is from the Gospels"
-    }
-  ],
-  "bushido": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "bushido",
-      "era": "medieval",
-      "current_note": "literally the way of the warrior, the samurai code of honor"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bushido",
-      "era": "1900s",
-      "current_note": "Nitobe Inazō's 1899 book 'Bushido: The Soul of Japan', written in English, introduced the word to Western readers"
     }
   ],
   "butcher": [
@@ -10150,22 +9492,6 @@
       "word": "caliber",
       "era": "1500s",
       "current_note": "settled as the word for a firearm's bore diameter, later a measure of quality"
-    }
-  ],
-  "calico": [
-    {
-      "stop_index": 0,
-      "lang": "Malayalam",
-      "word": "Kozhikode",
-      "era": "medieval",
-      "current_note": "the name of the Indian port city also known as Calicut"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "calico",
-      "era": "1500s-1600s",
-      "current_note": "named the plain cotton cloth first imported from that port"
     }
   ],
   "caliph": [
@@ -11793,29 +11119,6 @@
       "current_note": "broadened over time from throwing to assigning roles or shaping material"
     }
   ],
-  "castle": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "castellum",
-      "era": "ancient",
-      "current_note": "a diminutive of 'castrum', fort, which also survives in place-names like Chester and Lancaster"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old North French",
-      "word": "castel",
-      "era": "medieval",
-      "current_note": "Norman French kept the hard 'c' that Parisian French softened into 'chastel', modern 'château'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "castle",
-      "era": "1000s",
-      "current_note": "spread with the stone keeps the Normans built to control England after 1066"
-    }
-  ],
   "casual": [
     {
       "stop_index": 0,
@@ -11931,29 +11234,6 @@
       "word": "catch",
       "era": "1200s",
       "current_note": "moved from chasing to actually capturing"
-    }
-  ],
-  "category": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "katēgoria",
-      "era": "ancient",
-      "current_note": "an accusation in law; Aristotle used it for the classes of things one can say about something"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Late Latin",
-      "word": "categoria",
-      "era": "ancient",
-      "current_note": "Boethius translated Aristotle's Categories"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "category",
-      "era": "1580s",
-      "current_note": "moved from philosophy to general use"
     }
   ],
   "catharsis": [
@@ -13502,52 +12782,6 @@
       "current_note": "coined from the name for excessive, unreasoning patriotism or group loyalty"
     }
   ],
-  "chayote": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "chayotli",
-      "era": "pre-1500s",
-      "current_note": "named for the pear-shaped edible gourd"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chayote",
-      "era": "1600s",
-      "current_note": "Spanish colonists adopted the Nahuatl name for the vegetable"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chayote",
-      "era": "1880s",
-      "current_note": "borrowed into English as the vegetable spread through Latin American cuisine"
-    }
-  ],
-  "checkmate": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "shāh māt",
-      "era": "medieval",
-      "current_note": "the losing king was declared \"helpless\", not literally dead"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "eschec mat",
-      "era": "c. 1300s",
-      "current_note": "chess terminology spread through French courtly culture"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "checkmate",
-      "era": "c. 1300s",
-      "current_note": "fixed as the term for the winning move in chess"
-    }
-  ],
   "cheddar": [
     {
       "stop_index": 0,
@@ -13631,36 +12865,6 @@
       "word": "chef",
       "era": "1840s",
       "current_note": "celebrity chefs date from the 1900s"
-    }
-  ],
-  "chemist": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-kimiya",
-      "era": "medieval",
-      "current_note": "probably from Greek 'khēmeia', the art of transmuting metals; the Arabic article al- was later dropped"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "alchimista",
-      "era": "1200s",
-      "current_note": "entered Europe as Arabic learning was translated in Spain and Sicily"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "chimiste",
-      "era": "1560s",
-      "current_note": "shortened the long Latin term"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "chymist / chemist",
-      "era": "1560s-1790s",
-      "current_note": "first meant \"alchemist\"; by the 1620s a chemical scientist, and by 1745 also a druggist in British usage"
     }
   ],
   "cheongsam": [
@@ -13826,52 +13030,6 @@
       "current_note": "possibly from German 'Schick', skill; Coco Chanel's designs made 'chic' a byword for Parisian style"
     }
   ],
-  "chicha": [
-    {
-      "stop_index": 0,
-      "lang": "Kuna",
-      "word": "chichab",
-      "era": "pre-1500s",
-      "current_note": "meant 'maize', the base ingredient of a fermented beverage made by peoples of Panama and Colombia"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chicha",
-      "era": "1500s",
-      "current_note": "adopted broadly by Spanish colonists as a generic term for indigenous fermented beverages"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chicha",
-      "era": "1600s-1900s",
-      "current_note": "borrowed into English through travel and anthropological writing on Latin America"
-    }
-  ],
-  "chicle": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "tzictli",
-      "era": "pre-1500s",
-      "current_note": "named the gum chewed from the sapodilla tree's sap"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chicle",
-      "era": "1600s",
-      "current_note": "the Maya and Aztecs chewed it; Thomas Adams made the first chicle chewing gum in New York in 1871"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "chicle",
-      "era": "1860s",
-      "current_note": "entered English when the gum was exported to the U.S. and became the base of early chewing gum"
-    }
-  ],
   "chief": [
     {
       "stop_index": 0,
@@ -13996,38 +13154,6 @@
       "current_note": "narrowed to the stack that carries smoke up"
     }
   ],
-  "chimpanzee": [
-    {
-      "stop_index": 0,
-      "lang": "Tshiluba (Bantu)",
-      "word": "chimpenzi",
-      "era": "medieval",
-      "current_note": "a Central African name for the great ape"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chimpanzee",
-      "era": "1738",
-      "current_note": "first recorded in a 1738 London magazine describing an ape brought from Angola"
-    }
-  ],
-  "china": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "Qin",
-      "era": "ancient",
-      "current_note": "the name of the dynasty that first unified China, source of the country's Western name"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "China",
-      "era": "1500s-1600s",
-      "current_note": "fine porcelain imported from China took on the country's name"
-    }
-  ],
   "chinampa": [
     {
       "stop_index": 0,
@@ -14065,22 +13191,6 @@
       "word": "chinook",
       "era": "1800s",
       "current_note": "named after the people, applied to a warm wind from their homeland's direction"
-    }
-  ],
-  "chinquapin": [
-    {
-      "stop_index": 0,
-      "lang": "Virginia Algonquian (Powhatan)",
-      "word": "chechinquamin",
-      "era": "pre-1620s",
-      "current_note": "named the small edible nut of a dwarf chestnut tree"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "chinquapin",
-      "era": "1610s",
-      "current_note": "recorded by English colonists, including Captain John Smith, in early Virginia accounts"
     }
   ],
   "chintz": [
@@ -14244,36 +13354,6 @@
       "word": "chlorophyll",
       "era": "1810",
       "current_note": "coined by French chemists for the green pigment in plants"
-    }
-  ],
-  "chocolate": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "xocolātl",
-      "era": "pre-1500s",
-      "current_note": "an Aztec drink made from bitter, unsweetened cacao"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "chocolate",
-      "era": "c. 1520s",
-      "current_note": "conquistadors brought the drink and word back to Spain"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "chocolat",
-      "era": "c. 1600s",
-      "current_note": "the drink became fashionable in the French court"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "chocolate",
-      "era": "c. 1650s",
-      "current_note": "entered English as chocolate houses opened in London"
     }
   ],
   "choice": [
@@ -14717,29 +13797,6 @@
       "word": "cinema",
       "era": "1900s",
       "current_note": "shortened and settled as the word for the movies"
-    }
-  ],
-  "cipher": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "sifr",
-      "era": "c. 800s",
-      "current_note": "meaning \"empty\", the Arabic word for zero"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "cifre",
-      "era": "medieval",
-      "current_note": "Arabic 'sifr', empty, translated Sanskrit 'shunya', zero; 'zero' comes from the same word via Italian"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cipher",
-      "era": "medieval",
-      "current_note": "broadened to mean a coded message as well as zero"
     }
   ],
   "circle": [
@@ -15976,22 +15033,6 @@
       "current_note": "statistical 'cohorts' date from the 1900s"
     }
   ],
-  "cohosh": [
-    {
-      "stop_index": 0,
-      "lang": "Eastern Abenaki/Penobscot",
-      "word": "kkwahas",
-      "era": "pre-1700s",
-      "current_note": "meant 'rough', describing the plant's gnarled root"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "cohosh",
-      "era": "1790s",
-      "current_note": "native healers used black cohosh roots, and colonists took it up as a folk remedy"
-    }
-  ],
   "coin": [
     {
       "stop_index": 0,
@@ -16603,29 +15644,6 @@
       "word": "command",
       "era": "1300s",
       "current_note": "settled as the English word for giving an authoritative order"
-    }
-  ],
-  "commando": [
-    {
-      "stop_index": 0,
-      "lang": "Portuguese",
-      "word": "comando",
-      "era": "medieval",
-      "current_note": "meaning \"a command\" or \"order\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Afrikaans",
-      "word": "kommando",
-      "era": "1700s-1800s",
-      "current_note": "applied to a small mobile military unit in southern Africa"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "commando",
-      "era": "1800s-1900s",
-      "current_note": "adopted during the Boer Wars, later used for elite soldiers"
     }
   ],
   "commemorate": [
@@ -19397,29 +18415,6 @@
       "current_note": "'corner the market' dates from the 1800s"
     }
   ],
-  "cornice": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "korone",
-      "era": "ancient",
-      "current_note": "anything curved, a wreath, related to a decorative projecting edge"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "cornice",
-      "era": "1500s",
-      "current_note": "settled in Italian for the decorative molding along the top of a wall"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cornice",
-      "era": "1560s",
-      "current_note": "a term of classical architecture spread by Renaissance pattern books such as Palladio's"
-    }
-  ],
   "corollary": [
     {
       "stop_index": 0,
@@ -19666,22 +18661,6 @@
       "current_note": "railway corridor trains date from the 1880s"
     }
   ],
-  "corroboree": [
-    {
-      "stop_index": 0,
-      "lang": "Dharug",
-      "word": "caribberie",
-      "era": "1700s",
-      "current_note": "a ceremonial gathering combining dance, music, and storytelling"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "corroboree",
-      "era": "1790s",
-      "current_note": "from the Dharug word recorded around Sydney Cove by early colonists"
-    }
-  ],
   "corrode": [
     {
       "stop_index": 0,
@@ -19845,29 +18824,6 @@
       "current_note": "settled as the English word for the universe as an ordered system"
     }
   ],
-  "cosplay": [
-    {
-      "stop_index": 0,
-      "lang": "English",
-      "word": "costume play",
-      "era": "early 1900s",
-      "current_note": "the phrase described dressing up as characters at parties and masquerades"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Japanese",
-      "word": "kosupure",
-      "era": "1984",
-      "current_note": "clipped and blended into a single word by a Japanese journalist covering an LA sci-fi convention"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cosplay",
-      "era": "1990s-2000s",
-      "current_note": "re-imported into English through anime and manga fan culture"
-    }
-  ],
   "cost": [
     {
       "stop_index": 0,
@@ -19928,36 +18884,6 @@
       "word": "cot",
       "era": "1600s",
       "current_note": "from Hindi 'khāt', a light bed of cord stretched on a frame"
-    }
-  ],
-  "cougar": [
-    {
-      "stop_index": 0,
-      "lang": "Tupi",
-      "word": "suasuarana",
-      "era": "pre-1500s",
-      "current_note": "a compound describing the large wildcat, later corrupted through transmission"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Portuguese",
-      "word": "çuçuarana",
-      "era": "1600s",
-      "current_note": "Georges Buffon's natural history spread a misreading of the Tupi name"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "cougar",
-      "era": "1770s",
-      "current_note": "corrupted in French natural history writing, notably by Buffon"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "cougar",
-      "era": "1770s-1800s",
-      "current_note": "Buffon's French 'couguar' reached English through translations of his work"
     }
   ],
   "council": [
@@ -20126,29 +19052,6 @@
       "word": "country",
       "era": "1200s",
       "current_note": "the sense 'nation' followed, while 'the country' kept 'rural land'"
-    }
-  ],
-  "county": [
-    {
-      "stop_index": 0,
-      "lang": "Medieval Latin",
-      "word": "comitatus",
-      "era": "medieval",
-      "current_note": "from 'comes', companion, the title of a count"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "conté",
-      "era": "medieval",
-      "current_note": "Normans applied it to the English shires"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "county",
-      "era": "1300s",
-      "current_note": "US states also adopted counties as divisions"
     }
   ],
   "coup d'etat": [
@@ -20487,36 +19390,6 @@
       "word": "cranium",
       "era": "1500s",
       "current_note": "settled as the English medical word for the skull"
-    }
-  ],
-  "cravat": [
-    {
-      "stop_index": 0,
-      "lang": "Croatian",
-      "word": "Hrvat",
-      "era": "medieval",
-      "current_note": "meaning \"a Croat\", the mercenaries whose distinctive neckwear caught French attention"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "Croate",
-      "era": "1600s",
-      "current_note": "adopted after encountering Croatian cavalry serving in the French army"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "cravate",
-      "era": "1600s",
-      "current_note": "named the knotted neckcloth worn by the Croatian soldiers"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "cravat",
-      "era": "1600s",
-      "current_note": "Croatian mercenaries in French service wore knotted neckcloths, which Louis XIV's court copied"
     }
   ],
   "crawl": [
@@ -21023,22 +19896,6 @@
       "word": "crocodile",
       "era": "1500s",
       "current_note": "'crocodile tears' comes from a legend that crocodiles weep while eating prey"
-    }
-  ],
-  "croissant": [
-    {
-      "stop_index": 0,
-      "lang": "French",
-      "word": "croissant",
-      "era": "1800s",
-      "current_note": "literally crescent, describing the pastry's curved shape"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "croissant",
-      "era": "1900s",
-      "current_note": "Austrian bakers in Paris in the 1830s introduced the Viennese kipferl, which became the croissant"
     }
   ],
   "crook": [
@@ -22756,22 +21613,6 @@
       "current_note": "military 'decorations' date from the 1800s"
     }
   ],
-  "decoy": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "de kooi",
-      "era": "1600s",
-      "current_note": "a funnel-shaped netted pond where tame ducks lured wild ones in, a device Dutch fowlers perfected"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "decoy",
-      "era": "1620s",
-      "current_note": "Dutch engineers draining the Fens brought the duck trap to England as a 'coy'; the Dutch article 'de' then fused on, and the word widened to any lure or trick"
-    }
-  ],
   "decree": [
     {
       "stop_index": 0,
@@ -23452,36 +22293,6 @@
       "word": "dementia",
       "era": "1800s",
       "current_note": "Alois Alzheimer described the disease named after him in 1906"
-    }
-  ],
-  "democracy": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "demokratia",
-      "era": "ancient",
-      "current_note": "from \"demos\" (people) and \"kratos\" (power)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "democratia",
-      "era": "medieval",
-      "current_note": "William of Moerbeke's Latin translation of Aristotle's 'Politics' around 1260 spread the term"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Middle French",
-      "word": "democratie",
-      "era": "medieval",
-      "current_note": "carried the political concept into French"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "democracy",
-      "era": "1500s-1600s",
-      "current_note": "settled as the English political term"
     }
   ],
   "democrat": [
@@ -24538,22 +23349,6 @@
       "word": "dharma",
       "era": "1800s",
       "current_note": "Sanskrit 'that which holds up'; the Buddhist sense of teaching entered English through Pali 'dhamma'"
-    }
-  ],
-  "dhoti": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "dhoti",
-      "era": "medieval",
-      "current_note": "the everyday word for the wrapped lower garment"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dhoti",
-      "era": "1620s",
-      "current_note": "British travelers in India adopted the word for the traditional garment"
     }
   ],
   "dhyana": [
@@ -26685,36 +25480,6 @@
       "current_note": "a back-formation from 'donation'"
     }
   ],
-  "doolally": [
-    {
-      "stop_index": 0,
-      "lang": "Marathi",
-      "word": "Deolali",
-      "era": "1861",
-      "current_note": "name of a British Army transit camp near Mumbai, notorious for boredom and disease"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Urdu",
-      "word": "tap",
-      "era": "medieval",
-      "current_note": "meant 'fever'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "doolally tap",
-      "era": "1917",
-      "current_note": "British soldiers combined the camp's name with the word for fever to describe men driven mad by the long wait there"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "doolally",
-      "era": "1940s",
-      "current_note": "shortened into general British slang"
-    }
-  ],
   "doppelganger": [
     {
       "stop_index": 0,
@@ -27140,22 +25905,6 @@
       "word": "dulce de leche",
       "era": "1900s",
       "current_note": "Argentina and Uruguay both claim it as a national dish"
-    }
-  ],
-  "dungarees": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "dungri",
-      "era": "medieval",
-      "current_note": "a coarse cotton cloth from a village near Mumbai"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "dungaree",
-      "era": "1600s-1700s",
-      "current_note": "named after Dongri, a village near Bombay where the cheap cloth was sold; sailors wore it for work clothes"
     }
   ],
   "dungeon": [
@@ -27937,22 +26686,6 @@
       "word": "egg",
       "era": "1300s",
       "current_note": "settled as the standard English word, displacing the earlier native term"
-    }
-  ],
-  "ego": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ego",
-      "era": "ancient",
-      "current_note": "the Latin pronoun, cognate with English 'I'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ego",
-      "era": "1920s",
-      "current_note": "Freud's translators used it for German 'Ich' in 1923"
     }
   ],
   "egregious": [
@@ -30187,29 +28920,6 @@
       "word": "essay",
       "era": "1590s",
       "current_note": "'essay' as a verb, to try, survives in formal English"
-    }
-  ],
-  "essence": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "essentia",
-      "era": "ancient",
-      "current_note": "coined by Cicero from 'esse', to be, to translate Greek 'ousia'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "essence",
-      "era": "medieval",
-      "current_note": "Aristotle's 'ousia', being, was translated by Cicero with 'essentia'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "essence",
-      "era": "1300s",
-      "current_note": "perfume 'essences' date from the 1600s"
     }
   ],
   "estate": [
@@ -32741,36 +31451,6 @@
       "current_note": "the noun 'festival' dates from the 1500s"
     }
   ],
-  "fete": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "festus",
-      "era": "ancient",
-      "current_note": "an adjective meaning festive or joyful, giving the plural noun festa"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "feste",
-      "era": "1100s",
-      "current_note": "kept the sense of a feast or celebration"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "fete",
-      "era": "medieval",
-      "current_note": "narrowed but remained a general word for a festival or party"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "fete",
-      "era": "1754",
-      "current_note": "borrowed for an elaborate festival or party, popularized by Horace Walpole"
-    }
-  ],
   "fetish": [
     {
       "stop_index": 0,
@@ -33383,29 +32063,6 @@
       "word": "fixture",
       "era": "1600s",
       "current_note": "formed from fix with the English suffix -ture, for something permanently attached"
-    }
-  ],
-  "fjord": [
-    {
-      "stop_index": 0,
-      "lang": "Old Norse",
-      "word": "fjörðr",
-      "era": "medieval",
-      "current_note": "meaning \"a narrow inlet of the sea\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Norwegian",
-      "word": "fjord",
-      "era": "medieval",
-      "current_note": "kept as the name for Norway's characteristic coastal inlets"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "fjord",
-      "era": "1700s-1800s",
-      "current_note": "popularized by English travellers to Norway in the 1800s"
     }
   ],
   "flagrant": [
@@ -35105,22 +33762,6 @@
       "current_note": "'fast and furious' dates from the 1700s"
     }
   ],
-  "furlough": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "verlof",
-      "era": "1600s",
-      "current_note": "'ver-' plus 'lof', permission, related to English 'leave'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "furlough",
-      "era": "1620s",
-      "current_note": "brought home by English soldiers who fought in Dutch service; later, became widely known in Britain during the COVID-19 job retention scheme"
-    }
-  ],
   "furnace": [
     {
       "stop_index": 0,
@@ -35532,29 +34173,6 @@
       "word": "ganglion",
       "era": "1600s",
       "current_note": "settled as the medical word for a cluster of nerve cell bodies"
-    }
-  ],
-  "ganja": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "ganjika",
-      "era": "ancient",
-      "current_note": "an early name for the cannabis plant"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "ganja",
-      "era": "medieval",
-      "current_note": "kept as the common name for the plant and its dried flowers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ganja",
-      "era": "1800s",
-      "current_note": "indentured Indian workers brought the word to Jamaica in the 1800s"
     }
   ],
   "gap": [
@@ -36278,29 +34896,6 @@
       "current_note": "the sense 'friendly' dates from the 1700s"
     }
   ],
-  "genie": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "jinni",
-      "era": "medieval",
-      "current_note": "a supernatural spirit in Arabian folklore"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "génie",
-      "era": "1700s",
-      "current_note": "translators of \"One Thousand and One Nights\" conflated it with the Latin \"genius\""
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "genie",
-      "era": "1700s",
-      "current_note": "French translator Antoine Galland used 'génie' for 'jinni' in his 'Thousand and One Nights' (1704)"
-    }
-  ],
   "genius": [
     {
       "stop_index": 0,
@@ -36714,29 +35309,6 @@
       "current_note": "entered English via French naturalist writing on the Indian crocodilian"
     }
   ],
-  "ghat": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "ghattah",
-      "era": "ancient",
-      "current_note": "meant 'landing place'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "ghat",
-      "era": "medieval",
-      "current_note": "came to mean steps down to a river, or a mountain pass"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ghat",
-      "era": "1783",
-      "current_note": "British travelers in India adopted the word for both riverside steps and mountain passes"
-    }
-  ],
   "ghazal": [
     {
       "stop_index": 0,
@@ -36797,29 +35369,6 @@
       "word": "gherkin",
       "era": "1660s",
       "current_note": "settled as the English word for the small pickling cucumber"
-    }
-  ],
-  "ghetto": [
-    {
-      "stop_index": 0,
-      "lang": "Italian",
-      "word": "borghetto",
-      "era": "medieval",
-      "current_note": "possibly \"little town\" or a foundry district where Venice confined Jewish residents"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "ghetto",
-      "era": "1500s",
-      "current_note": "named the segregated Jewish quarter of Venice"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ghetto",
-      "era": "1600s-1900s",
-      "current_note": "Venice's Jewish quarter of 1516 was beside a foundry, 'getto'; the word spread to other cities"
     }
   ],
   "ghoul": [
@@ -36944,22 +35493,6 @@
       "word": "gigantic",
       "era": "1610s",
       "current_note": "'gigantism' dates from the 1800s"
-    }
-  ],
-  "gin": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "genever",
-      "era": "medieval",
-      "current_note": "meaning \"juniper\", the berry used to flavor the spirit"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "gin",
-      "era": "1600s-1700s",
-      "current_note": "shortened from the Dutch term when English soldiers brought it home"
     }
   ],
   "ginkgo": [
@@ -37345,52 +35878,6 @@
       "current_note": "South African grandmothers' organizations such as the 'Gogo movement' became central to AIDS orphan care"
     }
   ],
-  "golem": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "golem",
-      "era": "ancient",
-      "current_note": "meaning \"shapeless mass\" or \"unfinished substance\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Yiddish",
-      "word": "goylem",
-      "era": "medieval",
-      "current_note": "applied to legends of an animated being made from clay"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "golem",
-      "era": "1800s-1900s",
-      "current_note": "the legend of Rabbi Judah Loew, said to have made a clay golem to protect Prague's Jews, spread through the 1915 novel by Gustav Meyrink"
-    }
-  ],
-  "golf": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "kolf",
-      "era": "medieval",
-      "current_note": "meaning \"club\" or \"bat\", used in a stick-and-ball game"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Scots",
-      "word": "golf",
-      "era": "medieval",
-      "current_note": "developed into the distinct Scottish stick-and-ball game"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "golf",
-      "era": "1500s-1600s",
-      "current_note": "spread from Scotland across the English-speaking world"
-    }
-  ],
   "gondola": [
     {
       "stop_index": 0,
@@ -37421,29 +35908,6 @@
       "word": "gong",
       "era": "1600s-1700s",
       "current_note": "Javanese gamelan orchestras are built around sets of bronze gongs"
-    }
-  ],
-  "goober": [
-    {
-      "stop_index": 0,
-      "lang": "Kikongo",
-      "word": "nguba",
-      "era": "long-standing",
-      "current_note": "a Kikongo word for the groundnut, common across west-central Africa"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Gullah",
-      "word": "guber",
-      "era": "1700s",
-      "current_note": "brought to the American South by enslaved Kikongo speakers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "goober",
-      "era": "1833",
-      "current_note": "phonetically adapted by white Southerners into everyday American English"
     }
   ],
   "gorge": [
@@ -38269,29 +36733,6 @@
       "current_note": "became a Super Bowl party staple in the US"
     }
   ],
-  "guaiacum": [
-    {
-      "stop_index": 0,
-      "lang": "Taino",
-      "word": "guayacán",
-      "era": "pre-1500s",
-      "current_note": "named the hard, resinous tree known for its medicinal properties"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "guayaco",
-      "era": "1520s",
-      "current_note": "guaiacum was exported to Europe in the 1500s as a supposed cure for syphilis"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "guaiacum",
-      "era": "1530s",
-      "current_note": "latinized and borrowed into English, among the very first words of American indigenous origin recorded in English"
-    }
-  ],
   "guanabana": [
     {
       "stop_index": 0,
@@ -38531,22 +36972,6 @@
       "current_note": "the Spanish guitar became popular in England in the 1600s at the court of Charles II"
     }
   ],
-  "gulag": [
-    {
-      "stop_index": 0,
-      "lang": "Russian",
-      "word": "GULAG",
-      "era": "1930s",
-      "current_note": "an acronym for the Soviet agency administering forced labor camps"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "gulag",
-      "era": "1970s",
-      "current_note": "popularized by Alexander Solzhenitsyn's writing, then used for any forced labor camp"
-    }
-  ],
   "gullet": [
     {
       "stop_index": 0,
@@ -38568,36 +36993,6 @@
       "word": "gullet",
       "era": "1300s",
       "current_note": "also used for narrow channels of water"
-    }
-  ],
-  "gum": [
-    {
-      "stop_index": 0,
-      "lang": "Egyptian",
-      "word": "kmj",
-      "era": "ancient",
-      "current_note": "an Egyptian word for acacia resin, borrowed into Greek as 'kommi'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Greek",
-      "word": "kommi",
-      "era": "ancient",
-      "current_note": "used for acacia resin imported from Egypt"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "gomme",
-      "era": "medieval",
-      "current_note": "came via Latin 'gummi'"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "gum",
-      "era": "1300s",
-      "current_note": "chewing gum dates from the 1840s in the US"
     }
   ],
   "gumbo": [
@@ -39006,36 +37401,6 @@
       "current_note": "adopted internationally through New Zealand rugby and culture"
     }
   ],
-  "hallelujah": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "hallelu Yah",
-      "era": "ancient",
-      "current_note": "literally \"praise Yahweh\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Greek",
-      "word": "allelouia",
-      "era": "ancient",
-      "current_note": "the Septuagint translators kept the Hebrew praise 'hallelu Yah', praise the Lord"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Latin",
-      "word": "alleluia",
-      "era": "ancient",
-      "current_note": "carried through Christian liturgy and hymns"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "hallelujah",
-      "era": "medieval",
-      "current_note": "Handel's 'Messiah' (1742) made the Hallelujah Chorus famous"
-    }
-  ],
   "hallucinate": [
     {
       "stop_index": 0,
@@ -39068,22 +37433,6 @@
       "current_note": "settled as the English word for perceiving something not actually present"
     }
   ],
-  "hallyu": [
-    {
-      "stop_index": 0,
-      "lang": "Korean",
-      "word": "hallyu",
-      "era": "1990s",
-      "current_note": "literally 'Korean wave', a term first coined by Chinese journalists to describe surging Korean pop culture"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "hallyu",
-      "era": "2000s-2010s",
-      "current_note": "Chinese journalists coined 'Korean wave' in the late 1990s; BTS and 'Squid Game' brought it worldwide"
-    }
-  ],
   "hamlet": [
     {
       "stop_index": 0,
@@ -39105,29 +37454,6 @@
       "word": "hamlet",
       "era": "1300s",
       "current_note": "Shakespeare's Hamlet is from the Danish name Amleth, not this word"
-    }
-  ],
-  "hammock": [
-    {
-      "stop_index": 0,
-      "lang": "Taíno",
-      "word": "hamaca",
-      "era": "pre-1500s",
-      "current_note": "a hanging bed woven from plant fiber"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "hamaca",
-      "era": "1500s",
-      "current_note": "Columbus noted Taíno hammocks in 1492; European navies later used them for sailors' beds"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "hammock",
-      "era": "1500s-1600s",
-      "current_note": "adopted for use aboard ships and in tropical settings"
     }
   ],
   "hamster": [
@@ -40059,22 +38385,6 @@
       "current_note": "computer 'hibernate' mode dates from the 1990s"
     }
   ],
-  "hickory": [
-    {
-      "stop_index": 0,
-      "lang": "Powhatan",
-      "word": "pawcohiccora",
-      "era": "pre-1600s",
-      "current_note": "a dish made from pounded hickory nuts"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "hickory",
-      "era": "1600s",
-      "current_note": "shortened by English colonists in Virginia, later applied to the tree itself"
-    }
-  ],
   "hideous": [
     {
       "stop_index": 0,
@@ -40415,29 +38725,6 @@
       "word": "hooch",
       "era": "1890s",
       "current_note": "shortened by American prospectors during the Klondike Gold Rush to mean the liquor itself"
-    }
-  ],
-  "hookah": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "huqqa",
-      "era": "medieval",
-      "current_note": "meaning \"a small box\" or \"jar\", describing the water vessel"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Urdu/Hindi",
-      "word": "hukka",
-      "era": "1600s",
-      "current_note": "applied to the water pipe used for smoking"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "hookah",
-      "era": "1700s",
-      "current_note": "from Arabic 'huqqa', small box or jar; the pipe was fashionable among East India Company officials"
     }
   ],
   "hooligan": [
@@ -41466,29 +39753,6 @@
       "current_note": "the sense 'to disregard deliberately' dates from the 1800s"
     }
   ],
-  "iguana": [
-    {
-      "stop_index": 0,
-      "lang": "Taíno",
-      "word": "iwana",
-      "era": "pre-1500s",
-      "current_note": "the Taíno name for the large lizard"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "iguana",
-      "era": "1500s",
-      "current_note": "Spanish chroniclers of Hispaniola described iguanas as a Taíno food"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "iguana",
-      "era": "1500s-1600s",
-      "current_note": "Richard Eden's 1555 English translation 'Decades of the New World' describes lizards 'named Iuannas'"
-    }
-  ],
   "ikebana": [
     {
       "stop_index": 0,
@@ -41503,22 +39767,6 @@
       "word": "ikebana",
       "era": "1900s",
       "current_note": "Japanese 'living flowers'; the Ikenobō school dates from the 1400s"
-    }
-  ],
-  "ikigai": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "ikigai",
-      "era": "20th century",
-      "current_note": "combining 'iki' (life) and 'kai' (worth/effect), naming one's sense of purpose"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ikigai",
-      "era": "2010s",
-      "current_note": "popularized by self-help and wellness writers seeking a Japanese framework for purpose"
     }
   ],
   "ill": [
@@ -42916,29 +41164,6 @@
       "word": "influence",
       "era": "1300s",
       "current_note": "broadened from astrological forces to any power affecting people or events"
-    }
-  ],
-  "influenza": [
-    {
-      "stop_index": 0,
-      "lang": "Medieval Latin",
-      "word": "influentia",
-      "era": "medieval",
-      "current_note": "meaning \"influence\", especially astrological influence believed to cause disease"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "influenza",
-      "era": "1500s-1600s",
-      "current_note": "applied to epidemics attributed to unseen astrological or environmental influence"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "influenza",
-      "era": "1700s",
-      "current_note": "Italian 'influence', since epidemics were blamed on the stars; the 1743 epidemic brought the word to English"
     }
   ],
   "inform": [
@@ -44762,29 +42987,6 @@
       "current_note": "the Bible's 'jealous God' kept the older sense"
     }
   ],
-  "jeans": [
-    {
-      "stop_index": 0,
-      "lang": "French",
-      "word": "Gênes",
-      "era": "medieval",
-      "current_note": "the French name for Genoa, Italy, whose sailors wore a sturdy cotton twill"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "jean",
-      "era": "1500s",
-      "current_note": "adopted for the sturdy cotton twill fabric named after the city"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "jeans",
-      "era": "1800s",
-      "current_note": "settled as the word for trousers made from the durable fabric"
-    }
-  ],
   "jelly": [
     {
       "stop_index": 0,
@@ -45300,36 +43502,6 @@
       "current_note": "Kano Jigoro founded judo in 1882; it joined the Olympics at Tokyo in 1964"
     }
   ],
-  "juggernaut": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "jagat + natha",
-      "era": "ancient",
-      "current_note": "combining jagat (the world, that which moves) and natha-s (lord, master)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "Jagannath",
-      "era": "medieval",
-      "current_note": "the name of a form of the Hindu deity Krishna/Vishnu, worshipped at a great temple in Puri, Odisha"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "Juggernaut",
-      "era": "1630s",
-      "current_note": "British travelers' accounts described the deity's massive temple cart, wrongly said to crush devotees beneath its wheels"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "juggernaut",
-      "era": "1854",
-      "current_note": "generalized to mean any idea, force, or institution that demands blind devotion or crushes everything in its path"
-    }
-  ],
   "juggle": [
     {
       "stop_index": 0,
@@ -45489,29 +43661,6 @@
       "word": "juncture",
       "era": "1400s",
       "current_note": "settled as the English word for a particular point in time or a critical moment"
-    }
-  ],
-  "jungle": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "jāṅgala",
-      "era": "ancient",
-      "current_note": "originally described rough, dry, uncultivated land, not forest"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "jangal",
-      "era": "medieval",
-      "current_note": "shifted to mean wasteland or wilderness generally"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Anglo-Indian English",
-      "word": "jungle",
-      "era": "c. 1770s",
-      "current_note": "British colonists in India applied it to dense tropical forest"
     }
   ],
   "junior": [
@@ -45906,29 +44055,6 @@
       "current_note": "Bengali women stitched old saris into kantha quilts with running stitch"
     }
   ],
-  "kaput": [
-    {
-      "stop_index": 0,
-      "lang": "French",
-      "word": "capot",
-      "era": "medieval",
-      "current_note": "a card-game term meaning to win all the tricks, leaving an opponent with none"
-    },
-    {
-      "stop_index": 1,
-      "lang": "German",
-      "word": "kaputt",
-      "era": "1800s",
-      "current_note": "from French 'être capot', to lose every trick at the card game piquet"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "kaput",
-      "era": "1900s",
-      "current_note": "popularized by soldiers returning from Germany after the World Wars"
-    }
-  ],
   "karaage": [
     {
       "stop_index": 0,
@@ -45959,22 +44085,6 @@
       "word": "karaoke",
       "era": "1980s",
       "current_note": "spread internationally with karaoke bars and machines"
-    }
-  ],
-  "karate": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "kara + te",
-      "era": "medieval",
-      "current_note": "combining \"kara\" (empty) and \"te\" (hand)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "karate",
-      "era": "1950s-1960s",
-      "current_note": "Japanese 'empty hand'; developed in Okinawa and brought to mainland Japan by Gichin Funakoshi in 1922"
     }
   ],
   "karma": [
@@ -46025,22 +44135,6 @@
       "current_note": "a Russian proverb says 'shchi and kasha are our food', cabbage soup and porridge"
     }
   ],
-  "kata": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "kata",
-      "era": "medieval",
-      "current_note": "named a fixed sequence of movements used to formally practice a martial art"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "kata",
-      "era": "20th century",
-      "current_note": "borrowed alongside karate and judo instruction as they spread to the West"
-    }
-  ],
   "katakana": [
     {
       "stop_index": 0,
@@ -46073,29 +44167,6 @@
       "current_note": "the curved single-edged sword carried by samurai from the 1400s"
     }
   ],
-  "katsu": [
-    {
-      "stop_index": 0,
-      "lang": "English",
-      "word": "cutlet",
-      "era": "1700s",
-      "current_note": "the English word for a thin slice of breaded, fried meat"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Japanese",
-      "word": "katsuretsu",
-      "era": "Meiji era",
-      "current_note": "borrowed and adapted into a breaded, deep-fried cutlet dish, then clipped to 'katsu'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "katsu",
-      "era": "2000s-2010s",
-      "current_note": "re-imported into English as Japanese-style curry and cutlet dishes spread abroad"
-    }
-  ],
   "kawaii": [
     {
       "stop_index": 0,
@@ -46110,29 +44181,6 @@
       "word": "kawaii",
       "era": "1990s",
       "current_note": "Hello Kitty (1974) and 1970s schoolgirl handwriting helped create the 'kawaii' culture"
-    }
-  ],
-  "kebab": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "kabab",
-      "era": "medieval",
-      "current_note": "grilled or roasted meat"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Ottoman Turkish",
-      "word": "kebap",
-      "era": "medieval",
-      "current_note": "spread widely through Ottoman cuisine"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "kebab",
-      "era": "1800s",
-      "current_note": "British soldiers in India met 'seekh kebab'; the döner kebab spread across Europe from 1970s Berlin"
     }
   ],
   "keel": [
@@ -46424,29 +44472,6 @@
       "current_note": "a wrap worn by Swahili men along the coast of Kenya and Tanzania"
     }
   ],
-  "kilim": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "gilim",
-      "era": "medieval",
-      "current_note": "a coarse-woven blanket or rug"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Ottoman Turkish",
-      "word": "kilim",
-      "era": "medieval",
-      "current_note": "a flat, tapestry-woven rug or carpet, traditional across Central Asia and the Middle East"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "kilim",
-      "era": "1800s",
-      "current_note": "flat-woven rugs from Anatolia and Persia, collected by Victorian travellers"
-    }
-  ],
   "kilometer": [
     {
       "stop_index": 0,
@@ -46500,45 +44525,6 @@
       "word": "kimbap",
       "era": "2010s-2020s",
       "current_note": "developed in Korea during Japanese rule, influenced by Japanese norimaki"
-    }
-  ],
-  "kimchi": [
-    {
-      "stop_index": 0,
-      "lang": "Korean",
-      "word": "chim-chae",
-      "era": "medieval",
-      "current_note": "meaning \"soaked vegetables\", an early term for fermented, salted vegetables"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Korean",
-      "word": "kimchi",
-      "era": "medieval",
-      "current_note": "evolved into the modern word for spiced, fermented cabbage"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "kimchi",
-      "era": "1900s",
-      "current_note": "Seoul's 1988 Olympics introduced kimchi to many visitors"
-    }
-  ],
-  "kimono": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "ki + mono",
-      "era": "medieval",
-      "current_note": "combining \"ki\" (to wear) and \"mono\" (thing)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "kimono",
-      "era": "1800s",
-      "current_note": "Japanese 'thing to wear'; Japonisme brought kimono-inspired dressing gowns to Europe"
     }
   ],
   "kindergarten": [
@@ -46972,22 +44958,6 @@
       "current_note": "Hebrew 'kasher', fit, proper; slang 'kosher' meaning legitimate dates from the 1920s"
     }
   ],
-  "koto": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "koto",
-      "era": "ancient",
-      "current_note": "named the long, multi-stringed zither introduced from continental Asia and adapted at court"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "koto",
-      "era": "1800s",
-      "current_note": "brought from China in the Nara period; the national instrument of Japan"
-    }
-  ],
   "kowtow": [
     {
       "stop_index": 0,
@@ -47068,22 +45038,6 @@
       "current_note": "its spiral horns are used as a traditional horn in South Africa"
     }
   ],
-  "kudzu": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "kuzu",
-      "era": "ancient",
-      "current_note": "the native name for the climbing vine and its edible starch"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "kudzu",
-      "era": "1876",
-      "current_note": "introduced to Americans at the Philadelphia Centennial Exposition as an ornamental and forage plant"
-    }
-  ],
   "kumis": [
     {
       "stop_index": 0,
@@ -47098,22 +45052,6 @@
       "word": "kumis",
       "era": "1600s",
       "current_note": "William of Rubruck described Mongols drinking kumis in the 1250s"
-    }
-  ],
-  "kumquat": [
-    {
-      "stop_index": 0,
-      "lang": "Cantonese",
-      "word": "gam gwat",
-      "era": "medieval",
-      "current_note": "literally golden orange, describing the small citrus fruit"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "kumquat",
-      "era": "1600s",
-      "current_note": "Cantonese 'golden orange'; Robert Fortune brought kumquat plants from China to Europe in 1846"
     }
   ],
   "kundalini": [
@@ -47210,22 +45148,6 @@
       "word": "Kwanzaa",
       "era": "1966",
       "current_note": "coined by Maulana Karenga for a new African-American cultural holiday"
-    }
-  ],
-  "kwashiorkor": [
-    {
-      "stop_index": 0,
-      "lang": "Ga",
-      "word": "kwashiorkor",
-      "era": "pre-1900s",
-      "current_note": "described the sickness an older child develops when displaced from the breast by a new baby"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "kwashiorkor",
-      "era": "1935",
-      "current_note": "introduced to medical English by pediatrician Cicely Williams studying childhood malnutrition in Ghana"
     }
   ],
   "kwela": [
@@ -48579,22 +46501,6 @@
       "word": "liberty",
       "era": "1300s",
       "current_note": "settled as the English word for freedom from oppressive control"
-    }
-  ],
-  "libido": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "libido",
-      "era": "ancient",
-      "current_note": "from 'libere', to please"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "libido",
-      "era": "1909",
-      "current_note": "taken up by Freud's translators"
     }
   ],
   "libretto": [
@@ -49993,22 +47899,6 @@
       "current_note": "Italian 'master'; used of great conductors such as Toscanini"
     }
   ],
-  "mafia": [
-    {
-      "stop_index": 0,
-      "lang": "Sicilian",
-      "word": "mafia",
-      "era": "1800s",
-      "current_note": "of disputed origin, associated with organized criminal networks in Sicily"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "mafia",
-      "era": "1800s-1900s",
-      "current_note": "the 1890 killing of New Orleans police chief David Hennessy brought the word into American newspapers"
-    }
-  ],
   "magazine": [
     {
       "stop_index": 0,
@@ -50239,29 +48129,6 @@
       "word": "mahjong",
       "era": "1920s",
       "current_note": "Joseph Babcock's simplified rules of 1920 launched an American mahjong craze"
-    }
-  ],
-  "mahout": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "mahamatra",
-      "era": "ancient",
-      "current_note": "compound of 'great' and 'measure', a title for a high official or elephant keeper"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "mahaut",
-      "era": "medieval",
-      "current_note": "narrowed to mean specifically an elephant driver"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "mahout",
-      "era": "1810",
-      "current_note": "British colonists in India adopted the word"
     }
   ],
   "maintain": [
@@ -50519,22 +48386,6 @@
       "word": "mammal",
       "era": "1826",
       "current_note": "from Linnaeus's class name 'Mammalia', 'of the breasts', coined in 1758"
-    }
-  ],
-  "mana": [
-    {
-      "stop_index": 0,
-      "lang": "Polynesian",
-      "word": "mana",
-      "era": "ancient",
-      "current_note": "a supernatural or spiritual power believed to inhabit people and objects"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "mana",
-      "era": "1800s-1900s",
-      "current_note": "Robert Codrington's 1891 study 'The Melanesians' introduced the idea to anthropology"
     }
   ],
   "manacle": [
@@ -51052,22 +48903,6 @@
       "current_note": "profit 'margins' date from the 1800s"
     }
   ],
-  "marimba": [
-    {
-      "stop_index": 0,
-      "lang": "Bantu",
-      "word": "marimba",
-      "era": "1500s",
-      "current_note": "a wooden xylophone-like instrument played across central and southern Africa"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "marimba",
-      "era": "1700s",
-      "current_note": "African marimbas were brought to Central America, where Guatemala made it the national instrument"
-    }
-  ],
   "marina": [
     {
       "stop_index": 0,
@@ -51505,22 +49340,6 @@
       "current_note": "Swahili 'tatu', three, from the three-shilling fare of early minibuses"
     }
   ],
-  "matcha": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "matcha",
-      "era": "medieval",
-      "current_note": "combining \"ma\" (ground/rubbed) and \"cha\" (tea)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "matcha",
-      "era": "1900s-2000s",
-      "current_note": "Zen monk Eisai brought powdered tea from China to Japan in 1191"
-    }
-  ],
   "mate": [
     {
       "stop_index": 0,
@@ -51797,29 +49616,6 @@
       "word": "mauve",
       "era": "1859",
       "current_note": "popularized in English after the invention of the first synthetic dye of this shade"
-    }
-  ],
-  "maven": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "mevin",
-      "era": "ancient",
-      "current_note": "meaning \"one who understands\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Yiddish",
-      "word": "meyvn",
-      "era": "medieval",
-      "current_note": "applied to a knowledgeable expert or connoisseur"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "maven",
-      "era": "1900s",
-      "current_note": "Yiddish 'meyvn', connoisseur, from Hebrew 'mevin', one who understands; spread by 1960s ads for Vita herring"
     }
   ],
   "maverick": [
@@ -52409,22 +50205,6 @@
       "current_note": "'Dennis the Menace' dates from 1951"
     }
   ],
-  "menhaden": [
-    {
-      "stop_index": 0,
-      "lang": "Narragansett",
-      "word": "munnawhatteaug",
-      "era": "1600s",
-      "current_note": "named the oily fish that coastal Algonquian peoples used to fertilize corn crops"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "menhaden",
-      "era": "1750s",
-      "current_note": "adapted by English colonists in New England who adopted the same fish and farming practice"
-    }
-  ],
   "mensch": [
     {
       "stop_index": 0,
@@ -52760,29 +50540,6 @@
       "current_note": "settled as the word for a figure of speech applying a word to something it doesn't literally denote"
     }
   ],
-  "metate": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "metlatl",
-      "era": "pre-1500s",
-      "current_note": "named the flat grinding stone used with a hand stone to grind maize"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "metate",
-      "era": "1600s",
-      "current_note": "a grinding stone still used for making masa and chocolate in Mexico"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "metate",
-      "era": "1840s",
-      "current_note": "borrowed into English by travelers and archaeologists in the American Southwest"
-    }
-  ],
   "meteor": [
     {
       "stop_index": 0,
@@ -52944,29 +50701,6 @@
       "word": "mezcal",
       "era": "1800s-1900s",
       "current_note": "English first used it for the agave plant, in 1702; the sense 'liquor from agave' appears in 1828"
-    }
-  ],
-  "meze": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "maza",
-      "era": "medieval",
-      "current_note": "meant \"taste\" or \"relish\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Turkish",
-      "word": "meze",
-      "era": "medieval",
-      "current_note": "Persian 'maza', taste; served with raki or ouzo"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "meze",
-      "era": "1904",
-      "current_note": "spread through the cuisines of the former Ottoman lands into English usage"
     }
   ],
   "mezzanine": [
@@ -54980,22 +52714,6 @@
       "current_note": "settled as the English word for consisting of more than one part"
     }
   ],
-  "mumbo jumbo": [
-    {
-      "stop_index": 0,
-      "lang": "Mandinka",
-      "word": "maamajomboo",
-      "era": "1700s",
-      "current_note": "a costumed ancestral-spirit dancer summoned to settle village disputes"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "mumbo jumbo",
-      "era": "1700s-1800s",
-      "current_note": "European travelers' accounts mocked the ritual as baffling, shifting its sense to nonsense"
-    }
-  ],
   "mummy": [
     {
       "stop_index": 0,
@@ -55178,22 +52896,6 @@
       "word": "muskellunge",
       "era": "1780s-1790s",
       "current_note": "anglicized from the French-Canadian form"
-    }
-  ],
-  "muskrat": [
-    {
-      "stop_index": 0,
-      "lang": "Powhatan",
-      "word": "muscascus",
-      "era": "pre-1600s",
-      "current_note": "literally \"it is red\"; the native name for the aquatic rodent, later reshaped by folk association with \"musk\" and \"rat\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "muskrat",
-      "era": "1600s",
-      "current_note": "adopted and reshaped by English colonists in Virginia"
     }
   ],
   "mustard": [
@@ -55488,29 +53190,6 @@
       "current_note": "baked on the wall of a tandoor clay oven; a Persian word recorded by Amir Khusrau in the 1300s"
     }
   ],
-  "nabob": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "nuwwab",
-      "era": "medieval",
-      "current_note": "honorific plural of na'ib, \"viceroy, deputy\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "nabab",
-      "era": "medieval",
-      "current_note": "a title for a Mughal provincial governor"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "nabob",
-      "era": "1600s-1700s",
-      "current_note": "from 'nawab', a Mughal provincial governor; East India Company officials returning rich were mocked as nabobs"
-    }
-  ],
   "nadir": [
     {
       "stop_index": 0,
@@ -55757,22 +53436,6 @@
       "word": "nascent",
       "era": "1620s",
       "current_note": "settled as the English word for something just coming into existence"
-    }
-  ],
-  "nasi goreng": [
-    {
-      "stop_index": 0,
-      "lang": "Indonesian/Malay",
-      "word": "nasi goreng",
-      "era": "medieval",
-      "current_note": "literally fried rice, from nasi (rice) and goreng (fried)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "nasi goreng",
-      "era": "1900s",
-      "current_note": "Indonesian 'fried rice'; Dutch colonists spread it in the Netherlands"
     }
   ],
   "nation": [
@@ -59554,29 +57217,6 @@
       "current_note": "'pair' of trousers treats one garment as two legs"
     }
   ],
-  "pajamas": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "paejamah",
-      "era": "medieval",
-      "current_note": "compound of pae, \"leg,\" and jamah, \"garment\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "pajama",
-      "era": "by 1800",
-      "current_note": "everyday trousers worn by Muslims in India, adopted by European colonists"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "pyjamas / pajamas",
-      "era": "1800s",
-      "current_note": "Europeans in India began wearing them as nightwear, and the word followed"
-    }
-  ],
   "pakora": [
     {
       "stop_index": 0,
@@ -60051,36 +57691,6 @@
       "word": "paparazzi",
       "era": "1960s",
       "current_note": "from Paparazzo, a news photographer in Fellini's 1960 film 'La Dolce Vita'"
-    }
-  ],
-  "paper": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "papyros",
-      "era": "ancient",
-      "current_note": "writing material made from Nile reeds"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "papyrus",
-      "era": "ancient",
-      "current_note": "Pliny described how Romans made writing sheets from strips of the reed"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "papier",
-      "era": "medieval",
-      "current_note": "paper-making reached France from Spain in the 1100s"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "paper",
-      "era": "1300s",
-      "current_note": "replaced parchment for most uses after printing began"
     }
   ],
   "papier-mache": [
@@ -63373,29 +60983,6 @@
       "current_note": "adopted for a rapid balletic turn on one leg"
     }
   ],
-  "pisco": [
-    {
-      "stop_index": 0,
-      "lang": "Quechua",
-      "word": "pisqu",
-      "era": "pre-1500s",
-      "current_note": "meant 'bird', later becoming the name of a Peruvian valley and its potter inhabitants"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "Pisco",
-      "era": "1500s-1600s",
-      "current_note": "became the name of the Peruvian port town where the grape brandy was shipped from"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "pisco",
-      "era": "1900s",
-      "current_note": "borrowed into English to name the South American grape brandy"
-    }
-  ],
   "pistol": [
     {
       "stop_index": 0,
@@ -64763,29 +62350,6 @@
       "current_note": "settled as the English word for filling a place with inhabitants"
     }
   ],
-  "porcelain": [
-    {
-      "stop_index": 0,
-      "lang": "Italian",
-      "word": "porcellana",
-      "era": "medieval",
-      "current_note": "literally little pig, originally the name of a cowrie shell whose curved sheen resembled a pig's back"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "porcelaine",
-      "era": "1500s",
-      "current_note": "transferred from the glossy shell to the glossy fine ceramic imported from China"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "porcelain",
-      "era": "1590s",
-      "current_note": "settled as the English word for fine translucent ceramic ware"
-    }
-  ],
   "porch": [
     {
       "stop_index": 0,
@@ -64807,29 +62371,6 @@
       "word": "porch",
       "era": "1200s",
       "current_note": "American 'porch' means a veranda"
-    }
-  ],
-  "pork": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "porcus",
-      "era": "ancient",
-      "current_note": "the Latin word for pig"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "porc",
-      "era": "medieval",
-      "current_note": "brought to England by Norman rulers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "pork",
-      "era": "medieval",
-      "current_note": "adopted for the meat, while \"pig\" stayed the native English word for the animal"
     }
   ],
   "porridge": [
@@ -67865,29 +65406,6 @@
       "current_note": "borrowed into English geographical writing about South America"
     }
   ],
-  "punch": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "pañca",
-      "era": "ancient",
-      "current_note": "meaning \"five\", for the drink's five ingredients"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "panch",
-      "era": "medieval",
-      "current_note": "a mixed drink made of five ingredients"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "punch",
-      "era": "1600s",
-      "current_note": "Hindi 'pānch', five, for its five ingredients; East India Company sailors brought it home"
-    }
-  ],
   "punctual": [
     {
       "stop_index": 0,
@@ -68295,29 +65813,6 @@
       "current_note": "settled as the English word for the act of chasing or seeking something"
     }
   ],
-  "puttee": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "pattika",
-      "era": "ancient",
-      "current_note": "meant 'a strip of cloth'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "patti",
-      "era": "medieval",
-      "current_note": "the everyday word for a bandage or strip of cloth"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "puttee",
-      "era": "1875",
-      "current_note": "British soldiers adopted the word for a cloth strip wound around the leg"
-    }
-  ],
   "pyjamas": [
     {
       "stop_index": 0,
@@ -68410,22 +65905,6 @@
       "word": "python",
       "era": "1600s",
       "current_note": "named after the serpent killed by Apollo at Delphi; the programming language (1991) was named after Monty Python"
-    }
-  ],
-  "qigong": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "qìgōng",
-      "era": "20th century",
-      "current_note": "combining 'qi' (life energy) and 'gong' (skill/practice), naming a system of breathing and movement exercises"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "qigong",
-      "era": "1970s-1980s",
-      "current_note": "borrowed as Chinese exercise and healing traditions spread to the West"
     }
   ],
   "quadruple": [
@@ -69411,29 +66890,6 @@
       "word": "raita",
       "era": "1832",
       "current_note": "British writers on Indian food adopted the word"
-    }
-  ],
-  "raj": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "rajya",
-      "era": "ancient",
-      "current_note": "meant 'kingship, sovereignty, royal rule'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "raj",
-      "era": "medieval",
-      "current_note": "the everyday word for rule or dominion"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "Raj",
-      "era": "1859",
-      "current_note": "British colonists borrowed the word unchanged, applying it to their own rule over India"
     }
   ],
   "rajah": [
@@ -70737,22 +68193,6 @@
       "word": "reign",
       "era": "1200s",
       "current_note": "settled as the English word for the period a monarch rules"
-    }
-  ],
-  "reiki": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "reiki",
-      "era": "1922",
-      "current_note": "combining 'rei' (spirit) and 'ki' (energy), coined by Mikao Usui for a hands-on healing practice"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "reiki",
-      "era": "1970s-1980s",
-      "current_note": "spread to the West through students of Usui's successors teaching alternative healing"
     }
   ],
   "reindeer": [
@@ -72991,29 +70431,6 @@
       "current_note": "used of wine and arguments"
     }
   ],
-  "roc": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "rukh",
-      "era": "medieval",
-      "current_note": "name of a monstrous bird in Persian legend, of unknown deeper origin"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "rukhkh",
-      "era": "medieval",
-      "current_note": "carried the legend into Arabic storytelling, including the Arabian Nights"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "roc",
-      "era": "1570s",
-      "current_note": "entered English through Marco Polo's travel accounts and later translations of the Arabian Nights"
-    }
-  ],
   "rodent": [
     {
       "stop_index": 0,
@@ -73175,22 +70592,6 @@
       "word": "rostrum",
       "era": "1540s",
       "current_note": "'rostra' in the Roman Forum were adorned with ship prows"
-    }
-  ],
-  "roti": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit/Hindi",
-      "word": "roti",
-      "era": "ancient",
-      "current_note": "bread, the general word for South Asian flatbread"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "roti",
-      "era": "1800s",
-      "current_note": "indentured Indian workers brought roti to Trinidad and the Caribbean"
     }
   ],
   "rotten": [
@@ -73483,29 +70884,6 @@
       "current_note": "settled as the English word for something related to a king or queen"
     }
   ],
-  "rubaiyat": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "rubaiy",
-      "era": "medieval",
-      "current_note": "meant \"composed of four,\" describing a four-line poetic verse"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Persian",
-      "word": "rubaiyat",
-      "era": "medieval",
-      "current_note": "the plural form became famous through the quatrains of poet Omar Khayyam"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "rubaiyat",
-      "era": "1859",
-      "current_note": "entered English through Edward FitzGerald's translation \"The Rubaiyat of Omar Khayyam\""
-    }
-  ],
   "rubric": [
     {
       "stop_index": 0,
@@ -73550,22 +70928,6 @@
       "word": "ruby",
       "era": "1300s",
       "current_note": "settled as the English word for the red gemstone"
-    }
-  ],
-  "rucksack": [
-    {
-      "stop_index": 0,
-      "lang": "German",
-      "word": "Rucksack",
-      "era": "1800s",
-      "current_note": "literally back sack, from Rucken (back) and Sack (sack)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "rucksack",
-      "era": "1860s",
-      "current_note": "German 'back sack', from 'Rücken', back; Alpine climbers brought it to English"
     }
   ],
   "rude": [
@@ -73784,29 +71146,6 @@
       "word": "ryokan",
       "era": "1900s-2000s",
       "current_note": "guests sleep on tatami and futon; Nishiyama Onsen Keiunkan, founded in 705, is one of the oldest hotels in the world"
-    }
-  ],
-  "sabar": [
-    {
-      "stop_index": 0,
-      "lang": "Wolof",
-      "word": "sabal",
-      "era": "traditional",
-      "current_note": "originally referred to a bird's call or song, later applied to the drum and its rhythm"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Wolof",
-      "word": "sabar",
-      "era": "traditional",
-      "current_note": "extended to name the tall, goblet-shaped hand drum and its associated music and dance"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "sabar",
-      "era": "1900s",
-      "current_note": "Doudou N'Diaye Rose, the Senegalese master drummer, brought sabar to international audiences"
     }
   ],
   "sabbath": [
@@ -74964,36 +72303,6 @@
       "current_note": "applied by astronomers to a body orbiting a planet, later an artificial orbiting device"
     }
   ],
-  "satin": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "Zaytun",
-      "era": "medieval",
-      "current_note": "the Arabic name for the Chinese port city of Quanzhou"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "zaytuni",
-      "era": "medieval",
-      "current_note": "described the glossy silk fabric exported from that port"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "satin",
-      "era": "medieval",
-      "current_note": "from Arabic 'Zaytūnī', of Zaitun, the name for the Chinese port of Quanzhou"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "satin",
-      "era": "medieval",
-      "current_note": "settled as the English name for the fabric weave"
-    }
-  ],
   "satire": [
     {
       "stop_index": 0,
@@ -75065,22 +72374,6 @@
       "current_note": "entered English through D. T. Suzuki's writings introducing Zen Buddhism to the West"
     }
   ],
-  "satsuma": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "Satsuma",
-      "era": "medieval",
-      "current_note": "the name of a feudal domain in southern Kyushu that exported citrus and pottery"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "satsuma",
-      "era": "1870s",
-      "current_note": "applied to the seedless mandarin orange first imported to the West from the region"
-    }
-  ],
   "sauce": [
     {
       "stop_index": 0,
@@ -75148,29 +72441,6 @@
       "word": "sauerkraut",
       "era": "1600s-1700s",
       "current_note": "German 'sour cabbage'; Captain Cook fed it to his crews against scurvy"
-    }
-  ],
-  "sauna": [
-    {
-      "stop_index": 0,
-      "lang": "Proto-Finnic",
-      "word": "sakna",
-      "era": "ancient",
-      "current_note": "an ancient word for a heated pit-house or bathhouse"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Finnish",
-      "word": "sauna",
-      "era": "medieval",
-      "current_note": "central to Finnish bathing and social custom for centuries"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "sauna",
-      "era": "1880s",
-      "current_note": "adopted unchanged as travelers described the Finnish custom"
     }
   ],
   "sausage": [
@@ -75720,29 +72990,6 @@
       "word": "scholar",
       "era": "1300s",
       "current_note": "later a learned person rather than a pupil"
-    }
-  ],
-  "school": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "schole",
-      "era": "ancient",
-      "current_note": "originally meaning \"leisure\", the time available for discussion and learning"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "schola",
-      "era": "ancient",
-      "current_note": "adopted for a place of instruction"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old English",
-      "word": "scol",
-      "era": "medieval",
-      "current_note": "brought with Augustine's mission; Greek 'scholē' first meant leisure"
     }
   ],
   "schtum": [
@@ -77451,29 +74698,6 @@
       "current_note": "Cantonese 'sand skin'; the breed nearly died out and was saved by breeder Matgo Law in 1970s Hong Kong"
     }
   ],
-  "shashlik": [
-    {
-      "stop_index": 0,
-      "lang": "Crimean Tatar",
-      "word": "şış",
-      "era": "1700s",
-      "current_note": "meant \"spit\"; shishlik meant \"something for the spit\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Russian",
-      "word": "shashlyk",
-      "era": "1800s",
-      "current_note": "Crimean Tatar 'şış', skewer; Russian soldiers brought it back from the Caucasus wars"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "shashlik",
-      "era": "late 1800s",
-      "current_note": "entered English describing the Caucasian and Central Asian dish"
-    }
-  ],
   "shawarma": [
     {
       "stop_index": 0,
@@ -77845,22 +75069,6 @@
       "current_note": "Yiddish 'piece', a comic routine in vaudeville"
     }
   ],
-  "shuriken": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "shuriken",
-      "era": "medieval",
-      "current_note": "literally 'hand-hidden blade', a small throwing weapon used by ninja and samurai retainers"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "shuriken",
-      "era": "1900s-1980s",
-      "current_note": "spread through martial-arts and ninja pop culture"
-    }
-  ],
   "siege": [
     {
       "stop_index": 0,
@@ -78120,43 +75328,6 @@
       "current_note": "Latin 'without which not', from Aristotelian philosophy"
     }
   ],
-  "sine": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "jya",
-      "era": "ancient",
-      "current_note": "meant 'bowstring', used for the trigonometric chord of an arc"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "jiba",
-      "era": "medieval",
-      "current_note": "Arab mathematicians phonetically transliterated the Sanskrit term"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Arabic",
-      "word": "jaib",
-      "era": "medieval",
-      "current_note": "later writers mistook 'jiba' for the real Arabic word 'jaib'"
-    },
-    {
-      "stop_index": 3,
-      "lang": "Latin",
-      "word": "sinus",
-      "era": "1150",
-      "current_note": "Gherardo of Cremona translated the Arabic word by its Latin equivalent"
-    },
-    {
-      "stop_index": 4,
-      "lang": "English",
-      "word": "sine",
-      "era": "1590s",
-      "current_note": "a Latin translator misread Arabic 'jiba' as 'jaib', fold or bay, and translated it 'sinus'"
-    }
-  ],
   "single": [
     {
       "stop_index": 0,
@@ -78382,22 +75553,6 @@
       "word": "sitar",
       "era": "1840s",
       "current_note": "Persian 'three strings'; Ravi Shankar taught George Harrison, who played it on 'Norwegian Wood' (1965)"
-    }
-  ],
-  "skate": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "schaats",
-      "era": "medieval",
-      "current_note": "the Dutch word for a blade attached to the foot for gliding on ice"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "skate",
-      "era": "1600s",
-      "current_note": "Dutch 'schaats', ice skate; English exiles in Holland brought skating home in the 1660s"
     }
   ],
   "skeleton": [
@@ -78714,22 +75869,6 @@
       "word": "slave",
       "era": "1200s",
       "current_note": "settled as the English word for a person owned and forced to work by another"
-    }
-  ],
-  "sleigh": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "slee",
-      "era": "medieval",
-      "current_note": "the Dutch word for a sled pulled over snow or ice"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "sleigh",
-      "era": "1700s",
-      "current_note": "Dutch 'slee', a variant of 'slede', sledge; Dutch New Amsterdam brought the word to American English"
     }
   ],
   "sleight": [
@@ -79630,29 +76769,6 @@
       "current_note": "Italian 'sounded', played rather than sung ('cantata'); Beethoven wrote 32 piano sonatas"
     }
   ],
-  "sonnet": [
-    {
-      "stop_index": 0,
-      "lang": "Italian",
-      "word": "sonetto",
-      "era": "medieval",
-      "current_note": "literally a little sound, a diminutive of suono (sound)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "sonnet",
-      "era": "1540s",
-      "current_note": "Italian 'little song'; Petrarch's sonnets inspired Wyatt and Surrey, who brought the form to English"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "sonnet",
-      "era": "1557",
-      "current_note": "settled as the English word for the fourteen-line poetic form, borrowed from French or Italian"
-    }
-  ],
   "soprano": [
     {
       "stop_index": 0,
@@ -79766,29 +76882,6 @@
       "word": "souffle",
       "era": "1810s",
       "current_note": "French 'puffed', from 'souffler', to blow; the chef Antoine Beauvilliers popularized it around 1800"
-    }
-  ],
-  "soup": [
-    {
-      "stop_index": 0,
-      "lang": "Late Latin",
-      "word": "suppa",
-      "era": "ancient",
-      "current_note": "from a Germanic word for soaked bread, related to English 'sop' and 'sup'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "soupe",
-      "era": "1600s",
-      "current_note": "shifted from the sodden bread to the broth poured over it"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "soup",
-      "era": "1650s",
-      "current_note": "arrived with French cooking fashions after the Restoration of Charles II"
     }
   ],
   "soupcon": [
@@ -80730,22 +77823,6 @@
       "current_note": "'square' for dull and conventional is 1940s jazz slang"
     }
   ],
-  "squash": [
-    {
-      "stop_index": 0,
-      "lang": "Narragansett",
-      "word": "askutasquash",
-      "era": "pre-1600s",
-      "current_note": "literally \"eaten raw or uncooked\", describing the vegetable"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "squash",
-      "era": "1600s",
-      "current_note": "shortened by English colonists in New England"
-    }
-  ],
   "squire": [
     {
       "stop_index": 0,
@@ -81440,29 +78517,6 @@
       "word": "story",
       "era": "1200s",
       "current_note": "the floor sense 'storey' may come from painted stories on windows"
-    }
-  ],
-  "strafe": [
-    {
-      "stop_index": 0,
-      "lang": "German",
-      "word": "strafen",
-      "era": "medieval",
-      "current_note": "ordinary German verb for punishing"
-    },
-    {
-      "stop_index": 1,
-      "lang": "German",
-      "word": "Gott strafe England",
-      "era": "1914",
-      "current_note": "popular WWI slogan meaning 'God punish England', picked up ironically by British troops"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "strafe",
-      "era": "1915 onward",
-      "current_note": "British soldiers' slang for any attack, later narrowed to low-flying gun attacks"
     }
   ],
   "strain": [
@@ -83145,36 +80199,6 @@
       "current_note": "settled as the English word for combining separate elements into a whole"
     }
   ],
-  "syrup": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "sharāb",
-      "era": "medieval",
-      "current_note": "a general word for a drink or beverage"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "siropus",
-      "era": "medieval",
-      "current_note": "adopted for thick sweetened liquids used in medicine"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old French",
-      "word": "sirop",
-      "era": "medieval",
-      "current_note": "spread through French medical and culinary use"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "syrup",
-      "era": "medieval",
-      "current_note": "settled as the English spelling"
-    }
-  ],
   "system": [
     {
       "stop_index": 0,
@@ -83733,38 +80757,6 @@
       "current_note": "Kundan Lal Gujral's Moti Mahal restaurant in Delhi popularized tandoori chicken after 1947"
     }
   ],
-  "tangerine": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "Tanja",
-      "era": "medieval",
-      "current_note": "the port city of Tangier in Morocco, from which the citrus fruit was first exported"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "tangerine",
-      "era": "1840s",
-      "current_note": "coined for the small, sweet citrus fruit shipped from Tangier"
-    }
-  ],
-  "tango": [
-    {
-      "stop_index": 0,
-      "lang": "Rioplatense Spanish",
-      "word": "tango",
-      "era": "1800s",
-      "current_note": "a passionate, dramatic partner dance that emerged in the port neighborhoods of Buenos Aires"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "tango",
-      "era": "1913",
-      "current_note": "developed in Buenos Aires and Montevideo dance halls; Paris's tango craze of 1913 brought it to Europe"
-    }
-  ],
   "tanka": [
     {
       "stop_index": 0,
@@ -83981,36 +80973,6 @@
       "word": "tarboosh",
       "era": "1695-1705",
       "current_note": "entered English describing the red felt cap similar to the fez"
-    }
-  ],
-  "tariff": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "taʿrīf",
-      "era": "medieval",
-      "current_note": "originally meant a notification or definition of terms"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "tariffa",
-      "era": "medieval",
-      "current_note": "used at Mediterranean ports for official lists of duties owed"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "tarif",
-      "era": "c. 1500s",
-      "current_note": "adopted for schedules of customs charges"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "tariff",
-      "era": "c. 1590s",
-      "current_note": "settled as the term for a tax on imported goods"
     }
   ],
   "tarn": [
@@ -86364,22 +83326,6 @@
       "current_note": "settled as the English word for the golden-yellow gemstone"
     }
   ],
-  "topee": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "topi",
-      "era": "medieval",
-      "current_note": "the everyday word for a hat or cap"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "topee",
-      "era": "1835",
-      "current_note": "British colonists borrowed the word, later specifically for the pith sun-helmet"
-    }
-  ],
   "topic": [
     {
       "stop_index": 0,
@@ -87962,22 +84908,6 @@
       "current_note": "London's 'Tube' dates from 1900; 'the tube' for TV from the 1950s"
     }
   ],
-  "tuckahoe": [
-    {
-      "stop_index": 0,
-      "lang": "Virginia Algonquian (Powhatan)",
-      "word": "tockwhogh",
-      "era": "pre-1620s",
-      "current_note": "named the starchy root of the arrow arum plant, an important food source"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "tuckahoe",
-      "era": "1610s",
-      "current_note": "recorded by English colonists in Virginia, including in the writings of Captain John Smith"
-    }
-  ],
   "tuk-tuk": [
     {
       "stop_index": 0,
@@ -87992,29 +84922,6 @@
       "word": "tuk-tuk",
       "era": "1960s",
       "current_note": "named for the sound of the two-stroke engine"
-    }
-  ],
-  "tulwar": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "taravari",
-      "era": "ancient",
-      "current_note": "meant 'one-edged sword, blade'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "talwar",
-      "era": "medieval",
-      "current_note": "the everyday word for a curved sword"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "tulwar",
-      "era": "19th c.",
-      "current_note": "British soldiers in India adopted the word for the Indian curved sword"
     }
   ],
   "tumor": [
@@ -88279,29 +85186,6 @@
       "current_note": "possibly reinforced by association with the River Tweed in Scotland, home to the fabric's mills"
     }
   ],
-  "tycoon": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "dà jūn",
-      "era": "ancient",
-      "current_note": "an old written compound meaning \"great prince\" or \"great army\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Japanese",
-      "word": "taikun",
-      "era": "1850s-1860s",
-      "current_note": "used as a title for the shogun when dealing with foreign powers"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "tycoon",
-      "era": "1860s",
-      "current_note": "brought back to the US by officials who dealt with Japan; applied to Lincoln, then business magnates"
-    }
-  ],
   "tyke": [
     {
       "stop_index": 0,
@@ -88419,22 +85303,6 @@
       "current_note": "popularized internationally through South African political and philosophical writing"
     }
   ],
-  "udon": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "udon",
-      "era": "medieval",
-      "current_note": "a thick wheat-flour noodle"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "udon",
-      "era": "1900s",
-      "current_note": "said to have been brought from China by the monk Kūkai in the 800s"
-    }
-  ],
   "ugly": [
     {
       "stop_index": 0,
@@ -88488,29 +85356,6 @@
       "word": "ultimate",
       "era": "1650s",
       "current_note": "'ultimate frisbee' dates from the 1960s"
-    }
-  ],
-  "ultramarine": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ultra marinus",
-      "era": "ancient",
-      "current_note": "beyond the sea, from ultra (beyond) and marinus (of the sea)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Italian",
-      "word": "oltremarino",
-      "era": "medieval",
-      "current_note": "describing the deep blue pigment ground from lapis lazuli imported from beyond the sea"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ultramarine",
-      "era": "1500s",
-      "current_note": "settled as the English word for the deep vivid blue pigment and color"
     }
   ],
   "ulu": [
@@ -88628,22 +85473,6 @@
       "word": "umpire",
       "era": "1400s",
       "current_note": "'a noumpere' was misheard as 'an oumpere', dropping the n"
-    }
-  ],
-  "unagi": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "unagi",
-      "era": "ancient",
-      "current_note": "the native name for freshwater eel, long eaten grilled with sweet soy glaze"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "unagi",
-      "era": "late 1900s",
-      "current_note": "borrowed as sushi restaurants spread through the West"
     }
   ],
   "unanimous": [
@@ -91687,22 +88516,6 @@
       "current_note": "settled as the English word for a long journey, especially by sea or in space"
     }
   ],
-  "voyeur": [
-    {
-      "stop_index": 0,
-      "lang": "French",
-      "word": "voir",
-      "era": "medieval",
-      "current_note": "the root of 'view', 'survey' and 'voyant'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "voyeur",
-      "era": "1900s",
-      "current_note": "Havelock Ellis and other sexologists introduced the word around 1900"
-    }
-  ],
   "vulgar": [
     {
       "stop_index": 0,
@@ -91804,22 +88617,6 @@
       "current_note": "settled as the English word for moving something rapidly side to side"
     }
   ],
-  "wagon": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "wagen",
-      "era": "medieval",
-      "current_note": "the Dutch word for a wheeled cart"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "wagon",
-      "era": "1500s-1600s",
-      "current_note": "Dutch carriers and Low Countries soldiers brought 'wagon' to English"
-    }
-  ],
   "wagyu": [
     {
       "stop_index": 0,
@@ -91919,22 +88716,6 @@
       "word": "waltz",
       "era": "1780s-1800s",
       "current_note": "considered scandalous at first for its close hold between partners"
-    }
-  ],
-  "wampum": [
-    {
-      "stop_index": 0,
-      "lang": "Massachusett",
-      "word": "wampumpeag",
-      "era": "pre-1600s",
-      "current_note": "literally \"white strings [of shell beads]\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "wampum",
-      "era": "1600s",
-      "current_note": "shortened by English colonists in New England"
     }
   ],
   "wand": [
@@ -92265,22 +89046,6 @@
       "current_note": "settled into its modern spelling once used as a noun for the motion itself"
     }
   ],
-  "wigwam": [
-    {
-      "stop_index": 0,
-      "lang": "Abenaki",
-      "word": "wikewam",
-      "era": "pre-1600s",
-      "current_note": "meaning \"their house\", a domed dwelling of bent poles and bark"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "wigwam",
-      "era": "1600s",
-      "current_note": "Abenaki 'wikewam', dwelling; the word spread to other Native dwellings"
-    }
-  ],
   "wiki": [
     {
       "stop_index": 0,
@@ -92391,22 +89156,6 @@
       "word": "wonton",
       "era": "1900s",
       "current_note": "Cantonese 'swallowing clouds', a pun on the dumplings' look in broth"
-    }
-  ],
-  "woodchuck": [
-    {
-      "stop_index": 0,
-      "lang": "Cree (Algonquian)",
-      "word": "otchek",
-      "era": "pre-1600s",
-      "current_note": "the name for the burrowing rodent, reshaped by folk etymology into \"woodchuck\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "woodchuck",
-      "era": "1600s-1700s",
-      "current_note": "adopted and reshaped by English colonists in North America"
     }
   ],
   "worsted": [
@@ -92700,22 +89449,6 @@
       "current_note": "Chinese 'office of the flags', from the banners outside a magistrate's gate"
     }
   ],
-  "yankee": [
-    {
-      "stop_index": 0,
-      "lang": "Dutch",
-      "word": "Jan Kees",
-      "era": "1600s-1700s",
-      "current_note": "a common Dutch nickname (\"John Cheese\") mockingly applied to Dutch colonists"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "Yankee",
-      "era": "1700s",
-      "current_note": "the English then turned the nickname on New England colonists"
-    }
-  ],
   "yantra": [
     {
       "stop_index": 0,
@@ -92787,29 +89520,6 @@
       "current_note": "Catawba 'yą́pą', little tree; the Timucua and other peoples brewed it as the 'black drink'"
     }
   ],
-  "yemaya": [
-    {
-      "stop_index": 0,
-      "lang": "Yoruba",
-      "word": "Yemọja",
-      "era": "traditional",
-      "current_note": "compound of iye (\"mother\"), ọmọ (\"child\"), and ẹja (\"fish\"): \"mother whose children are like the fish\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "Yemayá",
-      "era": "1800s",
-      "current_note": "creolized in Cuba as enslaved Yoruba carried her worship into Santería/Lucumí practice"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "Yemaya",
-      "era": "1900s",
-      "current_note": "spread into English through Santería and wider diaspora spiritual writing"
-    }
-  ],
   "yenta": [
     {
       "stop_index": 0,
@@ -92872,22 +89582,6 @@
       "word": "yodel",
       "era": "1800s",
       "current_note": "German 'jodeln', from the syllable 'jo'; Tyrolean singing troupes toured Britain and America in the 1820s–30s"
-    }
-  ],
-  "yoga": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "yoga",
-      "era": "ancient",
-      "current_note": "literally \"union\" or \"yoke\", describing spiritual discipline"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "yoga",
-      "era": "1800s-1900s",
-      "current_note": "Swami Vivekananda's 1893 Chicago lectures introduced yoga to American audiences"
     }
   ],
   "yogi": [
@@ -93087,36 +89781,6 @@
       "current_note": "German 'time spirit'; Hegel's philosophy of history made the idea famous"
     }
   ],
-  "zen": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "dhyana",
-      "era": "ancient",
-      "current_note": "meaning \"meditation\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Chinese",
-      "word": "chan",
-      "era": "medieval",
-      "current_note": "Chinese 'chan', from Sanskrit 'dhyāna', meditation; Bodhidharma is its legendary founder"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Japanese",
-      "word": "zen",
-      "era": "medieval",
-      "current_note": "Eisai and Dōgen brought Zen schools from China to Japan around 1200"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "zen",
-      "era": "1900s",
-      "current_note": "D. T. Suzuki's English books of the 1920s–50s spread Zen in the West"
-    }
-  ],
   "zenith": [
     {
       "stop_index": 0,
@@ -93179,36 +89843,6 @@
       "current_note": "shortened and adopted into English for any rigid airship"
     }
   ],
-  "zero": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "śūnya",
-      "era": "ancient",
-      "current_note": "the Indian mathematical concept of \"void\" or emptiness"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "ṣifr",
-      "era": "c. 800s",
-      "current_note": "translated the Sanskrit concept; also the root of \"cipher\""
-    },
-    {
-      "stop_index": 2,
-      "lang": "Italian",
-      "word": "zefiro",
-      "era": "c. 1200s",
-      "current_note": "introduced to Europe through Fibonacci's writings on Arabic numerals"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "zero",
-      "era": "c. 1600s",
-      "current_note": "shortened and adopted directly from Italian"
-    }
-  ],
   "zinc": [
     {
       "stop_index": 0,
@@ -93223,29 +89857,6 @@
       "word": "zinc",
       "era": "1650s",
       "current_note": "settled as the English name for the bluish-white metallic element"
-    }
-  ],
-  "zombie": [
-    {
-      "stop_index": 0,
-      "lang": "Kikongo",
-      "word": "nzambi",
-      "era": "pre-1500s",
-      "current_note": "referred to a spirit of the dead or a minor deity"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Haitian Creole",
-      "word": "zonbi",
-      "era": "1700s-1800s",
-      "current_note": "took on the folklore meaning of a soulless reanimated corpse"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "zombie",
-      "era": "1930s",
-      "current_note": "popularized by American travel writing and horror films"
     }
   ],
   "zone": [
