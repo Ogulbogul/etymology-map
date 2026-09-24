@@ -1198,7 +1198,10 @@ function setupShareCard() {
       await navigator.share({
         files: [file],
         title: `${lastWord} | Etymology Map`,
-        text: `The word "${lastWord}" traveled through ${lastEntry.stops.length} languages. Today it means: ${lastEntry.current_meaning}`,
+        // Web Share API support for combining files with a separate url
+        // field is inconsistent across browsers, so the link travels as
+        // plain text instead - that works everywhere the text field does.
+        text: `Check out the journey "${lastWord}" took into English! See more at ${window.location.href}`,
       });
     } catch (err) {
       if (err && err.name !== "AbortError") {
