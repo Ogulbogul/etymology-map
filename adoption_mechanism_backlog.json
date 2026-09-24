@@ -1,139 +1,4 @@
 {
-  "a cappella": [
-    {
-      "stop_index": 0,
-      "lang": "Italian",
-      "word": "a cappella",
-      "era": "1600s",
-      "current_note": "literally in the chapel style, referring to unaccompanied choral singing"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "a cappella",
-      "era": "1870s",
-      "current_note": "Italian for 'in the chapel style', recalling unaccompanied church choirs; the phrase spread with Victorian choral societies"
-    }
-  ],
-  "a la carte": [
-    {
-      "stop_index": 0,
-      "lang": "French",
-      "word": "a la carte",
-      "era": "1700s",
-      "current_note": "literally according to the card, referring to ordering individually priced dishes from a menu"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "a la carte",
-      "era": "1826",
-      "current_note": "French for 'by the card', i.e. from the bill of fare, as opposed to the fixed-price 'table d'hôte' of inns"
-    }
-  ],
-  "abaca": [
-    {
-      "stop_index": 0,
-      "lang": "Tagalog/Bikol",
-      "word": "abaka",
-      "era": "medieval",
-      "current_note": "a banana-family plant whose leaf fiber is woven into rope and fabric"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abaca",
-      "era": "1800s",
-      "current_note": "exported from the Spanish Philippines through Manila, it became the world's main rope fibre for 19th-century sailing ships"
-    }
-  ],
-  "abandon": [
-    {
-      "stop_index": 0,
-      "lang": "Old French",
-      "word": "a bandon",
-      "era": "medieval",
-      "current_note": "literally under one's control, from a phrase meaning to put under someone's jurisdiction, later to release from it"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abandon",
-      "era": "1300s",
-      "current_note": "settled as the English word for giving up or leaving something completely"
-    }
-  ],
-  "abbey": [
-    {
-      "stop_index": 0,
-      "lang": "Late Latin",
-      "word": "abbatia",
-      "era": "ancient",
-      "current_note": "from 'abbas', abbot, from Aramaic 'abba', father"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "abeie",
-      "era": "medieval",
-      "current_note": "monasteries run by an abbot"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "abbey",
-      "era": "1200s",
-      "current_note": "Westminster Abbey was refounded by Edward the Confessor"
-    }
-  ],
-  "abdicate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abdicare",
-      "era": "ancient",
-      "current_note": "'ab-', away, plus 'dicare', to proclaim"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abdicate",
-      "era": "1540s",
-      "current_note": "Edward VIII's abdication in 1936 made it famous"
-    }
-  ],
-  "abdomen": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abdomen",
-      "era": "ancient",
-      "current_note": "the belly, the fatty part of the body"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abdomen",
-      "era": "1540s",
-      "current_note": "brought in by Renaissance anatomists writing in Latin, alongside the native word 'belly'"
-    }
-  ],
-  "abduct": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abducere",
-      "era": "ancient",
-      "current_note": "to lead away, from ab- (away) and ducere (to lead)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abduct",
-      "era": "1834",
-      "current_note": "settled as the English word for taking someone away by force"
-    }
-  ],
   "abhor": [
     {
       "stop_index": 0,
@@ -155,29 +20,6 @@
       "word": "abhor",
       "era": "1400s",
       "current_note": "'nature abhors a vacuum' comes from Aristotle via Latin"
-    }
-  ],
-  "ability": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "habere",
-      "era": "ancient",
-      "current_note": "to have, to hold, giving rise to habilis (apt, capable)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "habilitas",
-      "era": "ancient",
-      "current_note": "aptitude, capability, from habilis"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "ability",
-      "era": "1300s",
-      "current_note": "settled as the English word for the possession of skill or means to do something"
     }
   ],
   "able": [
@@ -226,61 +68,6 @@
       "current_note": "the abolition of slavery made the word central in the 1800s"
     }
   ],
-  "abrupt": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abruptus",
-      "era": "ancient",
-      "current_note": "broken off, from ab- (off) and rumpere (to break)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abrupt",
-      "era": "1570s",
-      "current_note": "settled as the English word for something sudden and unexpected"
-    }
-  ],
-  "abscess": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abscessus",
-      "era": "ancient",
-      "current_note": "literally a going away, from abscedere (to withdraw), describing matter drawn away from healthy tissue"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abscess",
-      "era": "1600s",
-      "current_note": "settled as the medical word for a swollen pocket of pus"
-    }
-  ],
-  "absinthe": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "apsinthion",
-      "era": "ancient",
-      "current_note": "wormwood, the bitter herb used to flavor the potent green spirit"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "absinthe",
-      "era": "1700s",
-      "current_note": "settled in French for the strong, anise-flavored spirit made with wormwood"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "absinthe",
-      "era": "1842",
-      "current_note": "the drink became notorious in Paris café culture and was banned in France in 1915"
-    }
-  ],
   "absolute": [
     {
       "stop_index": 0,
@@ -297,22 +84,6 @@
       "current_note": "settled as the English word for something complete and unrestricted"
     }
   ],
-  "absolve": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "absolvere",
-      "era": "ancient",
-      "current_note": "to loosen away, to free from guilt, from ab- (away) and solvere (to loosen)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "absolve",
-      "era": "1400s",
-      "current_note": "settled as the English word for formally freeing someone from guilt or blame"
-    }
-  ],
   "absorb": [
     {
       "stop_index": 0,
@@ -327,45 +98,6 @@
       "word": "absorb",
       "era": "1400s",
       "current_note": "came into English through French 'absorber'; 'absorbed' in thought dates from the 1700s"
-    }
-  ],
-  "abstain": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abstinere",
-      "era": "ancient",
-      "current_note": "to hold away from, from abs- (away) and tenere (to hold)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "abstinen",
-      "era": "medieval",
-      "current_note": "carried into French for holding oneself back from something"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "abstain",
-      "era": "1300s",
-      "current_note": "settled as the English word for deliberately not doing something"
-    }
-  ],
-  "abstract": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abstrahere",
-      "era": "ancient",
-      "current_note": "to draw away, from abs- (away) and trahere (to draw)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abstract",
-      "era": "1400s",
-      "current_note": "settled as the English word for something existing as an idea rather than a physical thing"
     }
   ],
   "absurd": [
@@ -391,22 +123,6 @@
       "current_note": "the 'Theatre of the Absurd' dates from the 1960s"
     }
   ],
-  "abundant": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "abundare",
-      "era": "ancient",
-      "current_note": "to overflow, from ab- (away) and undare (to rise in waves)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abundant",
-      "era": "1300s",
-      "current_note": "settled as the English word for existing in large, plentiful quantities"
-    }
-  ],
   "abuse": [
     {
       "stop_index": 0,
@@ -428,36 +144,6 @@
       "word": "abuse",
       "era": "1400s",
       "current_note": "'abuse' as insulting language dates from the 1500s"
-    }
-  ],
-  "academy": [
-    {
-      "stop_index": 0,
-      "lang": "Greek",
-      "word": "Akademeia",
-      "era": "ancient",
-      "current_note": "a grove near Athens where the philosopher Plato taught"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "academia",
-      "era": "ancient",
-      "current_note": "adopted for a place of higher learning"
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "academie",
-      "era": "medieval",
-      "current_note": "carried the concept into French intellectual life"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "academy",
-      "era": "1500s",
-      "current_note": "settled as the English word for an institution of higher learning"
     }
   ],
   "accede": [
@@ -522,22 +208,6 @@
       "current_note": "settled as the English word for a distinctive way of pronouncing speech"
     }
   ],
-  "accept": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "acceptare",
-      "era": "ancient",
-      "current_note": "to take willingly, from ad- (to) and capere (to take)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "accept",
-      "era": "1300s",
-      "current_note": "settled as the English word for willingly receiving something offered"
-    }
-  ],
   "accessory": [
     {
       "stop_index": 0,
@@ -552,22 +222,6 @@
       "word": "accessory",
       "era": "1400s",
       "current_note": "settled as the English word for a supplementary item, or one who aids a crime"
-    }
-  ],
-  "accident": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "accidere",
-      "era": "ancient",
-      "current_note": "to fall toward, to happen, from ad- (toward) and cadere (to fall)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "accident",
-      "era": "1300s",
-      "current_note": "settled as the English word for an unexpected, unfortunate event"
     }
   ],
   "acclaim": [
@@ -669,22 +323,6 @@
       "current_note": "bank 'accounts' date from the 1300s too"
     }
   ],
-  "accumulate": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "accumulare",
-      "era": "ancient",
-      "current_note": "'ad-' plus 'cumulus', heap"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "accumulate",
-      "era": "1520s",
-      "current_note": "'cumulus' clouds share the root"
-    }
-  ],
   "achiote": [
     {
       "stop_index": 0,
@@ -706,61 +344,6 @@
       "word": "achiote",
       "era": "1790s",
       "current_note": "borrowed into English through accounts of Mesoamerican cooking and dyeing"
-    }
-  ],
-  "acid": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "acidus",
-      "era": "ancient",
-      "current_note": "from 'acere', to be sour, the root of 'acerbic'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "acid",
-      "era": "1620s",
-      "current_note": "the chemical sense dates from the 1600s; 'acid' as LSD from the 1960s"
-    }
-  ],
-  "acquiesce": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "quies",
-      "era": "ancient",
-      "current_note": "rest, repose, giving rise to quiescere (to become quiet, to rest)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "acquiescere",
-      "era": "ancient",
-      "current_note": "to find rest in, to comply, from ad- and quiescere"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "acquiesce",
-      "era": "1600s",
-      "current_note": "settled as the English word for accepting something without protest"
-    }
-  ],
-  "acquire": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "acquirere",
-      "era": "ancient",
-      "current_note": "to seek to obtain, from ad- (to) and quaerere (to seek)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "acquire",
-      "era": "1400s",
-      "current_note": "settled as the English word for gaining possession of something"
     }
   ],
   "acquittal": [
