@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sucuk",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "a garlic-and-cumin beef sausage, fried with eggs at breakfast as 'sucuklu yumurta'",
+      "meaning": "spicy sausage",
+      "lat": 38.72,
+      "lon": 35.49
+    },
+    {
+      "word": "sudžuk",
+      "lang": "Bosnian",
+      "era": "1600s",
+      "note": "spread with Ottoman rule into the Balkans",
+      "meaning": "dried sausage",
+      "lat": 43.86,
+      "lon": 18.41
+    },
+    {
+      "word": "sujuk",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through Turkish, Armenian and Lebanese cooking",
+      "meaning": "spicy sausage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dry, spicy, fermented beef sausage from Turkey and the Balkans"
+}

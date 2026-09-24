@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pitta",
+      "lang": "Byzantine Greek",
+      "era": "medieval",
+      "note": "a flat bread; the source also of 'pita'",
+      "meaning": "flatbread",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "pide",
+      "lang": "Turkish",
+      "era": "1400s-1500s",
+      "note": "a round, soft pide is baked specially for breaking the fast during Ramadan",
+      "meaning": "flatbread",
+      "lat": 37.87,
+      "lon": 32.48
+    },
+    {
+      "word": "pide",
+      "lang": "English",
+      "era": "1990s",
+      "note": "entered English through Turkish restaurants, especially the boat-shaped topped versions",
+      "meaning": "Turkish flatbread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Turkish flatbread, often boat-shaped and topped with meat, cheese or egg"
+}

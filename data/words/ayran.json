@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ayran",
+      "lang": "Turkic",
+      "era": "medieval",
+      "note": "made by Turkic nomads from soured milk, long before it reached Anatolia",
+      "meaning": "yogurt drink",
+      "lat": 43.24,
+      "lon": 76.95
+    },
+    {
+      "word": "ayran",
+      "lang": "Turkish",
+      "era": "1900s",
+      "note": "Turkey's prime minister declared it the national drink in 2013",
+      "meaning": "yogurt drink",
+      "lat": 39.93,
+      "lon": 32.86
+    },
+    {
+      "word": "ayran",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through Turkish restaurants and kebab shops",
+      "meaning": "salted yogurt drink",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cold salted drink of yogurt mixed with water"
+}

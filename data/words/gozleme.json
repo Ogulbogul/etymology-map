@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gözleme",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "rolled thin by village women and cooked on the domed iron 'sac' griddle",
+      "meaning": "filled flatbread",
+      "lat": 37.87,
+      "lon": 32.48
+    },
+    {
+      "word": "gozleme",
+      "lang": "English",
+      "era": "1990s",
+      "note": "a fixture of Australian markets, brought by Turkish immigrants who arrived under a 1967 migration agreement",
+      "meaning": "Turkish filled flatbread",
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  ],
+  "current_meaning": "a Turkish flatbread folded around a filling and cooked on a griddle"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Menemen",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "a town near İzmir, famous for its vegetables and pottery",
+      "meaning": "a town",
+      "lat": 38.61,
+      "lon": 27.07
+    },
+    {
+      "word": "menemen",
+      "lang": "Turkish",
+      "era": "1900s",
+      "note": "the dish took the town's name; Turks argue over whether onions belong in it",
+      "meaning": "scrambled eggs with tomato",
+      "lat": 38.42,
+      "lon": 27.14
+    },
+    {
+      "word": "menemen",
+      "lang": "English",
+      "era": "2000s",
+      "note": "entered English through Turkish breakfast cafés",
+      "meaning": "Turkish scrambled eggs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Turkish dish of eggs scrambled with tomatoes, peppers and onions"
+}

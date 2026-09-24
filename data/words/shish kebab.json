@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "şiş kebap",
+      "lang": "Ottoman Turkish",
+      "era": "medieval",
+      "note": "'şiş' is the Turkish for skewer; soldiers and herders grilled meat this way over open fires",
+      "meaning": "skewered roast meat",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "shish kebab",
+      "lang": "English",
+      "era": "1910s",
+      "note": "Armenian-American restaurateurs such as George Mardikian of San Francisco made it popular in the United States",
+      "meaning": "skewered grilled meat",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "cubes of meat grilled on a skewer"
+}

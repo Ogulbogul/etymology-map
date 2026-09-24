@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cacık",
+      "lang": "Ottoman Turkish",
+      "era": "1600s",
+      "note": "older forms meant a kind of edible herb; Greek 'tzatziki' is borrowed from it",
+      "meaning": "yogurt and cucumber dish",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "cacik",
+      "lang": "English",
+      "era": "1900s",
+      "note": "entered English through Turkish restaurants, often thinner than Greek tzatziki",
+      "meaning": "yogurt and cucumber dip",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Turkish cold dish of yogurt, cucumber, garlic and mint"
+}
