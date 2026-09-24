@@ -222,29 +222,6 @@
       "current_note": "bank 'accounts' date from the 1300s too"
     }
   ],
-  "achiote": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "achiotl",
-      "era": "pre-1500s",
-      "current_note": "named the reddish seeds of the annatto shrub used as dye and seasoning"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "achiote",
-      "era": "1600s",
-      "current_note": "the Aztecs used the seeds to colour food and body paint, and Spanish kept the Nahuatl name"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "achiote",
-      "era": "1790s",
-      "current_note": "borrowed into English through accounts of Mesoamerican cooking and dyeing"
-    }
-  ],
   "acquittal": [
     {
       "stop_index": 0,
@@ -3171,22 +3148,6 @@
       "current_note": "settled as the English word for an object made with human skill"
     }
   ],
-  "asana": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "asana",
-      "era": "ancient",
-      "current_note": "meant 'seat', from a root meaning 'to sit'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "asana",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English yoga writing for a physical posture"
-    }
-  ],
   "ascend": [
     {
       "stop_index": 0,
@@ -3706,29 +3667,6 @@
       "word": "atlas",
       "era": "1600s",
       "current_note": "adopted for any bound book of maps"
-    }
-  ],
-  "atole": [
-    {
-      "stop_index": 0,
-      "lang": "Nahuatl",
-      "word": "atolli",
-      "era": "pre-1500s",
-      "current_note": "combined 'atl' (water) and 'olli' (viscous), describing a thick corn-based drink"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "atole",
-      "era": "1600s",
-      "current_note": "the Aztecs drank it at festivals; in Mexico it is still served on the Day of the Dead"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "atole",
-      "era": "1710s-1720s",
-      "current_note": "borrowed into English through accounts of Mexican cuisine"
     }
   ],
   "atom": [
@@ -4693,29 +4631,6 @@
       "current_note": "entered English through reporting on Iranian religious and political leaders"
     }
   ],
-  "ayurveda": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "ayus",
-      "era": "ancient",
-      "current_note": "meant 'life, vital force, longevity'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Sanskrit",
-      "word": "veda",
-      "era": "ancient",
-      "current_note": "meant 'knowledge', from a root meaning 'to know'"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "Ayurveda",
-      "era": "19th-20th c.",
-      "current_note": "the compound was adopted whole as the name for the traditional Indian system of medicine"
-    }
-  ],
   "baba ghanoush": [
     {
       "stop_index": 0,
@@ -4746,36 +4661,6 @@
       "word": "babalawo",
       "era": "1855",
       "current_note": "entered English print describing Yoruba religious practice"
-    }
-  ],
-  "babouche": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "paposh",
-      "era": "medieval",
-      "current_note": "compound of pa, \"foot,\" and posh, \"covering\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "babush",
-      "era": "medieval",
-      "current_note": "adapted the Persian word, since Arabic lacks the sound \"p\""
-    },
-    {
-      "stop_index": 2,
-      "lang": "French",
-      "word": "babouche",
-      "era": "1690s",
-      "current_note": "from Persian 'pa', foot, plus 'push', covering"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "babouche",
-      "era": "1690s",
-      "current_note": "entered English describing the soft Middle Eastern slipper"
     }
   ],
   "bacon": [
@@ -4950,22 +4835,6 @@
       "current_note": "settled as the English word for food used to lure prey"
     }
   ],
-  "baklava": [
-    {
-      "stop_index": 0,
-      "lang": "Ottoman Turkish",
-      "word": "baklava",
-      "era": "medieval",
-      "current_note": "a layered pastry sweetened with syrup and nuts, refined in the Ottoman palace kitchens"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "baklava",
-      "era": "1900s",
-      "current_note": "developed in the kitchens of the Ottoman Topkapı Palace"
-    }
-  ],
   "balalaika": [
     {
       "stop_index": 0,
@@ -5129,45 +4998,6 @@
       "current_note": "'Band-Aid' dates from 1920"
     }
   ],
-  "bandana": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "bandhnu",
-      "era": "ancient",
-      "current_note": "a tie-dyeing technique, from \"bandh\" (to tie)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "bandhna",
-      "era": "medieval",
-      "current_note": "the tie-dyed cloth itself"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bandana",
-      "era": "1700s",
-      "current_note": "from Hindi 'bāndhnū', tie-dyeing: the cloth was knotted before dyeing to make its spots"
-    }
-  ],
-  "bandicoot": [
-    {
-      "stop_index": 0,
-      "lang": "Telugu",
-      "word": "pandi-kokku",
-      "era": "medieval",
-      "current_note": "literally \"pig-rat\", describing the large rodent"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bandicoot",
-      "era": "1700s-1800s",
-      "current_note": "Telugu 'pig-rat'; British naturalists later gave the name to unrelated Australian marsupials"
-    }
-  ],
   "bandit": [
     {
       "stop_index": 0,
@@ -5191,22 +5021,6 @@
       "current_note": "from Italian 'bandito', one who has been banished or outlawed"
     }
   ],
-  "bangle": [
-    {
-      "stop_index": 0,
-      "lang": "Hindi",
-      "word": "bangri",
-      "era": "medieval",
-      "current_note": "a glass or metal bracelet worn around the wrist"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bangle",
-      "era": "1700s-1800s",
-      "current_note": "glass and metal bangles are traditionally worn by married women in South Asia"
-    }
-  ],
   "banish": [
     {
       "stop_index": 0,
@@ -5228,29 +5042,6 @@
       "word": "banish",
       "era": "1300s",
       "current_note": "also gives 'banns' of marriage"
-    }
-  ],
-  "banjo": [
-    {
-      "stop_index": 0,
-      "lang": "Kimbundu",
-      "word": "mbanza",
-      "era": "medieval",
-      "current_note": "a stringed instrument of Central African origin"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Caribbean Creole",
-      "word": "banza",
-      "era": "1600s-1700s",
-      "current_note": "carried by enslaved Africans to the Caribbean and adapted"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "banjo",
-      "era": "1700s-1800s",
-      "current_note": "enslaved West Africans in the Caribbean and American South built the gourd instrument, later taken up by minstrel shows"
     }
   ],
   "bank": [
@@ -5336,38 +5127,6 @@
       "word": "banquet",
       "era": "1480s",
       "current_note": "arrived via French 'banquet'"
-    }
-  ],
-  "banshee": [
-    {
-      "stop_index": 0,
-      "lang": "Irish",
-      "word": "bean sí",
-      "era": "medieval",
-      "current_note": "literally \"woman of the fairy mound\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "banshee",
-      "era": "1700s-1800s",
-      "current_note": "Irish 'bean sí', woman of the fairy mounds; her keening warns of a death in old Irish families"
-    }
-  ],
-  "bao": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "bao",
-      "era": "medieval",
-      "current_note": "a soft, steamed bun, often filled with meat or vegetables"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bao",
-      "era": "1900s",
-      "current_note": "'gua bao' buns became a trend after New York restaurants such as Momofuku served them in the 2000s"
     }
   ],
   "baptize": [
@@ -5712,52 +5471,6 @@
       "current_note": "settled as the English word for lying in pleasant warmth"
     }
   ],
-  "basmati": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "vasmati",
-      "era": "ancient",
-      "current_note": "literally \"fragrant\", describing the aromatic rice"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi/Punjabi",
-      "word": "basmati",
-      "era": "medieval",
-      "current_note": "the name for the long-grain aromatic rice variety"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "basmati",
-      "era": "1900s",
-      "current_note": "Sanskrit 'fragrant'; grown in the Punjab foothills of the Himalaya"
-    }
-  ],
-  "bata": [
-    {
-      "stop_index": 0,
-      "lang": "Yoruba",
-      "word": "bàtá",
-      "era": "traditional",
-      "current_note": "named the hourglass-shaped, double-headed drum used in worship of Sàngó and other orisha"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "batá",
-      "era": "1800s",
-      "current_note": "carried to Cuba by enslaved Yoruba people and kept as a central instrument of Santería ritual"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bata",
-      "era": "1900s",
-      "current_note": "entered English through ethnomusicology and writing on Santería and Afro-Cuban music"
-    }
-  ],
   "baton": [
     {
       "stop_index": 0,
@@ -5942,22 +5655,6 @@
       "current_note": "replaced Old English 'wlite' as the standard word"
     }
   ],
-  "behemoth": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "behemoth",
-      "era": "ancient",
-      "current_note": "the plural intensive of \"behemah\" (beast), describing a huge biblical creature"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "behemoth",
-      "era": "medieval",
-      "current_note": "the great beast of the Book of Job 40; Wycliffe's Bible kept the Hebrew word"
-    }
-  ],
   "beige": [
     {
       "stop_index": 0,
@@ -6098,22 +5795,6 @@
       "current_note": "medical 'benign' tumours date from the 1800s"
     }
   ],
-  "bento": [
-    {
-      "stop_index": 0,
-      "lang": "Japanese",
-      "word": "bento",
-      "era": "medieval",
-      "current_note": "a single-portion boxed meal"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bento",
-      "era": "1900s",
-      "current_note": "Japanese lunchboxes date back to the Edo period, when 'makunouchi bento' were eaten in theatre intervals"
-    }
-  ],
   "berbere": [
     {
       "stop_index": 0,
@@ -6199,84 +5880,6 @@
       "current_note": "formed with the English prefix be- attached to the French root, for breaking someone's trust"
     }
   ],
-  "bhaji": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "bharjita",
-      "era": "ancient",
-      "current_note": "past participle meaning 'roasted, fried'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Gujarati",
-      "word": "bhaji",
-      "era": "medieval",
-      "current_note": "came to mean fried vegetables or greens"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bhaji",
-      "era": "1832",
-      "current_note": "onion bhajis became a fixture of British curry-house menus in the 1900s"
-    }
-  ],
-  "bhakti": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "bhakti",
-      "era": "ancient",
-      "current_note": "from a root meaning 'to share, revere, worship'"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bhakti",
-      "era": "19th-20th c.",
-      "current_note": "adopted in English writing on Hindu devotional practice and the Bhakti movement"
-    }
-  ],
-  "bhangra": [
-    {
-      "stop_index": 0,
-      "lang": "Punjabi",
-      "word": "bhangra",
-      "era": "medieval",
-      "current_note": "a lively folk dance and music style originating from harvest celebrations in Punjab"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bhangra",
-      "era": "1980s",
-      "current_note": "a harvest dance of Punjabi farmers, fused with pop by British Punjabi musicians in 1980s Birmingham and Southall"
-    }
-  ],
-  "bibimbap": [
-    {
-      "stop_index": 0,
-      "lang": "Korean",
-      "word": "bibim",
-      "era": "unknown",
-      "current_note": "mixed, combined with bap (cooked rice)"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Korean",
-      "word": "bibimbap",
-      "era": "unknown",
-      "current_note": "mixed rice, a dish of rice topped with vegetables, meat, and egg, mixed before eating"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bibimbap",
-      "era": "1990s",
-      "current_note": "served on Korean Air flights from 1997, which helped make it known abroad"
-    }
-  ],
   "bibliography": [
     {
       "stop_index": 0,
@@ -6298,29 +5901,6 @@
       "word": "bibliography",
       "era": "1810s",
       "current_note": "first meant the copying of books; the sense 'list of sources' developed in French scholarship"
-    }
-  ],
-  "bikini": [
-    {
-      "stop_index": 0,
-      "lang": "Marshallese",
-      "word": "Bikini Atoll",
-      "era": "1946",
-      "current_note": "a Pacific atoll used for nuclear testing shortly before the swimsuit's debut"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "bikini",
-      "era": "1946",
-      "current_note": "named by a French designer for the swimsuit's supposedly explosive social impact"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bikini",
-      "era": "1948",
-      "current_note": "named by designer Louis Réard after the Bikini Atoll nuclear tests of 1946, implying an explosive effect"
     }
   ],
   "billabong": [
@@ -6392,29 +5972,6 @@
       "word": "biltong",
       "era": "1815",
       "current_note": "Dutch 'bil', rump, plus 'tong', tongue or strip; Voortrekkers carried it on their journeys inland in the 1830s"
-    }
-  ],
-  "bindi": [
-    {
-      "stop_index": 0,
-      "lang": "Sanskrit",
-      "word": "bindu",
-      "era": "ancient",
-      "current_note": "meaning \"a drop\" or \"point\", a symbolic dot"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi",
-      "word": "bindi",
-      "era": "medieval",
-      "current_note": "the decorative forehead mark worn by South Asian women"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bindi",
-      "era": "1900s",
-      "current_note": "traditionally a marker of married Hindu women, now also worn as fashion"
     }
   ],
   "biography": [
@@ -6502,29 +6059,6 @@
       "word": "birth",
       "era": "1200s",
       "current_note": "settled as the standard English word for coming into life"
-    }
-  ],
-  "biryani": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "birian",
-      "era": "medieval",
-      "current_note": "fried before cooking, describing the technique behind the layered rice dish"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Hindi/Urdu",
-      "word": "biryani",
-      "era": "medieval",
-      "current_note": "developed in the Mughal royal kitchens, with regional styles in Hyderabad, Lucknow and Kolkata"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "biryani",
-      "era": "1900s",
-      "current_note": "British Indian restaurants spread the dish in the late 1900s"
     }
   ],
   "biscotti": [
@@ -6938,22 +6472,6 @@
       "current_note": "'baloney', nonsense, grew from this word in 1920s American slang"
     }
   ],
-  "bolshevik": [
-    {
-      "stop_index": 0,
-      "lang": "Russian",
-      "word": "bolshinstvo",
-      "era": "1900s",
-      "current_note": "literally majority, the name taken by Lenin's revolutionary faction"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "bolshevik",
-      "era": "1917",
-      "current_note": "settled as the word for the Russian revolutionary and, later, any radical"
-    }
-  ],
   "bombard": [
     {
       "stop_index": 0,
@@ -7039,29 +6557,6 @@
       "current_note": "car 'bonnets' in British English date from the 1900s"
     }
   ],
-  "bonsai": [
-    {
-      "stop_index": 0,
-      "lang": "Chinese",
-      "word": "penzai",
-      "era": "ancient",
-      "current_note": "literally \"tray planting\", the origin of the miniature tree art"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Japanese",
-      "word": "bonsai",
-      "era": "medieval",
-      "current_note": "adopted and refined the art of miniature potted trees"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "bonsai",
-      "era": "1900s",
-      "current_note": "Japanese 'tray planting'; bonsai was shown at the 1878 Paris Exposition"
-    }
-  ],
   "bonus": [
     {
       "stop_index": 0,
@@ -7092,22 +6587,6 @@
       "word": "boom",
       "era": "1600s",
       "current_note": "a sailing spar along the foot of a sail; unrelated to the sound 'boom'"
-    }
-  ],
-  "boomerang": [
-    {
-      "stop_index": 0,
-      "lang": "Dharug",
-      "word": "bumarin",
-      "era": "ancient",
-      "current_note": "a curved throwing stick used for hunting by Aboriginal Australians"
-    },
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "boomerang",
-      "era": "1820s",
-      "current_note": "first recorded around Sydney; the Dharug people used it in hunting"
     }
   ],
   "borage": [
@@ -8070,36 +7549,6 @@
       "current_note": "Korean 'fire meat', from 'bul', fire, plus 'gogi', meat"
     }
   ],
-  "bulgur": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "barghul",
-      "era": "medieval",
-      "current_note": "named parboiled, cracked wheat, meaning roughly \"roughly crushed\""
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "burghul",
-      "era": "medieval",
-      "current_note": "spread the grain and its name across the medieval Middle East"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Ottoman Turkish",
-      "word": "bulgur",
-      "era": "1800s",
-      "current_note": "the sounds were rearranged in Turkish pronunciation"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "bulgur",
-      "era": "1926",
-      "current_note": "entered English food writing describing the ancient Middle Eastern grain staple"
-    }
-  ],
   "bulk": [
     {
       "stop_index": 0,
@@ -8320,29 +7769,6 @@
       "current_note": "adopted for the wine, and later the deep purplish-red color associated with it"
     }
   ],
-  "burqa": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "burqu'",
-      "era": "medieval",
-      "current_note": "named a veil covering the face and body"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Persian/Urdu",
-      "word": "burqa",
-      "era": "1700s",
-      "current_note": "worn especially among Pashtun women in Afghanistan and northern India"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "burqa",
-      "era": "1800s",
-      "current_note": "entered English through accounts of Islamic dress across the Middle East and South Asia"
-    }
-  ],
   "burrito": [
     {
       "stop_index": 0,
@@ -8502,29 +7928,6 @@
       "word": "bylaw",
       "era": "1600s",
       "current_note": "the 'by' was later reinterpreted as 'secondary' or 'side', shaping the modern sense of a subsidiary rule"
-    }
-  ],
-  "cabal": [
-    {
-      "stop_index": 0,
-      "lang": "Hebrew",
-      "word": "qabbalah",
-      "era": "medieval",
-      "current_note": "literally tradition or received knowledge, referring to Jewish mystical teaching"
-    },
-    {
-      "stop_index": 1,
-      "lang": "French",
-      "word": "cabale",
-      "era": "1500s",
-      "current_note": "broadened in French to mean any secret intrigue or scheme"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "cabal",
-      "era": "1600s",
-      "current_note": "settled as the English word for a secret political faction"
     }
   ],
   "cabaret": [
@@ -8826,36 +8229,6 @@
       "word": "cafeteria",
       "era": "1890s",
       "current_note": "adopted in American English for a self-service dining hall"
-    }
-  ],
-  "caftan": [
-    {
-      "stop_index": 0,
-      "lang": "Persian",
-      "word": "khaftan",
-      "era": "medieval",
-      "current_note": "a long tunic-like garment tied at the waist"
-    },
-    {
-      "stop_index": 1,
-      "lang": "Arabic",
-      "word": "qaftan",
-      "era": "medieval",
-      "current_note": "spread the garment and its name through the Islamic world"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Turkish",
-      "word": "qaftan",
-      "era": "1500s",
-      "current_note": "became a symbol of Ottoman court dress"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "caftan / kaftan",
-      "era": "1590s",
-      "current_note": "entered English describing Ottoman and Egyptian dress; later became a Western fashion term"
     }
   ],
   "cage": [
