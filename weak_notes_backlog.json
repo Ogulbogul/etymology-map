@@ -1,66 +1,10 @@
 {
-  "a cappella": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "a cappella",
-      "current_note": "adopted directly for singing without instrumental accompaniment"
-    }
-  ],
-  "a la carte": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "a la carte",
-      "current_note": "adopted directly for ordering dishes individually rather than as a set meal"
-    }
-  ],
-  "aardvark": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "aardvark",
-      "current_note": "adopted directly from Afrikaans"
-    }
-  ],
-  "abaca": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abaca",
-      "current_note": "adopted directly for the durable plant fiber, also called Manila hemp"
-    }
-  ],
-  "abalone": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "abulón",
-      "current_note": "adopted by Spanish colonists in California for the same shellfish"
-    }
-  ],
-  "abdomen": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "abdomen",
-      "current_note": "adopted directly as the anatomical word for the belly region"
-    }
-  ],
   "abhor": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "abhorrer",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "absinthe": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "absinthe",
-      "current_note": "adopted directly for the potent green liqueur"
     }
   ],
   "absurd": [
@@ -79,82 +23,12 @@
       "current_note": "to use improperly"
     }
   ],
-  "acai": [
-    {
-      "stop_index": 1,
-      "lang": "Portuguese",
-      "word": "açaí",
-      "current_note": "adopted by Portuguese colonists in the Amazon region"
-    }
-  ],
-  "accordion": [
-    {
-      "stop_index": 1,
-      "lang": "German",
-      "word": "Akkord",
-      "current_note": "borrowed from French accord for a musical chord"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "accordion",
-      "current_note": "adopted from German for the bellows-driven keyboard instrument"
-    }
-  ],
-  "achiote": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "achiote",
-      "current_note": "adopted into Mexican and Central American Spanish for the same seed"
-    }
-  ],
   "active": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "actif",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "ad hoc": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ad hoc",
-      "current_note": "adopted directly for something created for a particular, immediate purpose"
-    }
-  ],
-  "ad infinitum": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ad infinitum",
-      "current_note": "adopted directly into English for something continuing forever"
-    }
-  ],
-  "ad nauseam": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ad nauseam",
-      "current_note": "adopted directly into English for something repeated to a tiresome degree"
-    }
-  ],
-  "adagio": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "adagio",
-      "current_note": "adopted directly as a slow musical tempo marking"
-    }
-  ],
-  "adinkra": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "adinkra",
-      "current_note": "adopted by English-language art historians and textile scholars to name the Akan symbol system"
     }
   ],
   "adjust": [
@@ -173,82 +47,12 @@
       "current_note": "a learned borrowing"
     }
   ],
-  "admiral": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "admiralis",
-      "current_note": "adopted by Norman rulers of Sicily who inherited Arab fleets"
-    }
-  ],
-  "adobe": [
-    {
-      "stop_index": 2,
-      "lang": "Spanish",
-      "word": "adobe",
-      "current_note": "adopted through Arabic influence in Iberia"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "adobe",
-      "current_note": "adopted through Spanish colonial building traditions in the Americas"
-    }
-  ],
-  "adzuki": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "adzuki",
-      "current_note": "borrowed by botanists and cooks describing the bean and its uses"
-    }
-  ],
   "affirm": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "afermer",
       "current_note": "to make firm or confirm"
-    }
-  ],
-  "aficionado": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "aficionado",
-      "current_note": "adopted directly for a devoted fan or enthusiast of an activity"
-    }
-  ],
-  "aggrandize": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "aggrandize",
-      "current_note": "adopted from French for increasing someone's power, status, or reputation"
-    }
-  ],
-  "agoraphobia": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "agoraphobia",
-      "current_note": "adopted from German for the fear of open or crowded spaces"
-    }
-  ],
-  "agouti": [
-    {
-      "stop_index": 1,
-      "lang": "Portuguese/French",
-      "word": "agouti",
-      "current_note": "adopted by Iberian and French colonists describing the animal"
-    }
-  ],
-  "aikido": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "aikido",
-      "current_note": "adopted as the martial art spread internationally"
     }
   ],
   "air": [
@@ -259,224 +63,12 @@
       "current_note": "borrowed from Greek 'aēr', the misty air near the ground, as opposed to bright upper 'aithēr'"
     }
   ],
-  "akvavit": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "akvavit",
-      "current_note": "adopted directly for the traditional Scandinavian spirit"
-    }
-  ],
-  "albino": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "albino",
-      "current_note": "adopted directly for a person or animal lacking pigmentation"
-    }
-  ],
-  "alchemy": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "alchimia",
-      "current_note": "adopted through Arabic scientific texts translated in Spain"
-    }
-  ],
-  "alcove": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "alcove",
-      "current_note": "borrowed directly from French"
-    }
-  ],
-  "alfalfa": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "alfalfa",
-      "current_note": "adopted into Spanish during centuries of Arabic influence on the Iberian Peninsula"
-    }
-  ],
-  "algebra": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "algebra",
-      "current_note": "adopted directly for the mathematical discipline"
-    }
-  ],
-  "algorithm": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "algorithm",
-      "current_note": "adopted from French algorithme for a step-by-step procedure for calculations"
-    }
-  ],
-  "alibi": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "alibi",
-      "current_note": "adopted directly as the legal claim of having been elsewhere during a crime"
-    }
-  ],
-  "alidade": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "alhidada",
-      "current_note": "adopted through translated Arabic astronomical and surveying texts"
-    }
-  ],
-  "allegro": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "allegro",
-      "current_note": "adopted directly as a standard musical tempo term"
-    }
-  ],
-  "alma mater": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "alma mater",
-      "current_note": "adopted into English for one's former school or university"
-    }
-  ],
-  "almanac": [
-    {
-      "stop_index": 1,
-      "lang": "Medieval Latin",
-      "word": "almanachus",
-      "current_note": "adopted through Arabic astronomical texts translated in Spain"
-    }
-  ],
-  "aloha": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "aloha",
-      "current_note": "adopted as a greeting and farewell through Hawaiian culture"
-    }
-  ],
-  "alpaca": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "alpaca",
-      "current_note": "adopted from Aymara via Spanish colonial contact in the Andes"
-    },
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "alpaca",
-      "current_note": "adopted directly from Spanish"
-    }
-  ],
-  "alter ego": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "alter ego",
-      "current_note": "adopted directly into English for a second, contrasting side of oneself"
-    }
-  ],
   "alter": [
     {
       "stop_index": 1,
       "lang": "Old French",
       "word": "alterer",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "alto": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "alto",
-      "current_note": "adopted directly for the lower female or higher male vocal range"
-    }
-  ],
-  "amandla": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amandla",
-      "current_note": "adopted into English as the anti-apartheid protest chant popularized by the ANC"
-    }
-  ],
-  "amateur": [
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "amateur",
-      "current_note": "adopted from French for a person who engages in an activity without being paid"
-    }
-  ],
-  "amble": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ambulare",
-      "current_note": "to walk, to move about"
-    }
-  ],
-  "ambulance": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "ambulare",
-      "current_note": "to walk, to move about"
-    }
-  ],
-  "amen": [
-    {
-      "stop_index": 1,
-      "lang": "Greek",
-      "word": "amen",
-      "current_note": "adopted through the Septuagint and New Testament"
-    },
-    {
-      "stop_index": 3,
-      "lang": "English",
-      "word": "amen",
-      "current_note": "adopted through the spread of Christianity"
-    }
-  ],
-  "amiable": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "amare",
-      "current_note": "to love"
-    }
-  ],
-  "amnesia": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amnesia",
-      "current_note": "adopted directly as the medical word for loss of memory"
-    }
-  ],
-  "amok": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amok",
-      "current_note": "adopted through European colonial contact in Southeast Asia"
-    }
-  ],
-  "amortize": [
-    {
-      "stop_index": 1,
-      "lang": "Old French",
-      "word": "amortir",
-      "current_note": "to deaden, to kill off, applied to gradually paying off a debt"
     }
   ],
   "amount": [
@@ -487,114 +79,12 @@
       "current_note": "to rise to a total"
     }
   ],
-  "amphibian": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "amphibian",
-      "current_note": "adopted by biologists for animals living both in water and on land"
-    }
-  ],
-  "andante": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "andante",
-      "current_note": "adopted directly as a musical tempo marking"
-    }
-  ],
-  "angel": [
-    {
-      "stop_index": 1,
-      "lang": "Latin",
-      "word": "angelus",
-      "current_note": "adopted through Christian scripture for a divine messenger"
-    },
-    {
-      "stop_index": 2,
-      "lang": "Old English",
-      "word": "engel",
-      "current_note": "adopted through the spread of Christianity"
-    }
-  ],
-  "angst": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "angst",
-      "current_note": "adopted through the influence of German philosophy and psychology"
-    }
-  ],
-  "annatto": [
-    {
-      "stop_index": 1,
-      "lang": "Spanish",
-      "word": "annatto",
-      "current_note": "adopted by Spanish colonists across the Caribbean and South America"
-    }
-  ],
-  "anorak": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "anorak",
-      "current_note": "adopted by Arctic explorers for the hooded jacket"
-    }
-  ],
-  "antipasto": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "antipasto",
-      "current_note": "adopted directly for the Italian appetizer course"
-    }
-  ],
   "antique": [
     {
       "stop_index": 1,
       "lang": "French",
       "word": "antique",
       "current_note": "a learned borrowing"
-    }
-  ],
-  "ao dai": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "ao dai",
-      "current_note": "borrowed by Western writers and fashion journalists describing Vietnamese dress"
-    }
-  ],
-  "apartheid": [
-    {
-      "stop_index": 2,
-      "lang": "English",
-      "word": "apartheid",
-      "current_note": "adopted directly from Afrikaans"
-    }
-  ],
-  "apricot": [
-    {
-      "stop_index": 0,
-      "lang": "Arabic",
-      "word": "al-birquq",
-      "current_note": "borrowed from Byzantine Greek praikokion, ultimately from Latin praecoquum (early-ripening)"
-    }
-  ],
-  "apt": [
-    {
-      "stop_index": 0,
-      "lang": "Latin",
-      "word": "apere",
-      "current_note": "to fasten, to attach"
-    }
-  ],
-  "arachnid": [
-    {
-      "stop_index": 1,
-      "lang": "English",
-      "word": "arachnid",
-      "current_note": "adopted by biologists for spiders and their relatives"
     }
   ],
   "arancini": [
