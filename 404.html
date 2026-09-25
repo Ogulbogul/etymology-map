@@ -35,6 +35,10 @@
     </footer>
   </div>
 
+  <script src="/track.js"></script>
+  <script>
+    if (window.emTrack) window.emTrack.notFound(location.pathname);
+  </script>
   <script>
     (function () {
       var THEME_KEY = "etymology-map-theme";

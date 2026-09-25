@@ -334,6 +334,7 @@ def render_word_page(word, entry, word_index):
     </footer>
   </div>
   <script type="application/json" id="word-data">{word_json}</script>
+  <script src="/track.js"></script>
   <script type="module" src="/word.js"></script>
 </body>
 </html>
