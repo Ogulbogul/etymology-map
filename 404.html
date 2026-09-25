@@ -10,6 +10,63 @@
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <link rel="stylesheet" href="/style.css" />
+<style>
+  .notfound-main {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .notfound-hero {
+    text-align: center;
+    margin-top: 18px;
+  }
+  .notfound-trail {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    margin: 4px auto 10px;
+  }
+  .notfound-trail .trail-digit {
+    font: 800 210px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    fill: var(--text);
+  }
+  .notfound-trail .trail-path {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 9 9;
+    opacity: 0.85;
+  }
+  .notfound-trail .trail-start {
+    fill: var(--pin);
+    stroke: var(--bg);
+    stroke-width: 3;
+  }
+  .notfound-trail .trail-end {
+    fill: none;
+    stroke: var(--pin);
+    stroke-width: 4;
+    stroke-dasharray: 5 5;
+  }
+  .notfound-trail .trail-question {
+    font: 800 64px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    fill: var(--pin);
+    text-anchor: middle;
+  }
+  .notfound-tagline {
+    margin: 6px 0 18px;
+    color: var(--text-dim);
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .notfound-hero #not-found-message {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
 </head>
 <body>
   <div id="app">
@@ -20,12 +77,25 @@
       </div>
     </header>
 
-    <main class="doc-main">
+    <main class="doc-main notfound-main">
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to Etymology Map
       </a>
-      <h1>Page not found</h1>
-      <p id="not-found-message">That page doesn't exist.</p>
+      <div class="notfound-hero">
+        <svg class="notfound-trail" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="404">
+          <text class="trail-digit" x="0" y="195">4</text>
+          <text class="trail-digit" x="140" y="195">0</text>
+          <path class="trail-path" d="M35,205 C90,130 175,225 215,130 C260,35 330,75 381,120" />
+          <circle class="trail-start" cx="35" cy="205" r="10" />
+          <circle class="trail-end" cx="381" cy="120" r="75" />
+          <text class="trail-question" x="381" y="140">?</text>
+        </svg>
+        <h1 class="notfound-tagline">Origin unknown</h1>
+        <p id="not-found-message">
+          We traced this page's journey as far back as we could, and came up empty — no root word, no cognates,
+          no paper trail. In etymology, we'd call that "of unknown origin." Here, we just call it a 404.
+        </p>
+      </div>
     </main>
 
     <footer class="site-footer">
