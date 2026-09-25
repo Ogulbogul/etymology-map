@@ -86,6 +86,9 @@ const badgeTextEl = document.getElementById("badge-text");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+fullStoryEl.addEventListener("toggle", () => {
+  if (fullStoryEl.open && lastWord && window.emTrack) window.emTrack.story(lastWord);
+});
 const relatedWordsEl = document.getElementById("related-words");
 const relatedWordsLangEl = document.getElementById("related-words-lang");
 const relatedWordsGridEl = document.getElementById("related-words-grid");
@@ -1094,9 +1097,11 @@ async function trace(options = {}) {
   if (!entry) {
     clearResult();
     showNotFound(displayWord, raw);
+    if (window.emTrack) window.emTrack.miss(raw);
     return;
   }
   renderWord(raw, entry);
+  if (window.emTrack) window.emTrack.view(raw);
 }
 
 function initFromUrl() {
@@ -1701,6 +1706,7 @@ async function generateShareCard() {
 
 async function openShareModal() {
   if (!lastWord || !lastEntry || !lastPoints) return;
+  if (window.emTrack) window.emTrack.share(lastWord);
 
   shareCardTheme = isDarkActive() ? "dark" : "light";
   updateShareThemeButtons();

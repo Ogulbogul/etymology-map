@@ -688,6 +688,8 @@ const shareCloseBtn = document.getElementById("share-close-btn");
 const shareStatusEl = document.getElementById("share-status");
 
 let currentShareBlob = null;
+// The word's collection key, for the anonymous usage counts (track.js).
+let trackedWord = null;
 let currentPreviewUrl = null;
 let shareCardTheme = "light";
 
@@ -1126,6 +1128,7 @@ async function generateShareCard() {
 
 async function openShareModal() {
   if (!lastWord || !lastEntry || !lastPoints) return;
+  if (window.emTrack && trackedWord) window.emTrack.share(trackedWord);
 
   shareCardTheme = isDarkActive() ? "dark" : "light";
   updateShareThemeButtons();
@@ -1305,6 +1308,15 @@ setupThemeToggle();
       setMetaTags(displayWord, displayEntry, normalized, { stopCount, totalStops });
     }
     renderWordPage(displayWord, displayEntry, normalized);
+
+    trackedWord = normalized;
+    if (window.emTrack) window.emTrack.view(normalized);
+    const storyEl = document.querySelector("details.full-story");
+    if (storyEl) {
+      storyEl.addEventListener("toggle", () => {
+        if (storyEl.open && window.emTrack) window.emTrack.story(normalized);
+      });
+    }
 
     const originLang = entry.stops[0].lang;
     journeyMetaEl.textContent = `${totalStops} stage${totalStops === 1 ? "" : "s"} from ${originLang} to English.`;

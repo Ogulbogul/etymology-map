@@ -74,3 +74,9 @@ several entries in one file and running the script once.
 - `note` is one short clause on how/why the word changed at that stage.
 - `meaning` is the word's meaning *at that stage*; `current_meaning` is today's
   meaning and shows in the badge on the map.
+
+## Anonymous usage statistics
+
+`track.js` and `functions/api/` count anonymous page and search events into
+daily totals (no cookies or identifiers), mainly to find popular words that
+are missing. Setup and how to view the numbers: `analytics/README.md`.
