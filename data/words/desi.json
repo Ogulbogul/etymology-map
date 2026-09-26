@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "deśa",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "Indian music theory contrasted 'deśī', regional styles, with 'mārga', the classical tradition",
+      "meaning": "land, country",
+      "lat": 23.18,
+      "lon": 75.78
+    },
+    {
+      "word": "desī",
+      "lang": "Hindi",
+      "era": "medieval",
+      "note": "'desi ghee' still means ghee made the traditional way, as opposed to factory-made",
+      "meaning": "native, local",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "desi",
+      "lang": "English",
+      "era": "late 1900s",
+      "note": "adopted by the South Asian diaspora in Britain and North America as a name for themselves and their culture",
+      "meaning": "South Asian, homegrown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the people, culture or products of South Asia and its diaspora; local, traditional"
+}

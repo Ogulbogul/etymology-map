@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "trabs",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a wooden beam; architects still call post-and-beam building 'trabeated'",
+      "meaning": "beam",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "architrave",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "'archi-', chief, plus 'trave', beam; Sebastiano Serlio's architecture books of the 1530s and 1540s spread such terms across Europe",
+      "meaning": "chief beam",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "architrave",
+      "lang": "French",
+      "era": "1500s",
+      "note": "French builders took it up with Italian Renaissance design",
+      "meaning": "architrave",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "architrave",
+      "lang": "English",
+      "era": "1560s",
+      "note": "arrived as John Shute's 'First and Chief Groundes of Architecture' (1563) introduced the classical orders to English readers",
+      "meaning": "architrave",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the beam resting on top of classical columns; the moulding around a door or window frame"
+}

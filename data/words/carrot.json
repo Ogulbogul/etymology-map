@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "karōton",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "possibly from a root meaning horn, for the root's pointed shape",
+      "meaning": "carrot",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "carota",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the Roman cookbook attributed to Apicius includes recipes for carrots",
+      "meaning": "carrot",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "carotte",
+      "lang": "Middle French",
+      "era": "1500s",
+      "note": "named the wild and cultivated root, which was then usually purple or yellow",
+      "meaning": "carrot",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carrot",
+      "lang": "English",
+      "era": "1530s",
+      "note": "the familiar orange carrot was developed by Dutch growers in the 1600s and spread to English gardens",
+      "meaning": "carrot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an orange root vegetable"
+}

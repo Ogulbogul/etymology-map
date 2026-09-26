@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bugne",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a swelling or lump, the likeliest source; French 'beignet', fritter, may be related",
+      "meaning": "swelling",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bunne",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "a small sweet roll; the word's origin remains uncertain",
+      "meaning": "small cake",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "bun",
+      "lang": "English",
+      "era": "1700s",
+      "note": "'hot cross buns' are recorded as a Good Friday custom by 1733; the hair 'bun' dates from the 1890s",
+      "meaning": "roll; coil of hair",
+      "lat": 51.75,
+      "lon": -1.26
+    }
+  ],
+  "current_meaning": "a small soft round bread roll, often sweet; hair coiled at the back of the head"
+}
