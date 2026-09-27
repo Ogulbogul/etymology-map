@@ -11,9 +11,18 @@
     },
     {
       "word": "etymologia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "formed within Greek itself from etymon (true sense) and -logia (study of); Stoic philosophers used the term for analyzing a word's true original sense",
+      "meaning": "the study of a word's true origin",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "etymologia",
       "lang": "Latin",
       "era": "ancient",
-      "note": "formed from Greek etymon (true sense) and -logia (study of)",
+      "note": "borrowed directly from Greek unchanged; the Roman scholar Varro wrote extensively on etymologia in his 'De Lingua Latina'",
       "meaning": "the study of a word's true origin",
       "lat": 41.9,
       "lon": 12.5
