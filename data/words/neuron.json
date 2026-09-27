@@ -10,10 +10,19 @@
       "lon": 23.73
     },
     {
+      "word": "Neuron",
+      "lang": "German",
+      "era": "1891",
+      "note": "coined by anatomist Wilhelm Waldeyer to describe the nerve cell as a discrete structural unit",
+      "meaning": "nerve cell",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
       "word": "neuron",
       "lang": "English",
       "era": "1890s",
-      "note": "coined in German by Wilhelm Waldeyer in 1891",
+      "note": "adopted directly from German following Waldeyer's neuron doctrine",
       "meaning": "nerve cell",
       "lat": 51.51,
       "lon": -0.13
