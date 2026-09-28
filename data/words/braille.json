@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Braille",
+      "lang": "French",
+      "era": "1824",
+      "note": "Louis Braille, blinded at three in his father's harness workshop at Coupvray, devised his six-dot code at 15 in 1824, adapting Charles Barbier's army 'night writing'",
+      "meaning": "a family name",
+      "lat": 48.89,
+      "lon": 2.8
+    },
+    {
+      "word": "braille",
+      "lang": "English",
+      "era": "1850s",
+      "note": "Britain's British and Foreign Blind Association, founded by Thomas Rhodes Armitage in 1868, campaigned for braille over rival raised-letter systems",
+      "meaning": "raised-dot writing for the blind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a writing system of raised dots read by touch"
+}

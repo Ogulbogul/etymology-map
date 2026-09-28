@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Sandwīc",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "'sandy harbour', a Kent port that became one of the Cinque Ports supplying ships to the crown",
+      "meaning": "a Kent town",
+      "lat": 51.27,
+      "lon": 1.34
+    },
+    {
+      "word": "sandwich",
+      "lang": "English",
+      "era": "1762",
+      "note": "named after John Montagu, 4th Earl of Sandwich; Edward Gibbon's journal for 24 November 1762 records gentlemen at a London club eating 'a bit of cold meat, or a Sandwich', while the story that the earl ate them at the gambling table comes from a 1765 French travel book and may be gossip",
+      "meaning": "meat between slices of bread",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "two pieces of bread with a filling between them"
+}

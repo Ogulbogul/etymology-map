@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Watt",
+      "lang": "Scots",
+      "era": "1769",
+      "note": "a surname from a pet form of Walter; James Watt, born in Greenock in 1736, patented his separate condenser for steam engines in 1769",
+      "meaning": "a family name",
+      "lat": 55.95,
+      "lon": -4.76
+    },
+    {
+      "word": "watt",
+      "lang": "English",
+      "era": "1882",
+      "note": "Carl Wilhelm Siemens proposed the watt as the unit of power in 1882, and the British Association adopted it",
+      "meaning": "unit of power",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the SI unit of power, one joule per second"
+}

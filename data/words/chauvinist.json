@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Chauvin",
+      "lang": "French",
+      "era": "1831",
+      "note": "Nicolas Chauvin, supposedly a fanatically loyal soldier of Napoleon, was probably invented; the Cogniard brothers' 1831 play La Cocarde tricolore made him a byword for jingoism",
+      "meaning": "a family name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "chauvinist",
+      "lang": "English",
+      "era": "1870",
+      "note": "meant a blind patriot; 'male chauvinist' spread with the women's movement around 1970",
+      "meaning": "excessive partisan",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person with prejudiced loyalty to their own group, especially a male chauvinist"
+}

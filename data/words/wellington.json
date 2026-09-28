@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Weolingtun",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "a Somerset town, probably 'farmstead of Weola's people'; Arthur Wellesley took his title from it in 1809, becoming Duke of Wellington in 1814",
+      "meaning": "a Somerset town",
+      "lat": 50.98,
+      "lon": -3.22
+    },
+    {
+      "word": "wellington",
+      "lang": "English",
+      "era": "1817",
+      "note": "the Duke had his London bootmaker adapt the Hessian boot, and after Waterloo in 1815 'Wellingtons' became the fashion; rubber versions were first made in France by Hiram Hutchinson in the 1850s",
+      "meaning": "tall waterproof boot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a knee-length waterproof rubber boot"
+}

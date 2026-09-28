@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "*Wido",
+      "lang": "Frankish",
+      "era": "ancient",
+      "note": "a Germanic personal name, Latinised as Guido, borne by Guido of Arezzo, who devised the musical staff around 1030",
+      "meaning": "a personal name",
+      "lat": 50.85,
+      "lon": 4.35
+    },
+    {
+      "word": "Gui",
+      "lang": "Old French",
+      "era": "1000s",
+      "note": "French turned the Germanic w- into gu-, as in guerre from werra; the Normans brought the name to England",
+      "meaning": "a personal name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "Guy",
+      "lang": "English",
+      "era": "1605",
+      "note": "Guy Fawkes was caught guarding gunpowder under the House of Lords on 5 November 1605; effigies burnt on Bonfire Night were called 'guys'",
+      "meaning": "effigy of Guy Fawkes",
+      "lat": 51.5,
+      "lon": -0.12
+    },
+    {
+      "word": "guy",
+      "lang": "American English",
+      "era": "1840s",
+      "note": "from a grotesquely dressed figure to any odd-looking person, then simply 'a man' in American usage",
+      "meaning": "a man, a person",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a man; (plural) people of either sex"
+}

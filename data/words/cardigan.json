@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Ceredigion",
+      "lang": "Welsh",
+      "era": "medieval",
+      "note": "'land of Ceredig', a 5th-century ruler said to be a son of Cunedda; its chief town was anglicised as Cardigan",
+      "meaning": "a Welsh region",
+      "lat": 52.08,
+      "lon": -4.66
+    },
+    {
+      "word": "cardigan",
+      "lang": "English",
+      "era": "1868",
+      "note": "after James Brudenell, 7th Earl of Cardigan, who led the Charge of the Light Brigade at Balaclava in 1854; the knitted wool waistcoats he and his officers wore took his title",
+      "meaning": "knitted button-up jacket",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a knitted sweater that fastens down the front"
+}

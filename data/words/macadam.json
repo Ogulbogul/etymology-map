@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mac Adaim",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "'son of Adam', a Gaelic patronymic surname",
+      "meaning": "son of Adam",
+      "lat": 55.46,
+      "lon": -4.63
+    },
+    {
+      "word": "macadam",
+      "lang": "English",
+      "era": "1820s",
+      "note": "after John Loudon McAdam of Ayr, whose 1816 Remarks on the Present System of Road Making laid out roads of compacted small stones; tar-bound 'tarmac' was patented by Edgar Purnell Hooley in 1902",
+      "meaning": "road of compacted stone",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a road surface of compacted broken stone, often bound with tar"
+}

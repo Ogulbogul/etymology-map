@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Burnside",
+      "lang": "Scots",
+      "era": "medieval",
+      "note": "a place-surname, 'the side of the burn', burn being the Scots and northern word for a stream",
+      "meaning": "stream-side (surname)",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "burnsides",
+      "lang": "American English",
+      "era": "1860s",
+      "note": "after Ambrose Burnside, the Union general defeated at Fredericksburg in 1862, famous for bushy whiskers joined to his moustache above a shaved chin",
+      "meaning": "side whiskers",
+      "lat": 41.82,
+      "lon": -71.41
+    },
+    {
+      "word": "sideburns",
+      "lang": "American English",
+      "era": "1880s",
+      "note": "the two halves were swapped, perhaps because the whiskers grow on the side of the face",
+      "meaning": "hair on the side of the face",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "strips of hair grown down the sides of a man's face"
+}

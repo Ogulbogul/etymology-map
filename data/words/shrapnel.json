@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Shrapnel",
+      "lang": "English",
+      "era": "1784",
+      "note": "Henry Shrapnel, a Royal Artillery lieutenant born at Bradford-on-Avon, devised in 1784 a hollow shell packed with musket balls to burst over enemy troops",
+      "meaning": "a family name",
+      "lat": 51.35,
+      "lon": -2.25
+    },
+    {
+      "word": "shrapnel",
+      "lang": "English",
+      "era": "1800s",
+      "note": "the British Army adopted his shell in 1803 and used it at Waterloo; by World War I the word also covered fragments of any exploding shell",
+      "meaning": "shell fragments",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fragments of a bomb, shell or other object thrown out by an explosion"
+}

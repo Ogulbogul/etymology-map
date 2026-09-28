@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pastor",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'shepherd', from pascere 'to feed'; Christian Latin also used it for a priest tending his flock",
+      "meaning": "shepherd",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Pasteur",
+      "lang": "French",
+      "era": "1864",
+      "note": "a surname from Old French pastour 'shepherd'; Louis Pasteur showed in 1864, working on the wines of Arbois, that gentle heating stopped spoilage",
+      "meaning": "a family name",
+      "lat": 46.9,
+      "lon": 5.77
+    },
+    {
+      "word": "pasteurize",
+      "lang": "English",
+      "era": "1881",
+      "note": "applied to milk from the 1880s; Chicago was the first US city to require milk pasteurisation, in 1908",
+      "meaning": "to heat-sterilise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to heat food or drink to kill harmful microbes"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Martinet",
+      "lang": "French",
+      "era": "1660s",
+      "note": "Jean Martinet, inspector-general of Louis XIV's infantry, drilled the new standing army; he was killed, reportedly by his own side's fire, at the siege of Duisburg in 1672",
+      "meaning": "a family name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "martinet",
+      "lang": "English",
+      "era": "1670s",
+      "note": "first a name for his drill system, by the 1770s it meant any strict disciplinarian",
+      "meaning": "strict disciplinarian",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who demands strict obedience to rules"
+}

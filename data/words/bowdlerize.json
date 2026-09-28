@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Bowdler",
+      "lang": "English",
+      "era": "1818",
+      "note": "Thomas Bowdler's Family Shakespeare (1818), expanding his sister Henrietta's anonymous 1807 edition, cut words 'which cannot with propriety be read aloud in a family'",
+      "meaning": "a family name",
+      "lat": 51.38,
+      "lon": -2.36
+    },
+    {
+      "word": "bowdlerize",
+      "lang": "English",
+      "era": "1836",
+      "note": "within two decades his name meant any prudish expurgation of a text",
+      "meaning": "to censor prudishly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to remove material considered improper from a text"
+}

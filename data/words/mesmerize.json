@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Mesmer",
+      "lang": "German",
+      "era": "1770s",
+      "note": "Franz Anton Mesmer developed his theory of 'animal magnetism', a supposed invisible fluid he claimed to channel into patients, in Vienna in the 1770s",
+      "meaning": "a family name",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "mesmérisme",
+      "lang": "French",
+      "era": "1780s",
+      "note": "Mesmer's Paris séances became a craze until a royal commission including Benjamin Franklin and Antoine Lavoisier concluded in 1784 that the effects came from imagination",
+      "meaning": "animal magnetism",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mesmerize",
+      "lang": "English",
+      "era": "1829",
+      "note": "first 'to hypnotise', then 'to fascinate', as mesmerism gave way to James Braid's 'hypnotism' in the 1840s",
+      "meaning": "to hold spellbound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to hold someone's attention completely; to hypnotise"
+}

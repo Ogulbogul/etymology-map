@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Sacher-Masoch",
+      "lang": "German",
+      "era": "1870",
+      "note": "Leopold von Sacher-Masoch, born in Lemberg (Lviv) in 1836, wrote the novel Venus in Furs (1870)",
+      "meaning": "a family name",
+      "lat": 49.84,
+      "lon": 24.03
+    },
+    {
+      "word": "Masochismus",
+      "lang": "German",
+      "era": "1890",
+      "note": "Richard von Krafft-Ebing coined it in 1890, while Sacher-Masoch was still alive and much to his displeasure",
+      "meaning": "pleasure in being hurt",
+      "lat": 47.07,
+      "lon": 15.44
+    },
+    {
+      "word": "masochism",
+      "lang": "English",
+      "era": "1893",
+      "note": "entered English through the 1893 translation of Krafft-Ebing's Psychopathia Sexualis",
+      "meaning": "pleasure in suffering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "pleasure, especially sexual, from one's own pain or humiliation"
+}
