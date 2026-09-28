@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "praedicare",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'to proclaim publicly'; Church Latin used it for proclaiming the gospel",
+      "meaning": "to proclaim",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prechier",
+      "lang": "Old French",
+      "era": "1000s",
+      "note": "after Pope Urban II's call at Clermont in 1095, Peter the Hermit preached the First Crusade across northern France",
+      "meaning": "to preach",
+      "lat": 45.78,
+      "lon": 3.08
+    },
+    {
+      "word": "preach",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the Dominicans, formally the Order of Preachers, reached England in 1221",
+      "meaning": "to deliver a sermon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to deliver a religious address; to urge moral views"
+}

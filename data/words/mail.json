@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "male",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "from Frankish *malha 'bag'; a travelling bag or wallet, and modern French malle still means a trunk (armour 'mail' is a different word, from Latin macula 'mesh')",
+      "meaning": "bag",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mail",
+      "lang": "English",
+      "era": "1600s",
+      "note": "from the post-bag to the letters in it; Charles I opened the Royal Mail to the public in 1635",
+      "meaning": "letters and parcels sent by post",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "letters and parcels sent by post; email"
+}

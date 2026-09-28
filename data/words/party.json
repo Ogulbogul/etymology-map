@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pars",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'part'; Caesar's Gallic War opens 'Gallia est omnis divisa in partes tres', Gaul is divided into three parts",
+      "meaning": "part, side",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "partie",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "from partir 'to divide'; a part, a side in a quarrel, or a litigant in court, the sense still used in legal 'third party'",
+      "meaning": "part, side",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "party",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the political sense grew with the Whigs and Tories of the 1680s; a 'party' as a social gathering dates from the 1700s",
+      "meaning": "political group; social gathering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a social gathering; a political organisation; a person or group in an agreement"
+}

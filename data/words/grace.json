@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gratia",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'favour, thanks'; the three Graces, the goddesses of charm, were the Gratiae",
+      "meaning": "favour, thanks",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grace",
+      "lang": "English",
+      "era": "1200s",
+      "note": "via Old French grace, used above all for God's unearned favour; 'Your Grace' addressed English kings until Henry VIII's time, when 'Majesty' took over, and dukes and archbishops kept it",
+      "meaning": "elegance; favour; prayer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "elegance of movement; courteous goodwill; God's favour; a prayer before a meal"
+}

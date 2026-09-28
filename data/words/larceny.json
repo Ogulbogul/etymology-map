@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "latrocinium",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'robbery', from latro, which first meant a hired soldier before it meant a bandit",
+      "meaning": "robbery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "larcin",
+      "lang": "Anglo-Norman",
+      "era": "1200s",
+      "note": "a term of Law French, the language of English courts until the Pleading in English Act of 1362",
+      "meaning": "theft",
+      "lat": 51.51,
+      "lon": -0.12
+    },
+    {
+      "word": "larceny",
+      "lang": "English",
+      "era": "1400s",
+      "note": "a legal term for theft; England abolished the crime of larceny by the Theft Act of 1968, though it survives in US law",
+      "meaning": "theft",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "theft of personal property"
+}

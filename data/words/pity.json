@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pietas",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "dutiful devotion to gods, country and family; Virgil's hero is 'pius Aeneas'",
+      "meaning": "dutifulness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pitié",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "narrowed to compassion; the same Latin word, borrowed again, gave 'piety', and Italian gave the Pietà",
+      "meaning": "compassion",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pity",
+      "lang": "English",
+      "era": "1200s",
+      "note": "Shakespeare's Othello (c. 1603) gives the word its most famous line: 'But yet the pity of it, Iago! O Iago, the pity of it, Iago!'",
+      "meaning": "sorrow for another's suffering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "sorrow and compassion caused by others' suffering"
+}

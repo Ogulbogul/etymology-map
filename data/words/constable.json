@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "comes stabuli",
+      "lang": "Late Latin",
+      "era": "400s",
+      "note": "'count of the stable', the officer in charge of the imperial, and later Frankish royal, horses",
+      "meaning": "master of the horse",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "conestable",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "rose to become commander of the French army; Bertrand du Guesclin was made Constable of France in 1370",
+      "meaning": "chief officer",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "constable",
+      "lang": "English",
+      "era": "1200s",
+      "note": "from castle-keeper down to village officer; Robert Peel's police of 1829 made it the basic police rank",
+      "meaning": "police officer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a police officer of the lowest rank"
+}
