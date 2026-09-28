@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "caupo",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "a tavern-keeper or petty trader, the kind of Roman merchant Germanic peoples met along the frontier",
+      "meaning": "innkeeper, huckster",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "*kaupōn",
+      "lang": "West Germanic",
+      "era": "ancient",
+      "note": "turned into a verb 'to trade', the source of German kaufen 'to buy'",
+      "meaning": "to trade",
+      "lat": 50.94,
+      "lon": 6.96
+    },
+    {
+      "word": "cēap",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "a market or bargain, surviving in London's Cheapside and towns like Chipping Norton",
+      "meaning": "market, trade",
+      "lat": 51.51,
+      "lon": -0.09
+    },
+    {
+      "word": "cheap",
+      "lang": "English",
+      "era": "1500s",
+      "note": "shortened from 'good cheap', a good bargain, to mean low-priced",
+      "meaning": "inexpensive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "low in price; of poor quality"
+}

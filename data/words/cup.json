@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cuppa",
+      "lang": "Late Latin",
+      "era": "late antiquity",
+      "note": "a variant of cupa 'tub, cask'; the 4th-century Roman glass Lycurgus Cup in the British Museum changes colour from green to red when lit from within",
+      "meaning": "cup",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cup",
+      "lang": "English",
+      "era": "1300s",
+      "note": "borrowed into Old English as cuppe and reinforced by Old French coupe; the FA Cup, first contested in 1871-72, is the oldest national football competition in the world",
+      "meaning": "drinking vessel; trophy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small bowl-shaped container for drinking from; a trophy"
+}

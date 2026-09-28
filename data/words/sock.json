@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "soccus",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "the low slipper of comic actors, contrasted with the tragic actor's high boot (cothurnus) in Horace's Ars Poetica",
+      "meaning": "light slipper",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sock",
+      "lang": "English",
+      "era": "1300s",
+      "note": "borrowed into Old English as socc 'slipper', it came to mean a knitted foot-covering; William Lee's stocking frame of 1589 mechanised knitting, and 'sock and buskin' still means comedy and tragedy",
+      "meaning": "foot covering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a knitted garment worn on the foot"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ánkyra",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the city of Ancyra (modern Ankara) was named after it; Pausanias says King Midas's anchor was still shown there",
+      "meaning": "anchor",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ancora",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "early Christians painted the anchor in the Roman catacombs as a veiled symbol of hope",
+      "meaning": "anchor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ancor",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "borrowed early from Latin; the -ch- spelling is a later imitation of the misspelling anchora",
+      "meaning": "anchor",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "anchor",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a news 'anchor', the linchpin of a broadcast, dates from the 1950s in US television",
+      "meaning": "heavy mooring device",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a heavy object that holds a ship in place; a news presenter"
+}

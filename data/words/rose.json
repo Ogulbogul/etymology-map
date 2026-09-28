@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rhódon",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "probably from an Iranian source; the island of Rhodes was linked with the flower and put a rose on its coins",
+      "meaning": "rose",
+      "lat": 36.43,
+      "lon": 28.22
+    },
+    {
+      "word": "rosa",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "Romans scattered petals at banquets and honoured the dead at the spring Rosalia festival",
+      "meaning": "rose",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "rose",
+      "lang": "English",
+      "era": "1200s",
+      "note": "borrowed into Old English and reinforced by Old French rose; the 'Wars of the Roses' (1455-87), after the Lancastrian red and Yorkist white roses, is a name popularised centuries later by Walter Scott",
+      "meaning": "flower; pinkish colour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a prickly shrub with fragrant flowers; a pinkish colour"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kístē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a basket or box; in Dionysian mystery rites the sacred objects were carried in a covered kístē",
+      "meaning": "basket, box",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cista",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "a box; the bronze Ficoroni Cista, a 4th-century BC toiletry box found at Praeneste, is a famous example",
+      "meaning": "box",
+      "lat": 41.84,
+      "lon": 12.89
+    },
+    {
+      "word": "cest",
+      "lang": "Old English",
+      "era": "medieval",
+      "note": "borrowed from Latin for a box or coffer; the Franks Casket, an 8th-century whalebone chest, is carved with runic Old English verses",
+      "meaning": "box, coffer",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "chest",
+      "lang": "English",
+      "era": "1500s",
+      "note": "extended to the rib cage as the 'box' of the heart and lungs, replacing 'breast' in many uses; the 'chest of drawers' dates from the 1600s",
+      "meaning": "box; upper front of the body",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the front of the body between neck and stomach; a large strong box"
+}
