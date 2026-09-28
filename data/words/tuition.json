@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tuitio",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'a guarding, protection', from tueri 'to watch over', also the root of 'tutor'",
+      "meaning": "protection",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "tuition",
+      "lang": "English",
+      "era": "1400s",
+      "note": "first meant guardianship; the sense 'fees for teaching' is American, from the 1800s",
+      "meaning": "teaching; its fees",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "teaching or instruction; the fee charged for it"
+}

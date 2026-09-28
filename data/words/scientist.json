@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "scientia",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'knowledge', from scire 'to know'; medieval universities called any organised body of knowledge a scientia, theology included",
+      "meaning": "knowledge",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scientist",
+      "lang": "English",
+      "era": "1834",
+      "note": "William Whewell proposed it at the British Association meeting in 1833, on the model of 'artist', after Coleridge objected to 'natural philosopher'; many scientists resisted it for decades",
+      "meaning": "person who does science",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "a person who studies or has expert knowledge of science"
+}

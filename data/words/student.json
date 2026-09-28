@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "studens",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'being eager', from studere; Cicero's speech Pro Archia praises literary studia that 'nourish youth and delight old age'",
+      "meaning": "eager, applying oneself",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estudiant",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "after a tavern brawl in 1229, Paris's students and masters went on a two-year strike and left the city",
+      "meaning": "student",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "student",
+      "lang": "English",
+      "era": "1400s",
+      "note": "Middle English 'studient' was respelled after Latin studentem; Chaucer's Clerk of Oxenford is the model poor student",
+      "meaning": "one who studies",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person studying at a school, college or university"
+}

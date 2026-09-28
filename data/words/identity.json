@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "identitas",
+      "lang": "Late Latin",
+      "era": "late antiquity",
+      "note": "coined by philosophers from idem 'the same', probably on the model of entitas 'being'",
+      "meaning": "sameness",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "identity",
+      "lang": "English",
+      "era": "1560s",
+      "note": "came via Middle French identité; John Locke's Essay Concerning Human Understanding (1694 edition) added a famous chapter 'Of Identity and Diversity', and Britain issued identity cards from 1939 to 1952",
+      "meaning": "who someone is",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the fact of being who or what a person or thing is"
+}

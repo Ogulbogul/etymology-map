@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Quintilis",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'fifth month', counting from March",
+      "meaning": "fifth month",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Iulius",
+      "lang": "Latin",
+      "era": "44 BC",
+      "note": "renamed in 44 BC, the year of his assassination, to honour Julius Caesar, who was born in that month",
+      "meaning": "month of Julius",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "July",
+      "lang": "English",
+      "era": "1200s",
+      "note": "from Anglo-Norman julie, replacing Old English Æfterra Liþa; the US Declaration of Independence was adopted on 4 July 1776",
+      "meaning": "seventh month",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the seventh month of the year"
+}

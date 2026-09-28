@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Martius",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "the month of Mars and first month of the early Roman year, which is why September to December are named 'seventh' to 'tenth'",
+      "meaning": "month of Mars",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "marche",
+      "lang": "Anglo-Norman",
+      "era": "1100s",
+      "note": "the Norman name replaced Old English Hreðmonað, which Bede (725) links to a goddess Hreða",
+      "meaning": "March",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "March",
+      "lang": "English",
+      "era": "1200s",
+      "note": "'mad as a March hare', from hares' boxing in the breeding season, is recorded from the 1500s",
+      "meaning": "third month",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the third month of the year"
+}

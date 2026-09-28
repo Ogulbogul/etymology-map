@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "animal",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'a living being', from anima 'breath, soul'; Books 8-11 of Pliny's Natural History survey the animals of the known world",
+      "meaning": "living creature",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "animal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "rare before 1600, when 'beast' was usual; Shakespeare's Hamlet (c. 1600) calls man 'the paragon of animals'",
+      "meaning": "living creature",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a living organism that feeds and can move; a creature other than a human"
+}

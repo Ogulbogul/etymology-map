@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "militaris",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "from miles 'soldier'; Gaius Marius's reforms of 107 BC opened the legions to landless volunteers, making soldiering a career",
+      "meaning": "of soldiers",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "military",
+      "lang": "English",
+      "era": "1580s",
+      "note": "came via Middle French militaire; President Eisenhower warned of the 'military-industrial complex' in his farewell address of 1961",
+      "meaning": "relating to armed forces",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to soldiers or armed forces; the armed forces"
+}

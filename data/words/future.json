@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "futurus",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'about to be', the future participle of esse 'to be'; Cicero's De Divinatione (44 BC) debates whether the future can be foreseen",
+      "meaning": "about to be",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "future",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came via Old French futur; Filippo Tommaso Marinetti's Futurist Manifesto of 1909 made 'the future' an artistic creed",
+      "meaning": "time to come",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the time yet to come"
+}

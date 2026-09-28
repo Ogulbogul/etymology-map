@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Aprilis",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "origin disputed: Romans linked it to aperire 'to open', as buds open, while modern scholars favour an Etruscan form of Aphrodite, Apru",
+      "meaning": "April",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "averil",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "gave Middle English averil, replacing Old English Eastermonað, the month Bede (725) ties to a goddess Eostre",
+      "meaning": "April",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "April",
+      "lang": "English",
+      "era": "1300s",
+      "note": "respelled after Latin; Chaucer's Canterbury Tales (c. 1387) opens 'Whan that Aprill with his shoures soote'",
+      "meaning": "fourth month",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the fourth month of the year"
+}

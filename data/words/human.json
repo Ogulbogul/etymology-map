@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "humanus",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "related to homo 'man' and humus 'earth'; Terence's comedy of 163 BC has the line 'Homo sum, humani nihil a me alienum puto', I am human, nothing human is alien to me",
+      "meaning": "of people; kind",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "humain",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "meant both 'of people' and 'kindly'",
+      "meaning": "human; humane",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "human",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'human' and 'humane' were one word until the 1700s, when the spellings split along with the meanings",
+      "meaning": "of people",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to people; a person"
+}

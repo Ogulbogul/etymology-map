@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "liber",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'book', first meaning the inner bark of a tree, an early writing surface; librarium was a bookcase",
+      "meaning": "bark; book",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "librairie",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "a collection of books; in modern French it means a bookshop, while a library is a bibliothèque",
+      "meaning": "book collection",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "library",
+      "lang": "English",
+      "era": "1300s",
+      "note": "Chaucer uses 'librarie' in the 1370s; the British Museum, founded in 1753, held what became the British Library",
+      "meaning": "collection of books",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a building or room containing books for people to read or borrow"
+}

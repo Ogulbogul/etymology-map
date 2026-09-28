@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Iunius",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "origin disputed even in antiquity: in Ovid's Fasti, Juno claims the month for herself while Juventas claims it for the iuniores, the young men",
+      "meaning": "June",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "juin",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "gave Middle English june, replacing Old English Ærra Liþa, 'the earlier mild month'",
+      "meaning": "June",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "June",
+      "lang": "English",
+      "era": "1200s",
+      "note": "reinforced by Latin Iunius in learned writing; Magna Carta was sealed at Runnymede on 15 June 1215",
+      "meaning": "sixth month",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sixth month of the year"
+}

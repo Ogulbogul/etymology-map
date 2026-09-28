@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "familia",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "from famulus 'servant'; it meant the whole household under the paterfamilias, slaves included",
+      "meaning": "household",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "family",
+      "lang": "English",
+      "era": "1400s",
+      "note": "first meant the servants of a household; 'parents and their children' became the main sense only in the 1600s",
+      "meaning": "household; relatives",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of parents and children; all descendants of a common ancestor"
+}
