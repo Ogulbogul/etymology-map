@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "knútr",
+      "lang": "Old Norse",
+      "era": "800s",
+      "note": "'knot'; usually traced to the Varangian Norsemen who helped found the Rus' state from the 800s",
+      "meaning": "knot",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "knut",
+      "lang": "Russian",
+      "era": "1600s",
+      "note": "a knotted leather whip; Peter the Great's son Alexei died in 1718 after being beaten with it on his father's orders",
+      "meaning": "flogging whip",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "knout",
+      "lang": "English",
+      "era": "1670s",
+      "note": "English kept the French spelling; the knout stayed a byword for tsarist cruelty even after Nicholas I abolished it as a judicial punishment in 1845",
+      "meaning": "Russian whip",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a whip formerly used to flog criminals in Russia"
+}

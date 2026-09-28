@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "perestroika",
+      "lang": "Russian",
+      "era": "1986",
+      "note": "pere- 're-' + stroika 'building'; Mikhail Gorbachev made it the watchword of reform at the 27th Party Congress in 1986",
+      "meaning": "restructuring",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "perestroika",
+      "lang": "English",
+      "era": "1986",
+      "note": "Gorbachev's 1987 book Perestroika: New Thinking for Our Country and the World became a Western bestseller",
+      "meaning": "Soviet economic and political reform",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the economic and political restructuring of the Soviet Union in the late 1980s"
+}

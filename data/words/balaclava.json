@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Balaklava",
+      "lang": "Crimean Tatar",
+      "era": "1400s",
+      "note": "a harbour town near Sevastopol, known to the Genoese as Cembalo; the name is often explained as Turkic balık 'fish' + yuva 'nest', though this is disputed",
+      "meaning": "a Crimean port",
+      "lat": 44.5,
+      "lon": 33.6
+    },
+    {
+      "word": "balaclava",
+      "lang": "English",
+      "era": "1880s",
+      "note": "the Battle of Balaclava in October 1854 included the Charge of the Light Brigade; knitted head-coverings sent to freezing British troops in Crimea later took the name",
+      "meaning": "knitted head covering",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a close-fitting woollen hood covering the head and neck"
+}

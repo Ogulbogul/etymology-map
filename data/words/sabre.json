@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "szablya",
+      "lang": "Hungarian",
+      "era": "1400s",
+      "note": "the curved sword of Hungarian light horsemen, the hussars who rose under King Matthias Corvinus; a deeper Turkic source is possible but uncertain",
+      "meaning": "curved sword",
+      "lat": 47.5,
+      "lon": 19.04
+    },
+    {
+      "word": "sabre",
+      "lang": "English",
+      "era": "1680s",
+      "note": "reached English via German Säbel and French sabre; Britain's light cavalry adopted the curved 1796 Pattern sabre, carried at Waterloo in 1815",
+      "meaning": "curved cavalry sword",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a heavy cavalry sword with a curved blade; a light fencing sword"
+}

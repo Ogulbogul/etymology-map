@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "rubl'",
+      "lang": "Old Russian",
+      "era": "1300s",
+      "note": "from rubit' 'to chop': Novgorod used silver bars as money, and a rubl' was a piece chopped from one",
+      "meaning": "chopped piece of silver",
+      "lat": 58.52,
+      "lon": 31.27
+    },
+    {
+      "word": "rubl'",
+      "lang": "Russian",
+      "era": "1704",
+      "note": "Peter the Great's reform made the ruble equal to 100 kopeks, the world's first decimal currency",
+      "meaning": "Russian currency unit",
+      "lat": 59.94,
+      "lon": 30.31
+    },
+    {
+      "word": "ruble",
+      "lang": "English",
+      "era": "1550s",
+      "note": "brought home by merchants of the Muscovy Company, chartered in 1555 to trade with Russia",
+      "meaning": "Russian money",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the basic monetary unit of Russia and Belarus"
+}

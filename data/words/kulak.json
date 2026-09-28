@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kulak",
+      "lang": "Russian",
+      "era": "1800s",
+      "note": "'fist', slang for a tight-fisted village moneylender or better-off peasant",
+      "meaning": "fist; grasping peasant",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "kulak",
+      "lang": "English",
+      "era": "1870s",
+      "note": "became a Soviet class label; in December 1929 Stalin announced the 'liquidation of the kulaks as a class', and deportations of millions followed",
+      "meaning": "prosperous peasant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a relatively wealthy Russian peasant, persecuted under Stalin"
+}

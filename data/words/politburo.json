@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Politbyuro",
+      "lang": "Russian",
+      "era": "1917",
+      "note": "short for Politicheskoe byuro 'Political Bureau', byuro borrowed from French bureau; first formed in October 1917 to lead the Bolshevik uprising, and made permanent in 1919",
+      "meaning": "Party's top policy committee",
+      "lat": 59.94,
+      "lon": 30.31
+    },
+    {
+      "word": "politburo",
+      "lang": "English",
+      "era": "1920s",
+      "note": "used for the Soviet ruling body, and later for the top committees of other Communist parties such as China's",
+      "meaning": "Communist executive committee",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the chief policy-making committee of a Communist party"
+}

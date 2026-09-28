@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "komissar",
+      "lang": "Russian",
+      "era": "1917",
+      "note": "from German Kommissar (Medieval Latin commissarius 'one entrusted'); Lenin's first government of November 1917 was the Council of People's Commissars, a title Trotsky recalled choosing to avoid the word 'minister'",
+      "meaning": "Soviet government head of department",
+      "lat": 59.94,
+      "lon": 30.31
+    },
+    {
+      "word": "commissar",
+      "lang": "English",
+      "era": "1917",
+      "note": "also meant the Red Army's political officers, who from 1918 co-signed commanders' orders to guarantee their loyalty",
+      "meaning": "Communist official",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Communist Party official, especially a political officer in the Red Army"
+}

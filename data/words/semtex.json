@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Semtex",
+      "lang": "Czech",
+      "era": "1960s",
+      "note": "Semtín, a district of Pardubice where it was made, + ex(plosive); the chemist Stanislav Brebera developed it in the 1960s",
+      "meaning": "plastic explosive",
+      "lat": 50.04,
+      "lon": 15.78
+    },
+    {
+      "word": "Semtex",
+      "lang": "English",
+      "era": "1980s",
+      "note": "Czechoslovakia exported tonnes to Libya, which passed much to the IRA; the 1988 Lockerbie bomb used it, and odour markers were added from the 1990s",
+      "meaning": "plastic explosive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a malleable plastic explosive"
+}

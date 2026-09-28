@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ukaz",
+      "lang": "Russian",
+      "era": "1700s",
+      "note": "'decree', from ukazat' 'to show, order'; Peter the Great ruled through thousands of ukazes, among them the 1722 Table of Ranks",
+      "meaning": "tsar's edict",
+      "lat": 59.94,
+      "lon": 30.31
+    },
+    {
+      "word": "ukase",
+      "lang": "English",
+      "era": "1720s",
+      "note": "came in through French ukase; Alexander I's 1821 ukase claiming the Pacific coast down to 51°N provoked US protests that fed into the 1823 Monroe Doctrine",
+      "meaning": "arbitrary decree",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an edict of the Russian tsar; any arbitrary order"
+}

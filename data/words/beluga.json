@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "beluga",
+      "lang": "Russian",
+      "era": "medieval",
+      "note": "from belyi 'white'; the name of the Caspian's giant sturgeon, which can exceed a tonne (the white whale is belukha)",
+      "meaning": "great white sturgeon",
+      "lat": 46.35,
+      "lon": 48.04
+    },
+    {
+      "word": "beluga",
+      "lang": "English",
+      "era": "1590s",
+      "note": "applied first to the sturgeon and later to the white whale; the US banned imports of beluga caviar in 2005 as the fish neared extinction",
+      "meaning": "sturgeon; white whale",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large sturgeon prized for its caviar; a small white Arctic whale"
+}

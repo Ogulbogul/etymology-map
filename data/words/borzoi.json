@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "borzoi",
+      "lang": "Russian",
+      "era": "1600s",
+      "note": "from borzyi 'swift'; Russian nobles hunted wolves with borzoi packs, as in the Rostovs' wolf hunt in Tolstoy's War and Peace (1869)",
+      "meaning": "swift (hound)",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "borzoi",
+      "lang": "English",
+      "era": "1880s",
+      "note": "the breed reached British dog shows in the 1880s; the publisher Alfred A. Knopf took a leaping borzoi as its logo in 1915",
+      "meaning": "Russian wolfhound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tall, slender Russian wolfhound"
+}

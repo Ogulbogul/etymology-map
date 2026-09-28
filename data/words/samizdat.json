@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "samsebyaizdat",
+      "lang": "Russian",
+      "era": "1940s",
+      "note": "the poet Nikolai Glazkov typed his poems as 'Self-Myself-Publishing', mocking official names like Gosizdat 'State Publishing'; shortened to samizdat, it named hand-copied banned texts",
+      "meaning": "self-publishing",
+      "lat": 55.75,
+      "lon": 37.62
+    },
+    {
+      "word": "samizdat",
+      "lang": "English",
+      "era": "1960s",
+      "note": "known in the West as works like Solzhenitsyn's circulated in typescript; A Chronicle of Current Events, the dissident bulletin begun in 1968, was produced this way",
+      "meaning": "clandestine self-publishing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the secret copying and distribution of banned literature, especially in the USSR"
+}

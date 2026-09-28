@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "intellegentia",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'understanding', from intellegere 'to perceive'; Cicero's De Inventione lists it with memory and foresight as the three parts of prudence",
+      "meaning": "understanding, discernment",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "inteligencja",
+      "lang": "Polish",
+      "era": "1844",
+      "note": "the philosopher Karol Libelt, in his 1844 essay 'On Love of the Fatherland', used it for the educated class that should lead the partitioned nation",
+      "meaning": "the educated class",
+      "lat": 52.41,
+      "lon": 16.93
+    },
+    {
+      "word": "intelligentsiya",
+      "lang": "Russian",
+      "era": "1860s",
+      "note": "the novelist Pyotr Boborykin claimed to have brought the word into Russian in the 1860s; it came to mean the radical, reform-minded educated class",
+      "meaning": "educated class",
+      "lat": 59.94,
+      "lon": 30.31
+    },
+    {
+      "word": "intelligentsia",
+      "lang": "English",
+      "era": "1900s",
+      "note": "Western writers adopted it for Russia's intellectuals around the 1905 Revolution, then for intellectuals anywhere",
+      "meaning": "intellectuals as a class",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "intellectuals considered as a group or class"
+}
