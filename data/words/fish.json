@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fiskaz",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "cognate with Latin 'piscis' by Grimm's law",
+      "meaning": "fish",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "fisc",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "the 'sc' sound became 'sh' in Middle English",
+      "meaning": "fish",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "fish",
+      "lang": "English",
+      "era": "1500s",
+      "note": "fish and chips became a British working-class staple in the 1860s",
+      "meaning": "fish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cold-blooded animal living in water, with gills and fins"
+}
