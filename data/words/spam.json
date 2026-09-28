@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Spam",
+      "lang": "American English",
+      "era": "1937",
+      "note": "Hormel Foods of Austin, Minnesota, named its canned pork in 1937 after a naming contest won by actor Ken Daigneau; Lend-Lease shipped it to Britain and the USSR in World War II",
+      "meaning": "canned spiced ham",
+      "lat": 43.67,
+      "lon": -92.97
+    },
+    {
+      "word": "Spam",
+      "lang": "British English",
+      "era": "1970",
+      "note": "Monty Python's 1970 sketch set in a café where every dish comes with Spam, drowned out by Vikings singing 'Spam, Spam, Spam'",
+      "meaning": "something repeated endlessly",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "spam",
+      "lang": "English",
+      "era": "1990s",
+      "note": "online users borrowed the sketch for floods of repeated messages; a 1994 Usenet mass advertisement by the lawyers Canter and Siegel made it notorious",
+      "meaning": "unsolicited bulk messages",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "unwanted bulk messages sent online; a brand of canned meat"
+}

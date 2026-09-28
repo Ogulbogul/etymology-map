@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "electronic mail",
+      "lang": "American English",
+      "era": "1971",
+      "note": "Ray Tomlinson at BBN in Cambridge, Massachusetts, sent the first email between networked computers on ARPANET in 1971 and chose the @ sign for addresses",
+      "meaning": "computer-to-computer messages",
+      "lat": 42.37,
+      "lon": -71.11
+    },
+    {
+      "word": "email",
+      "lang": "English",
+      "era": "1980s",
+      "note": "shortened to e-mail by the early 1980s; the Associated Press style guide dropped the hyphen in 2011",
+      "meaning": "electronic messages",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "messages sent electronically from one computer user to another"
+}

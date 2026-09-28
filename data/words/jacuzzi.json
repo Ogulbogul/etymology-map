@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Jacuzzi",
+      "lang": "Italian",
+      "era": "1900s",
+      "note": "a family from Casarsa della Delizia in Friuli; seven brothers emigrated to California in the 1900s-1920s and built aircraft propellers and pumps",
+      "meaning": "a family name",
+      "lat": 45.95,
+      "lon": 12.84
+    },
+    {
+      "word": "Jacuzzi",
+      "lang": "American English",
+      "era": "1968",
+      "note": "Candido Jacuzzi adapted a pump in 1956 to give hydrotherapy to his son, who had rheumatoid arthritis; Roy Jacuzzi launched the integrated whirlpool bath in 1968",
+      "meaning": "whirlpool bath",
+      "lat": 37.87,
+      "lon": -122.27
+    }
+  ],
+  "current_meaning": "a large bath with underwater jets of water (trademark)"
+}

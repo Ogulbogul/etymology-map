@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Stetson",
+      "lang": "American English",
+      "era": "1865",
+      "note": "John B. Stetson, a New Jersey hatter's son, went west for his health and in 1865 launched the wide-brimmed 'Boss of the Plains' from a Philadelphia workshop",
+      "meaning": "a hat brand",
+      "lat": 39.95,
+      "lon": -75.17
+    },
+    {
+      "word": "stetson",
+      "lang": "English",
+      "era": "1900s",
+      "note": "came to mean any cowboy hat; Western film stars of the 1920s such as Tom Mix made it iconic",
+      "meaning": "cowboy hat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wide-brimmed, high-crowned hat associated with cowboys"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Bell",
+      "lang": "Scots",
+      "era": "1876",
+      "note": "Alexander Graham Bell, born in Edinburgh in 1847, patented the telephone in 1876",
+      "meaning": "a family name",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "decibel",
+      "lang": "American English",
+      "era": "1928",
+      "note": "Latin decimus 'tenth' + bel; Bell Telephone Laboratories named the bel after him in 1928, and the tenth-part decibel became the practical unit",
+      "meaning": "unit of sound level",
+      "lat": 40.74,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a unit measuring the intensity of sound"
+}

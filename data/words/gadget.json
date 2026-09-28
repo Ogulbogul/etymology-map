@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gâchette",
+      "lang": "French",
+      "era": "1400s",
+      "note": "a lock's catch or a gun trigger, one proposed source; French gagée 'tool' is another, and the origin remains uncertain",
+      "meaning": "catch, trigger",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "gadget",
+      "lang": "English",
+      "era": "1880s",
+      "note": "said to be sailors' slang for any small fitting whose name they had forgotten, first printed in Robert Brown's Spunyarn and Spindrift (1886); the first atomic bomb, tested in 1945, was code-named 'the Gadget'",
+      "meaning": "small device",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small mechanical or electronic device"
+}

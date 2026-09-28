@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "holà",
+      "lang": "Old French",
+      "era": "1400s",
+      "note": "ho 'hey' + là 'there', a call to stop or draw attention",
+      "meaning": "hey there!",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "hollo",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a shout to attract attention or urge on hunting hounds, with many variants such as halloo and hallo",
+      "meaning": "a shout",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "hello",
+      "lang": "American English",
+      "era": "1870s",
+      "note": "Thomas Edison urged 'hello' as the telephone greeting in 1877, while Alexander Graham Bell preferred 'ahoy'; early operators were called 'hello girls'",
+      "meaning": "a greeting",
+      "lat": 40.56,
+      "lon": -74.34
+    }
+  ],
+  "current_meaning": "a greeting or expression of surprise"
+}

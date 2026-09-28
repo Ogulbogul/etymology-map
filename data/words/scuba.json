@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "SCUBA",
+      "lang": "American English",
+      "era": "1952",
+      "note": "Self-Contained Underwater Breathing Apparatus, coined in 1952 by Christian Lambertsen, whose rebreather had equipped US combat swimmers in World War II",
+      "meaning": "diver's breathing apparatus",
+      "lat": 39.95,
+      "lon": -75.17
+    },
+    {
+      "word": "scuba",
+      "lang": "English",
+      "era": "1950s",
+      "note": "soon lower-cased and used for Jacques Cousteau and Émile Gagnan's Aqua-Lung, the open-circuit gear they perfected in 1943",
+      "meaning": "underwater breathing gear",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an aqualung; diving with one"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cuetlaxōchitl",
+      "lang": "Nahuatl",
+      "era": "1400s",
+      "note": "the Aztecs grew the flower for red dye and medicine",
+      "meaning": "the poinsettia flower",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "poinsettia",
+      "lang": "American English",
+      "era": "1836",
+      "note": "named after Joel Roberts Poinsett, the first US minister to Mexico, who sent cuttings home to South Carolina in 1828; 12 December, the day he died, is Poinsettia Day",
+      "meaning": "Christmas flower",
+      "lat": 32.78,
+      "lon": -79.93
+    }
+  ],
+  "current_meaning": "a Mexican shrub with large red bracts, popular at Christmas"
+}

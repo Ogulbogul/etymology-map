@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "googol",
+      "lang": "American English",
+      "era": "1920",
+      "note": "the number 10 to the power 100, named in 1920 by nine-year-old Milton Sirotta for his uncle, the mathematician Edward Kasner, who published it in Mathematics and the Imagination (1940)",
+      "meaning": "10^100",
+      "lat": 40.71,
+      "lon": -74.01
+    },
+    {
+      "word": "Google",
+      "lang": "American English",
+      "era": "1997",
+      "note": "Larry Page and Sergey Brin's search engine, whose domain was registered on 15 September 1997 with 'googol' misspelled",
+      "meaning": "a search engine",
+      "lat": 37.43,
+      "lon": -122.17
+    },
+    {
+      "word": "google",
+      "lang": "English",
+      "era": "2000s",
+      "note": "the verb 'to google' entered the Oxford English Dictionary in 2006",
+      "meaning": "to search the web",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to search for information on the internet"
+}

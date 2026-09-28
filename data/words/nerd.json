@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nerd",
+      "lang": "American English",
+      "era": "1950",
+      "note": "first printed as a made-up creature in Dr. Seuss's If I Ran the Zoo (1950); its link to the later slang is uncertain",
+      "meaning": "an imaginary animal",
+      "lat": 32.84,
+      "lon": -117.27
+    },
+    {
+      "word": "nerd",
+      "lang": "American English",
+      "era": "1951",
+      "note": "Newsweek reported in 1951 that Detroit teenagers called a dull person a 'nerd'; computing culture from the 1980s partly rehabilitated it",
+      "meaning": "dull or studious person",
+      "lat": 42.33,
+      "lon": -83.05
+    }
+  ],
+  "current_meaning": "a person seen as overly studious or obsessed with a technical interest"
+}

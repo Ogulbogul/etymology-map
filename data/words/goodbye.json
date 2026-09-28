@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "God be with ye",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a parting blessing, run together in speech; the scholar Gabriel Harvey wrote 'godbwye' in a letter of 1573",
+      "meaning": "God be with you",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "goodbye",
+      "lang": "English",
+      "era": "1600s",
+      "note": "'God' became 'good' by analogy with 'good day' and 'good night'",
+      "meaning": "a farewell",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word used when parting"
+}

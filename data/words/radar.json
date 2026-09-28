@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "radius",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'staff, spoke of a wheel, ray of light'; centuries later the same word gave English 'radiation' and 'radio'",
+      "meaning": "ray, spoke",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "radio",
+      "lang": "English",
+      "era": "1900s",
+      "note": "short for radiotelegraphy; Guglielmo Marconi received the first transatlantic radio signal at St John's, Newfoundland, in December 1901",
+      "meaning": "wireless transmission",
+      "lat": 47.56,
+      "lon": -52.71
+    },
+    {
+      "word": "radar",
+      "lang": "American English",
+      "era": "1940",
+      "note": "a palindrome acronym for RAdio Detection And Ranging, coined in 1940 by US Navy officers Samuel Tucker and F. R. Furth; Britain, which called it RDF, adopted 'radar' in 1943",
+      "meaning": "radio detection system",
+      "lat": 38.9,
+      "lon": -77.04
+    }
+  ],
+  "current_meaning": "a system that detects distant objects using reflected radio waves"
+}

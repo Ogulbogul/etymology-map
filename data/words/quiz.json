@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "quiz",
+      "lang": "English",
+      "era": "1780s",
+      "note": "origin unknown, first meaning an odd or eccentric person; the story that Dublin theatre owner Richard Daly invented it for a bet in 1791 is a later legend",
+      "meaning": "eccentric person; a hoax",
+      "lat": 51.75,
+      "lon": -1.25
+    },
+    {
+      "word": "quiz",
+      "lang": "American English",
+      "era": "1867",
+      "note": "perhaps influenced by 'inquisitive'; US students used it from 1867 for an oral test, and radio quiz shows spread from the late 1930s",
+      "meaning": "short test",
+      "lat": 42.37,
+      "lon": -71.12
+    }
+  ],
+  "current_meaning": "a set of questions as a test or game"
+}

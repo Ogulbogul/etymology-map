@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Mac an Tòisich",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "'son of the toiseach (chieftain)', the name of a Highland clan",
+      "meaning": "son of the chief",
+      "lat": 57.48,
+      "lon": -4.22
+    },
+    {
+      "word": "mackintosh",
+      "lang": "English",
+      "era": "1836",
+      "note": "Glasgow chemist Charles Macintosh patented a waterproof cloth of two fabrics bonded with rubber dissolved in naphtha in 1823; the raincoats named after him gained an extra k",
+      "meaning": "rubberised raincoat",
+      "lat": 55.86,
+      "lon": -4.25
+    }
+  ],
+  "current_meaning": "a full-length waterproof raincoat"
+}

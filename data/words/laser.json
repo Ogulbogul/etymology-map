@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "maser",
+      "lang": "American English",
+      "era": "1954",
+      "note": "Microwave Amplification by Stimulated Emission of Radiation; Charles Townes and colleagues built the first maser at Columbia University in 1954, on principles Einstein described in 1917",
+      "meaning": "microwave amplifier",
+      "lat": 40.81,
+      "lon": -73.96
+    },
+    {
+      "word": "laser",
+      "lang": "American English",
+      "era": "1960",
+      "note": "Light Amplification by Stimulated Emission of Radiation, a term Gordon Gould wrote in his notebook in 1957; Theodore Maiman fired the first working laser at Hughes Research Laboratories in Malibu on 16 May 1960",
+      "meaning": "coherent light beam device",
+      "lat": 34.03,
+      "lon": -118.78
+    }
+  ],
+  "current_meaning": "a device that emits an intense narrow beam of coherent light"
+}

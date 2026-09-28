@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "drákōn",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'serpent', probably 'the one with the deadly glance', from derkesthai 'to see'; the Athenian lawgiver Draco (621 BC) gave us 'draconian'",
+      "meaning": "serpent",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "draco",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "Roman cavalry adopted the draco, a hollow serpent-headed windsock standard, from Sarmatian and Dacian horsemen in the 100s AD",
+      "meaning": "serpent; standard",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "dragon",
+      "lang": "Old French",
+      "era": "1100s",
+      "note": "the dragon-slaying St George became hugely popular in the West after the Crusades",
+      "meaning": "dragon",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dragon",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the red dragon of Wales, Y Ddraig Goch, was officially recognised as the Welsh flag in 1959",
+      "meaning": "mythical winged reptile",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mythical monster like a huge reptile, often breathing fire"
+}
