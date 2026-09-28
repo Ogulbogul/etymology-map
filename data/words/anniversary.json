@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "anniversarius",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'returning yearly', from annus 'year' + vertere 'to turn'",
+      "meaning": "yearly",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "anniversarium",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "a yearly Mass for a dead person on the day of death, which the rich paid for in their wills",
+      "meaning": "yearly memorial Mass",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "anniversary",
+      "lang": "English",
+      "era": "1200s",
+      "note": "widened to any yearly commemoration; the custom of 'silver' and 'golden' wedding anniversaries is recorded from the 1800s",
+      "meaning": "yearly commemoration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the date on which an event took place in a previous year"
+}
