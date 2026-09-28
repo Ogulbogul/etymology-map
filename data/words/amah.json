@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ama",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "'wet nurse', probably from the nursery word amma 'mother' found in Medieval Latin; Portuguese families in Macau used it for local nursemaids",
+      "meaning": "wet nurse",
+      "lat": 22.2,
+      "lon": 113.54
+    },
+    {
+      "word": "amah",
+      "lang": "English",
+      "era": "1800s",
+      "note": "used across British East Asia; from the 1930s many Hong Kong amahs were 'majie', sworn spinsters from Shunde's silk districts who moved into domestic service after the silk industry collapsed",
+      "meaning": "nursemaid, housemaid",
+      "lat": 22.28,
+      "lon": 114.16
+    }
+  ],
+  "current_meaning": "a nursemaid or domestic servant in East or South Asia"
+}

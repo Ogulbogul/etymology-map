@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caipira",
+      "lang": "Brazilian Portuguese",
+      "era": "1800s",
+      "note": "a backwoods countryman of São Paulo's interior, possibly from a Tupi word though the source is disputed; Monteiro Lobato's 1914 character Jeca Tatu fixed the stereotype",
+      "meaning": "country bumpkin",
+      "lat": -23.55,
+      "lon": -46.63
+    },
+    {
+      "word": "caipirinha",
+      "lang": "Brazilian Portuguese",
+      "era": "1900s",
+      "note": "'little bumpkin', a rustic cachaça-lime-sugar drink that a popular story places around Piracicaba in São Paulo state; Brazilian Decree 4,851 of 2003 defines it in law as a typically Brazilian drink",
+      "meaning": "cachaça and lime cocktail",
+      "lat": -22.73,
+      "lon": -47.65
+    },
+    {
+      "word": "caipirinha",
+      "lang": "English",
+      "era": "1900s",
+      "note": "spread through Brazilian bars abroad, and the International Bartenders Association lists it among its official cocktails",
+      "meaning": "Brazilian cocktail",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Brazilian cocktail of cachaça, lime and sugar"
+}

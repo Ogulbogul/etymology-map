@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chakka",
+      "lang": "Malayalam",
+      "era": "medieval",
+      "note": "the tree is native to the Western Ghats of southwest India; Kerala made it its official state fruit in 2018",
+      "meaning": "jackfruit",
+      "lat": 9.93,
+      "lon": 76.26
+    },
+    {
+      "word": "jaca",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "Garcia de Orta's Colóquios dos Simples, printed in Goa in 1563, describes the jaca among the plants of India",
+      "meaning": "jackfruit",
+      "lat": 15.5,
+      "lon": 73.83
+    },
+    {
+      "word": "jackfruit",
+      "lang": "English",
+      "era": "1600s",
+      "note": "English 'jack' from Portuguese, with 'fruit' added; its shredded unripe flesh became a popular meat substitute in the 2010s",
+      "meaning": "large tropical fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a very large tropical fruit of the jack tree"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "favela",
+      "lang": "Portuguese",
+      "era": "1800s",
+      "note": "a thorny shrub (Cnidoscolus quercifolius) covering the Morro da Favela hill at Canudos, in the Bahian backlands, where the army besieged Antônio Conselheiro's settlement in 1896-97",
+      "meaning": "a thorny backlands shrub",
+      "lat": -9.96,
+      "lon": -39.1
+    },
+    {
+      "word": "favela",
+      "lang": "Brazilian Portuguese",
+      "era": "1897",
+      "note": "soldiers back from Canudos, promised housing that never came, settled a hill in Rio de Janeiro and called it Morro da Favela; the name spread to every such settlement",
+      "meaning": "hillside shantytown",
+      "lat": -22.9,
+      "lon": -43.19
+    },
+    {
+      "word": "favela",
+      "lang": "English",
+      "era": "1900s",
+      "note": "used for Brazilian shantytowns; the 2002 film City of God, set in Rio's Cidade de Deus, made the word widely known abroad",
+      "meaning": "Brazilian shantytown",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an informal settlement or shantytown in Brazil"
+}

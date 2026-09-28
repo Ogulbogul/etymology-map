@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cachaça",
+      "lang": "Brazilian Portuguese",
+      "era": "1500s",
+      "note": "first distilled from fermented cane juice on the sugar plantations of Pernambuco and Bahia; the word's origin is disputed, possibly an Iberian term for wine dregs or cane froth",
+      "meaning": "sugar-cane spirit",
+      "lat": -8.05,
+      "lon": -34.9
+    },
+    {
+      "word": "cachaça",
+      "lang": "English",
+      "era": "1900s",
+      "note": "Brazil's Decree 4,062 of 2001 reserves the name for spirit made in Brazil, and in 2013 the US agreed to recognise it as a distinct Brazilian product instead of 'Brazilian rum'",
+      "meaning": "Brazilian cane spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Brazilian spirit distilled from fermented sugar-cane juice"
+}

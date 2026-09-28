@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "coco",
+      "lang": "Portuguese",
+      "era": "1490s",
+      "note": "a grinning bogeyman of Iberian folklore; Vasco da Gama's sailors, reaching India in 1498, reportedly named the nut for the three holes that look like a face",
+      "meaning": "goblin, grinning head",
+      "lat": 38.72,
+      "lon": -9.14
+    },
+    {
+      "word": "coconut",
+      "lang": "English",
+      "era": "1610s",
+      "note": "'coco' plus 'nut'; long misspelled 'cocoa-nut', a confusion with cacao that Samuel Johnson's 1755 Dictionary is often blamed for spreading by running the two entries together",
+      "meaning": "fruit of the coconut palm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the large hard-shelled seed of the coconut palm"
+}

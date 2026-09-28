@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "mantrin",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "from mantra 'counsel'; the Arthashastra, the ancient Indian treatise on statecraft, advises the king to rule with a council of mantrins",
+      "meaning": "counsellor, minister",
+      "lat": 25.32,
+      "lon": 83.01
+    },
+    {
+      "word": "menteri",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "Sanskrit statecraft terms entered Malay through Indianised courts such as Srivijaya; the Malacca Sultanate used menteri for its royal ministers",
+      "meaning": "minister of state",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "word": "mandarim",
+      "lang": "Portuguese",
+      "era": "1500s",
+      "note": "picked up after Afonso de Albuquerque took Malacca in 1511, and reshaped to echo Portuguese mandar 'to command'; from Macau (settled 1557) they applied it to Ming Chinese officials",
+      "meaning": "high official, especially Chinese",
+      "lat": 22.2,
+      "lon": 113.54
+    },
+    {
+      "word": "mandarin",
+      "lang": "English",
+      "era": "1580s",
+      "note": "first appears in Robert Parke's 1588 English translation of Juan González de Mendoza's history of China; the officials' spoken language and, from the 1770s, the small orange later took the name too",
+      "meaning": "Chinese official",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the standard spoken form of Chinese; a powerful bureaucrat; a small loose-skinned orange"
+}
