@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hicket",
+      "lang": "English",
+      "era": "1580s",
+      "note": "an imitation of the sound, like French hoquet and Dutch hik",
+      "meaning": "spasm of the diaphragm",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "hiccup",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the alternative spelling 'hiccough' appeared in the 1620s through a false link with 'cough', though the pronunciation never changed",
+      "meaning": "involuntary spasm; minor setback",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an involuntary spasm of the diaphragm; a minor setback"
+}

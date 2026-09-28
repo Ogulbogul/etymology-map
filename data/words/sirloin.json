@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "surlonge",
+      "lang": "Old French",
+      "era": "1300s",
+      "note": "sur 'above' + longe 'loin', the cut from the upper part of the loin",
+      "meaning": "upper loin",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "sirloin",
+      "lang": "English",
+      "era": "1500s",
+      "note": "first recorded in 1525; the story that a king knighted the joint (told of Henry VIII, James I or Charles II) appears by 1655, but the name is older than all of them",
+      "meaning": "prime beef cut",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the best part of a loin of beef"
+}

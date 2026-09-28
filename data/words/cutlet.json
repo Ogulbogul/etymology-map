@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "costa",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'rib', also the source of 'coast', the 'rib' or side of the land",
+      "meaning": "rib",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "côtelette",
+      "lang": "French",
+      "era": "1600s",
+      "note": "'little rib', a chop cut with its rib bone",
+      "meaning": "small rib chop",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cutlet",
+      "lang": "English",
+      "era": "1700s",
+      "note": "reshaped by association with 'cut'; the Victorian 'cutlet' became a staple of Anglo-Indian cooking",
+      "meaning": "thin slice of meat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small piece of meat from the neck or ribs; a flat croquette"
+}

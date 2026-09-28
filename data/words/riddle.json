@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "rǣdels",
+      "lang": "Old English",
+      "era": "900s",
+      "note": "from rǣdan 'to read, guess, interpret'; the Exeter Book, copied in the late 900s, preserves around ninety Old English riddles",
+      "meaning": "riddle, counsel",
+      "lat": 50.72,
+      "lon": -3.53
+    },
+    {
+      "word": "riddle",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the final s was taken for a plural ending and dropped, while similar words like 'alms' and 'riches' kept theirs",
+      "meaning": "puzzling question",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a question or statement phrased as a puzzle"
+}

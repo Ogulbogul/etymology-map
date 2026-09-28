@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "appendicium",
+      "lang": "Late Latin",
+      "era": "late antiquity",
+      "note": "'an appendage', from appendere 'to hang on'",
+      "meaning": "appendage",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "apentis",
+      "lang": "Anglo-Norman",
+      "era": "1200s",
+      "note": "a lean-to shed built against a larger building",
+      "meaning": "lean-to",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "penthouse",
+      "lang": "English",
+      "era": "1500s",
+      "note": "Middle English pentis was reshaped as if it were a 'house' (and linked with French pente 'slope'); the luxury top-floor flat sense arose in 1920s New York",
+      "meaning": "lean-to; rooftop apartment",
+      "lat": 40.76,
+      "lon": -73.98
+    }
+  ],
+  "current_meaning": "a luxurious flat on the top floor of a tall building"
+}

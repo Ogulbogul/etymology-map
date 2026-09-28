@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prima rosa",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "'first rose', for its early spring flowering, though it is not a rose at all; it may be a reshaping of the older name primerole",
+      "meaning": "first rose",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "primrose",
+      "lang": "English",
+      "era": "1400s",
+      "note": "via Old French primerose; Shakespeare's Hamlet (c. 1600) coined 'the primrose path of dalliance' for the easy road to ruin",
+      "meaning": "pale yellow spring flower",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a common European plant with pale yellow spring flowers"
+}

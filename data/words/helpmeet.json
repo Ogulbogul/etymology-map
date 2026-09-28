@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ʿēzer kənegdô",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "Genesis 2:18, God's promise to make Adam 'a helper corresponding to him'",
+      "meaning": "a fitting helper",
+      "lat": 31.78,
+      "lon": 35.22
+    },
+    {
+      "word": "an help meet for him",
+      "lang": "English",
+      "era": "1611",
+      "note": "the King James Bible's wording, where 'meet' is an adjective meaning 'suitable'",
+      "meaning": "a suitable helper",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "helpmeet",
+      "lang": "English",
+      "era": "1670s",
+      "note": "readers ran 'help meet' together into one noun meaning 'wife', and it was then altered to 'helpmate'",
+      "meaning": "helper, spouse",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a helpful companion or partner, especially a wife"
+}

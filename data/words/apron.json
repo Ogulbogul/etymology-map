@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "mappa",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "a napkin or cloth; the magistrate presiding at the Circus started the chariot races by dropping a white mappa (the same word later gave 'map')",
+      "meaning": "napkin, cloth",
+      "lat": 41.89,
+      "lon": 12.49
+    },
+    {
+      "word": "naperon",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "a small cloth, diminutive of nape 'tablecloth', from mappa; related to English 'napkin'",
+      "meaning": "small cloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "apron",
+      "lang": "English",
+      "era": "1400s",
+      "note": "Middle English napron, a cloth worn in front; 'a napron' was heard as 'an apron', and by the 1500s the n had gone",
+      "meaning": "protective garment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a protective garment worn over the front of one's clothes"
+}
