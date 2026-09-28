@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "brac",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "salty, used for the mixed waters of the Low Countries' estuaries",
+      "meaning": "salty",
+      "lat": 51.22,
+      "lon": 4.4
+    },
+    {
+      "word": "brackish",
+      "lang": "English",
+      "era": "1530s",
+      "note": "formed with the English ending '-ish'",
+      "meaning": "slightly salty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "slightly salty, as water in estuaries"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Hinterland",
+      "lang": "German",
+      "era": "1800s",
+      "note": "'land behind', used in colonial diplomacy for inland territory claimed behind a coastal colony",
+      "meaning": "land behind",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "hinterland",
+      "lang": "English",
+      "era": "1890s",
+      "note": "borrowed during the 'Scramble for Africa'",
+      "meaning": "back country",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the remote areas of a country away from the coast or cities"
+}

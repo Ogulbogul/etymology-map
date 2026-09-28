@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "marct",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a market, from Latin 'mercātus'",
+      "meaning": "market",
+      "lat": 51.21,
+      "lon": 3.22
+    },
+    {
+      "word": "mart",
+      "lang": "English",
+      "era": "1400s",
+      "note": "borrowed through the wool and cloth trade with Flanders; revived in shop names like Kmart in the 1960s",
+      "meaning": "market",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a trading centre or market"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Wolfram",
+      "lang": "German",
+      "era": "1500s",
+      "note": "'wolf's froth', perhaps because the ore 'devoured' tin in smelting like a wolf",
+      "meaning": "wolf's froth",
+      "lat": 50.91,
+      "lon": 13.34
+    },
+    {
+      "word": "wolfram",
+      "lang": "English",
+      "era": "1750s",
+      "note": "tungsten's chemical symbol, W, comes from it",
+      "meaning": "tungsten ore",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "tungsten, or its ore"
+}

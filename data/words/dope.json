@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "doop",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "a dipping sauce, from 'doopen', to dip",
+      "meaning": "sauce",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "dope",
+      "lang": "American English",
+      "era": "1800s",
+      "note": "first a thick sauce, then the thick opium paste smoked in the 1880s, then 'inside information' by 1900",
+      "meaning": "sauce; drug; information",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "drugs; information; a stupid person"
+}

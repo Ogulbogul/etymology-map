@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cavoli rape",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "'cabbage turnips'",
+      "meaning": "cabbage turnips",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "Kohlrabi",
+      "lang": "German",
+      "era": "1600s",
+      "note": "reshaped by German 'Kohl', cabbage",
+      "meaning": "kohlrabi",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "kohlrabi",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed with the vegetable",
+      "meaning": "kohlrabi",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a cabbage with an edible turnip-like stem"
+}

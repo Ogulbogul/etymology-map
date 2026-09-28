@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hominem",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a human being",
+      "meaning": "person",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "hombre",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "man",
+      "meaning": "man",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "hombre",
+      "lang": "American English",
+      "era": "1840s",
+      "note": "'tough hombre' became a stock phrase of Western novels and films",
+      "meaning": "man, tough guy",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a man, especially a tough one"
+}

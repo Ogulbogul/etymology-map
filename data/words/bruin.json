@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bruun",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "'brown', the name of the bear in the tale of Reynard the Fox",
+      "meaning": "brown",
+      "lat": 51.05,
+      "lon": 3.72
+    },
+    {
+      "word": "Bruin",
+      "lang": "English",
+      "era": "1480s",
+      "note": "William Caxton's 1481 translation of 'Reynard the Fox' from Dutch brought the bear's name into English",
+      "meaning": "Bruin (a bear)",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a name for a bear"
+}

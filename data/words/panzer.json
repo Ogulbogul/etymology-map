@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pancier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a coat of mail protecting the belly, from Latin 'pantex', belly",
+      "meaning": "belly armour",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "Panzer",
+      "lang": "German",
+      "era": "medieval",
+      "note": "armour",
+      "meaning": "armour",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "panzer",
+      "lang": "English",
+      "era": "1940",
+      "note": "the Panzer divisions of the Second World War made it familiar",
+      "meaning": "armoured unit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a German armoured vehicle or division"
+}

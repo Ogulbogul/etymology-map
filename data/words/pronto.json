@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "promptus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "ready, at hand",
+      "meaning": "ready",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pronto",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "quick, soon",
+      "meaning": "quickly",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "pronto",
+      "lang": "American English",
+      "era": "1850s",
+      "note": "spread from the Southwest into general slang",
+      "meaning": "right away",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "promptly; quickly"
+}

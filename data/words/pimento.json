@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pigmentum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a pigment; later a spice",
+      "meaning": "pigment, spice",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pimiento",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "the name Spanish explorers gave to the Caribbean's peppers and to allspice",
+      "meaning": "pepper",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "pimento",
+      "lang": "English",
+      "era": "1690s",
+      "note": "Jamaica's allspice trade used the name, which later passed to the sweet red pepper",
+      "meaning": "allspice; sweet pepper",
+      "lat": 18.0,
+      "lon": -76.8
+    }
+  ],
+  "current_meaning": "a sweet red pepper; allspice"
+}

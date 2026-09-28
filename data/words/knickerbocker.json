@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Knickerbocker",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "a Dutch family name in New Netherland",
+      "meaning": "a surname",
+      "lat": 42.65,
+      "lon": -73.75
+    },
+    {
+      "word": "Knickerbocker",
+      "lang": "American English",
+      "era": "1809",
+      "note": "Washington Irving's comic 'History of New York' by 'Diedrich Knickerbocker' made it a name for Dutch New Yorkers",
+      "meaning": "Dutch New Yorker",
+      "lat": 40.71,
+      "lon": -74.01
+    },
+    {
+      "word": "knickerbockers",
+      "lang": "English",
+      "era": "1850s",
+      "note": "named after the knee breeches in the book's illustrations; shortened to 'knickers' in the 1860s",
+      "meaning": "knee breeches",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "loose breeches gathered at the knee"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "boedel",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "an estate or household property",
+      "meaning": "property",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "boodle",
+      "lang": "American English",
+      "era": "1830s",
+      "note": "New York slang for a crowd, then for bribe money in Tammany Hall politics",
+      "meaning": "bribe money",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "money, especially gained by bribery"
+}

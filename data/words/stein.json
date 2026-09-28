@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Stein",
+      "lang": "German",
+      "era": "medieval",
+      "note": "stone",
+      "meaning": "stone",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    {
+      "word": "Steinkrug",
+      "lang": "German",
+      "era": "1600s",
+      "note": "a stoneware jug",
+      "meaning": "stoneware jug",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    {
+      "word": "stein",
+      "lang": "American English",
+      "era": "1850s",
+      "note": "German immigrants' beer halls made it familiar in the United States",
+      "meaning": "beer mug",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a large earthenware beer mug"
+}

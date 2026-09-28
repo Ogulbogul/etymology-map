@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gulden",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "'golden', short for 'gulden florijn', golden florin",
+      "meaning": "golden (coin)",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "guilder",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the Dutch guilder lasted until the euro replaced it in 2002",
+      "meaning": "Dutch coin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the former currency of the Netherlands"
+}

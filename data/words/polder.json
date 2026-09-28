@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "polre",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "reclaimed land enclosed by dikes",
+      "meaning": "reclaimed land",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "polder",
+      "lang": "English",
+      "era": "1600s",
+      "note": "Dutch engineers such as Cornelius Vermuyden drained England's Fens in the 1600s",
+      "meaning": "reclaimed land",
+      "lat": 52.4,
+      "lon": 0.26
+    }
+  ],
+  "current_meaning": "a piece of low-lying land reclaimed from the sea"
+}

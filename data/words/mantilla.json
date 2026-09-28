@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "manta",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a blanket or cloak",
+      "meaning": "cloak",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "mantilla",
+      "lang": "Spanish",
+      "era": "1600s",
+      "note": "'little cloak', worn over a tall comb, the 'peineta'",
+      "meaning": "lace scarf",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "mantilla",
+      "lang": "English",
+      "era": "1710s",
+      "note": "borrowed in travel writing on Spain",
+      "meaning": "lace scarf",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a lace scarf worn over the hair and shoulders"
+}

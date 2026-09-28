@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chorizo",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "of uncertain origin; paprika from the Americas gave it its red colour",
+      "meaning": "sausage",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "chorizo",
+      "lang": "English",
+      "era": "1840s",
+      "note": "borrowed with Spanish and Mexican cooking",
+      "meaning": "spicy sausage",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a spicy pork sausage"
+}

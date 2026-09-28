@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "takel",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a ship's rigging and hoisting gear",
+      "meaning": "rigging",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "takel",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "gear or equipment, especially a ship's",
+      "meaning": "gear",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "tackle",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the sporting sense, to seize an opponent, dates from the 1870s",
+      "meaning": "gear; to grapple",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "equipment for a task; to deal with a problem"
+}

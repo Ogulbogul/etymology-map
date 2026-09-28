@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Realpolitik",
+      "lang": "German",
+      "era": "1853",
+      "note": "coined by the writer Ludwig von Rochau and associated with Bismarck's statecraft",
+      "meaning": "practical politics",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "realpolitik",
+      "lang": "English",
+      "era": "1910s",
+      "note": "borrowed during the First World War era",
+      "meaning": "practical politics",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "politics based on practical rather than moral considerations"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "chaparreras",
+      "lang": "Mexican Spanish",
+      "era": "1800s",
+      "note": "leggings for riding through the thorny 'chaparral'",
+      "meaning": "riding leggings",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "chaps",
+      "lang": "American English",
+      "era": "1880s",
+      "note": "shortened by cowboys",
+      "meaning": "leather leggings",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "leather leggings worn by cowboys"
+}

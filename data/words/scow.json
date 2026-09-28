@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "schouw",
+      "lang": "Dutch",
+      "era": "1600s",
+      "note": "a ferry boat, pushed with a pole",
+      "meaning": "ferry boat",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "scow",
+      "lang": "American English",
+      "era": "1660s",
+      "note": "borrowed from the Dutch of New Netherland",
+      "meaning": "flat-bottomed barge",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a flat-bottomed boat for carrying freight"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "arrugia",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Pliny the Elder used it for mine galleries in Roman Spain",
+      "meaning": "mine gallery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "arroyo",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a stream or gully",
+      "meaning": "stream",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "arroyo",
+      "lang": "American English",
+      "era": "1800s",
+      "note": "used for the dry creek beds of the Southwest",
+      "meaning": "dry gully",
+      "lat": 32.22,
+      "lon": -110.97
+    }
+  ],
+  "current_meaning": "a steep-sided gully cut by running water in an arid region"
+}

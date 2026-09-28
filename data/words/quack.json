@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kwakzalver",
+      "lang": "Dutch",
+      "era": "1500s",
+      "note": "a hawker of salves, from 'kwakken', to chatter or boast, and 'zalf', ointment",
+      "meaning": "salve-seller",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "quacksalver",
+      "lang": "English",
+      "era": "1570s",
+      "note": "borrowed for travelling medicine sellers",
+      "meaning": "fake doctor",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "quack",
+      "lang": "English",
+      "era": "1650s",
+      "note": "shortened from 'quacksalver'",
+      "meaning": "fake doctor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who dishonestly claims medical knowledge"
+}

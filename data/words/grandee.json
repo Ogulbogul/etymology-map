@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "grande",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "great; the 'Grandes de España' could keep their hats on before the king",
+      "meaning": "great",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "grandee",
+      "lang": "English",
+      "era": "1590s",
+      "note": "the ending was reshaped as if it were English '-ee'",
+      "meaning": "great noble",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Spanish or Portuguese nobleman of the highest rank"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "graphein",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "to write",
+      "meaning": "to write",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "Graphit",
+      "lang": "German",
+      "era": "1789",
+      "note": "the mineralogist Abraham Gottlob Werner named it for its use in writing",
+      "meaning": "graphite",
+      "lat": 50.91,
+      "lon": 13.34
+    },
+    {
+      "word": "graphite",
+      "lang": "English",
+      "era": "1790s",
+      "note": "England's Borrowdale mine supplied the graphite for early pencils",
+      "meaning": "graphite",
+      "lat": 54.52,
+      "lon": -3.17
+    }
+  ],
+  "current_meaning": "a soft black form of carbon used in pencils"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "macho",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "male, from Latin 'masculus'",
+      "meaning": "male",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "machismo",
+      "lang": "Mexican Spanish",
+      "era": "1900s",
+      "note": "exaggerated masculinity",
+      "meaning": "male pride",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "machismo",
+      "lang": "English",
+      "era": "1940s",
+      "note": "borrowed in writing about Mexican and Latin American society",
+      "meaning": "male chauvinism",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "strong or aggressive masculine pride"
+}

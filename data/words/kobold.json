@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kobold",
+      "lang": "German",
+      "era": "medieval",
+      "note": "a household spirit; miners blamed kobolds for worthless ores, which gave the name 'cobalt'",
+      "meaning": "goblin",
+      "lat": 50.91,
+      "lon": 13.34
+    },
+    {
+      "word": "kobold",
+      "lang": "English",
+      "era": "1830s",
+      "note": "borrowed with German folklore",
+      "meaning": "goblin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mischievous household spirit or mine goblin in German folklore"
+}

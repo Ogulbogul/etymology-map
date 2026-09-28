@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Hertz",
+      "lang": "German",
+      "era": "1880s",
+      "note": "the surname of the physicist Heinrich Hertz, who proved the existence of electromagnetic waves at Karlsruhe in 1887",
+      "meaning": "Hertz (a surname)",
+      "lat": 49.01,
+      "lon": 8.4
+    },
+    {
+      "word": "hertz",
+      "lang": "English",
+      "era": "1930",
+      "note": "adopted as the unit of frequency by the International Electrotechnical Commission in 1930",
+      "meaning": "unit of frequency",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the unit of frequency, one cycle per second"
+}

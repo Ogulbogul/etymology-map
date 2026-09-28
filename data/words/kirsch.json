@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Kirschwasser",
+      "lang": "German",
+      "era": "1700s",
+      "note": "'cherry water', a speciality of the Black Forest",
+      "meaning": "cherry brandy",
+      "lat": 48.0,
+      "lon": 8.2
+    },
+    {
+      "word": "kirsch",
+      "lang": "English",
+      "era": "1810s",
+      "note": "shortened from 'kirschwasser'",
+      "meaning": "cherry brandy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a brandy distilled from cherries"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Feldspat",
+      "lang": "German",
+      "era": "1700s",
+      "note": "'field spar', from 'Feld', field, and 'Spat', a flaky mineral; English later linked it to 'Fels', rock",
+      "meaning": "field spar",
+      "lat": 50.91,
+      "lon": 13.34
+    },
+    {
+      "word": "feldspar",
+      "lang": "English",
+      "era": "1750s",
+      "note": "borrowed from German mineralogy",
+      "meaning": "feldspar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a common rock-forming mineral"
+}

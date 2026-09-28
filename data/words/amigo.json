@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "amīcus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a friend, from 'amāre', to love",
+      "meaning": "friend",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "amigo",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "friend",
+      "meaning": "friend",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "amigo",
+      "lang": "American English",
+      "era": "1830s",
+      "note": "picked up in Texas and the Southwest",
+      "meaning": "friend",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a friend"
+}

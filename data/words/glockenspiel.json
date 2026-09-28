@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Glockenspiel",
+      "lang": "German",
+      "era": "1600s",
+      "note": "'bell play', a set of bells; Mozart wrote a part for one in 'The Magic Flute' of 1791",
+      "meaning": "bell play",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "glockenspiel",
+      "lang": "English",
+      "era": "1820s",
+      "note": "borrowed for the orchestral instrument",
+      "meaning": "glockenspiel",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a percussion instrument of tuned metal bars"
+}

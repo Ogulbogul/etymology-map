@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "briza",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "probably the Spanish word for the north-east trade wind of the Caribbean",
+      "meaning": "north-east wind",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "breeze",
+      "lang": "English",
+      "era": "1560s",
+      "note": "sailors first used it for the Caribbean trade wind; by the 1620s it meant any light wind",
+      "meaning": "gentle wind",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a gentle wind"
+}

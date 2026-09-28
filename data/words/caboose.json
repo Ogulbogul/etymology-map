@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kabuis",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "a ship's galley or cooking cabin",
+      "meaning": "ship's galley",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "caboose",
+      "lang": "English",
+      "era": "1740s",
+      "note": "first a ship's galley",
+      "meaning": "ship's galley",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "caboose",
+      "lang": "American English",
+      "era": "1850s",
+      "note": "transferred to the crew car at the rear of a freight train",
+      "meaning": "rear train car",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "the crew's car at the end of a freight train"
+}

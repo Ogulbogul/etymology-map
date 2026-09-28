@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "snappen",
+      "lang": "Low German",
+      "era": "medieval",
+      "note": "to snap or gulp",
+      "meaning": "to snap",
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    {
+      "word": "Schnaps",
+      "lang": "German",
+      "era": "1700s",
+      "note": "a dram or gulp of liquor",
+      "meaning": "dram",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "schnapps",
+      "lang": "English",
+      "era": "1810s",
+      "note": "borrowed for German and Dutch spirits",
+      "meaning": "spirit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a strong alcoholic spirit"
+}

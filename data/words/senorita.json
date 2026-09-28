@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "senior",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "older, the source of 'sire' and 'sir'",
+      "meaning": "older",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "señorita",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "'little lady', a diminutive of 'señora'",
+      "meaning": "young lady",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "senorita",
+      "lang": "English",
+      "era": "1820s",
+      "note": "borrowed in accounts of Spain and Mexico",
+      "meaning": "young lady",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young or unmarried Spanish-speaking woman"
+}

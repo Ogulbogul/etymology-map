@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dapper",
+      "lang": "Middle Dutch",
+      "era": "medieval",
+      "note": "brave, strong; German 'tapfer', brave, is a cousin",
+      "meaning": "brave",
+      "lat": 52.37,
+      "lon": 4.9
+    },
+    {
+      "word": "dapper",
+      "lang": "English",
+      "era": "1400s",
+      "note": "its meaning shifted to 'neat and smart'",
+      "meaning": "neatly dressed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "neat and trim in dress and appearance"
+}

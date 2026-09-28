@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Schwindler",
+      "lang": "German",
+      "era": "1700s",
+      "note": "a giddy, fanciful person, then a cheat, from 'schwindeln', to be dizzy",
+      "meaning": "cheat",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "swindler",
+      "lang": "English",
+      "era": "1760s",
+      "note": "borrowed in London; the verb 'swindle' was formed from it",
+      "meaning": "cheat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who cheats others out of money"
+}

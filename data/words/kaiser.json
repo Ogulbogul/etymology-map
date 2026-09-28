@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "Caesar",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the family name of Julius Caesar, which became an imperial title",
+      "meaning": "Caesar",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "kaisar",
+      "lang": "Gothic",
+      "era": "ancient",
+      "note": "borrowed very early by Germanic peoples in contact with Rome",
+      "meaning": "emperor",
+      "lat": 45.0,
+      "lon": 28.0
+    },
+    {
+      "word": "Kaiser",
+      "lang": "German",
+      "era": "medieval",
+      "note": "the title of the Holy Roman Emperors and later of Germany's and Austria's emperors",
+      "meaning": "emperor",
+      "lat": 48.21,
+      "lon": 16.37
+    },
+    {
+      "word": "kaiser",
+      "lang": "English",
+      "era": "1850s",
+      "note": "used above all for Kaiser Wilhelm II of the First World War",
+      "meaning": "German emperor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a German or Austrian emperor"
+}

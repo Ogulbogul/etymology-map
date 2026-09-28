@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Xalapan",
+      "lang": "Nahuatl",
+      "era": "pre-1500s",
+      "note": "'sand by the water', the name of the town now called Xalapa",
+      "meaning": "sand by the water",
+      "lat": 19.54,
+      "lon": -96.91
+    },
+    {
+      "word": "jalapeño",
+      "lang": "Mexican Spanish",
+      "era": "1800s",
+      "note": "'from Xalapa', the capital of Veracruz, where the pepper was grown and sold",
+      "meaning": "from Xalapa",
+      "lat": 19.54,
+      "lon": -96.91
+    },
+    {
+      "word": "jalapeño",
+      "lang": "American English",
+      "era": "1940s",
+      "note": "spread with Tex-Mex food",
+      "meaning": "hot green chilli",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a hot green chilli pepper"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Wismut",
+      "lang": "German",
+      "era": "1400s",
+      "note": "a word of the silver miners of Schneeberg in Saxony, of uncertain origin",
+      "meaning": "bismuth",
+      "lat": 50.6,
+      "lon": 12.64
+    },
+    {
+      "word": "bisemutum",
+      "lang": "Modern Latin",
+      "era": "1546",
+      "note": "the mineralogist Georgius Agricola Latinized the miners' word",
+      "meaning": "bismuth",
+      "lat": 50.6,
+      "lon": 12.64
+    },
+    {
+      "word": "bismuth",
+      "lang": "English",
+      "era": "1660s",
+      "note": "borrowed into chemistry",
+      "meaning": "bismuth",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a brittle reddish-white metallic element"
+}

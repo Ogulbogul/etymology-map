@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "txapar",
+      "lang": "Basque",
+      "era": "medieval",
+      "note": "a thicket",
+      "meaning": "thicket",
+      "lat": 43.26,
+      "lon": -2.93
+    },
+    {
+      "word": "chaparro",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a dwarf evergreen oak",
+      "meaning": "scrub oak",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "chaparral",
+      "lang": "American English",
+      "era": "1850s",
+      "note": "used for California's scrub-covered hills",
+      "meaning": "shrubland",
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  ],
+  "current_meaning": "dense thorny shrubland, especially in California"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cingula",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a girdle, from 'cingere', to gird",
+      "meaning": "girdle",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cincha",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a saddle girth",
+      "meaning": "saddle girth",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "cinch",
+      "lang": "American English",
+      "era": "1850s",
+      "note": "from a tight girth, 'a cinch' came to mean a sure thing by the 1880s",
+      "meaning": "girth; certainty",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a saddle girth; a certainty"
+}

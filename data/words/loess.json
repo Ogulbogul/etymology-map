@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Löss",
+      "lang": "German",
+      "era": "1820s",
+      "note": "the geologist Karl Cäsar von Leonhard named the Rhine valley's loose silt from Alemannic 'lösch', loose",
+      "meaning": "loose soil",
+      "lat": 49.4,
+      "lon": 8.67
+    },
+    {
+      "word": "loess",
+      "lang": "English",
+      "era": "1830s",
+      "note": "applied to vast deposits such as China's Loess Plateau",
+      "meaning": "windblown silt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fine windblown silt forming fertile soils"
+}

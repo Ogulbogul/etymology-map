@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "embarcar",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "to embark, from 'barca', boat",
+      "meaning": "to embark",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "embarcadero",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "a landing place for boats",
+      "meaning": "landing place",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "Embarcadero",
+      "lang": "American English",
+      "era": "1840s",
+      "note": "San Francisco's waterfront road keeps the name",
+      "meaning": "wharf",
+      "lat": 37.77,
+      "lon": -122.42
+    }
+  ],
+  "current_meaning": "a wharf or landing place"
+}

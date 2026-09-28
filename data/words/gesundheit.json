@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Gesundheit",
+      "lang": "German",
+      "era": "medieval",
+      "note": "health, from 'gesund', healthy",
+      "meaning": "health",
+      "lat": 50.11,
+      "lon": 8.68
+    },
+    {
+      "word": "gesundheit",
+      "lang": "American English",
+      "era": "1910s",
+      "note": "German immigrants brought the blessing to the United States",
+      "meaning": "bless you",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "said to someone who has sneezed"
+}
