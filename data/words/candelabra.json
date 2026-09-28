@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "candēlābrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a candlestick, from 'candēla', candle",
+      "meaning": "candlestick",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "candelabra",
+      "lang": "English",
+      "era": "1810s",
+      "note": "English took the Latin plural as a singular, and even gave it a new plural, 'candelabras'",
+      "meaning": "branched candlestick",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large branched candlestick"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "impetus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an attack or rush, from 'impetere', to assail",
+      "meaning": "attack, force",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "impetus",
+      "lang": "Medieval Latin",
+      "era": "1300s",
+      "note": "the Paris philosopher Jean Buridan used it for the force that keeps a thrown object moving",
+      "meaning": "moving force",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "impetus",
+      "lang": "English",
+      "era": "1640s",
+      "note": "borrowed into English science, and later for any driving force",
+      "meaning": "driving force",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the force that makes something happen or move"
+}

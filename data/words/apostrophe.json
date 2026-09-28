@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "apostrophos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'turned away', i.e. the mark for a letter that has been left out",
+      "meaning": "omission mark",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "apostrophus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used by Roman grammarians",
+      "meaning": "apostrophe",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "apostrophe",
+      "lang": "French",
+      "era": "1500s",
+      "note": "printers made the mark standard in French typography",
+      "meaning": "apostrophe",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "apostrophe",
+      "lang": "English",
+      "era": "1580s",
+      "note": "its use for the possessive, as in 'the king's', became standard only in the 1700s",
+      "meaning": "apostrophe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the punctuation mark ' used for omitted letters or possession"
+}

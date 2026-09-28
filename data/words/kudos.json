@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kydos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "glory or renown, a word of Homer's epics",
+      "meaning": "glory",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "kudos",
+      "lang": "English",
+      "era": "1830s",
+      "note": "Oxford and Cambridge students used it as slang; many later mistook it for a plural and invented 'kudo'",
+      "meaning": "praise, prestige",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "praise and honour for an achievement"
+}

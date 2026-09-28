@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pauper",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "poor; the root of 'poverty' and 'poor'",
+      "meaning": "poor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pauper",
+      "lang": "English",
+      "era": "1510s",
+      "note": "from the legal phrase 'in forma pauperis', letting the poor sue without paying court fees",
+      "meaning": "poor person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a very poor person"
+}

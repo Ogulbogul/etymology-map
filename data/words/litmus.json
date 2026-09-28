@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "litmosi",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "'dye-moss', from 'litr', colour, and 'mosi', moss: lichens used for dyeing",
+      "meaning": "dye moss",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "lakmoes",
+      "lang": "Middle Dutch",
+      "era": "1400s",
+      "note": "Dutch dyers processed the lichen into a blue dye",
+      "meaning": "lichen dye",
+      "lat": 51.05,
+      "lon": 3.72
+    },
+    {
+      "word": "litmus",
+      "lang": "English",
+      "era": "1500s",
+      "note": "chemists used litmus paper to test acids; 'litmus test' as a decisive test dates from the 1950s",
+      "meaning": "acid-base indicator",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a dye from lichens that turns red in acid and blue in alkali"
+}

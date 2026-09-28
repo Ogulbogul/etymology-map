@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "akmē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a point or edge; the peak of anything",
+      "meaning": "peak, point",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "acme",
+      "lang": "English",
+      "era": "1570s",
+      "note": "early English writers often printed it in Greek letters; the Acme company of Road Runner cartoons later made it a comic byword",
+      "meaning": "peak",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the highest point of achievement or excellence"
+}

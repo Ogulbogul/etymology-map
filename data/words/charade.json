@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "charrado",
+      "lang": "Occitan",
+      "era": "1700s",
+      "note": "chatter, idle talk",
+      "meaning": "chatter",
+      "lat": 43.6,
+      "lon": 1.44
+    },
+    {
+      "word": "charade",
+      "lang": "French",
+      "era": "1700s",
+      "note": "a riddle game, first written, later acted out",
+      "meaning": "word riddle",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "charade",
+      "lang": "English",
+      "era": "1770s",
+      "note": "acted charades became a favourite Victorian parlour game; 'a charade' as a pretence dates from the 1900s",
+      "meaning": "guessing game",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a game of acting out words for others to guess"
+}

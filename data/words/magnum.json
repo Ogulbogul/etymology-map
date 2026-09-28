@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "magnum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "neuter of 'magnus', great, as in 'magnitude' and 'magnificent'",
+      "meaning": "great",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "magnum",
+      "lang": "English",
+      "era": "1780s",
+      "note": "first a two-quart bottle of wine or spirits; the .357 Magnum revolver cartridge of 1935 borrowed the name",
+      "meaning": "large wine bottle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a wine bottle holding twice the standard amount"
+}

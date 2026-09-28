@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "consortium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "partnership, from 'consors', one who shares the same lot or fate",
+      "meaning": "partnership",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "consortium",
+      "lang": "English",
+      "era": "1820s",
+      "note": "first a legal term for the partnership of marriage; the business sense spread in the 1900s",
+      "meaning": "association of companies",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an association of companies or organizations"
+}

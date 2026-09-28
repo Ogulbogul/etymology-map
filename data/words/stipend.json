@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stīpendium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a Roman soldier's pay, from 'stips', small coin, and 'pendere', to weigh out",
+      "meaning": "soldier's pay",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "stipend",
+      "lang": "English",
+      "era": "1400s",
+      "note": "came to mean the salary of a clergyman, and later of students and trainees",
+      "meaning": "regular allowance",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fixed regular payment, such as a salary for a clergyman or student"
+}

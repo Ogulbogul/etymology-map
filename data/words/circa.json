@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "circa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'around', from 'circus', ring",
+      "meaning": "around",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "circa",
+      "lang": "English",
+      "era": "1860s",
+      "note": "taken up by historians and cataloguers, usually shortened to 'c.' before a date",
+      "meaning": "approximately",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "approximately (used with dates)"
+}

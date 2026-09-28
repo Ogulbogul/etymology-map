@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "imprimātur",
+      "lang": "Modern Latin",
+      "era": "1500s",
+      "note": "'let it be printed', the formula by which Catholic Church censors licensed books after the invention of printing",
+      "meaning": "let it be printed",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "imprimatur",
+      "lang": "English",
+      "era": "1640s",
+      "note": "John Milton's 'Areopagitica' (1644) mocked the imprimaturs required under England's licensing laws",
+      "meaning": "official approval",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official licence to print a book; official approval"
+}

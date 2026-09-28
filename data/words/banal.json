@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ban",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a lord's proclamation or jurisdiction, from Frankish",
+      "meaning": "proclamation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "banal",
+      "lang": "French",
+      "era": "1200s",
+      "note": "belonging to the feudal lord's 'ban': a mill or oven that all his tenants had to use",
+      "meaning": "compulsory, common",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "banal",
+      "lang": "English",
+      "era": "1840s",
+      "note": "from 'shared by everyone' it came to mean commonplace and trite",
+      "meaning": "commonplace",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "so ordinary as to be boring"
+}

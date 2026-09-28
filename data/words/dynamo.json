@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dynamis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "power, force; also the root of 'dynamic' and 'dynamite'",
+      "meaning": "power",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "dynamoelektrische Maschine",
+      "lang": "German",
+      "era": "1867",
+      "note": "the engineer Werner von Siemens named his generator the 'dynamo-electric machine'",
+      "meaning": "electric generator",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "dynamo",
+      "lang": "English",
+      "era": "1880s",
+      "note": "shortened from 'dynamo-electric machine'; 'a human dynamo' dates from the 1900s",
+      "meaning": "generator; energetic person",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a machine that turns mechanical energy into electricity"
+}

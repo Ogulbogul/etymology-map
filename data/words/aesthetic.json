@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "aisthētikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "relating to perception by the senses",
+      "meaning": "perceptive",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "Ästhetik",
+      "lang": "German",
+      "era": "1750s",
+      "note": "the philosopher Alexander Baumgarten used it for a science of taste and beauty",
+      "meaning": "theory of beauty",
+      "lat": 51.48,
+      "lon": 11.97
+    },
+    {
+      "word": "aesthetic",
+      "lang": "English",
+      "era": "1790s",
+      "note": "first a theory of sense perception; the 1880s 'Aesthetic Movement' of Oscar Wilde's circle made it fashionable",
+      "meaning": "relating to beauty",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "concerned with beauty or the appreciation of beauty"
+}

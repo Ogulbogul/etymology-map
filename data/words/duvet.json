@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "duvet",
+      "lang": "French",
+      "era": "1700s",
+      "note": "down, the soft feathers of birds",
+      "meaning": "down",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "duvet",
+      "lang": "English",
+      "era": "1750s",
+      "note": "long a rarity in Britain; Terence Conran's Habitat shops popularized the 'continental quilt' in the 1960s",
+      "meaning": "quilt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thick soft quilt used instead of blankets"
+}

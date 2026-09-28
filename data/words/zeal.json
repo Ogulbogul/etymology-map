@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "zēlos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "ardour, eager rivalry; the Zealots of 1st-century Judea took their name from it",
+      "meaning": "ardour",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "zēlus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used in the Latin Bible for fervour, especially religious",
+      "meaning": "zeal",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "zeal",
+      "lang": "English",
+      "era": "1300s",
+      "note": "appears in the Wycliffite Bible of the 1380s",
+      "meaning": "enthusiasm",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "great energy or enthusiasm for a cause"
+}

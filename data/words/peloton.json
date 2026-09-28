@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pelote",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a ball, from Latin 'pila'",
+      "meaning": "ball",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "peloton",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a little ball, then a small body of soldiers; English 'platoon' comes from it",
+      "meaning": "platoon, group",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "peloton",
+      "lang": "English",
+      "era": "1950s",
+      "note": "taken from French cycling reports, above all of the Tour de France",
+      "meaning": "pack of cyclists",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the main group of cyclists in a road race"
+}

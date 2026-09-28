@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vikker",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "willow twigs, related to Swedish 'vika', to bend",
+      "meaning": "willow twig",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "wiker",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "borrowed from Norse settlers",
+      "meaning": "pliant twig",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "wicker",
+      "lang": "English",
+      "era": "1500s",
+      "note": "wicker baskets and furniture became especially fashionable in the 1800s",
+      "meaning": "woven twigs",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "pliable twigs woven into furniture or baskets"
+}

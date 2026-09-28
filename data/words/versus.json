@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "versus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'turned toward', from 'vertere', to turn; later 'against'",
+      "meaning": "toward, against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "versus",
+      "lang": "English",
+      "era": "1440s",
+      "note": "used in naming law cases, abbreviated 'v.' or 'vs.'",
+      "meaning": "against",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "against, especially in a legal case or sports contest"
+}

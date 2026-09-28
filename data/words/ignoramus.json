@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ignōrāmus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'we do not know', from 'ignōrāre'",
+      "meaning": "we do not know",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ignoramus",
+      "lang": "English",
+      "era": "1610s",
+      "note": "grand juries wrote it on indictments they rejected; George Ruggle's 1615 play 'Ignoramus' made it the name of a foolish lawyer",
+      "meaning": "ignorant person",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "an ignorant or stupid person"
+}

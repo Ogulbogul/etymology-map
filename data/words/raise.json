@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "reisa",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to make rise, the causative of 'rísa', to rise",
+      "meaning": "to raise",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "reisen",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "borrowed alongside native 'rear', which comes from the same ancient root",
+      "meaning": "to raise",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "raise",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'a raise' in pay is American, from the 1890s",
+      "meaning": "to lift",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to lift or move to a higher position"
+}

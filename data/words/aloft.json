@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "á lopti",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "'in the air' or 'in the upper room', from 'lopt', air, loft",
+      "meaning": "in the air",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "on lofte",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "borrowed in the Norse-speaking north of England",
+      "meaning": "aloft",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "aloft",
+      "lang": "English",
+      "era": "1500s",
+      "note": "sailors went 'aloft' into the rigging",
+      "meaning": "up high",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "up in the air; overhead"
+}

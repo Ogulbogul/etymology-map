@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nostrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'our own', neuter of 'noster', ours",
+      "meaning": "our own",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nostrum",
+      "lang": "English",
+      "era": "1600s",
+      "note": "quack doctors sold remedies of 'our own' secret making; by the 1700s it meant any pet cure-all or scheme",
+      "meaning": "quack remedy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quack medicine; a pet scheme for solving a problem"
+}

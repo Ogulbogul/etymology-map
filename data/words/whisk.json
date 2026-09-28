@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "visk",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a wisp or bundle of straw",
+      "meaning": "wisp",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "wisk",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "a quick sweeping movement",
+      "meaning": "swift movement",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "whisk",
+      "lang": "English",
+      "era": "1660s",
+      "note": "a bundle of twigs or wire used for beating eggs",
+      "meaning": "beating tool",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a kitchen tool for beating eggs or cream; to move quickly"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gæslingr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a young goose",
+      "meaning": "gosling",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "gesling",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "the native form, reshaped by the Norse word",
+      "meaning": "young goose",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "gosling",
+      "lang": "English",
+      "era": "1400s",
+      "note": "remodelled on 'goose'",
+      "meaning": "young goose",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young goose"
+}

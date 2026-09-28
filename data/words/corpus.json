@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "corpus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "body, the root of 'corpse', 'corporal' and 'corporation'",
+      "meaning": "body",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "corpus",
+      "lang": "English",
+      "era": "1720s",
+      "note": "used for a whole body of writings; 'corpus delicti', the body of a crime, entered English law",
+      "meaning": "collection of texts",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a collection of written texts; a body"
+}

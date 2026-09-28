@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Marion",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a pet form of Marie, Mary",
+      "meaning": "little Mary",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marionnette",
+      "lang": "French",
+      "era": "1500s",
+      "note": "perhaps first used for figures of the Virgin Mary; later any puppet",
+      "meaning": "puppet",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "marionette",
+      "lang": "English",
+      "era": "1620s",
+      "note": "borrowed with French puppet shows",
+      "meaning": "string puppet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a puppet worked by strings"
+}

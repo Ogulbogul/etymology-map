@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "spehōn",
+      "lang": "Frankish",
+      "era": "medieval",
+      "note": "a Germanic verb, to watch or look out; English 'spy' comes from the same root",
+      "meaning": "to watch",
+      "lat": 49.26,
+      "lon": 4.03
+    },
+    {
+      "word": "spione",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a spy",
+      "meaning": "spy",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "espionnage",
+      "lang": "French",
+      "era": "1700s",
+      "note": "formed from 'espion', spy, borrowed from Italian",
+      "meaning": "spying",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "espionage",
+      "lang": "English",
+      "era": "1790s",
+      "note": "borrowed in the years of the French Revolutionary Wars",
+      "meaning": "spying",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the practice of spying"
+}

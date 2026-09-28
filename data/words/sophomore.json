@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sophos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "wise, as in 'philosophy'",
+      "meaning": "wise",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "sophister",
+      "lang": "English",
+      "era": "1500s",
+      "note": "Cambridge students in their second and third years were called sophisters, from their exercises in debate",
+      "meaning": "student debater",
+      "lat": 52.2,
+      "lon": 0.12
+    },
+    {
+      "word": "sophomore",
+      "lang": "American English",
+      "era": "1700s",
+      "note": "altered from 'sophumer'; it died out at Cambridge but Harvard and other American colleges kept it, and it was later explained as Greek 'wise fool'",
+      "meaning": "second-year student",
+      "lat": 42.37,
+      "lon": -71.12
+    }
+  ],
+  "current_meaning": "a second-year student at a US high school or college"
+}

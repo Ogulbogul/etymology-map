@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "snagi",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a peg or projecting point",
+      "meaning": "peg, point",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "snag",
+      "lang": "English",
+      "era": "1570s",
+      "note": "a jagged stump; river 'snags' wrecked many American steamboats, and by the 1830s a snag was any hidden obstacle",
+      "meaning": "obstacle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unexpected obstacle; a sharp projection"
+}

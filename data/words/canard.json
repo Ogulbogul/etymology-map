@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "canard",
+      "lang": "French",
+      "era": "medieval",
+      "note": "a duck, from the old verb 'caner', to cackle",
+      "meaning": "duck",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "canard",
+      "lang": "French",
+      "era": "1700s",
+      "note": "from the saying 'vendre un canard à moitié', to half-sell a duck, i.e. to swindle, it came to mean a hoax or false news",
+      "meaning": "hoax",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "canard",
+      "lang": "English",
+      "era": "1850s",
+      "note": "borrowed in journalism for a false report",
+      "meaning": "false rumour",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unfounded rumour or false story"
+}

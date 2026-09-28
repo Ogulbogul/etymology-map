@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "búð",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a temporary dwelling, from 'búa', to dwell; the Icelandic Althing assembly met in booths",
+      "meaning": "hut, stall",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "bothe",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "a market stall at fairs",
+      "meaning": "stall",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "booth",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the telephone booth dates from the 1890s",
+      "meaning": "small enclosure",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small temporary structure for selling goods or voting"
+}

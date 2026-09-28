@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ultimātus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "'final', from Latin 'ultimus', last",
+      "meaning": "last, final",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ultimatum",
+      "lang": "English",
+      "era": "1730s",
+      "note": "taken from diplomatic Latin for the last terms offered before war",
+      "meaning": "final demand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a final demand, with threatened consequences if refused"
+}

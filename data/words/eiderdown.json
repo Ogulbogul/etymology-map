@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "æðardúnn",
+      "lang": "Icelandic",
+      "era": "medieval",
+      "note": "down gathered from the nests of the eider duck, still harvested on Iceland's coasts",
+      "meaning": "eider down",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "eiderdown",
+      "lang": "English",
+      "era": "1770s",
+      "note": "came to mean a quilt stuffed with it",
+      "meaning": "down quilt",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quilt stuffed with down; the soft down of the eider duck"
+}

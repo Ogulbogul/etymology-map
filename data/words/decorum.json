@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "decōrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'that which is fitting', from 'decēre', to be fitting; Horace made it a rule of poetry",
+      "meaning": "what is fitting",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "decorum",
+      "lang": "English",
+      "era": "1560s",
+      "note": "borrowed through Renaissance literary theory, then applied to manners",
+      "meaning": "propriety",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "behaviour in keeping with good taste and propriety"
+}

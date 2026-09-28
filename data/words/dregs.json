@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dreggjar",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "sediment, lees",
+      "meaning": "sediment",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "dreg",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "borrowed in the north of England",
+      "meaning": "sediment",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "dregs",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'the dregs of society' dates from the 1500s",
+      "meaning": "sediment; the worst part",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the sediment at the bottom of a liquid; the most worthless part"
+}

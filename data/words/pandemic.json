@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pandēmos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'of all the people', from 'pan', all, and 'dēmos', people",
+      "meaning": "of all the people",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pandemic",
+      "lang": "English",
+      "era": "1660s",
+      "note": "an adjective at first, then a noun from the 1850s; Merriam-Webster named it the word of the year in 2020",
+      "meaning": "worldwide outbreak",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an outbreak of disease across a whole country or the world"
+}

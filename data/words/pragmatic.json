@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pragmatikos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "skilled in business, from 'pragma', deed, affair",
+      "meaning": "businesslike",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pragmaticus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "experienced in law or business",
+      "meaning": "practical",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pragmatic",
+      "lang": "English",
+      "era": "1610s",
+      "note": "the philosophy of 'pragmatism', named by Charles Sanders Peirce in the 1870s, gave it its modern sense",
+      "meaning": "practical",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "dealing with things sensibly and realistically"
+}

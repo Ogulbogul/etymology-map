@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "agnōstos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "unknown, unknowable; Paul's sermon in Athens mentions an altar 'to an unknown god'",
+      "meaning": "unknown",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "agnostic",
+      "lang": "English",
+      "era": "1869",
+      "note": "coined by the biologist Thomas Huxley at a meeting of the Metaphysical Society in London",
+      "meaning": "one who holds God unknowable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who believes nothing can be known about God"
+}

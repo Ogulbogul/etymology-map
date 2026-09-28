@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vindáss",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "'winding pole', from 'vinda', to wind, and 'áss', pole",
+      "meaning": "winding beam",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "windas",
+      "lang": "Anglo-Norman",
+      "era": "1200s",
+      "note": "borrowed into the French of medieval England",
+      "meaning": "winch",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "windlass",
+      "lang": "English",
+      "era": "1400s",
+      "note": "reshaped by the English verb 'windle', to wind",
+      "meaning": "winch",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a winch for hauling or hoisting, especially on a ship"
+}

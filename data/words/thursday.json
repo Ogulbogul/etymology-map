@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "diēs Iovis",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'Jupiter's day'; Germanic peoples matched Jupiter with their own thunder god",
+      "meaning": "Jupiter's day",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Þunresdæg",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "'Thunor's day', named for the thunder god",
+      "meaning": "Thunor's day",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "Þórsdagr",
+      "lang": "Old Norse",
+      "era": "800s-1000s",
+      "note": "Viking settlers' 'Thor's day' reshaped the English word",
+      "meaning": "Thor's day",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "Thursday",
+      "lang": "English",
+      "era": "1200s",
+      "note": "the Norse-influenced 'Thurs-' replaced 'Thunres-' by the 1200s",
+      "meaning": "Thursday",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the day of the week before Friday"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sker",
+      "lang": "Old Norse",
+      "era": "800s-1000s",
+      "note": "a rock in the sea",
+      "meaning": "sea rock",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "skerry",
+      "lang": "Orkney Norn",
+      "era": "medieval",
+      "note": "survived in the Norse language of Orkney and Shetland",
+      "meaning": "rocky islet",
+      "lat": 58.98,
+      "lon": -2.96
+    },
+    {
+      "word": "skerry",
+      "lang": "English",
+      "era": "1610s",
+      "note": "used for the rocky islets of Scotland's coasts",
+      "meaning": "rocky islet",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "a small rocky island or reef"
+}

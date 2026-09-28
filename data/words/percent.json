@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "per centum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'by the hundred'",
+      "meaning": "by the hundred",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "per cento",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "Italian merchants and bankers used it in commercial arithmetic; its abbreviation slowly became the % sign",
+      "meaning": "per hundred",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "per cent",
+      "lang": "English",
+      "era": "1560s",
+      "note": "written 'per cent.' with a full stop, as an abbreviation of 'per centum', into the 1900s",
+      "meaning": "per hundred",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "out of every hundred"
+}

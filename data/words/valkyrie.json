@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "valkyrja",
+      "lang": "Old Norse",
+      "era": "800s-1200s",
+      "note": "'chooser of the slain', from 'valr', the slain, and 'kjósa', to choose",
+      "meaning": "chooser of the slain",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "valkyrie",
+      "lang": "English",
+      "era": "1760s",
+      "note": "reintroduced through translations of Norse poetry; Wagner's opera 'Die Walküre' (1870) made it famous",
+      "meaning": "Norse battle-maiden",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in Norse mythology, one of Odin's maidens who chose the slain for Valhalla"
+}

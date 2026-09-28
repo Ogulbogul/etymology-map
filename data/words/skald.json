@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "skáld",
+      "lang": "Old Norse",
+      "era": "800s-1200s",
+      "note": "court poets, many of them Icelanders such as Egill Skallagrímsson, praised Norwegian kings in intricate verse",
+      "meaning": "poet",
+      "lat": 64.15,
+      "lon": -21.94
+    },
+    {
+      "word": "skald",
+      "lang": "English",
+      "era": "1760s",
+      "note": "English readers met Norse poetry through translations such as Thomas Percy's 'Five Pieces of Runic Poetry' of 1763",
+      "meaning": "Norse court poet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an ancient Scandinavian poet, especially at a royal court"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pan + horama",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'all' plus 'view, sight'",
+      "meaning": "all-view",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "panorama",
+      "lang": "English",
+      "era": "1789",
+      "note": "coined by the Irish painter Robert Barker for his 360-degree paintings, shown in a rotunda in London's Leicester Square from 1793",
+      "meaning": "wide view",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "an unbroken view of a whole region"
+}

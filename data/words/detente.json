@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "détendre",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to slacken, from Latin 'dētendere', to loosen",
+      "meaning": "to relax, slacken",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "détente",
+      "lang": "French",
+      "era": "1600s",
+      "note": "the trigger of a crossbow or gun, which releases the tension; later a relaxing of tension between states",
+      "meaning": "release; relaxation",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "détente",
+      "lang": "English",
+      "era": "1900s",
+      "note": "became a key word of the Cold War in the 1970s, when the US and the Soviet Union sought to ease tensions",
+      "meaning": "easing of tensions",
+      "lat": 38.9,
+      "lon": -77.04
+    }
+  ],
+  "current_meaning": "the easing of hostility between countries"
+}
