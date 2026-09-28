@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fal-de-ral",
+      "lang": "English",
+      "era": "1700s",
+      "note": "a meaningless refrain in songs, like 'fa-la-la'",
+      "meaning": "song refrain",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "falderal",
+      "lang": "English",
+      "era": "1820s",
+      "note": "came to mean a trifle, then nonsense; 'folderol' is a common variant",
+      "meaning": "nonsense, trifle",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "nonsense; a showy but worthless trifle"
+}

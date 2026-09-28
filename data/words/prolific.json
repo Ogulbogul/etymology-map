@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "prōlēs",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "offspring; also the root of 'proletarian', a citizen whose only wealth was his children",
+      "meaning": "offspring",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prolificus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "formed by scholars with '-ficus', making",
+      "meaning": "producing offspring",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "prolifique",
+      "lang": "French",
+      "era": "1500s",
+      "note": "used in French medicine and natural history",
+      "meaning": "fertile",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "prolific",
+      "lang": "English",
+      "era": "1640s",
+      "note": "first said of fertile plants, animals and people; later of writers and artists",
+      "meaning": "fertile, productive",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "producing much fruit, many offspring, or many works"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "autos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'self', the root of 'automatic' and 'autonomy'",
+      "meaning": "self",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "Autismus",
+      "lang": "German",
+      "era": "1911",
+      "note": "coined in Zurich by the psychiatrist Eugen Bleuler for patients' withdrawal into themselves",
+      "meaning": "self-absorption",
+      "lat": 47.37,
+      "lon": 8.54
+    },
+    {
+      "word": "autism",
+      "lang": "English",
+      "era": "1912",
+      "note": "Leo Kanner's 1943 paper in Baltimore described it as a condition of its own; Hans Asperger's work in Vienna followed in 1944",
+      "meaning": "developmental condition",
+      "lat": 39.29,
+      "lon": -76.61
+    }
+  ],
+  "current_meaning": "a developmental condition affecting communication, social interaction and patterns of behaviour"
+}
