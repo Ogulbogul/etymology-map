@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "síbín",
+      "lang": "Irish",
+      "era": "1700s",
+      "note": "origin disputed, perhaps from séibe 'mug, measure'; these unlicensed drinking dens often sold untaxed poitín",
+      "meaning": "illicit drinking house",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "shebeen",
+      "lang": "English",
+      "era": "1780s",
+      "note": "carried abroad by Irish emigrants; in South Africa, township shebeens such as those of Soweto served Black drinkers barred from licensed bars until the liquor laws changed in 1961-62",
+      "meaning": "unlicensed bar",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unlicensed bar, especially in Ireland, Scotland or South Africa"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bogach",
+      "lang": "Irish",
+      "era": "medieval",
+      "note": "from bog 'soft'; peat bog, like the vast Bog of Allen in the Irish midlands, once covered about a sixth of Ireland",
+      "meaning": "soft wet ground",
+      "lat": 53.3,
+      "lon": -7.0
+    },
+    {
+      "word": "bog",
+      "lang": "English",
+      "era": "1500s",
+      "note": "taken into English during the Tudor wars in Ireland; bogs preserve 'bog bodies' such as Clonycavan Man, an Iron Age man found in County Meath in 2003",
+      "meaning": "wet spongy ground",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "wet, spongy ground of decaying plant matter; (British slang) a toilet"
+}

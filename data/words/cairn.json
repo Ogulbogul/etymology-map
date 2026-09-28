@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "càrn",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "a heap of stones; the Cairngorm mountains take their name from An Càrn Gorm, 'the blue cairn'",
+      "meaning": "heap of stones",
+      "lat": 57.08,
+      "lon": -3.67
+    },
+    {
+      "word": "cairn",
+      "lang": "English",
+      "era": "1500s",
+      "note": "used for prehistoric burial mounds like Orkney's chambered cairn of Maeshowe (c. 2800 BC); the Skye-bred Cairn terrier later played Toto in the 1939 film The Wizard of Oz",
+      "meaning": "memorial or landmark stone heap",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "a mound of stones built as a memorial or landmark"
+}

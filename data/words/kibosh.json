@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "caidhp bháis",
+      "lang": "Irish",
+      "era": "1800s",
+      "note": "'cap of death', the black cap a judge put on to pass a death sentence; one proposed source among several (Yiddish and the heraldic 'caboshed' are others), so the origin is unsettled",
+      "meaning": "cap of death",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "kibosh",
+      "lang": "English",
+      "era": "1830s",
+      "note": "first recorded in Charles Dickens's Sketches by Boz (1836) as 'kye-bosk'",
+      "meaning": "something that ends a matter",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "(put the kibosh on) to put a decisive end to something"
+}

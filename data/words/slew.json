@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "slúag",
+      "lang": "Old Irish",
+      "era": "medieval",
+      "note": "'host, army'; joined with gairm 'cry' as sluagh-ghairm, the battle cry, it is also the source of English 'slogan'",
+      "meaning": "host, crowd",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "slew",
+      "lang": "American English",
+      "era": "1839",
+      "note": "first recorded in the US in 1839, in decades of heavy Irish immigration that peaked with the Great Famine of 1845-52",
+      "meaning": "a large number",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a large number or quantity"
+}

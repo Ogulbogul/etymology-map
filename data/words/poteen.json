@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "poitín",
+      "lang": "Irish",
+      "era": "1600s",
+      "note": "'little pot', for the small pot still; Irish law banned it in 1661, and legal production only returned in 1997",
+      "meaning": "illicit spirit",
+      "lat": 53.27,
+      "lon": -9.05
+    },
+    {
+      "word": "poteen",
+      "lang": "English",
+      "era": "1810s",
+      "note": "the illicit Irish spirit; Bob Quinn's film Poitín (1978) was the first feature film made entirely in Irish",
+      "meaning": "Irish moonshine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "strong Irish spirit, traditionally distilled illegally from potatoes or grain"
+}

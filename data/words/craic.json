@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "crack",
+      "lang": "Scots",
+      "era": "1700s",
+      "note": "'chat, gossip', from the verb crack 'talk loudly'; Robert Burns's Epistle to J. Lapraik (1785) mentions gathering 'to ca' the crack'",
+      "meaning": "chat, gossip",
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    {
+      "word": "craic",
+      "lang": "Irish",
+      "era": "1970s",
+      "note": "Ulster and Irish English used 'crack' for fun and banter; the Gaelic spelling craic, a borrowing back from English, spread from the 1970s",
+      "meaning": "fun, good times",
+      "lat": 53.35,
+      "lon": -6.26
+    }
+  ],
+  "current_meaning": "(Irish) fun, lively conversation and a good time"
+}

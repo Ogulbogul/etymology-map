@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "Boycott",
+      "lang": "English",
+      "era": "1832",
+      "note": "a surname; Charles Boycott was born in 1832 at Burgh St Peter, Norfolk, where his father was rector",
+      "meaning": "a family name",
+      "lat": 52.47,
+      "lon": 1.66
+    },
+    {
+      "word": "boycott",
+      "lang": "English",
+      "era": "1880",
+      "note": "as land agent for Lord Erne at Lough Mask, County Mayo, Boycott was ostracised in 1880 under the Land League tactic urged by Charles Stewart Parnell; French, German and Russian soon borrowed the word",
+      "meaning": "to refuse all dealings with",
+      "lat": 53.6,
+      "lon": -9.3
+    }
+  ],
+  "current_meaning": "to refuse to deal with a person, organisation or country as a protest"
+}

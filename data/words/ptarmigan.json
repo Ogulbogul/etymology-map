@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tàrmachan",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "the mountain grouse that turns white in winter, found on high Scottish tops such as the Cairngorms",
+      "meaning": "ptarmigan",
+      "lat": 57.08,
+      "lon": -3.67
+    },
+    {
+      "word": "ptarmigan",
+      "lang": "English",
+      "era": "1680s",
+      "note": "the silent p- was added by Sir Robert Sibbald in his Scotia Illustrata (1684), wrongly assuming a Greek origin like pteron 'wing'",
+      "meaning": "mountain grouse",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "a grouse of mountain and Arctic regions that turns white in winter"
+}

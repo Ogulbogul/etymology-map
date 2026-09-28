@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "claidheamh mòr",
+      "lang": "Scottish Gaelic",
+      "era": "1500s",
+      "note": "'great sword', the two-handed sword of Highland warriors, carved on the late medieval West Highland grave slabs of Argyll and Iona",
+      "meaning": "great sword",
+      "lat": 57.48,
+      "lon": -4.22
+    },
+    {
+      "word": "claymore",
+      "lang": "English",
+      "era": "1700s",
+      "note": "by the Jacobite rising of 1745-46 it usually meant the basket-hilted broadsword; the US Army's Claymore mine of the 1960s borrowed the name",
+      "meaning": "Highland broadsword",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "a large Scottish broadsword"
+}

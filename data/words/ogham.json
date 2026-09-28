@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ogam",
+      "lang": "Old Irish",
+      "era": "400s",
+      "note": "an alphabet of notches cut along the edge of a stone; around 400 inscriptions survive, most in southern Ireland, and medieval tradition credited its invention to the god Ogma",
+      "meaning": "ogham script",
+      "lat": 52.1,
+      "lon": -9.8
+    },
+    {
+      "word": "ogham",
+      "lang": "English",
+      "era": "1620s",
+      "note": "scholars could read the stones thanks to a key preserved in the Book of Ballymote, a manuscript of about 1390",
+      "meaning": "early Irish alphabet",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an ancient Irish alphabet of strokes along a line or stone edge"
+}

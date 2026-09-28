@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gille",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "'lad, servant'; it survives in surnames like Gilchrist, 'servant of Christ', and Gillespie, 'servant of the bishop'",
+      "meaning": "lad, servant",
+      "lat": 57.48,
+      "lon": -4.22
+    },
+    {
+      "word": "gillie",
+      "lang": "English",
+      "era": "1590s",
+      "note": "a Highland hunting or fishing attendant; Queen Victoria's confidant John Brown began as a gillie at Balmoral",
+      "meaning": "sporting attendant",
+      "lat": 57.04,
+      "lon": -3.23
+    }
+  ],
+  "current_meaning": "an attendant on a hunting or fishing trip in Scotland or Ireland"
+}

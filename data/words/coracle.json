@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "corwgl",
+      "lang": "Welsh",
+      "era": "medieval",
+      "note": "a round boat of wicker covered with hide (later tarred cloth); coracle-men still fish the River Teifi at Cenarth",
+      "meaning": "round boat",
+      "lat": 52.04,
+      "lon": -4.53
+    },
+    {
+      "word": "coracle",
+      "lang": "English",
+      "era": "1540s",
+      "note": "an ancient craft: Julius Caesar's Civil War describes him copying British-style boats of wicker and hide in Spain in 49 BC",
+      "meaning": "small round boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small round boat of wickerwork covered with watertight material"
+}

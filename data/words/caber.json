@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cabar",
+      "lang": "Scottish Gaelic",
+      "era": "medieval",
+      "note": "'pole, rafter', also 'antler': Caber Féidh, 'deer's antler', is the badge and pipe tune of Clan Mackenzie",
+      "meaning": "pole, rafter",
+      "lat": 57.48,
+      "lon": -4.22
+    },
+    {
+      "word": "caber",
+      "lang": "English",
+      "era": "1500s",
+      "note": "tossing the caber is the centrepiece of Highland games; Queen Victoria first attended the Braemar Gathering in 1848, starting its royal patronage",
+      "meaning": "tree trunk tossed in Highland games",
+      "lat": 57.01,
+      "lon": -3.4
+    }
+  ],
+  "current_meaning": "a long heavy wooden pole tossed end over end in Scottish Highland games"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tolmen",
+      "lang": "Cornish",
+      "era": "medieval",
+      "note": "'hole of stone', used for holed stones such as the Men-an-Tol in west Cornwall; one proposed source of 'dolmen'",
+      "meaning": "holed stone",
+      "lat": 50.16,
+      "lon": -5.6
+    },
+    {
+      "word": "dolmen",
+      "lang": "French",
+      "era": "1796",
+      "note": "used by Théophile-Malo de La Tour d'Auvergne, a Breton-born officer and antiquary, for megalithic 'stone tables', perhaps also thinking of Breton taol 'table' + men 'stone'",
+      "meaning": "megalithic tomb",
+      "lat": 48.28,
+      "lon": -3.57
+    },
+    {
+      "word": "dolmen",
+      "lang": "English",
+      "era": "1850s",
+      "note": "taken from French archaeology; Ireland's Poulnabrone dolmen in the Burren is over 5,000 years old",
+      "meaning": "prehistoric stone tomb",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a prehistoric tomb of upright stones capped by a large flat stone"
+}
