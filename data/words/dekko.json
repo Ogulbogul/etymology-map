@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dekho",
+      "lang": "Hindi",
+      "era": "1800s",
+      "note": "'look!', the command form of 'dekhnā', to see",
+      "meaning": "look!",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "dekko",
+      "lang": "English",
+      "era": "1890s",
+      "note": "British Army slang from India: 'have a dekko'",
+      "meaning": "a look",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a quick look"
+}

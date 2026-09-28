@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "maṣāliḥ",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "things needed, ingredients",
+      "meaning": "necessities",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "masāla",
+      "lang": "Urdu",
+      "era": "medieval",
+      "note": "spices, ingredients; 'masala' films mix every genre",
+      "meaning": "spices",
+      "lat": 26.85,
+      "lon": 80.95
+    },
+    {
+      "word": "masala",
+      "lang": "English",
+      "era": "1780s",
+      "note": "'chicken tikka masala' became a British favourite in the late 1900s",
+      "meaning": "spice mix",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a mixture of ground spices used in Indian cooking"
+}

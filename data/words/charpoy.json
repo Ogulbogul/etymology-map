@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chahār-pāy",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "'four feet'",
+      "meaning": "four-footed",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "chārpāī",
+      "lang": "Urdu",
+      "era": "medieval",
+      "note": "the everyday string bed of South Asia",
+      "meaning": "string bed",
+      "lat": 26.85,
+      "lon": 80.95
+    },
+    {
+      "word": "charpoy",
+      "lang": "English",
+      "era": "1840s",
+      "note": "borrowed in British India",
+      "meaning": "string bed",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a light bedstead of webbing on a wooden frame"
+}

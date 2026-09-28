@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "intifāḍa",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "'a shaking off', from 'nafaḍa', to shake",
+      "meaning": "shaking off",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "intifada",
+      "lang": "English",
+      "era": "1987",
+      "note": "entered English with the Palestinian uprising that began in Gaza in December 1987",
+      "meaning": "uprising",
+      "lat": 31.5,
+      "lon": 34.47
+    }
+  ],
+  "current_meaning": "a Palestinian uprising"
+}

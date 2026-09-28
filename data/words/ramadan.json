@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ramaḍān",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "from 'ramaḍ', scorching heat, since in the old calendar the month fell in summer",
+      "meaning": "the hot month",
+      "lat": 21.42,
+      "lon": 39.83
+    },
+    {
+      "word": "Ramadan",
+      "lang": "English",
+      "era": "1590s",
+      "note": "borrowed in travellers' accounts of the Islamic world",
+      "meaning": "month of fasting",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the ninth month of the Islamic calendar, observed as a month of fasting"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "zalābiya",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "described in al-Baghdadi's cookbook of 1226",
+      "meaning": "fried sweet",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "zulbiya",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "a fritter soaked in syrup, still made for Ramadan in Iran",
+      "meaning": "syrup fritter",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "jalebī",
+      "lang": "Hindi",
+      "era": "1400s",
+      "note": "spread through India with Persian cooking",
+      "meaning": "syrup spiral",
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    {
+      "word": "jalebi",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed with Indian sweets",
+      "meaning": "syrup-soaked spiral",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a South Asian sweet of fried batter spirals soaked in syrup"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tiff",
+      "lang": "English",
+      "era": "1700s",
+      "note": "dialect slang for a sip of liquor",
+      "meaning": "a sip",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "tiffing",
+      "lang": "Anglo-Indian",
+      "era": "1800s",
+      "note": "British officials in India called their light midday meal 'tiffing'",
+      "meaning": "light lunch",
+      "lat": 22.57,
+      "lon": 88.36
+    },
+    {
+      "word": "tiffin",
+      "lang": "English",
+      "era": "1800s",
+      "note": "Mumbai's 'dabbawalas' still deliver home-cooked lunches in stacked tiffin tins",
+      "meaning": "light meal",
+      "lat": 19.08,
+      "lon": 72.88
+    }
+  ],
+  "current_meaning": "a light meal, especially lunch, in India"
+}

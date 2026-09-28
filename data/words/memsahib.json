@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ṣāḥib",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "a companion, then a master",
+      "meaning": "companion, master",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "mem-sāhib",
+      "lang": "Anglo-Indian",
+      "era": "1850s",
+      "note": "'mem', from English 'ma'am', plus 'sahib', master",
+      "meaning": "madam",
+      "lat": 22.57,
+      "lon": 88.36
+    },
+    {
+      "word": "memsahib",
+      "lang": "English",
+      "era": "1850s",
+      "note": "used in and about the British Raj",
+      "meaning": "European lady in India",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a European married woman in colonial India"
+}

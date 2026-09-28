@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ḥalāl",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "permitted, lawful",
+      "meaning": "permitted",
+      "lat": 21.42,
+      "lon": 39.83
+    },
+    {
+      "word": "halal",
+      "lang": "English",
+      "era": "1850s",
+      "note": "halal butchers spread in British cities from the 1960s",
+      "meaning": "permitted (food)",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "food prepared according to Islamic law"
+}

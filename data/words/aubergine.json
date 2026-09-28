@@ -1,0 +1,59 @@
+{
+  "stops": [
+    {
+      "word": "vātiṅgaṇa",
+      "lang": "Sanskrit",
+      "era": "ancient",
+      "note": "the eggplant, native to South Asia",
+      "meaning": "eggplant",
+      "lat": 23.18,
+      "lon": 75.78
+    },
+    {
+      "word": "bādingān",
+      "lang": "Persian",
+      "era": "medieval",
+      "note": "eggplant",
+      "meaning": "eggplant",
+      "lat": 32.65,
+      "lon": 51.67
+    },
+    {
+      "word": "al-bādhinjān",
+      "lang": "Arabic",
+      "era": "medieval",
+      "note": "Arab farmers spread the plant around the Mediterranean",
+      "meaning": "the eggplant",
+      "lat": 33.31,
+      "lon": 44.36
+    },
+    {
+      "word": "albergínia",
+      "lang": "Catalan",
+      "era": "medieval",
+      "note": "borrowed in Moorish Spain",
+      "meaning": "eggplant",
+      "lat": 41.39,
+      "lon": 2.17
+    },
+    {
+      "word": "aubergine",
+      "lang": "French",
+      "era": "1700s",
+      "note": "from Catalan",
+      "meaning": "eggplant",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aubergine",
+      "lang": "English",
+      "era": "1790s",
+      "note": "British English kept the French name; Americans say 'eggplant', from the white egg-shaped variety",
+      "meaning": "eggplant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an eggplant"
+}
