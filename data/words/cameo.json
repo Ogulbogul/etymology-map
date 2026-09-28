@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cammaeus",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "of unknown origin",
+      "meaning": "carved gem",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cameo",
+      "lang": "Italian",
+      "era": "1400s",
+      "note": "Renaissance collectors prized carved gems, ancient and new",
+      "meaning": "cameo",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "cameo",
+      "lang": "English",
+      "era": "1560s",
+      "note": "'cameo role', a small but notable part, dates from the 1920s",
+      "meaning": "carved gem; brief role",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small relief carving on a gem; a brief appearance by a well-known actor"
+}

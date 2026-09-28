@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "corral",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "an enclosure or yard, perhaps from Vulgar Latin 'currale', a pen for carts",
+      "meaning": "enclosure",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "corral",
+      "lang": "Mexican Spanish",
+      "era": "1600s",
+      "note": "used for livestock pens on the cattle ranches of northern New Spain",
+      "meaning": "livestock pen",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "corral",
+      "lang": "American English",
+      "era": "1820s",
+      "note": "taken up by Anglo settlers and cowboys in Texas and the Southwest",
+      "meaning": "livestock pen",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a pen for livestock, especially horses or cattle"
+}

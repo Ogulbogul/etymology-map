@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cantāre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to sing",
+      "meaning": "to sing",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "cantata",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "'a sung piece', as opposed to a 'sonata', a played piece",
+      "meaning": "sung piece",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "cantata",
+      "lang": "English",
+      "era": "1720s",
+      "note": "J. S. Bach wrote over 200 church cantatas in Leipzig in the same period",
+      "meaning": "vocal work",
+      "lat": 51.34,
+      "lon": 12.37
+    }
+  ],
+  "current_meaning": "a medium-length vocal work with instruments"
+}

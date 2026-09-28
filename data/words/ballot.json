@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "palla",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a ball",
+      "meaning": "ball",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "ballotta",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "'little ball': Venice's councils voted by dropping small balls into urns, especially when electing the Doge",
+      "meaning": "voting ball",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "ballot",
+      "lang": "English",
+      "era": "1540s",
+      "note": "Britain's Ballot Act of 1872 introduced the secret ballot",
+      "meaning": "vote",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a process of voting in writing and in secret"
+}

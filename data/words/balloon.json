@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "palla",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a ball",
+      "meaning": "ball",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "pallone",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "'large ball', used in a ball game",
+      "meaning": "big ball",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "ballon",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a large ball",
+      "meaning": "large ball",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "balloon",
+      "lang": "English",
+      "era": "1570s",
+      "note": "the Montgolfier brothers' hot-air balloon of 1783 gave it its flying sense",
+      "meaning": "balloon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bag inflated with air or gas"
+}

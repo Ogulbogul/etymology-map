@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Pantalone",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "the miserly Venetian merchant of the commedia dell'arte, named after St Pantaleon, popular in Venice, and dressed in tight trousers",
+      "meaning": "Pantalone (a character)",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "pantalon",
+      "lang": "French",
+      "era": "1600s",
+      "note": "trousers like the character's",
+      "meaning": "trousers",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pantaloon",
+      "lang": "English",
+      "era": "1590s",
+      "note": "Americans shortened 'pantaloons' to 'pants' in the 1840s",
+      "meaning": "comic old man; trousers",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a foolish old man in comedy; (plural) baggy trousers"
+}

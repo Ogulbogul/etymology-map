@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "simila",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the finest wheat flour",
+      "meaning": "fine flour",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "semolino",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a diminutive of 'semola', bran",
+      "meaning": "semolina",
+      "lat": 40.85,
+      "lon": 14.27
+    },
+    {
+      "word": "semolina",
+      "lang": "English",
+      "era": "1790s",
+      "note": "became a staple of British school puddings",
+      "meaning": "wheat grains",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "coarse grains of durum wheat used for pasta and puddings"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pingere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to paint",
+      "meaning": "to paint",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pinto",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "painted, spotted",
+      "meaning": "painted",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "pinto",
+      "lang": "American English",
+      "era": "1860s",
+      "note": "used for spotted horses of the Great Plains, and for the speckled pinto bean",
+      "meaning": "piebald horse",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a horse with irregular white and dark patches"
+}

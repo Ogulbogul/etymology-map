@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sabe",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "'he knows', from 'saber', to know; Portuguese 'sabe' is the same",
+      "meaning": "knows",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "savvy",
+      "lang": "English",
+      "era": "1780s",
+      "note": "spread through the pidgin of sailors and traders in the Caribbean and Africa: '¿sabe usted?', do you know?",
+      "meaning": "know-how",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "shrewd; practical knowledge"
+}

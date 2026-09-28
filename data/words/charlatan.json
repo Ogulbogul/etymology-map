@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "ciarlare",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "to chatter or babble",
+      "meaning": "to chatter",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "ciarlatano",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a market quack; the word may also recall the travelling medicine sellers of Cerreto in Umbria",
+      "meaning": "quack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "charlatan",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a mountebank",
+      "meaning": "mountebank",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "charlatan",
+      "lang": "English",
+      "era": "1610s",
+      "note": "first a travelling seller of remedies",
+      "meaning": "impostor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person falsely claiming special knowledge or skill"
+}

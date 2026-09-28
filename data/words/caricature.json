@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "caricare",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "to load, overload",
+      "meaning": "to load",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "caricatura",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "'an overloading'; the Bolognese painter Annibale Carracci is credited with the art of exaggerated portraits",
+      "meaning": "exaggerated portrait",
+      "lat": 44.49,
+      "lon": 11.34
+    },
+    {
+      "word": "caricature",
+      "lang": "English",
+      "era": "1740s",
+      "note": "came via French; William Hogarth and James Gillray made it a British art",
+      "meaning": "comic exaggeration",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a picture exaggerating a person's features for comic effect"
+}

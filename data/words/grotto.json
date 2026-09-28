@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kryptē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a vault or hidden place",
+      "meaning": "vault",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "crypta",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "an underground passage",
+      "meaning": "crypt",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "grotta",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a cave; Renaissance gardens were full of artificial grottoes",
+      "meaning": "cave",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "grotto",
+      "lang": "English",
+      "era": "1610s",
+      "note": "Alexander Pope built a famous grotto at his Twickenham villa in the 1720s",
+      "meaning": "cave",
+      "lat": 51.45,
+      "lon": -0.33
+    }
+  ],
+  "current_meaning": "a small picturesque cave, especially an artificial one"
+}

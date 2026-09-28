@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cucaracha",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "perhaps from 'cuca', a kind of caterpillar",
+      "meaning": "cockroach",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "cacarootch",
+      "lang": "English",
+      "era": "1620s",
+      "note": "Captain John Smith wrote in 1624 of 'a certaine India Bug, called by the Spaniards a Cacarootch'",
+      "meaning": "cockroach",
+      "lat": 37.21,
+      "lon": -76.78
+    },
+    {
+      "word": "cockroach",
+      "lang": "English",
+      "era": "1600s",
+      "note": "folk etymology reshaped the strange word into two familiar ones, 'cock' and 'roach'",
+      "meaning": "household pest",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a beetle-like insect that is a household pest"
+}

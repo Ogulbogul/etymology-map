@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stuhhi",
+      "lang": "Lombardic",
+      "era": "medieval",
+      "note": "a crust or piece, a Germanic word of the Lombards",
+      "meaning": "crust",
+      "lat": 45.19,
+      "lon": 9.16
+    },
+    {
+      "word": "stucco",
+      "lang": "Italian",
+      "era": "1400s",
+      "note": "Renaissance and Baroque craftsmen made lavish stucco decoration",
+      "meaning": "plaster",
+      "lat": 45.46,
+      "lon": 9.19
+    },
+    {
+      "word": "stucco",
+      "lang": "English",
+      "era": "1590s",
+      "note": "borrowed for rendered plaster walls and moulding",
+      "meaning": "plaster",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fine plaster used on walls and ceilings"
+}

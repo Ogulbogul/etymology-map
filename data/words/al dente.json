@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "al dente",
+      "lang": "Italian",
+      "era": "1900s",
+      "note": "'to the tooth', the Italian test for perfectly cooked pasta",
+      "meaning": "to the tooth",
+      "lat": 40.85,
+      "lon": 14.27
+    },
+    {
+      "word": "al dente",
+      "lang": "English",
+      "era": "1930s",
+      "note": "spread with Italian cooking in Britain and America",
+      "meaning": "firm to the bite",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "cooked so as to be still firm when bitten"
+}

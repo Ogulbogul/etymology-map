@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sotto voce",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "'under the voice', a direction in music and theatre",
+      "meaning": "under the voice",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "sotto voce",
+      "lang": "English",
+      "era": "1730s",
+      "note": "used for asides and whispered remarks",
+      "meaning": "quietly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in a quiet voice, as if not to be overheard"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "stīpāre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to pack or cram",
+      "meaning": "to pack",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "estibador",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a packer of cargo, from 'estibar', to stow",
+      "meaning": "cargo packer",
+      "lat": 36.53,
+      "lon": -6.29
+    },
+    {
+      "word": "stevedore",
+      "lang": "American English",
+      "era": "1780s",
+      "note": "borrowed in Atlantic ports that traded with Spain",
+      "meaning": "dock worker",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a person employed in loading and unloading ships"
+}

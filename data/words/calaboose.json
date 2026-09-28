@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "calabozo",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a dungeon",
+      "meaning": "dungeon",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "calabouse",
+      "lang": "Louisiana French",
+      "era": "1700s",
+      "note": "borrowed when Spain ruled Louisiana from 1762 to 1800",
+      "meaning": "jail",
+      "lat": 29.95,
+      "lon": -90.07
+    },
+    {
+      "word": "calaboose",
+      "lang": "American English",
+      "era": "1790s",
+      "note": "common in the slang of the South and the West",
+      "meaning": "jail",
+      "lat": 29.95,
+      "lon": -90.07
+    }
+  ],
+  "current_meaning": "a jail or prison"
+}

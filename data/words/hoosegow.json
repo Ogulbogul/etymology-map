@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "juzgado",
+      "lang": "Mexican Spanish",
+      "era": "1800s",
+      "note": "a tribunal or court, from 'juzgar', to judge",
+      "meaning": "court",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "hoosegow",
+      "lang": "American English",
+      "era": "1900s",
+      "note": "cowboys in the Southwest turned the court into a jail",
+      "meaning": "jail",
+      "lat": 33.45,
+      "lon": -112.07
+    }
+  ],
+  "current_meaning": "a jail"
+}

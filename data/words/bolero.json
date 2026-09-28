@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bolero",
+      "lang": "Spanish",
+      "era": "1780s",
+      "note": "a dance said to have been created around 1780 by the dancer Sebastián Cerezo",
+      "meaning": "dance",
+      "lat": 36.53,
+      "lon": -6.29
+    },
+    {
+      "word": "bolero",
+      "lang": "English",
+      "era": "1780s",
+      "note": "Ravel's 'Boléro' of 1928 made the rhythm world-famous; the short jacket is named after dancers' costumes",
+      "meaning": "dance; short jacket",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a Spanish dance in triple time; a short open jacket"
+}

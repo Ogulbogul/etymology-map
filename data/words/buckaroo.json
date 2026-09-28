@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "vaquero",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "a cowherd, from 'vaca', cow",
+      "meaning": "cowherd",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "vaquero",
+      "lang": "Mexican Spanish",
+      "era": "1700s",
+      "note": "the skilled horsemen of Mexican ranches who taught American cowboys their trade",
+      "meaning": "cowboy",
+      "lat": 19.43,
+      "lon": -99.13
+    },
+    {
+      "word": "buckaroo",
+      "lang": "American English",
+      "era": "1820s",
+      "note": "an Anglicized form of 'vaquero'",
+      "meaning": "cowboy",
+      "lat": 29.42,
+      "lon": -98.49
+    }
+  ],
+  "current_meaning": "a cowboy"
+}

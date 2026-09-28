@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "arpa",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "a harp",
+      "meaning": "harp",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "arpeggio",
+      "lang": "Italian",
+      "era": "1600s",
+      "note": "from 'arpeggiare', to play on a harp, spreading a chord's notes",
+      "meaning": "harp-like playing",
+      "lat": 45.44,
+      "lon": 12.33
+    },
+    {
+      "word": "arpeggio",
+      "lang": "English",
+      "era": "1740s",
+      "note": "taken into English musical terminology",
+      "meaning": "broken chord",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the notes of a chord played in rapid succession"
+}

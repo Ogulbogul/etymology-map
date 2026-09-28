@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "peccātum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a sin, from 'peccāre', to sin",
+      "meaning": "sin",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pecadillo",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "'little sin'",
+      "meaning": "small sin",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "peccadillo",
+      "lang": "English",
+      "era": "1590s",
+      "note": "respelled after the Latin 'pecc-'",
+      "meaning": "minor fault",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small, relatively unimportant offence or sin"
+}

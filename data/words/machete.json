@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "macho",
+      "lang": "Spanish",
+      "era": "medieval",
+      "note": "a sledgehammer, from Latin 'marculus', small hammer",
+      "meaning": "sledgehammer",
+      "lat": 40.42,
+      "lon": -3.7
+    },
+    {
+      "word": "machete",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "'little hammer', the cane-cutter's blade of the Spanish Caribbean sugar plantations",
+      "meaning": "cutting blade",
+      "lat": 23.11,
+      "lon": -82.37
+    },
+    {
+      "word": "machete",
+      "lang": "English",
+      "era": "1590s",
+      "note": "used in accounts of Spanish America",
+      "meaning": "large cutting knife",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a broad heavy knife used as a tool and weapon"
+}
