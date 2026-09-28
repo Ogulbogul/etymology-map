@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "krake",
+      "lang": "Norwegian",
+      "era": "1700s",
+      "note": "a dialect word for a twisted, stunted thing; 'kraken' is its definite form, 'the kraken'",
+      "meaning": "twisted thing; sea monster",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "kraken",
+      "lang": "English",
+      "era": "1750s",
+      "note": "the bishop Erik Pontoppidan's 'Natural History of Norway' (1752) described it; Tennyson's poem 'The Kraken' followed in 1830",
+      "meaning": "sea monster",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an enormous mythical sea monster said to appear off Norway"
+}

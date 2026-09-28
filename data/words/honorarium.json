@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "honōrārium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a gift made on taking up an honorary office",
+      "meaning": "honorary gift",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "honorarium",
+      "lang": "English",
+      "era": "1650s",
+      "note": "used for fees to lawyers, doctors and speakers who could not formally charge",
+      "meaning": "voluntary fee",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a payment for professional services that are nominally free"
+}

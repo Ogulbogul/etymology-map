@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Maiandros",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a famously winding river in Caria, western Anatolia, now the Büyük Menderes in Turkey",
+      "meaning": "the Maeander river",
+      "lat": 37.85,
+      "lon": 28.1
+    },
+    {
+      "word": "maeander",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used for any winding course or pattern, such as the Greek key design",
+      "meaning": "winding",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "meander",
+      "lang": "English",
+      "era": "1570s",
+      "note": "the verb, to wander aimlessly, dates from the 1830s",
+      "meaning": "to wind, wander",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to follow a winding course"
+}

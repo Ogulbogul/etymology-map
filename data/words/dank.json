@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dank",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "probably Norse; Swedish dialect 'dank' means a marshy spot",
+      "meaning": "marsh",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "danke",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "wet, damp",
+      "meaning": "damp",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "dank",
+      "lang": "English",
+      "era": "1500s",
+      "note": "its modern slang sense of 'excellent' comes from 2010s internet use",
+      "meaning": "damp and cold",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "unpleasantly damp and cold"
+}

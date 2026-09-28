@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "scintilla",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a spark; 'scintillate' and, through Old French, 'tinsel' share the root",
+      "meaning": "spark",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "scintilla",
+      "lang": "English",
+      "era": "1690s",
+      "note": "'not a scintilla of evidence' became a lawyers' phrase",
+      "meaning": "tiny trace",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tiny trace or amount"
+}

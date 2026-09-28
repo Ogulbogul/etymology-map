@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bón",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a prayer or request",
+      "meaning": "prayer, request",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "bone",
+      "lang": "Middle English",
+      "era": "1100s",
+      "note": "a petition, then the favour granted in answer to it",
+      "meaning": "request, favour",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "boon",
+      "lang": "English",
+      "era": "1500s",
+      "note": "came to mean any blessing or benefit",
+      "meaning": "blessing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thing that is helpful or beneficial"
+}

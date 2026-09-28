@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "clair + voyant",
+      "lang": "French",
+      "era": "medieval",
+      "note": "'clear' plus 'seeing'",
+      "meaning": "clear-sighted",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "clairvoyant",
+      "lang": "English",
+      "era": "1670s",
+      "note": "first meant perceptive; the mesmerism craze of the 1840s gave it the psychic sense",
+      "meaning": "psychic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "having a supposed ability to perceive things beyond the senses"
+}

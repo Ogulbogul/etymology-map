@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "vīnum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "wine",
+      "meaning": "wine",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "vinyl",
+      "lang": "English",
+      "era": "1860s",
+      "note": "chemists named the vinyl group after ethyl alcohol, 'spirit of wine', plus Greek 'hylē', matter; PVC records replaced shellac from the late 1940s",
+      "meaning": "vinyl plastic; records",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a type of plastic; records made from it"
+}

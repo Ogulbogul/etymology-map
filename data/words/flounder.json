@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "flyðra",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a flatfish",
+      "meaning": "flatfish",
+      "lat": 60.39,
+      "lon": 5.32
+    },
+    {
+      "word": "floundre",
+      "lang": "Anglo-Norman",
+      "era": "1200s",
+      "note": "passed into the French of medieval England",
+      "meaning": "flatfish",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "flounder",
+      "lang": "English",
+      "era": "1300s",
+      "note": "unrelated to the verb 'flounder', to struggle clumsily",
+      "meaning": "flatfish",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flat fish found in coastal waters"
+}

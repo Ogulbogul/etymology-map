@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nouveau riche",
+      "lang": "French",
+      "era": "1700s",
+      "note": "'new rich', a snub from established families",
+      "meaning": "new rich",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "nouveau riche",
+      "lang": "English",
+      "era": "1810s",
+      "note": "borrowed as industry created new fortunes in Britain",
+      "meaning": "newly rich",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "people who have recently become rich and flaunt it"
+}

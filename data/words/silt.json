@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sylt",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "probably Norse; Danish and Norwegian 'sylt' mean a salt marsh, related to 'salt'",
+      "meaning": "salt marsh",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    {
+      "word": "sylte",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "sediment left in harbours and rivers",
+      "meaning": "sediment",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "silt",
+      "lang": "English",
+      "era": "1500s",
+      "note": "silting harbours ruined medieval ports such as Chester",
+      "meaning": "fine sediment",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "fine sand or clay carried by running water"
+}

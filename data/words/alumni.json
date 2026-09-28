@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "alumnus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a foster son or pupil, from 'alere', to nourish, the same verb behind 'alma mater'",
+      "meaning": "foster child, pupil",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "alumni",
+      "lang": "English",
+      "era": "1640s",
+      "note": "American colleges formed the first alumni associations in the early 1800s",
+      "meaning": "graduates",
+      "lat": 42.71,
+      "lon": -73.2
+    }
+  ],
+  "current_meaning": "former students of a school, college or university"
+}

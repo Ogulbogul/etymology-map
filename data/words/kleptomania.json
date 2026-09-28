@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kleptēs + mania",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'thief' plus 'madness'",
+      "meaning": "thief-madness",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "kleptomanie",
+      "lang": "French",
+      "era": "1800s",
+      "note": "French psychiatrists coined the term in the early 1800s, replacing the Geneva doctor André Matthey's 'klopémanie' of 1816",
+      "meaning": "compulsive stealing",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "kleptomania",
+      "lang": "English",
+      "era": "1830s",
+      "note": "borrowed into English psychiatry",
+      "meaning": "compulsive stealing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a recurrent urge to steal"
+}

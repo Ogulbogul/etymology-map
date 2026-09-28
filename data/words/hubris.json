@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hybris",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "insolent violence or arrogance; in Athenian law it was a crime, and in tragedy it brings on a hero's downfall",
+      "meaning": "arrogance, outrage",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hubris",
+      "lang": "English",
+      "era": "1880s",
+      "note": "taken up as academic slang at British universities, then in general use",
+      "meaning": "excessive pride",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "excessive pride or self-confidence"
+}

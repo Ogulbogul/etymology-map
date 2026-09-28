@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "stet",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'let it stand', from 'stāre', to stand",
+      "meaning": "let it stand",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "stet",
+      "lang": "English",
+      "era": "1750s",
+      "note": "written in the margin of proofs, with dots under the words to keep",
+      "meaning": "let it stand",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a proofreader's instruction to ignore a marked correction"
+}

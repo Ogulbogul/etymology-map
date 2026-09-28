@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "aphorismos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a definition, from 'horizein', to mark a boundary; the 'Aphorisms' of Hippocrates open with 'Life is short, the art long'",
+      "meaning": "definition",
+      "lat": 36.89,
+      "lon": 27.29
+    },
+    {
+      "word": "aphorismus",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "used for Hippocrates' medical maxims",
+      "meaning": "maxim",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "aphorisme",
+      "lang": "French",
+      "era": "1500s",
+      "note": "a concise maxim",
+      "meaning": "maxim",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "aphorism",
+      "lang": "English",
+      "era": "1520s",
+      "note": "first for medical rules, then any pithy saying",
+      "meaning": "maxim",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a short, pithy statement of a general truth"
+}

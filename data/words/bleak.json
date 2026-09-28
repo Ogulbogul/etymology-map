@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "bleikr",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "pale, whitish; Old English 'blāc' was a cousin",
+      "meaning": "pale",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "bleik",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "pale, wan",
+      "meaning": "pale",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "bleak",
+      "lang": "English",
+      "era": "1530s",
+      "note": "came to mean bare and windswept, then cheerless; Dickens's 'Bleak House' appeared in 1852",
+      "meaning": "desolate",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "bare and exposed; cheerless"
+}

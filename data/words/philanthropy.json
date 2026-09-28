@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "philanthrōpia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'love of humankind'; in Aeschylus' 'Prometheus Bound' it is the god's crime of helping mortals",
+      "meaning": "love of mankind",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "philanthropia",
+      "lang": "Late Latin",
+      "era": "ancient",
+      "note": "kindness, humanity",
+      "meaning": "benevolence",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "philanthropy",
+      "lang": "English",
+      "era": "1600s",
+      "note": "large-scale giving by industrialists like Andrew Carnegie gave it its modern sense in the late 1800s",
+      "meaning": "charitable giving",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the desire to promote the welfare of others, especially by giving money"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "fulcrum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a bedpost, from 'fulcīre', to prop up",
+      "meaning": "bedpost, prop",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "fulcrum",
+      "lang": "English",
+      "era": "1670s",
+      "note": "taken into mechanics for the pivot of a lever",
+      "meaning": "pivot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the point on which a lever turns"
+}

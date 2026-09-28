@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "oriēns",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "rising, the east, where the sun rises",
+      "meaning": "the east",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "orientering",
+      "lang": "Swedish",
+      "era": "1880s",
+      "note": "used in military training; Norway held the first public competition in 1897, and Ernst Killander popularized the sport in Sweden from 1919",
+      "meaning": "orienteering",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    {
+      "word": "orienteering",
+      "lang": "English",
+      "era": "1940s",
+      "note": "borrowed as the Scandinavian sport spread abroad",
+      "meaning": "map-and-compass racing",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a sport of navigating across country with a map and compass"
+}

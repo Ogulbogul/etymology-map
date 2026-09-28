@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "alkyōn",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the kingfisher; legend held that it nested at sea in midwinter and the gods calmed the waves, the 'halcyon days'",
+      "meaning": "kingfisher",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "halcyon",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "the 'h' came from a false link with Greek 'hals', sea",
+      "meaning": "kingfisher",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "halcyon",
+      "lang": "English",
+      "era": "1300s",
+      "note": "'halcyon days', a time of calm, dates from the 1540s",
+      "meaning": "calm, idyllic",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "denoting a calm, happy period in the past"
+}

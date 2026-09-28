@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "errātum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'a mistake', from 'errāre', to wander",
+      "meaning": "mistake",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "erratum",
+      "lang": "English",
+      "era": "1580s",
+      "note": "printers added lists of 'errata' at the ends of books to correct mistakes",
+      "meaning": "printing error",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an error in printing or writing"
+}

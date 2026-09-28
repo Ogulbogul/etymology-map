@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "in vitrō",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in glass', from 'vitrum', glass",
+      "meaning": "in glass",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "in vitro",
+      "lang": "English",
+      "era": "1890s",
+      "note": "the world's first 'test-tube baby' conceived by IVF, Louise Brown, was born near Oldham in 1978",
+      "meaning": "in the laboratory",
+      "lat": 53.54,
+      "lon": -2.12
+    }
+  ],
+  "current_meaning": "taking place in a test tube or culture dish"
+}

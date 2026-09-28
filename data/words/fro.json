@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "frá",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "'from'",
+      "meaning": "from",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "fro",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "used in the Norse-influenced north as the everyday word for 'from'",
+      "meaning": "from",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "fro",
+      "lang": "English",
+      "era": "1500s",
+      "note": "survives mainly in the phrase 'to and fro'",
+      "meaning": "away, back",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "away, back (as in 'to and fro')"
+}

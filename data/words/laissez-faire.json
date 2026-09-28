@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "laissez faire",
+      "lang": "French",
+      "era": "1750s",
+      "note": "'let them do': the merchant Vincent de Gournay's maxim, 'laissez faire, laissez passer', was taken up by the Physiocrat economists",
+      "meaning": "let them do",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "laissez-faire",
+      "lang": "English",
+      "era": "1820s",
+      "note": "borrowed in economic debate about free trade",
+      "meaning": "non-interference",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the policy of leaving things to take their own course without interfering"
+}

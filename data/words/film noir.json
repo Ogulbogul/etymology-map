@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "film noir",
+      "lang": "French",
+      "era": "1946",
+      "note": "the French critic Nino Frank coined it for the dark Hollywood crime films that reached Paris after the war",
+      "meaning": "black film",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "film noir",
+      "lang": "English",
+      "era": "1950s",
+      "note": "taken up by film critics for the genre",
+      "meaning": "dark crime film",
+      "lat": 34.1,
+      "lon": -118.33
+    }
+  ],
+  "current_meaning": "a style of dark, cynical crime film"
+}

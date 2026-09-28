@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dēmagōgos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'leader of the people'; Athenian critics used it for populists such as Cleon, mocked by Aristophanes",
+      "meaning": "popular leader",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "démagogue",
+      "lang": "French",
+      "era": "1600s",
+      "note": "taken up in political pamphlets",
+      "meaning": "demagogue",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "demagogue",
+      "lang": "English",
+      "era": "1640s",
+      "note": "used from the English Civil War onward as an insult",
+      "meaning": "rabble-rouser",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a political leader who appeals to popular prejudice"
+}

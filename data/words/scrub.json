@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "skrubba",
+      "lang": "Scandinavian",
+      "era": "medieval",
+      "note": "probably from a Scandinavian source, like Danish 'skrubbe'; Middle Dutch 'schrobben' is a cousin",
+      "meaning": "to scrub",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    {
+      "word": "scrobben",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "first used for rubbing down horses",
+      "meaning": "to rub hard",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "scrub",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'to scrub' a plan, cancel it, is 1940s air-force slang",
+      "meaning": "to rub clean",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to rub hard to clean"
+}

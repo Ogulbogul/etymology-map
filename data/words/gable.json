@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gafl",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a gable end; Old French 'gable', from the same Germanic source, reinforced it",
+      "meaning": "gable",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "gable",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "used for the pointed end walls of timber and stone houses",
+      "meaning": "gable",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "gable",
+      "lang": "English",
+      "era": "1500s",
+      "note": "Nathaniel Hawthorne's 'The House of the Seven Gables' appeared in 1851",
+      "meaning": "gable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the triangular upper part of a wall under a pitched roof"
+}

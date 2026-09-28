@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "trilogia",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "three tragedies performed together at the Athenian festival of Dionysus; Aeschylus' 'Oresteia' is the only one that survives",
+      "meaning": "set of three plays",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "trilogy",
+      "lang": "English",
+      "era": "1660s",
+      "note": "used for any three related novels, plays or films",
+      "meaning": "set of three works",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group of three related works"
+}

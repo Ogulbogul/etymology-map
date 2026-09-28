@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "prōvīsō",
+      "lang": "Medieval Latin",
+      "era": "medieval",
+      "note": "'it being provided', from the legal phrase 'proviso quod', provided that",
+      "meaning": "provided that",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "proviso",
+      "lang": "English",
+      "era": "1400s",
+      "note": "taken from the Latin clauses of English deeds and statutes",
+      "meaning": "condition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a condition attached to an agreement"
+}

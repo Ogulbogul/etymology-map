@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "blaðra",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to talk nonsense, from 'blaðra', bladder",
+      "meaning": "to babble",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "blether",
+      "lang": "Scots",
+      "era": "1500s",
+      "note": "Robert Burns and other Scots poets used it for idle chatter; 'blather' is the English form",
+      "meaning": "to babble",
+      "lat": 55.46,
+      "lon": -4.63
+    },
+    {
+      "word": "blether",
+      "lang": "English",
+      "era": "1700s",
+      "note": "'blather' spread widely in American English",
+      "meaning": "to talk nonsense",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to talk long-windedly without making much sense"
+}

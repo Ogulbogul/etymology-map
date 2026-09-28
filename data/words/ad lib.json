@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ad libitum",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'at one's pleasure', from 'libēre', to please",
+      "meaning": "at pleasure",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ad lib",
+      "lang": "English",
+      "era": "1910s",
+      "note": "first a direction in musical scores letting players perform freely; actors shortened it to 'ad lib' for improvised lines",
+      "meaning": "improvise",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to improvise; spoken without preparation"
+}

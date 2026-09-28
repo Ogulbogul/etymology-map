@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "pseudōnymos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'falsely named'",
+      "meaning": "falsely named",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "pseudonyme",
+      "lang": "French",
+      "era": "1800s",
+      "note": "a pen name",
+      "meaning": "pen name",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pseudonym",
+      "lang": "English",
+      "era": "1840s",
+      "note": "borrowed as women authors such as George Eliot published under male names",
+      "meaning": "pen name",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fictitious name, especially one used by an author"
+}

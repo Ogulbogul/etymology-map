@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "haute couture",
+      "lang": "French",
+      "era": "1800s",
+      "note": "'high sewing'; the Englishman Charles Frederick Worth founded Paris haute couture in 1858",
+      "meaning": "high dressmaking",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "haute couture",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed as Paris dominated world fashion",
+      "meaning": "high fashion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "expensive, fashionable clothes made by leading fashion houses"
+}

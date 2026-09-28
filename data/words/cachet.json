@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cacher",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to press, later to hide",
+      "meaning": "to press",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cachet",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a seal; a royal 'lettre de cachet' could send someone to the Bastille without trial",
+      "meaning": "seal",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cachet",
+      "lang": "English",
+      "era": "1630s",
+      "note": "from a seal of approval it came to mean prestige, by the 1840s",
+      "meaning": "prestige",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "prestige; a distinctive mark of quality"
+}

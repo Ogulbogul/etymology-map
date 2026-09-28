@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "mardi gras",
+      "lang": "French",
+      "era": "medieval",
+      "note": "'fat Tuesday', the last day of feasting before the Lenten fast",
+      "meaning": "fat Tuesday",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "Mardi Gras",
+      "lang": "English",
+      "era": "1700s",
+      "note": "French settlers brought the carnival to Louisiana; New Orleans' parades began in 1857",
+      "meaning": "carnival",
+      "lat": 29.95,
+      "lon": -90.07
+    }
+  ],
+  "current_meaning": "the carnival held on Shrove Tuesday, before Lent"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "paidagōgos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "the slave who walked a boy to school and supervised him, from 'pais', boy, and 'agein', to lead",
+      "meaning": "child-leader",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "paedagogus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a tutor, often a Greek slave in Roman households",
+      "meaning": "tutor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pedagogue",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a schoolmaster",
+      "meaning": "schoolmaster",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "pedagogue",
+      "lang": "English",
+      "era": "1300s",
+      "note": "came to suggest a pedantic, strict teacher",
+      "meaning": "teacher",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a teacher, especially a strict or pedantic one"
+}

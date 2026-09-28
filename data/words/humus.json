@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "humus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "earth, ground; 'humble', from 'humilis', low, and perhaps 'human', earthly, come from the same root",
+      "meaning": "earth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "humus",
+      "lang": "English",
+      "era": "1790s",
+      "note": "taken into soil science for decayed plant matter",
+      "meaning": "organic soil",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the dark organic part of soil"
+}

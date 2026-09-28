@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "attacher",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to fasten, attach",
+      "meaning": "to attach",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attaché",
+      "lang": "French",
+      "era": "1800s",
+      "note": "'attached': a junior diplomat attached to an embassy",
+      "meaning": "attached (person)",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "attaché",
+      "lang": "English",
+      "era": "1830s",
+      "note": "the 'attaché case', a slim document case, dates from 1904",
+      "meaning": "embassy staff member",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person on the staff of an ambassador"
+}

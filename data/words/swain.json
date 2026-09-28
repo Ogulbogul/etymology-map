@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sveinn",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a boy or servant",
+      "meaning": "boy, servant",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "swān",
+      "lang": "Old English",
+      "era": "1000s",
+      "note": "borrowed from Norse settlers; 'boatswain' and 'coxswain' keep the sense of servant",
+      "meaning": "herdsman, servant",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "swain",
+      "lang": "English",
+      "era": "1580s",
+      "note": "pastoral poets made the country youth a lover",
+      "meaning": "young suitor",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a young lover or suitor; a country youth"
+}

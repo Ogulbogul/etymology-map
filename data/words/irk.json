@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "yrkja",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "to work; the likeliest source, though the link is uncertain",
+      "meaning": "to work",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "irken",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "to grow tired or weary",
+      "meaning": "to weary",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "irk",
+      "lang": "English",
+      "era": "1500s",
+      "note": "came to mean to annoy; 'irksome' is recorded from the 1510s",
+      "meaning": "to annoy",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to irritate or annoy"
+}

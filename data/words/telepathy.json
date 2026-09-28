@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tēle + pathos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'far' plus 'feeling'",
+      "meaning": "far feeling",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "telepathy",
+      "lang": "English",
+      "era": "1882",
+      "note": "coined by Frederic Myers of the newly founded Society for Psychical Research in London",
+      "meaning": "mind-to-mind communication",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "communication between minds without the use of the senses"
+}

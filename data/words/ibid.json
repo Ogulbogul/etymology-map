@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ibidem",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'in the same place'",
+      "meaning": "in the same place",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "ibid.",
+      "lang": "English",
+      "era": "1660s",
+      "note": "used by scholars in references and footnotes",
+      "meaning": "in the same source",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in the same source as the one just cited"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "brasser",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to brew, from Gaulish-Latin 'braces', a kind of grain",
+      "meaning": "to brew",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "brasserie",
+      "lang": "French",
+      "era": "1800s",
+      "note": "a brewery, then a beer restaurant; Alsatians who moved to Paris after 1870 opened many, such as Brasserie Lipp",
+      "meaning": "beer restaurant",
+      "lat": 48.58,
+      "lon": 7.75
+    },
+    {
+      "word": "brasserie",
+      "lang": "English",
+      "era": "1900s",
+      "note": "borrowed for informal French-style restaurants",
+      "meaning": "informal restaurant",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an informal restaurant, originally one serving beer"
+}

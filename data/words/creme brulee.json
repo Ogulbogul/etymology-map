@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "crème brûlée",
+      "lang": "French",
+      "era": "1690s",
+      "note": "'burnt cream'; a recipe appears in François Massialot's cookbook of 1691",
+      "meaning": "burnt cream",
+      "lat": 48.8,
+      "lon": 2.13
+    },
+    {
+      "word": "crème brûlée",
+      "lang": "English",
+      "era": "1880s",
+      "note": "Cambridge's Trinity College serves a version it calls 'burnt cream'",
+      "meaning": "caramelized custard",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "a custard dessert with a caramelized sugar top"
+}

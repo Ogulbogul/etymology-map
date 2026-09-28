@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "armārium",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a closet for tools or weapons, from 'arma', arms",
+      "meaning": "tool closet",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "armaire",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a cupboard; 'ambry', a church cupboard for sacred vessels, comes from the same word",
+      "meaning": "cupboard",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "armoire",
+      "lang": "English",
+      "era": "1570s",
+      "note": "used especially for French-style wardrobes",
+      "meaning": "wardrobe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large ornate wardrobe or cupboard"
+}

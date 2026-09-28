@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sarkophagos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'flesh-eating', for a limestone quarried near Assos that was believed to consume corpses within weeks",
+      "meaning": "flesh-eating (stone)",
+      "lat": 39.49,
+      "lon": 26.34
+    },
+    {
+      "word": "sarcophagus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Pliny the Elder describes the stone; the name passed to stone coffins generally",
+      "meaning": "stone coffin",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "sarcophagus",
+      "lang": "English",
+      "era": "1600s",
+      "note": "used for the carved coffins of antiquity",
+      "meaning": "stone coffin",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a stone coffin, typically decorated"
+}

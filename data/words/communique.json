@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "communiquer",
+      "lang": "French",
+      "era": "medieval",
+      "note": "to share or communicate",
+      "meaning": "to communicate",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "communiqué",
+      "lang": "English",
+      "era": "1850s",
+      "note": "made familiar by official war bulletins in the World Wars",
+      "meaning": "official statement",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an official announcement or statement"
+}
