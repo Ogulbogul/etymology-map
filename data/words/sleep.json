@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "slēpaną",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "perhaps from a root meaning to go slack or weak",
+      "meaning": "to sleep",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "slǣpan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "'slǣp' was also a poetic word for death",
+      "meaning": "to sleep",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "sleep",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'slept' replaced the older past tense 'slep'",
+      "meaning": "to sleep",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to rest with the eyes closed and the mind unconscious"
+}
