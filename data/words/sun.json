@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "sunnǭ",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "related to Latin 'sōl', as in 'solar'",
+      "meaning": "sun",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "sunne",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "feminine in Old English, as 'Sonne' still is in German; 'sunnandæg', sun's day, gave 'Sunday'",
+      "meaning": "sun",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "sun",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'sunny' as 'cheerful' dates from the 1500s",
+      "meaning": "sun",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the star that the Earth orbits"
+}
