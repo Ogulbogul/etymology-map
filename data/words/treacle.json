@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "thēriakḗ",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'antidote to venomous bites', from thērion 'wild beast'; the physician Galen prepared theriac for Emperor Marcus Aurelius to take daily",
+      "meaning": "antidote",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "theriaca",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "a complex remedy of dozens of ingredients, bound with lots of honey",
+      "meaning": "antidote",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "triacle",
+      "lang": "Old French",
+      "era": "1200s",
+      "note": "a cure-all medicine; 'Venice treacle' was a famous imported brand",
+      "meaning": "medicinal compound",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "treacle",
+      "lang": "English",
+      "era": "1600s",
+      "note": "the sweet syrup that carried the medicine gave its name to the syrup left from sugar refining",
+      "meaning": "sugar syrup",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "thick sticky syrup from refining sugar; cloying sentimentality"
+}

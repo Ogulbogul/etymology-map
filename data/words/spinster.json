@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "spinnestere",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "'woman who spins', with the feminine agent ending -ster, as in Webster (woman weaver) and Baxter (woman baker)",
+      "meaning": "woman spinner",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "spinster",
+      "lang": "English",
+      "era": "1600s",
+      "note": "John Minsheu's dictionary of 1617 calls it a term 'added in Obligations, Evidences, and Writings, unto maids unmarried'; by 1719 it meant an older unmarried woman",
+      "meaning": "unmarried woman",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an unmarried woman, typically an older one (now often considered offensive)"
+}

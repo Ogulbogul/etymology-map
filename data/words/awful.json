@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "agi",
+      "lang": "Old Norse",
+      "era": "900s",
+      "note": "'terror, fear', brought by Viking settlers; it replaced the native Old English ege",
+      "meaning": "awe, terror",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "agheful",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "'awe' + '-ful': worthy of reverent fear, as God or a king was",
+      "meaning": "awe-inspiring",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "awful",
+      "lang": "English",
+      "era": "1809",
+      "note": "the weakened sense 'very bad' is recorded by 1809; in 1794 Hester Lynch Piozzi had already scolded well-bred ladies for using 'awful' too lightly",
+      "meaning": "very bad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "very bad or unpleasant; (old) inspiring awe"
+}
