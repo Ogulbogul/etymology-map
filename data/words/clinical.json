@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "klínē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'bed, couch'; klinikós meant a physician who visits patients in bed",
+      "meaning": "bed",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "clinicus",
+      "lang": "Latin",
+      "era": "late antiquity",
+      "note": "a bedside physician; also, in the early Church, a person baptised on their sickbed",
+      "meaning": "bedside doctor",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "clinical",
+      "lang": "English",
+      "era": "1780s",
+      "note": "bedside teaching, pioneered by Herman Boerhaave at Leiden in the early 1700s, spread to Edinburgh and London; 'clinical' for coolly detached dates from the 1900s",
+      "meaning": "of the bedside; detached",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "relating to the treatment of patients; coldly efficient"
+}

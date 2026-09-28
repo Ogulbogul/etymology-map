@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Spiraea",
+      "lang": "New Latin",
+      "era": "1700s",
+      "note": "the meadowsweet genus, from Greek speiraia; salicylic acid was first obtained from meadowsweet (then Spiraea ulmaria) in 1839",
+      "meaning": "meadowsweet",
+      "lat": 59.86,
+      "lon": 17.64
+    },
+    {
+      "word": "Aspirin",
+      "lang": "German",
+      "era": "1899",
+      "note": "Bayer's trademark: a- (acetyl) + spir- (Spiraea) + -in; the chemist Felix Hoffmann synthesised pure acetylsalicylic acid at Bayer in 1897",
+      "meaning": "acetylsalicylic acid",
+      "lat": 51.03,
+      "lon": 7.0
+    },
+    {
+      "word": "aspirin",
+      "lang": "English",
+      "era": "1899",
+      "note": "after World War I Bayer lost the trademark in Britain, France and the US under the 1919 Treaty of Versailles, and it became a common noun",
+      "meaning": "painkiller",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a drug used to relieve pain and reduce fever and inflammation"
+}

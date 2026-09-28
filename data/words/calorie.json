@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "calor",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'heat', the root also of 'caloric', the invisible heat-fluid that 18th-century chemists believed in",
+      "meaning": "heat",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "calorie",
+      "lang": "French",
+      "era": "1824",
+      "note": "the physicist Nicolas Clément defined it in his Paris lectures on heat engines, published in 1824",
+      "meaning": "unit of heat",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "calorie",
+      "lang": "English",
+      "era": "1863",
+      "note": "entered English in 1863 through a translation of Ganot's French physics textbook; the American chemist Wilbur Atwater later measured the energy in foods in calories",
+      "meaning": "unit of food energy",
+      "lat": 41.56,
+      "lon": -72.65
+    }
+  ],
+  "current_meaning": "a unit of energy, especially of the energy value of food"
+}

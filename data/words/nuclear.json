@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "nucleus",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'kernel', from nux 'nut'",
+      "meaning": "kernel",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nucleus",
+      "lang": "English",
+      "era": "1911",
+      "note": "Ernest Rutherford showed at Manchester in 1911 that an atom's mass sits in a tiny central core, soon called its nucleus",
+      "meaning": "core of the atom",
+      "lat": 53.47,
+      "lon": -2.23
+    },
+    {
+      "word": "nuclear",
+      "lang": "English",
+      "era": "1910s",
+      "note": "'nuclear' first described cell nuclei in the 1840s; after Hiroshima in 1945 it came to mean atomic weapons and power",
+      "meaning": "of the atomic nucleus",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to the nucleus of an atom; relating to nuclear weapons or power"
+}

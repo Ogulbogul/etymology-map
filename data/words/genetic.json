@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "génesis",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'origin, birth'; the Greek Old Testament gave the name Genesis to the first book of the Bible",
+      "meaning": "origin",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "genetic, genetics",
+      "lang": "English",
+      "era": "1905",
+      "note": "'genetic' (1830s) first meant 'relating to origins'; William Bateson proposed 'genetics' for the study of heredity in a letter of April 1905 to Adam Sedgwick, reviving Gregor Mendel's forgotten pea experiments",
+      "meaning": "science of heredity",
+      "lat": 52.2,
+      "lon": 0.12
+    }
+  ],
+  "current_meaning": "relating to genes or heredity"
+}

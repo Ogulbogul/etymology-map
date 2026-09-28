@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "hormôn",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'setting in motion', present participle of horman 'to urge on'",
+      "meaning": "urging on",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "hormone",
+      "lang": "English",
+      "era": "1905",
+      "note": "the physiologist Ernest Starling introduced it in his Croonian Lectures of 1905 for chemical messengers carried in the blood, such as secretin, which he and William Bayliss had discovered in 1902",
+      "meaning": "chemical messenger",
+      "lat": 51.52,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a substance produced by the body that is carried in the blood to regulate cells"
+}

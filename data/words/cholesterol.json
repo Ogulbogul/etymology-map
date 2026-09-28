@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kholḗ + stereós",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'bile' + 'solid', the parts from which the name was later built",
+      "meaning": "bile + solid",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "cholestérine",
+      "lang": "French",
+      "era": "1815",
+      "note": "the substance had been extracted from gallstones in the 1760s; the chemist Michel Eugène Chevreul named it in 1815",
+      "meaning": "solid bile substance",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "cholesterol",
+      "lang": "English",
+      "era": "1890s",
+      "note": "the ending was changed to -ol once it was identified as an alcohol",
+      "meaning": "steroid in cells and blood",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a waxy compound in cells and blood, high levels of which are linked to heart disease"
+}

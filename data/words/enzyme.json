@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "zýmē",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'leaven', the yeast that makes bread rise",
+      "meaning": "leaven",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "Enzym",
+      "lang": "German",
+      "era": "1877",
+      "note": "the physiologist Wilhelm Kühne of Heidelberg coined it in 1877 from Greek en zymē, 'in yeast', for ferments working outside living cells",
+      "meaning": "enzyme",
+      "lat": 49.41,
+      "lon": 8.69
+    },
+    {
+      "word": "enzyme",
+      "lang": "English",
+      "era": "1880s",
+      "note": "Eduard Buchner's 1897 proof that yeast juice without living cells still ferments sugar won him the 1907 Nobel Prize",
+      "meaning": "biological catalyst",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a protein that speeds up a chemical reaction in living things"
+}

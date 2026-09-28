@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "germen",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'sprout, seed, offshoot', also the root of 'germinate'",
+      "meaning": "seed, sprout",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "germ",
+      "lang": "English",
+      "era": "1640s",
+      "note": "via French germe 'seed'; a 'seed' of disease from the 1870s, as Louis Pasteur and Robert Koch established germ theory",
+      "meaning": "seed; microbe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a microorganism causing disease; the origin of something"
+}

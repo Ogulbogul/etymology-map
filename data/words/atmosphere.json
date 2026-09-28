@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "atmós + sphaîra",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'vapour' + 'ball', the parts the word was later built from",
+      "meaning": "vapour + sphere",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "atmosphere",
+      "lang": "English",
+      "era": "1630s",
+      "note": "via Modern Latin atmosphaera (1600s), first used of vapour around heavenly bodies; Evangelista Torricelli's mercury barometer of 1643 showed that the air has weight",
+      "meaning": "air around the earth; mood",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the envelope of gases around the earth; the mood of a place"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "evolutio",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'unrolling', as of a papyrus scroll, from evolvere 'to roll out'",
+      "meaning": "unrolling",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "evolution",
+      "lang": "English",
+      "era": "1850s",
+      "note": "first used of unfolding or military manoeuvres; Charles Darwin's On the Origin of Species (1859) ends with 'evolved' but first used 'evolution' in its sixth edition of 1872",
+      "meaning": "change in species over generations",
+      "lat": 51.33,
+      "lon": 0.05
+    }
+  ],
+  "current_meaning": "the process by which living things develop over generations; gradual development"
+}

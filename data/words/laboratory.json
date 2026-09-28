@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "laborare",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "'to work, toil', from labor",
+      "meaning": "to work",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "laboratory",
+      "lang": "English",
+      "era": "1590s",
+      "note": "via Medieval Latin laboratorium, a workshop, often an alchemist's; Justus von Liebig's teaching laboratory at Giessen, opened in 1824, became the model for university science labs",
+      "meaning": "place for experiments",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a room or building equipped for scientific experiments"
+}

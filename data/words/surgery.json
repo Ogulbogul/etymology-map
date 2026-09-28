@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "kheirourgía",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'handwork', kheir 'hand' + ergon 'work'; the Hippocratic treatises On Fractures and On Joints set out surgical techniques",
+      "meaning": "manual work, surgery",
+      "lat": 36.89,
+      "lon": 27.29
+    },
+    {
+      "word": "chirurgia",
+      "lang": "Latin",
+      "era": "classical",
+      "note": "borrowed from Greek; Celsus's De Medicina (c. AD 30) devotes its last books to surgery",
+      "meaning": "surgery",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "surgerie",
+      "lang": "Anglo-Norman",
+      "era": "1200s",
+      "note": "worn down from Old French cirurgie",
+      "meaning": "surgery",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "surgery",
+      "lang": "English",
+      "era": "1300s",
+      "note": "Henry VIII's charter of 1540 united London's barbers and surgeons in one company; British doctors' 'surgery' hours come from the same word",
+      "meaning": "operative medicine",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the treatment of injuries or disease by cutting open the body"
+}
