@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "kutu",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "a very old word: linguists reconstruct *kutu 'louse' for Proto-Austronesian, and it survives from Taiwan to Hawaii",
+      "meaning": "louse",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "word": "cootie",
+      "lang": "English",
+      "era": "1917",
+      "note": "trench slang of World War I for body lice, possibly brought by British sailors from Malay, though the link is not certain; the 'Cootie' board game (1949) and playground 'cooties' followed",
+      "meaning": "body louse",
+      "lat": 50.0,
+      "lon": 2.7
+    }
+  ],
+  "current_meaning": "a body louse; (playground slang) an imaginary contagion"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "wamara",
+      "lang": "Dharug",
+      "era": "1790s",
+      "note": "recorded by First Fleet officers such as William Dawes, whose notebooks of 1790-91 are the main record of the Sydney language",
+      "meaning": "spear-thrower",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "woomera",
+      "lang": "English",
+      "era": "1810s",
+      "note": "used for Aboriginal spear-throwers across Australia; the Woomera rocket range in South Australia, founded in 1947, is named after it",
+      "meaning": "spear-thrower",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an Aboriginal spear-throwing stick"
+}

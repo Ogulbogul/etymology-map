@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "sagu",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "starch from the pith of the sago palm, a staple food in the Moluccas and New Guinea; Antonio Pigafetta, chronicler of Magellan's voyage, recorded sago bread in the Moluccas in 1521",
+      "meaning": "palm starch",
+      "lat": -3.7,
+      "lon": 128.18
+    },
+    {
+      "word": "sago",
+      "lang": "English",
+      "era": "1550s",
+      "note": "arrived through Portuguese traders' accounts; sago pudding later became a fixture of Victorian nursery food",
+      "meaning": "palm starch",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a starch from the pith of the sago palm, used in puddings"
+}

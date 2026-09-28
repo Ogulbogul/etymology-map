@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "getah perca",
+      "lang": "Malay",
+      "era": "1800s",
+      "note": "getah 'sap, latex' plus perca, probably the tree's name; Malay workers moulded the hardened gum into knife handles",
+      "meaning": "latex of the percha tree",
+      "lat": 1.29,
+      "lon": 103.85
+    },
+    {
+      "word": "gutta-percha",
+      "lang": "English",
+      "era": "1840s",
+      "note": "William Montgomerie, a surgeon in Singapore, sent samples to London's Society of Arts in 1843; it insulated the first transatlantic telegraph cable in 1858 and made the 'guttie' golf ball",
+      "meaning": "hard natural latex",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a hard rubbery latex from Malaysian trees, once used for cable insulation and dentistry"
+}

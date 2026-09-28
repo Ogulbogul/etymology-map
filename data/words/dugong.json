@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "duyung",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "the sea cow of Southeast Asian waters; Malay putri duyung, 'duyung princess', means mermaid",
+      "meaning": "sea cow",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "word": "dugon",
+      "lang": "French",
+      "era": "1765",
+      "note": "the naturalist Buffon introduced the name to European zoology in his Histoire naturelle",
+      "meaning": "dugong",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "dugong",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed from Buffon's French; its giant Arctic relative, Steller's sea cow, had already been hunted to extinction by 1768",
+      "meaning": "sea cow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a plant-eating marine mammal of the Indian and Pacific oceans"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "manggista",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "a fruit tree native to the islands of Southeast Asia; the fuller Malay form manggista (now usually manggis) gave Portuguese mangostão and Dutch mangistan",
+      "meaning": "mangosteen",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "word": "mangosteen",
+      "lang": "English",
+      "era": "1590s",
+      "note": "a popular story says Queen Victoria offered a reward for a fresh one, but no record of it exists; fresh mangosteens were only allowed into the US from 2007",
+      "meaning": "tropical fruit",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tropical fruit with a thick purple rind and sweet white segments"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gulabaa",
+      "lang": "Yuwaalaraay",
+      "era": "1800s",
+      "note": "a eucalyptus of inland floodplains; the Burke and Wills 'Dig Tree' at Cooper Creek, blazed in 1861, is a coolabah",
+      "meaning": "coolabah tree",
+      "lat": -30.02,
+      "lon": 148.12
+    },
+    {
+      "word": "coolabah",
+      "lang": "English",
+      "era": "1860s",
+      "note": "Banjo Paterson's 'Waltzing Matilda' (1895) sets its swagman 'under the shade of a coolibah tree'",
+      "meaning": "inland eucalyptus",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a eucalyptus tree of inland Australian watercourses"
+}

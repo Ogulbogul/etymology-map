@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "burralga",
+      "lang": "Gamilaraay",
+      "era": "1800s",
+      "note": "the crane famous for its leaping courtship dance, which Aboriginal groups imitate in their own brolga dances",
+      "meaning": "brolga crane",
+      "lat": -30.5,
+      "lon": 150.0
+    },
+    {
+      "word": "brolga",
+      "lang": "English",
+      "era": "1890s",
+      "note": "taken from Gamilaraay of northern New South Wales; Queensland adopted the brolga as its official bird emblem in 1986",
+      "meaning": "Australian crane",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a large grey Australian crane known for its dancing display"
+}

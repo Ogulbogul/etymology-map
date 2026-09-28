@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "giba",
+      "lang": "Dharug",
+      "era": "1780s",
+      "note": "the Sydney-language word for a stone or rock, noted by colonists soon after the First Fleet arrived in 1788",
+      "meaning": "stone",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "gibber",
+      "lang": "English",
+      "era": "1790s",
+      "note": "Australian English for a stone; 'gibber plains' are the stony deserts that stopped Charles Sturt's 1844-46 expedition, remembered in Sturt's Stony Desert",
+      "meaning": "stone, boulder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "(Australian) a stone or boulder; a stony desert plain"
+}

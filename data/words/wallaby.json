@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "walabi",
+      "lang": "Dharug",
+      "era": "1780s",
+      "note": "Dharug, the language of the Sydney basin, was the first Aboriginal language met by the British First Fleet in 1788, which is why it gave English more words than any other",
+      "meaning": "a kind of small kangaroo",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    {
+      "word": "wallaby",
+      "lang": "English",
+      "era": "1790s",
+      "note": "recorded by early Sydney colonists; the Australian rugby union team took the name 'Wallabies' on its 1908 tour of Britain",
+      "meaning": "small kangaroo",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small or medium-sized kangaroo-like marsupial"
+}

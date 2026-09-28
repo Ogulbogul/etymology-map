@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "perahu",
+      "lang": "Malay",
+      "era": "medieval",
+      "note": "Malay for any boat; sailing craft with outriggers linked the islands from Malacca to the Philippines",
+      "meaning": "boat",
+      "lat": 2.19,
+      "lon": 102.25
+    },
+    {
+      "word": "proa",
+      "lang": "English",
+      "era": "1580s",
+      "note": "reached English via Portuguese parao and Dutch prauw, and was also applied to Micronesian craft: George Anson's crew captured a 'flying proa' at Tinian in 1742 and marvelled at its speed",
+      "meaning": "fast outrigger sailing boat",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a fast Malay or Micronesian sailing boat with an outrigger"
+}
