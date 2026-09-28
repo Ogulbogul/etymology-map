@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hlāford",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "from 'hlāfweard', loaf-guardian: the head of the household who provided its bread",
+      "meaning": "master",
+      "lat": 52.63,
+      "lon": -1.69
+    },
+    {
+      "word": "lord",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "shortened from 'loverd' by the 1300s",
+      "meaning": "lord",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "lord",
+      "lang": "English",
+      "era": "1500s",
+      "note": "used for God as a translation of Latin 'Dominus'",
+      "meaning": "nobleman, master",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a man of noble rank or high authority"
+}

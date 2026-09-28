@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wīfmann",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "a compound of 'wīf', woman, and 'mann', person",
+      "meaning": "female person",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "wimman",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "the 'f' disappeared and the vowel shifted, giving 'wimman' and later 'womman'",
+      "meaning": "woman",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "woman",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the plural 'women' still keeps the old 'wimmen' pronunciation",
+      "meaning": "adult female",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an adult female human"
+}
