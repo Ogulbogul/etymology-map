@@ -96,7 +96,7 @@ body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-syste
 .logo path{stroke:var(--logo)}
 .controls{display:flex;align-items:center;flex-wrap:wrap;gap:14px}
 .themes{display:flex;align-items:center;gap:8px}
-.tname{font-size:12px;color:var(--dim);min-width:52px}
+.tname{font-size:12px;color:var(--dim);width:96px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sw{all:unset;box-sizing:border-box;width:22px;height:22px;border-radius:50%;border:1px solid var(--border);cursor:pointer}
 .sw:hover{transform:scale(1.12)}
 .sw[aria-pressed=true]{outline:2px solid var(--accent);outline-offset:2px}
@@ -176,6 +176,16 @@ section{scroll-margin-top:64px}
 .more:hover{border-color:var(--accent)}
 .empty{color:var(--dim);font-size:14px;margin:12px 0 4px}
 .foot{margin-top:26px;color:var(--dim);font-size:12px;text-align:center}
+@media (min-width:1600px) and (min-height:720px){
+.wrap{height:100vh;height:100dvh;display:flex;flex-direction:column;padding-bottom:14px}
+.main{flex:1;min-height:0;grid-template-rows:repeat(2,minmax(0,1fr))}
+.card,.panel{min-height:0;overflow:hidden}
+.card{display:flex;flex-direction:column}
+.card .list,.card.open .list{flex:1;min-height:0;max-height:none;overflow:auto;padding-right:4px}
+.card:not(.open) .list li.extra{display:flex}
+.more{display:none}
+.foot{margin-top:10px}
+}
 `;
 
 const CLIENT_JS = String.raw`
@@ -507,7 +517,7 @@ export async function onRequestGet({ request, env }) {
       .join("") +
     `</select>`;
   const themes = [
-    ["auto", "Auto (follows device)", "#fafaf8 50%,#17140f"],
+    ["auto", "Auto (device)", "#fafaf8 50%,#17140f"],
     ["light", "Warm light", "#fafaf8 50%,#b3541e"],
     ["dark", "Warm dark", "#17140f 50%,#e2934f"],
     ["midnight", "Midnight", "#0b1220 50%,#5eb8ff"],
