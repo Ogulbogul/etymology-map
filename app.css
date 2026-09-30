@@ -1142,3 +1142,4 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
   .input-wrap { flex: 1 1 calc(100% - 60px); }
   .trace-arrow { flex: none; width: 50px; }
 }
+.brand-name { position: relative; top: 1.5px; }

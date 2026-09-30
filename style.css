@@ -1390,3 +1390,4 @@ main#result {
   .header-right { gap: 12px; }
   .theme-toggle { width: 44px; height: 44px; }
 }
+.brand-name { position: relative; top: 1.5px; }
