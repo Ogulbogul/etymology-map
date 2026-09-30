@@ -238,7 +238,8 @@ function populateWordList() {
     if (origin) counts.set(origin, (counts.get(origin) || 0) + 1);
   });
   originCounts = counts;
-  allOrigins = [...counts.keys()].sort((a, b) => a.localeCompare(b));
+  // Biggest origins first; ties fall back to alphabetical.
+  allOrigins = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
 
   wordlistOriginSelect.innerHTML = "";
   const allOption = document.createElement("option");
@@ -1381,6 +1382,37 @@ function applyLandingPreview() {
   if (globe) globe.setStops(wod.entry.stops, { animate: false, labels: true });
 }
 
+// One word per UTC day, the same for every visitor: hash the date into the
+// sorted word list, then step forward to the first entry that has a route.
+function dailyCandidates() {
+  const keys = Object.keys(wordIndex).sort();
+  const day = new Date().toISOString().slice(0, 10);
+  let h = 2166136261;
+  for (let i = 0; i < day.length; i++) {
+    h ^= day.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  const start = keys.length ? h % keys.length : 0;
+  return Array.from({ length: Math.min(12, keys.length) }, (_, i) => keys[(start + i) % keys.length]);
+}
+
+async function pickDailyWod() {
+  for (const word of dailyCandidates()) {
+    try {
+      const entry = await fetchWordEntry(word);
+      if (entry && entry.stops && entry.stops.length > 1) {
+        wod = { word, entry };
+        renderWodCard();
+        applyLandingPreview();
+        return;
+      }
+    } catch (err) {
+      return;
+    }
+  }
+  await pickWod();
+}
+
 async function pickWod(exclude) {
   const keys = Object.keys(wordIndex).filter((w) => w !== exclude);
   if (keys.length === 0) return;
@@ -2319,6 +2351,6 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
   renderExampleChips();
   setMapView(currentView, { save: false });
   syncGlobeVariant();
-  await pickWod();
+  await pickDailyWod();
   initFromUrl();
 })();

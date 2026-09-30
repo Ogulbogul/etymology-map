@@ -1220,14 +1220,14 @@ function setupCopyLink() {
   copyLinkBtn.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
-      copyLinkBtn.textContent = "✓";
+      copyLinkBtn.innerHTML = ICON_CHECK;
       copyLinkBtn.classList.add("copied");
     } catch (err) {
-      copyLinkBtn.textContent = "⚠️";
+      copyLinkBtn.innerHTML = ICON_ALERT;
     }
     if (resetTimer) clearTimeout(resetTimer);
     resetTimer = setTimeout(() => {
-      copyLinkBtn.textContent = "🔗";
+      copyLinkBtn.innerHTML = ICON_LINK;
       copyLinkBtn.classList.remove("copied");
     }, 1500);
   });
@@ -1236,8 +1236,11 @@ function setupCopyLink() {
 // --- Dark mode ------------------------------------------------------------
 
 const THEME_STORAGE_KEY = "etymology-map-theme";
-const svgIcon = (body) => `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${body}</svg>`;
+const svgIcon = (body, size = 18) => `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${body}</svg>`;
 const ICON_SUN = svgIcon('<circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>');
+const ICON_LINK = svgIcon('<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>', 16);
+const ICON_CHECK = svgIcon('<path d="M20 6 9 17l-5-5"/>', 16);
+const ICON_ALERT = svgIcon('<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>', 16);
 const ICON_MOON = svgIcon('<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>');
 const themeToggleBtn = document.getElementById("theme-toggle-btn");
 
