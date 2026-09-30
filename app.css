@@ -1308,3 +1308,9 @@ html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
 /* Promote the animated layers so the page underneath is not repainted every frame */
 html.view-to-globe #globe-stage .globe-host, html.view-leaving-globe #globe-stage .globe-host { will-change: transform, opacity; }
 html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
+
+/* Phones and tablets: show the word headline and "Today it means" line on results too
+   (the desktop-only rule above left them hidden at 960px and below). */
+@media (max-width: 960px) {
+  #app[data-state="result"] .result-hero { display: block; text-align: center; padding: 14px 16px 0; }
+}
