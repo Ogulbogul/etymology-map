@@ -224,7 +224,8 @@ a { color: inherit; }
   background: #1c1811; border: 1px solid #3a352c; color: #e2934f;
   font-weight: 700; font-size: 22px; line-height: 1;
 }
-.brand-name { font-size: 24px; font-weight: 500; }
+.brand-name { font-size: 23px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); }
+.brand-accent { color: var(--accent-text); margin-left: 0.28em; }
 .header-actions { display: flex; align-items: center; gap: 24px; }
 .header-link { font-size: 15px; font-weight: 500; color: var(--text-dim); text-decoration: none; }
 .header-link:hover { color: var(--accent-text); }
