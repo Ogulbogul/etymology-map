@@ -305,6 +305,17 @@ function setupWordList() {
     else closeWordList();
   });
   wordlistCloseBtn.addEventListener("click", closeWordList);
+  // The notch closes the phone sheet with a tap or a swipe down.
+  const handle = wordlistPanel.querySelector(".sheet-handle");
+  let dragY = null;
+  handle.addEventListener("pointerdown", (e) => { dragY = e.clientY; handle.setPointerCapture(e.pointerId); });
+  handle.addEventListener("pointerup", (e) => {
+    if (dragY === null) return;
+    const dy = e.clientY - dragY;
+    dragY = null;
+    if (Math.abs(dy) < 6 || dy > 40) closeWordList();
+  });
+  handle.addEventListener("pointercancel", () => { dragY = null; });
   wordlistOriginSelect.addEventListener("change", () => {
     originSearchInput.value = wordlistOriginSelect.value;
     renderWordList(wordlistOriginSelect.value);
@@ -359,7 +370,10 @@ let originAcActiveIndex = -1;
 
 function getOriginMatches(query) {
   const q = query.trim().toLowerCase();
-  if (!q) return [];
+  if (!q) {
+    // Focused with nothing typed: offer the biggest origins first.
+    return [...originCounts.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0])).slice(0, 8).map(([o]) => o);
+  }
   const starts = [];
   const contains = [];
   allOrigins.forEach((origin) => {
@@ -411,6 +425,12 @@ function closeOriginAutocomplete() {
 }
 
 function setupOriginSearch() {
+  originSearchInput.addEventListener("focus", () => {
+    if (originSearchInput.value.trim()) return;
+    originAcMatches = getOriginMatches("");
+    originAcActiveIndex = -1;
+    renderOriginAutocomplete();
+  });
   originSearchInput.addEventListener("input", () => {
     originAcMatches = getOriginMatches(originSearchInput.value);
     originAcActiveIndex = -1;
@@ -867,7 +887,7 @@ function animateViewTo(target, duration = 700) {
   viewAnimFrame = setTimeout(step, 0);
 }
 
-function computeFitView(points) {
+function computeFitView(points, opts = {}) {
   if (points.length === 0) return { x: 0, y: 0, k: 1 };
   // The svg fills its card ("slice"), so what's visible can be a
   // sub-rectangle of the 960x500 space: fit the route inside that.
@@ -890,17 +910,18 @@ function computeFitView(points) {
   const bboxH = Math.max(maxY - minY, 1);
   // Leave room at the bottom for the stage tray on the desktop card.
   const padX = FIT_PADDING;
+  const padLeft = opts.padLeft || 0;
   const padTop = FIT_PADDING * 0.8;
   const padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
   const k = clamp(
-    Math.min((visW - 2 * padX) / bboxW, (visH - padTop - padBottom) / bboxH),
+    Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),
     MIN_ZOOM,
-    MAX_ZOOM
+    opts.maxK || MAX_ZOOM
   );
   const cx = (minX + maxX) / 2;
   const cy = (minY + maxY) / 2;
   const centreY = MAP_HEIGHT / 2 + (padTop - padBottom) / 2;
-  return { x: MAP_WIDTH / 2 - k * cx, y: centreY - k * cy, k };
+  return { x: MAP_WIDTH / 2 + padLeft / 2 - k * cx, y: centreY - k * cy, k };
 }
 
 function toSvgPoint(evt) {
@@ -1352,8 +1373,11 @@ function renderWodCard() {
 // page already shows a journey being tracked.
 function applyLandingPreview() {
   if (appEl.dataset.state !== "landing" || !wod) return;
-  drawMapRoute(wod.entry.stops, { preview: true });
-  setView({ x: 0, y: 0, k: 1 });
+  const points = drawMapRoute(wod.entry.stops, { preview: true });
+  // Zoom in on the word's route, leaving the "Try this word" card clear.
+  const phone = window.innerWidth <= 640;
+  const padLeft = phone ? 0 : (338 / mapScale());
+  setView(computeFitView(points, { padLeft, maxK: 5 }));
   if (globe) globe.setStops(wod.entry.stops, { animate: false, labels: true });
 }
 

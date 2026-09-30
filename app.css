@@ -1112,3 +1112,37 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 @media (max-width: 640px) {
   .wod-card { width: 100% !important; max-width: none; box-sizing: border-box; }
 }
+
+/* ---------- Map home: no suggestion chips, the card carries the suggestion ---------- */
+.card-head-landing, .empty-chips-bar, .empty-chips-label { display: none !important; }
+#app[data-state="landing"] .card-head { justify-content: flex-end; }
+
+/* Word list sheet: bigger notch target */
+.sheet-handle { cursor: pointer; touch-action: none; }
+
+@media (max-width: 640px) {
+  /* crowded hero: smaller buttons, more air around the title */
+  .hero { padding-top: 40px; }
+  .search-row { margin-top: 28px; gap: 10px; }
+  .search-buttons { gap: 10px; }
+  .search-buttons .btn { height: 40px; font-size: 14px; }
+  .stage { margin-top: 28px; }
+
+  /* the map home: map on top, the suggestion card underneath */
+  #app[data-state="landing"] .map-stage { height: auto; display: flex; flex-direction: column; }
+  #app[data-state="landing"] #map { height: 230px; flex: none; }
+  #app[data-state="landing"] .map-stage .wod-card {
+    position: static; width: auto !important; margin: 12px; left: auto; top: auto;
+  }
+  #app[data-state="landing"] .map-hint { display: none; }
+
+  /* origin picker: no native dropdown, type or pick from the short list */
+  .wordlist-filter select { display: none; }
+  .origin-search-wrap { flex: 1 1 100%; position: relative; }
+  .origin-search-wrap .autocomplete-list { max-height: min(28vh, 200px); overflow-y: auto; }
+  .sheet-handle { padding: 14px 0; margin: 0 auto; width: 80px; background-clip: content-box; height: 4px; box-sizing: content-box; }
+}
+@media (max-width: 640px) {
+  .input-wrap { flex: 1 1 calc(100% - 60px); }
+  .trace-arrow { flex: none; width: 50px; }
+}
