@@ -1234,3 +1234,53 @@ html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; 
   .map-stage { height: 400px; }
   #app[data-state="result"] .result-area { margin-top: 8px; }
 }
+
+/* ===== Desktop: one frame for Map and Globe (no map container, faded edges) ===== */
+@media (min-width: 961px) {
+  #app:is([data-state="landing"], [data-state="result"]) .stage {
+    --gsize: min(1080px, 72vw);
+    max-width: none; width: 100%; padding: 0 0 48px; margin-top: 76px; overflow-x: clip;
+  }
+  #app:is([data-state="landing"], [data-state="result"]) :is(#result-area, #related-words, #origin-browse) {
+    width: 100%; max-width: 1108px; padding-left: 16px; padding-right: 16px; margin-left: auto; margin-right: auto; box-sizing: border-box;
+  }
+  #app[data-state="result"] #result-area { margin-top: -11px; position: relative; z-index: 10; }
+  #app[data-state="result"] .origin-sentence { display: none; }
+  #app[data-state="landing"] #origin-browse { margin-top: 28px; position: relative; z-index: 2; }
+
+  /* Map: no card, the map fades out at its limits */
+  .map-card { border: 0; background: transparent; border-radius: 0; overflow: visible; height: 520px; position: relative; }
+  .card-head {
+    position: absolute; top: 11px; left: calc(50% - 515px); right: calc(50% - 515px); z-index: 8;
+    min-height: 0; padding: 0; border: 0; background: transparent; justify-content: space-between; gap: 12px;
+  }
+  #app[data-state="landing"] .card-head { justify-content: flex-end; }
+  .map-stage { position: static; height: auto; background: transparent; }
+  #map {
+    position: absolute; left: 50%; top: 0; transform: translateX(-50%);
+    width: min(1076px, calc(100% - 32px)); height: 520px;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent), linear-gradient(to bottom, transparent, #000 14%, #000 62%, transparent);
+    -webkit-mask-composite: source-in;
+            mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent), linear-gradient(to bottom, transparent, #000 14%, #000 62%, transparent);
+            mask-composite: intersect;
+  }
+  .map-stage .map-hint, .map-stage .tray { display: none !important; }
+
+  /* Globe: same 520px box; controls at the same spots as the map's */
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage {
+    height: calc(520px + var(--pad));
+  }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage::after {
+    top: calc(var(--pad) + 300px);
+  }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-tools { top: calc(var(--pad) + 11px); }
+  html[data-view="globe"] #app[data-state="result"] .globe-actions { top: calc(var(--pad) + 11px); }
+
+  /* "Try this word": one spot in both views */
+  #app[data-state="landing"] .wod-card { position: absolute; left: max(24px, calc(50% - 600px)); top: 76px; z-index: 6; }
+  html[data-view="globe"] #app[data-state="landing"] .wod-card { top: calc(var(--pad) + 76px); left: max(24px, calc(50% - 600px)); }
+}
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: -11px; }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { clip-path: inset(-400px -50vw 40px -50vw); }
+}
