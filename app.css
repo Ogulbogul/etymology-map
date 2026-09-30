@@ -1189,3 +1189,16 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
     border: 1px solid var(--accent); border-radius: 12px; background: var(--selected);
   }
 }
+
+/* Map and Globe share one page frame on desktop, so switching views moves nothing */
+@media (min-width: 961px) {
+  #app[data-state="result"] .hero-title { display: none; }
+  #app[data-state="result"] .result-hero { display: block; text-align: center; }
+  #app[data-state="result"] .route-chips:not([hidden]) {
+    display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px; margin-top: 22px;
+  }
+  #app:is([data-state="landing"], [data-state="result"]) .stage { margin-top: 76px; }
+}
+@media (max-width: 640px) {
+  html[data-view="globe"] #app[data-state="landing"] .stage { margin-top: 28px; }
+}
