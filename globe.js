@@ -139,23 +139,47 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       const arc = el("path", { class: "g-arc", pathLength: "1" }, arcsG);
       arcEls.push(arc);
     }
+    // Stages that share a place share one pin, badged "3–4".
+    const groups = [];
     stops.forEach((stop, i) => {
-      const g = el("g", { class: "gpin", "data-idx": String(i), tabindex: "0", role: "button", "aria-label": `Stage ${i + 1}: ${stop.word}` }, pinsG);
+      const hit = groups.find((grp) => Math.abs(grp.lon - stop.lon) < 0.3 && Math.abs(grp.lat - stop.lat) < 0.3);
+      if (hit) hit.idxs.push(i);
+      else groups.push({ idxs: [i], lon: stop.lon, lat: stop.lat });
+    });
+    groups.forEach((grp, gi) => {
+      const first = grp.idxs[0];
+      const consecutive = grp.idxs.every((k, n) => n === 0 || k === grp.idxs[n - 1] + 1);
+      grp.badge = grp.idxs.length === 1
+        ? String(first + 1)
+        : consecutive
+          ? `${first + 1}\u2013${grp.idxs[grp.idxs.length - 1] + 1}`
+          : grp.idxs.map((k) => k + 1).join(",");
+      grp.words = [...new Set(grp.idxs.map((k) => stops[k].word))].join(" / ");
+      const g = el("g", { class: "gpin", "data-idx": String(first), tabindex: "0", role: "button", "aria-label": `Stage ${grp.badge}: ${grp.words}` }, pinsG);
+      g._group = grp;
       el("circle", { class: "gpin-halo" }, g);
       el("circle", { class: "gpin-dot" }, g);
+      el("rect", { class: "gpin-dot gpin-pill" }, g);
       const num = el("text", { class: "gpin-num", "text-anchor": "middle", dy: ".35em" }, g);
-      num.textContent = String(i + 1);
+      num.textContent = grp.badge;
       const label = el("text", { class: "gpin-label" }, g);
-      label.textContent = stop.word;
-      g.addEventListener("pointerenter", () => onHover && onHover(i, true));
-      g.addEventListener("pointerleave", () => onHover && onHover(i, false));
-      g.addEventListener("click", () => { if (!suppressClick) onSelect && onSelect(i); });
+      label.textContent = grp.words;
+      // Tapping a shared pin steps through its stages one at a time.
+      const target = () => {
+        if (grp.idxs.length === 1) return first;
+        const at = grp.idxs.indexOf(selected);
+        return grp.idxs[(at + 1) % grp.idxs.length];
+      };
+      g.addEventListener("pointerenter", () => grp.idxs.forEach((k) => onHover && onHover(k, true)));
+      g.addEventListener("pointerleave", () => grp.idxs.forEach((k) => onHover && onHover(k, false)));
+      g.addEventListener("click", () => { if (!suppressClick) onSelect && onSelect(target()); });
       g.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
-          onSelect && onSelect(i);
+          onSelect && onSelect(target());
         }
       });
+      g.style.setProperty("--i", String(gi));
       pinEls.push(g);
     });
   }
@@ -172,30 +196,42 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       const b = [stops[i + 1].lon, stops[i + 1].lat];
       arc.setAttribute("d", pathGen({ type: "LineString", coordinates: [a, b] }) || "");
     });
-    pinEls.forEach((g, i) => {
-      const s = stops[i];
+    pinEls.forEach((g) => {
+      const grp = g._group;
+      const s = stops[grp.idxs[0]];
       const p = projection([s.lon, s.lat]);
       const visible = p && d3geo.geoDistance([s.lon, s.lat], center) < (Math.PI / 2) * 0.97;
       g.style.display = visible ? "" : "none";
       if (!visible) return;
-      const isSel = i === selected || i === hovered;
+      const isSel = grp.idxs.some((k) => k === selected || k === hovered);
       const { r, px } = pinRadiusUnits(isSel);
-      const dot = g.querySelector(".gpin-dot");
+      const k = 920 / pxWidth;
+      const fs = Math.max(9, px * 1.3) * k;
+      const multi = grp.idxs.length > 1;
+      const dot = g.querySelector("circle.gpin-dot");
+      const pill = g.querySelector(".gpin-pill");
       const halo = g.querySelector(".gpin-halo");
       const num = g.querySelector(".gpin-num");
       const label = g.querySelector(".gpin-label");
+      const w = multi ? Math.max(2 * r, 2 * r + (grp.badge.length - 1) * fs * 0.5) : 2 * r;
+      dot.style.display = multi ? "none" : "";
+      pill.style.display = multi ? "" : "none";
       dot.setAttribute("cx", p[0]); dot.setAttribute("cy", p[1]); dot.setAttribute("r", r);
-      halo.setAttribute("cx", p[0]); halo.setAttribute("cy", p[1]); halo.setAttribute("r", r * 1.9);
+      pill.setAttribute("x", p[0] - w / 2); pill.setAttribute("y", p[1] - r);
+      pill.setAttribute("width", w); pill.setAttribute("height", 2 * r); pill.setAttribute("rx", r);
+      halo.setAttribute("cx", p[0]); halo.setAttribute("cy", p[1]); halo.setAttribute("r", (w / 2) * 1.9);
       num.setAttribute("x", p[0]); num.setAttribute("y", p[1]);
-      num.setAttribute("font-size", Math.max(9, px * 1.3) * (920 / pxWidth));
-      const showLabel = labelMode && (i === 0 || i === stops.length - 1);
+      num.setAttribute("font-size", fs);
+      const hasFirst = grp.idxs.includes(0);
+      const hasLast = grp.idxs.includes(stops.length - 1);
+      const showLabel = labelMode && (hasFirst || hasLast);
       label.style.display = showLabel ? "" : "none";
       if (showLabel) {
-        const right = i === 0;
-        label.setAttribute("x", p[0] + (right ? 1 : -1) * (r + 6 * (920 / pxWidth)));
-        label.setAttribute("y", p[1] + 4 * (920 / pxWidth));
+        const right = hasFirst && !hasLast;
+        label.setAttribute("x", p[0] + (right ? 1 : -1) * (w / 2 + 6 * k));
+        label.setAttribute("y", p[1] + 4 * k);
         label.setAttribute("text-anchor", right ? "start" : "end");
-        label.setAttribute("font-size", 14 * (920 / pxWidth));
+        label.setAttribute("font-size", 14 * k);
       }
       g.classList.toggle("is-active", isSel);
     });

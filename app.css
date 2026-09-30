@@ -1143,3 +1143,13 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
   .trace-arrow { flex: none; width: 50px; }
 }
 .brand-name { position: relative; top: 1.5px; }
+
+/* Globe controls hug the sphere: inset to its width, a short step above it */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-tools {
+    right: max(24px, calc(50% - var(--gsize) * 0.44)); top: 30px;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-actions {
+    left: max(24px, calc(50% - var(--gsize) * 0.44)); top: 30px;
+  }
+}
