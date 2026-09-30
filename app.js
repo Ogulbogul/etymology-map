@@ -83,6 +83,7 @@ const cardMeaningEl = document.getElementById("card-meaning");
 const resultAreaEl = document.getElementById("result-area");
 const panelEl = document.getElementById("panel");
 const trayEl = document.getElementById("tray");
+const stageEl = document.getElementById("stage");
 const mapSvg = document.getElementById("map");
 const mapCanvasEl = document.getElementById("map-stage");
 const zoomLayer = document.getElementById("zoom-layer");
@@ -1010,6 +1011,9 @@ function setupPanZoom() {
     const down = downClient.get(e.pointerId);
     if (down && Math.hypot(e.clientX - down.x, e.clientY - down.y) > 4) {
       downClient.delete(e.pointerId);
+      mapCanvasEl.classList.add("panning");
+      const sel = window.getSelection && window.getSelection();
+      if (sel) sel.removeAllRanges();
       try {
         mapSvg.setPointerCapture(e.pointerId);
       } catch (err) {
@@ -1037,7 +1041,7 @@ function setupPanZoom() {
     activePointers.delete(e.pointerId);
     downClient.delete(e.pointerId);
     if (activePointers.size === 0) {
-      mapCanvasEl.classList.remove("dragging");
+      mapCanvasEl.classList.remove("dragging", "panning");
       dragStart = null;
       pinchPrevDist = null;
     } else if (activePointers.size === 1) {
@@ -1507,23 +1511,28 @@ function setupWod() {
 // The word-of-the-day card sits on the flat map in map view and on the
 // globe in globe view.
 function placeWodCard() {
-  const host = currentView === "globe" ? globeStageEl : mapStageEl;
+  // On desktop the card lives directly in the stage so it never moves or
+  // disappears when the view changes; on phones it follows the active view.
+  const desktop = window.innerWidth >= 961;
+  const host = desktop ? stageEl : currentView === "globe" ? globeStageEl : mapStageEl;
   if (wodCard.parentElement !== host) host.appendChild(wodCard);
 }
+window.addEventListener("resize", () => placeWodCard());
 
 let leaveTimer = null;
 // Globe -> map plays the rising-globe entrance backwards, then the map loads in.
 function setMapView(view, opts = {}) {
   if (view === "globe" && globeUnavailable) view = "map";
-  if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; document.documentElement.classList.remove("view-leaving-globe"); }
+  if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; document.documentElement.classList.remove("view-leaving-globe", "view-leaving-map"); }
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (view === "map" && currentView === "globe" && !reduce && !opts.instant) {
+  if (view !== currentView && !reduce && !opts.instant && window.innerWidth >= 961 && appEl) {
     const root = document.documentElement;
-    root.classList.add("view-leaving-globe");
-    viewToggleButtons.forEach((b) => b.setAttribute("aria-checked", b.dataset.view === "map" ? "true" : "false"));
+    const cls = currentView === "globe" ? "view-leaving-globe" : "view-leaving-map";
+    root.classList.add(cls);
+    viewToggleButtons.forEach((b) => b.setAttribute("aria-checked", b.dataset.view === view ? "true" : "false"));
     leaveTimer = setTimeout(() => {
       leaveTimer = null;
-      root.classList.remove("view-leaving-globe");
+      root.classList.remove(cls);
       applyMapView(view, opts);
     }, 420);
     return;

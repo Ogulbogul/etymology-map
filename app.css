@@ -882,7 +882,6 @@ html[data-view="globe"] #app[data-state="landing"] .related-words {
 html.view-to-globe #globe-stage .globe-host { animation: globe-in 1.1s cubic-bezier(.2,.8,.2,1) both; }
 html.view-to-globe #globe-stage .globe-tools { animation: rise-in 0.5s ease 0.5s both; }
 html.view-to-map #map-card { animation: map-in 0.6s ease both; }
-html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
 
 /* ---------- Desktop globe result ("Result A, story open") ---------- */
 @media (min-width: 961px) {
@@ -956,11 +955,7 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
   html[data-view="globe"] #app[data-state="landing"] .related-words { position: relative; z-index: 6; }
 }
 @media (min-width: 961px) {
-  html[data-view="globe"] #app[data-state="landing"] .origin-browse .origin-pill { background: var(--card); border: 1px solid var(--border); }
-  html[data-view="globe"] #app[data-state="landing"] .origin-browse .origin-pill:hover { background: var(--accent); }
-  html[data-view="globe"] #app[data-state="landing"] .origin-browse h2,
-  html[data-view="globe"] #app[data-state="landing"] .browse-count { text-shadow: 0 1px 6px var(--bg), 0 0 14px var(--bg); }
-}
+    }
 
 /* ---------- Story panel in every view ---------- */
 #app[data-state="result"] .story-stages { display: block; list-style: none; margin: 0; padding: 0; }
@@ -1209,8 +1204,7 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 }
 html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cubic-bezier(.4,0,.8,.4) both; }
 html.view-leaving-globe #globe-stage .globe-tools,
-html.view-leaving-globe #globe-stage .globe-actions,
-html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; }
+html.view-leaving-globe #globe-stage .globe-actions { opacity: 0; transition: opacity 0.25s ease; }
 
 /* Stage cards sit in the same place in Map and Globe view (desktop results):
    same width, and the same distance below the top of the map/globe area. */
@@ -1277,10 +1271,22 @@ html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; 
   html[data-view="globe"] #app[data-state="result"] .globe-actions { top: calc(var(--pad) + 11px); }
 
   /* "Try this word": one spot in both views */
-  #app[data-state="landing"] .wod-card { position: absolute; left: max(24px, calc(50% - 600px)); top: 76px; z-index: 6; }
-  html[data-view="globe"] #app[data-state="landing"] .wod-card { top: calc(var(--pad) + 76px); left: max(24px, calc(50% - 600px)); }
 }
 @media (min-width: 961px) {
   html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: -11px; }
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { clip-path: inset(-400px -50vw 40px -50vw); }
 }
+
+@media (min-width: 961px) {
+  #app[data-state="landing"] .wod-card,
+  html[data-view="globe"] #app[data-state="landing"] .wod-card {
+    position: absolute; left: max(24px, calc(50% - 600px)); top: 76px; z-index: 9;
+  }
+}
+/* Map drag: never select text or light up pins */
+#map, #map * { user-select: none; -webkit-user-select: none; }
+.map-stage.panning .pin-group, .map-stage.panning * { pointer-events: none; }
+.map-stage.panning { cursor: grabbing; }
+.map-stage.panning .pin-group.active .pin-halo { display: none; }
+/* Map -> globe: the map fades away slowly */
+html.view-leaving-map #map, html.view-leaving-map #map-card .card-head { opacity: 0; transition: opacity 0.42s ease; }
