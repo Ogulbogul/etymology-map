@@ -928,10 +928,16 @@ function computeFitView(points, opts = {}) {
   const bboxW = Math.max(maxX - minX, 1);
   const bboxH = Math.max(maxY - minY, 1);
   // Leave room at the bottom for the stage tray on the desktop card.
-  const padX = FIT_PADDING;
+  let padX = FIT_PADDING;
   const padLeft = opts.padLeft || 0;
-  const padTop = FIT_PADDING * 1.5;
-  const padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
+  let padTop = FIT_PADDING * 1.5;
+  let padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
+  if (window.innerWidth >= 961) {
+    // Desktop map fades out at its edges: keep every pin inside the clear middle.
+    padX = visW * 0.17;
+    padTop = visH * 0.24;
+    padBottom = visH * 0.32;
+  }
   const k = clamp(
     Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),
     MIN_ZOOM,
@@ -1409,7 +1415,7 @@ function renderWord(word, entry) {
   lastPoints = points;
 
   setView({ x: 0, y: 0, k: 1 });
-  animateViewTo(computeFitView(points));
+  animateViewTo(computeFitView(points), 1300);
   if (globe) globe.setStops(entry.stops, { animate: true });
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
