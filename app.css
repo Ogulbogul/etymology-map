@@ -1230,3 +1230,20 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
 html.view-leaving-globe #globe-stage .globe-tools,
 html.view-leaving-globe #globe-stage .globe-actions,
 html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; }
+
+/* Stage cards sit in the same place in Map and Globe view (desktop results):
+   same width, and the same distance below the top of the map/globe area. */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="result"] #result-area {
+    margin-top: calc(566px - var(--gsize) * 0.74);
+    max-width: 1108px; padding: 0 16px;
+  }
+  html[data-view="globe"] #app[data-state="result"] #related-words {
+    max-width: 1108px; padding: 0 16px; width: 100%; margin-left: auto; margin-right: auto; box-sizing: border-box;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage::after { top: calc(566px + var(--pad) - 150px); }
+}
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { clip-path: inset(-400px -50vw 0 -50vw); }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { clip-path: inset(-400px -50vw 8px -50vw); }
+}
