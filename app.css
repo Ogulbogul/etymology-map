@@ -1287,3 +1287,12 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
 .map-stage.panning .pin-group.active .pin-halo { display: none; }
 /* Map -> globe: the map fades away slowly */
 html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
+
+/* The desktop map is centred with translateX(-50%): its animation must keep that offset */
+@keyframes map-in-centered {
+  0% { opacity: 0; transform: translateX(-50%) scale(0.97); filter: blur(3px); }
+  100% { opacity: 1; transform: translateX(-50%); filter: none; }
+}
+@media (min-width: 961px) {
+  html.view-to-map #map { animation: map-in-centered 0.6s ease both; }
+}
