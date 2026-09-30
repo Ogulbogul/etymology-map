@@ -820,7 +820,10 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
   .wordlist-count { margin-left: 0; }
   .wordlist-grid { flex: 1 1 auto; max-height: none; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 14px 16px; }
   .wordlist-item { height: 44px; padding: 0 8px; display: block; line-height: 42px; }
-  #app.sheet-open::after { content: ""; position: fixed; inset: 0; background: var(--scrim); z-index: 55; }
+  #app.sheet-open .hero { z-index: 60; }
+  #app.sheet-open .hero::after { content: ""; position: fixed; inset: 0; background: var(--scrim); z-index: 1; pointer-events: none; }
+  .wordlist-panel { z-index: 60; }
+  .search-row { z-index: 2; }
 
   /* Globe on phones: a whole sphere, never cropped */
   html[data-view="globe"] #app[data-state="landing"] .stage { padding: 0 16px 32px; margin-top: 12px; }
@@ -1047,3 +1050,65 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 .origin-browse { text-align: center; }
 .origin-browse .section-head { justify-content: center; gap: 14px; }
 .origin-pills { justify-content: center; }
+
+/* ---------- Matching control heights ---------- */
+#share-btn, #share-btn-globe, .head-actions .icon-btn.small, .globe-actions .icon-btn.small { height: 36px; }
+.head-actions .icon-btn.small, .globe-actions .icon-btn.small { width: 36px; }
+#share-btn, #share-btn-globe { padding: 0 14px; font-size: 13px; }
+
+/* ---------- Phones and tablets: compact top bars ---------- */
+@media (max-width: 960px) {
+  /* globe controls share one row; the rotation pill drops under on results */
+  html[data-view="globe"] .globe-stage { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+  html[data-view="globe"] .globe-stage .globe-tools { display: contents; }
+  html[data-view="globe"] .globe-stage .globe-tools .globe-caption { order: 1; flex: 0 0 auto; margin: 0; }
+  html[data-view="globe"] .globe-stage .globe-tools .view-toggle { order: 2; margin-left: auto; }
+  html[data-view="globe"] .globe-stage .globe-host { order: 4; flex: 0 0 100%; }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-actions { order: 0; margin: 0; position: static; }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-tools .globe-caption { order: 3; flex: 0 0 100%; justify-content: center; }
+  html[data-view="globe"] .globe-stage .globe-hint { display: none; }
+  html[data-view="globe"] .globe-stage .globe-tools { position: static; }
+}
+@media (max-width: 640px) {
+  .card-head { flex-wrap: nowrap; align-items: center; gap: 8px; }
+  .card-head-landing { flex: 1 1 0; flex-direction: row; align-items: center; overflow: hidden; gap: 6px; }
+  .empty-chips-label { display: none; }
+  .empty-chips-bar { overflow: hidden; }
+  .example-chip { height: 36px; padding: 0 12px; font-size: 13px; }
+  .card-tools { width: auto; margin-left: auto; flex: none; }
+  .card-tools .view-toggle { height: 40px; }
+  .card-tools .view-toggle button { height: 34px; padding: 0 10px; }
+  #share-btn, #share-btn-globe { height: 40px; }
+  .head-actions .icon-btn.small, .globe-actions .icon-btn.small { width: 40px; height: 40px; }
+  .view-toggle { height: 40px; }
+  .view-toggle button { height: 34px; }
+  .pill-btn { height: 40px; }
+  #app[data-state="result"] .card-head { padding: 10px 12px; }
+}
+
+/* ---------- Story panel: stage breakdown + At a glance (all widths) ---------- */
+.story-stages { counter-reset: stg; }
+#app[data-state="result"] .story-stages li {
+  display: grid; grid-template-columns: 28px minmax(0, 1fr); column-gap: 14px; row-gap: 1px;
+  padding: 14px 0; border-top: 1px solid var(--border);
+}
+#app[data-state="result"] .story-stages li::before {
+  counter-increment: stg; content: counter(stg);
+  grid-row: 1 / span 3; align-self: start; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--accent); color: var(--on-accent); font-size: 12px; font-weight: 700; line-height: 26px; text-align: center;
+}
+#app[data-state="result"] .ss-label { display: block; grid-column: 2; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+#app[data-state="result"] .ss-word { display: block; grid-column: 2; font-size: 19px; font-weight: 600; line-height: 1.25; }
+#app[data-state="result"] .ss-text { display: block; grid-column: 2; font-size: 14px; line-height: 1.5; color: var(--text-dim); }
+#app[data-state="result"] .story-glance { padding-top: 14px; }
+#app[data-state="result"] .story-glance h3 { margin: 0 0 4px; }
+#app[data-state="result"] .glance-row { display: flex; flex-direction: column; gap: 3px; padding: 12px 0; border-top: 1px solid var(--border); }
+#app[data-state="result"] .glance-k { display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+#app[data-state="result"] .glance-v { display: block; margin: 0; font-size: 15px; font-weight: 600; line-height: 1.4; }
+@media (max-width: 960px) {
+  #app[data-state="result"] .story-glance { margin-top: 8px; border-top: 1px solid var(--border); }
+  #app[data-state="result"] .story-glance h3 { margin-top: 14px; }
+}
+@media (max-width: 640px) {
+  .wod-card { width: 100% !important; max-width: none; box-sizing: border-box; }
+}

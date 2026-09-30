@@ -509,7 +509,7 @@ function pickExampleWords(count) {
 function renderExampleChips() {
   if (!emptyChipsBar) return;
   emptyChipsBar.querySelectorAll(".example-chip").forEach((el) => el.remove());
-  const count = window.innerWidth < 640 ? 4 : 6;
+  const count = window.innerWidth <= 640 ? 2 : 6;
   pickExampleWords(count).forEach((word) => {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -1491,11 +1491,7 @@ async function trace(options = {}) {
   renderWord(raw, entry);
   syncGlobeVariant();
   if (window.emTrack) window.emTrack.view(raw);
-  // On phones the result starts below the search controls: bring it up.
-  if (window.innerWidth <= 640 && !options.fromUrl) {
-    const target = document.getElementById(currentView === "map" ? "map-card" : "globe-stage");
-    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+
 }
 
 function syncGlobeVariant() {
