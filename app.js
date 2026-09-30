@@ -810,7 +810,7 @@ function updatePinPositions() {
   placed.forEach(({ g, sx, sy, x, y, anchor }) => {
     const preview = g.classList.contains("preview");
     const isOn = g.classList.contains("active") || g.classList.contains("selected");
-    const rPx = preview ? 4.5 : (isOn ? 10 : 8) * (small ? 0.85 : 1);
+    const rPx = (isOn ? 10 : preview ? 9.5 : 8) * (small ? 0.85 : 1);
     const circle = g.querySelector(".pin-dot");
     const halo = g.querySelector(".pin-halo");
     const num = g.querySelector(".pin-num");
