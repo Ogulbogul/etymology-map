@@ -971,7 +971,6 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
   html[data-view="globe"] #app[data-state="landing"] .globe-caption { position: absolute; left: 60px; right: auto; bottom: auto; justify-content: flex-start; }
   html[data-view="globe"] #app[data-state="landing"] .globe-tools { right: 60px; }
   /* keep the footer below the sphere's lower edge */
-  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .stage { min-height: calc(var(--gsize) * 0.935 + 80px); }
   html[data-view="globe"] #app[data-state="result"] .related-words { position: relative; z-index: 6; }
   html[data-view="globe"] #app[data-state="landing"] .related-words { position: relative; z-index: 6; }
 }
@@ -1156,11 +1155,20 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 
 .pin-hit { fill: transparent; stroke: none; }
 
-/* Globe result: fade into the page background (up to 80%) from the stage cards down */
+/* Globe: fade into the page background (100%) from the stage cards / origin section down */
 @media (min-width: 961px) {
-  html[data-view="globe"] #app[data-state="result"] .globe-stage::after {
-    content: ""; position: absolute; left: 0; right: 0; bottom: 0; top: calc(var(--gsize) * 0.30);
-    background: linear-gradient(to bottom, color-mix(in srgb, var(--bg) 0%, transparent) 0%, color-mix(in srgb, var(--bg) 80%, transparent) 55%, color-mix(in srgb, var(--bg) 80%, transparent) 100%);
+  html[data-view="globe"] #app:is([data-state="result"], [data-state="landing"]) .globe-stage::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, color-mix(in srgb, var(--bg) 0%, transparent) 0%, var(--bg) 55%, var(--bg) 100%);
     pointer-events: none; z-index: 1;
   }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage::after { top: calc(var(--gsize) * 0.30); }
+  html[data-view="globe"] #app[data-state="landing"] .globe-stage::after { top: calc(var(--gsize) * 0.42); }
+}
+@media (min-width: 961px) {
+  /* the faded-out lower half of the sphere must not stretch the page */
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { --pad: calc(var(--gsize) * 0.0652 - 10px); padding-top: var(--pad); margin-top: calc(var(--pad) * -1); height: calc(var(--gsize) * 0.74 + var(--pad)); overflow: hidden; }
+  html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: calc(var(--gsize) * -0.44); }
+  html[data-view="globe"] #app[data-state="landing"] .origin-browse { margin-top: calc(var(--gsize) * -0.19); }
+  html[data-view="globe"] #app[data-state="landing"] .stage { padding-bottom: 56px; }
 }
