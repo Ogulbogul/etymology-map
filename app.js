@@ -934,9 +934,9 @@ function computeFitView(points, opts = {}) {
   let padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
   if (window.innerWidth >= 961) {
     // Desktop map fades out at its edges: keep every pin inside the clear middle.
-    padX = visW * 0.17;
-    padTop = visH * 0.24;
-    padBottom = visH * 0.32;
+    padX = visW * 0.1;
+    padTop = visH * 0.17;
+    padBottom = visH * 0.26;
   }
   const k = clamp(
     Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),

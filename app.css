@@ -1250,9 +1250,9 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
   #map {
     position: absolute; left: 50%; top: 0; transform: translateX(-50%);
     width: min(1076px, calc(100% - 32px)); height: 520px;
-    -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent), linear-gradient(to bottom, transparent, #000 14%, #000 62%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 8%, #000 76%, transparent);
     -webkit-mask-composite: source-in;
-            mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent), linear-gradient(to bottom, transparent, #000 14%, #000 62%, transparent);
+            mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 8%, #000 76%, transparent);
             mask-composite: intersect;
   }
   .map-stage .map-hint, .map-stage .tray { display: none !important; }
