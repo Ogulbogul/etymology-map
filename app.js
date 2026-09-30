@@ -751,7 +751,7 @@ function clearResult() {
 
 function setActive(index, isActive) {
   const row = panelEl.querySelector(`.stop-row[data-idx="${index}"]`);
-  const pin = pinLayer.querySelector(`.pin-group[data-idx="${index}"]`);
+  const pin = pinGroupFor(index);
   const tray = trayEl.querySelector(`.tray-item[data-idx="${index}"]`);
   [row, pin, tray].forEach((el) => el && el.classList.toggle("active", isActive));
   if (globe) globe.setHover(isActive ? index : -1);
@@ -766,7 +766,7 @@ function selectStop(index) {
     el.setAttribute("aria-pressed", on ? "true" : "false");
   });
   trayEl.querySelectorAll(".tray-item").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
-  pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
+  pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", (el.dataset.idxs || "").split(",").includes(String(selectedStop))));
   routeChipsEl.querySelectorAll(".route-chip").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
   if (globe) globe.setSelected(selectedStop);
 }
@@ -832,17 +832,30 @@ function updatePinPositions() {
     const preview = g.classList.contains("preview");
     const isOn = g.classList.contains("active") || g.classList.contains("selected");
     const rPx = (isOn ? 10 : preview ? 9.5 : 8) * (small ? 0.85 : 1);
-    const circle = g.querySelector(".pin-dot");
+    const circle = g.querySelector("circle.pin-dot");
+    const pill = g.querySelector(".pin-pill");
     const halo = g.querySelector(".pin-halo");
     const num = g.querySelector(".pin-num");
     const label = g.querySelector(".pin-label");
+    const badgeLen = num.textContent.length;
+    const multi = (g.dataset.idxs || "").includes(",");
+    const fsPx = Math.max(9, rPx * 1.3);
+    const wPx = multi ? Math.max(2 * rPx, 2 * rPx + (badgeLen - 1) * fsPx * 0.5) : 2 * rPx;
+    circle.style.display = multi ? "none" : "";
+    pill.style.display = multi ? "" : "none";
     circle.setAttribute("cx", sx);
     circle.setAttribute("cy", sy);
     circle.setAttribute("r", rPx * u);
     circle.setAttribute("stroke-width", 1.5 * u);
+    pill.setAttribute("x", sx - (wPx / 2) * u);
+    pill.setAttribute("y", sy - rPx * u);
+    pill.setAttribute("width", wPx * u);
+    pill.setAttribute("height", 2 * rPx * u);
+    pill.setAttribute("rx", rPx * u);
+    pill.setAttribute("stroke-width", 1.5 * u);
     halo.setAttribute("cx", sx);
     halo.setAttribute("cy", sy);
-    halo.setAttribute("r", rPx * 1.9 * u);
+    halo.setAttribute("r", (wPx / 2) * 1.9 * u);
     num.setAttribute("x", sx);
     num.setAttribute("y", sy);
     num.setAttribute("font-size", Math.max(9, rPx * 1.3) * u);
@@ -948,6 +961,7 @@ function setupPanZoom() {
   // pins to pinch-zoom (distance-ratio between them each move, applied as
   // an incremental factor around their midpoint, same as a wheel tick).
   const activePointers = new Map();
+  const downClient = new Map();
   let dragStart = null;
   let viewAtDragStart = null;
   let pinchPrevDist = null;
@@ -971,12 +985,9 @@ function setupPanZoom() {
       clearTimeout(viewAnimFrame);
       viewAnimFrame = null;
     }
-    try {
-      mapSvg.setPointerCapture(e.pointerId);
-    } catch (err) {
-      // Some browsers reject capturing a pointer mid-gesture (e.g. the
-      // second finger of a pinch); tracking below still works without it.
-    }
+    // Capture only once the pointer really drags (see pointermove), so a
+    // plain tap still reaches the pin under it as a click.
+    downClient.set(e.pointerId, { x: e.clientX, y: e.clientY });
     activePointers.set(e.pointerId, toSvgPoint(e));
     mapCanvasEl.classList.add("dragging");
 
@@ -992,6 +1003,15 @@ function setupPanZoom() {
 
   mapSvg.addEventListener("pointermove", (e) => {
     if (!activePointers.has(e.pointerId)) return;
+    const down = downClient.get(e.pointerId);
+    if (down && Math.hypot(e.clientX - down.x, e.clientY - down.y) > 4) {
+      downClient.delete(e.pointerId);
+      try {
+        mapSvg.setPointerCapture(e.pointerId);
+      } catch (err) {
+        // Some browsers reject capturing a pointer mid-gesture; tracking still works.
+      }
+    }
     activePointers.set(e.pointerId, toSvgPoint(e));
 
     if (activePointers.size >= 2) {
@@ -1011,6 +1031,7 @@ function setupPanZoom() {
 
   function releasePointer(e) {
     activePointers.delete(e.pointerId);
+    downClient.delete(e.pointerId);
     if (activePointers.size === 0) {
       mapCanvasEl.classList.remove("dragging");
       dragStart = null;
@@ -1193,6 +1214,26 @@ function renderRelatedWords(baseWord, originLang) {
 // Draws the route (dashed lines, midpoint arrows, pins) on the flat map.
 // "preview" is the small, label-light version used for the landing page's
 // word of the day.
+// Stages that share a place share one pin, badged "3–4" (same rule as the globe).
+function groupStops(stops) {
+  const groups = [];
+  stops.forEach((stop, i) => {
+    const hit = groups.find((g) => Math.abs(g.lon - stop.lon) < 0.3 && Math.abs(g.lat - stop.lat) < 0.3);
+    if (hit) hit.idxs.push(i);
+    else groups.push({ idxs: [i], lon: stop.lon, lat: stop.lat });
+  });
+  groups.forEach((g) => {
+    const first = g.idxs[0];
+    const consecutive = g.idxs.every((k, n) => n === 0 || k === g.idxs[n - 1] + 1);
+    g.badge = g.idxs.length === 1 ? String(first + 1) : consecutive ? `${first + 1}\u2013${g.idxs[g.idxs.length - 1] + 1}` : g.idxs.map((k) => k + 1).join(",");
+  });
+  return groups;
+}
+
+function pinGroupFor(index) {
+  return Array.from(pinLayer.querySelectorAll(".pin-group")).find((g) => (g.dataset.idxs || "").split(",").includes(String(index)));
+}
+
 function drawMapRoute(stops, { preview = false } = {}) {
   pathLayer.innerHTML = "";
   arrowLayer.innerHTML = "";
@@ -1202,6 +1243,7 @@ function drawMapRoute(stops, { preview = false } = {}) {
   for (let i = 0; i < points.length - 1; i++) {
     const [x1, y1] = points[i];
     const [x2, y2] = points[i + 1];
+    if (x1 === x2 && y1 === y2) continue; // same place: no line or arrow to draw
     const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
     line.setAttribute("x1", x1);
     line.setAttribute("y1", y1);
@@ -1224,33 +1266,46 @@ function drawMapRoute(stops, { preview = false } = {}) {
     }
   }
 
-  stops.forEach((stop, idx) => {
+  groupStops(stops).forEach((grp) => {
+    const idx = grp.idxs[0];
+    const stop = stops[idx];
     const [x, y] = points[idx];
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("class", preview ? "pin-group preview" : "pin-group");
     g.dataset.idx = String(idx);
+    g.dataset.idxs = grp.idxs.join(",");
     g.dataset.cx = String(x);
     g.dataset.cy = String(y);
-    g.dataset.labelWidth = String(measureLabelWidth(stop.word));
+    const words = [...new Set(grp.idxs.map((k) => stops[k].word))].join(" / ");
+    g.dataset.labelWidth = String(measureLabelWidth(words));
 
     const halo = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     halo.setAttribute("class", "pin-halo");
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("class", "pin-dot");
+    const pill = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    pill.setAttribute("class", "pin-dot pin-pill");
     const num = document.createElementNS("http://www.w3.org/2000/svg", "text");
     num.setAttribute("class", "pin-num");
     num.setAttribute("dy", ".35em");
-    num.textContent = String(idx + 1);
+    num.textContent = grp.badge;
     const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
     label.setAttribute("class", "pin-label");
-    label.textContent = stop.word;
-    if (preview && idx !== 0 && idx !== stops.length - 1) label.style.display = "none";
+    label.textContent = words;
+    const ends = grp.idxs.includes(0) || grp.idxs.includes(stops.length - 1);
+    if (preview && !ends) label.style.display = "none";
 
-    g.append(halo, circle, num, label);
+    g.append(halo, circle, pill, num, label);
     if (!preview) {
-      g.addEventListener("mouseenter", () => setActive(idx, true));
-      g.addEventListener("mouseleave", () => setActive(idx, false));
-      g.addEventListener("click", () => selectStop(idx));
+      // Tapping a shared pin steps through its stages one at a time.
+      const target = () => {
+        if (grp.idxs.length === 1) return idx;
+        const at = grp.idxs.indexOf(selectedStop);
+        return grp.idxs[(at + 1) % grp.idxs.length];
+      };
+      g.addEventListener("mouseenter", () => grp.idxs.forEach((k) => setActive(k, true)));
+      g.addEventListener("mouseleave", () => grp.idxs.forEach((k) => setActive(k, false)));
+      g.addEventListener("click", () => selectStop(target()));
     }
     pinLayer.appendChild(g);
   });
