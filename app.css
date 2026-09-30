@@ -1172,3 +1172,20 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
   html[data-view="globe"] #app[data-state="landing"] .origin-browse { margin-top: calc(var(--gsize) * -0.19); }
   html[data-view="globe"] #app[data-state="landing"] .stage { padding-bottom: 56px; }
 }
+
+/* Globe result: stage cards are separate cards again */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="result"] .panel {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px;
+    border: 0; border-radius: 0; overflow: visible; background: transparent; box-shadow: none;
+  }
+  html[data-view="globe"] #app[data-state="result"] .stop-row {
+    border: 1px solid var(--border); border-radius: 12px; background: var(--card);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  }
+  html[data-view="globe"] #app[data-state="result"] .stop-row + .stop-row { border-left: 1px solid var(--border); }
+  html[data-view="globe"] #app[data-state="result"] .stop-row:hover,
+  html[data-view="globe"] #app[data-state="result"] .stop-row.selected {
+    border: 1px solid var(--accent); border-radius: 12px; background: var(--selected);
+  }
+}
