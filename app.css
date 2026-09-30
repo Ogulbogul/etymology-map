@@ -1153,3 +1153,5 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
     left: max(24px, calc(50% - var(--gsize) * 0.44)); top: 30px;
   }
 }
+
+.pin-hit { fill: transparent; stroke: none; }

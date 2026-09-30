@@ -27,18 +27,18 @@ function rectsOverlap(a, b) {
 // text. Cheap enough (a handful of stops, run once per position update)
 // to recompute on every pan/zoom frame rather than caching it.
 const LABEL_CANDIDATES = [
-  { dx: 13, dy: -11, anchor: "start" },
-  { dx: 13, dy: 19, anchor: "start" },
-  { dx: -13, dy: -11, anchor: "end" },
-  { dx: -13, dy: 19, anchor: "end" },
-  { dx: 13, dy: -29, anchor: "start" },
-  { dx: 13, dy: 37, anchor: "start" },
-  { dx: -13, dy: -29, anchor: "end" },
-  { dx: -13, dy: 37, anchor: "end" },
+  { dx: 17, dy: -13, anchor: "start" },
+  { dx: 17, dy: 23, anchor: "start" },
+  { dx: -17, dy: -13, anchor: "end" },
+  { dx: -17, dy: 23, anchor: "end" },
+  { dx: 17, dy: -33, anchor: "start" },
+  { dx: 17, dy: 43, anchor: "start" },
+  { dx: -17, dy: -33, anchor: "end" },
+  { dx: -17, dy: 43, anchor: "end" },
 ];
 
 function placePinLabels(entries, u = 1) {
-  const PAD = 4 * u, H = 15 * u, PIN_R = 10 * u;
+  const PAD = 4 * u, H = 15 * u, PIN_R = 14 * u;
   const placedBoxes = [];
   return entries.map((entry, i) => {
     let chosen = LABEL_CANDIDATES[0];
@@ -831,7 +831,7 @@ function updatePinPositions() {
   placed.forEach(({ g, sx, sy, x, y, anchor }) => {
     const preview = g.classList.contains("preview");
     const isOn = g.classList.contains("active") || g.classList.contains("selected");
-    const rPx = (isOn ? 10 : preview ? 9.5 : 8) * (small ? 0.85 : 1);
+    const rPx = (isOn ? 14 : preview ? 12 : 11) * (small ? 0.85 : 1);
     const circle = g.querySelector("circle.pin-dot");
     const pill = g.querySelector(".pin-pill");
     const halo = g.querySelector(".pin-halo");
@@ -839,7 +839,7 @@ function updatePinPositions() {
     const label = g.querySelector(".pin-label");
     const badgeLen = num.textContent.length;
     const multi = (g.dataset.idxs || "").includes(",");
-    const fsPx = Math.max(9, rPx * 1.3);
+    const fsPx = Math.max(10, rPx * 1.15);
     const wPx = multi ? Math.max(2 * rPx, 2 * rPx + (badgeLen - 1) * fsPx * 0.5) : 2 * rPx;
     circle.style.display = multi ? "none" : "";
     pill.style.display = multi ? "" : "none";
@@ -855,10 +855,14 @@ function updatePinPositions() {
     pill.setAttribute("stroke-width", 1.5 * u);
     halo.setAttribute("cx", sx);
     halo.setAttribute("cy", sy);
-    halo.setAttribute("r", (wPx / 2) * 1.9 * u);
+    halo.setAttribute("r", (wPx / 2) * 1.7 * u);
+    const hit = g.querySelector(".pin-hit");
+    hit.setAttribute("cx", sx);
+    hit.setAttribute("cy", sy);
+    hit.setAttribute("r", Math.max(16, wPx / 2) * u);
     num.setAttribute("x", sx);
     num.setAttribute("y", sy);
-    num.setAttribute("font-size", Math.max(9, rPx * 1.3) * u);
+    num.setAttribute("font-size", Math.max(10, rPx * 1.15) * u);
     label.setAttribute("x", x);
     label.setAttribute("y", y);
     label.setAttribute("text-anchor", anchor);
@@ -925,7 +929,7 @@ function computeFitView(points, opts = {}) {
   // Leave room at the bottom for the stage tray on the desktop card.
   const padX = FIT_PADDING;
   const padLeft = opts.padLeft || 0;
-  const padTop = FIT_PADDING * 0.8;
+  const padTop = FIT_PADDING * 1.5;
   const padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
   const k = clamp(
     Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),
@@ -1281,6 +1285,8 @@ function drawMapRoute(stops, { preview = false } = {}) {
 
     const halo = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     halo.setAttribute("class", "pin-halo");
+    const hit = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    hit.setAttribute("class", "pin-hit");
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("class", "pin-dot");
     const pill = document.createElementNS("http://www.w3.org/2000/svg", "rect");
@@ -1295,7 +1301,7 @@ function drawMapRoute(stops, { preview = false } = {}) {
     const ends = grp.idxs.includes(0) || grp.idxs.includes(stops.length - 1);
     if (preview && !ends) label.style.display = "none";
 
-    g.append(halo, circle, pill, num, label);
+    g.append(halo, hit, circle, pill, num, label);
     if (!preview) {
       // Tapping a shared pin steps through its stages one at a time.
       const target = () => {
