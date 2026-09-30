@@ -1,3 +1,6 @@
+import { icon, hydrateIcons } from "./icons.js";
+import { createGlobe } from "./globe.js";
+
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
 const MIN_ZOOM = 1;
@@ -8,7 +11,7 @@ const FIT_PADDING = 60;
 // .pin-label's CSS font) so overlap checks don't force a synchronous
 // layout via getBBox() on every pan/zoom frame.
 const labelMeasureCtx = document.createElement("canvas").getContext("2d");
-labelMeasureCtx.font = `600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`;
+labelMeasureCtx.font = `600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`;
 function measureLabelWidth(text) {
   return labelMeasureCtx.measureText(text).width;
 }
@@ -34,14 +37,14 @@ const LABEL_CANDIDATES = [
   { dx: -13, dy: 37, anchor: "end" },
 ];
 
-function placePinLabels(entries) {
-  const PAD = 4, H = 15, PIN_R = 10;
+function placePinLabels(entries, u = 1) {
+  const PAD = 4 * u, H = 15 * u, PIN_R = 10 * u;
   const placedBoxes = [];
   return entries.map((entry, i) => {
     let chosen = LABEL_CANDIDATES[0];
     for (const off of LABEL_CANDIDATES) {
-      const x = entry.sx + off.dx;
-      const y = entry.sy + off.dy;
+      const x = entry.sx + off.dx * u;
+      const y = entry.sy + off.dy * u;
       const x1 = off.anchor === "start" ? x : x - entry.w;
       const x2 = off.anchor === "start" ? x + entry.w : x;
       const box = { x1: x1 - PAD, x2: x2 + PAD, y1: y - H - PAD, y2: y + PAD };
@@ -59,30 +62,34 @@ function placePinLabels(entries) {
         break;
       }
     }
-    return { ...entry, x: entry.sx + chosen.dx, y: entry.sy + chosen.dy, anchor: chosen.anchor };
+    return { ...entry, x: entry.sx + chosen.dx * u, y: entry.sy + chosen.dy * u, anchor: chosen.anchor };
   });
 }
 
+const appEl = document.getElementById("app");
 const homeLink = document.getElementById("home-link");
 const emptyChipsBar = document.getElementById("empty-chips-bar");
 const wordInput = document.getElementById("word-input");
 const traceBtn = document.getElementById("trace-btn");
+const traceIconBtn = document.getElementById("trace-icon-btn");
 const hintEl = document.getElementById("hint");
 const messageEl = document.getElementById("message");
-const resultEl = document.getElementById("result");
-const panelEl = document.getElementById("panel");
-const resultHeaderEl = document.getElementById("result-header");
+const heroTitleEl = document.getElementById("hero-title");
+const resultHeroEl = document.getElementById("result-hero");
 const resultWordTextEl = document.getElementById("result-word-text");
-const resultTrailEl = document.getElementById("result-trail");
+const heroMeaningEl = document.getElementById("hero-meaning");
+const cardWordEl = document.getElementById("card-word");
+const cardMeaningEl = document.getElementById("card-meaning");
+const resultAreaEl = document.getElementById("result-area");
+const panelEl = document.getElementById("panel");
+const trayEl = document.getElementById("tray");
 const mapSvg = document.getElementById("map");
-const mapCanvasEl = document.querySelector(".map-canvas");
+const mapCanvasEl = document.getElementById("map-stage");
 const zoomLayer = document.getElementById("zoom-layer");
 const landLayer = document.getElementById("land-layer");
 const pathLayer = document.getElementById("path-layer");
 const arrowLayer = document.getElementById("arrow-layer");
 const pinLayer = document.getElementById("pin-layer");
-const badgeEl = document.getElementById("current-meaning-badge");
-const badgeTextEl = document.getElementById("badge-text");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
@@ -96,17 +103,35 @@ const zoomInBtn = document.getElementById("zoom-in-btn");
 const zoomOutBtn = document.getElementById("zoom-out-btn");
 const zoomResetBtn = document.getElementById("zoom-reset-btn");
 const wordlistToggleBtn = document.getElementById("wordlist-toggle-btn");
+const wordlistCloseBtn = document.getElementById("wordlist-close-btn");
 const wordlistPanel = document.getElementById("wordlist-panel");
 const wordlistGrid = document.getElementById("wordlist-grid");
 const wordlistOriginSelect = document.getElementById("wordlist-origin-select");
 const wordlistCountEl = document.getElementById("wordlist-count");
 const surpriseBtn = document.getElementById("surprise-btn");
 const copyLinkBtn = document.getElementById("copy-link-btn");
+const copyLinkBtnGlobe = document.getElementById("copy-link-btn-globe");
 const inputWrap = document.querySelector(".input-wrap");
 const autocompleteList = document.getElementById("autocomplete-list");
 const originSearchInput = document.getElementById("wordlist-origin-search");
 const originSearchWrap = document.querySelector(".origin-search-wrap");
 const originAutocompleteList = document.getElementById("origin-autocomplete-list");
+const wodCard = document.getElementById("wod-card");
+const wodWordEl = document.getElementById("wod-word");
+const wodMeaningEl = document.getElementById("wod-meaning");
+const wodRouteEl = document.getElementById("wod-route");
+const wodTraceBtn = document.getElementById("wod-trace-btn");
+const wodShuffleBtn = document.getElementById("wod-shuffle-btn");
+const globeHost = document.getElementById("globe-host");
+const globeStageEl = document.getElementById("globe-stage");
+const globeMotionBtn = document.getElementById("globe-motion-btn");
+const globeMotionLabel = document.getElementById("globe-motion-label");
+const globeMotionIcon = document.getElementById("globe-motion-icon");
+const originPillsEl = document.getElementById("origin-pills");
+const browseCountEl = document.getElementById("browse-count");
+const footerCountEl = document.getElementById("footer-count");
+const mapStageEl = document.getElementById("map-stage");
+const viewToggleButtons = document.querySelectorAll(".view-toggle button");
 
 // Lightweight word -> origin-language map covering the whole collection,
 // used for search/autocomplete/word-list/did-you-mean without fetching
@@ -133,6 +158,15 @@ let lastPoints = null;
 // repositioned manually each frame so their size stays constant on screen.
 const view = { x: 0, y: 0, k: 1 };
 let viewAnimFrame = null;
+
+// New in the redesign: the optional globe view, the selected stage, and
+// the random "Try this word" shown on the landing page.
+let globe = null;
+let globeUnavailable = false;
+let currentView = "map";
+let selectedStop = -1;
+let wod = null; // { word, entry }
+const VIEW_STORAGE_KEY = "etymology-map-view";
 
 function slugify(word) {
   return word
@@ -167,14 +201,23 @@ async function loadWordIndex() {
 
 // Fetches one word's full stop-by-stop data on demand, so tracing a word
 // only ever downloads that one small file rather than the whole collection.
+// Resolves to null when the word genuinely isn't in the collection (404) and
+// throws when the data couldn't be loaded (network down, server error), so
+// the page can show "no match" and "couldn't load" as different states.
+class LoadError extends Error {}
 async function fetchWordEntry(word) {
+  let res;
   try {
-    const res = await fetch(`data/words/${encodeURIComponent(word)}.json`);
-    if (!res.ok) return null;
+    res = await fetch(`data/words/${encodeURIComponent(word)}.json`);
+  } catch (err) {
+    throw new LoadError(String(err));
+  }
+  if (res.status === 404) return null;
+  if (!res.ok) throw new LoadError(`HTTP ${res.status}`);
+  try {
     return await res.json();
   } catch (err) {
-    console.error(`Could not load data/words/${word}.json`, err);
-    return null;
+    throw new LoadError(String(err));
   }
 }
 
@@ -205,6 +248,8 @@ function populateWordList() {
     wordlistOriginSelect.appendChild(opt);
   });
 
+  renderOriginPills();
+  updateCounts();
   renderWordList("");
 }
 
@@ -240,22 +285,65 @@ function renderWordList(originFilter) {
 function openWordList() {
   wordlistPanel.hidden = false;
   wordlistToggleBtn.setAttribute("aria-expanded", "true");
+  appEl.classList.add("sheet-open");
 }
 
 function closeWordList() {
   wordlistPanel.hidden = true;
   wordlistToggleBtn.setAttribute("aria-expanded", "false");
+  appEl.classList.remove("sheet-open");
 }
 
 function setupWordList() {
-  wordlistToggleBtn.addEventListener("click", () => {
+  wordlistToggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
     if (wordlistPanel.hidden) openWordList();
     else closeWordList();
   });
+  wordlistCloseBtn.addEventListener("click", closeWordList);
   wordlistOriginSelect.addEventListener("change", () => {
     originSearchInput.value = wordlistOriginSelect.value;
     renderWordList(wordlistOriginSelect.value);
   });
+  // Click outside or Escape closes the popover (the phone sheet too).
+  document.addEventListener("click", (e) => {
+    if (wordlistPanel.hidden) return;
+    if (wordlistPanel.contains(e.target) || wordlistToggleBtn.contains(e.target)) return;
+    closeWordList();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !wordlistPanel.hidden) closeWordList();
+  });
+}
+
+// Browse-by-origin pills and the word counters.
+function renderOriginPills() {
+  originPillsEl.innerHTML = "";
+  const top = [...originCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 10);
+  top.forEach(([origin]) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "origin-pill";
+    btn.textContent = origin;
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      wordlistOriginSelect.value = origin;
+      originSearchInput.value = origin;
+      renderWordList(origin);
+      openWordList();
+      wordlistPanel.scrollIntoView({ block: "nearest" });
+    });
+    originPillsEl.appendChild(btn);
+  });
+}
+
+function updateCounts() {
+  const count = Object.keys(wordIndex).length;
+  const text = `${count.toLocaleString()} word${count === 1 ? "" : "s"} traced`;
+  browseCountEl.textContent = text;
+  footerCountEl.textContent = `${text} \u00b7 Etymology Map`;
 }
 
 // --- Origin search (for the long origin list) ---------------------------
@@ -417,7 +505,7 @@ function pickExampleWords(count) {
 function renderExampleChips() {
   if (!emptyChipsBar) return;
   emptyChipsBar.querySelectorAll(".example-chip").forEach((el) => el.remove());
-  const count = window.innerWidth < 600 ? 2 : 6;
+  const count = window.innerWidth < 640 ? 4 : 6;
   pickExampleWords(count).forEach((word) => {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -470,9 +558,19 @@ async function loadMap() {
     mapLandFeature = land;
     mapProjection = projection;
     d3geoModule = d3geo;
+
+    globe = createGlobe({
+      host: globeHost,
+      d3geo,
+      land,
+      onSelect: (i) => selectStop(i),
+      onHover: (i, on) => setActive(i, on),
+    });
   } catch (err) {
     console.warn("Falling back to manual projection; world map coastlines unavailable.", err);
     projectPoint = manualProject;
+    globeUnavailable = true;
+    document.documentElement.classList.add("no-globe");
   }
 }
 
@@ -513,44 +611,91 @@ function findSuggestions(raw, maxSuggestions = 3) {
     .map((s) => s.word);
 }
 
-function showNotFound(displayWord, raw) {
+function messageCard(iconName, title, text) {
   messageEl.innerHTML = "";
-  messageEl.appendChild(document.createTextNode(`"${displayWord}" isn't in this collection yet.`));
+  const ic = document.createElement("span");
+  ic.className = "msg-icon";
+  ic.innerHTML = icon(iconName, 26);
+  const t = document.createElement("span");
+  t.className = "msg-title";
+  t.textContent = title;
+  messageEl.append(ic, t, document.createTextNode(text));
+}
 
+function showNotFound(displayWord, raw) {
+  messageCard(
+    "circle-help",
+    `No match for \u201c${displayWord}\u201d`,
+    "That word isn't in the collection yet. Check the spelling, or explore another way."
+  );
   const suggestions = findSuggestions(raw);
   if (suggestions.length > 0) {
     const wrap = document.createElement("span");
     wrap.className = "message-suggestions";
-    wrap.appendChild(document.createTextNode(" Did you mean "));
-    suggestions.forEach((s, i) => {
+    wrap.appendChild(document.createTextNode("Did you mean "));
+    suggestions.forEach((sg) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "suggestion-link";
-      btn.textContent = s;
+      btn.textContent = sg;
       btn.addEventListener("click", () => {
-        wordInput.value = s;
+        wordInput.value = sg;
         trace();
       });
       wrap.appendChild(btn);
-      if (i < suggestions.length - 1) {
-        wrap.appendChild(document.createTextNode(i === suggestions.length - 2 ? ", or " : ", "));
-      }
     });
-    wrap.appendChild(document.createTextNode("?"));
     messageEl.appendChild(wrap);
   }
+  const actions = document.createElement("div");
+  actions.className = "message-actions";
+  const sur = document.createElement("button");
+  sur.type = "button";
+  sur.className = "btn btn-primary";
+  sur.textContent = "Surprise me";
+  sur.addEventListener("click", () => surpriseBtn.click());
+  const wl = document.createElement("button");
+  wl.type = "button";
+  wl.className = "btn btn-outline";
+  wl.textContent = "Browse the word list";
+  wl.addEventListener("click", (e) => {
+    e.stopPropagation();
+    openWordList();
+  });
+  actions.append(sur, wl);
+  messageEl.appendChild(actions);
   messageEl.hidden = false;
 }
 
-function clearResult() {
-  resultEl.classList.add("is-empty");
-  resultHeaderEl.hidden = true;
+function showLoadError(retry) {
+  messageCard(
+    "triangle-alert",
+    "Couldn't load the word data",
+    "Something went wrong while loading. Check your connection and try again."
+  );
+  const actions = document.createElement("div");
+  actions.className = "message-actions";
+  const again = document.createElement("button");
+  again.type = "button";
+  again.className = "btn btn-primary";
+  again.textContent = "Try again";
+  again.addEventListener("click", () => {
+    clearMessage();
+    retry();
+  });
+  actions.appendChild(again);
+  messageEl.appendChild(actions);
+  messageEl.hidden = false;
+}
+
+// Empties everything a traced word put on the page, without touching the
+// landing-page extras (the "Try this word" preview).
+function clearResultContent() {
   panelEl.innerHTML = "";
-  resultTrailEl.innerHTML = "";
+  trayEl.innerHTML = "";
+  trayEl.hidden = true;
   pathLayer.innerHTML = "";
   arrowLayer.innerHTML = "";
   pinLayer.innerHTML = "";
-  badgeEl.hidden = true;
   originSentenceEl.hidden = true;
   originSentenceEl.innerHTML = "";
   fullStoryEl.hidden = true;
@@ -558,15 +703,42 @@ function clearResult() {
   fullStoryTextEl.innerHTML = "";
   relatedWordsEl.hidden = true;
   relatedWordsGridEl.innerHTML = "";
+  resultAreaEl.hidden = true;
+  selectedStop = -1;
+  if (globe) globe.clearRoute();
+}
+
+// Back to the landing page: no result, and the random word's route shown
+// as a preview on whichever view is active.
+function clearResult() {
+  clearResultContent();
+  appEl.dataset.state = "landing";
+  resultHeroEl.hidden = true;
   setView({ x: 0, y: 0, k: 1 });
   renderExampleChips();
+  syncGlobeVariant();
+  applyLandingPreview();
 }
 
 function setActive(index, isActive) {
   const row = panelEl.querySelector(`.stop-row[data-idx="${index}"]`);
   const pin = pinLayer.querySelector(`.pin-group[data-idx="${index}"]`);
-  const trailItem = resultTrailEl.querySelector(`.trail-item[data-idx="${index}"]`);
-  [row, pin, trailItem].forEach((el) => el && el.classList.toggle("active", isActive));
+  const tray = trayEl.querySelector(`.tray-item[data-idx="${index}"]`);
+  [row, pin, tray].forEach((el) => el && el.classList.toggle("active", isActive));
+  if (globe) globe.setHover(isActive ? index : -1);
+}
+
+// Clicking a stage card, tray chip or pin selects it everywhere at once.
+function selectStop(index) {
+  selectedStop = selectedStop === index ? -1 : index;
+  panelEl.querySelectorAll(".stop-row").forEach((el) => {
+    const on = Number(el.dataset.idx) === selectedStop;
+    el.classList.toggle("selected", on);
+    el.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  trayEl.querySelectorAll(".tray-item").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
+  pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
+  if (globe) globe.setSelected(selectedStop);
 }
 
 // --- Pan & zoom -----------------------------------------------------------
@@ -602,7 +774,18 @@ function setView(next) {
   updateArrowPositions();
 }
 
+// Pins and labels are sized in screen pixels, but the map is drawn in a
+// fixed 960x500 coordinate space that the browser scales to fit, so
+// everything measured in pixels is converted to map units with this.
+function mapScale() {
+  const r = mapSvg.getBoundingClientRect();
+  if (!r.width || !r.height) return 1;
+  return Math.max(r.width / MAP_WIDTH, r.height / MAP_HEIGHT);
+}
+
 function updatePinPositions() {
+  const u = 1 / mapScale();
+  const small = mapSvg.getBoundingClientRect().width < 520;
   const groups = Array.from(pinLayer.querySelectorAll(".pin-group"));
   const entries = groups.map((g) => {
     const cx = parseFloat(g.dataset.cx);
@@ -611,18 +794,33 @@ function updatePinPositions() {
       g,
       sx: view.k * cx + view.x,
       sy: view.k * cy + view.y,
-      w: parseFloat(g.dataset.labelWidth) || 0,
+      w: (parseFloat(g.dataset.labelWidth) || 0) * u,
     };
   });
-  const placed = placePinLabels(entries);
+  const placed = placePinLabels(entries, u);
   placed.forEach(({ g, sx, sy, x, y, anchor }) => {
+    const preview = g.classList.contains("preview");
+    const isOn = g.classList.contains("active") || g.classList.contains("selected");
+    const rPx = preview ? 4.5 : (isOn ? 10 : 8) * (small ? 0.85 : 1);
     const circle = g.querySelector(".pin-dot");
+    const halo = g.querySelector(".pin-halo");
+    const num = g.querySelector(".pin-num");
     const label = g.querySelector(".pin-label");
     circle.setAttribute("cx", sx);
     circle.setAttribute("cy", sy);
+    circle.setAttribute("r", rPx * u);
+    circle.setAttribute("stroke-width", 1.5 * u);
+    halo.setAttribute("cx", sx);
+    halo.setAttribute("cy", sy);
+    halo.setAttribute("r", rPx * 1.9 * u);
+    num.setAttribute("x", sx);
+    num.setAttribute("y", sy);
+    num.setAttribute("font-size", Math.max(9, rPx * 1.3) * u);
     label.setAttribute("x", x);
     label.setAttribute("y", y);
     label.setAttribute("text-anchor", anchor);
+    label.setAttribute("font-size", 15 * u);
+    label.setAttribute("stroke-width", 4 * u);
   });
 }
 
@@ -662,6 +860,16 @@ function animateViewTo(target, duration = 700) {
 
 function computeFitView(points) {
   if (points.length === 0) return { x: 0, y: 0, k: 1 };
+  // The svg fills its card ("slice"), so what's visible can be a
+  // sub-rectangle of the 960x500 space: fit the route inside that.
+  const r = mapSvg.getBoundingClientRect();
+  let visW = MAP_WIDTH;
+  let visH = MAP_HEIGHT;
+  if (r.width && r.height) {
+    const aspect = r.width / r.height;
+    if (aspect >= MAP_WIDTH / MAP_HEIGHT) visH = MAP_WIDTH / aspect;
+    else visW = MAP_HEIGHT * aspect;
+  }
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
   points.forEach(([px, py]) => {
     minX = Math.min(minX, px);
@@ -671,14 +879,19 @@ function computeFitView(points) {
   });
   const bboxW = Math.max(maxX - minX, 1);
   const bboxH = Math.max(maxY - minY, 1);
+  // Leave room at the bottom for the stage tray on the desktop card.
+  const padX = FIT_PADDING;
+  const padTop = FIT_PADDING * 0.8;
+  const padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
   const k = clamp(
-    Math.min((MAP_WIDTH - 2 * FIT_PADDING) / bboxW, (MAP_HEIGHT - 2 * FIT_PADDING) / bboxH),
+    Math.min((visW - 2 * padX) / bboxW, (visH - padTop - padBottom) / bboxH),
     MIN_ZOOM,
     MAX_ZOOM
   );
   const cx = (minX + maxX) / 2;
   const cy = (minY + maxY) / 2;
-  return { x: MAP_WIDTH / 2 - k * cx, y: MAP_HEIGHT / 2 - k * cy, k };
+  const centreY = MAP_HEIGHT / 2 + (padTop - padBottom) / 2;
+  return { x: MAP_WIDTH / 2 - k * cx, y: centreY - k * cy, k };
 }
 
 function toSvgPoint(evt) {
@@ -946,64 +1159,14 @@ function renderRelatedWords(baseWord, originLang) {
   relatedWordsEl.hidden = false;
 }
 
-function renderWord(word, entry) {
-  clearResult();
-  clearMessage();
-  resultEl.classList.remove("is-empty");
-  resultHeaderEl.hidden = false;
-  resultWordTextEl.textContent = word;
-  const wordSlug = slugify(word);
-
-  entry.stops.forEach((stop, idx) => {
-    const row = document.createElement("a");
-    row.className = "stop-row";
-    row.href = `/words/${wordSlug}?stop=${idx + 1}`;
-    row.target = "_blank";
-    row.rel = "noopener";
-    row.title = `Open ${stop.word}'s page`;
-    row.dataset.idx = String(idx);
-    row.innerHTML = `
-      <div class="stop-marker">
-        <div class="stop-circle">${idx + 1}</div>
-        <div class="stop-connector"></div>
-      </div>
-      <div class="stop-card">
-        <div class="stop-order">Stage ${idx + 1} of ${entry.stops.length}</div>
-        <div class="stop-word">${escapeHtml(stop.word)}</div>
-        <div class="stop-lang-era">${escapeHtml(stop.lang)} &middot; ${escapeHtml(stop.era)}</div>
-        <div class="stop-meaning">"${escapeHtml(stop.meaning)}"</div>
-        <div class="stop-note">${escapeHtml(stop.note)}</div>
-      </div>
-    `;
-    row.addEventListener("mouseenter", () => setActive(idx, true));
-    row.addEventListener("mouseleave", () => setActive(idx, false));
-    panelEl.appendChild(row);
-  });
-
-  entry.stops.forEach((stop, idx) => {
-    if (idx > 0) {
-      const arrow = document.createElement("span");
-      arrow.className = "trail-arrow";
-      arrow.textContent = "→";
-      resultTrailEl.appendChild(arrow);
-    }
-    const item = document.createElement("a");
-    item.className = "trail-item";
-    item.href = `/words/${wordSlug}?stop=${idx + 1}`;
-    item.target = "_blank";
-    item.rel = "noopener";
-    item.title = `Open ${stop.word}'s page`;
-    item.dataset.idx = String(idx);
-    item.textContent = stop.word;
-    item.addEventListener("mouseenter", () => setActive(idx, true));
-    item.addEventListener("mouseleave", () => setActive(idx, false));
-    resultTrailEl.appendChild(item);
-  });
-
-  const points = entry.stops.map((s) => projectPoint(s.lon, s.lat));
-  lastWord = word;
-  lastEntry = entry;
-  lastPoints = points;
+// Draws the route (dashed lines, midpoint arrows, pins) on the flat map.
+// "preview" is the small, label-light version used for the landing page's
+// word of the day.
+function drawMapRoute(stops, { preview = false } = {}) {
+  pathLayer.innerHTML = "";
+  arrowLayer.innerHTML = "";
+  pinLayer.innerHTML = "";
+  const points = stops.map((s) => projectPoint(s.lon, s.lat));
 
   for (let i = 0; i < points.length - 1; i++) {
     const [x1, y1] = points[i];
@@ -1016,49 +1179,116 @@ function renderWord(word, entry) {
     line.setAttribute("class", "route-line");
     pathLayer.appendChild(line);
 
-    // Arrowhead at the segment midpoint (not the endpoint) so it's clearly
-    // visible in open space instead of being crowded next to the pin.
-    // The transform is a similarity (translate + uniform scale), so an
-    // angle computed from the raw child coordinates is valid on screen too.
-    const angleDeg = (Math.atan2(y2 - y1, x2 - x1) * 180) / Math.PI;
-    const arrow = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    arrow.setAttribute("class", "route-arrow");
-    arrow.setAttribute("d", "M -7,-7 L 8,0 L -7,7");
-    arrow.dataset.cx = String((x1 + x2) / 2);
-    arrow.dataset.cy = String((y1 + y2) / 2);
-    arrow.dataset.angle = String(angleDeg);
-    arrowLayer.appendChild(arrow);
+    if (!preview) {
+      // Arrowhead at the segment midpoint (not the endpoint) so it's clearly
+      // visible in open space instead of being crowded next to the pin.
+      const angleDeg = (Math.atan2(y2 - y1, x2 - x1) * 180) / Math.PI;
+      const arrow = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      arrow.setAttribute("class", "route-arrow");
+      arrow.setAttribute("d", "M -5,-5 L 6,0 L -5,5");
+      arrow.dataset.cx = String((x1 + x2) / 2);
+      arrow.dataset.cy = String((y1 + y2) / 2);
+      arrow.dataset.angle = String(angleDeg);
+      arrowLayer.appendChild(arrow);
+    }
   }
 
-  entry.stops.forEach((stop, idx) => {
+  stops.forEach((stop, idx) => {
     const [x, y] = points[idx];
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-    g.setAttribute("class", "pin-group");
+    g.setAttribute("class", preview ? "pin-group preview" : "pin-group");
     g.dataset.idx = String(idx);
     g.dataset.cx = String(x);
     g.dataset.cy = String(y);
     g.dataset.labelWidth = String(measureLabelWidth(stop.word));
 
+    const halo = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    halo.setAttribute("class", "pin-halo");
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    circle.setAttribute("r", 8.5);
     circle.setAttribute("class", "pin-dot");
-
+    const num = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    num.setAttribute("class", "pin-num");
+    num.setAttribute("dy", ".35em");
+    num.textContent = String(idx + 1);
     const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
     label.setAttribute("class", "pin-label");
     label.textContent = stop.word;
+    if (preview && idx !== 0 && idx !== stops.length - 1) label.style.display = "none";
 
-    g.appendChild(circle);
-    g.appendChild(label);
-    g.addEventListener("mouseenter", () => setActive(idx, true));
-    g.addEventListener("mouseleave", () => setActive(idx, false));
+    g.append(halo, circle, num, label);
+    if (!preview) {
+      g.addEventListener("mouseenter", () => setActive(idx, true));
+      g.addEventListener("mouseleave", () => setActive(idx, false));
+      g.addEventListener("click", () => selectStop(idx));
+    }
     pinLayer.appendChild(g);
   });
+  return points;
+}
+
+function shortLang(lang) {
+  const parts = lang.split(" ");
+  return parts[parts.length - 1];
+}
+
+function renderWord(word, entry) {
+  clearResultContent();
+  clearMessage();
+  appEl.dataset.state = "result";
+  resultHeroEl.hidden = false;
+  resultAreaEl.hidden = false;
+  resultWordTextEl.textContent = word;
+  heroMeaningEl.textContent = entry.current_meaning;
+  cardWordEl.textContent = word;
+  cardMeaningEl.textContent = entry.current_meaning;
+  cardMeaningEl.title = entry.current_meaning;
+  const total = entry.stops.length;
+
+  entry.stops.forEach((stop, idx) => {
+    const row = document.createElement("button");
+    row.type = "button";
+    row.className = "stop-row";
+    row.dataset.idx = String(idx);
+    row.setAttribute("aria-pressed", "false");
+    row.innerHTML = `
+      <span class="stop-circle">${idx + 1}</span>
+      <span class="stop-body">
+        <span class="stop-order">Stage ${idx + 1} of ${total}</span>
+        <span class="stop-main">
+          <span class="stop-word">${escapeHtml(stop.word)}</span>
+          <span class="stop-lang-era">${escapeHtml(stop.lang)} &middot; ${escapeHtml(stop.era)}</span>
+        </span>
+        <span class="stop-sub">
+          <span class="stop-meaning">"${escapeHtml(stop.meaning)}"</span>
+          <span class="stop-note">${escapeHtml(stop.note)}</span>
+        </span>
+      </span>
+    `;
+    row.addEventListener("click", () => selectStop(idx));
+    row.addEventListener("mouseenter", () => setActive(idx, true));
+    row.addEventListener("mouseleave", () => setActive(idx, false));
+    panelEl.appendChild(row);
+
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "tray-item";
+    item.dataset.idx = String(idx);
+    item.innerHTML = `<span class="tray-num">${idx + 1}</span><span class="tray-word">${escapeHtml(stop.word)}</span><span class="tray-lang">${escapeHtml(shortLang(stop.lang))}</span>`;
+    item.addEventListener("click", () => selectStop(idx));
+    item.addEventListener("mouseenter", () => setActive(idx, true));
+    item.addEventListener("mouseleave", () => setActive(idx, false));
+    trayEl.appendChild(item);
+  });
+  trayEl.hidden = false;
+
+  const points = drawMapRoute(entry.stops);
+  lastWord = word;
+  lastEntry = entry;
+  lastPoints = points;
 
   setView({ x: 0, y: 0, k: 1 });
   animateViewTo(computeFitView(points));
-
-  badgeEl.hidden = false;
-  badgeTextEl.textContent = entry.current_meaning;
+  if (globe) globe.setStops(entry.stops, { animate: true });
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
   originSentenceEl.hidden = false;
@@ -1066,6 +1296,99 @@ function renderWord(word, entry) {
   fullStoryEl.hidden = false;
 
   renderRelatedWords(word, entry.stops[0].lang);
+  hydrateIcons(resultAreaEl);
+}
+
+// --- Landing page: the random "Try this word" ------------------------------
+
+function renderWodCard() {
+  if (!wod) return;
+  wodWordEl.textContent = wod.word;
+  wodMeaningEl.textContent = wod.entry.current_meaning || "";
+  const langs = [];
+  wod.entry.stops.forEach((s) => {
+    if (!langs.length || langs[langs.length - 1] !== s.lang) langs.push(s.lang);
+  });
+  wodRouteEl.innerHTML = langs.map((l) => escapeHtml(l)).join(` ${icon("arrow-right", 13)} `);
+}
+
+// Draws the word of the day's route on the active view, so the landing
+// page already shows a journey being tracked.
+function applyLandingPreview() {
+  if (appEl.dataset.state !== "landing" || !wod) return;
+  drawMapRoute(wod.entry.stops, { preview: true });
+  setView({ x: 0, y: 0, k: 1 });
+  if (globe) globe.setStops(wod.entry.stops, { animate: false, labels: true });
+}
+
+async function pickWod(exclude) {
+  const keys = Object.keys(wordIndex).filter((w) => w !== exclude);
+  if (keys.length === 0) return;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const word = keys[Math.floor(Math.random() * keys.length)];
+    try {
+      const entry = await fetchWordEntry(word);
+      if (entry && entry.stops && entry.stops.length > 1) {
+        wod = { word, entry };
+        renderWodCard();
+        applyLandingPreview();
+        return;
+      }
+    } catch (err) {
+      return;
+    }
+  }
+}
+
+function setupWod() {
+  wodTraceBtn.addEventListener("click", () => {
+    if (!wod) return;
+    wordInput.value = wod.word;
+    trace();
+  });
+  wodShuffleBtn.addEventListener("click", () => pickWod(wod && wod.word));
+}
+
+// --- Map or globe ---------------------------------------------------------
+
+// The word-of-the-day card sits on the flat map in map view and on the
+// globe in globe view.
+function placeWodCard() {
+  const host = currentView === "globe" ? globeStageEl : mapStageEl;
+  if (wodCard.parentElement !== host) host.appendChild(wodCard);
+}
+
+function setMapView(view, { save = true } = {}) {
+  if (view === "globe" && globeUnavailable) view = "map";
+  currentView = view;
+  document.documentElement.setAttribute("data-view", view);
+  viewToggleButtons.forEach((b) => b.setAttribute("aria-checked", b.dataset.view === view ? "true" : "false"));
+  if (save) {
+    try { localStorage.setItem(VIEW_STORAGE_KEY, view); } catch (err) { /* private mode */ }
+  }
+  placeWodCard();
+  // The hidden view has no size while hidden, so measure again now.
+  requestAnimationFrame(() => {
+    updatePinPositions();
+    if (globe) {
+      globe.setVariant(window.innerWidth >= 961 && appEl.dataset.state === "landing" ? "rise" : "full");
+      globe.resize();
+    }
+  });
+}
+
+function setupViewToggle() {
+  let saved = null;
+  try { saved = localStorage.getItem(VIEW_STORAGE_KEY); } catch (err) { saved = null; }
+  viewToggleButtons.forEach((b) => b.addEventListener("click", () => setMapView(b.dataset.view)));
+  currentView = saved === "globe" ? "globe" : "map";
+  globeMotionBtn.addEventListener("click", () => {
+    const paused = !(globe && globe.isPaused());
+    if (globe) globe.setPaused(paused);
+    globeMotionBtn.setAttribute("aria-pressed", paused ? "true" : "false");
+    globeMotionLabel.textContent = paused ? "Paused" : "Slowly rotating";
+    globeMotionIcon.innerHTML = icon(paused ? "play" : "pause", 13);
+  });
 }
 
 function escapeHtml(str) {
@@ -1089,11 +1412,19 @@ function updateUrlForWord(word, replace) {
 
 async function trace(options = {}) {
   closeAutocomplete();
+  closeWordList();
   const displayWord = wordInput.value.trim();
   const raw = displayWord.toLowerCase();
   if (!raw) return;
   updateUrlForWord(raw, !!options.fromUrl);
-  const entry = await fetchWordEntry(raw);
+  let entry;
+  try {
+    entry = await fetchWordEntry(raw);
+  } catch (err) {
+    clearResult();
+    showLoadError(() => trace(options));
+    return;
+  }
   if (!entry) {
     clearResult();
     showNotFound(displayWord, raw);
@@ -1101,7 +1432,19 @@ async function trace(options = {}) {
     return;
   }
   renderWord(raw, entry);
+  syncGlobeVariant();
   if (window.emTrack) window.emTrack.view(raw);
+  // On phones the result starts below the search controls: bring it up.
+  if (window.innerWidth <= 640 && !options.fromUrl) {
+    const target = document.getElementById(currentView === "map" ? "map-card" : "globe-stage");
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+function syncGlobeVariant() {
+  if (!globe) return;
+  const rise = window.innerWidth >= 961 && appEl.dataset.state === "landing";
+  globe.setVariant(rise ? "rise" : "full", false);
 }
 
 function initFromUrl() {
@@ -1728,6 +2071,8 @@ function closeShareModal() {
 
 function setupShareCard() {
   shareBtn.addEventListener("click", openShareModal);
+  const shareBtnGlobe = document.getElementById("share-btn-globe");
+  if (shareBtnGlobe) shareBtnGlobe.addEventListener("click", openShareModal);
   shareCloseBtn.addEventListener("click", closeShareModal);
   shareModal.addEventListener("click", (e) => {
     if (e.target === shareModal) closeShareModal();
@@ -1815,10 +2160,13 @@ function applyTheme(theme) {
     document.documentElement.removeAttribute("data-theme");
   }
   const dark = isDarkActive();
-  themeToggleBtn.textContent = dark ? "☀️" : "🌙";
+  themeToggleBtn.innerHTML = icon(dark ? "sun" : "moon", 18);
   themeToggleBtn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
 }
 
+// The page follows the system setting until the toggle is used; after
+// that the saved choice wins. The icon also follows the system when it
+// changes while no choice is saved.
 function setupThemeToggle() {
   let stored = null;
   try {
@@ -1837,26 +2185,40 @@ function setupThemeToggle() {
     }
     applyTheme(next);
   });
-}
-
-function setupCopyLink() {
-  let resetTimer = null;
-  copyLinkBtn.addEventListener("click", async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      copyLinkBtn.textContent = "✓";
-      copyLinkBtn.classList.add("copied");
-    } catch (err) {
-      copyLinkBtn.textContent = "⚠️";
-    }
-    if (resetTimer) clearTimeout(resetTimer);
-    resetTimer = setTimeout(() => {
-      copyLinkBtn.textContent = "🔗";
-      copyLinkBtn.classList.remove("copied");
-    }, 1500);
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    if (!document.documentElement.getAttribute("data-theme")) applyTheme(null);
   });
 }
 
+function setupCopyLink() {
+  [copyLinkBtn, copyLinkBtnGlobe].forEach((btn) => {
+    if (!btn) return;
+    let resetTimer = null;
+    let original = null;
+    btn.addEventListener("click", async () => {
+      if (original === null) original = btn.innerHTML;
+      const iconOnly = btn.classList.contains("icon-btn");
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        btn.innerHTML = iconOnly ? icon("check", 16) : "Copied";
+        btn.classList.add("copied");
+      } catch (err) {
+        btn.innerHTML = iconOnly ? icon("triangle-alert", 16) : "Couldn't copy";
+      }
+      if (resetTimer) clearTimeout(resetTimer);
+      resetTimer = setTimeout(() => {
+        btn.innerHTML = original;
+        btn.classList.remove("copied");
+      }, 1500);
+    });
+  });
+}
+
+// Icon-only search button inside the box and the phone's arrow button
+// both trace, like pressing Enter.
+traceIconBtn.addEventListener("click", () => trace());
+
+hydrateIcons();
 setupPanZoom();
 setupShareCard();
 setupThemeToggle();
@@ -1866,9 +2228,20 @@ setupSurprise();
 setupCopyLink();
 setupAutocomplete();
 setupHomeLink();
+setupWod();
+setupViewToggle();
+
+if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observe(mapSvg);
 
 (async function init() {
   await Promise.all([loadWordIndex(), loadMap()]);
+  if (Object.keys(wordIndex).length === 0) {
+    showLoadError(() => window.location.reload());
+    return;
+  }
   renderExampleChips();
+  setMapView(currentView, { save: false });
+  syncGlobeVariant();
+  await pickWod();
   initFromUrl();
 })();
