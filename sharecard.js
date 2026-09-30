@@ -106,7 +106,7 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
   ctx.fillRect(0, 0, W, H);
 
   // --- Map: route fitted into the right-hand clear area
-  const box = { x1: 600, y1: 110, x2: 1140, y2: 450 };
+  const box = { x1: 600, y1: 100, x2: 1140, y2: 395 };
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
   points.forEach(([px, py]) => { minX = Math.min(minX, px); maxX = Math.max(maxX, px); minY = Math.min(minY, py); maxY = Math.max(maxY, py); });
   const bw = Math.max(maxX - minX, 1);
@@ -227,15 +227,15 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
   if ("letterSpacing" in ctx) ctx.letterSpacing = "0px";
 
   const shown = word.toLowerCase();
-  const size = fitSize(ctx, shown, 560, 132, 56, "700");
+  const size = fitSize(ctx, shown, 560, 116, 52, "700");
   ctx.fillStyle = c.accent;
   ctx.font = `700 ${size}px ${FONT}`;
   ctx.fillText(shown, 60, 150 + 8 + size * 0.86);
 
-  let y = 150 + 8 + size * 0.86 + 44;
+  let y = 150 + 8 + size * 0.86 + 38;
   ctx.fillStyle = c.dim;
-  ctx.font = `italic 400 26px ${FONT}`;
-  wrap(ctx, entry.current_meaning, 540, 2).forEach((line) => { ctx.fillText(line, 64, y); y += 35; });
+  ctx.font = `italic 400 24px ${FONT}`;
+  wrap(ctx, entry.current_meaning, 540, 2).forEach((line) => { ctx.fillText(line, 64, y); y += 32; });
 
   // pills
   const stops = entry.stops;
@@ -248,7 +248,7 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
     firstEra && lastEra && firstEra !== lastEra ? `${firstEra}–${lastEra.replace(/^c\.\s*/, "")}` : firstEra || lastEra,
   ].filter(Boolean);
   let px = 64;
-  const py = y + 6;
+  const py = y + 2;
   ctx.font = `600 18px ${FONT}`;
   pills.forEach((t) => {
     const tw = ctx.measureText(t).width;
@@ -261,8 +261,8 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
     px += tw + 28 + 10;
   });
 
-  // --- Bottom strip of stages
-  const SH = 150;
+  // --- Bottom strip: each stage with its meaning and note
+  const SH = 200;
   ctx.fillStyle = c.strip;
   ctx.fillRect(0, H - SH, W, SH);
   ctx.fillStyle = c.border;
@@ -270,9 +270,10 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
   const colW = (W - 100) / stops.length;
   stops.forEach((s, i) => {
     const x = 50 + i * colW;
-    if (i > 0) { ctx.fillStyle = c.border; ctx.fillRect(x, H - SH + 24, 1, SH - 48); }
+    if (i > 0) { ctx.fillStyle = c.border; ctx.fillRect(x, H - SH + 22, 1, SH - 44); }
     const tx = x + 14;
-    const cy0 = H - SH + 24 + 15;
+    const innerW = colW - 28;
+    const cy0 = H - SH + 22 + 15;
     ctx.beginPath();
     ctx.arc(tx + 15, cy0, 15, 0, Math.PI * 2);
     ctx.fillStyle = c.accent;
@@ -284,17 +285,33 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
     ctx.fillText(String(i + 1), tx + 15, cy0 + 1);
     ctx.textAlign = "left";
     ctx.textBaseline = "alphabetic";
-    const availW = colW - 28 - 40;
-    const wsize = fitSize(ctx, s.word, availW, 30, 16, "700");
+    const availW = innerW - 40;
+    const wsize = fitSize(ctx, s.word, availW, 28, 15, "700");
     ctx.fillStyle = c.text;
     ctx.font = `700 ${wsize}px ${FONT}`;
-    ctx.fillText(truncate(ctx, s.word, availW), tx + 40, cy0 + 10);
+    ctx.fillText(truncate(ctx, s.word, availW), tx + 40, cy0 + 9);
+    let ly = cy0 + 42;
+    ctx.font = `600 15px ${FONT}`;
     ctx.fillStyle = c.accent;
-    ctx.font = `600 17px ${FONT}`;
-    ctx.fillText(truncate(ctx, s.lang, colW - 28), tx, cy0 + 44);
+    const langText = truncate(ctx, s.lang, innerW);
+    ctx.fillText(langText, tx, ly);
+    ly += 19;
+    ctx.font = `400 14px ${FONT}`;
     ctx.fillStyle = c.dim;
-    ctx.font = `400 16px ${FONT}`;
-    ctx.fillText(truncate(ctx, s.era || "", colW - 28), tx, cy0 + 66);
+    ctx.fillText(truncate(ctx, s.era || "", innerW), tx, ly);
+    ly += 24;
+    if (s.meaning) {
+      ctx.font = `italic 400 15px ${FONT}`;
+      ctx.fillStyle = c.text;
+      ctx.fillText(truncate(ctx, `\u201c${s.meaning}\u201d`, innerW), tx, ly);
+      ly += 21;
+    }
+    if (s.note) {
+      ctx.font = `400 14px ${FONT}`;
+      ctx.fillStyle = c.dim;
+      const room = Math.max(1, Math.floor((H - 14 - ly) / 18) + 1);
+      wrap(ctx, s.note, innerW, Math.min(3, room)).forEach((line) => { ctx.fillText(line, tx, ly); ly += 18; });
+    }
   });
 
   return new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
