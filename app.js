@@ -97,7 +97,6 @@ const routeChipsEl = document.getElementById("route-chips");
 const storyStagesEl = document.getElementById("story-stages");
 const storyGlanceEl = document.getElementById("story-glance");
 fullStoryEl.addEventListener("toggle", () => {
-  if (fullStoryEl.dataset.auto) { delete fullStoryEl.dataset.auto; return; }
   if (fullStoryEl.open && lastWord && window.emTrack) window.emTrack.story(lastWord);
 });
 const relatedWordsEl = document.getElementById("related-words");
@@ -1330,9 +1329,6 @@ function renderWord(word, entry) {
   fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
   fullStoryEl.hidden = false;
   renderStoryExtras(word, entry);
-  const autoOpen = currentView === "globe" && window.innerWidth >= 961;
-  if (autoOpen) fullStoryEl.dataset.auto = "1";
-  fullStoryEl.open = autoOpen;
 
   renderRelatedWords(word, entry.stops[0].lang);
   hydrateIcons(resultAreaEl);

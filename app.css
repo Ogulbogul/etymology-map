@@ -564,15 +564,12 @@ html[data-view="globe"] #map-card { display: none; }
 
 /* Landing: a large sphere rising from the bottom of the page */
 html[data-view="globe"] #app[data-state="landing"] .stage { max-width: none; padding: 0; margin-top: 18px; }
-html[data-view="globe"] #app[data-state="landing"] .globe-stage {
-  height: clamp(420px, 52vw, 720px);
-  overflow: hidden;
-}
+html[data-view="globe"] #app[data-state="landing"] .globe-stage { height: auto; overflow: visible; }
 html[data-view="globe"] #app[data-state="landing"] .globe-tools {
   position: absolute; right: 60px; top: 14px;
 }
 html[data-view="globe"] #app[data-state="landing"] .globe-host {
-  --size: min(1500px, 110vw);
+  --size: var(--gsize, min(1500px, 100vw));
   width: var(--size);
   margin: 0 auto;
   margin-top: calc(var(--size) * 0.0652 * -1 + 40px);
@@ -963,4 +960,26 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
   .glance-k { display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
   .glance-v { display: block; font-size: 15px; font-weight: 600; margin-top: 2px; }
   .glance-arrow { color: var(--accent-text); }
+}
+
+/* Whole sphere visible on the homepage, too; content floats over its lower half */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="landing"] .stage { --gsize: min(1500px, 100vw); margin-top: 64px; overflow-x: clip; }
+  html[data-view="globe"] #app[data-state="landing"] .origin-browse {
+    position: relative; z-index: 6; margin-top: calc(var(--gsize) * -0.44 - 40px);
+  }
+  html[data-view="globe"] #app[data-state="landing"] .globe-tools,
+  html[data-view="globe"] #app[data-state="landing"] .globe-caption { top: 14px; }
+  html[data-view="globe"] #app[data-state="landing"] .globe-caption { position: absolute; left: 60px; right: auto; bottom: auto; justify-content: flex-start; }
+  html[data-view="globe"] #app[data-state="landing"] .globe-tools { right: 60px; }
+  /* keep the footer below the sphere's lower edge */
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .stage { min-height: calc(var(--gsize) * 0.935 + 110px); }
+  html[data-view="globe"] #app[data-state="result"] .related-words { position: relative; z-index: 6; }
+  html[data-view="globe"] #app[data-state="landing"] .related-words { position: relative; z-index: 6; }
+}
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="landing"] .origin-browse .origin-pill { background: var(--card); border: 1px solid var(--border); }
+  html[data-view="globe"] #app[data-state="landing"] .origin-browse .origin-pill:hover { background: var(--accent); }
+  html[data-view="globe"] #app[data-state="landing"] .origin-browse h2,
+  html[data-view="globe"] #app[data-state="landing"] .browse-count { text-shadow: 0 1px 6px var(--bg), 0 0 14px var(--bg); }
 }
