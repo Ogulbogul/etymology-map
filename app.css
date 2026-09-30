@@ -1167,7 +1167,7 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 }
 @media (min-width: 961px) {
   /* the faded-out lower half of the sphere must not stretch the page */
-  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { --pad: calc(var(--gsize) * 0.0652 - 10px); padding-top: var(--pad); margin-top: calc(var(--pad) * -1); height: calc(var(--gsize) * 0.74 + var(--pad)); overflow: hidden; }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { --pad: calc(var(--gsize) * 0.0652 - 10px); padding-top: var(--pad); margin-top: calc(var(--pad) * -1); height: calc(var(--gsize) * 0.74 + var(--pad)); overflow: visible; clip-path: inset(-400px -50vw 0 -50vw); }
   html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: calc(var(--gsize) * -0.44); }
   html[data-view="globe"] #app[data-state="landing"] .origin-browse { margin-top: calc(var(--gsize) * -0.19); }
   html[data-view="globe"] #app[data-state="landing"] .stage { padding-bottom: 56px; }
@@ -1202,3 +1202,15 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 @media (max-width: 640px) {
   html[data-view="globe"] #app[data-state="landing"] .stage { margin-top: 28px; }
 }
+
+/* Desktop: globe controls sit exactly where the map card's controls are */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-tools {
+    top: 76px; right: calc(50% - 515px);
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-actions { top: 76px; left: calc(50% - 515px); }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { position: relative; top: 10px; }
+  html[data-view="globe"] #app[data-state="result"] .related-words,
+  html[data-view="globe"] #app[data-state="result"] #result-area { position: relative; z-index: 10; }
+}
+@media (min-width: 961px){ .globe-actions{ gap: 8px; } }
