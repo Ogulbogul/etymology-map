@@ -93,7 +93,11 @@ const pinLayer = document.getElementById("pin-layer");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+const routeChipsEl = document.getElementById("route-chips");
+const storyStagesEl = document.getElementById("story-stages");
+const storyGlanceEl = document.getElementById("story-glance");
 fullStoryEl.addEventListener("toggle", () => {
+  if (fullStoryEl.dataset.auto) { delete fullStoryEl.dataset.auto; return; }
   if (fullStoryEl.open && lastWord && window.emTrack) window.emTrack.story(lastWord);
 });
 const relatedWordsEl = document.getElementById("related-words");
@@ -701,6 +705,10 @@ function clearResultContent() {
   fullStoryEl.hidden = true;
   fullStoryEl.open = false;
   fullStoryTextEl.innerHTML = "";
+  storyStagesEl.innerHTML = "";
+  storyGlanceEl.innerHTML = "";
+  routeChipsEl.innerHTML = "";
+  routeChipsEl.hidden = true;
   relatedWordsEl.hidden = true;
   relatedWordsGridEl.innerHTML = "";
   resultAreaEl.hidden = true;
@@ -738,6 +746,7 @@ function selectStop(index) {
   });
   trayEl.querySelectorAll(".tray-item").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
   pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
+  routeChipsEl.querySelectorAll(".route-chip").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
   if (globe) globe.setSelected(selectedStop);
 }
 
@@ -1231,6 +1240,32 @@ function shortLang(lang) {
   return parts[parts.length - 1];
 }
 
+function renderStoryExtras(word, entry) {
+  const stops = entry.stops;
+  const first = stops[0];
+  const last = stops[stops.length - 1];
+  storyStagesEl.innerHTML = stops
+    .map(
+      (s, i) => `<li><span class="ss-label">Stage ${i + 1} &middot; ${escapeHtml(s.lang)} &middot; ${escapeHtml(s.era)}</span>
+        <span class="ss-word">${escapeHtml(s.word)}</span>
+        <span class="ss-text"><em>"${escapeHtml(s.meaning)}"</em>, ${escapeHtml(s.note)}.</span></li>`
+    )
+    .join("");
+  const route = stops.map((s) => escapeHtml(shortLang(s.lang) === "Turkish" ? s.lang : s.lang));
+  const row = (k, v) => `<div class="glance-row"><span class="glance-k">${k}</span><span class="glance-v">${v}</span></div>`;
+  storyGlanceEl.innerHTML =
+    `<h3>At a glance</h3>` +
+    row("Origin", escapeHtml(first.lang)) +
+    row("Earliest form", escapeHtml(first.word)) +
+    row("Route", route.join(' <span class="glance-arrow">&rarr;</span> ')) +
+    row("Entered English", escapeHtml(last.era));
+  routeChipsEl.innerHTML = stops
+    .map((s, i) => `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`)
+    .join("");
+  routeChipsEl.querySelectorAll(".route-chip").forEach((b) => b.addEventListener("click", () => selectStop(Number(b.dataset.idx))));
+  routeChipsEl.hidden = false;
+}
+
 function renderWord(word, entry) {
   clearResultContent();
   clearMessage();
@@ -1294,6 +1329,10 @@ function renderWord(word, entry) {
   originSentenceEl.hidden = false;
   fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
   fullStoryEl.hidden = false;
+  renderStoryExtras(word, entry);
+  const autoOpen = currentView === "globe" && window.innerWidth >= 961;
+  if (autoOpen) fullStoryEl.dataset.auto = "1";
+  fullStoryEl.open = autoOpen;
 
   renderRelatedWords(word, entry.stops[0].lang);
   hydrateIcons(resultAreaEl);
@@ -1360,8 +1399,16 @@ function placeWodCard() {
 
 function setMapView(view, { save = true } = {}) {
   if (view === "globe" && globeUnavailable) view = "map";
+  const changed = view !== currentView;
   currentView = view;
   document.documentElement.setAttribute("data-view", view);
+  if (changed && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const root = document.documentElement;
+    root.classList.remove("view-to-globe", "view-to-map");
+    void root.offsetWidth;
+    root.classList.add(view === "globe" ? "view-to-globe" : "view-to-map");
+    setTimeout(() => root.classList.remove("view-to-globe", "view-to-map"), 1500);
+  }
   viewToggleButtons.forEach((b) => b.setAttribute("aria-checked", b.dataset.view === view ? "true" : "false"));
   if (save) {
     try { localStorage.setItem(VIEW_STORAGE_KEY, view); } catch (err) { /* private mode */ }
@@ -1371,8 +1418,9 @@ function setMapView(view, { save = true } = {}) {
   requestAnimationFrame(() => {
     updatePinPositions();
     if (globe) {
-      globe.setVariant(window.innerWidth >= 961 && appEl.dataset.state === "landing" ? "rise" : "full");
+      globe.setVariant(window.innerWidth >= 961 ? "rise" : "full");
       globe.resize();
+      if (changed && view === "globe") globe.spinIn();
     }
   });
 }

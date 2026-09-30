@@ -107,6 +107,7 @@
           <div id="wordlist-grid" class="wordlist-grid"></div>
         </div>
       </div>
+      <div id="route-chips" class="route-chips" aria-label="Stages" hidden></div>
       <div id="message" class="message" hidden></div>
       <div id="hint" class="hint"></div>
     </section>
@@ -195,7 +196,13 @@
         </div>
         <details id="full-story" class="full-story" hidden>
           <summary><span>Read the full story</span><span class="summary-chevron" data-icon="chevron-right" data-icon-size="16"></span></summary>
-          <p id="full-story-text"></p>
+          <div class="story-grid">
+            <div class="story-main">
+              <p id="full-story-text"></p>
+              <ol id="story-stages" class="story-stages"></ol>
+            </div>
+            <aside id="story-glance" class="story-glance" aria-label="At a glance"></aside>
+          </div>
         </details>
       </div>
 

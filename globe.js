@@ -339,6 +339,18 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     },
     setPaused(p) { userPaused = p; if (!p) { baseLon = lon; baseLat = lat; swayT0 = performance.now(); } },
     isPaused: () => userPaused,
+    // A playful entrance: the sphere rolls in from the side while the route redraws.
+    spinIn(duration = 1300) {
+      if (reducedMotion.matches) return;
+      const [cLon, cLat] = routeCenter();
+      lon = baseLon = normLon(cLon - 110);
+      lat = baseLat = cLat;
+      draw();
+      rotateTo(cLon, cLat, duration);
+      svg.classList.remove("is-revealed");
+      void svg.getBoundingClientRect();
+      svg.classList.add("is-revealed");
+    },
     resize() { measure(); draw(); },
   };
 }
