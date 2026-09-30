@@ -104,7 +104,9 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   let lat = -10;
   let baseLon = 20; // the sway oscillates around this
   let baseLat = -10;
-  let swayT0 = performance.now();
+  let swayPhase = 0; // radians; advances only while the sway is actually running
+  let swaySpeed = 0; // 0..1, eased so the sway starts and stops smoothly
+  let lastT = performance.now();
   let userPaused = false;
   let dragging = false;
   let idleUntil = 0;
@@ -210,16 +212,24 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       if (t >= 1) {
         baseLon = anim.to[0];
         baseLat = anim.to[1];
-        swayT0 = now;
+        swayPhase = 0;
+        swaySpeed = 0;
         anim = null;
       }
+      lastT = now;
       draw();
       return;
     }
-    if (swayActive()) {
-      const s = Math.sin((2 * Math.PI * ((now - swayT0) / 1000)) / SWAY_PERIOD_S);
-      const nextLon = normLon(baseLon + SWAY_DEG * s);
-      if (Math.abs(nextLon - lastDrawn.lon) > 0.05) {
+    // Sway: integrate the phase, so pausing (hover, drag, tab switch) and
+    // resuming continues from the same spot instead of snapping to a new one.
+    const dt = Math.min(0.1, (now - lastT) / 1000);
+    lastT = now;
+    swaySpeed += ((swayActive() ? 1 : 0) - swaySpeed) * Math.min(1, dt * 2.5);
+    if (swaySpeed > 0.002 && !dragging) {
+      swayPhase += ((2 * Math.PI) / SWAY_PERIOD_S) * dt * swaySpeed;
+      const nextLon = normLon(baseLon + SWAY_DEG * Math.sin(swayPhase));
+      // Skip sub-pixel moves: redrawing the whole coastline costs more than it shows.
+      if (Math.abs(normLon(nextLon - lastDrawn.lon)) > 0.02) {
         lon = nextLon;
         lat = baseLat;
         draw();
@@ -250,7 +260,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     const [cLon, cLat] = centroid(stops.map((s) => [s.lon, s.lat]));
     // On the rising landing globe the sphere's centre sits far below the
     // fold, so look from further south to keep the route in the top cap.
-    return [cLon, variant === "rise" ? cLat - 42 : cLat];
+    return [cLon, variant === "rise" ? cLat - 52 : cLat];
   }
 
   // --- pointer drag to rotate
@@ -276,7 +286,8 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     dragStart = null;
     baseLon = lon;
     baseLat = lat;
-    swayT0 = performance.now();
+    swayPhase = 0;
+    swaySpeed = 0;
     idleUntil = performance.now() + 4000;
     svg.classList.remove("is-dragging");
   };
@@ -285,9 +296,6 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   svg.addEventListener("pointerenter", () => { idleUntil = Math.max(idleUntil, performance.now() + 1500); });
   svg.addEventListener("pointermove", () => { if (!dragging) idleUntil = Math.max(idleUntil, performance.now() + 1500); });
 
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden) swayT0 = performance.now() - (Math.asin(Math.max(-1, Math.min(1, (normLon(lon - baseLon)) / SWAY_DEG))) * SWAY_PERIOD_S * 1000) / (2 * Math.PI);
-  });
   window.addEventListener("resize", () => { measure(); draw(); });
   if (window.ResizeObserver) new ResizeObserver(() => { measure(); draw(); }).observe(host);
 
@@ -337,7 +345,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       const [cLon, cLat] = routeCenter();
       rotateTo(cLon, cLat, duration);
     },
-    setPaused(p) { userPaused = p; if (!p) { baseLon = lon; baseLat = lat; swayT0 = performance.now(); } },
+    setPaused(p) { userPaused = p; if (!p) { baseLon = lon; baseLat = lat; swayPhase = 0; swaySpeed = 0; } },
     isPaused: () => userPaused,
     // A playful entrance: the sphere rolls in from the side while the route redraws.
     spinIn(duration = 1300) {
