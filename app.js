@@ -1566,9 +1566,11 @@ function applyMapView(view, { save = true } = {}) {
   requestAnimationFrame(() => {
     updatePinPositions();
     if (globe) {
-      globe.setVariant(window.innerWidth >= 961 ? "rise" : "full");
-      globe.resize();
-      if (changed && view === "globe") globe.spinIn();
+      const rolling = changed && view === "globe";
+      // Only one full redraw per switch: the roll-in (spinIn) draws the first frame itself.
+      globe.setVariant(window.innerWidth >= 961 ? "rise" : "full", !rolling);
+      globe.resize(!rolling);
+      if (rolling) globe.spinIn();
     }
   });
 }

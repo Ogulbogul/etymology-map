@@ -1304,3 +1304,7 @@ html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
 }
 
 .footer-count-num { color: var(--accent-text); font-weight: 600; }
+
+/* Promote the animated layers so the page underneath is not repainted every frame */
+html.view-to-globe #globe-stage .globe-host, html.view-leaving-globe #globe-stage .globe-host { will-change: transform, opacity; }
+html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }

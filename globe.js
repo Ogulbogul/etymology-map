@@ -405,6 +405,6 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       void svg.getBoundingClientRect();
       svg.classList.add("is-revealed");
     },
-    resize() { measure(); draw(); },
+    resize(redraw = true) { measure(); if (redraw) draw(); },
   };
 }
