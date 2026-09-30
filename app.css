@@ -1214,3 +1214,20 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
   html[data-view="globe"] #app[data-state="result"] #result-area { position: relative; z-index: 10; }
 }
 @media (min-width: 961px){ .globe-actions{ gap: 8px; } }
+
+/* Nothing of the globe may leak past the footer (desktop globe view) */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) { overflow-y: clip; overflow-x: clip; }
+  html[data-view="globe"] .site-footer { position: relative; z-index: 12; background: var(--bg); }
+}
+
+/* Globe -> map: the globe sinks back down and fades, then the map loads in */
+@keyframes globe-out {
+  0% { opacity: 1; transform: none; }
+  100% { opacity: 0; transform: translateY(46px) scale(0.93); }
+}
+html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cubic-bezier(.4,0,.8,.4) both; }
+html.view-leaving-globe #globe-stage .globe-tools,
+html.view-leaving-globe #globe-stage .globe-actions,
+html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; }
+html.view-leaving-globe #globe-stage::after { opacity: 0; transition: opacity 0.3s; }

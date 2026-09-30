@@ -1511,8 +1511,27 @@ function placeWodCard() {
   if (wodCard.parentElement !== host) host.appendChild(wodCard);
 }
 
-function setMapView(view, { save = true } = {}) {
+let leaveTimer = null;
+// Globe -> map plays the rising-globe entrance backwards, then the map loads in.
+function setMapView(view, opts = {}) {
   if (view === "globe" && globeUnavailable) view = "map";
+  if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; document.documentElement.classList.remove("view-leaving-globe"); }
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (view === "map" && currentView === "globe" && !reduce && !opts.instant) {
+    const root = document.documentElement;
+    root.classList.add("view-leaving-globe");
+    viewToggleButtons.forEach((b) => b.setAttribute("aria-checked", b.dataset.view === "map" ? "true" : "false"));
+    leaveTimer = setTimeout(() => {
+      leaveTimer = null;
+      root.classList.remove("view-leaving-globe");
+      applyMapView(view, opts);
+    }, 420);
+    return;
+  }
+  applyMapView(view, opts);
+}
+
+function applyMapView(view, { save = true } = {}) {
   const changed = view !== currentView;
   currentView = view;
   document.documentElement.setAttribute("data-view", view);
