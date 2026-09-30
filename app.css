@@ -1302,3 +1302,5 @@ html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
   #app[data-state="landing"] .hero-title { height: 88px; display: flex; align-items: center; justify-content: center; }
   #app[data-state="landing"] .hero { padding-bottom: 58px; }
 }
+
+.footer-count-num { color: var(--accent-text); font-weight: 600; }

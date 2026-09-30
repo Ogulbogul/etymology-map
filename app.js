@@ -360,7 +360,7 @@ function updateCounts() {
   const count = Object.keys(wordIndex).length;
   const text = `${count.toLocaleString()} word${count === 1 ? "" : "s"} traced`;
   browseCountEl.textContent = text;
-  footerCountEl.textContent = `${text} \u00b7 Etymology Map`;
+  footerCountEl.innerHTML = `<span class="footer-count-num">${text}</span> \u00b7 Etymology Map`;
 }
 
 // --- Origin search (for the long origin list) ---------------------------
