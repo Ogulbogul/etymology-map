@@ -1033,7 +1033,7 @@ function buildOriginSentence(word, stops) {
 
   let middleHtml;
   if (stops.length === 2) {
-    middleHtml = "adopted directly into English";
+    middleHtml = "and was adopted directly into English";
   } else {
     const langs = [];
     stops.slice(1, -1).forEach((s) => {
