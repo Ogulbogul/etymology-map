@@ -847,3 +847,43 @@ html[data-view="globe"] #app[data-state="landing"] .related-words {
   width: 100%; max-width: 1080px; margin-left: auto; margin-right: auto;
   padding-left: 20px; padding-right: 20px; box-sizing: border-box;
 }
+
+/* Desktop globe result ("Result A"): the same rising globe as the landing
+   page, with the stages laid out as a strip of cards underneath. */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="result"] .stage {
+    display: block; max-width: none; padding: 0 0 48px; margin-top: 18px;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage {
+    position: relative; top: 0; height: clamp(420px, 48vw, 660px); overflow: hidden;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-tools { position: absolute; right: 60px; top: 14px; }
+  html[data-view="globe"] #app[data-state="result"] .globe-host {
+    --size: min(1500px, 110vw); width: var(--size); max-width: none;
+    margin: calc(var(--size) * 0.0652 * -1 + 40px) auto 0;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-caption {
+    position: absolute; left: 0; right: 0; bottom: 18px; margin: 0; z-index: 5;
+  }
+  html[data-view="globe"] #app[data-state="result"] #result-area,
+  html[data-view="globe"] #app[data-state="result"] #related-words {
+    width: 100%; max-width: 1180px; margin-left: auto; margin-right: auto; padding: 0 40px; box-sizing: border-box;
+  }
+  html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: 24px; }
+  html[data-view="globe"] #app[data-state="result"] .panel { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+  html[data-view="globe"] #app[data-state="result"] .stop-row {
+    display: grid; grid-template-columns: 24px 1fr; width: auto; padding: 16px 18px;
+    border: 1px solid var(--border); border-radius: 12px; background: var(--card);
+  }
+  html[data-view="globe"] #app[data-state="result"] .stop-row:hover,
+  html[data-view="globe"] #app[data-state="result"] .stop-row.selected { border-color: var(--accent); border-radius: 12px; }
+  html[data-view="globe"] #app[data-state="result"] .stop-row.selected { background: var(--selected); }
+  html[data-view="globe"] #app[data-state="result"] .stop-circle { width: 24px; height: 24px; font-size: 12px; align-self: center; }
+  html[data-view="globe"] #app[data-state="result"] .stop-body { display: contents; }
+  html[data-view="globe"] #app[data-state="result"] .stop-order { display: block; }
+  html[data-view="globe"] #app[data-state="result"] .stop-main { display: block; margin-top: 8px; grid-column: 1 / -1; }
+  html[data-view="globe"] #app[data-state="result"] .stop-lang-era { margin: 2px 0 6px; }
+  html[data-view="globe"] #app[data-state="result"] .stop-meaning,
+  html[data-view="globe"] #app[data-state="result"] .stop-note { display: block; }
+  html[data-view="globe"] #app[data-state="result"] .stop-meaning::after { content: none; }
+}

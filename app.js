@@ -1443,7 +1443,7 @@ async function trace(options = {}) {
 
 function syncGlobeVariant() {
   if (!globe) return;
-  const rise = window.innerWidth >= 961 && appEl.dataset.state === "landing";
+  const rise = window.innerWidth >= 961;
   globe.setVariant(rise ? "rise" : "full", false);
 }
 
