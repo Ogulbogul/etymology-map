@@ -1230,4 +1230,3 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
 html.view-leaving-globe #globe-stage .globe-tools,
 html.view-leaving-globe #globe-stage .globe-actions,
 html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; }
-html.view-leaving-globe #globe-stage::after { opacity: 0; transition: opacity 0.3s; }
