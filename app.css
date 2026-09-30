@@ -1033,3 +1033,17 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 @media (max-width: 640px) {
   html[data-view="globe"] .globe-stage .globe-tools, html[data-view="globe"] #app .globe-stage .globe-tools .globe-caption { justify-content: center; }
 }
+
+/* Map-card top bar: share + link at the far left */
+.head-actions { display: none; align-items: center; gap: 8px; flex: none; }
+#app[data-state="result"] .head-actions { display: flex; }
+
+/* Clear the globe controls from the search row at every width */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app[data-state="landing"] .stage { margin-top: 76px; }
+}
+
+/* Browse by origin: centered */
+.origin-browse { text-align: center; }
+.origin-browse .section-head { justify-content: center; gap: 14px; }
+.origin-pills { justify-content: center; }
