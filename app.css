@@ -1296,3 +1296,9 @@ html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
 @media (min-width: 961px) {
   html.view-to-map #map { animation: map-in-centered 0.6s ease both; }
 }
+
+/* Desktop: the headline area, search row and map/globe start at the same place on the homepage and on results */
+@media (min-width: 961px) {
+  #app[data-state="landing"] .hero-title { height: 88px; display: flex; align-items: center; justify-content: center; }
+  #app[data-state="landing"] .hero { padding-bottom: 58px; }
+}
