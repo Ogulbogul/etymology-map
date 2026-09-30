@@ -149,7 +149,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       label.textContent = stop.word;
       g.addEventListener("pointerenter", () => onHover && onHover(i, true));
       g.addEventListener("pointerleave", () => onHover && onHover(i, false));
-      g.addEventListener("click", () => onSelect && onSelect(i));
+      g.addEventListener("click", () => { if (!suppressClick) onSelect && onSelect(i); });
       g.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -265,16 +265,25 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
 
   // --- pointer drag to rotate
   let dragStart = null;
+  let dragMoved = false;
+  let pendingPointer = 0;
+  let suppressClick = false;
   svg.addEventListener("pointerdown", (e) => {
-    if (e.target.closest(".gpin")) return;
     dragging = true;
+    dragMoved = false;
     anim = null;
     dragStart = { x: e.clientX, y: e.clientY, lon, lat };
-    svg.setPointerCapture(e.pointerId);
-    svg.classList.add("is-dragging");
+    pendingPointer = e.pointerId;
   });
   svg.addEventListener("pointermove", (e) => {
     if (!dragging || !dragStart) return;
+    if (!dragMoved && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) < 4) return;
+    if (!dragMoved) {
+      dragMoved = true;
+      try { svg.setPointerCapture(pendingPointer); } catch (err) { /* pointer already gone */ }
+      svg.classList.add("is-dragging");
+      host.dispatchEvent(new CustomEvent("globe-drag", { bubbles: true }));
+    }
     const k = 180 / (pxWidth * 0.8); // degrees per pixel at the sphere's centre
     lon = normLon(dragStart.lon - (e.clientX - dragStart.x) * k);
     lat = Math.max(-75, Math.min(75, dragStart.lat + (e.clientY - dragStart.y) * k));
@@ -284,6 +293,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     if (!dragging) return;
     dragging = false;
     dragStart = null;
+    if (dragMoved) { suppressClick = true; setTimeout(() => { suppressClick = false; }, 0); }
     baseLon = lon;
     baseLat = lat;
     swayPhase = 0;

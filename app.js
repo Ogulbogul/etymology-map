@@ -93,6 +93,7 @@ const pinLayer = document.getElementById("pin-layer");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+const globeHintEl = document.getElementById("globe-hint");
 const routeChipsEl = document.getElementById("route-chips");
 const storyStagesEl = document.getElementById("story-stages");
 const storyGlanceEl = document.getElementById("story-glance");
@@ -1421,7 +1422,19 @@ function setMapView(view, { save = true } = {}) {
   });
 }
 
+const HINT_KEY = "etymology-map-drag-hint";
+function setupDragHint() {
+  let seen = false;
+  try { seen = localStorage.getItem(HINT_KEY) === "1"; } catch (err) { seen = false; }
+  if (seen) { globeHintEl.hidden = true; return; }
+  globeHost.addEventListener("globe-drag", () => {
+    globeHintEl.classList.add("gone");
+    try { localStorage.setItem(HINT_KEY, "1"); } catch (err) { /* private mode */ }
+  });
+}
+
 function setupViewToggle() {
+  setupDragHint();
   let saved = null;
   try { saved = localStorage.getItem(VIEW_STORAGE_KEY); } catch (err) { saved = null; }
   viewToggleButtons.forEach((b) => b.addEventListener("click", () => setMapView(b.dataset.view)));
