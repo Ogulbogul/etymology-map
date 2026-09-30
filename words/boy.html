@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "boy", "stops": [{"word": "boie", "lang": "Middle English", "era": "1300s", "note": "first meant a servant or a commoner, often as an insult; its origin is uncertain, perhaps Anglo-French 'embuié', fettered", "meaning": "servant, knave", "lat": 51.75, "lon": -1.26}, {"word": "boy", "lang": "English", "era": "1400s", "note": "came to mean a male child in the 1400s", "meaning": "male child", "lat": 51.51, "lon": -0.13}], "current_meaning": "a male child or young man"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "hotel", "stops": [{"word": "hospitale", "lang": "Latin", "era": "ancient", "note": "meaning \"a guest house\"", "meaning": "a guest house", "lat": 41.9, "lon": 12.5}, {"word": "hostel", "lang": "Old French", "era": "medieval", "note": "carried the meaning of lodging for travelers", "meaning": "lodging for travelers", "lat": 48.85, "lon": 2.35}, {"word": "hôtel", "lang": "French", "era": "1600s", "note": "narrowed to mean a large or fashionable lodging house", "meaning": "a large lodging establishment", "lat": 48.85, "lon": 2.35}, {"word": "hotel", "lang": "English", "era": "1700s", "note": "a French 'hôtel' was a grand town house; commercial hotels spread in the 1700s–1800s", "meaning": "a commercial establishment providing lodging", "lat": 51.51, "lon": -0.13}], "current_meaning": "a commercial establishment providing lodging and meals for travelers"}</script>

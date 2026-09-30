@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "buba", "stops": [{"word": "bùbá", "lang": "Yoruba", "era": "traditional", "note": "named the loose, wide-sleeved blouse worn as part of traditional dress", "meaning": "a loose blouse or tunic", "lat": 6.5244, "lon": 3.3792}, {"word": "buba", "lang": "English", "era": "1937", "note": "entered English print describing West African dress", "meaning": "a loose-fitting blouse or top", "lat": 51.5074, "lon": -0.1278}], "current_meaning": "a loose-fitting blouse or tunic worn as part of traditional West African dress"}</script>

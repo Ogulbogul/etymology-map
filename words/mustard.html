@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mustard", "stops": [{"word": "mustum", "lang": "Latin", "era": "ancient", "note": "fresh grape juice, which Romans mixed with ground seeds to make the condiment", "meaning": "new wine, must", "lat": 41.9, "lon": 12.5}, {"word": "moustarde", "lang": "Old French", "era": "medieval", "note": "named after the must rather than the seeds; Dijon became its centre of production", "meaning": "mustard condiment", "lat": 47.32, "lon": 5.04}, {"word": "mustard", "lang": "English", "era": "1200s", "note": "later applied to the plant itself as well as the paste", "meaning": "a spicy yellow condiment", "lat": 51.51, "lon": -0.13}], "current_meaning": "a hot-tasting paste made from the seeds of the mustard plant"}</script>

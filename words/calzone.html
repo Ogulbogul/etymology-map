@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "calzone", "stops": [{"word": "calzone", "lang": "Italian", "era": "1800s", "note": "literally a trouser leg or stocking, describing the folded pastry's shape", "meaning": "a trouser leg, a stocking", "lat": 40.85, "lon": 14.27}, {"word": "calzone", "lang": "English", "era": "1930s", "note": "Italian for 'trouser leg', from its shape; a Neapolitan specialty", "meaning": "a folded, baked pizza dough filled with cheese and other ingredients", "lat": 51.51, "lon": -0.13}], "current_meaning": "a folded Italian pastry made from pizza dough and filled with cheese and other ingredients"}</script>

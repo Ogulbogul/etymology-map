@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "banh mi", "stops": [{"word": "pain de mie", "lang": "French", "era": "1800s", "note": "literally \"crumb bread\", a soft white loaf introduced during French colonization", "meaning": "soft white bread", "lat": 48.85, "lon": 2.35}, {"word": "banh mi", "lang": "Vietnamese", "era": "1900s", "note": "adapted the French loaf into a distinctive Vietnamese sandwich", "meaning": "bread; a Vietnamese sandwich", "lat": 21.03, "lon": 105.85}, {"word": "banh mi", "lang": "English", "era": "2000s", "note": "the French colonial baguette became a Vietnamese street sandwich in Saigon in the 1950s", "meaning": "a Vietnamese sandwich on a baguette", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Vietnamese sandwich served on a baguette, filled with meat and vegetables"}</script>

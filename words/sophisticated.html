@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "sophisticated", "stops": [{"word": "sophistḗs", "lang": "Greek", "era": "ancient", "note": "a paid teacher of wisdom and rhetoric, whom Plato portrayed as a clever arguer for hire", "meaning": "wise teacher; quibbler", "lat": 37.98, "lon": 23.73}, {"word": "sophisticatus", "lang": "Medieval Latin", "era": "medieval", "note": "'adulterated, falsified', from sophisticare 'to use sophistry, to tamper with'", "meaning": "adulterated", "lat": 48.85, "lon": 2.35}, {"word": "sophisticated", "lang": "English", "era": "1600s", "note": "first meant 'not pure', of adulterated wine or drugs; 'worldly-wise' came in the late 1800s and 'technically advanced' in the 1940s", "meaning": "adulterated; worldly; complex", "lat": 51.51, "lon": -0.13}], "current_meaning": "having worldly experience and refined taste; highly developed and complex"}</script>

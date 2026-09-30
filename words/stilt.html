@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "stilt", "stops": [{"word": "stylta", "lang": "Scandinavian", "era": "medieval", "note": "probably from a Norse or Low German source; Norwegian 'stylta' means a stilt", "meaning": "stilt, prop", "lat": 59.91, "lon": 10.75}, {"word": "stilte", "lang": "Middle English", "era": "1300s", "note": "a crutch, or the handle of a plough", "meaning": "crutch, handle", "lat": 53.96, "lon": -1.08}, {"word": "stilt", "lang": "English", "era": "1500s", "note": "the long-legged wading bird called a stilt is named after it", "meaning": "walking pole", "lat": 51.51, "lon": -0.13}], "current_meaning": "either of a pair of poles for walking raised above the ground"}</script>

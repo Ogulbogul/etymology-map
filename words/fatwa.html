@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "fatwa", "stops": [{"word": "fata", "lang": "Arabic", "era": "medieval", "note": "meant \"to instruct by a legal decision\"", "meaning": "to give a legal ruling", "lat": 33.31, "lon": 44.36}, {"word": "fetwa", "lang": "Arabic", "era": "medieval", "note": "named a formal ruling given by a mufti", "meaning": "legal ruling", "lat": 33.31, "lon": 44.36}, {"word": "fatwa", "lang": "English", "era": "1620s", "note": "first recorded in 1625 in Robert Withers's account of the Ottoman sultan's palace, printed in Purchas's travel collection; gained wide notoriety after the 1989 Rushdie affair", "meaning": "formal Islamic legal ruling", "lat": 51.51, "lon": -0.13}], "current_meaning": "a formal ruling or interpretation on a point of Islamic law given by a recognized religious authority"}</script>

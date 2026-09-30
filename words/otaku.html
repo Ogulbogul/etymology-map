@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "otaku", "stops": [{"word": "otaku", "lang": "Japanese", "era": "1980s", "note": "originally a formal word for your house, later applied to obsessive hobbyists who rarely left home", "meaning": "your house, formally", "lat": 35.68, "lon": 139.65}, {"word": "otaku", "lang": "English", "era": "1990s", "note": "Japanese 'your house', a polite 'you' used among fans; Akio Nakamori popularized it in 1983", "meaning": "a person with an obsessive interest in a hobby", "lat": 51.51, "lon": -0.13}], "current_meaning": "a person with an obsessive interest in a particular hobby, especially anime or manga"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "purchase", "stops": [{"word": "captiare", "lang": "Vulgar Latin", "era": "ancient", "note": "'pro-' plus a verb for chasing, the root of 'chase'", "meaning": "to seize, hunt", "lat": 41.9, "lon": 12.5}, {"word": "purchacier", "lang": "Old French", "era": "medieval", "note": "meant to acquire something by effort, not only by money", "meaning": "to pursue, obtain", "lat": 48.85, "lon": 2.35}, {"word": "purchase", "lang": "English", "era": "1200s", "note": "'purchase' as a grip or leverage keeps the older sense", "meaning": "to acquire", "lat": 51.51, "lon": -0.13}], "current_meaning": "to buy"}</script>

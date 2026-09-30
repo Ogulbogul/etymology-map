@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "narcissism", "stops": [{"word": "Narkissos", "lang": "Greek", "era": "ancient", "note": "a youth in myth who fell in love with his own reflection", "meaning": "the mythical youth Narcissus", "lat": 37.98, "lon": 23.73}, {"word": "Narzissismus", "lang": "German", "era": "1899", "note": "coined by German psychiatrist Paul Näcke for excessive self-love, from the myth", "meaning": "excessive self-love", "lat": 52.52, "lon": 13.4}, {"word": "narcissism", "lang": "English", "era": "1900s", "note": "Havelock Ellis described it in 1898; Freud's 1914 essay 'On Narcissism' made it central in psychology", "meaning": "excessive interest in or admiration of oneself", "lat": 51.51, "lon": -0.13}], "current_meaning": "excessive self-admiration or self-centeredness"}</script>

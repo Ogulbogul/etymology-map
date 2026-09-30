@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "nuclear", "stops": [{"word": "nucleus", "lang": "Latin", "era": "classical", "note": "'kernel', from nux 'nut'", "meaning": "kernel", "lat": 41.9, "lon": 12.5}, {"word": "nucleus", "lang": "English", "era": "1911", "note": "Ernest Rutherford showed at Manchester in 1911 that an atom's mass sits in a tiny central core, soon called its nucleus", "meaning": "core of the atom", "lat": 53.47, "lon": -2.23}, {"word": "nuclear", "lang": "English", "era": "1910s", "note": "'nuclear' first described cell nuclei in the 1840s; after Hiroshima in 1945 it came to mean atomic weapons and power", "meaning": "of the atomic nucleus", "lat": 51.51, "lon": -0.13}], "current_meaning": "relating to the nucleus of an atom; relating to nuclear weapons or power"}</script>

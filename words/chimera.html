@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "chimera", "stops": [{"word": "khimaira", "lang": "Greek", "era": "ancient", "note": "a fire-breathing monster with a lion's head, goat's body, and serpent's tail", "meaning": "a mythical fire-breathing hybrid monster", "lat": 37.98, "lon": 23.73}, {"word": "chimera", "lang": "English", "era": "1300s", "note": "broadened from the monster itself to any wildly fanciful idea", "meaning": "an unrealistic or fantastical idea, or a hybrid creature", "lat": 51.51, "lon": -0.13}], "current_meaning": "a fanciful, unrealistic idea, or an organism with mixed genetic origins"}</script>

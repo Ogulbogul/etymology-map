@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "gaucho", "stops": [{"word": "cauchu", "lang": "Quechua/Mapuche", "era": "pre-1600s", "note": "of disputed origin, possibly referring to a wanderer or vagabond", "meaning": "a wanderer", "lat": -33.45, "lon": -70.65}, {"word": "gaucho", "lang": "Spanish", "era": "1700s-1800s", "note": "named the skilled horsemen of the South American plains", "meaning": "a South American cowboy", "lat": -34.6, "lon": -58.38}, {"word": "gaucho", "lang": "English", "era": "1800s", "note": "José Hernández's poem 'Martín Fierro' (1872) made the gaucho a national symbol in Argentina", "meaning": "a South American cowboy or herdsman", "lat": 51.51, "lon": -0.13}], "current_meaning": "a skilled horseman and herder of the South American pampas"}</script>

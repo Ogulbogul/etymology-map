@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "nadir", "stops": [{"word": "nazir", "lang": "Arabic", "era": "medieval", "note": "meaning \"opposite\", the point opposite the zenith", "meaning": "opposite point", "lat": 33.31, "lon": 44.36}, {"word": "nadir", "lang": "Medieval Latin", "era": "medieval", "note": "Arabic 'nazir as-samt', opposite the zenith", "meaning": "the lowest point", "lat": 39.86, "lon": -4.02}, {"word": "nadir", "lang": "English", "era": "medieval", "note": "settled as the English astronomical term", "meaning": "the lowest point", "lat": 51.51, "lon": -0.13}], "current_meaning": "the lowest point, or the point in the sky directly opposite the zenith"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mango", "stops": [{"word": "mankay", "lang": "Tamil/Malayalam", "era": "ancient", "note": "man (mango tree) plus kay (fruit)", "meaning": "mango fruit", "lat": 9.93, "lon": 76.26}, {"word": "manga", "lang": "Portuguese", "era": "1500s", "note": "Portuguese traders on the Malabar coast adapted Malayalam 'manga'", "meaning": "mango fruit", "lat": 38.72, "lon": -9.14}, {"word": "mango", "lang": "English", "era": "1600s", "note": "spread through Portuguese and Dutch trade networks", "meaning": "the tropical mango fruit", "lat": 51.51, "lon": -0.13}], "current_meaning": "a sweet tropical fruit with orange flesh and a large flat seed"}</script>

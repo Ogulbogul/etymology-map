@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "sufi", "stops": [{"word": "suf", "lang": "Arabic", "era": "medieval", "note": "meant \"wool,\" referring to the coarse woolen garments worn by early Muslim ascetics", "meaning": "wool", "lat": 33.31, "lon": 44.36}, {"word": "sufi", "lang": "Arabic", "era": "medieval", "note": "literally \"man of wool,\" naming a practitioner of Islamic mysticism", "meaning": "Muslim mystic", "lat": 33.31, "lon": 44.36}, {"word": "Sufi", "lang": "English", "era": "1580s-1650s", "note": "settled into English after passing through several spellings including \"Sophee\"", "meaning": "member of a Muslim mystical order", "lat": 51.51, "lon": -0.13}], "current_meaning": "a practitioner of Sufism, the mystical branch of Islam"}</script>

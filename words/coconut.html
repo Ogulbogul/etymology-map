@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "coconut", "stops": [{"word": "coco", "lang": "Portuguese", "era": "1490s", "note": "a grinning bogeyman of Iberian folklore; Vasco da Gama's sailors, reaching India in 1498, reportedly named the nut for the three holes that look like a face", "meaning": "goblin, grinning head", "lat": 38.72, "lon": -9.14}, {"word": "coconut", "lang": "English", "era": "1610s", "note": "'coco' plus 'nut'; long misspelled 'cocoa-nut', a confusion with cacao that Samuel Johnson's 1755 Dictionary is often blamed for spreading by running the two entries together", "meaning": "fruit of the coconut palm", "lat": 51.51, "lon": -0.13}], "current_meaning": "the large hard-shelled seed of the coconut palm"}</script>

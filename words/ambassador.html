@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "ambassador", "stops": [{"word": "*ambaktos", "lang": "Gaulish", "era": "ancient", "note": "'servant, one sent around'; Caesar's Gallic War says Gaulish nobles surrounded themselves with ambacti, dependants and clients", "meaning": "servant, retainer", "lat": 46.5, "lon": 3.0}, {"word": "ambasciatore", "lang": "Italian", "era": "1400s", "note": "through Medieval Latin ambactia 'service, mission'; Renaissance states such as Milan and Venice began keeping permanent resident ambassadors in the 1400s", "meaning": "envoy", "lat": 45.44, "lon": 12.33}, {"word": "ambassador", "lang": "English", "era": "1300s", "note": "came through Middle French ambassadeur; the Vienna Convention on Diplomatic Relations of 1961 now codifies ambassadors' immunity", "meaning": "diplomatic envoy", "lat": 51.51, "lon": -0.13}], "current_meaning": "a diplomat sent by a state as its official representative abroad"}</script>

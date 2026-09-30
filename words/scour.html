@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "scour", "stops": [{"word": "excurare", "lang": "Latin", "era": "ancient", "note": "'ex-' plus 'curare', to take care of, clean", "meaning": "to clean off", "lat": 41.9, "lon": 12.5}, {"word": "schuren", "lang": "Middle Dutch", "era": "medieval", "note": "Flemish cloth-makers and housekeepers used it for scrubbing surfaces", "meaning": "to scrub", "lat": 51.21, "lon": 3.22}, {"word": "scour", "lang": "English", "era": "1300s", "note": "the sense of searching an area thoroughly came in the 1500s", "meaning": "to scrub; to search thoroughly", "lat": 51.51, "lon": -0.13}], "current_meaning": "to clean by hard rubbing; to search thoroughly"}</script>

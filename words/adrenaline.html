@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "adrenaline", "stops": [{"word": "ad renes", "lang": "Latin", "era": "classical", "note": "'near the kidneys', describing the adrenal glands on top of them", "meaning": "near the kidneys", "lat": 41.9, "lon": 12.5}, {"word": "Adrenalin", "lang": "American English", "era": "1901", "note": "the Japanese chemist Jōkichi Takamine isolated the pure hormone in New York around 1900, and Parke-Davis trademarked it as Adrenalin in 1901; US medicine instead uses 'epinephrine', a name John Jacob Abel had coined in 1899", "meaning": "adrenal hormone", "lat": 40.71, "lon": -74.01}, {"word": "adrenaline", "lang": "English", "era": "1900s", "note": "the standard British name, and 'adrenaline rush' for excitement dates from the later 1900s", "meaning": "stress hormone; excitement", "lat": 51.51, "lon": -0.13}], "current_meaning": "a hormone released in stress that raises heart rate; excitement"}</script>

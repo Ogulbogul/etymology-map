@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "amber", "stops": [{"word": "anbar", "lang": "Arabic", "era": "medieval", "note": "originally referring to ambergris, a whale-derived substance", "meaning": "ambergris", "lat": 24.47, "lon": 39.61}, {"word": "ambre", "lang": "Old French", "era": "medieval", "note": "the meaning shifted to include fossilized tree resin: ambergris reached Europe through Arab Indian Ocean trade, and the name passed to Baltic resin, perhaps because both were found washed up on beaches", "meaning": "ambergris; fossilized resin", "lat": 48.85, "lon": 2.35}, {"word": "amber", "lang": "English", "era": "medieval", "note": "settled to mean the golden fossilized resin", "meaning": "fossilized tree resin; a golden color", "lat": 51.51, "lon": -0.13}], "current_meaning": "hardened, fossilized tree resin, often golden in color, or the color itself"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mannequin", "stops": [{"word": "manneken", "lang": "Middle Dutch", "era": "medieval", "note": "'little man'; Brussels' famous statue is the Manneken Pis", "meaning": "little man", "lat": 50.85, "lon": 4.35}, {"word": "mannequin", "lang": "French", "era": "1600s", "note": "an artist's jointed model, then a dressmaker's dummy", "meaning": "artist's model; dummy", "lat": 48.85, "lon": 2.35}, {"word": "mannequin", "lang": "English", "era": "1570s", "note": "first 'a little man'; the sense of a shop-window dummy or live model came from French in the 1900s", "meaning": "dummy; model", "lat": 51.51, "lon": -0.13}], "current_meaning": "a dummy used to display clothes; a fashion model"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "pastrami", "stops": [{"word": "basdirma / pastirma", "lang": "Turkish", "era": "medieval", "note": "from a root meaning \"to press,\" describing pressed, cured meat", "meaning": "pressed, cured meat", "lat": 41.01, "lon": 28.98}, {"word": "pastrama", "lang": "Romanian", "era": "1800s", "note": "adopted the dish through Ottoman-influenced Balkan cuisine", "meaning": "cured, spiced meat", "lat": 44.43, "lon": 26.1}, {"word": "pastrame", "lang": "Yiddish", "era": "1800s", "note": "carried by Romanian Jewish immigrants to new communities", "meaning": "spiced smoked beef", "lat": 52.23, "lon": 21.01}, {"word": "pastrami", "lang": "English", "era": "1916", "note": "the spelling shifted to end in \"-mi,\" likely influenced by \"salami,\" in New York delicatessens", "meaning": "seasoned smoked beef", "lat": 40.71, "lon": -74.01}], "current_meaning": "a seasoned, smoked, and steamed cut of beef, typically sliced thin for sandwiches"}</script>

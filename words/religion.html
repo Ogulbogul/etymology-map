@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "religion", "stops": [{"word": "religio", "lang": "Latin", "era": "classical", "note": "origin disputed since antiquity: Cicero derived it from relegere 're-read, go over carefully', while the Christian writer Lactantius preferred religare 'to bind'", "meaning": "reverence, scruple", "lat": 41.9, "lon": 12.5}, {"word": "religion", "lang": "Old French", "era": "1100s", "note": "meant above all the life of a monastic order", "meaning": "monastic life", "lat": 48.85, "lon": 2.35}, {"word": "religion", "lang": "English", "era": "1200s", "note": "Henry VIII's Act of Supremacy of 1534 made the king head of the Church of England, turning religion into a matter of state", "meaning": "belief and worship", "lat": 51.51, "lon": -0.13}], "current_meaning": "belief in and worship of a god or gods; a particular system of faith"}</script>

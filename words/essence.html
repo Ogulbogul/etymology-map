@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "essence", "stops": [{"word": "essentia", "lang": "Latin", "era": "ancient", "note": "coined by Cicero from 'esse', to be, to translate Greek 'ousia'", "meaning": "being", "lat": 41.9, "lon": 12.5}, {"word": "essence", "lang": "Old French", "era": "medieval", "note": "Aristotle's 'ousia', being, was translated by Cicero with 'essentia'", "meaning": "essence", "lat": 48.85, "lon": 2.35}, {"word": "essence", "lang": "English", "era": "1300s", "note": "perfume 'essences' date from the 1600s", "meaning": "being", "lat": 51.51, "lon": -0.13}], "current_meaning": "the intrinsic nature of something"}</script>

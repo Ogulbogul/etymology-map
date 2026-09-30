@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "meme", "stops": [{"word": "mímēma", "lang": "Greek", "era": "ancient", "note": "'something imitated'; Plato's Republic, Book 10, dismisses art as a mimēma, an imitation of an imitation", "meaning": "imitation", "lat": 37.98, "lon": 23.73}, {"word": "meme", "lang": "English", "era": "1976", "note": "Richard Dawkins clipped mimeme to rhyme with 'gene' in The Selfish Gene (1976), for a unit of culture passed on by imitation; 'internet meme' followed in the 1990s-2000s", "meaning": "unit of cultural imitation", "lat": 51.75, "lon": -1.25}], "current_meaning": "an idea or image copied and spread online; a unit of cultural transmission"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mattress", "stops": [{"word": "al-matrah", "lang": "Arabic", "era": "medieval", "note": "literally \"the place where something is thrown down\"", "meaning": "cushion, place to lie down", "lat": 30.04, "lon": 31.24}, {"word": "materasso", "lang": "Italian", "era": "medieval", "note": "Arabic 'matrah', a place where something is thrown, a cushion on the floor", "meaning": "mattress", "lat": 45.44, "lon": 12.33}, {"word": "materas", "lang": "Old French", "era": "1200s", "note": "carried the padded sleeping surface into French", "meaning": "mattress", "lat": 48.85, "lon": 2.35}, {"word": "mattress", "lang": "English", "era": "1300s", "note": "settled as the English word for a bed's padded surface", "meaning": "a padded surface for sleeping", "lat": 51.51, "lon": -0.13}], "current_meaning": "a padded, often springy pad used on a bed for sleeping"}</script>

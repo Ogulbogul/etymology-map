@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "ayurveda", "stops": [{"word": "ayus", "lang": "Sanskrit", "era": "ancient", "note": "meant 'life, vital force, longevity'", "meaning": "life, longevity", "lat": 25.32, "lon": 82.97}, {"word": "veda", "lang": "Sanskrit", "era": "ancient", "note": "meant 'knowledge', from a root meaning 'to know'", "meaning": "knowledge", "lat": 25.32, "lon": 82.97}, {"word": "Ayurveda", "lang": "English", "era": "19th-20th c.", "note": "first recorded in 1789 in 'Asiatick Researches', the journal of the Asiatic Society of Bengal", "meaning": "a traditional system of medicine based on balance and natural healing", "lat": 51.51, "lon": -0.13}], "current_meaning": "A traditional system of medicine native to the Indian subcontinent, focused on balance among body, mind, and spirit."}</script>

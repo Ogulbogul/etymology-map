@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "pagoda", "stops": [{"word": "bhagavati", "lang": "Sanskrit", "era": "ancient", "note": "an epithet of a goddess, 'the blessed one'", "meaning": "the blessed goddess", "lat": 25.32, "lon": 82.97}, {"word": "pakavati", "lang": "Tamil", "era": "medieval", "note": "South Indian temple term for a shrine of the goddess", "meaning": "a temple of the goddess", "lat": 13.08, "lon": 80.27}, {"word": "pagode", "lang": "Portuguese", "era": "16th c.", "note": "Portuguese traders in South India applied the word to Asian temples generally", "meaning": "an Asian temple", "lat": 38.72, "lon": -9.14}, {"word": "pagoda", "lang": "English", "era": "1580s", "note": "borrowed via Portuguese for tiered Asian temple towers", "meaning": "a tiered tower temple, especially Buddhist", "lat": 51.51, "lon": -0.13}], "current_meaning": "A tiered tower, typically Buddhist, common across South and East Asia."}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "dragon", "stops": [{"word": "drákōn", "lang": "Greek", "era": "ancient", "note": "'serpent', probably 'the one with the deadly glance', from derkesthai 'to see'; the Athenian lawgiver Draco (621 BC) gave us 'draconian'", "meaning": "serpent", "lat": 37.98, "lon": 23.73}, {"word": "draco", "lang": "Latin", "era": "classical", "note": "Roman cavalry adopted the draco, a hollow serpent-headed windsock standard, from Sarmatian and Dacian horsemen in the 100s AD", "meaning": "serpent; standard", "lat": 41.9, "lon": 12.5}, {"word": "dragon", "lang": "Old French", "era": "1100s", "note": "the dragon-slaying St George became hugely popular in the West after the Crusades", "meaning": "dragon", "lat": 48.85, "lon": 2.35}, {"word": "dragon", "lang": "English", "era": "1200s", "note": "the red dragon of Wales, Y Ddraig Goch, was officially recognised as the Welsh flag in 1959", "meaning": "mythical winged reptile", "lat": 51.51, "lon": -0.13}], "current_meaning": "a mythical monster like a huge reptile, often breathing fire"}</script>

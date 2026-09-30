@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "bhaji", "stops": [{"word": "bharjita", "lang": "Sanskrit", "era": "ancient", "note": "past participle meaning 'roasted, fried'", "meaning": "fried, roasted", "lat": 25.32, "lon": 82.97}, {"word": "bhaji", "lang": "Gujarati", "era": "medieval", "note": "came to mean fried vegetables or greens", "meaning": "fried vegetables or greens", "lat": 23.02, "lon": 72.57}, {"word": "bhaji", "lang": "English", "era": "1832", "note": "onion bhajis became a fixture of British curry-house menus in the 1900s", "meaning": "a dish or fritter of spiced, fried vegetables", "lat": 51.51, "lon": -0.13}], "current_meaning": "A South Asian dish of vegetables (often onions) fried in spiced batter."}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "finance", "stops": [{"word": "finis", "lang": "Latin", "era": "ancient", "note": "an end, a boundary, related to the final settlement of a debt", "meaning": "an end, a settlement", "lat": 41.9, "lon": 12.5}, {"word": "finance", "lang": "Old French", "era": "medieval", "note": "carried into French for the payment or settlement of a debt", "meaning": "the payment of a debt", "lat": 48.85, "lon": 2.35}, {"word": "finance", "lang": "English", "era": "1400s", "note": "broadened to mean the management of money in general", "meaning": "the management of money and monetary systems", "lat": 51.51, "lon": -0.13}], "current_meaning": "the management of money, especially by governments or large organizations"}</script>

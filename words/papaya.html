@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "papaya", "stops": [{"word": "papaya", "lang": "Arawakan", "era": "pre-1500s", "note": "the native name for the tropical fruit", "meaning": "papaya fruit", "lat": 10.0, "lon": -66.0}, {"word": "papaya", "lang": "Spanish", "era": "1500s", "note": "adopted after contact with the Caribbean and South America", "meaning": "papaya fruit", "lat": 40.42, "lon": -3.7}, {"word": "papaya", "lang": "English", "era": "1600s", "note": "Spanish chroniclers such as Oviedo described the fruit in the Caribbean in the 1520s", "meaning": "the tropical papaya fruit", "lat": 51.51, "lon": -0.13}], "current_meaning": "a large, sweet tropical fruit with orange flesh and black seeds"}</script>

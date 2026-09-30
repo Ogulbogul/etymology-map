@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "jazz", "stops": [{"word": "jasm", "lang": "American English", "era": "1860s", "note": "slang for energy or spirit, the most likely source, though the origin of 'jazz' is genuinely unknown", "meaning": "pep, energy", "lat": 38.9, "lon": -77.04}, {"word": "jazz", "lang": "American English", "era": "1912", "note": "first printed in the Los Angeles Times in April 1912, when pitcher Ben Henderson described his 'jazz ball' that wobbled so no one could hit it", "meaning": "pep; a trick pitch", "lat": 34.05, "lon": -118.24}, {"word": "jazz", "lang": "American English", "era": "1917", "note": "the name of the new New Orleans music by 1915; the Original Dixieland Jass Band made the first jazz record in New York in February 1917", "meaning": "syncopated African-American music", "lat": 40.71, "lon": -74.01}], "current_meaning": "a style of music with African-American roots, marked by improvisation and syncopation"}</script>

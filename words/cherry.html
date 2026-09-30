@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cherry", "stops": [{"word": "kerasos", "lang": "Greek", "era": "ancient", "note": "the cherry tree, traditionally linked with Kerasous (modern Giresun) on the Black Sea", "meaning": "cherry tree", "lat": 40.91, "lon": 38.39}, {"word": "cerise", "lang": "Old North French", "era": "medieval", "note": "Norman French kept the hard 'k' sound that Parisian French softened", "meaning": "cherry", "lat": 49.44, "lon": 1.1}, {"word": "cherry", "lang": "English", "era": "1300s", "note": "the final 's' was mistaken for a plural and dropped, leaving 'cherry'", "meaning": "cherry", "lat": 51.51, "lon": -0.13}], "current_meaning": "a small round red or black stone fruit"}</script>

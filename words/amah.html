@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "amah", "stops": [{"word": "ama", "lang": "Portuguese", "era": "1500s", "note": "'wet nurse', probably from the nursery word amma 'mother' found in Medieval Latin; Portuguese families in Macau used it for local nursemaids", "meaning": "wet nurse", "lat": 22.2, "lon": 113.54}, {"word": "amah", "lang": "English", "era": "1800s", "note": "used across British East Asia; from the 1930s many Hong Kong amahs were 'majie', sworn spinsters from Shunde's silk districts who moved into domestic service after the silk industry collapsed", "meaning": "nursemaid, housemaid", "lat": 22.28, "lon": 114.16}], "current_meaning": "a nursemaid or domestic servant in East or South Asia"}</script>

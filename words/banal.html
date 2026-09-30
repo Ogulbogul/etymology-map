@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "banal", "stops": [{"word": "ban", "lang": "Old French", "era": "medieval", "note": "a lord's proclamation or jurisdiction, from Frankish", "meaning": "proclamation", "lat": 48.85, "lon": 2.35}, {"word": "banal", "lang": "French", "era": "1200s", "note": "belonging to the feudal lord's 'ban': a mill or oven that all his tenants had to use", "meaning": "compulsory, common", "lat": 48.85, "lon": 2.35}, {"word": "banal", "lang": "English", "era": "1840s", "note": "from 'shared by everyone' it came to mean commonplace and trite", "meaning": "commonplace", "lat": 51.51, "lon": -0.13}], "current_meaning": "so ordinary as to be boring"}</script>

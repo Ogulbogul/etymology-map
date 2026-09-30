@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cowrie", "stops": [{"word": "kaparda", "lang": "Sanskrit", "era": "ancient", "note": "named the small shell used as ornament and currency", "meaning": "a small sea shell", "lat": 25.32, "lon": 82.97}, {"word": "kavadi", "lang": "Marathi", "era": "medieval", "note": "the word passed into western Indian vernacular", "meaning": "cowrie shell", "lat": 19.08, "lon": 72.88}, {"word": "kauri", "lang": "Hindi", "era": "medieval", "note": "became the everyday North Indian term for the shell-money", "meaning": "shell used as currency", "lat": 28.61, "lon": 77.21}, {"word": "cowrie", "lang": "English", "era": "1660s", "note": "British traders adopted the word for the shells used across Asian and African trade networks", "meaning": "a small glossy shell once used as currency", "lat": 51.51, "lon": -0.13}], "current_meaning": "A small, glossy sea shell historically used as currency and jewelry across Asia, Africa, and the Pacific."}</script>

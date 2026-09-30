@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -173,9 +179,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "lacquer", "stops": [{"word": "lak", "lang": "Persian", "era": "ancient", "note": "the resinous substance secreted by the lac insect", "meaning": "lac resin", "lat": 32.65, "lon": 51.67}, {"word": "lakk", "lang": "Arabic", "era": "medieval", "note": "adapted from Persian for the resinous substance", "meaning": "lac resin", "lat": 33.31, "lon": 44.36}, {"word": "lacca", "lang": "Portuguese", "era": "1500s", "note": "from 'lac', the resin secreted by lac insects; Portuguese traders brought Asian lacquerware to Europe", "meaning": "lac resin, varnish", "lat": 38.72, "lon": -9.14}, {"word": "lacre", "lang": "French", "era": "1500s", "note": "a kind of sealing wax, an unexplained variant of the Portuguese term", "meaning": "sealing wax", "lat": 48.85, "lon": 2.35}, {"word": "lacquer", "lang": "English", "era": "1570s", "note": "settled as the English word for the glossy varnish", "meaning": "a glossy protective coating", "lat": 51.51, "lon": -0.13}], "current_meaning": "a glossy, protective coating applied to wood or metal surfaces"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tobacco", "stops": [{"word": "tabaco", "lang": "Taíno", "era": "pre-1500s", "note": "possibly referring to a pipe or roll of leaves used for smoking", "meaning": "a smoking pipe or leaf roll", "lat": 18.49, "lon": -69.9}, {"word": "tabaco", "lang": "Spanish", "era": "1500s", "note": "adopted for the plant itself after contact with the Caribbean", "meaning": "the tobacco plant", "lat": 40.42, "lon": -3.7}, {"word": "tobacco", "lang": "English", "era": "1500s", "note": "spread through European trade and colonization", "meaning": "the cured leaf smoked or chewed", "lat": 51.51, "lon": -0.13}], "current_meaning": "the dried, cured leaves of a plant smoked or chewed for their nicotine content"}</script>

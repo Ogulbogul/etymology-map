@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "furniture", "stops": [{"word": "*frumjan", "lang": "Frankish", "era": "ancient", "note": "'to carry out, accomplish'; Frankish settlers in Gaul left hundreds of words in French", "meaning": "to accomplish", "lat": 50.85, "lon": 4.35}, {"word": "fourniture", "lang": "Middle French", "era": "1500s", "note": "from fournir 'to furnish, supply'; in French it still means supplies or equipment, while furniture is meubles", "meaning": "supplying, provisions", "lat": 48.85, "lon": 2.35}, {"word": "furniture", "lang": "English", "era": "1570s", "note": "narrowed to movable household goods; Thomas Chippendale's pattern book The Gentleman and Cabinet-Maker's Director (1754) set fashions across Britain", "meaning": "tables, chairs, beds, etc.", "lat": 51.51, "lon": -0.13}], "current_meaning": "the movable articles such as tables, chairs and beds used in a room"}</script>

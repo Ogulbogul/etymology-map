@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "carafe", "stops": [{"word": "gharrafa", "lang": "Arabic", "era": "medieval", "note": "a vessel for drawing and holding water, from gharafa (to draw water)", "meaning": "a water vessel", "lat": 33.31, "lon": 44.36}, {"word": "carafa", "lang": "Italian", "era": "1500s", "note": "carried into Italian for a glass water or wine vessel", "meaning": "a glass water or wine vessel", "lat": 41.9, "lon": 12.5}, {"word": "carafe", "lang": "English", "era": "1800s", "note": "first recorded in 1786 in the Scottish novelist Henry Mackenzie, borrowed from French", "meaning": "a glass container for serving water or wine", "lat": 51.51, "lon": -0.13}], "current_meaning": "an open-topped glass container used for serving water or wine"}</script>

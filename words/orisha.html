@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "orisha", "stops": [{"word": "òrìṣà", "lang": "Yoruba", "era": "traditional", "note": "named the intermediary deities and spirits of Yoruba religion", "meaning": "a deity or spirit", "lat": 7.4905, "lon": 4.5521}, {"word": "orichá", "lang": "Spanish", "era": "1700s-1800s", "note": "carried to Cuba by enslaved Yoruba people and reshaped in Lucumí/Santería practice", "meaning": "a Santería deity linked to a Catholic saint", "lat": 23.1136, "lon": -82.3666}, {"word": "orisha", "lang": "English", "era": "1854", "note": "entered English print in the United States describing Yoruba and Santería religious practice", "meaning": "a Yoruba deity", "lat": 40.7128, "lon": -74.006}], "current_meaning": "a deity or spirit in the Yoruba religion, also venerated in Santería and other diaspora traditions"}</script>

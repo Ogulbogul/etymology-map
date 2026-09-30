@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "karaage", "stops": [{"word": "karaage", "lang": "Japanese", "era": "18th-19th century", "note": "literally 'Chinese-style frying', naming lightly floured deep-fried food adapted from a continental technique", "meaning": "food lightly coated and deep-fried", "lat": 35.68, "lon": 139.65}, {"word": "karaage", "lang": "English", "era": "2010s", "note": "a cooking method influenced by Chinese frying techniques", "meaning": "Japanese-style bite-sized fried chicken", "lat": 51.51, "lon": -0.13}], "current_meaning": "Japanese-style deep-fried chicken, lightly marinated and coated before frying"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mugwump", "stops": [{"word": "mugquomp", "lang": "Massachusett", "era": "1600s", "note": "meant a war leader or great chief; recorded by missionary John Eliot in his 1663 Bible translation", "meaning": "a great chief, war leader", "lat": 42.28, "lon": -71.35}, {"word": "mugwump", "lang": "English", "era": "1830s-1884", "note": "revived humorously in American English, later applied to Republicans who bolted the party in 1884", "meaning": "a person who acts independently of their political party", "lat": 42.36, "lon": -71.06}], "current_meaning": "a person, especially a politician, who remains independent or neutral rather than following party lines"}</script>

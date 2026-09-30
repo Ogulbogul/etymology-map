@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mammoth", "stops": [{"word": "mangont", "lang": "Siberian (Yakut)", "era": "pre-1600s", "note": "a folk term for the tusked remains found frozen in the permafrost", "meaning": "creature believed to burrow underground", "lat": 66.0, "lon": 129.0}, {"word": "mamont", "lang": "Russian", "era": "1600s-1700s", "note": "Siberian ivory traders brought mammoth tusks to Russian markets", "meaning": "the extinct tusked animal", "lat": 55.75, "lon": 37.62}, {"word": "mammoth", "lang": "English", "era": "1700s", "note": "first recorded in English in 1706; because tusks were dug from the ground, the beast was believed to burrow underground", "meaning": "the extinct woolly elephant", "lat": 51.51, "lon": -0.13}], "current_meaning": "an extinct, elephant-like mammal with long tusks and thick fur; informally, anything huge"}</script>

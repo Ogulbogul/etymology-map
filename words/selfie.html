@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "selfie", "stops": [{"word": "selfie", "lang": "Australian English", "era": "2002", "note": "first recorded in a 2002 post on an ABC online forum by a man apologising for a blurry photo of his injured lip, 'it was a selfie'; Australian English loves -ie endings like barbie", "meaning": "self-portrait photo", "lat": -33.87, "lon": 151.21}, {"word": "selfie", "lang": "English", "era": "2013", "note": "front-facing phone cameras made it global, and Oxford Dictionaries chose it as Word of the Year for 2013", "meaning": "self-taken photo", "lat": 51.75, "lon": -1.25}], "current_meaning": "a photograph that one has taken of oneself, typically with a smartphone"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "hartal", "stops": [{"word": "hatta", "lang": "Sanskrit", "era": "ancient", "note": "meant 'market'", "meaning": "market", "lat": 25.32, "lon": 82.97}, {"word": "talaka", "lang": "Sanskrit", "era": "ancient", "note": "meant 'lock'", "meaning": "lock", "lat": 25.32, "lon": 82.97}, {"word": "hadtal", "lang": "Gujarati", "era": "medieval", "note": "the compound came to mean closing shops in protest", "meaning": "the closing of shops and businesses in protest", "lat": 23.02, "lon": 72.57}, {"word": "hartal", "lang": "English", "era": "early 1900s", "note": "entered English through Gandhi's independence movement, which popularized the mass protest strike", "meaning": "a general strike or mass closure of businesses as protest", "lat": 51.51, "lon": -0.13}], "current_meaning": "A general strike or mass shutdown of shops and businesses, used as a form of political protest in South Asia."}</script>

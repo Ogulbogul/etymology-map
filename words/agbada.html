@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "agbada", "stops": [{"word": "agbádá", "lang": "Yoruba", "era": "traditional", "note": "described the flowing, voluminous ceremonial robe worn by men over other garments", "meaning": "a large, flowing robe", "lat": 6.5244, "lon": 3.3792}, {"word": "agbada", "lang": "English", "era": "1900s", "note": "entered English fashion writing via Nigerian and wider West African diaspora culture", "meaning": "a wide-sleeved, flowing ceremonial robe", "lat": 40.7128, "lon": -74.006}], "current_meaning": "a large, flowing wide-sleeved robe worn as ceremonial menswear across West Africa"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "aspirin", "stops": [{"word": "Spiraea", "lang": "New Latin", "era": "1700s", "note": "the meadowsweet genus, from Greek speiraia; salicylic acid was first obtained from meadowsweet (then Spiraea ulmaria) in 1839", "meaning": "meadowsweet", "lat": 59.86, "lon": 17.64}, {"word": "Aspirin", "lang": "German", "era": "1899", "note": "Bayer's trademark: a- (acetyl) + spir- (Spiraea) + -in; the chemist Felix Hoffmann synthesised pure acetylsalicylic acid at Bayer in 1897", "meaning": "acetylsalicylic acid", "lat": 51.03, "lon": 7.0}, {"word": "aspirin", "lang": "English", "era": "1899", "note": "after World War I Bayer lost the trademark in Britain, France and the US under the 1919 Treaty of Versailles, and it became a common noun", "meaning": "painkiller", "lat": 51.51, "lon": -0.13}], "current_meaning": "a drug used to relieve pain and reduce fever and inflammation"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "caffeine", "stops": [{"word": "qahwa", "lang": "Arabic", "era": "1400s", "note": "the drink spread among Sufi circles in Yemen in the 1400s; see 'coffee'", "meaning": "coffee", "lat": 15.37, "lon": 44.19}, {"word": "Kaffein", "lang": "German", "era": "1819", "note": "the chemist Friedlieb Ferdinand Runge isolated it from coffee beans in 1819, reportedly at the suggestion of Goethe", "meaning": "coffee alkaloid", "lat": 50.93, "lon": 11.59}, {"word": "caffeine", "lang": "English", "era": "1830", "note": "via French caféine; it is the world's most widely used psychoactive substance", "meaning": "stimulant in coffee and tea", "lat": 51.51, "lon": -0.13}], "current_meaning": "a stimulant compound found in coffee, tea and some other plants"}</script>

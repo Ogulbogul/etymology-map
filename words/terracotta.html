@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "terracotta", "stops": [{"word": "terra + cocta", "lang": "Latin", "era": "ancient", "note": "'earth' and the past participle of coquere 'to cook' combined", "meaning": "baked earth", "lat": 41.9, "lon": 12.5}, {"word": "terra cotta", "lang": "Italian", "era": "medieval", "note": "kept the compound sense for fired, unglazed clay", "meaning": "baked earth; fired clay", "lat": 41.9, "lon": 12.5}, {"word": "terracotta", "lang": "English", "era": "1722", "note": "borrowed for the hard, brownish-red earthenware and its color", "meaning": "a hard, unglazed brownish-red earthenware", "lat": 51.51, "lon": -0.13}], "current_meaning": "a hard, unglazed, brownish-red earthenware, or its color"}</script>

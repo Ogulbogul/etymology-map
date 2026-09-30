@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "legislate", "stops": [{"word": "lex", "lang": "Latin", "era": "ancient", "note": "law, combined with latus (carried, from ferre, to carry)", "meaning": "law", "lat": 41.9, "lon": 12.5}, {"word": "legis latio", "lang": "Latin", "era": "ancient", "note": "the proposing of a law, from lex (law) and latus (carried)", "meaning": "the proposing of a law", "lat": 41.9, "lon": 12.5}, {"word": "legislate", "lang": "English", "era": "1650s", "note": "formed from Latin roots for making or passing laws", "meaning": "to make or pass laws", "lat": 51.51, "lon": -0.13}], "current_meaning": "to make or enact laws"}</script>

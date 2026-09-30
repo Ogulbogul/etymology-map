@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "sporran", "stops": [{"word": "býrsa", "lang": "Greek", "era": "ancient", "note": "'ox-hide'; legend says Dido bought as much land at Carthage as one ox-hide could cover, cut it into thin strips, and named the citadel Byrsa", "meaning": "hide, leather", "lat": 37.98, "lon": 23.73}, {"word": "bursa", "lang": "Medieval Latin", "era": "medieval", "note": "'purse', from the leather it was made of; also the source of English 'purse' and 'bursar'", "meaning": "purse", "lat": 41.9, "lon": 12.5}, {"word": "sporan", "lang": "Scottish Gaelic", "era": "medieval", "note": "reached Gaelic through Middle Irish sparán; worn at the front because the belted plaid had no pockets", "meaning": "purse", "lat": 57.48, "lon": -4.22}, {"word": "sporran", "lang": "English", "era": "1810s", "note": "Walter Scott staged George IV's 1822 visit to Edinburgh as a tartan pageant, with the king in full Highland dress, helping make the sporran part of formal kilt wear", "meaning": "pouch worn with a kilt", "lat": 55.95, "lon": -3.19}], "current_meaning": "a pouch worn at the front of a kilt"}</script>

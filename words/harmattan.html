@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "harmattan", "stops": [{"word": "haramata", "lang": "Akan", "era": "1600s", "note": "an Akan (Twi/Fante) name for the seasonal dry, dusty trade wind", "meaning": "the dry Saharan wind", "lat": 6.69, "lon": -1.62}, {"word": "harmattan", "lang": "English", "era": "1670s", "note": "recorded by English traders and travelers along the Guinea coast", "meaning": "a dry, dusty seasonal wind blowing from the Sahara over West Africa", "lat": 51.51, "lon": -0.13}], "current_meaning": "A dry, dusty trade wind that blows from the Sahara across West Africa, typically from November to March."}</script>

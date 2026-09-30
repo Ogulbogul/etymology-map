@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mochi", "stops": [{"word": "mochi", "lang": "Japanese", "era": "ancient", "note": "named rice pounded into a sticky, chewy cake, tied to New Year traditions", "meaning": "pounded glutinous rice cake", "lat": 35.68, "lon": 139.65}, {"word": "mochi", "lang": "English", "era": "late 1900s-2000s", "note": "borrowed as Japanese sweets, including mochi ice cream, spread internationally", "meaning": "a chewy rice cake, often filled with sweet paste or ice cream", "lat": 51.51, "lon": -0.13}], "current_meaning": "a soft, chewy Japanese rice cake, often filled with sweet paste or ice cream"}</script>

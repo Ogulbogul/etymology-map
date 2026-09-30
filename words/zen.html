@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "zen", "stops": [{"word": "dhyana", "lang": "Sanskrit", "era": "ancient", "note": "meaning \"meditation\"", "meaning": "meditation", "lat": 25.32, "lon": 82.99}, {"word": "chan", "lang": "Chinese", "era": "medieval", "note": "Chinese 'chan', from Sanskrit 'dhyāna', meditation; Bodhidharma is its legendary founder", "meaning": "meditation, a school of Buddhism", "lat": 39.9, "lon": 116.4}, {"word": "zen", "lang": "Japanese", "era": "medieval", "note": "Eisai and Dōgen brought Zen schools from China to Japan around 1200", "meaning": "a school of Buddhist meditation", "lat": 35.68, "lon": 139.65}, {"word": "zen", "lang": "English", "era": "1900s", "note": "D. T. Suzuki's English books of the 1920s–50s spread Zen in the West", "meaning": "a state of calm attentiveness; a form of Buddhism", "lat": 51.51, "lon": -0.13}], "current_meaning": "a school of Buddhism emphasizing meditation, or a state of calm and focus"}</script>

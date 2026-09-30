@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "shaman", "stops": [{"word": "šaman", "lang": "Evenki", "era": "1600s", "note": "the Tungusic word for a spirit healer of eastern Siberia; its possible link to Sanskrit śramaṇa 'ascetic' via Chinese is disputed", "meaning": "spirit medium", "lat": 56.0, "lon": 104.0}, {"word": "shaman", "lang": "Russian", "era": "1670s", "note": "the exiled Archpriest Avvakum's autobiography, written in the 1670s, describes a Siberian shaman's ritual, among the first Russian records of the word", "meaning": "Siberian spirit healer", "lat": 55.75, "lon": 37.62}, {"word": "sjaman", "lang": "Dutch", "era": "1692", "note": "Nicolaes Witsen's book on Siberia, Noord en Oost Tartarye (1692), spread the word and an engraving of a shaman across Europe", "meaning": "Siberian priest", "lat": 52.37, "lon": 4.9}, {"word": "shaman", "lang": "English", "era": "1690s", "note": "later extended by anthropologists to spirit healers in cultures worldwide", "meaning": "spirit healer", "lat": 51.51, "lon": -0.13}], "current_meaning": "a person believed to contact the spirit world, especially to heal or divine"}</script>

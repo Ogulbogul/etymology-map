@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tostones", "stops": [{"word": "tostar", "lang": "Spanish", "era": "medieval", "note": "the root of 'toast'", "meaning": "to toast", "lat": 40.42, "lon": -3.7}, {"word": "tostones", "lang": "Caribbean Spanish", "era": "1800s", "note": "settled in the Caribbean for twice-fried, flattened green plantain slices", "meaning": "twice-fried plantain slices", "lat": 18.47, "lon": -66.11}, {"word": "tostones", "lang": "English", "era": "1900s", "note": "eaten across Puerto Rico, Cuba and the Dominican Republic", "meaning": "twice-fried, flattened green plantain slices", "lat": 51.51, "lon": -0.13}], "current_meaning": "twice-fried, flattened slices of green plantain, common in Caribbean and Latin American cuisine"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "inuksuk", "stops": [{"word": "inuksuk", "lang": "Inuktitut", "era": "pre-1800s", "note": "combined 'inuk' (person) and a suffix meaning 'substitute', describing a stone figure that acts in place of a human", "meaning": "something that acts in the capacity of a human", "lat": 63.75, "lon": -68.52}, {"word": "inuksuk", "lang": "English", "era": "1900s", "note": "borrowed into English, becoming widely known after being used as the emblem of the 2010 Winter Olympics", "meaning": "a stone landmark or cairn built by Arctic peoples", "lat": 51.51, "lon": -0.13}], "current_meaning": "a stone landmark or cairn built by Inuit and other Arctic peoples, traditionally used for navigation or communication"}</script>

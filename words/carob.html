@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "carob", "stops": [{"word": "kharrub", "lang": "Arabic", "era": "medieval", "note": "named the sweet, edible pod of a Mediterranean evergreen tree", "meaning": "locust bean pod", "lat": 33.31, "lon": 44.36}, {"word": "carobe", "lang": "Middle French", "era": "1400s", "note": "adopted the pod and its Arabic name through Mediterranean trade", "meaning": "carob pod", "lat": 48.85, "lon": 2.35}, {"word": "carob", "lang": "English", "era": "1540s", "note": "entered English as the common name for the tree and its pod", "meaning": "edible pod, chocolate substitute", "lat": 51.51, "lon": -0.13}], "current_meaning": "the edible pod of a Mediterranean evergreen tree, often used as a chocolate substitute"}</script>

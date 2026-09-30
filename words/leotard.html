@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "leotard", "stops": [{"word": "Léotard", "lang": "French", "era": "1859", "note": "Jules Léotard, a gymnast from Toulouse, performed the first flying-trapeze act at the Cirque Napoléon in Paris on 12 November 1859, wearing a one-piece knitted costume", "meaning": "a family name", "lat": 48.86, "lon": 2.37}, {"word": "leotard", "lang": "English", "era": "1920s", "note": "the 1867 music-hall song 'The Daring Young Man on the Flying Trapeze' was about him; his name for the garment is recorded in English from the 1920s", "meaning": "tight one-piece garment", "lat": 51.51, "lon": -0.13}], "current_meaning": "a close-fitting one-piece garment worn by dancers and gymnasts"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "propaganda", "stops": [{"word": "propagare", "lang": "Latin", "era": "ancient", "note": "to spread, to propagate, from pro- (forward) and pangere (to fasten)", "meaning": "to spread, to propagate", "lat": 41.9, "lon": 12.5}, {"word": "Propaganda", "lang": "Latin", "era": "1622", "note": "named for a Catholic Church committee established to spread the faith abroad", "meaning": "a committee for spreading the faith", "lat": 41.9, "lon": 12.5}, {"word": "propaganda", "lang": "English", "era": "1790s", "note": "broadened to mean biased information spread to promote a cause", "meaning": "biased information spread to promote a cause", "lat": 51.51, "lon": -0.13}], "current_meaning": "biased or misleading information used to promote a political cause or point of view"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "porcelain", "stops": [{"word": "porcellana", "lang": "Italian", "era": "medieval", "note": "literally little pig, originally the name of a cowrie shell whose curved sheen resembled a pig's back", "meaning": "a cowrie shell, little pig", "lat": 41.9, "lon": 12.5}, {"word": "porcelaine", "lang": "French", "era": "1500s", "note": "transferred from the glossy shell to the glossy fine ceramic imported from China", "meaning": "fine, glossy ceramic ware", "lat": 48.85, "lon": 2.35}, {"word": "porcelain", "lang": "English", "era": "1590s", "note": "settled as the English word for fine translucent ceramic ware", "meaning": "fine, translucent ceramic ware", "lat": 51.51, "lon": -0.13}], "current_meaning": "a hard, translucent ceramic material, also called china"}</script>

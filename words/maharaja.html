@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "maharaja", "stops": [{"word": "mahārāja", "lang": "Sanskrit", "era": "ancient", "note": "'great king', from 'mahā', great, and 'rājan', king, a cousin of Latin 'rex'", "meaning": "great king", "lat": 23.18, "lon": 75.78}, {"word": "mahārājā", "lang": "Hindi", "era": "medieval", "note": "the title of rulers of Indian princely states", "meaning": "great king", "lat": 28.61, "lon": 77.21}, {"word": "maharaja", "lang": "English", "era": "1690s", "note": "used by the East India Company for the rulers it allied with or conquered", "meaning": "Indian prince", "lat": 51.51, "lon": -0.13}], "current_meaning": "a great Indian prince or king"}</script>

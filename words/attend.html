@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "attend", "stops": [{"word": "attendere", "lang": "Latin", "era": "ancient", "note": "to stretch toward, to pay heed, from ad- (toward) and tendere (to stretch)", "meaning": "to stretch toward, to pay heed", "lat": 41.9, "lon": 12.5}, {"word": "atendre", "lang": "Old French", "era": "medieval", "note": "carried into French for waiting for or paying heed to something", "meaning": "to wait for, to pay heed", "lat": 48.85, "lon": 2.35}, {"word": "attend", "lang": "English", "era": "1300s", "note": "settled as the English word for being present at or paying attention to something", "meaning": "to be present at, or to pay attention to something", "lat": 51.51, "lon": -0.13}], "current_meaning": "to be present at an event, or to pay attention to something"}</script>

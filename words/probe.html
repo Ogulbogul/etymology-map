@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "probe", "stops": [{"word": "probare", "lang": "Latin", "era": "ancient", "note": "the root of 'prove', 'probation' and 'probable'", "meaning": "to test, to prove", "lat": 41.9, "lon": 12.5}, {"word": "proba", "lang": "Late Latin", "era": "medieval", "note": "a test, an examination, from probare", "meaning": "a test, an examination", "lat": 41.9, "lon": 12.5}, {"word": "probe", "lang": "English", "era": "1400s", "note": "settled as the English word for a thorough investigation, or an instrument used to explore", "meaning": "a thorough investigation, or an instrument used to explore", "lat": 51.51, "lon": -0.13}], "current_meaning": "a thorough investigation, or an instrument used to explore or examine something"}</script>

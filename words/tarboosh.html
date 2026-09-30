@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tarboosh", "stops": [{"word": "sar + push", "lang": "Persian", "era": "medieval", "note": "compound of sar, \"head,\" and push, \"cover\"", "meaning": "head covering", "lat": 32.65, "lon": 51.68}, {"word": "terposh", "lang": "Ottoman Turkish", "era": "medieval", "note": "adapted the Persian compound for a brimless cap", "meaning": "head cap", "lat": 41.01, "lon": 28.98}, {"word": "tarbush", "lang": "Arabic", "era": "1600s", "note": "spread the cap and its name through Ottoman Arab lands", "meaning": "red felt cap", "lat": 33.31, "lon": 44.36}, {"word": "tarboosh", "lang": "English", "era": "1695-1705", "note": "entered English describing the red felt cap similar to the fez", "meaning": "red felt cap", "lat": 51.51, "lon": -0.13}], "current_meaning": "a red felt cap, similar to a fez, traditionally worn by Muslim men in the Middle East"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cougar", "stops": [{"word": "suasuarana", "lang": "Tupi", "era": "pre-1500s", "note": "a compound describing the large wildcat, later corrupted through transmission", "meaning": "a large wildcat (literally 'false deer')", "lat": -12.97, "lon": -38.5}, {"word": "çuçuarana", "lang": "Portuguese", "era": "1600s", "note": "Georges Buffon's natural history spread a misreading of the Tupi name", "meaning": "a large American wildcat", "lat": -12.97, "lon": -38.5}, {"word": "cougar", "lang": "French", "era": "1770s", "note": "corrupted in French natural history writing, notably by Buffon", "meaning": "a large American wildcat", "lat": 48.86, "lon": 2.35}, {"word": "cougar", "lang": "English", "era": "1770s-1800s", "note": "Buffon's French 'couguar' reached English through translations of his work", "meaning": "a large wild cat native to the Americas, also called puma or mountain lion", "lat": 51.51, "lon": -0.13}], "current_meaning": "a large, tawny wild cat native to the Americas, also known as the puma or mountain lion"}</script>

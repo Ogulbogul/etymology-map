@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "joss", "stops": [{"word": "deus", "lang": "Latin", "era": "classical", "note": "Cicero's dialogue De Natura Deorum (45 BC) debates what the gods (dei) are and whether they care about humans", "meaning": "god", "lat": 41.9, "lon": 12.5}, {"word": "deos", "lang": "Portuguese", "era": "1500s", "note": "older spelling of deus; Portuguese traders settled Macau from 1557, the first European foothold on the China coast", "meaning": "god", "lat": 22.2, "lon": 113.54}, {"word": "joss", "lang": "Chinese Pidgin English", "era": "1700s", "note": "the trade pidgin of Canton, where the Qing confined Western trade under the Canton System from 1757, reshaped deos into joss, applied to Chinese deities and their images", "meaning": "idol, Chinese god", "lat": 23.13, "lon": 113.26}, {"word": "joss", "lang": "English", "era": "1700s", "note": "China traders brought home 'joss stick' and 'joss house'; the Bendigo Joss House in Australia, built by gold-rush Chinese miners in the 1860s, still stands", "meaning": "Chinese idol; luck", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Chinese religious image; luck (as in 'joss stick', 'joss house')"}</script>

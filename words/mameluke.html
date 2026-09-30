@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mameluke", "stops": [{"word": "mamluk", "lang": "Arabic", "era": "medieval", "note": "literally \"one possessed\"; a slave-soldier, later a ruling military caste", "meaning": "purchased slave-soldier", "lat": 30.04, "lon": 31.24}, {"word": "mameluk", "lang": "French", "era": "1200s", "note": "carried the term into European chronicles of the Crusades", "meaning": "Egyptian slave-soldier", "lat": 48.85, "lon": 2.35}, {"word": "mameluke", "lang": "English", "era": "1254", "note": "named the dynasty of former slave-soldiers who ruled Egypt", "meaning": "member of Egypt's slave-soldier dynasty", "lat": 51.51, "lon": -0.13}], "current_meaning": "a member of the military caste that ruled Egypt from the 13th to 16th centuries, originally composed of slave-soldiers"}</script>

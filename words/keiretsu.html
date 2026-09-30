@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "keiretsu", "stops": [{"word": "keiretsu", "lang": "Japanese", "era": "post-1945", "note": "literally 'series' or 'grouping', naming networks of allied companies that replaced the dissolved zaibatsu", "meaning": "a network of businesses linked by cross-shareholding", "lat": 35.68, "lon": 139.65}, {"word": "keiretsu", "lang": "English", "era": "1980s", "note": "groups such as Mitsubishi and Sumitomo formed around banks after the prewar zaibatsu were broken up", "meaning": "a network of interlinked Japanese companies", "lat": 51.51, "lon": -0.13}], "current_meaning": "a network of Japanese businesses linked by cross-shareholding and close business ties"}</script>

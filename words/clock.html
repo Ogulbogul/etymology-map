@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "clock", "stops": [{"word": "cloc", "lang": "Old Irish", "era": "600s", "note": "'bell', probably imitative; Irish monks such as St Columbanus carried hand-bells on their missions across Europe around 600", "meaning": "bell", "lat": 53.35, "lon": -6.26}, {"word": "clocca", "lang": "Medieval Latin", "era": "700s", "note": "the Irish word entered the Latin of the Church, giving French cloche and German Glocke 'bell'", "meaning": "bell", "lat": 50.94, "lon": 6.96}, {"word": "clocke", "lang": "Middle Dutch", "era": "1300s", "note": "'bell', and by extension a timepiece that struck the hours on a bell", "meaning": "bell; clock", "lat": 52.09, "lon": 5.12}, {"word": "clock", "lang": "English", "era": "1300s", "note": "the first mechanical clocks told time only by striking bells; Salisbury Cathedral's clock of about 1386 is often called the oldest working clock in the world", "meaning": "timepiece", "lat": 51.07, "lon": -1.8}], "current_meaning": "an instrument for measuring and showing the time"}</script>

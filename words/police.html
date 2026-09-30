@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "police", "stops": [{"word": "politeía", "lang": "Greek", "era": "ancient", "note": "'citizenship, constitution', from polis 'city'; Plato's Republic is in Greek the Politeía", "meaning": "constitution, government", "lat": 37.98, "lon": 23.73}, {"word": "police", "lang": "Middle French", "era": "1400s", "note": "via Late Latin politia, public order and administration; Louis XIV created the post of Lieutenant General of Police for Paris in 1667, first held by Gabriel Nicolas de La Reynie", "meaning": "public order, its enforcement", "lat": 48.85, "lon": 2.35}, {"word": "police", "lang": "English", "era": "1700s", "note": "long resisted as a French idea; Robert Peel's Metropolitan Police Act of 1829 created London's force, whose officers were nicknamed 'bobbies' after him", "meaning": "law-enforcement force", "lat": 51.51, "lon": -0.13}], "current_meaning": "the civil force responsible for keeping public order and enforcing the law"}</script>

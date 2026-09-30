@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "scenario", "stops": [{"word": "scaena", "lang": "Latin", "era": "ancient", "note": "a stage, from Greek 'skēnē', tent", "meaning": "stage", "lat": 41.9, "lon": 12.5}, {"word": "scenario", "lang": "Italian", "era": "1500s", "note": "the plot outline pinned up backstage for the improvising actors of the commedia dell'arte", "meaning": "plot outline", "lat": 45.44, "lon": 12.33}, {"word": "scenario", "lang": "English", "era": "1860s", "note": "used for film scripts in the 1910s; Cold War planners made 'worst-case scenario' common in the 1960s", "meaning": "plot; possible situation", "lat": 51.51, "lon": -0.13}], "current_meaning": "a possible sequence of events; the plot outline of a play or film"}</script>

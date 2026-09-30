@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kulak", "stops": [{"word": "kulak", "lang": "Russian", "era": "1800s", "note": "'fist', slang for a tight-fisted village moneylender or better-off peasant", "meaning": "fist; grasping peasant", "lat": 55.75, "lon": 37.62}, {"word": "kulak", "lang": "English", "era": "1870s", "note": "became a Soviet class label; in December 1929 Stalin announced the 'liquidation of the kulaks as a class', and deportations of millions followed", "meaning": "prosperous peasant", "lat": 51.51, "lon": -0.13}], "current_meaning": "a relatively wealthy Russian peasant, persecuted under Stalin"}</script>

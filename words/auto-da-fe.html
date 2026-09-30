@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "auto-da-fe", "stops": [{"word": "auto da fé", "lang": "Portuguese", "era": "1540", "note": "Portuguese auto 'act, ceremony' (from Latin actus) plus da fé 'of the faith'; the Portuguese Inquisition, founded in 1536, held its first public auto da fé in Lisbon in 1540, where sentences were read before the condemned were handed to civil authorities for execution", "meaning": "public sentencing of heretics", "lat": 38.71, "lon": -9.14}, {"word": "auto-da-fé", "lang": "English", "era": "1720s", "note": "Voltaire's Candide (1759), set partly in Lisbon, satirises an auto-da-fé staged to prevent further earthquakes after the 1755 disaster", "meaning": "burning of a heretic", "lat": 51.51, "lon": -0.13}], "current_meaning": "the burning of a heretic by the Inquisition; any public burning of condemned things"}</script>

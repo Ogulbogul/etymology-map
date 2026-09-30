@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "schnitzel", "stops": [{"word": "schnitzen", "lang": "German", "era": "medieval", "note": "meaning \"to carve\" or \"cut\"", "meaning": "to carve, cut", "lat": 48.21, "lon": 16.37}, {"word": "Schnitzel", "lang": "German/Austrian", "era": "1800s", "note": "named a thin, breaded cutlet of meat", "meaning": "a thin breaded cutlet", "lat": 48.21, "lon": 16.37}, {"word": "schnitzel", "lang": "English", "era": "1900s", "note": "Wiener Schnitzel, Vienna's breaded veal cutlet", "meaning": "a thin, breaded and fried cutlet", "lat": 51.51, "lon": -0.13}], "current_meaning": "a thin slice of meat, breaded and fried"}</script>

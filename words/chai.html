@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "chai", "stops": [{"word": "cha", "lang": "Chinese", "era": "ancient", "note": "the word for tea, carried overland along trade routes into Central and South Asia", "meaning": "tea", "lat": 39.9, "lon": 116.4}, {"word": "chai", "lang": "Persian/Hindi", "era": "medieval", "note": "adopted across Persia and South Asia for spiced, milky tea", "meaning": "spiced tea", "lat": 28.61, "lon": 77.21}, {"word": "chai", "lang": "English", "era": "1900s", "note": "masala chai spread in India after the British-run Tea Board promoted tea drinking in the 1900s", "meaning": "a spiced tea drink, often with milk", "lat": 51.51, "lon": -0.13}], "current_meaning": "a spiced tea drink, typically prepared with milk, popular in South Asia"}</script>

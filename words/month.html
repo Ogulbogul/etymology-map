@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "month", "stops": [{"word": "*mēnōþs", "lang": "Proto-Germanic", "era": "prehistoric", "note": "from the same root as 'moon', since months were measured from one new moon to the next", "meaning": "month, moon", "lat": 55.0, "lon": 10.0}, {"word": "mōnaþ", "lang": "Old English", "era": "725", "note": "Bede's The Reckoning of Time (725) explains that the English 'anciently reckoned their months according to the course of the moon'", "meaning": "month", "lat": 54.98, "lon": -1.47}, {"word": "month", "lang": "English", "era": "1200s", "note": "the calendar months of unequal length came from Julius Caesar's reform of 45 BC", "meaning": "calendar month", "lat": 51.51, "lon": -0.13}], "current_meaning": "each of the twelve named periods into which a year is divided"}</script>

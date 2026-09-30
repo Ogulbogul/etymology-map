@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "xalam", "stops": [{"word": "xalam", "lang": "Wolof", "era": "traditional", "note": "blends xala (\"to cast a spell\") with the onomatopoeic kalam, echoing the instrument's thumping sound", "meaning": "a West African plucked lute", "lat": 14.7167, "lon": -17.4677}, {"word": "xalam", "lang": "English", "era": "1900s", "note": "griots accompany songs of praise and history on the xalam", "meaning": "a traditional West African stringed lute", "lat": 51.5074, "lon": -0.1278}], "current_meaning": "a traditional West African plucked lute with one to five strings, associated with the Wolof people"}</script>

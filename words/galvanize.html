@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "galvanize", "stops": [{"word": "Galvani", "lang": "Italian", "era": "1791", "note": "Luigi Galvani of Bologna reported in 1791 that dissected frogs' legs twitched when touched with two different metals, which he took for 'animal electricity'", "meaning": "a family name", "lat": 44.49, "lon": 11.34}, {"word": "galvaniser", "lang": "French", "era": "1837", "note": "the Paris engineer Stanislas Sorel patented coating iron with zinc in 1837, 'galvanising' it against rust", "meaning": "to zinc-coat", "lat": 48.85, "lon": 2.35}, {"word": "galvanize", "lang": "English", "era": "1800s", "note": "in 1803 Galvani's nephew Giovanni Aldini made the corpse of executed murderer George Forster twitch in London; hence 'galvanise' as 'to jolt into action'", "meaning": "to shock into action", "lat": 51.51, "lon": -0.13}], "current_meaning": "to shock or excite into action; to coat iron with zinc"}</script>

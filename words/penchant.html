@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "penchant", "stops": [{"word": "pendere", "lang": "Latin", "era": "ancient", "note": "the basic verb of hanging gave rise to a frequentative form", "meaning": "to hang, cause to hang", "lat": 41.9, "lon": 12.5}, {"word": "pencher", "lang": "Old French", "era": "1200s", "note": "the literal sense of hanging tipped into a figurative one of leaning or inclining", "meaning": "to incline, lean", "lat": 48.85, "lon": 2.35}, {"word": "penchant", "lang": "French", "era": "1600s", "note": "the present participle was turned into a noun for a settled inclination", "meaning": "a strong inclination", "lat": 48.85, "lon": 2.35}, {"word": "penchant", "lang": "English", "era": "1670s", "note": "adopted whole for a natural taste or leaning", "meaning": "a strong liking or taste for something", "lat": 51.51, "lon": -0.13}], "current_meaning": "a strong or habitual liking for something"}</script>

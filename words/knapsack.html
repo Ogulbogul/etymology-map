@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "knapsack", "stops": [{"word": "Knapsack", "lang": "German", "era": "1500s", "note": "Low German compound of 'knappen' (to snap, to eat) and 'Sack' (bag) — literally an 'eating bag'", "meaning": "a soldier's food bag", "lat": 53.08, "lon": 8.8}, {"word": "knapzak", "lang": "Dutch", "era": "1500s-1600s", "note": "parallel form current alongside the Low German word as it spread through trading and military contacts", "meaning": "a food or travel bag carried on the back", "lat": 52.37, "lon": 4.9}, {"word": "knapsack", "lang": "English", "era": "c. 1600", "note": "German 'knappen', to bite, plus 'Sack', bag: a bag for provisions", "meaning": "a bag carried on the back for supplies", "lat": 51.51, "lon": -0.13}], "current_meaning": "a bag carried on the back, especially for hiking or travel"}</script>

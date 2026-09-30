@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "commissar", "stops": [{"word": "komissar", "lang": "Russian", "era": "1917", "note": "from German Kommissar (Medieval Latin commissarius 'one entrusted'); Lenin's first government of November 1917 was the Council of People's Commissars, a title Trotsky recalled choosing to avoid the word 'minister'", "meaning": "Soviet government head of department", "lat": 59.94, "lon": 30.31}, {"word": "commissar", "lang": "English", "era": "1917", "note": "also meant the Red Army's political officers, who from 1918 co-signed commanders' orders to guarantee their loyalty", "meaning": "Communist official", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Communist Party official, especially a political officer in the Red Army"}</script>

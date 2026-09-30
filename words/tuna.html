@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -173,9 +179,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tuna", "stops": [{"word": "thynnos", "lang": "Greek", "era": "ancient", "note": "the tunny fish", "meaning": "tunny", "lat": 37.98, "lon": 23.73}, {"word": "thunnus", "lang": "Latin", "era": "ancient", "note": "the tunny", "meaning": "tunny", "lat": 41.9, "lon": 12.5}, {"word": "tūn", "lang": "Arabic", "era": "medieval", "note": "taken from Latin in the Mediterranean", "meaning": "tunny", "lat": 33.31, "lon": 44.36}, {"word": "atún", "lang": "Spanish", "era": "medieval", "note": "from Arabic, with the article 'al-' fused on", "meaning": "tuna", "lat": 37.39, "lon": -5.98}, {"word": "tuna", "lang": "American English", "era": "1880s", "note": "Californian fishermen took the name from Spanish; canned tuna boomed from San Diego from the 1900s", "meaning": "tuna", "lat": 32.72, "lon": -117.16}], "current_meaning": "a large fast-swimming fish"}</script>

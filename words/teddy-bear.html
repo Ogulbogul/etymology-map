@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "teddy bear", "stops": [{"word": "Theódōros", "lang": "Greek", "era": "ancient", "note": "'gift of God', theos 'god' + dōron 'gift', a popular Christian name", "meaning": "gift of God", "lat": 37.98, "lon": 23.73}, {"word": "Teddy", "lang": "American English", "era": "1902", "note": "a pet form of Theodore; on a Mississippi hunt in November 1902, President Theodore Roosevelt refused to shoot a tethered bear, and Clifford Berryman's cartoon of it went national", "meaning": "Theodore Roosevelt", "lat": 32.3, "lon": -90.18}, {"word": "teddy bear", "lang": "American English", "era": "1906", "note": "Brooklyn shopkeeper Morris Michtom sold stuffed 'Teddy's bears', while Germany's Steiff company produced its own toy bears at the same time", "meaning": "stuffed toy bear", "lat": 40.68, "lon": -73.94}], "current_meaning": "a soft toy bear"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "corundum", "stops": [{"word": "kuruvinda", "lang": "Sanskrit", "era": "ancient", "note": "named the hard red gemstone, ruby", "meaning": "ruby; a hard red gem", "lat": 25.32, "lon": 82.97}, {"word": "kurundam", "lang": "Tamil", "era": "medieval", "note": "the South Indian word for ruby and sapphire", "meaning": "ruby, sapphire", "lat": 13.08, "lon": 80.27}, {"word": "corundum", "lang": "English", "era": "1728", "note": "adopted via Anglo-Indian contact as the mineralogical name", "meaning": "a very hard crystalline mineral, the source of ruby and sapphire", "lat": 51.51, "lon": -0.13}], "current_meaning": "An extremely hard crystalline form of aluminum oxide; its gem varieties are ruby and sapphire."}</script>

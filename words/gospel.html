@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "gospel", "stops": [{"word": "euangélion", "lang": "Greek", "era": "ancient", "note": "'good news', eu 'good' + angelia 'message'; Mark's Gospel opens 'The beginning of the euangelion of Jesus Christ'", "meaning": "good news", "lat": 37.98, "lon": 23.73}, {"word": "gōdspel", "lang": "Old English", "era": "900s", "note": "a word-for-word translation, gōd 'good' + spel 'news, story'; Aldred wrote an Old English gloss into the Lindisfarne Gospels in the 900s", "meaning": "good news; gospel", "lat": 55.67, "lon": -1.8}, {"word": "gospel", "lang": "English", "era": "1200s", "note": "the first part was soon heard as 'God', 'God-story'; Thomas A. Dorsey, 'the father of gospel music', shaped the Black church music style from the 1930s", "meaning": "the teaching of Christ; a music style", "lat": 51.51, "lon": -0.13}], "current_meaning": "the teaching of Christ; one of the first four books of the New Testament; a music style"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "zeitgeist", "stops": [{"word": "Zeit", "lang": "German", "era": "medieval", "note": "meaning \"time\"", "meaning": "time", "lat": 52.52, "lon": 13.4}, {"word": "Zeitgeist", "lang": "German", "era": "1800s", "note": "combining \"Zeit\" with \"Geist\" (spirit), coined in German philosophy", "meaning": "the spirit of the age", "lat": 52.52, "lon": 13.4}, {"word": "zeitgeist", "lang": "English", "era": "1800s", "note": "German 'time spirit'; Hegel's philosophy of history made the idea famous", "meaning": "the defining mood or spirit of a particular period", "lat": 51.51, "lon": -0.13}], "current_meaning": "the defining spirit or mood of a particular period in history"}</script>

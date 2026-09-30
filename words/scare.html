@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "scare", "stops": [{"word": "skirra", "lang": "Old Norse", "era": "medieval", "note": "meant to frighten off or avert danger", "meaning": "to frighten; to shrink from, avert", "lat": 60.4, "lon": 5.3}, {"word": "skerren", "lang": "Middle English", "era": "late 1100s", "note": "borrowed into northern dialects as a verb for sudden fright", "meaning": "to frighten someone", "lat": 51.51, "lon": -0.13}, {"word": "scare", "lang": "English", "era": "1590s", "note": "spelling altered unusually from 'sker-' to 'scar-'", "meaning": "to frighten suddenly", "lat": 51.51, "lon": -0.13}], "current_meaning": "to frighten someone suddenly, or a moment of sudden fright"}</script>

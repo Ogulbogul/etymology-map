@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "gumbo", "stops": [{"word": "ki-ngombo", "lang": "Bantu (Umbundu)", "era": "medieval", "note": "the word for okra, the vegetable central to the dish", "meaning": "okra", "lat": -12.58, "lon": 13.41}, {"word": "gombo", "lang": "Louisiana French/Creole", "era": "1700s-1800s", "note": "carried by enslaved Africans to Louisiana and adapted into a stew", "meaning": "an okra-based stew", "lat": 29.95, "lon": -90.07}, {"word": "gumbo", "lang": "English", "era": "1800s", "note": "settled as the English name for the Louisiana Creole dish", "meaning": "a thick stew of the American South", "lat": 40.71, "lon": -74.0}], "current_meaning": "a thick stew from Louisiana, typically made with okra, meat, or seafood"}</script>

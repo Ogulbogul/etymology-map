@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "radar", "stops": [{"word": "radius", "lang": "Latin", "era": "classical", "note": "'staff, spoke of a wheel, ray of light'; centuries later the same word gave English 'radiation' and 'radio'", "meaning": "ray, spoke", "lat": 41.9, "lon": 12.5}, {"word": "radio", "lang": "English", "era": "1900s", "note": "short for radiotelegraphy; Guglielmo Marconi received the first transatlantic radio signal at St John's, Newfoundland, in December 1901", "meaning": "wireless transmission", "lat": 47.56, "lon": -52.71}, {"word": "radar", "lang": "American English", "era": "1940", "note": "a palindrome acronym for RAdio Detection And Ranging, coined in 1940 by US Navy officers Samuel Tucker and F. R. Furth; Britain, which called it RDF, adopted 'radar' in 1943", "meaning": "radio detection system", "lat": 38.9, "lon": -77.04}], "current_meaning": "a system that detects distant objects using reflected radio waves"}</script>

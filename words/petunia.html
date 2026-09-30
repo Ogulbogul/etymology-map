@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "petunia", "stops": [{"word": "petun", "lang": "Tupi-Guarani", "era": "1600s", "note": "tobacco, since the flowering plant is related to the tobacco family", "meaning": "tobacco", "lat": -15.79, "lon": -47.93}, {"word": "petunia", "lang": "French", "era": "1700s", "note": "from Tupi 'petun', tobacco, since petunias are related to the tobacco plant", "meaning": "a flowering plant related to tobacco", "lat": 48.85, "lon": 2.35}, {"word": "petunia", "lang": "English", "era": "1825", "note": "settled as the English name for the popular flowering garden plant", "meaning": "a popular flowering garden plant", "lat": 51.51, "lon": -0.13}], "current_meaning": "a popular flowering garden plant with trumpet-shaped blooms"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "carbonara", "stops": [{"word": "carbone", "lang": "Italian", "era": "medieval", "note": "charcoal, possibly linking the dish to charcoal-burners or its flecks of black pepper", "meaning": "charcoal", "lat": 41.9, "lon": 12.5}, {"word": "carbonara", "lang": "Italian", "era": "1900s", "note": "settled in Italian for the pasta dish made with egg, cheese, and cured pork", "meaning": "a pasta dish with egg, cheese, and cured pork", "lat": 41.9, "lon": 12.5}, {"word": "carbonara", "lang": "English", "era": "1950s", "note": "first recorded in Rome after World War II; one theory links it to eggs and bacon from American rations", "meaning": "a pasta dish made with egg, cheese, and cured pork", "lat": 51.51, "lon": -0.13}], "current_meaning": "an Italian pasta dish made with egg, cheese, cured pork, and black pepper"}</script>

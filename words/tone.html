@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tone", "stops": [{"word": "tonos", "lang": "Greek", "era": "ancient", "note": "Greek, from 'teinein', to stretch, like a string", "meaning": "stretching, tension", "lat": 37.98, "lon": 23.73}, {"word": "tonus", "lang": "Latin", "era": "ancient", "note": "a stretched string produces a note; came to English via Old French 'ton'", "meaning": "sound, tone", "lat": 41.9, "lon": 12.5}, {"word": "tone", "lang": "English", "era": "1300s", "note": "'tone of voice' dates from the 1600s", "meaning": "a musical sound", "lat": 51.51, "lon": -0.13}], "current_meaning": "a musical or vocal sound; a general character"}</script>

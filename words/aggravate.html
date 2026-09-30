@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "aggravate", "stops": [{"word": "gravis", "lang": "Latin", "era": "ancient", "note": "heavy, weighty, combined with ad- (to)", "meaning": "heavy, weighty", "lat": 41.9, "lon": 12.5}, {"word": "aggravare", "lang": "Latin", "era": "ancient", "note": "to make heavier, to make worse, from ad- and gravare", "meaning": "to make heavier, to make worse", "lat": 41.9, "lon": 12.5}, {"word": "aggravate", "lang": "English", "era": "1500s", "note": "first recorded in 1530 in John Palsgrave's 'Lesclarcissement', the first grammar of French written for English speakers", "meaning": "to make a situation worse, or to annoy someone", "lat": 51.51, "lon": -0.13}], "current_meaning": "to make a bad situation worse, or to irritate someone"}</script>

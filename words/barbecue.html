@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "barbecue", "stops": [{"word": "barbacoa", "lang": "Taíno", "era": "pre-1500s", "note": "a raised wooden framework for cooking or sleeping", "meaning": "a raised cooking frame", "lat": 18.49, "lon": -69.9}, {"word": "barbacoa", "lang": "Spanish", "era": "1500s", "note": "the Taíno cooked on a raised wooden frame over a fire; Spanish explorers recorded the word in Hispaniola", "meaning": "a method of slow-cooking meat", "lat": 40.42, "lon": -3.7}, {"word": "barbecue", "lang": "English", "era": "1600s", "note": "spread through English colonial contact in the Caribbean and Americas", "meaning": "grilled or slow-cooked meat, or the event", "lat": 40.71, "lon": -74.0}], "current_meaning": "food cooked over an open fire or grill, or a social gathering centered on such cooking"}</script>

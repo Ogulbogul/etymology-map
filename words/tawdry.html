@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tawdry", "stops": [{"word": "Æþelþryþ", "lang": "Old English", "era": "673", "note": "the princess-abbess who founded Ely Abbey in 673; Bede says she died of a neck tumour she took as punishment for wearing necklaces in her youth", "meaning": "a saint's name", "lat": 52.4, "lon": 0.26}, {"word": "Seynt Audrey", "lang": "Middle English", "era": "1400s", "note": "Norman-era Audrey replaced the Old English name; at Ely's St Audrey's fair, silk neck-laces called 'St Audrey's lace' were sold in her memory", "meaning": "St Audrey", "lat": 52.4, "lon": 0.26}, {"word": "tawdry", "lang": "English", "era": "1670s", "note": "'tawdry lace' ran together from 'St Audrey', and the cheap fair-goods gave the word its sense of showy but worthless", "meaning": "cheap and showy", "lat": 51.51, "lon": -0.13}], "current_meaning": "showy but cheap and of poor quality"}</script>

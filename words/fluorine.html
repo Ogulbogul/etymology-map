@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "fluorine", "stops": [{"word": "fluere", "lang": "Latin", "era": "ancient", "note": "the root of 'fluid', 'influence' and 'flux'", "meaning": "to flow", "lat": 41.9, "lon": 12.5}, {"word": "fluor", "lang": "French", "era": "1700s", "note": "carried into French mineral vocabulary for fluorspar", "meaning": "fluorspar, a flowing flux mineral", "lat": 48.85, "lon": 2.35}, {"word": "fluorine", "lang": "English", "era": "1813", "note": "coined by Humphry Davy for the reactive gas found in fluorspar", "meaning": "a pale yellow, highly reactive gas", "lat": 51.51, "lon": -0.13}], "current_meaning": "a pale yellow, extremely reactive gaseous element"}</script>

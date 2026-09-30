@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "hale", "stops": [{"word": "heill", "lang": "Old Norse", "era": "medieval", "note": "healthy, whole; the same word as Old English 'hāl', which became 'whole'", "meaning": "whole, healthy", "lat": 59.91, "lon": 10.75}, {"word": "hail / hale", "lang": "Middle English", "era": "1200s", "note": "the northern, Norse-coloured form of 'whole'", "meaning": "healthy", "lat": 53.96, "lon": -1.08}, {"word": "hale", "lang": "English", "era": "1500s", "note": "survives mostly in 'hale and hearty'", "meaning": "healthy", "lat": 51.51, "lon": -0.13}], "current_meaning": "strong and healthy, especially of an old person"}</script>

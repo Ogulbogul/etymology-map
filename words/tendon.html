@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tendon", "stops": [{"word": "tenon", "lang": "Greek", "era": "ancient", "note": "the Achilles tendon is named after the Greek hero", "meaning": "to stretch", "lat": 37.98, "lon": 23.73}, {"word": "tendo", "lang": "Medieval Latin", "era": "medieval", "note": "Medieval Latin 'tendo' was influenced by Latin 'tendere', to stretch", "meaning": "a stretched connective tissue", "lat": 41.9, "lon": 12.5}, {"word": "tendon", "lang": "English", "era": "1500s", "note": "settled as the English word for the tissue connecting muscle to bone", "meaning": "a tissue connecting muscle to bone", "lat": 51.51, "lon": -0.13}], "current_meaning": "a tough band of tissue connecting muscle to bone"}</script>

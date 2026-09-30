@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "morphine", "stops": [{"word": "Morpheus", "lang": "Latin", "era": "ancient", "note": "the god of dreams, 'the shaper', from Greek morphē 'form'; his only ancient appearance is in Ovid's Metamorphoses (AD 8), taking human shapes in dreams", "meaning": "god of dreams", "lat": 41.9, "lon": 12.5}, {"word": "Morphium", "lang": "German", "era": "1805", "note": "the pharmacist's assistant Friedrich Sertürner of Paderborn isolated the chief alkaloid of opium around 1804 and published it in 1805, the first alkaloid isolated from any plant", "meaning": "opium alkaloid", "lat": 51.72, "lon": 8.75}, {"word": "morphine", "lang": "English", "era": "1828", "note": "renamed with the -ine ending of alkaloids in 1818; the hypodermic syringe of the 1850s made it the standard battlefield painkiller of the American Civil War", "meaning": "painkilling drug", "lat": 51.51, "lon": -0.13}], "current_meaning": "a strong painkilling drug obtained from opium"}</script>

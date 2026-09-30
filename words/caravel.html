@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "caravel", "stops": [{"word": "kárabos", "lang": "Greek", "era": "classical", "note": "named horned beetles and crayfish; Aristotle's History of Animals uses it for the spiny lobster", "meaning": "stag beetle, crayfish", "lat": 37.98, "lon": 23.73}, {"word": "carabus", "lang": "Late Latin", "era": "c. 630", "note": "Isidore of Seville's Etymologiae defines carabus as a small boat of wicker covered in raw hide", "meaning": "small boat", "lat": 37.39, "lon": -5.98}, {"word": "caravela", "lang": "Portuguese", "era": "1400s", "note": "Portugal's light, lateen-rigged ship of discovery; Bartolomeu Dias rounded the Cape of Good Hope in 1488 with two caravels", "meaning": "light sailing ship", "lat": 37.1, "lon": -8.67}, {"word": "caravel", "lang": "English", "era": "1520s", "note": "came via French caravelle; two of Columbus's three ships in 1492, the Niña and the Pinta, were caravels", "meaning": "small fast sailing ship", "lat": 51.51, "lon": -0.13}], "current_meaning": "a small, fast Spanish or Portuguese sailing ship of the 1400s-1600s"}</script>

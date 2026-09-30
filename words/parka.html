@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "parka", "stops": [{"word": "parka", "lang": "Nenets", "era": "ancient", "note": "an animal-skin coat worn by Siberian Arctic peoples", "meaning": "an animal-skin coat", "lat": 67.0, "lon": 78.0}, {"word": "parka", "lang": "Russian", "era": "medieval", "note": "from Nenets, a Samoyedic language of Arctic Russia", "meaning": "a warm fur coat", "lat": 55.75, "lon": 37.62}, {"word": "parka", "lang": "English", "era": "1800s-1900s", "note": "Aleut and Yupik skin parkas were widely copied by Arctic explorers", "meaning": "a warm, hooded winter coat", "lat": 51.51, "lon": -0.13}], "current_meaning": "a warm, hooded winter coat, often lined with fur or fleece"}</script>

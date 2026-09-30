@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "moidore", "stops": [{"word": "moneta", "lang": "Latin", "era": "classical", "note": "Moneta was a title of the goddess Juno, and Rome's mint stood by her temple on the Capitoline, so her name came to mean coin (and gave English 'money' and 'mint')", "meaning": "mint, coin", "lat": 41.89, "lon": 12.48}, {"word": "moeda d'ouro", "lang": "Portuguese", "era": "1600s", "note": "'coin of gold'; after gold was struck in Brazil's Minas Gerais in the 1690s, a flood of Brazilian gold passed through Lisbon's mint", "meaning": "gold coin", "lat": 38.72, "lon": -9.14}, {"word": "moidore", "lang": "English", "era": "1700s", "note": "the 1703 Methuen Treaty tied English cloth to Portuguese wine, and trade surpluses drew so much Portuguese gold to Britain that moidores circulated widely, especially in Ireland", "meaning": "Portuguese gold coin", "lat": 51.51, "lon": -0.13}], "current_meaning": "a former Portuguese gold coin, once current in Britain and Ireland"}</script>

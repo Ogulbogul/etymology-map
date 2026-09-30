@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "beret", "stops": [{"word": "berret", "lang": "Gascon/Occitan", "era": "medieval", "note": "a soft, round, brimless woolen cap worn in southwestern France", "meaning": "a soft round cap", "lat": 43.6, "lon": 1.44}, {"word": "beret", "lang": "French", "era": "1800s", "note": "carried into standard French for the soft round cap", "meaning": "a soft, round, brimless cap", "lat": 48.85, "lon": 2.35}, {"word": "beret", "lang": "English", "era": "1830s", "note": "worn by Basque shepherds, then adopted as military headgear and a symbol of artists", "meaning": "a soft, round, brimless cap", "lat": 51.51, "lon": -0.13}], "current_meaning": "a soft, round, brimless cap, traditionally associated with France"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "labor", "stops": [{"word": "labor", "lang": "Latin", "era": "ancient", "note": "possibly from 'labare', to totter under a burden; Virgil's Georgics declares 'labor omnia vicit improbus', relentless toil conquered all", "meaning": "toil", "lat": 41.9, "lon": 12.5}, {"word": "labour", "lang": "Old French", "era": "medieval", "note": "hard work, especially ploughing; modern French labourer still means 'to plough'", "meaning": "toil", "lat": 48.85, "lon": 2.35}, {"word": "labor", "lang": "English", "era": "1300s", "note": "the political 'Labour' movement dates from the 1800s, and Britain's Labour Party took its name in 1906; Noah Webster's 1828 dictionary made 'labor' the American spelling", "meaning": "toil", "lat": 51.51, "lon": -0.13}], "current_meaning": "work, especially hard physical work"}</script>

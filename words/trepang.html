@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "trepang", "stops": [{"word": "teripang", "lang": "Malay", "era": "1700s", "note": "Makassan fishermen from Sulawesi sailed to northern Australia each monsoon from about the 1700s to gather sea cucumbers for the Chinese market, until South Australia shut the trade down after the 1906-07 season", "meaning": "sea cucumber", "lat": -5.14, "lon": 119.42}, {"word": "trepang", "lang": "English", "era": "1780s", "note": "Matthew Flinders met a Makassan trepang fleet off Arnhem Land in 1803 and recorded its commander, Pobassoo", "meaning": "dried sea cucumber", "lat": 51.51, "lon": -0.13}], "current_meaning": "a sea cucumber, dried and eaten especially in Chinese cuisine"}</script>

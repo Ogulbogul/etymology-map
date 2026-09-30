@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "bronco", "stops": [{"word": "bronco", "lang": "Spanish", "era": "medieval", "note": "meaning \"rough\" or \"rude\"", "meaning": "rough, coarse", "lat": 40.42, "lon": -3.7}, {"word": "bronco", "lang": "Mexican Spanish", "era": "1700s-1800s", "note": "applied to an unbroken, wild horse", "meaning": "an untamed horse", "lat": 19.43, "lon": -99.13}, {"word": "bronco", "lang": "English", "era": "1800s", "note": "Spanish 'rough, wild'; used by vaqueros for untamed horses", "meaning": "a wild or unbroken horse", "lat": 39.55, "lon": -105.78}], "current_meaning": "a wild or untrained horse, especially in the American West"}</script>

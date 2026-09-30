@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "pay", "stops": [{"word": "pacare", "lang": "Latin", "era": "classical", "note": "'to pacify', from pax 'peace'; Augustus's Res Gestae boasts 'mare pacavi a praedonibus', I pacified the sea from pirates", "meaning": "to pacify", "lat": 41.9, "lon": 12.5}, {"word": "paier", "lang": "Old French", "era": "1100s", "note": "'to appease', then to satisfy a creditor by handing over money", "meaning": "to satisfy, pay", "lat": 48.85, "lon": 2.35}, {"word": "pay", "lang": "English", "era": "1200s", "note": "Britain introduced 'Pay As You Earn' income tax deduction in 1944", "meaning": "to give money owed", "lat": 51.51, "lon": -0.13}], "current_meaning": "to give money for goods, services or debts"}</script>

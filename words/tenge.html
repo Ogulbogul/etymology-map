@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tenge", "stops": [{"word": "teñge", "lang": "Chagatai Turkic", "era": "medieval", "note": "a silver coin of the Golden Horde and the Central Asian khanates", "meaning": "silver coin", "lat": 39.65, "lon": 66.96}, {"word": "denga", "lang": "Russian", "era": "1300s-1400s", "note": "Muscovite princes took the Horde's coin name; Russian 'dengi', money, still comes from it", "meaning": "small coin", "lat": 55.75, "lon": 37.62}, {"word": "teñge", "lang": "Kazakh", "era": "1993", "note": "revived as the name of independent Kazakhstan's currency in November 1993", "meaning": "Kazakh currency", "lat": 43.24, "lon": 76.95}, {"word": "tenge", "lang": "English", "era": "1990s", "note": "entered English with reporting on post-Soviet Kazakhstan", "meaning": "Kazakh currency", "lat": 51.51, "lon": -0.13}], "current_meaning": "the currency of Kazakhstan"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "flair", "stops": [{"word": "fragrāre", "lang": "Latin", "era": "ancient", "note": "to smell sweet, the root of 'fragrant'", "meaning": "to smell", "lat": 41.9, "lon": 12.5}, {"word": "flairer", "lang": "Old French", "era": "medieval", "note": "to give off or detect a smell", "meaning": "to smell", "lat": 48.85, "lon": 2.35}, {"word": "flair", "lang": "French", "era": "1600s", "note": "a dog's sense of smell, and then a knack for sniffing things out", "meaning": "scent, keen sense", "lat": 48.85, "lon": 2.35}, {"word": "flair", "lang": "English", "era": "1880s", "note": "borrowed in the sense of instinctive talent", "meaning": "natural talent", "lat": 51.51, "lon": -0.13}], "current_meaning": "a natural talent or aptitude"}</script>

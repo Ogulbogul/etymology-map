@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "quokka", "stops": [{"word": "gwaga", "lang": "Noongar", "era": "ancient", "note": "the Noongar name for the small wallaby of south-western Australia, which survives mainly on Rottnest Island, in Noongar Wadjemup", "meaning": "quokka", "lat": -31.95, "lon": 115.86}, {"word": "quokka", "lang": "English", "era": "1860s", "note": "adopted from Noongar; long before, in 1696, Dutch captain Willem de Vlamingh took the animals for giant rats and named the island Rottnest, 'rats' nest'", "meaning": "small wallaby", "lat": 51.51, "lon": -0.13}], "current_meaning": "a small wallaby found mainly on Rottnest Island, Western Australia"}</script>

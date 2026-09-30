@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "commando", "stops": [{"word": "comando", "lang": "Portuguese", "era": "medieval", "note": "meaning \"a command\" or \"order\"", "meaning": "a command", "lat": 38.72, "lon": -9.14}, {"word": "kommando", "lang": "Afrikaans", "era": "1700s-1800s", "note": "applied to a small mobile military unit in southern Africa", "meaning": "a small mobile military unit", "lat": -33.92, "lon": 18.42}, {"word": "commando", "lang": "English", "era": "1800s-1900s", "note": "adopted during the Boer Wars, later used for elite soldiers", "meaning": "a soldier trained for rapid raiding operations", "lat": 51.51, "lon": -0.13}], "current_meaning": "a soldier trained to carry out fast, aggressive raids"}</script>

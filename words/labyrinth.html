@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "labyrinth", "stops": [{"word": "labyrinthos", "lang": "Greek", "era": "ancient", "note": "the maze built to contain the mythical Minotaur on Crete", "meaning": "a maze, especially the Minotaur's maze", "lat": 35.34, "lon": 25.13}, {"word": "labyrinthus", "lang": "Latin", "era": "ancient", "note": "the Cretan labyrinth built by Daedalus to hold the Minotaur", "meaning": "a maze", "lat": 41.9, "lon": 12.5}, {"word": "labyrinth", "lang": "English", "era": "1400s", "note": "settled as the word for any complex, maze-like structure", "meaning": "a complex, maze-like structure", "lat": 51.51, "lon": -0.13}], "current_meaning": "an intricate, maze-like network of paths or passages"}</script>

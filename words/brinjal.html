@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "brinjal", "stops": [{"word": "vātiṅgaṇa", "lang": "Sanskrit", "era": "ancient", "note": "the eggplant was domesticated in South or Southeast Asia; some scholars trace the Sanskrit name further back to a Dravidian word", "meaning": "eggplant", "lat": 23.18, "lon": 75.78}, {"word": "bādhinjān", "lang": "Arabic", "era": "medieval", "note": "reached Arabic through Persian bādingān; Ibn Sayyar al-Warraq's 10th-century Baghdad cookbook includes būrāniyya, an eggplant dish named after Būrān, wife of Caliph al-Ma'mun", "meaning": "eggplant", "lat": 33.31, "lon": 44.36}, {"word": "beringela", "lang": "Portuguese", "era": "1500s", "note": "inherited from the Arabic of al-Andalus, then carried to Portugal's Indian trading posts such as Goa, captured in 1510", "meaning": "eggplant", "lat": 38.72, "lon": -9.14}, {"word": "brinjal", "lang": "English", "era": "1600s", "note": "Anglo-Indian English took the Portuguese word; Bombay itself passed from Portugal to England in 1661 as part of Catherine of Braganza's dowry, and brinjal is still the everyday word in India and South Africa", "meaning": "eggplant", "lat": 18.94, "lon": 72.83}], "current_meaning": "an eggplant or aubergine (in South Asian and South African English)"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "madrasa", "stops": [{"word": "darasa", "lang": "Arabic", "era": "medieval", "note": "meant \"he studied, he read repeatedly\"; related to Hebrew darash, root of \"midrash\"", "meaning": "to study", "lat": 33.31, "lon": 44.36}, {"word": "madrasah", "lang": "Arabic", "era": "medieval", "note": "literally \"a place of study,\" originally a generic word for any school", "meaning": "school, place of learning", "lat": 33.31, "lon": 44.36}, {"word": "madrasa", "lang": "English", "era": "1620s", "note": "narrowed in English usage to mean specifically an Islamic religious school", "meaning": "Islamic school", "lat": 51.51, "lon": -0.13}], "current_meaning": "an Islamic school or college, especially one for religious instruction"}</script>

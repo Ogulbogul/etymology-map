@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "jacket", "stops": [{"word": "jaque", "lang": "Old French", "era": "1300s", "note": "a padded tunic, possibly named from Jacques, the nickname for a French peasant, as in the Jacquerie revolt of 1358; an Arabic source has also been proposed", "meaning": "padded tunic", "lat": 48.85, "lon": 2.35}, {"word": "jacket", "lang": "English", "era": "1400s", "note": "via its Middle French diminutive jaquet, a short close-fitting coat; later extended to covers, like potatoes baked 'in their jackets' and paper dust jackets on books from the 1890s", "meaning": "short coat; outer cover", "lat": 51.51, "lon": -0.13}], "current_meaning": "a short coat; an outer covering"}</script>

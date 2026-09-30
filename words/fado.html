@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "fado", "stops": [{"word": "fatum", "lang": "Latin", "era": "classical", "note": "literally 'what has been spoken' (by the gods), from fari 'to speak'; Virgil's Aeneid opens with Aeneas 'fato profugus', exiled by fate", "meaning": "destiny", "lat": 41.9, "lon": 12.5}, {"word": "fado", "lang": "Portuguese", "era": "1800s", "note": "'fate' gave its name to a mournful song style born in Lisbon's Alfama and Mouraria districts; Maria Severa (1820-1846) is its first legendary singer", "meaning": "fate; a Portuguese song form", "lat": 38.71, "lon": -9.13}, {"word": "fado", "lang": "English", "era": "1900s", "note": "Amália Rodrigues's international tours from the 1950s carried it abroad, and UNESCO listed fado as Intangible Cultural Heritage in 2011", "meaning": "Portuguese folk song", "lat": 51.51, "lon": -0.13}], "current_meaning": "a melancholy Portuguese folk song, typically about longing and fate"}</script>

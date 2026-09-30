@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "tilapia", "stops": [{"word": "tlhapi", "lang": "Tswana", "era": "long-standing", "note": "a general Setswana word for fish, used across southern Africa", "meaning": "fish", "lat": -24.66, "lon": 25.91}, {"word": "Tilapia", "lang": "English", "era": "1840", "note": "Latinized by Scottish zoologist Andrew Smith when naming the fish genus", "meaning": "a genus of freshwater fish", "lat": 51.51, "lon": -0.13}, {"word": "tilapia", "lang": "English", "era": "1900s", "note": "became everyday English as the fish grew into a major global food source", "meaning": "a farmed freshwater fish popular worldwide as food", "lat": 51.51, "lon": -0.13}], "current_meaning": "A freshwater fish, native to Africa, now widely farmed around the world as an affordable food source."}</script>

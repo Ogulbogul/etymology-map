@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "buffalo", "stops": [{"word": "boubalos", "lang": "Greek", "era": "ancient", "note": "a kind of African antelope, later applied to horned cattle", "meaning": "an African antelope", "lat": 37.98, "lon": 23.73}, {"word": "bufalus", "lang": "Medieval Latin", "era": "ancient", "note": "a variant of Latin bubalus, wild ox-like cattle", "meaning": "wild ox-like cattle", "lat": 41.9, "lon": 12.5}, {"word": "bufalo", "lang": "Portuguese", "era": "medieval", "note": "carried into Portuguese for the large horned bovine, spread via Portuguese maritime trade", "meaning": "water buffalo, large horned bovine", "lat": 38.72, "lon": -9.14}, {"word": "buffalo", "lang": "English", "era": "1580s", "note": "settled as the English word for the large horned bovine", "meaning": "a large horned bovine", "lat": 51.51, "lon": -0.13}], "current_meaning": "a large horned bovine, including the water buffalo and American bison"}</script>

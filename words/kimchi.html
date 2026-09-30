@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kimchi", "stops": [{"word": "chim-chae", "lang": "Korean", "era": "medieval", "note": "meaning \"soaked vegetables\", an early term for fermented, salted vegetables", "meaning": "soaked vegetables", "lat": 37.57, "lon": 126.98}, {"word": "kimchi", "lang": "Korean", "era": "medieval", "note": "evolved into the modern word for spiced, fermented cabbage", "meaning": "fermented, spiced cabbage", "lat": 37.57, "lon": 126.98}, {"word": "kimchi", "lang": "English", "era": "1900s", "note": "Seoul's 1988 Olympics introduced kimchi to many visitors", "meaning": "a spicy, fermented Korean side dish", "lat": 51.51, "lon": -0.13}], "current_meaning": "a spicy, fermented Korean dish typically made from cabbage"}</script>

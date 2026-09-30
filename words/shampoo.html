@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "shampoo", "stops": [{"word": "capayati", "lang": "Sanskrit", "era": "ancient", "note": "meaning \"pounds, kneads\"; root of the Hindi imperative champo", "meaning": "to press, to knead", "lat": 28.61, "lon": 77.21}, {"word": "chāmpo", "lang": "Hindi", "era": "1700s", "note": "from \"chāmpnā\", to press or knead the body", "meaning": "to massage", "lat": 28.61, "lon": 77.21}, {"word": "shampoo", "lang": "English", "era": "1762", "note": "British visitors adopted the practice and word from Indian bathhouses", "meaning": "to massage the body while bathing", "lat": 51.51, "lon": -0.13}, {"word": "shampoo", "lang": "English", "era": "1860s", "note": "narrowed over time to mean washing the hair specifically", "meaning": "a liquid soap for washing hair", "lat": 40.71, "lon": -74.0}], "current_meaning": "a liquid or cream product used to wash hair"}</script>

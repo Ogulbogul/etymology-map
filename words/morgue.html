@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "morgue", "stops": [{"word": "murrum", "lang": "Vulgar Latin", "era": "medieval", "note": "a word for a muzzle or snout, giving rise to a verb for making a face", "meaning": "muzzle, snout", "lat": 41.9, "lon": 12.5}, {"word": "morguer", "lang": "Old French", "era": "medieval", "note": "'to look solemnly', describing a stern facial expression", "meaning": "to look solemn or haughty", "lat": 48.85, "lon": 2.35}, {"word": "morgue", "lang": "French", "era": "medieval", "note": "shifted from an expression to the name of a Paris building where unidentified bodies were displayed for identification", "meaning": "a haughty look; a building for displaying bodies", "lat": 48.85, "lon": 2.35}, {"word": "morgue", "lang": "English", "era": "1821", "note": "borrowed for a facility housing unclaimed dead bodies", "meaning": "a mortuary", "lat": 51.51, "lon": -0.13}], "current_meaning": "a place where dead bodies are kept before burial or identification"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "guaiacum", "stops": [{"word": "guayacán", "lang": "Taino", "era": "pre-1500s", "note": "named the hard, resinous tree known for its medicinal properties", "meaning": "a hard, resinous tree", "lat": 19.0, "lon": -70.7}, {"word": "guayaco", "lang": "Spanish", "era": "1520s", "note": "guaiacum was exported to Europe in the 1500s as a supposed cure for syphilis", "meaning": "a medicinal tree resin", "lat": 19.0, "lon": -70.7}, {"word": "guaiacum", "lang": "English", "era": "1530s", "note": "latinized and borrowed into English, among the very first words of American indigenous origin recorded in English", "meaning": "a resinous tropical hardwood tree, also called lignum vitae", "lat": 51.51, "lon": -0.13}], "current_meaning": "a very hard, resinous tropical tree, also known as lignum vitae, historically valued for its medicinal resin"}</script>

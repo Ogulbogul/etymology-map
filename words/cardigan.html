@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cardigan", "stops": [{"word": "Ceredigion", "lang": "Welsh", "era": "medieval", "note": "'land of Ceredig', a 5th-century ruler said to be a son of Cunedda; its chief town was anglicised as Cardigan", "meaning": "a Welsh region", "lat": 52.08, "lon": -4.66}, {"word": "cardigan", "lang": "English", "era": "1868", "note": "after James Brudenell, 7th Earl of Cardigan, who led the Charge of the Light Brigade at Balaclava in 1854; the knitted wool waistcoats he and his officers wore took his title", "meaning": "knitted button-up jacket", "lat": 51.51, "lon": -0.13}], "current_meaning": "a knitted sweater that fastens down the front"}</script>

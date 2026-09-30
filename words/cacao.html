@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cacao", "stops": [{"word": "cacahuatl", "lang": "Nahuatl", "era": "pre-1500s", "note": "the name for the beans used to make a bitter drink", "meaning": "cacao bean", "lat": 19.43, "lon": -99.13}, {"word": "cacao", "lang": "Spanish", "era": "1500s", "note": "the Aztecs used cacao beans as money and drank them in a bitter frothy drink", "meaning": "cacao bean", "lat": 40.42, "lon": -3.7}, {"word": "cacao", "lang": "English", "era": "1600s", "note": "Linnaeus named the tree 'Theobroma cacao', 'food of the gods', in 1753", "meaning": "the bean used to make chocolate", "lat": 51.51, "lon": -0.13}], "current_meaning": "the dried, fermented seed of the cacao tree, used to make chocolate"}</script>

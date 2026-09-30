@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "camera", "stops": [{"word": "kamara", "lang": "Greek", "era": "ancient", "note": "a vaulted chamber", "meaning": "vault", "lat": 37.98, "lon": 23.73}, {"word": "camera", "lang": "Latin", "era": "ancient", "note": "a vaulted room; also the source of 'chamber' and 'comrade'", "meaning": "vaulted room", "lat": 41.9, "lon": 12.5}, {"word": "camera obscura", "lang": "Modern Latin", "era": "1600s", "note": "'dark room': the astronomer Johannes Kepler used the name in 1604 for a box that projects an image", "meaning": "dark room", "lat": 50.08, "lon": 14.44}, {"word": "camera", "lang": "English", "era": "1840s", "note": "shortened from 'camera obscura' when photography began", "meaning": "photographic device", "lat": 51.51, "lon": -0.13}], "current_meaning": "a device for taking photographs"}</script>

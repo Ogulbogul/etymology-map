@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "yemaya", "stops": [{"word": "Yemọja", "lang": "Yoruba", "era": "traditional", "note": "compound of iye (\"mother\"), ọmọ (\"child\"), and ẹja (\"fish\"): \"mother whose children are like the fish\"", "meaning": "river goddess of motherhood and creation", "lat": 7.4905, "lon": 4.5521}, {"word": "Yemayá", "lang": "Spanish", "era": "1800s", "note": "creolized in Cuba as enslaved Yoruba carried her worship into Santería/Lucumí practice", "meaning": "orisha of the sea and motherhood in Santería", "lat": 23.1136, "lon": -82.3666}, {"word": "Yemaya", "lang": "English", "era": "1900s", "note": "spread into English through Santería and wider diaspora spiritual writing", "meaning": "orisha and goddess of the sea and motherhood", "lat": 40.7128, "lon": -74.006}], "current_meaning": "the Yoruba-derived orisha of the sea and motherhood, venerated across Santería and other diaspora religions"}</script>

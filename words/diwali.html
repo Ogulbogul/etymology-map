@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "diwali", "stops": [{"word": "dipavali", "lang": "Sanskrit", "era": "ancient", "note": "compound of 'light' and 'row, series'", "meaning": "a row of lights", "lat": 25.32, "lon": 82.97}, {"word": "diwali", "lang": "Hindi", "era": "medieval", "note": "became the name of the festival of lights", "meaning": "the festival of lights", "lat": 28.61, "lon": 77.21}, {"word": "Diwali", "lang": "English", "era": "20th c.", "note": "mentioned as early as 1698 by John Fryer, an East India Company surgeon, in his account of India and Persia", "meaning": "a major South Asian festival celebrating light's triumph over darkness", "lat": 51.51, "lon": -0.13}], "current_meaning": "A major festival celebrated by Hindus, Jains, and Sikhs, marked by lights, fireworks, and the triumph of light over darkness."}</script>

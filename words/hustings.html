@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "hustings", "stops": [{"word": "hús-þing", "lang": "Old Norse", "era": "800s-1000s", "note": "'house assembly', a council held indoors by a king or chief", "meaning": "house assembly", "lat": 59.91, "lon": 10.75}, {"word": "hūsting", "lang": "Old English", "era": "1000s", "note": "London's Court of Husting, one of the city's oldest courts, took the name", "meaning": "assembly, court", "lat": 51.51, "lon": -0.13}, {"word": "hustings", "lang": "English", "era": "1710s", "note": "the platform where candidates were nominated; open hustings ended with the secret ballot in 1872", "meaning": "election platform", "lat": 51.51, "lon": -0.13}], "current_meaning": "a platform or campaign events for election speeches"}</script>

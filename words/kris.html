@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kris", "stops": [{"word": "keris", "lang": "Old Javanese", "era": "medieval", "note": "the asymmetrical, often wavy-bladed dagger of Java; much later, in 2005, UNESCO proclaimed the Indonesian kris a Masterpiece of the Oral and Intangible Heritage of Humanity", "meaning": "dagger", "lat": -7.56, "lon": 112.38}, {"word": "keris", "lang": "Malay", "era": "1400s", "note": "the Hikayat Hang Tuah, epic of the Malacca Sultanate's greatest warrior, turns on his magical kris Taming Sari", "meaning": "dagger", "lat": 2.19, "lon": 102.25}, {"word": "kris", "lang": "English", "era": "1580s", "note": "early English spellings were creese and crease; Joseph Conrad's Malay novels, starting with Almayer's Folly in 1895, later made it a stock prop", "meaning": "Malay dagger", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Malay or Indonesian dagger with a wavy blade"}</script>

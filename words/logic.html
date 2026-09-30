@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "logic", "stops": [{"word": "logike", "lang": "Greek", "era": "ancient", "note": "from \"logos\" (reason, word), the study of valid reasoning", "meaning": "the study of reasoning", "lat": 37.98, "lon": 23.73}, {"word": "logica", "lang": "Latin", "era": "ancient", "note": "Aristotle's works on reasoning were grouped as the 'Organon'", "meaning": "the science of reasoning", "lat": 41.9, "lon": 12.5}, {"word": "logique", "lang": "Old French", "era": "medieval", "note": "carried the discipline into French", "meaning": "the science of reasoning", "lat": 48.85, "lon": 2.35}, {"word": "logic", "lang": "English", "era": "medieval", "note": "settled as the English word for reasoned argument", "meaning": "the science of valid reasoning", "lat": 51.51, "lon": -0.13}], "current_meaning": "reasoning conducted or assessed according to strict principles of validity"}</script>

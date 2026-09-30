@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "bottle", "stops": [{"word": "buttis", "lang": "Late Latin", "era": "ancient", "note": "a Late Latin word for a wine cask, the root of 'butt' and 'butler'", "meaning": "cask", "lat": 41.9, "lon": 12.5}, {"word": "botele", "lang": "Old French", "era": "medieval", "note": "a diminutive, a little cask", "meaning": "small leather flask", "lat": 48.85, "lon": 2.35}, {"word": "bottle", "lang": "English", "era": "1300s", "note": "'bottle' for courage is 1950s British slang", "meaning": "a container for liquid", "lat": 51.51, "lon": -0.13}], "current_meaning": "a container with a narrow neck for liquids"}</script>

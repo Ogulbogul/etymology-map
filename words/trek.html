@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "trek", "stops": [{"word": "trekken", "lang": "Dutch", "era": "medieval", "note": "meaning \"to pull\" or \"to journey\"", "meaning": "to pull, journey", "lat": 52.37, "lon": 4.9}, {"word": "trek", "lang": "Afrikaans", "era": "1800s", "note": "applied to the long ox-wagon migrations of Boer settlers", "meaning": "a long, arduous journey", "lat": -33.92, "lon": 18.42}, {"word": "trek", "lang": "English", "era": "1800s", "note": "Afrikaans 'trek', to pull or travel by ox-wagon; the Great Trek of the Voortrekkers began in 1835", "meaning": "a long, difficult journey, especially on foot", "lat": 51.51, "lon": -0.13}], "current_meaning": "a long, arduous journey, especially made on foot"}</script>

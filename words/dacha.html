@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "dacha", "stops": [{"word": "dacha", "lang": "Old Russian", "era": "medieval", "note": "'a giving, grant', from dati 'to give'; it meant land granted by a Muscovite prince in return for service", "meaning": "grant", "lat": 55.75, "lon": 37.62}, {"word": "dacha", "lang": "Russian", "era": "1700s", "note": "Peter the Great granted plots along the road from St Petersburg to Peterhof to his courtiers, and the word shifted to the country houses built on them", "meaning": "country house", "lat": 59.94, "lon": 30.31}, {"word": "dacha", "lang": "English", "era": "1890s", "note": "used for Russian summer houses; Stalin's 'Near Dacha' at Kuntsevo, where he died in 1953, made it familiar in reporting on the Kremlin", "meaning": "Russian country cottage", "lat": 51.51, "lon": -0.13}], "current_meaning": "a country house or cottage in Russia, typically a second home"}</script>

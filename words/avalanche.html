@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "avalanche", "stops": [{"word": "lavanche", "lang": "Franco-Provencal", "era": "medieval", "note": "a mass of snow and ice sliding rapidly down a mountainside", "meaning": "a sliding mass of snow", "lat": 45.9, "lon": 6.87}, {"word": "avalanche", "lang": "French", "era": "1700s", "note": "reshaped in French for the sudden mountain snowslide", "meaning": "a sudden mass of falling snow or ice", "lat": 48.85, "lon": 2.35}, {"word": "avalanche", "lang": "English", "era": "1760s", "note": "popularized by Alpine travel writers; the Swiss French form was influenced by 'avaler', to descend", "meaning": "a sudden mass of falling snow, ice, or rock", "lat": 51.51, "lon": -0.13}], "current_meaning": "a mass of snow, ice, or rock falling rapidly down a mountainside"}</script>

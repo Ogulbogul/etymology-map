@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "argan", "stops": [{"word": "argan", "lang": "Berber", "era": "medieval", "note": "named by Shilha-speaking Berbers in the tree's native southwestern Morocco", "meaning": "the argan tree", "lat": 31.63, "lon": -7.99}, {"word": "argan", "lang": "French", "era": "1900s", "note": "popularized internationally through French Morocco's trade and cosmetics industry", "meaning": "the argan tree and its oil", "lat": 48.85, "lon": 2.35}, {"word": "argan", "lang": "English", "era": "2000s", "note": "entered global beauty and cooking vocabulary as argan oil products spread worldwide", "meaning": "a prized Moroccan oil pressed from argan tree kernels", "lat": 51.51, "lon": -0.13}], "current_meaning": "Argan oil, pressed from the kernels of the Moroccan argan tree, used in cooking and cosmetics."}</script>

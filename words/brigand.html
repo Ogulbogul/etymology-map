@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "brigand", "stops": [{"word": "brigare", "lang": "Italian", "era": "medieval", "note": "a verb meaning to brawl or fight, of disputed deeper origin", "meaning": "to brawl, fight", "lat": 41.9, "lon": 12.5}, {"word": "brigante", "lang": "Italian", "era": "medieval", "note": "named a lightly armed foot soldier or skirmisher", "meaning": "a light-armed soldier, skirmisher", "lat": 41.9, "lon": 12.5}, {"word": "brigand", "lang": "Old French", "era": "1300s", "note": "from Italian 'brigante', a member of a band of foot soldiers, who often turned to plunder", "meaning": "an irregular foot soldier", "lat": 48.85, "lon": 2.35}, {"word": "brigand", "lang": "English", "era": "1400", "note": "shifted from soldier to freebooter, as armed troops and outright criminals blurred together", "meaning": "a bandit, robber", "lat": 51.51, "lon": -0.13}], "current_meaning": "a bandit, especially one of a gang operating in wild or remote country"}</script>

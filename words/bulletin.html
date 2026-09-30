@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -173,9 +179,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "bulletin", "stops": [{"word": "bulla", "lang": "Latin", "era": "ancient", "note": "a word for a round seal or knob attached to official documents", "meaning": "a round seal, knob", "lat": 41.9, "lon": 12.5}, {"word": "bulletta", "lang": "Italian", "era": "medieval", "note": "a diminutive naming the sealed document itself", "meaning": "a document, voting slip", "lat": 41.9, "lon": 12.5}, {"word": "bulletino", "lang": "Italian", "era": "medieval", "note": "a further diminutive for an official notice", "meaning": "a small official document", "lat": 41.9, "lon": 12.5}, {"word": "bulletin", "lang": "French", "era": "1500s", "note": "modeled on the Italian form for an authenticated public report", "meaning": "an official report or notice", "lat": 48.85, "lon": 2.35}, {"word": "bulletin", "lang": "English", "era": "1765", "note": "adopted for an official announcement, later popularized by Napoleonic-era military dispatches", "meaning": "an official report issued for public information", "lat": 51.51, "lon": -0.13}], "current_meaning": "a short official statement or announcement, especially of news"}</script>

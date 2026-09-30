@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "adobe", "stops": [{"word": "tobe", "lang": "Egyptian", "era": "ancient", "note": "an ancient Egyptian word for a mud brick", "meaning": "mud brick", "lat": 30.04, "lon": 31.24}, {"word": "al-tob", "lang": "Arabic", "era": "medieval", "note": "\"the brick\", borrowed from Coptic Egyptian", "meaning": "the brick", "lat": 30.04, "lon": 31.24}, {"word": "adobe", "lang": "Spanish", "era": "medieval", "note": "Moorish builders brought mud-brick construction to Spain, and Arabic 'al-tub' became Spanish 'adobe'", "meaning": "sun-dried mud brick", "lat": 40.42, "lon": -3.7}, {"word": "adobe", "lang": "English", "era": "1700s", "note": "English speakers met it in the Spanish-built missions and pueblos of the American Southwest", "meaning": "sun-dried mud brick construction", "lat": 35.08, "lon": -106.65}], "current_meaning": "a building material made of sun-dried mud and straw, or a structure built from it"}</script>

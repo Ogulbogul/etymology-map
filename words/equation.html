@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "equation", "stops": [{"word": "aequus", "lang": "Latin", "era": "ancient", "note": "equal, even, giving rise to aequare (to make equal)", "meaning": "equal, even", "lat": 41.9, "lon": 12.5}, {"word": "aequatio", "lang": "Latin", "era": "ancient", "note": "an equalizing, a making equal, from aequare", "meaning": "an equalizing, a making equal", "lat": 41.9, "lon": 12.5}, {"word": "equation", "lang": "English", "era": "1400s", "note": "settled as the English word for a mathematical statement showing two expressions are equal", "meaning": "a mathematical statement showing two expressions are equal", "lat": 51.51, "lon": -0.13}], "current_meaning": "a mathematical statement showing that two expressions are equal"}</script>

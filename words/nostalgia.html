@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "nostalgia", "stops": [{"word": "nostos", "lang": "Greek", "era": "ancient", "note": "a homecoming, combined with algos (pain) for the pain of homesickness", "meaning": "a homecoming", "lat": 37.98, "lon": 23.73}, {"word": "nostalgia", "lang": "New Latin", "era": "1688", "note": "coined by Swiss scholar Johannes Hofer at the University of Basel as a medical term for severe homesickness", "meaning": "severe homesickness", "lat": 47.56, "lon": 7.59}, {"word": "nostalgia", "lang": "English", "era": "1720s", "note": "coined in 1688 by the Swiss medical student Johannes Hofer for homesickness among Swiss mercenaries", "meaning": "severe homesickness", "lat": 51.51, "lon": -0.13}], "current_meaning": "a wistful longing for the past"}</script>

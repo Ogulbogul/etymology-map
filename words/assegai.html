@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "assegai", "stops": [{"word": "zaghaya", "lang": "Berber", "era": "medieval", "note": "a Berber word for a slender throwing spear used across North Africa", "meaning": "a spear", "lat": 31.63, "lon": -7.99}, {"word": "az-zaghayah", "lang": "Arabic", "era": "medieval", "note": "Arabic absorbed the Berber word along with its definite article", "meaning": "a spear", "lat": 30.04, "lon": 31.24}, {"word": "azagaia", "lang": "Portuguese", "era": "1500s", "note": "Portuguese explorers adopted the term while trading along the African coast", "meaning": "a light throwing spear", "lat": 38.72, "lon": -9.14}, {"word": "assegai", "lang": "English", "era": "1600s", "note": "entered English through accounts of southern African warfare, especially Zulu weaponry", "meaning": "a slender, iron-tipped spear used by southern African peoples", "lat": 51.51, "lon": -0.13}], "current_meaning": "A slender, iron-tipped spear historically used as a stabbing or throwing weapon by southern African peoples such as the Zulu."}</script>

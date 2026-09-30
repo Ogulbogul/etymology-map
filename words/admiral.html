@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "admiral", "stops": [{"word": "amīr al-baḥr", "lang": "Arabic", "era": "c. 1100s", "note": "literally \"commander of the sea\", used for Arab naval commanders", "meaning": "commander of the sea", "lat": 30.04, "lon": 31.24}, {"word": "admiralis", "lang": "Medieval Latin", "era": "c. 1200s", "note": "Norman Sicily kept the Arab title 'amir', and George of Antioch held it as commander of the Norman fleet in the 1100s", "meaning": "naval commander", "lat": 38.12, "lon": 13.36}, {"word": "amiral", "lang": "Old French", "era": "c. 1300s", "note": "the -d- was inserted later by association with Latin admirari", "meaning": "naval commander", "lat": 48.85, "lon": 2.35}, {"word": "admiral", "lang": "English", "era": "c. 1400s", "note": "settled into English via Norman French administration", "meaning": "chief commander of a fleet", "lat": 51.51, "lon": -0.13}], "current_meaning": "a high-ranking commissioned officer in a navy"}</script>

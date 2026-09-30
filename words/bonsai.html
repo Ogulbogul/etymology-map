@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "bonsai", "stops": [{"word": "penzai", "lang": "Chinese", "era": "ancient", "note": "literally \"tray planting\", the origin of the miniature tree art", "meaning": "tray planting", "lat": 39.9, "lon": 116.4}, {"word": "bonsai", "lang": "Japanese", "era": "medieval", "note": "adopted and refined the art of miniature potted trees", "meaning": "tray-planted miniature tree", "lat": 35.68, "lon": 139.65}, {"word": "bonsai", "lang": "English", "era": "1900s", "note": "Japanese 'tray planting'; bonsai was shown at the 1878 Paris Exposition", "meaning": "a miniature, artistically shaped potted tree", "lat": 51.51, "lon": -0.13}], "current_meaning": "the art of growing miniature, artistically shaped trees in containers"}</script>

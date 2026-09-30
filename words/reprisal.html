@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "reprisal", "stops": [{"word": "reprehendere", "lang": "Latin", "era": "ancient", "note": "re- 'back' plus prehendere 'to seize'", "meaning": "to seize back, restrain", "lat": 41.9, "lon": 12.5}, {"word": "ripresaglia", "lang": "Italian", "era": "medieval", "note": "from the past participle of riprendere, 'to take back'", "meaning": "a taking back", "lat": 41.9, "lon": 12.5}, {"word": "reprisaille", "lang": "Old French", "era": "medieval", "note": "'letters of reprisal' licensed privateers to seize enemy ships", "meaning": "retaliatory seizure", "lat": 48.85, "lon": 2.35}, {"word": "reprisal", "lang": "English", "era": "1400s-1710", "note": "entered for official state-sanctioned seizure in retaliation, later broadened to any retaliatory act", "meaning": "an act of retaliation", "lat": 51.51, "lon": -0.13}], "current_meaning": "an act of retaliation, especially in response to an attack"}</script>

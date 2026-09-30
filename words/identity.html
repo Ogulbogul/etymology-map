@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "identity", "stops": [{"word": "identitas", "lang": "Late Latin", "era": "late antiquity", "note": "coined by philosophers from idem 'the same', probably on the model of entitas 'being'", "meaning": "sameness", "lat": 41.9, "lon": 12.5}, {"word": "identity", "lang": "English", "era": "1560s", "note": "came via Middle French identité; John Locke's Essay Concerning Human Understanding (1694 edition) added a famous chapter 'Of Identity and Diversity', and Britain issued identity cards from 1939 to 1952", "meaning": "who someone is", "lat": 51.51, "lon": -0.13}], "current_meaning": "the fact of being who or what a person or thing is"}</script>

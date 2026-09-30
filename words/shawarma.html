@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "shawarma", "stops": [{"word": "cevirme", "lang": "Turkish", "era": "ottoman", "note": "turning, from cevirmek (to turn), describing meat roasted on a turning spit", "meaning": "turning", "lat": 41.01, "lon": 28.98}, {"word": "shawarma", "lang": "Levantine Arabic", "era": "1900s", "note": "adapted into Arabic for meat sliced from a vertical rotating spit", "meaning": "meat sliced from a rotating spit", "lat": 33.51, "lon": 36.28}, {"word": "shawarma", "lang": "English", "era": "1900s", "note": "from Turkish 'çevirme', turning, for the rotating spit", "meaning": "a dish of spit-roasted meat sliced and served in flatbread", "lat": 51.51, "lon": -0.13}], "current_meaning": "a dish of meat cooked on a vertical rotating spit and sliced into a wrap"}</script>

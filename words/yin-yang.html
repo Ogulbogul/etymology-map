@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "yin yang", "stops": [{"word": "yin + yang", "lang": "Chinese", "era": "ancient", "note": "representing complementary opposite forces in Chinese philosophy", "meaning": "shady side and sunny side; opposite forces", "lat": 39.9, "lon": 116.4}, {"word": "yin yang", "lang": "English", "era": "1800s-1900s", "note": "Chinese 'shade' and 'sun'; the 'Book of Changes' built its philosophy on the pair", "meaning": "two complementary, opposite forces", "lat": 51.51, "lon": -0.13}], "current_meaning": "a concept of two complementary, opposing forces in Chinese philosophy"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kalashnikov", "stops": [{"word": "kalach", "lang": "Russian", "era": "medieval", "note": "a wheat loaf shaped like a padlock; a kalashnik baked or sold them, giving the surname Kalashnikov", "meaning": "padlock-shaped loaf", "lat": 55.75, "lon": 37.62}, {"word": "Kalashnikov", "lang": "Russian", "era": "1947", "note": "Mikhail Kalashnikov, a tank sergeant wounded in 1941, designed the AK-47 ('Avtomat Kalashnikova', model 1947), adopted by the Soviet army in 1949 and built at Izhevsk", "meaning": "the AK-47 rifle", "lat": 56.85, "lon": 53.2}, {"word": "Kalashnikov", "lang": "English", "era": "1970s", "note": "the most produced assault rifle in history; Mozambique has carried one on its flag since 1983", "meaning": "AK-47 assault rifle", "lat": 51.51, "lon": -0.13}], "current_meaning": "an AK-47 or related Soviet-designed assault rifle"}</script>

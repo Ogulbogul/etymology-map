@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "cilantro", "stops": [{"word": "koriannon", "lang": "Greek", "era": "ancient", "note": "coriander", "meaning": "coriander", "lat": 37.98, "lon": 23.73}, {"word": "coriandrum", "lang": "Latin", "era": "ancient", "note": "coriander", "meaning": "coriander", "lat": 41.9, "lon": 12.5}, {"word": "cilantro", "lang": "Spanish", "era": "medieval", "note": "sounds shifted from 'coriandro' to 'culantro' and 'cilantro'", "meaning": "coriander", "lat": 40.42, "lon": -3.7}, {"word": "cilantro", "lang": "American English", "era": "1920s", "note": "Americans use 'cilantro' for the leaves, while British English calls both leaves and seeds 'coriander'", "meaning": "coriander leaves", "lat": 29.42, "lon": -98.49}], "current_meaning": "the leaves of the coriander plant used as a herb"}</script>

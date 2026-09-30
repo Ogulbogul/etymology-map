@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "swastika", "stops": [{"word": "svastika", "lang": "Sanskrit", "era": "ancient", "note": "literally \"well-being\", an ancient auspicious symbol", "meaning": "well-being, good fortune", "lat": 25.32, "lon": 82.99}, {"word": "swastika", "lang": "English", "era": "1800s", "note": "Sanskrit 'well-being'; Schliemann's finds at Troy spread it as a symbol, and the Nazis adopted it in 1920", "meaning": "an ancient symbol of good fortune", "lat": 51.51, "lon": -0.13}], "current_meaning": "an ancient symbol of well-being, later co-opted as a symbol of Nazism"}</script>

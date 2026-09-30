@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "begum", "stops": [{"word": "beg + -um", "lang": "East Turkic", "era": "medieval", "note": "beg meant \"lord, chief\"; -um was a feminine suffix of nobility", "meaning": "lady, princess", "lat": 39.77, "lon": 64.42}, {"word": "begum", "lang": "Persian", "era": "medieval", "note": "feminine of the Turkic title 'beg', lord; Mughal royal women held the title", "meaning": "noblewoman", "lat": 32.65, "lon": 51.68}, {"word": "begam", "lang": "Urdu", "era": "1600s", "note": "used as a title for women of high rank under the Mughal Empire", "meaning": "Muslim noblewoman", "lat": 28.61, "lon": 77.21}, {"word": "begum", "lang": "English", "era": "1630s", "note": "entered English through British contact with Mughal and later South Asian courts", "meaning": "title for a Muslim woman of rank", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Muslim woman of high rank, or a title of respect for a married Muslim woman, especially in South Asia"}</script>

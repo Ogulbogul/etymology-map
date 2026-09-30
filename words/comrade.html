@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "comrade", "stops": [{"word": "camera", "lang": "Latin", "era": "ancient", "note": "the root of 'chamber'", "meaning": "room, chamber", "lat": 41.9, "lon": 12.5}, {"word": "camarada", "lang": "Spanish", "era": "1500s", "note": "a group sharing a room, especially soldiers in barracks; came via French 'camarade'", "meaning": "roommate, fellow soldier", "lat": 40.42, "lon": -3.7}, {"word": "comrade", "lang": "English", "era": "1590s", "note": "the socialist form of address dates from the 1880s", "meaning": "companion", "lat": 51.51, "lon": -0.13}], "current_meaning": "a companion who shares one's activities"}</script>

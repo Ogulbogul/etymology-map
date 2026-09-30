@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "sisig", "stops": [{"word": "sisig", "lang": "Kapampangan", "era": "medieval", "note": "originally meant a sour salad, later a sizzling dish of chopped pork parts", "meaning": "a sour salad, later a pork dish", "lat": 15.1, "lon": 120.6}, {"word": "sisig", "lang": "English", "era": "1900s", "note": "Kapampangan cooks in Angeles City made it famous; Lucia Cunanan, 'the Sisig Queen', created the sizzling version in 1974", "meaning": "a sizzling Filipino dish of chopped pork", "lat": 51.51, "lon": -0.13}], "current_meaning": "a sizzling Filipino dish made from chopped, seasoned pork parts"}</script>

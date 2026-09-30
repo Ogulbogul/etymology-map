@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "mustang", "stops": [{"word": "mesta", "lang": "Spanish", "era": "medieval", "note": "the powerful guild of Castilian sheep and cattle owners, which rounded up stray animals", "meaning": "stockmen's guild", "lat": 40.42, "lon": -3.7}, {"word": "mesteño", "lang": "Mexican Spanish", "era": "1600s", "note": "a stray, ownerless animal, belonging to the 'mesta'", "meaning": "stray animal", "lat": 19.43, "lon": -99.13}, {"word": "mustang", "lang": "American English", "era": "1800s", "note": "first recorded in 1808; descended from horses brought by the Spanish", "meaning": "wild horse", "lat": 29.42, "lon": -98.49}], "current_meaning": "a small wild or half-wild horse of the American West"}</script>

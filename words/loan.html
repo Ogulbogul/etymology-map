@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "loan", "stops": [{"word": "lán", "lang": "Old Norse", "era": "medieval", "note": "brought by Viking settlers, it displaced the native Old English cognate 'læn'", "meaning": "that which is lent; a gift from a superior", "lat": 60.4, "lon": 5.3}, {"word": "lone", "lang": "Middle English", "era": "late 1100s", "note": "replaced Old English 'lǣn', which survives in 'lend'", "meaning": "a thing lent, with expectation of return", "lat": 51.51, "lon": -0.13}, {"word": "loan", "lang": "English", "era": "1540s onward", "note": "gained a verb use and settled into its modern financial sense", "meaning": "money or property lent, usually with interest", "lat": 51.51, "lon": -0.13}], "current_meaning": "a sum of money or item lent, to be returned or repaid"}</script>

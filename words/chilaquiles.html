@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "chilaquiles", "stops": [{"word": "chīlāquīlli", "lang": "Nahuatl", "era": "pre-1500s", "note": "combined 'chilli' (chili pepper) and 'quilitl' (greens/herbs), describing chili-covered tortilla pieces", "meaning": "something covered in chili", "lat": 19.43, "lon": -99.13}, {"word": "chilaquiles", "lang": "Spanish", "era": "1571", "note": "first recorded in a Nahuatl-Spanish vocabulary compiled by the friar Alonso de Molina", "meaning": "fried tortilla pieces simmered in chili sauce", "lat": 19.43, "lon": -99.13}, {"word": "chilaquiles", "lang": "English", "era": "1970s", "note": "borrowed into English through Mexican breakfast cuisine", "meaning": "a Mexican dish of fried tortilla strips simmered in salsa", "lat": 51.51, "lon": -0.13}], "current_meaning": "a traditional Mexican breakfast dish of fried tortilla pieces simmered in red or green salsa"}</script>

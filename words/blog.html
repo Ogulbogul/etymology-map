@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "blog", "stops": [{"word": "log", "lang": "English", "era": "1500s", "note": "sailors measured speed with a wooden log on a knotted line, and recorded it in the 'log-book', giving 'log' as a daily record", "meaning": "ship's record", "lat": 51.51, "lon": -0.13}, {"word": "weblog", "lang": "American English", "era": "1997", "note": "Jorn Barger coined it in December 1997 for his site Robot Wisdom, a daily log of links from the World Wide Web", "meaning": "web journal", "lat": 41.88, "lon": -87.63}, {"word": "blog", "lang": "American English", "era": "1999", "note": "Peter Merholz jokingly split 'weblog' into 'we blog' on his site in 1999, and Blogger launched that August", "meaning": "online journal", "lat": 37.77, "lon": -122.42}], "current_meaning": "a regularly updated website written in an informal or conversational style"}</script>

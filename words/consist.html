@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "consist", "stops": [{"word": "sistere", "lang": "Latin", "era": "ancient", "note": "to stand, to place, combined with com- (together)", "meaning": "to stand, to place", "lat": 41.9, "lon": 12.5}, {"word": "consistere", "lang": "Latin", "era": "ancient", "note": "to stand together, to exist, to be composed of, from com- and sistere", "meaning": "to stand together, to be composed of", "lat": 41.9, "lon": 12.5}, {"word": "consist", "lang": "English", "era": "1500s", "note": "settled as the English word for being made up of particular parts", "meaning": "to be made up of particular parts or elements", "lat": 51.51, "lon": -0.13}], "current_meaning": "to be composed or made up of particular parts or elements"}</script>

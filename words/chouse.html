@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "chouse", "stops": [{"word": "çavuş", "lang": "Ottoman Turkish", "era": "1500s", "note": "a palace messenger or envoy; in the modern Turkish army it means sergeant", "meaning": "messenger, envoy", "lat": 41.01, "lon": 28.98}, {"word": "chouse", "lang": "English", "era": "1610s", "note": "first 'chiaus', a Turkish envoy; in 1609 an interpreter sent to London by Sir Robert Shirley swindled merchants of £4,000, and Jonson's 'The Alchemist' (1610) jokes about it", "meaning": "to cheat", "lat": 51.51, "lon": -0.13}], "current_meaning": "to cheat or swindle"}</script>

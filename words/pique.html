@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "pique", "stops": [{"word": "pic", "lang": "Old French", "era": "medieval", "note": "a word for a sharp point or spike", "meaning": "a sharp point, spike", "lat": 48.85, "lon": 2.35}, {"word": "piquer", "lang": "French", "era": "medieval", "note": "the related verb, meaning to prick or sting, developed a figurative sense of irritating", "meaning": "to prick, sting; to irritate", "lat": 48.85, "lon": 2.35}, {"word": "pique", "lang": "French", "era": "1500s", "note": "the noun named the sting of wounded pride", "meaning": "a prick; a feeling of resentment", "lat": 48.85, "lon": 2.35}, {"word": "pique", "lang": "English", "era": "1530s-1670s", "note": "entered as a noun for wounded self-respect, later also as a verb meaning to stimulate or excite", "meaning": "a feeling of irritation from wounded pride", "lat": 51.51, "lon": -0.13}], "current_meaning": "a feeling of irritation or resentment, especially due to wounded pride"}</script>

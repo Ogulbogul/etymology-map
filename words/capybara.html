@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "capybara", "stops": [{"word": "kapiyva", "lang": "Tupi", "era": "pre-1500s", "note": "literally 'grass-eater', naming the giant rodent of South American rivers", "meaning": "grass-eater", "lat": -12.97, "lon": -38.5}, {"word": "capivara", "lang": "Portuguese", "era": "1600s", "note": "Tupi 'eater of slender grass'", "meaning": "the world's largest rodent", "lat": -12.97, "lon": -38.5}, {"word": "capybara", "lang": "English", "era": "1770s", "note": "appeared as early as 1670 in the geographer John Ogilby's compilations of New World travel accounts", "meaning": "the largest living rodent, native to South America", "lat": 51.51, "lon": -0.13}], "current_meaning": "the world's largest living rodent, a semi-aquatic mammal native to South America"}</script>

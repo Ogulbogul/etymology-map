@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "molasses", "stops": [{"word": "mellaceus", "lang": "Latin", "era": "classical", "note": "from mel 'honey'; with no cane sugar, Romans sweetened with honey and defrutum, grape must boiled down to a syrup", "meaning": "honey-like", "lat": 41.9, "lon": 12.5}, {"word": "melaço", "lang": "Portuguese", "era": "1400s", "note": "Portugal's sugar plantations on Madeira, producing by the mid-1400s, left this dark syrup as the by-product of boiling cane juice; the industry then moved to São Tomé and Brazil", "meaning": "syrup from sugar refining", "lat": 32.65, "lon": -16.91}, {"word": "molasses", "lang": "English", "era": "1580s", "note": "spelled 'melasses' at first; it became a pillar of the Atlantic triangular trade, distilled into New England rum and taxed by Britain's Molasses Act of 1733", "meaning": "thick dark syrup from sugar cane", "lat": 51.51, "lon": -0.13}], "current_meaning": "thick dark syrup left over from refining sugar"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "troubadour", "stops": [{"word": "trobar", "lang": "Occitan", "era": "medieval", "note": "to compose, literally 'to find' (a poem or tune)", "meaning": "to compose, find", "lat": 43.6, "lon": 1.44}, {"word": "trobador", "lang": "Occitan", "era": "1100s", "note": "poets such as Guilhem IX, Duke of Aquitaine, invented the lyric of courtly love", "meaning": "poet-composer", "lat": 43.6, "lon": 1.44}, {"word": "troubadour", "lang": "French", "era": "1700s", "note": "revived by French scholars of medieval literature", "meaning": "troubadour", "lat": 48.85, "lon": 2.35}, {"word": "troubadour", "lang": "English", "era": "1720s", "note": "borrowed as interest in medieval poetry grew", "meaning": "lyric poet", "lat": 51.51, "lon": -0.13}], "current_meaning": "a medieval lyric poet of southern France; a singer of love songs"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "semolina", "stops": [{"word": "simila", "lang": "Latin", "era": "ancient", "note": "the finest wheat flour", "meaning": "fine flour", "lat": 41.9, "lon": 12.5}, {"word": "semolino", "lang": "Italian", "era": "1500s", "note": "a diminutive of 'semola', bran", "meaning": "semolina", "lat": 40.85, "lon": 14.27}, {"word": "semolina", "lang": "English", "era": "1790s", "note": "became a staple of British school puddings", "meaning": "wheat grains", "lat": 51.51, "lon": -0.13}], "current_meaning": "coarse grains of durum wheat used for pasta and puddings"}</script>

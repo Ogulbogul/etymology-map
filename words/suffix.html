@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "suffix", "stops": [{"word": "figere", "lang": "Latin", "era": "ancient", "note": "to fix, to fasten, combined with sub- (underneath)", "meaning": "to fix, to fasten", "lat": 41.9, "lon": 12.5}, {"word": "suffigere", "lang": "Latin", "era": "ancient", "note": "to fasten underneath, from sub- and figere", "meaning": "to fasten underneath", "lat": 41.9, "lon": 12.5}, {"word": "suffix", "lang": "English", "era": "1600s", "note": "settled as the English word for letters added to the end of a word", "meaning": "letters or a syllable added to the end of a word", "lat": 51.51, "lon": -0.13}], "current_meaning": "a letter or group of letters added to the end of a word to change its meaning or form"}</script>

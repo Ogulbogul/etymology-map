@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "craic", "stops": [{"word": "crack", "lang": "Scots", "era": "1700s", "note": "'chat, gossip', from the verb crack 'talk loudly'; Robert Burns's Epistle to J. Lapraik (1785) mentions gathering 'to ca' the crack'", "meaning": "chat, gossip", "lat": 55.95, "lon": -3.19}, {"word": "craic", "lang": "Irish", "era": "1970s", "note": "Ulster and Irish English used 'crack' for fun and banter; the Gaelic spelling craic, a borrowing back from English, spread from the 1970s", "meaning": "fun, good times", "lat": 53.35, "lon": -6.26}], "current_meaning": "(Irish) fun, lively conversation and a good time"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "corporation", "stops": [{"word": "corpus", "lang": "Latin", "era": "ancient", "note": "literally \"body\"; also used for a whole composed of united parts, a guild, or a political body", "meaning": "body; a united whole", "lat": 41.9, "lon": 12.5}, {"word": "corporatio", "lang": "Late Latin", "era": "medieval", "note": "originally used for the incarnation of Christ taking on a body", "meaning": "the assumption of a body", "lat": 41.9, "lon": 12.5}, {"word": "corporation", "lang": "English", "era": "1450s-1610s", "note": "first meant persons united in a body for a shared purpose; by the 1610s narrowed to the legal sense of an artificial person created by law", "meaning": "a legally authorized entity, an artificial person created by law", "lat": 51.51, "lon": -0.13}], "current_meaning": "a legal entity, such as a business or organization, authorized to act as a single person under the law"}</script>

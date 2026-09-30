@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "egregious", "stops": [{"word": "grex", "lang": "Latin", "era": "ancient", "note": "flock, herd, combined with ex- (out of)", "meaning": "flock, herd", "lat": 41.9, "lon": 12.5}, {"word": "egregius", "lang": "Latin", "era": "ancient", "note": "standing out from the flock, remarkable, from ex- and grex", "meaning": "standing out from the flock, remarkable", "lat": 41.9, "lon": 12.5}, {"word": "egregious", "lang": "English", "era": "1530s", "note": "settled as the English word originally for something outstandingly good, later shifting to outstandingly bad", "meaning": "originally outstandingly good, later shifted to outstandingly bad", "lat": 51.51, "lon": -0.13}], "current_meaning": "shockingly and remarkably bad or offensive"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "chemistry", "stops": [{"word": "khēmeía", "lang": "Greek", "era": "300s", "note": "the art of transmuting metals practised in Roman Egypt, as by Zosimos of Panopolis around 300; the name's origin is disputed (Greek khymos 'juice' or an Egyptian name for Egypt, Kemet)", "meaning": "transmutation", "lat": 31.2, "lon": 29.92}, {"word": "al-kīmiyāʾ", "lang": "Arabic", "era": "800s", "note": "Arabic added the article al-; writings attributed to Jabir ibn Hayyan made alchemy a major science of the Islamic world", "meaning": "alchemy", "lat": 33.31, "lon": 44.36}, {"word": "alchymia", "lang": "Medieval Latin", "era": "1100s", "note": "Robert of Chester's Latin translation of 1144 introduced Arabic alchemy to Europe", "meaning": "alchemy", "lat": 42.0, "lon": -1.6}, {"word": "chemistry", "lang": "English", "era": "1600s", "note": "the al- was dropped for the new science; Robert Boyle's The Sceptical Chymist (1661) attacked the alchemical view of elements", "meaning": "science of substances", "lat": 51.75, "lon": -1.25}], "current_meaning": "the science of the composition, properties and reactions of substances"}</script>

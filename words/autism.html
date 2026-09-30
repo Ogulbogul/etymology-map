@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "autism", "stops": [{"word": "autos", "lang": "Greek", "era": "ancient", "note": "'self', the root of 'automatic' and 'autonomy'", "meaning": "self", "lat": 37.98, "lon": 23.73}, {"word": "Autismus", "lang": "German", "era": "1911", "note": "coined in Zurich by the psychiatrist Eugen Bleuler for patients' withdrawal into themselves", "meaning": "self-absorption", "lat": 47.37, "lon": 8.54}, {"word": "autism", "lang": "English", "era": "1912", "note": "Leo Kanner's 1943 paper in Baltimore described it as a condition of its own; Hans Asperger's work in Vienna followed in 1944", "meaning": "developmental condition", "lat": 39.29, "lon": -76.61}], "current_meaning": "a developmental condition affecting communication, social interaction and patterns of behaviour"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "ashe", "stops": [{"word": "àṣẹ", "lang": "Yoruba", "era": "traditional", "note": "named the divine life force believed to animate gods, ancestors, and even spoken words", "meaning": "spiritual power or life force; also an affirmation like \"amen\"", "lat": 7.4905, "lon": 4.5521}, {"word": "axé", "lang": "Portuguese", "era": "1800s", "note": "creolized in Brazil as enslaved Yoruba people carried the concept into Candomblé practice", "meaning": "sacred force in Afro-Brazilian religion", "lat": -12.9718, "lon": -38.5011}, {"word": "ashe", "lang": "English", "era": "late 1900s", "note": "spread into English through Santería, Candomblé, and diaspora spiritual writing as an affirming exclamation", "meaning": "spiritual affirmation, \"so be it\"", "lat": 40.7128, "lon": -74.006}], "current_meaning": "a Yoruba-derived concept of divine life force, used in English as a spiritual affirmation similar to \"amen\""}</script>

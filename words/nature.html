@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "nature", "stops": [{"word": "nasci", "lang": "Latin", "era": "ancient", "note": "the root of 'nation', 'native' and 'natal'", "meaning": "to be born", "lat": 41.9, "lon": 12.5}, {"word": "natura", "lang": "Latin", "era": "ancient", "note": "birth, character, the essential qualities of a thing, from nasci (to be born)", "meaning": "birth, essential character", "lat": 41.9, "lon": 12.5}, {"word": "nature", "lang": "Old French", "era": "medieval", "note": "carried into French for the physical world and inherent character", "meaning": "the physical world, or inherent character", "lat": 48.85, "lon": 2.35}, {"word": "nature", "lang": "English", "era": "1200s", "note": "settled as the English word for the physical world and inherent qualities", "meaning": "the physical world, or the inherent qualities of something", "lat": 51.51, "lon": -0.13}], "current_meaning": "the physical world, or the inherent qualities and character of something"}</script>

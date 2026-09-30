@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "jaffa", "stops": [{"word": "Yafo", "lang": "Hebrew", "era": "ancient", "note": "one of the world's oldest ports, already named in Egyptian records of the 1400s BC; tradition links the name to 'yafe', beautiful", "meaning": "Jaffa (a port)", "lat": 32.05, "lon": 34.75}, {"word": "Yāfā", "lang": "Arabic", "era": "1800s", "note": "growers here developed the thick-skinned Shamouti orange in the mid-1800s, ideal for long sea voyages", "meaning": "Jaffa", "lat": 32.05, "lon": 34.75}, {"word": "Jaffa", "lang": "English", "era": "1880s", "note": "shipped to Britain in huge numbers; McVitie's launched Jaffa Cakes in 1927", "meaning": "Jaffa orange", "lat": 51.51, "lon": -0.13}], "current_meaning": "a large, thick-skinned sweet orange, named after the port of Jaffa"}</script>

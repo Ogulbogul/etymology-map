@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "penicillin", "stops": [{"word": "penicillus", "lang": "Latin", "era": "classical", "note": "'a little tail, a painter's brush', diminutive of penis 'tail'; also the source of 'pencil'", "meaning": "paintbrush", "lat": 41.9, "lon": 12.5}, {"word": "Penicillium", "lang": "New Latin", "era": "1809", "note": "the botanist Johann Link named this mould genus in 1809 for its brush-like spore stalks", "meaning": "brush mould", "lat": 52.52, "lon": 13.4}, {"word": "penicillin", "lang": "English", "era": "1929", "note": "Alexander Fleming noticed in 1928 that a stray mould killed bacteria on a culture plate at St Mary's Hospital, London, and named its active substance in 1929; Howard Florey and Ernst Chain's Oxford team made it a usable drug from 1940", "meaning": "antibiotic", "lat": 51.52, "lon": -0.17}], "current_meaning": "an antibiotic produced from Penicillium moulds"}</script>

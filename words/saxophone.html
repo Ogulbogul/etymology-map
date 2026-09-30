@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "saxophone", "stops": [{"word": "Sax", "lang": "French", "era": "1814", "note": "Adolphe Sax was born in 1814 at Dinant in Belgium, son of an instrument maker", "meaning": "a family name", "lat": 50.26, "lon": 4.91}, {"word": "saxophone", "lang": "French", "era": "1846", "note": "Sax + Greek phōnē 'voice, sound'; he patented the instrument in Paris in 1846", "meaning": "Sax's instrument", "lat": 48.85, "lon": 2.35}, {"word": "saxophone", "lang": "English", "era": "1850s", "note": "first a military-band instrument, it became the voice of jazz from the 1920s through players like Coleman Hawkins and later Charlie Parker", "meaning": "reed wind instrument", "lat": 51.51, "lon": -0.13}], "current_meaning": "a brass wind instrument with a single reed, common in jazz"}</script>

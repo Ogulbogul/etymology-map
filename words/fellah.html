@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "fellah", "stops": [{"word": "falaha", "lang": "Arabic", "era": "medieval", "note": "meant \"to plow, to till the soil\"", "meaning": "to plow", "lat": 30.04, "lon": 31.24}, {"word": "fallah", "lang": "Arabic", "era": "medieval", "note": "named the peasant farmer who worked the land", "meaning": "plowman, peasant", "lat": 30.04, "lon": 31.24}, {"word": "fellah", "lang": "English", "era": "1743", "note": "first recorded in 1743 in the travel account of Richard Pococke, who toured Egypt in the 1730s", "meaning": "Egyptian peasant farmer", "lat": 51.51, "lon": -0.13}], "current_meaning": "a peasant or agricultural laborer in Egypt or other Arab countries"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "nominal", "stops": [{"word": "nomen", "lang": "Latin", "era": "ancient", "note": "the root of 'noun', 'nominate' and 'renown'", "meaning": "name", "lat": 41.9, "lon": 12.5}, {"word": "nominalis", "lang": "Latin", "era": "ancient", "note": "of a name, in name only, from nomen", "meaning": "of a name, in name only", "lat": 41.9, "lon": 12.5}, {"word": "nominal", "lang": "English", "era": "1400s", "note": "settled as the English word for something existing in name only, or very small", "meaning": "existing in name only, or a very small amount", "lat": 51.51, "lon": -0.13}], "current_meaning": "existing in name only rather than in reality, or a very small amount"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kumiss", "stops": [{"word": "qımız", "lang": "Kipchak Turkic", "era": "medieval", "note": "the staple drink of steppe nomads; the friar William of Rubruck described it at the Mongol court in 1254", "meaning": "fermented mare's milk", "lat": 47.2, "lon": 102.8}, {"word": "kumys", "lang": "Russian", "era": "1600s-1800s", "note": "Russian doctors prescribed 'kumys cures' on the steppe for tuberculosis; Leo Tolstoy took one in the Samara steppe in 1862", "meaning": "fermented mare's milk", "lat": 53.2, "lon": 50.15}, {"word": "kumiss", "lang": "English", "era": "1600s", "note": "English followed the Russian form, since most Western travellers met the drink in Russian-ruled lands", "meaning": "fermented mare's milk", "lat": 51.51, "lon": -0.13}], "current_meaning": "fermented mare's milk, the traditional drink of Central Asian nomads"}</script>

@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "caipirinha", "stops": [{"word": "caipira", "lang": "Brazilian Portuguese", "era": "1800s", "note": "a backwoods countryman of São Paulo's interior, possibly from a Tupi word though the source is disputed; Monteiro Lobato's 1914 character Jeca Tatu fixed the stereotype", "meaning": "country bumpkin", "lat": -23.55, "lon": -46.63}, {"word": "caipirinha", "lang": "Brazilian Portuguese", "era": "1900s", "note": "'little bumpkin', a rustic cachaça-lime-sugar drink that a popular story places around Piracicaba in São Paulo state; Brazilian Decree 4,851 of 2003 defines it in law as a typically Brazilian drink", "meaning": "cachaça and lime cocktail", "lat": -22.73, "lon": -47.65}, {"word": "caipirinha", "lang": "English", "era": "1900s", "note": "spread through Brazilian bars abroad, and the International Bartenders Association lists it among its official cocktails", "meaning": "Brazilian cocktail", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Brazilian cocktail of cachaça, lime and sugar"}</script>

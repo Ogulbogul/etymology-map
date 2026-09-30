@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "ammonia", "stops": [{"word": "Amun", "lang": "Egyptian", "era": "ancient", "note": "name of the ram-headed god whose desert oracle-temple gave salt deposits nearby his name", "meaning": "a principal Egyptian deity, 'the hidden one'", "lat": 29.2, "lon": 25.52}, {"word": "Ammon", "lang": "Ancient Greek", "era": "ancient", "note": "Greeks renamed the god Ammon and the salts mined near his Libyan temple after him; Pliny the Elder's Latin 'sal hammoniacus' carried the name into European chemistry", "meaning": "the god, and by extension the salt from his temple's sands", "lat": 37.98, "lon": 23.73}, {"word": "ammonia", "lang": "English", "era": "1782", "note": "coined in scientific Latin by chemist Torbern Bergman for the pungent gas from sal ammoniac", "meaning": "a pungent alkaline gas, NH3", "lat": 51.51, "lon": -0.13}], "current_meaning": "A pungent, colorless alkaline gas (NH3) widely used in cleaning products, fertilizers, and industrial chemistry."}</script>

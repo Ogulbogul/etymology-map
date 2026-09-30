@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "conquistador", "stops": [{"word": "conquistare", "lang": "Latin", "era": "ancient", "note": "to seek out thoroughly, to conquer, from com- (thoroughly) and quaerere (to seek)", "meaning": "to conquer", "lat": 41.9, "lon": 12.5}, {"word": "conquistador", "lang": "Spanish", "era": "1500s", "note": "settled in Spanish for the soldiers and explorers who conquered the Americas", "meaning": "a Spanish conqueror of the Americas", "lat": 40.42, "lon": -3.7}, {"word": "conquistador", "lang": "English", "era": "1830s", "note": "popularized in English by William Prescott's histories of the conquest of Mexico (1843) and Peru", "meaning": "a Spanish conqueror, especially of the Americas", "lat": 51.51, "lon": -0.13}], "current_meaning": "a Spanish conqueror, especially one of those who conquered Mexico and Peru in the 1500s"}</script>

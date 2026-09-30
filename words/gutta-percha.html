@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "gutta-percha", "stops": [{"word": "getah perca", "lang": "Malay", "era": "1800s", "note": "getah 'sap, latex' plus perca, probably the tree's name; Malay workers moulded the hardened gum into knife handles", "meaning": "latex of the percha tree", "lat": 1.29, "lon": 103.85}, {"word": "gutta-percha", "lang": "English", "era": "1840s", "note": "William Montgomerie, a surgeon in Singapore, sent samples to London's Society of Arts in 1843; it insulated the first transatlantic telegraph cable in 1858 and made the 'guttie' golf ball", "meaning": "hard natural latex", "lat": 51.51, "lon": -0.13}], "current_meaning": "a hard rubbery latex from Malaysian trees, once used for cable insulation and dentistry"}</script>

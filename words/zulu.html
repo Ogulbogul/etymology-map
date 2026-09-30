@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "zulu", "stops": [{"word": "izulu", "lang": "Zulu", "era": "ancient", "note": "the root word from which the Zulu royal clan's founder took his name", "meaning": "sky, heaven", "lat": -29.86, "lon": 31.02}, {"word": "uZulu", "lang": "Zulu", "era": "c. 1709", "note": "his descendants and followers became known as amaZulu, 'the people of Zulu'", "meaning": "personal name of the founder of the amaZulu clan", "lat": -28.3, "lon": 31.42}, {"word": "Zulu", "lang": "English", "era": "1824", "note": "from the ancestor Zulu kaMalandela, whose name means 'heaven'; Shaka built the Zulu kingdom in the 1810s", "meaning": "the Zulu people or their language", "lat": 51.51, "lon": -0.13}], "current_meaning": "the Zulu people or language of southern Africa; also used for the letter Z in the NATO phonetic alphabet and for Coordinated Universal Time"}</script>

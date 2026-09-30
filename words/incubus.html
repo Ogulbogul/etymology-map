@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "incubus", "stops": [{"word": "incubāre", "lang": "Latin", "era": "ancient", "note": "to lie upon, the root of 'incubate'", "meaning": "to lie upon", "lat": 41.9, "lon": 12.5}, {"word": "incubus", "lang": "Late Latin", "era": "ancient", "note": "a nightmare demon; medieval demonology, as in the 'Malleus Maleficarum' of 1486, gave it lurid detail", "meaning": "nightmare demon", "lat": 41.9, "lon": 12.5}, {"word": "incubus", "lang": "English", "era": "1200s", "note": "also figuratively a crushing burden", "meaning": "demon; burden", "lat": 51.51, "lon": -0.13}], "current_meaning": "a male demon believed to lie upon sleeping women; a nightmare"}</script>

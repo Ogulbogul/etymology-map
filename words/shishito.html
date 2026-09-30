@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -134,9 +140,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "shishito", "stops": [{"word": "shishitō", "lang": "Japanese", "era": "Edo era", "note": "literally 'lion pepper', named for the wrinkled tip said to resemble a lion's mouth", "meaning": "a small, mild green pepper", "lat": 35.68, "lon": 139.65}, {"word": "shishito", "lang": "English", "era": "2010s", "note": "Japanese 'lion pepper', from the shape of its tip; about one in ten is hot", "meaning": "a small, mild Japanese green pepper, typically blistered and served as a snack", "lat": 40.71, "lon": -74.01}], "current_meaning": "a small, mild Japanese green pepper, commonly blistered and served as a snack"}</script>

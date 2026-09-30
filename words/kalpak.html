@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -147,9 +153,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "kalpak", "stops": [{"word": "qalpaq", "lang": "Turkic", "era": "medieval", "note": "a tall cap of the steppe peoples; the Karakalpaks, 'black hats', are named after it", "meaning": "cap", "lat": 42.46, "lon": 59.61}, {"word": "kalpak", "lang": "Ottoman Turkish", "era": "1800s", "note": "the fur kalpak worn by Mustafa Kemal and his fighters in 1919–22 became a symbol of the Turkish War of Independence", "meaning": "fur cap", "lat": 39.93, "lon": 32.86}, {"word": "calpac", "lang": "English", "era": "1810s", "note": "spelled 'calpac' by early 19th-century travellers in the Levant and the Caucasus", "meaning": "a Turkish or Tatar cap", "lat": 51.51, "lon": -0.13}], "current_meaning": "a tall felt or fur cap worn in Turkey and Central Asia"}</script>

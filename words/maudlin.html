@@ -23,8 +23,14 @@
   <div id="app">
     <header>
       <div class="header-top">
-        <a href="/index.html" class="site-brand">Etymology Map</a>
-        <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode">&#127769;</button>
+        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="header-right">
+          <a class="header-link" href="/about.html">About</a>
+          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
+        </span>
       </div>
       <a class="back-link" href="/index.html">
         <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
@@ -160,9 +166,11 @@
     </div>
 
     <footer class="site-footer">
-      <a href="/index.html">Etymology Map</a>
-      <a href="/about.html">About</a>
-      <a href="/privacy.html">Privacy Policy</a>
+      <span>Etymology Map</span>
+      <span class="footer-links">
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </span>
     </footer>
   </div>
   <script type="application/json" id="word-data">{"word": "maudlin", "stops": [{"word": "Magdala", "lang": "Aramaic", "era": "ancient", "note": "'tower', a fishing town on the Sea of Galilee; excavations since 2009 have uncovered a 1st-century synagogue there", "meaning": "tower (place name)", "lat": 32.82, "lon": 35.52}, {"word": "Magdalēnḗ", "lang": "Greek", "era": "ancient", "note": "the Gospels name her Maria hē Magdalēnē, Mary of Magdala, witness to the crucifixion and resurrection", "meaning": "of Magdala", "lat": 37.98, "lon": 23.73}, {"word": "Madelaine", "lang": "Old French", "era": "1100s", "note": "Vézelay Abbey in Burgundy claimed her relics from the 1000s and drew huge pilgrim crowds", "meaning": "Magdalene", "lat": 47.47, "lon": 3.75}, {"word": "maudlin", "lang": "English", "era": "1600s", "note": "from Middle English Maudelayne; she was painted weeping, so the name came to mean tearfully sentimental; Oxford's Magdalen College (founded 1458) is still pronounced 'Maudlin'", "meaning": "tearfully sentimental", "lat": 51.75, "lon": -1.25}], "current_meaning": "self-pityingly or tearfully sentimental"}</script>
