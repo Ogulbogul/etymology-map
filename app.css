@@ -565,7 +565,7 @@ html[data-view="globe"] #app[data-state="landing"] .globe-tools {
   position: absolute; right: 60px; top: 14px;
 }
 html[data-view="globe"] #app[data-state="landing"] .globe-host {
-  --size: var(--gsize, min(1200px, 80vw));
+  --size: var(--gsize, min(1080px, 72vw));
   width: var(--size);
   margin: 0 auto;
   margin-top: calc(var(--size) * 0.0652 * -1 + 10px);
@@ -630,24 +630,6 @@ html[data-view="globe"] #app[data-state="result"] .wod-card { display: none; }
 .stop-row:hover, .stop-row.active { border-color: var(--accent); }
 .stop-row.selected { border-color: var(--accent); background: var(--selected); }
 
-/* Globe view: the stage list becomes a timeline */
-html[data-view="globe"] .panel { display: block; }
-html[data-view="globe"] .stop-row {
-  display: grid; grid-template-columns: 28px 1fr; column-gap: 14px; width: 100%;
-  padding: 13px 14px; border: 1px solid transparent; border-top-color: var(--border);
-  border-radius: 0; background: transparent;
-}
-html[data-view="globe"] .stop-row.selected, html[data-view="globe"] .stop-row:hover {
-  border: 1px solid var(--accent); border-radius: 10px; background: var(--selected);
-}
-html[data-view="globe"] .stop-circle { width: 28px; height: 28px; font-size: 13px; align-self: start; }
-html[data-view="globe"] .stop-body { display: block; grid-column: 2; }
-html[data-view="globe"] .stop-order { display: none; }
-html[data-view="globe"] .stop-main { margin-top: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-html[data-view="globe"] .stop-lang-era { margin: 0; }
-html[data-view="globe"] .stop-sub { margin-top: 2px; font-size: 13.5px; color: var(--text-dim); }
-html[data-view="globe"] .stop-meaning, html[data-view="globe"] .stop-note { display: inline; font-size: 13.5px; }
-html[data-view="globe"] .stop-meaning::after { content: ", "; }
 
 .globe-actions { display: none; gap: 10px; margin-top: 16px; }
 html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
@@ -830,7 +812,6 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
   html[data-view="globe"] #app[data-state="landing"] .globe-caption { position: static; margin-top: 4px; }
   html[data-view="globe"] #app[data-state="landing"] .wod-card { position: static; left: auto; top: auto; }
   html[data-view="globe"] #app[data-state="result"] .globe-tools { position: relative; margin-bottom: 4px; }
-  html[data-view="globe"] .stop-row { padding: 12px 10px; }
   .site-footer { padding: 14px 16px; flex-wrap: wrap; }
   .site-footer a { display: inline-flex; align-items: center; min-height: 44px; }
   .footer-links { gap: 14px; }
@@ -921,7 +902,7 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
   html[data-view="globe"] #app[data-state="result"] .globe-stage {
     height: auto; overflow: visible;
   }
-  html[data-view="globe"] #app[data-state="result"] .stage { --gsize: min(1200px, 80vw); margin-top: 44px; overflow-x: clip; }
+  html[data-view="globe"] #app[data-state="result"] .stage { --gsize: min(1080px, 72vw); margin-top: 44px; overflow-x: clip; }
   html[data-view="globe"] #app[data-state="result"] .globe-host { --size: var(--gsize); }
   html[data-view="globe"] #app[data-state="result"] .globe-caption { position: absolute; top: 14px; left: 60px; bottom: auto; right: auto; justify-content: flex-start; margin: 0; }
   /* The stage strip: one joined card laid over the lower part of the globe */
@@ -962,7 +943,7 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
 
 /* Whole sphere visible on the homepage, too; content floats over its lower half */
 @media (min-width: 961px) {
-  html[data-view="globe"] #app[data-state="landing"] .stage { --gsize: min(1200px, 80vw); margin-top: 44px; overflow-x: clip; }
+  html[data-view="globe"] #app[data-state="landing"] .stage { --gsize: min(1080px, 72vw); margin-top: 44px; overflow-x: clip; }
   html[data-view="globe"] #app[data-state="landing"] .origin-browse {
     position: relative; z-index: 6; margin-top: calc(var(--gsize) * -0.385 - 10px);
   }
@@ -1235,15 +1216,21 @@ html.view-leaving-globe #wod-card { opacity: 0; transition: opacity 0.25s ease; 
    same width, and the same distance below the top of the map/globe area. */
 @media (min-width: 961px) {
   html[data-view="globe"] #app[data-state="result"] #result-area {
-    margin-top: calc(566px - var(--gsize) * 0.74);
+    margin-top: calc(509px - var(--gsize) * 0.74);
     max-width: 1108px; padding: 0 16px;
   }
   html[data-view="globe"] #app[data-state="result"] #related-words {
     max-width: 1108px; padding: 0 16px; width: 100%; margin-left: auto; margin-right: auto; box-sizing: border-box;
   }
-  html[data-view="globe"] #app[data-state="result"] .globe-stage::after { top: calc(566px + var(--pad) - 150px); }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage::after { top: calc(509px + var(--pad) - 150px); }
 }
 @media (min-width: 961px) {
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { clip-path: inset(-400px -50vw 0 -50vw); }
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { clip-path: inset(-400px -50vw 8px -50vw); }
+}
+
+/* Desktop: 90% map, cards a little higher */
+@media (min-width: 961px) {
+  .map-stage { height: 400px; }
+  #app[data-state="result"] .result-area { margin-top: 8px; }
 }
