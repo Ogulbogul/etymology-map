@@ -924,15 +924,13 @@ html.view-to-map #map-card .wod-card { animation: rise-in 0.5s ease 0.3s both; }
   .chip-arrow { color: var(--accent-text); }
 
   html[data-view="globe"] #app[data-state="result"] .globe-stage {
-    height: clamp(500px, 47vw, 700px);
+    height: auto; overflow: visible;
   }
+  html[data-view="globe"] #app[data-state="result"] .stage { --gsize: min(1500px, 100vw); margin-top: 64px; overflow-x: clip; }
+  html[data-view="globe"] #app[data-state="result"] .globe-host { --size: var(--gsize); }
   html[data-view="globe"] #app[data-state="result"] .globe-caption { position: absolute; top: 14px; left: 60px; bottom: auto; right: auto; justify-content: flex-start; margin: 0; }
-  html[data-view="globe"] #app[data-state="result"] .globe-stage::after {
-    content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 38%; pointer-events: none; z-index: 4;
-    background: linear-gradient(to bottom, transparent, var(--bg));
-  }
   /* The stage strip: one joined card laid over the lower part of the globe */
-  html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: -190px; position: relative; z-index: 6; }
+  html[data-view="globe"] #app[data-state="result"] #result-area { margin-top: calc(var(--gsize, 1500px) * -0.535 - 40px); position: relative; z-index: 6; }
   html[data-view="globe"] #app[data-state="result"] .origin-sentence { display: none; }
   html[data-view="globe"] #app[data-state="result"] .panel {
     display: flex; gap: 0; border: 1px solid var(--border); border-radius: 14px; overflow: hidden;
