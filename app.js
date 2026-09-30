@@ -305,7 +305,7 @@ function setupWordList() {
     else closeWordList();
   });
   wordlistCloseBtn.addEventListener("click", closeWordList);
-  // The notch closes the phone sheet with a tap or a swipe down.
+  // The notch closes the phone sheet with a swipe down (a tap does nothing).
   const handle = wordlistPanel.querySelector(".sheet-handle");
   let dragY = null;
   handle.addEventListener("pointerdown", (e) => { dragY = e.clientY; handle.setPointerCapture(e.pointerId); });
@@ -313,7 +313,7 @@ function setupWordList() {
     if (dragY === null) return;
     const dy = e.clientY - dragY;
     dragY = null;
-    if (Math.abs(dy) < 6 || dy > 40) closeWordList();
+    if (dy > 40) closeWordList();
   });
   handle.addEventListener("pointercancel", () => { dragY = null; });
   wordlistOriginSelect.addEventListener("change", () => {
