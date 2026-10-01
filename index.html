@@ -142,8 +142,15 @@
         </div>
         <div id="map-stage" class="map-stage">
           <svg id="map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="World map">
+            <defs>
+              <linearGradient id="land-fade-g" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.12" stop-color="#fff"/>
+                <stop offset="0.9" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+              </linearGradient>
+              <mask id="land-fade" maskUnits="userSpaceOnUse" x="-1000" y="0" width="3000" height="500"><rect x="-1000" y="0" width="3000" height="500" fill="url(#land-fade-g)"/></mask>
+            </defs>
             <g id="zoom-layer">
-              <g id="land-layer"></g>
+              <g id="land-layer" mask="url(#land-fade)"></g>
               <g id="path-layer"></g>
             </g>
             <g id="arrow-layer"></g>

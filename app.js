@@ -582,6 +582,13 @@ async function loadMap() {
     pathEl.setAttribute("d", pathGen(land));
     pathEl.setAttribute("class", "land-path");
     landLayer.appendChild(pathEl);
+    // Repeat the world to the west and east so zooming out (phones) shows a continuous
+    // world instead of a floating rectangle with hard edges.
+    [-MAP_WIDTH, MAP_WIDTH].forEach((dx) => {
+      const copy = pathEl.cloneNode();
+      copy.setAttribute("transform", `translate(${dx} 0)`);
+      landLayer.appendChild(copy);
+    });
 
     projectPoint = (lon, lat) => projection([lon, lat]);
     mapLandFeature = land;
@@ -787,8 +794,8 @@ const PAN_MARGIN = 150;
 
 function clampView(next) {
   const k = clamp(next.k, minZoom(), MAX_ZOOM);
-  const minX = PAN_MARGIN - MAP_WIDTH * k;
-  const maxX = MAP_WIDTH - PAN_MARGIN;
+  const minX = PAN_MARGIN - MAP_WIDTH * k * 1.5;
+  const maxX = MAP_WIDTH * 0.5 - PAN_MARGIN + MAP_WIDTH * 0.5;
   const minY = PAN_MARGIN - MAP_HEIGHT * k;
   const maxY = MAP_HEIGHT - PAN_MARGIN;
   return {
