@@ -113,7 +113,7 @@ h1{margin:0;font-size:20px;letter-spacing:-.01em}
 .jump a:hover{border-color:var(--accent);color:var(--accent)}
 section{scroll-margin-top:64px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
-@media (min-width:1100px){.kpis{grid-template-columns:repeat(6,1fr);margin-top:12px}}
+@media (min-width:1100px){.kpis{grid-template-columns:repeat(7,1fr);margin-top:12px}}
 .kpi{all:unset;box-sizing:border-box;cursor:pointer;background:var(--panel);border:1px solid var(--border);border-radius:calc(var(--r) - 2px);padding:10px 14px 8px;display:flex;flex-direction:column;gap:1px}
 .kpi:hover{border-color:var(--accent)}
 .kpi:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -381,7 +381,7 @@ export async function onRequestGet({ request, env }) {
   const prevSince = isoDay(Date.parse(since + "T00:00:00Z") - days * 86400000);
   const q = (sql, ...args) => env.DB.prepare(sql).bind(since, until, ...args).all().then((r) => r.results);
 
-  const [daily, prevTotals, misses, views, stories, shares, times, notFound, wordSet] = await Promise.all([
+  const [daily, prevTotals, misses, views, stories, shares, times, notFound, gameRows, wordSet] = await Promise.all([
     env.DB.prepare("SELECT day, type, SUM(count) AS n, SUM(seconds) AS s FROM daily_counts WHERE day >= ?1 AND day <= ?2 GROUP BY day, type")
       .bind(chartSince, today)
       .all()
@@ -401,6 +401,7 @@ export async function onRequestGet({ request, env }) {
         "ON t.key = v.key WHERE v.n >= 3 ORDER BY secs * 1.0 / v.n DESC LIMIT 50"
     ),
     q("SELECT key, SUM(count) AS n FROM daily_counts WHERE day >= ?1 AND day <= ?2 AND type = '404' GROUP BY key ORDER BY n DESC LIMIT 50"),
+    q("SELECT key, SUM(count) AS n FROM daily_counts WHERE day >= ?1 AND day <= ?2 AND type = 'game' GROUP BY key"),
     loadWordSet(env, request),
   ]);
 
@@ -408,7 +409,7 @@ export async function onRequestGet({ request, env }) {
   const dayList = [];
   for (let t = Date.parse(chartSince + "T00:00:00Z"); isoDay(t) <= today; t += 86400000) dayList.push(isoDay(t));
   const idx = new Map(dayList.map((d, i) => [d, i]));
-  const ids = ["view", "miss", "story", "share", "404"];
+  const ids = ["view", "miss", "story", "share", "404", "game"];
   const series = Object.fromEntries(ids.map((id) => [id, dayList.map(() => 0)]));
   const secs = dayList.map(() => 0);
   const cur = Object.fromEntries(ids.map((id) => [id, 0]));
@@ -436,11 +437,23 @@ export async function onRequestGet({ request, env }) {
   const avgCur = cur.view ? curSecs / cur.view : 0;
   const avgPrev = prev.view ? prevSecs / prev.view : 0;
 
+  // Games played (the /play game): one count per finished game, in 50-point score buckets
+  // (key d:<bucket> = daily game, p:<bucket> = practice). The average is therefore approximate.
+  const gameModes = { d: { n: 0, sum: 0 }, p: { n: 0, sum: 0 } };
+  for (const r of gameRows) {
+    const m = gameModes[String(r.key).charAt(0)];
+    const b = Number(String(r.key).slice(2));
+    if (!m || !Number.isFinite(b)) continue;
+    m.n += r.n;
+    m.sum += r.n * Math.min(5000, b + 25);
+  }
+
   const kpis = [
     { m: "view", label: "Word views", value: fmtNum(cur.view), d: delta(cur.view, prev.view) },
     { m: "miss", label: "Missing searches", value: fmtNum(cur.miss), d: delta(cur.miss, prev.miss) },
     { m: "story", label: "Full stories", value: fmtNum(cur.story), d: delta(cur.story, prev.story) },
     { m: "share", label: "Shares", value: fmtNum(cur.share), d: delta(cur.share, prev.share) },
+    { m: "game", label: "Games played", value: fmtNum(cur.game), d: delta(cur.game, prev.game) },
     { m: "time", label: "Avg time / view", value: fmtSecs(avgCur), d: delta(avgCur, avgPrev) },
     { m: "404", label: "404 hits", value: fmtNum(cur["404"]), d: delta(cur["404"], prev["404"], true) },
   ];
@@ -474,6 +487,17 @@ export async function onRequestGet({ request, env }) {
       rows: times.map((r) => ({ label: r.key, sub: `${fmtNum(r.views)} views`, value: fmtSecs(r.secs / r.views), bar: r.secs / r.views })),
     }),
     rankCard({ id: "stories", title: "Full story opened", rows: stories.map((r) => ({ label: r.key, value: fmtNum(r.n), bar: r.n })) }),
+    rankCard({
+      id: "games",
+      title: "Games played",
+      note: "Finished games of /play, not counting visitors who send Do Not Track. Average score is approximate (50-point steps).",
+      rows: [
+        ["Daily game", gameModes.d],
+        ["Practice", gameModes.p],
+      ]
+        .filter(([, m]) => m.n)
+        .map(([label, m]) => ({ label, sub: `avg ${fmtNum(Math.round(m.sum / m.n))} points`, value: fmtNum(m.n), bar: m.n })),
+    }),
     rankCard({ id: "shares", title: "Shared", rows: shares.map((r) => ({ label: r.key, value: fmtNum(r.n), bar: r.n })) }),
     rankCard({
       id: "notfound",
@@ -492,6 +516,7 @@ export async function onRequestGet({ request, env }) {
       miss: "Missing-word searches",
       story: "Full stories opened",
       share: "Shares",
+      game: "Games played",
       time: "Average time per view",
       "404": "404 hits",
     },
@@ -539,6 +564,7 @@ export async function onRequestGet({ request, env }) {
     ["time", "Time on page"],
     ["stories", "Stories"],
     ["shares", "Shares"],
+    ["games", "Games"],
     ["notfound", "404s"],
   ]
     .map(([id, label]) => `<a href="#${id}">${label}</a>`)

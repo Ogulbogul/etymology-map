@@ -1,4 +1,5 @@
 import { icon, hydrateIcons } from "./icons.js";
+import "./hint.js";
 import { createGlobe } from "./globe.js";
 import { buildShareCard as buildShareCardImage } from "./sharecard.js";
 
