@@ -724,6 +724,9 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
   border-top: 1px solid var(--hair);
   font-size: 13px; color: var(--text-dim);
 }
+.site-footer { flex-wrap: wrap; }
+.footer-about { flex: 1 0 100%; margin: 0; padding: 22px max(0px, calc(100% - 780px)) 6px 0; font-size: 13px; line-height: 1.6; }
+#app[data-state="result"] .footer-about { display: none; }
 .footer-links { display: flex; gap: 22px; }
 .site-footer a { color: var(--text-dim); text-decoration: none; }
 .site-footer a:hover { color: var(--accent-text); }

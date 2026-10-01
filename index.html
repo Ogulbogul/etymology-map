@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Etymology Map</title>
+<title>Etymology Map: Trace the Journey of English Words</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png" />
@@ -17,10 +17,10 @@
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="Etymology Map: trace the journey of words across a world map" />
 <meta property="og:url" content="https://etymologymap.com/" />
-<meta property="og:title" content="Etymology Map" />
+<meta property="og:title" content="Etymology Map: Trace the Journey of English Words" />
 <meta property="og:description" content="Trace any English word back through the languages it traveled on its way here, plotted stage by stage on a real world map." />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Etymology Map" />
+<meta name="twitter:title" content="Etymology Map: Trace the Journey of English Words" />
 <meta name="twitter:description" content="Trace any English word back through the languages it traveled on its way here, plotted stage by stage on a real world map." />
 <meta name="twitter:image" content="https://etymologymap.com/og-image.png" />
 <meta name="twitter:image:alt" content="Etymology Map: trace the journey of words across a world map" />
@@ -38,6 +38,12 @@
   }
 </script>
 <link rel="stylesheet" href="app.css" />
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="modulepreload" href="app.js" />
+<link rel="modulepreload" href="icons.js" />
+<link rel="modulepreload" href="globe.js" />
+<link rel="modulepreload" href="sharecard.js" />
+<link rel="preload" href="data/words-index.json" as="fetch" crossorigin />
 </head>
 <body>
   <div id="app" data-state="landing">
@@ -270,6 +276,7 @@
     </div>
 
     <footer class="site-footer">
+      <p class="footer-about">Etymology Map is a free word-origin explorer. Search any word to see the languages it travelled through on its way into English, from Latin, Greek, Arabic and Old French to Sanskrit and beyond, plotted stage by stage on a world map with a short story for each step.</p>
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="about.html">About</a>

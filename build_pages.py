@@ -252,6 +252,10 @@ def render_word_page(word, entry, word_index):
     )
     assert n_ld == 1, "index.html is missing the ld-json block"
 
+    # the home page's descriptive footer text is not repeated on every word page
+    html, n_fa = re.subn(r'\s*<p class="footer-about">.*?</p>', "", html, count=1, flags=re.S)
+    assert n_fa == 1, "index.html is missing the footer-about paragraph"
+
     html = _absolutize(html)
 
     # --- page mode
