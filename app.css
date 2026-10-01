@@ -1308,3 +1308,8 @@ html.view-leaving-map #map { opacity: 0; transition: opacity 0.42s ease; }
 /* Promote the animated layers so the page underneath is not repainted every frame */
 html.view-to-globe #globe-stage .globe-host, html.view-leaving-globe #globe-stage .globe-host { will-change: transform, opacity; }
 html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
+
+/* Phones and tablets, globe view: "Try this word" comes after the globe, like under the map */
+@media (max-width: 960px) {
+  html[data-view="globe"] #globe-stage .wod-card { order: 5; flex: 0 0 100%; width: 100% !important; max-width: none; margin-top: 8px; }
+}
