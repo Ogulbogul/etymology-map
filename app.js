@@ -78,6 +78,12 @@ const traceIconBtn = document.getElementById("trace-icon-btn");
 const hintEl = document.getElementById("hint");
 const messageEl = document.getElementById("message");
 const heroTitleEl = document.getElementById("hero-title");
+// A word page (words/<slug>) is the result view pre-filled for one word.
+const WORD_PAGE = document.body.dataset.page === "word";
+let embeddedEntry = null;
+if (WORD_PAGE) {
+  try { embeddedEntry = JSON.parse(document.getElementById("word-data").textContent); } catch (err) { embeddedEntry = null; }
+}
 const resultHeroEl = document.getElementById("result-hero");
 const resultWordTextEl = document.getElementById("result-word-text");
 const heroMeaningEl = document.getElementById("hero-meaning");
@@ -196,7 +202,7 @@ function clamp(value, min, max) {
 
 async function loadWordIndex() {
   try {
-    const res = await fetch("data/words-index.json");
+    const res = await fetch("/data/words-index.json");
     wordIndex = await res.json();
   } catch (err) {
     wordIndex = {};
@@ -214,9 +220,10 @@ async function loadWordIndex() {
 // the page can show "no match" and "couldn't load" as different states.
 class LoadError extends Error {}
 async function fetchWordEntry(word) {
+  if (WORD_PAGE && embeddedEntry && embeddedEntry.word === word) return embeddedEntry;
   let res;
   try {
-    res = await fetch(`data/words/${encodeURIComponent(word)}.json`);
+    res = await fetch(`/data/words/${encodeURIComponent(word)}.json`);
   } catch (err) {
     throw new LoadError(String(err));
   }
@@ -502,6 +509,7 @@ function resetToHome() {
 
 function setupHomeLink() {
   homeLink.addEventListener("click", (e) => {
+    if (WORD_PAGE) return; // a real link on word pages
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
     resetToHome();
@@ -568,7 +576,7 @@ async function loadMap() {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
       import("./vendor/d3-geo.js"),
       import("./vendor/topojson-client.js"),
-      fetch("vendor/land-110m.json"),
+      fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
     const topology = await landResp.json();
@@ -1679,6 +1687,7 @@ function escapeHtml(str) {
 // buttons) use replaceState instead, so they don't pile up new history.
 
 function updateUrlForWord(word, replace) {
+  if (WORD_PAGE) return; // the word page's own URL stays as it is
   const url = new URL(window.location.href);
   url.searchParams.set("word", word);
   if (replace) history.replaceState({ word }, "", url);
@@ -1696,7 +1705,7 @@ async function trace(options = {}) {
   const skeletonEl = document.getElementById("skeleton");
   document.getElementById("skeleton-word").textContent = raw;
   // Skeleton on phones only, and only if the word takes a moment to arrive.
-  const useSkeleton = window.innerWidth <= 640;
+  const useSkeleton = window.innerWidth <= 640 && !WORD_PAGE;
   const showTimer = useSkeleton
     ? setTimeout(() => { skeletonEl.hidden = false; appEl.classList.add("is-loading"); }, 180)
     : null;
@@ -1736,6 +1745,7 @@ function initFromUrl() {
 }
 
 window.addEventListener("popstate", () => {
+  if (WORD_PAGE) return;
   const word = new URLSearchParams(window.location.search).get("word");
   if (word) {
     wordInput.value = word;
@@ -2058,7 +2068,7 @@ async function buildShareCard(word, entry, points, colors) {
     projection: mapProjection,
     d3geo: d3geoModule,
     wordCount: Object.keys(wordIndex).length,
-    iconUrl: "favicon.svg",
+    iconUrl: "/favicon.svg",
   });
 }
 
@@ -2285,6 +2295,16 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
   await Promise.all([loadWordIndex(), loadMap()]);
   if (Object.keys(wordIndex).length === 0) {
     showLoadError(() => window.location.reload());
+    return;
+  }
+  if (WORD_PAGE) {
+    setMapView(currentView, { save: false });
+    syncGlobeVariant();
+    wordInput.value = document.body.dataset.word;
+    await trace({ fromUrl: true });
+    document.getElementById("seo-static").setAttribute("aria-hidden", "true");
+    const stop = Number(new URLSearchParams(window.location.search).get("stop"));
+    if (stop >= 1 && lastEntry && stop <= lastEntry.stops.length) selectStop(stop - 1);
     return;
   }
   renderExampleChips();

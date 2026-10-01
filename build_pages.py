@@ -2,8 +2,8 @@
 """Generates a static HTML page per word under words/<slug>.html, so every
 word has real, unique, crawlable content (title, meta description, full
 stage-by-stage breakdown) in the raw HTML response instead of everything
-being built client-side by word.js. The interactive map itself is still
-rendered by word.js on top of this; only the text content is pre-baked.
+being built client-side. The interactive map itself is built by app.js
+on top of this (the same code as the home page); the text is pre-baked.
 
 Run standalone to rebuild every page from data/words/*.json:
     python build_pages.py
@@ -163,7 +163,22 @@ def build_narrative(word, stops, current_meaning):
     return " ".join(p for p in parts if p)
 
 
+def _absolutize(html):
+    """Turn the home page's relative asset links into root-absolute ones, so the
+    same markup works from /words/<slug>."""
+    return re.sub(
+        r'(href|src)="(?!/|https?:|#|mailto:|data:)([^"]+)"',
+        lambda m: f'{m.group(1)}="/{m.group(2)}"',
+        html,
+    )
+
+
 def render_word_page(word, entry, word_index):
+    """A word page is the home page's result view, pre-filled for one word: the
+    same header, map/globe frame, stage cards and story, so a page never looks
+    or behaves differently from a search result. The headline, route chips and
+    all the text (visually hidden) are in the raw HTML for crawlers and for a
+    layout that does not jump when the scripts arrive."""
     slug = slugify(word)
     display_word = word[:1].upper() + word[1:]
     stops = entry["stops"]
@@ -178,175 +193,79 @@ def render_word_page(word, entry, word_index):
     )
     canonical = f"{SITE_URL}/words/{slug}"
 
-    stop_rows = []
-    for idx, stop in enumerate(stops):
-        stop_rows.append(f"""
-      <a class="stop-row" href="/words/{slug}?stop={idx + 1}" title="View {esc(stop['word'])}'s stage" data-idx="{idx}">
-        <div class="stop-marker">
-          <div class="stop-circle">{idx + 1}</div>
-          <div class="stop-connector"></div>
-        </div>
-        <div class="stop-card">
-          <div class="stop-order">Stage {idx + 1} of {total}</div>
-          <div class="stop-word">{esc(stop['word'])}</div>
-          <div class="stop-lang-era">{esc(stop['lang'])} &middot; {esc(stop['era'])}</div>
-          <div class="stop-meaning">&quot;{esc(stop['meaning'])}&quot;</div>
-          <div class="stop-note">{esc(stop['note'])}</div>
-        </div>
-      </a>""")
-    panel_html = "".join(stop_rows)
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
 
-    trail_parts = []
-    for idx, stop in enumerate(stops):
-        if idx > 0:
-            trail_parts.append('<span class="trail-arrow">→</span>')
-        trail_parts.append(
-            f'<a class="trail-item" href="/words/{slug}?stop={idx + 1}" '
-            f'title="View {esc(stop["word"])}\'s stage" data-idx="{idx}">{esc(stop["word"])}</a>'
-        )
-    trail_html = "".join(trail_parts)
+    # --- head metadata
+    html = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", html, count=1, flags=re.S)
+    html = re.sub(r'<meta name="description" content="[^"]*" />', f'<meta name="description" content="{esc(description)}" />', html, count=1)
+    html = re.sub(r'<link rel="canonical" href="[^"]*" />', f'<link rel="canonical" href="{canonical}" />', html, count=1)
+    html = re.sub(r'<meta property="og:url" content="[^"]*" />', f'<meta property="og:url" content="{canonical}" />', html, count=1)
+    html = re.sub(r'<meta property="og:title" content="[^"]*" />', f'<meta property="og:title" content="{esc(title)}" />', html, count=1)
+    html = re.sub(r'<meta property="og:description" content="[^"]*" />', f'<meta property="og:description" content="{esc(description)}" />', html, count=1)
+    html = re.sub(r'<meta name="twitter:title" content="[^"]*" />', f'<meta name="twitter:title" content="{esc(title)}" />', html, count=1)
+    html = re.sub(r'<meta name="twitter:description" content="[^"]*" />', f'<meta name="twitter:description" content="{esc(description)}" />', html, count=1)
 
-    candidates = sorted(k for k, v in word_index.items() if k != word and v == origin_lang)
-    picks = candidates[:8]
-    related_items = "".join(
-        f'<a class="related-word-item" href="/words/{slugify(w)}">{esc(w)}</a>' for w in picks
+    html = _absolutize(html)
+
+    # --- page mode
+    html = html.replace("<body>", f'<body data-page="word" data-word="{esc(word)}" data-slug="{slug}">', 1)
+    html = html.replace('<div id="app" data-state="landing">', '<div id="app" data-state="result">', 1)
+    html = html.replace(
+        '<section class="hero">',
+        '<section class="hero">\n      <div class="back-wrap"><a class="back-pill" href="/index.html"><span aria-hidden="true">&larr;</span> Back to all words</a></div>',
+        1,
     )
-    related_hidden = "" if picks else " hidden"
-    related_html = f"""
-    <section id="related-words" class="related-words"{related_hidden}>
-      <h2 class="related-words-title">More words from <span id="related-words-lang">{esc(origin_lang)}</span></h2>
-      <div id="related-words-grid" class="related-words-grid">{related_items}</div>
-    </section>"""
 
-    origin_sentence = build_origin_sentence(word, stops)
-    narrative_html = build_narrative(word, stops, entry["current_meaning"])
-    word_json = json.dumps({"word": word, **entry}, ensure_ascii=False)
+    # --- pre-filled headline, so nothing jumps when the scripts arrive
+    hero_old = """<div id="result-hero" class="result-hero" hidden>
+        <div class="eyebrow">Today it means</div>
+        <h2 id="result-word-text" class="result-word"></h2>
+        <p id="hero-meaning" class="hero-meaning"></p>
+      </div>"""
+    assert hero_old in html
+    html = html.replace(
+        hero_old,
+        f'''<div id="result-hero" class="result-hero">
+        <div class="eyebrow">Today it means</div>
+        <h1 id="result-word-text" class="result-word">{esc(word)}</h1>
+        <p id="hero-meaning" class="hero-meaning">{esc(entry["current_meaning"])}</p>
+      </div>''',
+        1,
+    )
+    # one h1 per page: the headline word
+    html = html.replace('<h1 id="hero-title" class="hero-title">Trace the journey of words</h1>', '<p id="hero-title" class="hero-title">Trace the journey of words</p>', 1)
+    chips = []
+    for idx, stop in enumerate(stops):
+        if idx:
+            chips.append('<span class="chip-arrow" aria-hidden="true">&rarr;</span>')
+        chips.append(f'<button type="button" class="route-chip" data-idx="{idx}">{esc(stop["word"])}</button>')
+    html = html.replace(
+        '<div id="route-chips" class="route-chips" aria-label="Stages" hidden></div>',
+        f'<div id="route-chips" class="route-chips" aria-label="Stages">{"".join(chips)}</div>',
+        1,
+    )
 
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title id="page-title">{esc(title)}</title>
-<meta id="meta-description" name="description" content="{esc(description)}" />
-<link rel="canonical" href="{canonical}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{canonical}" />
-<meta id="og-title" property="og:title" content="{esc(title)}" />
-<meta id="og-description" property="og:description" content="{esc(description)}" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{esc(title)}" />
-<meta name="twitter:description" content="{esc(description)}" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<link rel="stylesheet" href="/style.css" />
-</head>
-<body data-word="{esc(word)}" data-slug="{slug}">
-  <div id="app">
-    <header>
-      <div class="header-top">
-        <a href="/index.html" class="site-brand" aria-label="Etymology Map, home">
-          <img class="brand-mark" src="/favicon.svg" alt="" width="38" height="38" />
-          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
-        </a>
-        <span class="header-right">
-          <a class="header-link" href="/about.html">About</a>
-          <button id="theme-toggle-btn" class="theme-toggle" type="button" aria-label="Switch to dark mode"></button>
-        </span>
-      </div>
-      <a class="back-link" href="/index.html">
-        <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to all words
-      </a>
-    </header>
-
-    <div id="not-found-msg" class="message" hidden></div>
-
-    <div id="result-header" class="result-header">
-      <h1 id="result-word-text" class="result-word">{esc(display_word)}</h1>
-      <p id="journey-meta" class="journey-meta">{total} stage{"" if total == 1 else "s"} from {esc(origin_lang)} to English.</p>
-      <p id="partial-notice" class="partial-notice" hidden>
-        Stage <span id="partial-stage-num"></span> of <span id="partial-stage-total"></span> in
-        <a id="partial-full-link" href="/words/{slug}">this word's full journey</a>.
-      </p>
-      <div id="current-meaning-badge" class="current-meaning">
-        <span id="badge-label" class="badge-label">Today it means</span>
-        <span id="badge-text" class="badge-text">{esc(entry['current_meaning'])}</span>
-      </div>
-      <p class="origin-sentence">{origin_sentence}</p>
-      <div id="result-trail" class="result-trail">{trail_html}</div>
-    </div>
-
-    <main id="result">
-      <section id="panel" class="panel">{panel_html}
-      </section>
-      <section class="map-wrap">
-        <div class="map-toolbar">
-          <div class="map-toolbar-actions">
-            <div class="zoom-controls">
-              <button id="zoom-out-btn" title="Zoom out" type="button">&minus;</button>
-              <button id="zoom-in-btn" title="Zoom in" type="button">+</button>
-              <button id="zoom-reset-btn" title="Reset view" type="button">&#8634;</button>
-            </div>
-            <span class="toolbar-divider" aria-hidden="true"></span>
-            <button id="copy-link-btn" class="icon-btn" type="button" title="Copy a link to this word" aria-label="Copy link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></button>
-            <button id="share-btn" class="share-btn" type="button">Share card</button>
-          </div>
-        </div>
-        <div class="map-canvas">
-          <svg id="map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet">
-            <g id="zoom-layer">
-              <g id="land-layer"></g>
-              <g id="path-layer"></g>
-            </g>
-            <g id="arrow-layer"></g>
-            <g id="pin-layer"></g>
-          </svg>
-        </div>
-        <div class="map-hint">Drag to pan &middot; scroll to zoom</div>
-      </section>
-    </main>
-
-    <details class="full-story">
-      <summary>Read the full story</summary>
-      <p>{narrative_html}</p>
-    </details>
-{related_html}
-    <div id="share-modal" class="modal-overlay" hidden>
-      <div class="modal-card">
-        <button id="share-close-btn" class="modal-close" type="button" aria-label="Close">&times;</button>
-        <h3 class="modal-title">Share this word's journey</h3>
-        <div class="modal-theme-toggle" role="group" aria-label="Card style">
-          <button id="share-theme-light-btn" class="modal-theme-btn" type="button" aria-pressed="true">Light</button>
-          <button id="share-theme-dark-btn" class="modal-theme-btn" type="button" aria-pressed="false">Dark</button>
-        </div>
-        <div class="modal-preview-wrap">
-          <img id="share-preview" alt="Etymology summary card" />
-        </div>
-        <div class="modal-actions">
-          <button id="share-download-btn" class="modal-btn primary" type="button">Download image</button>
-          <button id="share-copy-btn" class="modal-btn" type="button">Copy image</button>
-          <button id="share-native-btn" class="modal-btn" type="button">Share&hellip;</button>
-        </div>
-        <p id="share-status" class="modal-status" hidden></p>
-      </div>
-    </div>
-
-    <footer class="site-footer">
-      <span>Etymology Map</span>
-      <span class="footer-links">
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy Policy</a>
-      </span>
-    </footer>
+    # --- crawlable text (visually hidden once the interactive page is up)
+    stage_items = "".join(
+        f"<li><strong>{esc(s['word'])}</strong> ({esc(s['lang'])}, {esc(s['era'])}): &quot;{esc(s['meaning'])}&quot;. {esc(s['note'])}</li>"
+        for s in stops
+    )
+    candidates = sorted(k for k, v in word_index.items() if k != word and v == origin_lang)[:8]
+    related = "".join(f'<a href="/words/{slugify(w)}">{esc(w)}</a> ' for w in candidates)
+    seo = f"""<div class="seo-static" id="seo-static">
+    <p>{build_origin_sentence(word, stops)}</p>
+    <ol>{stage_items}</ol>
+    <p>{build_narrative(word, stops, entry["current_meaning"])}</p>
+    {f'<p>More words from {esc(origin_lang)}: {related}</p>' if candidates else ''}
   </div>
-  <script type="application/json" id="word-data">{word_json}</script>
-  <script src="/track.js"></script>
-  <script type="module" src="/word.js"></script>
-</body>
-</html>
-"""
+  """
+    word_json = json.dumps({"word": word, **entry}, ensure_ascii=False).replace("</", "<\\/")
+    html = html.replace(
+        '<script src="/track.js"></script>',
+        f'{seo}<script type="application/json" id="word-data">{word_json}</script>\n  <script src="/track.js"></script>',
+        1,
+    )
+    return html
 
 
 def generate_all(word_index=None, quiet=False):
