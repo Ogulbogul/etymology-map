@@ -1571,7 +1571,7 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 [data-page="word"] .hero { padding-top: 24px; }
 [data-page="word"] #result-hero { display: block; }
 @media (max-width: 960px) { [data-page="word"] .hero { padding-top: 14px; } }
-.seo-static { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+[data-page="word"] #panel:empty { min-height: 160px; } /* holds the stage cards' place until they are drawn */
 @media (max-width: 640px) {
   #app[data-state="result"] .hero-meaning { font-size: 13px; line-height: 1.3; }
 }

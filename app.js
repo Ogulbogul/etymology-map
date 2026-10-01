@@ -752,8 +752,11 @@ function clearResultContent() {
   storyGlanceEl.innerHTML = "";
   routeChipsEl.innerHTML = "";
   routeChipsEl.hidden = true;
-  relatedWordsEl.hidden = true;
-  relatedWordsGridEl.innerHTML = "";
+  if (!WORD_PAGE) {
+    // (a word page's related words come with the page; see renderRelatedWords)
+    relatedWordsEl.hidden = true;
+    relatedWordsGridEl.innerHTML = "";
+  }
   resultAreaEl.hidden = true;
   selectedStop = -1;
   if (globe) globe.clearRoute();
@@ -1253,6 +1256,10 @@ function pickRandom(arr, n) {
 // the results as its static permalink page does, instead of only having
 // discovery tools (word list, autocomplete, surprise me) up at the top.
 function renderRelatedWords(baseWord, originLang) {
+  if (WORD_PAGE && relatedWordsGridEl.children.length) {
+    relatedWordsEl.hidden = false; // already in the page's HTML
+    return;
+  }
   const candidates = Object.keys(wordIndex).filter(
     (key) => key !== baseWord && wordIndex[key] === originLang
   );
@@ -2408,7 +2415,6 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
     wordInput.value = document.body.dataset.word;
     const stopParam = parseInt(new URLSearchParams(window.location.search).get("stop"), 10);
     await trace({ fromUrl: true, stopCount: Number.isFinite(stopParam) ? stopParam : 0 });
-    document.getElementById("seo-static").setAttribute("aria-hidden", "true");
     return;
   }
   renderExampleChips();
