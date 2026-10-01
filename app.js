@@ -6,7 +6,7 @@ const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
 const MIN_ZOOM = 1;
 // On phones the map may zoom out a little further so far-apart routes (tea) fit inside the clear middle.
-const minZoom = () => (window.innerWidth <= 640 ? 0.55 : MIN_ZOOM);
+const minZoom = () => (window.innerWidth <= 640 ? 0.4 : MIN_ZOOM);
 const MAX_ZOOM = 14;
 const FIT_PADDING = 60;
 
@@ -945,9 +945,9 @@ function computeFitView(points, opts = {}) {
   {
     // The map fades out at its edges: keep every pin inside the clear middle.
     const small = window.innerWidth <= 960;
-    padX = visW * (small ? 0.24 : 0.1);
-    padTop = visH * (small ? 0.2 : 0.17);
-    padBottom = visH * (small ? 0.3 : 0.26);
+    padX = visW * (small ? 0.09 : 0.1);
+    padTop = visH * (small ? 0.13 : 0.17);
+    padBottom = visH * (small ? 0.22 : 0.26);
   }
   const availW = visW - 2 * padX - padLeft;
   const availH = visH - padTop - padBottom;
@@ -967,6 +967,7 @@ function computeFitView(points, opts = {}) {
       groups.forEach((g, gi) => {
         const px = points[g.idxs[0]][0];
         hi = Math.max(hi, px + (widths[gi] + 22) / unit);
+        if (px - minX < 1 / unit) lo = Math.min(lo, px - (widths[gi] + 22) / unit); // leftmost pin: its label may flip left
       });
       ext = { left: minX - lo, right: hi - maxX };
       k = fitK(hi - lo, bboxH + 24 / unit);
