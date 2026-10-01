@@ -1406,7 +1406,7 @@ function renderStoryExtras(word, entry) {
     .map((s, i) => {
       const href = stageLinkFor(i, stops.length);
       const chip = href
-        ? `<a class="route-chip" href="${href}" data-idx="${i}" title="View stage ${i + 1}: ${escapeHtml(s.word)}">${escapeHtml(s.word)}</a>`
+        ? `<a class="route-chip" href="${href}" target="_blank" rel="noopener" data-idx="${i}" title="View stage ${i + 1}: ${escapeHtml(s.word)}">${escapeHtml(s.word)}</a>`
         : `<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`;
       return `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}${chip}`;
     })
@@ -1496,6 +1496,8 @@ function renderWord(word, entry) {
     row.dataset.idx = String(idx);
     if (stageHref) {
       row.href = stageHref;
+      row.target = "_blank"; // a stage opens in its own tab, so the journey you are looking at stays put
+      row.rel = "noopener";
       row.title = idx + 1 < total || stagePage ? `View stage ${idx + 1}: ${stop.word}` : `Open the page for \u201c${stageBase}\u201d`;
     } else {
       row.type = "button";
@@ -1523,8 +1525,11 @@ function renderWord(word, entry) {
     panelEl.appendChild(row);
 
     const item = document.createElement(stageHref ? "a" : "button");
-    if (stageHref) item.href = stageHref;
-    else item.type = "button";
+    if (stageHref) {
+      item.href = stageHref;
+      item.target = "_blank";
+      item.rel = "noopener";
+    } else item.type = "button";
     item.className = "tray-item";
     item.dataset.idx = String(idx);
     item.innerHTML = `<span class="tray-num">${idx + 1}</span><span class="tray-word">${escapeHtml(stop.word)}</span><span class="tray-lang">${escapeHtml(shortLang(stop.lang))}</span>`;

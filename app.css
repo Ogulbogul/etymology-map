@@ -643,6 +643,7 @@ html[data-view="globe"] #app[data-state="result"] .wod-card { display: none; }
 .stop-note { display: block; font-size: 13px; line-height: 1.45; color: var(--text-dim); }
 a.stop-row { color: inherit; text-decoration: none; }
 a.route-chip, a.tray-item { text-decoration: none; color: inherit; }
+a.route-chip { display: inline-flex; align-items: center; justify-content: center; }
 .stage-notice { margin: 10px auto 0; max-width: 560px; font-size: 14px; line-height: 1.5; color: var(--text-dim); text-align: center; pointer-events: auto; }
 .stage-notice a { color: var(--accent-text); font-weight: 600; text-decoration: none; }
 .stage-notice a:hover { text-decoration: underline; }
