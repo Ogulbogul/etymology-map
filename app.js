@@ -1631,13 +1631,21 @@ async function trace(options = {}) {
   if (!raw) return;
   updateUrlForWord(raw, !!options.fromUrl);
   let entry;
+  const skeletonEl = document.getElementById("skeleton");
+  document.getElementById("skeleton-word").textContent = raw;
+  skeletonEl.hidden = false;
+  appEl.classList.add("is-loading");
+  const endLoading = () => { skeletonEl.hidden = true; appEl.classList.remove("is-loading"); };
   try {
-    entry = await fetchWordEntry(raw);
+    // keep the skeleton up for a beat so it never just flashes
+    [entry] = await Promise.all([fetchWordEntry(raw), new Promise((r) => setTimeout(r, 350))]);
   } catch (err) {
+    endLoading();
     clearResult();
     showLoadError(() => trace(options));
     return;
   }
+  endLoading();
   if (!entry) {
     clearResult();
     showNotFound(displayWord, raw);
