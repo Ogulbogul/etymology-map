@@ -1297,7 +1297,8 @@ function drawMapRoute(stops, { preview = false } = {}) {
     line.setAttribute("class", "route-line");
     pathLayer.appendChild(line);
 
-    if (!preview) {
+    if (false) {
+      // (arrowheads removed: the dashed line alone shows the route)
       // Arrowhead at the segment midpoint (not the endpoint) so it's clearly
       // visible in open space instead of being crowded next to the pin.
       const angleDeg = (Math.atan2(y2 - y1, x2 - x1) * 180) / Math.PI;
