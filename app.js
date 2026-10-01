@@ -1633,12 +1633,14 @@ async function trace(options = {}) {
   let entry;
   const skeletonEl = document.getElementById("skeleton");
   document.getElementById("skeleton-word").textContent = raw;
-  skeletonEl.hidden = false;
-  appEl.classList.add("is-loading");
-  const endLoading = () => { skeletonEl.hidden = true; appEl.classList.remove("is-loading"); };
+  // Skeleton on phones only, and only if the word takes a moment to arrive.
+  const useSkeleton = window.innerWidth <= 640;
+  const showTimer = useSkeleton
+    ? setTimeout(() => { skeletonEl.hidden = false; appEl.classList.add("is-loading"); }, 180)
+    : null;
+  const endLoading = () => { clearTimeout(showTimer); skeletonEl.hidden = true; appEl.classList.remove("is-loading"); };
   try {
-    // keep the skeleton up for a beat so it never just flashes
-    [entry] = await Promise.all([fetchWordEntry(raw), new Promise((r) => setTimeout(r, 350))]);
+    entry = await fetchWordEntry(raw);
   } catch (err) {
     endLoading();
     clearResult();
