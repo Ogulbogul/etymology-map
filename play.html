@@ -132,6 +132,7 @@
           <p id="g-meaning" class="g-meaning"></p>
         </div>
 
+        <div class="g-controls">
         <div id="g-pinbar" class="g-pinbar">
           <div class="g-slotwrap">
             <div id="g-slots" class="g-slots" aria-label="Your pins"></div>
@@ -153,6 +154,8 @@
             <a id="g-storylink" class="btn btn-outline" href="#" target="_blank" rel="noopener">Full story</a>
             <button id="g-next" class="btn btn-primary" type="button">Next word</button>
           </div>
+        </div>
+
         </div>
 
         <div class="g-mapbox">
@@ -200,9 +203,28 @@
         </div>
         <h3 class="g-roundshead">Round by round</h3>
         <ol id="e-rounds" class="g-rounds"></ol>
-        <p id="e-emoji" class="g-emoji" aria-hidden="true"></p>
       </section>
     </main>
+
+    <div id="share-modal" class="modal-overlay" hidden>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-label="Share your result">
+        <button id="share-close-btn" class="icon-btn modal-close" type="button" aria-label="Close">&times;</button>
+        <h3 class="modal-title">Share your result</h3>
+        <div class="modal-theme-toggle" role="group" aria-label="Card style">
+          <button id="share-theme-light-btn" class="modal-theme-btn" type="button" aria-pressed="false">Light</button>
+          <button id="share-theme-dark-btn" class="modal-theme-btn" type="button" aria-pressed="true">Dark</button>
+        </div>
+        <div class="modal-preview-wrap">
+          <img id="share-preview" alt="Your result card" />
+        </div>
+        <div class="modal-actions">
+          <button id="share-download-btn" class="btn btn-primary" type="button">Download image</button>
+          <button id="share-copy-btn" class="btn btn-outline" type="button">Copy image</button>
+          <button id="share-native-btn" class="btn btn-outline" type="button">Share&hellip;</button>
+        </div>
+        <p id="share-status" class="modal-status" hidden></p>
+      </div>
+    </div>
 
     <footer class="site-footer">
       <span class="footer-count">Etymology Map</span>

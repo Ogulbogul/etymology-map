@@ -7,6 +7,8 @@
 // server call is /api/score, which adds one count to an anonymous score bucket
 // and returns the percentile. No sign-in, cookies or IDs.
 
+import { buildGameCard, tierFor } from "./gamecard.js";
+
 const W = 960;
 const H = 500;
 const ROUNDS = 5;
@@ -15,7 +17,6 @@ const MAX_TOTAL = ROUNDS * MAX_ROUND;
 const DECAY_KM = 1500; // score falls to 1/e of full marks at this distance
 const STOP_SHARE = 900; // of 1000, split across the real stops
 const ORDER_BONUS = 100;
-const EXTRA_PIN_PENALTY = 60;
 const DAILY_KEY = "etymap-daily";
 const STREAK_KEY = "etymap-streak";
 const SVGNS = "http://www.w3.org/2000/svg";
@@ -79,6 +80,8 @@ const fmtKm = (d) => (d < 10 ? "under 10" : Math.round(d).toLocaleString("en-US"
 
 // --- Map --------------------------------------------------------------------
 let projection = null;
+let countriesData = null;
+let d3geoMod = null;
 let view = { x: 0, y: 0, k: 1 };
 let markList = []; // { kind: "pin" | "truth", label, lon, lat }
 
@@ -268,6 +271,8 @@ async function loadMap() {
   const topology = await resp.json();
   const countries = topo.feature(topology, topology.objects.countries);
   projection = d3geo.geoEquirectangular().fitSize([W, H], countries);
+  countriesData = countries;
+  d3geoMod = d3geo;
   const path = d3geo.geoPath(projection);
   for (const f of countries.features) {
     const d = path(f);
@@ -337,11 +342,9 @@ function scoreRound(pins, truth) {
   let ordered = close.length >= 2;
   for (let n = 1; n < close.length; n++) if (close[n].pin <= close[n - 1].pin) ordered = false;
   const bonus = ordered ? Math.round((ORDER_BONUS * close.length) / nT) : 0;
-  const extras = Math.max(0, pins.length - nT);
-  const penalty = extras * EXTRA_PIN_PENALTY;
   const base = stops.reduce((a, s) => a + s.pts, 0);
-  const total = Math.max(0, Math.min(MAX_ROUND, Math.round(base + bonus - penalty)));
-  return { stops, bonus, extras, penalty, total };
+  const total = Math.max(0, Math.min(MAX_ROUND, Math.round(base + bonus)));
+  return { stops, bonus, total };
 }
 
 // --- Daily word choice ------------------------------------------------------
@@ -392,13 +395,24 @@ function fmtDate(day) {
 }
 
 // How a score reads at a glance: the same four bands the share squares use.
-function tierOf(pts, max) {
-  const f = pts / max;
-  return f >= 0.8 ? "hi" : f >= 0.5 ? "mid" : f >= 0.25 ? "low" : "no";
+const tierOf = tierFor;
+const VERDICTS = { hi: "Spot on!", mid: "Getting warmer", low: "Not quite, now you know" };
+const END_VERDICTS = { hi: "Etymology expert", mid: "Nicely travelled", low: "A good start" };
+
+// A tiny bar chart of a game's five rounds, coloured by band (used instead of emoji squares).
+function miniBars(rounds) {
+  const wrap = document.createElement("span");
+  wrap.className = "g-mini";
+  wrap.setAttribute("role", "img");
+  wrap.setAttribute("aria-label", "Round scores: " + rounds.map((r) => r.pts).join(", "));
+  for (const r of rounds) {
+    const bar = document.createElement("i");
+    bar.className = "tier-" + tierOf(r.pts, MAX_ROUND);
+    bar.style.height = Math.max(4, Math.round((r.pts / MAX_ROUND) * 22)) + "px";
+    wrap.appendChild(bar);
+  }
+  return wrap;
 }
-const emojiFor = (pts) => ({ hi: "🟩", mid: "🟨", low: "🟧", no: "🟥" })[tierOf(pts, MAX_ROUND)];
-const VERDICTS = { hi: "Spot on!", mid: "Great guess", low: "Getting warmer", no: "Not quite, now you know" };
-const END_VERDICTS = { hi: "Etymology expert", mid: "Nicely travelled", low: "Getting your bearings", no: "A good start" };
 
 // A score ring: the arc fills in to show the share of the maximum earned.
 function ringSvg(frac, big, small, tier) {
@@ -460,7 +474,7 @@ async function loadRound() {
   }
   if (game.words[game.i] !== key) return;
   if (game.i + 1 < ROUNDS) loadWord(game.words[game.i + 1]).catch(() => {});
-  round = { data, pins: [], phase: "guess", max: Math.min(7, data.truth.length + 2) };
+  round = { data, pins: [], phase: "guess", max: data.truth.length };
   $("g-meaning").textContent = data.meaning;
   onMapClick = placePin;
   paintPins();
@@ -472,8 +486,8 @@ function placePin(lon, lat) {
   paintPins();
 }
 
-// One slot per stop to find (solid) plus a couple of extras (dashed, they cost points):
-// each fills with its pin number as you place it; tap a filled slot to take that pin back.
+// One slot per stop to find: each fills with its pin number as you place it; tap a filled
+// slot to take that pin back.
 function paintPins() {
   markList = round.pins.map((p, i) => ({ kind: "pin", label: String(i + 1), lon: p.lon, lat: p.lat }));
   drawMarks();
@@ -483,7 +497,7 @@ function paintPins() {
   for (let i = 0; i < round.max; i++) {
     const placed = round.pins[i];
     const slot = document.createElement(placed ? "button" : "span");
-    slot.className = "g-slot" + (placed ? " filled" : "") + (i >= n ? " extra" : "") + (!placed && i === round.pins.length ? " next" : "");
+    slot.className = "g-slot" + (placed ? " filled" : "") + (!placed && i === round.pins.length ? " next" : "");
     slot.textContent = String(i + 1);
     if (placed) {
       slot.type = "button";
@@ -497,7 +511,8 @@ function paintPins() {
     }
     box.appendChild(slot);
   }
-  $("g-count").textContent = `Find ${n} stops, oldest first · dashed slots are extras (−${EXTRA_PIN_PENALTY} each)`;
+  $("g-count").textContent =
+    round.pins.length >= n ? "All placed. Reveal, or tap a number to take a pin back." : `Find ${n} stops, oldest first`;
   $("g-undo").disabled = !round.pins.length;
   $("g-reveal").disabled = !round.pins.length;
 }
@@ -547,6 +562,7 @@ function reveal() {
 
   // Summary bar: score ring, verdict, bonus chips, buttons.
   const tier = tierOf(res.total, MAX_ROUND);
+  $("g-summary").className = "g-summary tier-" + tier;
   $("g-pinbar").hidden = true;
   $("g-help").hidden = true;
   $("g-summary").hidden = false;
@@ -558,7 +574,6 @@ function reveal() {
   chips.textContent = "";
   chips.appendChild(chip(`${res.stops.filter((s) => s.pin >= 0 && closeness(s.km) >= 0.15).length} of ${data.truth.length} stops found`, "neutral"));
   if (res.bonus) chips.appendChild(chip(`Right order +${res.bonus}`, "good"));
-  if (res.extras) chips.appendChild(chip(`${res.extras} extra pin${res.extras > 1 ? "s" : ""} −${res.penalty}`, "bad"));
   $("g-storylink").href = "/words/" + slugOf(data.key);
   $("g-next").textContent = game.i + 1 < ROUNDS ? "Next word" : "See my result";
 
@@ -691,7 +706,6 @@ function renderEnd(data) {
   st.hidden = !(data.streak && data.streak >= 2);
   if (!st.hidden) st.textContent = `🔥 ${data.streak}-day streak`;
   renderPct(data.mode, data.pct);
-  $("e-emoji").textContent = data.rounds.map((r) => emojiFor(r.pts)).join("");
 
   const list = $("e-rounds");
   list.textContent = "";
@@ -736,29 +750,119 @@ async function finish() {
   }
 }
 
-$("e-share").addEventListener("click", async () => {
+// --- Share: an image card in a window (same pattern as the word share card) ----------
+const shareModal = $("share-modal");
+const sharePreview = $("share-preview");
+const shareStatus = $("share-status");
+const shareBtns = { dl: $("share-download-btn"), copy: $("share-copy-btn"), native: $("share-native-btn") };
+let shareBlob = null;
+let shareUrl = null;
+let shareTheme = "dark";
+
+function siteIsDark() {
+  const t = document.documentElement.getAttribute("data-theme");
+  if (t === "dark") return true;
+  if (t === "light") return false;
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+function shareText(d) {
+  const lines = [`Etymology Map ${d.mode === "daily" ? "Daily " + fmtDate(d.day) : "Practice"}: ${d.score.toLocaleString("en-US")}/${MAX_TOTAL}`];
+  if (d.pct && d.pct.pct != null) lines.push(`Beat ${d.pct.pct}% of players. Can you beat it?`);
+  else lines.push("Can you beat it?");
+  return lines.join("\n");
+}
+
+async function renderShare() {
   if (!currentEnd) return;
   const d = currentEnd;
-  const lines = [
-    `Etymology Map ${d.mode === "daily" ? "Daily " + fmtDate(d.day) : "Practice"}: ${d.score.toLocaleString("en-US")}/${MAX_TOTAL}`,
-    d.rounds.map((r) => emojiFor(r.pts)).join(""),
-  ];
-  if (d.pct && d.pct.pct != null) lines.push(`Beat ${d.pct.pct}% of players`);
-  const text = lines.join("\n");
-  const url = "https://etymologymap.com/play";
-  const status = $("e-status");
+  shareStatus.hidden = true;
+  Object.values(shareBtns).forEach((b) => (b.disabled = true));
+  const tier = tierOf(d.score, MAX_TOTAL);
+  shareBlob = await buildGameCard({
+    mode: d.mode,
+    label: d.mode === "daily" ? `Daily word · ${fmtDate(d.day)}` : "Practice game",
+    score: d.score,
+    max: MAX_TOTAL,
+    rounds: d.rounds.map((r) => r.pts),
+    roundMax: MAX_ROUND,
+    verdict: END_VERDICTS[tier],
+    pct: d.pct && d.pct.pct != null ? d.pct.pct : null,
+    streak: d.streak,
+    theme: shareTheme,
+    countries: countriesData,
+    projection,
+    d3geo: d3geoMod,
+  });
+  if (shareUrl) URL.revokeObjectURL(shareUrl);
+  shareUrl = URL.createObjectURL(shareBlob);
+  sharePreview.src = shareUrl;
+  shareBtns.dl.disabled = false;
+  shareBtns.copy.disabled = !(navigator.clipboard && window.ClipboardItem);
+  shareBtns.native.disabled = false;
+}
+
+function setShareTheme(t) {
+  shareTheme = t;
+  $("share-theme-light-btn").setAttribute("aria-pressed", String(t === "light"));
+  $("share-theme-dark-btn").setAttribute("aria-pressed", String(t === "dark"));
+  renderShare();
+}
+
+function closeShare() {
+  shareModal.hidden = true;
+}
+
+$("e-share").addEventListener("click", () => {
+  if (!currentEnd) return;
+  shareModal.hidden = false;
+  setShareTheme(siteIsDark() ? "dark" : "light");
+});
+$("share-close-btn").addEventListener("click", closeShare);
+shareModal.addEventListener("click", (e) => {
+  if (e.target === shareModal) closeShare();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !shareModal.hidden) closeShare();
+});
+$("share-theme-light-btn").addEventListener("click", () => setShareTheme("light"));
+$("share-theme-dark-btn").addEventListener("click", () => setShareTheme("dark"));
+
+function say(msg) {
+  shareStatus.textContent = msg;
+  shareStatus.hidden = false;
+}
+
+shareBtns.dl.addEventListener("click", () => {
+  if (!shareBlob) return;
+  const a = document.createElement("a");
+  a.href = shareUrl;
+  a.download = "etymology-map-game.png";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  say("Image saved.");
+});
+shareBtns.copy.addEventListener("click", async () => {
+  if (!shareBlob) return;
   try {
-    if (navigator.share) {
-      await navigator.share({ text, url });
-      return;
-    }
-    await navigator.clipboard.writeText(text + "\n" + url);
-    status.textContent = "Result copied. Paste it anywhere to share.";
+    await navigator.clipboard.write([new ClipboardItem({ "image/png": shareBlob })]);
+    say("Image copied. Paste it anywhere.");
   } catch (err) {
-    if (err && err.name === "AbortError") return;
-    status.textContent = "Could not copy automatically. Select and copy: " + text.replace(/\n/g, " ");
+    say("Couldn't copy the image in this browser. Use Download instead.");
   }
-  status.hidden = false;
+});
+shareBtns.native.addEventListener("click", async () => {
+  if (!shareBlob || !currentEnd) return;
+  const file = new File([shareBlob], "etymology-map-game.png", { type: "image/png" });
+  const data = { files: [file], title: "Etymology Map", text: shareText(currentEnd) + "\nhttps://etymologymap.com/play" };
+  try {
+    if (navigator.canShare && navigator.canShare({ files: [file] })) await navigator.share(data);
+    else if (navigator.share) await navigator.share({ title: "Etymology Map", text: shareText(currentEnd), url: "https://etymologymap.com/play" });
+    else say("Sharing isn't available here. Download or copy the image instead.");
+  } catch (err) {
+    if (err && err.name !== "AbortError") say("Sharing isn't available right now.");
+  }
 });
 
 $("e-practice").addEventListener("click", () => startGame("practice"));
@@ -784,7 +888,8 @@ function paintStart() {
     b.textContent = done.score.toLocaleString("en-US");
     box.appendChild(document.createTextNode("Today: "));
     box.appendChild(b);
-    box.appendChild(document.createTextNode(` / ${MAX_TOTAL} ${done.rounds.map((r) => emojiFor(r.pts)).join("")}`));
+    box.appendChild(document.createTextNode(` / ${MAX_TOTAL}`));
+    box.appendChild(miniBars(done.rounds));
     btn.textContent = "See today’s result";
     $("daily-sub").textContent = "You have played today. A new set of words arrives at midnight UTC.";
   }
