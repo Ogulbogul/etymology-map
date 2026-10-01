@@ -14,7 +14,7 @@ const FIT_PADDING = 60;
 // .pin-label's CSS font) so overlap checks don't force a synchronous
 // layout via getBBox() on every pan/zoom frame.
 const labelMeasureCtx = document.createElement("canvas").getContext("2d");
-labelMeasureCtx.font = `600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`;
+labelMeasureCtx.font = `600 15px Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif`;
 function measureLabelWidth(text) {
   return labelMeasureCtx.measureText(text).width;
 }
@@ -2292,6 +2292,8 @@ setupViewToggle();
 if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observe(mapSvg);
 
 (async function init() {
+  // Inter must be ready before labels are measured, or pin-label widths come out wrong.
+  try { await document.fonts.load('600 15px "Inter"'); } catch (err) { /* system font is fine */ }
   await Promise.all([loadWordIndex(), loadMap()]);
   if (Object.keys(wordIndex).length === 0) {
     showLoadError(() => window.location.reload());

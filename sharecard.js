@@ -4,7 +4,7 @@
 
 const W = 1200;
 const H = 630;
-const FONT = `"DM Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif`;
+const FONT = `"Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif`;
 
 const THEMES = {
   light: {
@@ -96,7 +96,7 @@ function groupStops(stops) {
 export async function buildShareCard({ word, entry, points, theme = "light", land, projection, d3geo, wordCount, iconUrl = "favicon.svg" }) {
   const c = THEMES[theme] || THEMES.light;
   try {
-    await Promise.all(["400", "500", "600", "700"].map((w) => document.fonts.load(`${w} 20px \"DM Sans\"`)).concat(document.fonts.load('italic 400 20px "DM Sans"')));
+    await Promise.all(["400", "500", "600", "700"].map((w) => document.fonts.load(`${w} 20px \"Inter\"`)).concat(document.fonts.load('italic 400 20px "Inter"')));
   } catch (e) { /* fall back to the system font */ }
   const icon = await loadIcon(iconUrl);
   const canvas = document.createElement("canvas");
