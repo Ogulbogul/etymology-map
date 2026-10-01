@@ -1571,6 +1571,11 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 [data-page="word"] .hero { padding-top: 24px; }
 [data-page="word"] #result-hero { display: block; }
 @media (max-width: 960px) { [data-page="word"] .hero { padding-top: 14px; } }
+/* The "where does the word come from" sentence opens the full story on desktop, where the line under the
+   map is hidden; on phones and tablets the line under the map is the one shown. */
+.story-question { margin: 0 0 14px; font-size: 16px; line-height: 1.6; color: var(--text); }
+.story-question .origin-question { color: var(--accent-text); font-weight: 600; }
+@media (max-width: 960px) { .story-question { display: none; } }
 [data-page="word"] #panel:empty { min-height: 160px; } /* holds the stage cards' place until they are drawn */
 @media (max-width: 640px) {
   #app[data-state="result"] .hero-meaning { font-size: 13px; line-height: 1.3; }

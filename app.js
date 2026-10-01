@@ -103,6 +103,7 @@ const pinLayer = document.getElementById("pin-layer");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+const storyQuestionEl = document.getElementById("story-question");
 const globeHintEl = document.getElementById("globe-hint");
 const routeChipsEl = document.getElementById("route-chips");
 const storyStagesEl = document.getElementById("story-stages");
@@ -748,6 +749,7 @@ function clearResultContent() {
   fullStoryEl.hidden = true;
   fullStoryEl.open = false;
   fullStoryTextEl.innerHTML = "";
+  storyQuestionEl.innerHTML = "";
   storyStagesEl.innerHTML = "";
   storyGlanceEl.innerHTML = "";
   routeChipsEl.innerHTML = "";
@@ -1561,6 +1563,8 @@ function renderWord(word, entry) {
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
   originSentenceEl.hidden = false;
+  // The same sentence opens the full story; the stylesheet shows whichever copy fits the screen (see .story-question).
+  storyQuestionEl.innerHTML = originSentenceEl.innerHTML;
   fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
   fullStoryEl.hidden = false;
   renderStoryExtras(word, entry);

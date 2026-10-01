@@ -328,6 +328,10 @@ def render_word_page(word, entry, word_index):
         f'<p id="origin-sentence" class="origin-sentence">{build_origin_sentence(word, stops)}</p>',
     )
     swap('<details id="full-story" class="full-story" hidden>', '<details id="full-story" class="full-story">')
+    swap(
+        '<p id="story-question" class="story-question"></p>',
+        f'<p id="story-question" class="story-question">{build_origin_sentence(word, stops)}</p>',
+    )
     swap('<p id="full-story-text"></p>', f'<p id="full-story-text">{build_narrative(word, stops, entry["current_meaning"])}</p>')
     swap('<ol id="story-stages" class="story-stages"></ol>', f'<ol id="story-stages" class="story-stages">{stage_items}</ol>')
     swap(
