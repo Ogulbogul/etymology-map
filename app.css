@@ -1456,3 +1456,32 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   #app.is-loading .skeleton-label { position: absolute; left: 0; right: 0; top: -34px; margin: 0; }
   #app.is-loading .skeleton .sk-card { height: 189px; min-height: 189px; box-sizing: border-box; }
 }
+
+/* Desktop globe: the globe ends well above the stage edge, so no hairline of it shows under the cards */
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { clip-path: inset(-400px -50vw 36px -50vw) !important; }
+}
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage { clip-path: inset(-400px -50vw 2px -50vw) !important; }
+}
+@media (min-width: 961px) {
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 90px), transparent calc(100% - 14px));
+            mask-image: linear-gradient(to bottom, #000 calc(100% - 90px), transparent calc(100% - 14px));
+  }
+}
+
+/* Phones: smaller rotation pill, always above the globe; a little more air under the header */
+@media (max-width: 640px) {
+  .pill-btn { height: 32px; padding: 0 4px 0 11px; font-size: 11px; gap: 6px; }
+  .pill-icon { width: 24px; height: 24px; }
+  html[data-view="globe"] #app .globe-stage .globe-tools .globe-caption { z-index: 9; }
+  .hero { padding-top: 4px; }
+}
+@media (max-width: 640px) {
+  .hero { padding-top: 0; }
+  #app[data-state="landing"] .hero-title { height: 98px; }
+  #app[data-state="result"] .result-hero { height: 98px; }
+  #app[data-state="result"] .result-word { font-size: 30px; margin: 2px 0; }
+  #app[data-state="result"] .hero-meaning { font-size: 15px; line-height: 1.3; }
+}

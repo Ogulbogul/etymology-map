@@ -5,6 +5,8 @@ import { buildShareCard as buildShareCardImage } from "./sharecard.js";
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
 const MIN_ZOOM = 1;
+// On phones the map may zoom out a little further so far-apart routes (tea) fit inside the clear middle.
+const minZoom = () => (window.innerWidth <= 640 ? 0.55 : MIN_ZOOM);
 const MAX_ZOOM = 14;
 const FIT_PADDING = 60;
 
@@ -784,7 +786,7 @@ function selectStop(index) {
 const PAN_MARGIN = 150;
 
 function clampView(next) {
-  const k = clamp(next.k, MIN_ZOOM, MAX_ZOOM);
+  const k = clamp(next.k, minZoom(), MAX_ZOOM);
   const minX = PAN_MARGIN - MAP_WIDTH * k;
   const maxX = MAP_WIDTH - PAN_MARGIN;
   const minY = PAN_MARGIN - MAP_HEIGHT * k;
@@ -936,13 +938,13 @@ function computeFitView(points, opts = {}) {
   {
     // The map fades out at its edges: keep every pin inside the clear middle.
     const small = window.innerWidth <= 960;
-    padX = visW * (small ? 0.2 : 0.1);
+    padX = visW * (small ? 0.24 : 0.1);
     padTop = visH * (small ? 0.2 : 0.17);
     padBottom = visH * (small ? 0.3 : 0.26);
   }
   const k = clamp(
     Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),
-    MIN_ZOOM,
+    minZoom(),
     opts.maxK || MAX_ZOOM
   );
   const cx = (minX + maxX) / 2;
@@ -962,7 +964,7 @@ function toSvgPoint(evt) {
 }
 
 function zoomAroundPoint(point, factor) {
-  const newK = clamp(view.k * factor, MIN_ZOOM, MAX_ZOOM);
+  const newK = clamp(view.k * factor, minZoom(), MAX_ZOOM);
   const worldX = (point.x - view.x) / view.k;
   const worldY = (point.y - view.y) / view.k;
   setView({ x: point.x - worldX * newK, y: point.y - worldY * newK, k: newK });
