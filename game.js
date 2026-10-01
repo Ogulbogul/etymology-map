@@ -620,6 +620,40 @@ function reveal() {
     li.appendChild(foot);
     rows.appendChild(li);
   });
+  // The whole round, added up: stop points (900 shared between the stops) + the order bonus (100).
+  const distPts = res.total - res.bonus;
+  const eq = document.createElement("li");
+  eq.className = "g-eq tier-" + tier;
+  const part = (cls, big, small) => {
+    const d = document.createElement("div");
+    d.className = "g-eq-part " + cls;
+    const b = document.createElement("b");
+    b.textContent = big;
+    const sp = document.createElement("span");
+    sp.textContent = small;
+    d.append(b, sp);
+    return d;
+  };
+  const op = (t) => {
+    const s = document.createElement("span");
+    s.className = "g-eq-op";
+    s.textContent = t;
+    return s;
+  };
+  eq.append(
+    part("g-eq-dist", String(distPts), `distance points (of ${STOP_SHARE})`),
+    op("+"),
+    part("g-eq-bonus" + (res.bonus ? "" : " off"), String(res.bonus), `order bonus (of ${ORDER_BONUS})`),
+    op("="),
+    part("g-eq-total", String(res.total), `round total (of ${MAX_ROUND})`)
+  );
+  if (!res.bonus) {
+    const note = document.createElement("p");
+    note.className = "g-eq-note";
+    note.textContent = "The order bonus needs at least two pins close to their stops, placed in the right order.";
+    eq.appendChild(note);
+  }
+  rows.appendChild(eq);
   rows.hidden = false;
 }
 

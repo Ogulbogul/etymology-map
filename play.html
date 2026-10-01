@@ -38,12 +38,16 @@
 <body>
   <div id="app">
     <header class="site-header">
-      <a href="index.html" class="brand" aria-label="Etymology Map, home">
-        <img class="brand-mark" src="favicon.svg" alt="" width="38" height="38" />
-        <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
-      </a>
+      <div class="brand-group">
+        <a href="index.html" class="brand" aria-label="Etymology Map, home">
+          <img class="brand-mark" src="favicon.svg" alt="" width="38" height="38" />
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="brand-sep" aria-hidden="true"></span>
+        <span class="brand-sub">The Game</span>
+      </div>
       <nav class="header-actions" aria-label="Site">
-        <a class="header-link header-play" href="play.html" aria-current="page">Play</a>
+        <a class="header-link header-play" href="play.html" aria-current="page">Play<span class="hp-long"> the Game</span></a>
         <a class="header-link" href="about.html">About</a>
         <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
       </nav>
