@@ -1436,3 +1436,23 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   #app[data-state="landing"] .hero-title { height: 100px; }
   #app[data-state="result"] .result-hero { height: 100px; }
 }
+
+/* Phones: the text above the stage cards has a fixed size so the cards never jump between words */
+@media (max-width: 640px) {
+  .hero { padding-top: 0; }
+  #app[data-state="landing"] .hero-title { height: 88px; }
+  #app[data-state="result"] .result-hero { height: 90px; }
+  #app[data-state="result"] .origin-sentence {
+    height: 94px; margin: 0 0 14px; overflow: hidden;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+  }
+  #app.is-loading .skeleton-label { height: 94px; margin: 0 0 14px; display: flex; flex-direction: column; gap: 10px; justify-content: center; text-align: left; }
+  #app.is-loading .skeleton-label::after { content: ""; height: 56px; border-radius: 6px; background: linear-gradient(90deg, var(--hair), var(--accent-soft), var(--hair)); background-size: 200% 100%; animation: sk-shimmer 1.3s linear infinite; }
+}
+
+/* Desktop: the skeleton occupies exactly the place and size of the real stage cards */
+@media (min-width: 961px) {
+  #app.is-loading .skeleton { margin-top: -11px; position: relative; z-index: 10; }
+  #app.is-loading .skeleton-label { position: absolute; left: 0; right: 0; top: -34px; margin: 0; }
+  #app.is-loading .skeleton .sk-card { height: 189px; min-height: 189px; box-sizing: border-box; }
+}
