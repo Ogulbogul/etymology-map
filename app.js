@@ -1626,6 +1626,7 @@ function setupDragHint() {
 
 function setupGlobeZoom() {
   document.getElementById("globe-zoom-in").addEventListener("click", () => globe && globe.zoomBy(1.5));
+  document.getElementById("globe-zoom-reset").addEventListener("click", () => globe && globe.resetZoom());
   document.getElementById("globe-zoom-out").addEventListener("click", () => globe && globe.zoomBy(1 / 1.5));
 }
 

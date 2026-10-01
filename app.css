@@ -1512,3 +1512,26 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(50% - 515px + 157px); }
   .globe-zoom .icon-btn { height: 36px; width: 36px; background: var(--card); }
 }
+
+/* ===== Identical, fixed-size controls in Map and Globe view ===== */
+/* Share card / link / view toggle: fixed widths so bold text or label changes never shift anything */
+#share-btn, #share-btn-globe { width: 100px; padding: 0; justify-content: center; }
+.view-toggle button { width: 84px; justify-content: center; padding: 0; }
+.view-toggle button > span:last-child { white-space: nowrap; }
+@media (max-width: 640px) {
+  #share-btn, #share-btn-globe { width: 96px; }
+  .view-toggle button { width: 76px; }
+}
+@media (min-width: 961px) {
+  /* zoom / reset: same three buttons, same spot, in both views */
+  #app[data-state="landing"] .result-only-tools { display: inline-flex; }
+  .toolbar-divider { display: none; }
+  #map-card .zoom-controls {
+    position: absolute; left: 0; top: 0; display: inline-flex; gap: 8px;
+  }
+  #app[data-state="result"] #map-card .zoom-controls { left: 156px; }
+  #map-card .zoom-controls .icon-btn.small, .globe-zoom .icon-btn { width: 36px; height: 36px; background: var(--card); }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(50% - 515px + 156px); }
+  .globe-zoom { gap: 8px; }
+}
+.head-actions, .globe-actions { gap: 8px !important; }
