@@ -157,8 +157,8 @@ function svgPoint(clientX, clientY) {
 // makes the map frame about 20% shorter; phones keep the whole world.
 const wideMq = window.matchMedia("(min-width: 900px)");
 function setFrame() {
-  VY = wideMq.matches ? 40 : 0;
-  VH = wideMq.matches ? 360 : H;
+  VY = wideMq.matches ? 34 : 0;
+  VH = wideMq.matches ? 400 : H;
   svg.setAttribute("viewBox", `0 ${VY} ${W} ${VH}`);
   setView(view);
 }
@@ -292,7 +292,7 @@ async function loadMap() {
   for (const f of countries.features) {
     const d = path(f);
     if (!d) continue;
-    const p = el("path", { d, class: "g-land" });
+    const p = el("path", { d, class: "gm-land" });
     if (f.properties && f.properties.name) p.setAttribute("data-n", f.properties.name);
     countriesLayer.appendChild(p);
   }
@@ -420,16 +420,21 @@ const END_VERDICTS = { hi: "Etymology expert", mid: "Nicely travelled", low: "A 
 function ringSvg(frac, big, small, tier, animate = true) {
   const R = 50;
   const C = 2 * Math.PI * R;
-  const svg = el("svg", { viewBox: "0 0 120 120", class: "g-ring tier-" + tier, role: "img", "aria-label": `${big} ${small}` });
-  svg.appendChild(el("circle", { cx: 60, cy: 60, r: R, class: "g-ring-track" }));
-  const arc = el("circle", { cx: 60, cy: 60, r: R, class: "g-ring-arc", transform: "rotate(-90 60 60)" });
+  const svg = el("svg", { viewBox: "0 0 120 120", class: "gm-ring tier-" + tier, role: "img", "aria-label": `${big} ${small}` });
+  svg.appendChild(el("circle", { cx: 60, cy: 60, r: R, class: "gm-ring-track" }));
+  const arc = el("circle", { cx: 60, cy: 60, r: R, class: "gm-ring-arc", transform: "rotate(-90 60 60)" });
   arc.style.strokeDasharray = `0 ${C}`;
   svg.appendChild(arc);
-  svg.appendChild(el("text", { x: 60, y: 61, class: "g-ring-big" }, big));
-  svg.appendChild(el("text", { x: 60, y: 80, class: "g-ring-small" }, small));
+  const bigSize = big.length <= 3 ? 36 : big.length <= 5 ? 28 : 23;
+  const bigY = 55;
+  svg.appendChild(el("text", { x: 60, y: bigY, class: "gm-ring-big", "font-size": bigSize }, big));
+  svg.appendChild(el("text", { x: 60, y: bigY + bigSize * 0.5 + 12, class: "gm-ring-small" }, small));
   const finalDash = `${C * Math.max(0.004, Math.min(1, frac))} ${C}`;
   if (animate) setTimeout(() => (arc.style.strokeDasharray = finalDash), 40);
-  else arc.style.strokeDasharray = finalDash;
+  else {
+    arc.style.transition = "none"; // a summary ring is drawn complete, no sweep
+    arc.style.strokeDasharray = finalDash;
+  }
   return svg;
 }
 
@@ -578,6 +583,11 @@ function reveal() {
   chips.textContent = "";
   chips.appendChild(chip(`${res.stops.filter((s) => s.pin >= 0 && closeness(s.km) >= 0.15).length} of ${data.truth.length} stops found`, "neutral"));
   if (res.bonus) chips.appendChild(chip(`Right order +${res.bonus}`, "good"));
+  else {
+    const nb = chip("No order bonus", "neutral");
+    nb.title = "The order bonus needs at least two pins close to their stops, placed in the right order.";
+    chips.appendChild(nb);
+  }
   $("g-storylink").href = "/words/" + slugOf(data.key);
   $("g-next").textContent = game.i + 1 < ROUNDS ? "Next word" : "See my result";
 
@@ -625,9 +635,10 @@ function reveal() {
     li.appendChild(foot);
     rows.appendChild(li);
   });
-  // The whole round, added up: stop points (900 shared between the stops) + the order bonus (100).
+  // The whole round, added up, right in the summary bar: stop points (900 shared) + order bonus (100).
   const distPts = res.total - res.bonus;
-  const eq = document.createElement("li");
+  const eq = $("g-eq");
+  eq.textContent = "";
   eq.className = "g-eq tier-" + tier;
   const part = (cls, big, small) => {
     const d = document.createElement("div");
@@ -640,25 +651,18 @@ function reveal() {
     return d;
   };
   const op = (t) => {
-    const s = document.createElement("span");
-    s.className = "g-eq-op";
-    s.textContent = t;
-    return s;
+    const e = document.createElement("span");
+    e.className = "g-eq-op";
+    e.textContent = t;
+    return e;
   };
   eq.append(
-    part("g-eq-dist", String(distPts), `distance points (of ${STOP_SHARE})`),
+    part("g-eq-dist", String(distPts), `distance, of ${STOP_SHARE}`),
     op("+"),
-    part("g-eq-bonus" + (res.bonus ? "" : " off"), String(res.bonus), `order bonus (of ${ORDER_BONUS})`),
+    part("g-eq-bonus" + (res.bonus ? "" : " off"), String(res.bonus), `order bonus, of ${ORDER_BONUS}`),
     op("="),
-    part("g-eq-total", String(res.total), `round total (of ${MAX_ROUND})`)
+    part("g-eq-total", String(res.total), `round, of ${MAX_ROUND}`)
   );
-  if (!res.bonus) {
-    const note = document.createElement("p");
-    note.className = "g-eq-note";
-    note.textContent = "The order bonus needs at least two pins close to their stops, placed in the right order.";
-    eq.appendChild(note);
-  }
-  rows.appendChild(eq);
   rows.hidden = false;
 }
 
@@ -681,20 +685,36 @@ const dayMinus = (day, n) => new Date(Date.parse(day + "T00:00:00Z") - n * 86400
 function readDays() {
   try {
     const a = JSON.parse(safeGet(DAYS_KEY) || "[]");
-    return Array.isArray(a) ? a.filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)) : [];
+    if (!Array.isArray(a)) return [];
+    return a
+      .map((e) => (typeof e === "string" ? { d: e, s: null, p: null } : e))
+      .filter((e) => e && typeof e.d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(e.d));
   } catch (err) {
     return [];
   }
 }
 
-function addDay(day) {
-  const a = readDays();
-  if (!a.includes(day)) a.push(day);
+function writeDays(a) {
   safeSet(DAYS_KEY, JSON.stringify(a.slice(-60)));
 }
 
+function addDay(day, score) {
+  const a = readDays().filter((e) => e.d !== day);
+  a.push({ d: day, s: score, p: null });
+  writeDays(a);
+}
+
+function setDayPct(day, pct) {
+  const a = readDays();
+  const e = a.find((x) => x.d === day);
+  if (e) {
+    e.p = pct;
+    writeDays(a);
+  }
+}
+
 function streakInfo() {
-  const days = new Set(readDays());
+  const days = new Map(readDays().map((e) => [e.d, e]));
   const playedToday = days.has(todayUTC);
   let n = 0;
   let d = playedToday ? todayUTC : dayMinus(todayUTC, 1);
@@ -715,16 +735,22 @@ function flameEl() {
 
 const streakLabel = (n) => `${n}-day streak`;
 
-// The last seven days, today on the right: filled = you played that day.
+// The last seven days, today on the right: a dot per day you played, coloured by that day's score
+// (green / yellow / red, same bands as everywhere else); an empty ring means you did not play.
 function weekRow(info) {
   const row = document.createElement("div");
   row.className = "g-week";
   row.setAttribute("role", "img");
-  row.setAttribute("aria-label", "Days played in the last week");
+  row.setAttribute("aria-label", "Days played in the last week, coloured by score");
   for (let i = 6; i >= 0; i--) {
     const day = dayMinus(todayUTC, i);
+    const entry = info.days.get(day);
     const cell = document.createElement("span");
-    cell.className = "g-wd" + (info.days.has(day) ? " on" : "") + (i === 0 ? " today" : "");
+    cell.className = "g-wd" + (entry ? " on" : "") + (i === 0 ? " today" : "");
+    if (entry && entry.s != null) {
+      cell.classList.add("tier-" + tierOf(entry.s, MAX_TOTAL));
+      cell.title = `${fmtDate(day)}: ${entry.s.toLocaleString("en-US")} points`;
+    }
     const dot = document.createElement("i");
     const lbl = document.createElement("small");
     lbl.textContent = new Date(day + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "narrow", timeZone: "UTC" });
@@ -776,10 +802,14 @@ async function fetchPercentile(mode, score) {
   }
 }
 
+// The share of players you beat uses the same bands as scores: 70%+ green, 35%+ yellow, below that red.
+const pctTier = (p) => (p >= 70 ? "hi" : p >= 35 ? "mid" : "low");
+
 // "You beat 73% of players": a bar with a marker where you landed.
 function renderPct(mode, res) {
   const box = $("e-pct");
   box.textContent = "";
+  box.className = "g-pctbox";
   if (!res) return;
   if (res.pct == null) {
     const p = document.createElement("p");
@@ -788,6 +818,7 @@ function renderPct(mode, res) {
     box.appendChild(p);
     return;
   }
+  box.className = "g-pctbox tier-" + pctTier(res.pct);
   const gauge = document.createElement("div");
   gauge.className = "g-gauge";
   const fill = document.createElement("span");
@@ -854,12 +885,13 @@ async function finish() {
     streak: 0,
   };
   if (game.mode === "daily") {
-    addDay(todayUTC);
+    addDay(todayUTC, game.total);
     data.streak = streakInfo().n;
   }
   renderEnd(data);
   const res = await fetchPercentile(game.mode, game.total);
   data.pct = res;
+  if (game.mode === "daily" && res && res.pct != null) setDayPct(todayUTC, res.pct);
   if (currentEnd === data) renderPct(game.mode, res);
   if (game.mode === "daily") {
     safeSet(DAILY_KEY, JSON.stringify({ day: todayUTC, score: data.score, rounds: data.rounds, pct: res, streak: data.streak }));
@@ -1047,6 +1079,14 @@ function paintStart() {
     });
     row.append(ringBox, bars);
     body.append(row, weekRow(info));
+    if (done.pct && done.pct.pct != null) {
+      const chip = document.createElement("div");
+      chip.className = "g-pctchip tier-" + pctTier(done.pct.pct);
+      const b = document.createElement("b");
+      b.textContent = done.pct.pct + "%";
+      chip.append(document.createTextNode("You beat "), b, document.createTextNode(" of players today"));
+      body.appendChild(chip);
+    }
     btn.textContent = "See today’s result";
   } else {
     sub.textContent =

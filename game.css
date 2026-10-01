@@ -84,7 +84,7 @@
 .g-canvas { position: relative; cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none; }
 .g-canvas.dragging { cursor: grabbing; }
 .g-canvas svg { display: block; width: 100%; height: auto; }
-.g-land { fill: var(--land); stroke: var(--land-border); stroke-width: 0.7; vector-effect: non-scaling-stroke; }
+.gm-land { fill: var(--land); stroke: var(--land-border); stroke-width: 0.7; vector-effect: non-scaling-stroke; }
 .g-help { display: flex; align-items: center; gap: 8px; padding: 9px 14px; border-top: 1px solid var(--hair); background: var(--card); font-size: 13px; color: var(--text-dim); }
 .g-help-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
 
@@ -97,12 +97,12 @@
 .g-mark.truth text { fill: #fff; }
 
 /* ---------- Score rings (round and final) ---------- */
-.g-ring { display: block; width: 100%; height: auto; }
-.g-ring-track { fill: none; stroke: var(--hair); stroke-width: 10; }
-.g-ring-arc { fill: none; stroke: var(--tier); stroke-width: 10; stroke-linecap: round; transition: stroke-dasharray 0.9s cubic-bezier(.2,.8,.2,1); }
-.g-ring-big { fill: var(--text); font-size: 30px; font-weight: 700; letter-spacing: -0.03em; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
-.g-ring-small { fill: var(--text-dim); font-size: 11px; font-weight: 500; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
-@media (prefers-reduced-motion: reduce) { .g-ring-arc { transition: none; } }
+.gm-ring { display: block; width: 100%; height: auto; }
+.gm-ring-track { fill: none; stroke: var(--hair); stroke-width: 10; }
+.gm-ring-arc { fill: none; stroke: var(--tier); stroke-width: 10; stroke-linecap: round; transition: stroke-dasharray 0.9s cubic-bezier(.2,.8,.2,1); }
+.gm-ring-big { fill: var(--text); font-weight: 700; letter-spacing: -0.03em; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+.gm-ring-small { fill: var(--text-dim); font-size: 11px; font-weight: 500; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+@media (prefers-reduced-motion: reduce) { .gm-ring-arc { transition: none; } }
 
 /* ---------- Reveal ---------- */
 .g-summary { display: grid; grid-template-columns: 88px 1fr auto; align-items: center; gap: 20px; padding: 14px 20px; border: 1px solid var(--border); border-top: 4px solid var(--tier, var(--accent)); border-radius: 12px; background: var(--card); }
@@ -132,7 +132,6 @@
 .g-final { padding: 30px 24px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); text-align: center; }
 .g-final-top { display: flex; align-items: center; justify-content: center; gap: 40px; margin: 10px 0 6px; flex-wrap: wrap; }
 .g-ringbig { width: 190px; }
-.g-ringbig .g-ring-big { font-size: 26px; }
 .g-final-side { min-width: 260px; max-width: 360px; text-align: left; }
 .g-final-side .g-verdict { font-size: 30px; margin-bottom: 6px; }
 .g-gauge { position: relative; height: 10px; margin: 12px 0 10px; border-radius: 99px; background: var(--hair); }
@@ -198,7 +197,6 @@
 }
 
 /* Round points, added up: distance + order bonus = round total */
-.g-eq { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 22px; padding: 16px 20px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); }
 .g-eq-part { text-align: center; min-width: 110px; }
 .g-eq-part b { display: block; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
 .g-eq-part span { font-size: 12.5px; color: var(--text-dim); }
@@ -224,8 +222,8 @@
 .g-stat { padding: 12px 8px; border: 1px solid var(--hair); border-radius: 10px; background: var(--bg); text-align: center; }
 .g-stat b { display: block; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent-text); }
 .g-stat span { font-size: 12px; color: var(--text-dim); }
-.g-dailyres { display: grid; grid-template-columns: 96px 1fr; align-items: center; gap: 18px; }
-.g-dailyres .g-ringbox { width: 96px; }
+.g-dailyres { display: grid; grid-template-columns: 112px 1fr; align-items: center; gap: 18px; }
+.g-dailyres .g-ringbox { width: 112px; }
 .g-minirounds { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
 .g-minirounds li { display: grid; grid-template-columns: 14px 1fr 38px; align-items: center; gap: 10px; }
 .g-minirounds small { font-size: 12px; color: var(--text-dim); text-align: center; }
@@ -284,7 +282,6 @@
 .g-controls { min-height: 104px; margin-bottom: 8px; }
 .g-summary { grid-template-columns: 62px 1fr auto; gap: 16px; padding: 8px 16px; }
 .g-summary .g-ringbox { width: 62px; }
-.g-ring-big { font-size: 28px; }
 .g-verdict { margin: 0 0 6px; font-size: 21px; }
 .g-chip2 { padding: 2px 11px; font-size: 12.5px; }
 .g-maptop { min-height: 44px; padding: 6px 12px; }
@@ -308,3 +305,44 @@
 .g-rows { grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); }
 @media (max-width: 900px) { .g-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 640px) { .g-rows { grid-template-columns: 1fr; } }
+
+/* ---------- Roomier game screen, bigger map ---------- */
+.game-main { max-width: 1180px; margin-top: 36px; padding-bottom: 48px; }
+.g-progress { margin-bottom: 20px; }
+.g-word h2 { font-size: 46px; margin: 4px 0 8px; }
+.g-meaning { padding: 4px 16px; font-size: 14.5px; }
+.g-controls { min-height: 122px; margin-bottom: 16px; }
+.g-maptop { min-height: 52px; padding: 8px 14px; }
+.g-help { padding: 9px 14px; font-size: 13px; }
+.g-rows { margin-top: 16px; gap: 12px; }
+.g-stop { padding: 14px 16px; gap: 6px; }
+.g-stop .note { font-size: 13.5px; line-height: 1.5; }
+.g-stop-foot { font-size: 13px; }
+
+/* Summary bar: ring | verdict | points added up | buttons */
+.g-summary { grid-template-columns: 76px minmax(0, 1fr) auto auto; gap: 24px; padding: 14px 22px; }
+.g-summary .g-ringbox { width: 76px; }
+.g-verdict { font-size: 22px; margin: 0 0 8px; }
+.g-chip2 { padding: 3px 12px; font-size: 13px; }
+.g-eq { display: flex; align-items: center; gap: 14px; padding: 0 6px; }
+.g-eq-part { min-width: 78px; text-align: center; }
+.g-eq-part b { font-size: 24px; }
+.g-eq-part span { font-size: 11.5px; line-height: 1.25; display: block; }
+@media (max-width: 1100px) { .g-summary { grid-template-columns: 76px minmax(0, 1fr) auto; } .g-sumbtns { grid-column: 1 / -1; justify-content: flex-end; } }
+@media (max-width: 900px) { .g-summary { grid-template-columns: 76px 1fr; } .g-eq { grid-column: 1 / -1; justify-content: center; } }
+@media (max-width: 720px) { .g-controls { min-height: 270px; } }
+
+/* ---------- Ring number, practice tiles that fill their card, coloured week dots and percentile ---------- */
+.gm-ring-big { text-anchor: middle; dominant-baseline: central; }
+.g-mode-body { justify-content: flex-start; }
+.g-stats { flex: 1; align-items: stretch; }
+.g-stat { display: flex; flex-direction: column; justify-content: center; padding: 14px 8px; }
+.g-stat b { font-size: 28px; }
+.g-stat span { font-size: 12.5px; }
+.g-wd.on i { border-color: var(--tier, var(--accent)); background: var(--tier, var(--accent)); }
+.g-wd.today.on i { box-shadow: 0 0 0 3px color-mix(in srgb, var(--tier, var(--accent)) 25%, transparent); }
+.g-pctchip { align-self: center; padding: 5px 14px; border: 1px solid var(--tier); border-radius: 99px; font-size: 13px; color: var(--text-dim); background: color-mix(in srgb, var(--tier) 12%, transparent); }
+.g-pctchip b { color: var(--tier); font-size: 15px; }
+.g-pctbox .g-gauge-fill { background: linear-gradient(90deg, color-mix(in srgb, var(--tier) 35%, transparent), var(--tier)); }
+.g-pctbox .g-gauge-knob { background: var(--tier); }
+.g-pctbox .g-pctnote b { color: var(--tier); }
