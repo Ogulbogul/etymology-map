@@ -232,7 +232,7 @@ a { color: inherit; }
 .hero {
   position: relative;
   z-index: 3;
-  padding: 24px 24px 0;
+  padding: 62px 24px 0;
   text-align: center;
 }
 .hero-title {
@@ -1328,10 +1328,10 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   #app { --viz: min(350px, 92vw); --ctl: 52px; --foot: 48px; }
 
   /* headline slot */
-  #app[data-state="landing"] .hero-title { height: 100px; display: flex; align-items: center; justify-content: center; }
+  #app[data-state="landing"] .hero-title { height: 112px; display: flex; align-items: center; justify-content: center; }
   #app[data-state="result"] .hero-title { display: none; }
   #app[data-state="result"] .result-hero {
-    display: flex; flex-direction: column; justify-content: center; height: 100px; padding: 0; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: center; height: 112px; padding: 0; overflow: hidden;
   }
   #app[data-state="result"] .hero-meaning {
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -1431,3 +1431,8 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 @media (prefers-reduced-motion: reduce) { .sk { animation: none; } }
 @media (min-width: 961px) { #app.is-loading .skeleton { margin-top: 24px; } }
 #app.is-loading #map, #app.is-loading .globe-host { opacity: 0.45; transition: opacity 0.2s; }
+
+@media (max-width: 640px) {
+  #app[data-state="landing"] .hero-title { height: 100px; }
+  #app[data-state="result"] .result-hero { height: 100px; }
+}
