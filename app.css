@@ -1404,3 +1404,13 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   html[data-view] #app:is([data-state="landing"], [data-state="result"]) .stage { margin-top: 20px !important; padding-top: 0 !important; }
 }
 @media (max-width: 960px) { #app .card-head { padding: 0 !important; align-items: flex-start !important; } .card-tools { align-items: flex-start; } }
+
+/* Phones and tablets: pill moves to the top-left; the daily word sits right under the map/globe */
+@media (max-width: 960px) {
+  #app { --foot: 0px; }
+  html[data-view="globe"] #app .globe-stage .globe-tools .globe-caption {
+    top: 0 !important; bottom: auto !important; left: 0 !important; right: auto !important; justify-content: flex-start !important;
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-tools .globe-caption { top: var(--ctl) !important; }
+  #app[data-state="landing"] .wod-card, html[data-view="globe"] #app[data-state="landing"] .wod-card { margin-top: 0; }
+}

@@ -31,24 +31,23 @@
       </nav>
     </header>
 
-    <main class="doc-main notfound-main">
-      <a class="back-link" href="/index.html">
-        <span class="back-link-arrow" aria-hidden="true">&larr;</span> Back to Etymology Map
-      </a>
+    <main class="notfound-main">
+      <svg id="nf-map" class="nf-map" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
       <div class="notfound-hero">
-        <svg class="notfound-trail" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="404">
-          <text class="trail-digit" x="0" y="195">4</text>
-          <text class="trail-digit" x="140" y="195">0</text>
-          <path class="trail-path" d="M35,205 C90,130 175,225 215,130 C260,35 330,75 381,120" />
-          <circle class="trail-start" cx="35" cy="205" r="10" />
-          <circle class="trail-end" cx="381" cy="120" r="75" />
-          <text class="trail-question" x="381" y="140">?</text>
+        <svg class="notfound-404" viewBox="62 0 356 130" role="img" aria-label="404">
+          <text x="122" y="120" text-anchor="middle" font-size="160" font-weight="700">4</text>
+          <g transform="translate(184 8) scale(4.667)" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g>
+          <text x="358" y="120" text-anchor="middle" font-size="160" font-weight="700">4</text>
         </svg>
         <h1 class="notfound-tagline">Origin unknown</h1>
         <p id="not-found-message">
-          We traced this page's journey as far back as we could, and came up empty — no root word, no cognates,
-          no paper trail. In etymology, we'd call that "of unknown origin." Here, we just call it a 404.
+          We traced this page's journey as far back as we could, and came up empty &mdash; no root word, no cognates,
+          no paper trail. In etymology, we'd call that &ldquo;of unknown origin.&rdquo; Here, we just call it a 404.
         </p>
+        <div class="notfound-actions">
+          <a class="btn btn-primary" href="/index.html">Back to Etymology Map</a>
+          <button id="nf-surprise" class="btn btn-outline" type="button">Surprise me</button>
+        </div>
       </div>
     </main>
 
@@ -61,6 +60,28 @@
     </footer>
   </div>
 
+  <script type="module">
+    (async function () {
+      try {
+        var d3 = await import("/vendor/d3-geo.js");
+        var tj = await import("/vendor/topojson-client.js");
+        var topo = await (await fetch("/vendor/land-110m.json")).json();
+        var land = tj.feature(topo, topo.objects.land);
+        var proj = d3.geoEquirectangular().fitExtent([[0, 20], [960, 480]], land);
+        var p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        p.setAttribute("d", d3.geoPath(proj)(land));
+        document.getElementById("nf-map").appendChild(p);
+      } catch (e) {}
+    })();
+    document.getElementById("nf-surprise").addEventListener("click", async function () {
+      try {
+        var idx = await (await fetch("/data/words-index.json")).json();
+        var keys = Object.keys(idx);
+        var w = keys[Math.floor(Math.random() * keys.length)];
+        location.href = "/index.html?word=" + encodeURIComponent(w);
+      } catch (e) { location.href = "/index.html"; }
+    });
+  </script>
   <script src="/track.js"></script>
   <script>
     if (window.emTrack) window.emTrack.notFound(location.pathname);

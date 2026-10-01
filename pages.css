@@ -16,18 +16,29 @@
 .doc-main a { color: var(--accent-text); text-underline-offset: 3px; }
 .doc-main strong { color: var(--text); }
 
-.notfound-main { max-width: 640px; }
-.notfound-hero { text-align: center; margin-top: 18px; }
-.notfound-trail { display: block; width: 100%; max-width: 460px; height: auto; margin: 4px auto 10px; }
-.notfound-trail .trail-digit { font: 800 210px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--text); }
-.notfound-trail .trail-path { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 9 9; opacity: 0.85; }
-.notfound-trail .trail-start { fill: var(--accent); stroke: var(--bg); stroke-width: 3; }
-.notfound-trail .trail-end { fill: none; stroke: var(--accent); stroke-width: 4; stroke-dasharray: 5 5; }
-.notfound-trail .trail-question { font: 800 64px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--accent); text-anchor: middle; }
-.notfound-tagline { margin: 6px 0 14px; color: var(--accent-text); font-weight: 700; font-size: 1.4rem; }
-.notfound-hero #not-found-message { max-width: 480px; margin-left: auto; margin-right: auto; }
+.notfound-main { position: relative; z-index: 2; flex: 1 0 auto; display: flex; justify-content: center; width: 100%; padding: 0 20px 64px; text-align: center; overflow: clip; }
+.nf-map { position: absolute; left: 50%; top: 60px; transform: translateX(-50%); width: min(1076px, 100%); height: 445px; opacity: 0.35; pointer-events: none; z-index: -1; }
+.nf-map path { fill: var(--land); stroke: var(--land-border); stroke-width: 0.6; }
+.notfound-hero { position: relative; display: flex; flex-direction: column; align-items: center; padding-top: 76px; }
+.notfound-404 { display: block; width: 356px; max-width: 80%; height: auto; color: var(--accent); }
+.notfound-404 text { fill: var(--accent); font-family: inherit; }
+.notfound-tagline { margin: 22px 0 10px; font-size: 34px; font-weight: 600; color: var(--text); }
+.notfound-hero #not-found-message { max-width: 560px; margin: 0; font-size: 17px; line-height: 1.6; color: var(--text-dim); }
+.notfound-actions { display: flex; gap: 12px; justify-content: center; margin-top: 28px; flex-wrap: wrap; }
+.notfound-actions .btn { width: 220px; text-decoration: none; }
 @media (max-width: 640px) {
   .doc-main { margin-top: 28px; }
   .doc-main h1 { font-size: 28px; }
 }
 .notfound-main { text-align: center; }
+
+@media (max-width: 640px) {
+  .notfound-main { padding: 0 16px 40px; }
+  .notfound-hero { padding-top: 28px; }
+  .notfound-404 { width: 225px; }
+  .notfound-tagline { font-size: 26px; margin-top: 18px; }
+  .notfound-hero #not-found-message { font-size: 15px; }
+  .notfound-actions { flex-direction: column; width: 100%; margin-top: 22px; gap: 8px; }
+  .notfound-actions .btn { width: 100%; }
+  .nf-map { top: 30px; height: 260px; }
+}
