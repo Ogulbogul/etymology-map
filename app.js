@@ -933,8 +933,8 @@ function computeFitView(points, opts = {}) {
   const padLeft = opts.padLeft || 0;
   let padTop = FIT_PADDING * 1.5;
   let padBottom = trayEl.hidden ? FIT_PADDING * 0.8 : FIT_PADDING * 1.6;
-  if (window.innerWidth >= 961) {
-    // Desktop map fades out at its edges: keep every pin inside the clear middle.
+  {
+    // The map fades out at its edges: keep every pin inside the clear middle.
     padX = visW * 0.1;
     padTop = visH * 0.17;
     padBottom = visH * 0.26;
@@ -1448,7 +1448,7 @@ function applyLandingPreview() {
   if (appEl.dataset.state !== "landing" || !wod) return;
   const points = drawMapRoute(wod.entry.stops, { preview: true });
   // Zoom in on the word's route, leaving the "Try this word" card clear.
-  const phone = window.innerWidth <= 640;
+  const phone = window.innerWidth <= 960;
   const padLeft = phone ? 0 : (338 / mapScale());
   setView(computeFitView(points, { padLeft, maxK: 5 }));
   if (globe) globe.setStops(wod.entry.stops, { animate: false, labels: true });
@@ -1518,11 +1518,12 @@ function setupWod() {
 // The word-of-the-day card sits on the flat map in map view and on the
 // globe in globe view.
 function placeWodCard() {
-  // On desktop the card lives directly in the stage so it never moves or
-  // disappears when the view changes; on phones it follows the active view.
-  const desktop = window.innerWidth >= 961;
-  const host = desktop ? stageEl : currentView === "globe" ? globeStageEl : mapStageEl;
-  if (wodCard.parentElement !== host) host.appendChild(wodCard);
+  // The card lives directly in the stage (after the map/globe area) in both views
+  // and at every width, so it never moves or disappears when the view changes.
+  if (wodCard.parentElement !== stageEl) {
+    const before = resultAreaEl && resultAreaEl.parentElement === stageEl ? resultAreaEl : null;
+    stageEl.insertBefore(wodCard, before);
+  }
 }
 window.addEventListener("resize", () => placeWodCard());
 
@@ -1532,7 +1533,7 @@ function setMapView(view, opts = {}) {
   if (view === "globe" && globeUnavailable) view = "map";
   if (leaveTimer) { clearTimeout(leaveTimer); leaveTimer = null; document.documentElement.classList.remove("view-leaving-globe", "view-leaving-map"); }
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (view !== currentView && !reduce && !opts.instant && window.innerWidth >= 961 && appEl) {
+  if (view !== currentView && !reduce && !opts.instant && appEl) {
     const root = document.documentElement;
     const cls = currentView === "globe" ? "view-leaving-globe" : "view-leaving-map";
     root.classList.add(cls);

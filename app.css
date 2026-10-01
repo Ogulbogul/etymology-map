@@ -1319,3 +1319,88 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 @media (max-width: 960px) {
   #app[data-state="result"] .result-hero { display: block; text-align: center; padding: 14px 16px 0; }
 }
+
+/* ===== Phones and tablets: the same frame idea as desktop ===== */
+/* One fixed-size map/globe area, controls pinned to its top, the map fading at its
+   edges (no card), and a headline slot that is the same height on the homepage and
+   on results, so switching view or page never moves anything. */
+@media (max-width: 960px) {
+  #app { --viz: min(350px, 92vw); --ctl: 52px; --foot: 48px; }
+
+  /* headline slot */
+  #app[data-state="landing"] .hero-title { height: 112px; display: flex; align-items: center; justify-content: center; }
+  #app[data-state="result"] .hero-title { display: none; }
+  #app[data-state="result"] .result-hero {
+    display: flex; flex-direction: column; justify-content: center; height: 112px; padding: 0; overflow: hidden;
+  }
+  #app[data-state="result"] .hero-meaning {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .search-row, #app[data-state="result"] .search-row { margin-top: 16px; }
+
+  /* stage frame */
+  #app:is([data-state="landing"], [data-state="result"]) .stage {
+    display: block; max-width: 760px; margin: 20px auto 0; padding: 0 16px 32px;
+  }
+  .map-card, .globe-stage {
+    position: relative; height: calc(var(--ctl) + var(--viz) + var(--foot));
+    border: 0; border-radius: 0; background: transparent; overflow: visible; margin: 0;
+  }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage {
+    display: block; height: calc(var(--ctl) + var(--viz) + var(--foot)); overflow: visible; margin: 0;
+  }
+
+  /* controls: same spots in both views */
+  .card-head {
+    position: absolute; top: 0; left: 0; right: 0; z-index: 8; display: flex; flex-wrap: nowrap;
+    align-items: center; justify-content: space-between; gap: 8px; padding: 0; border: 0; min-height: 0; background: transparent;
+  }
+  .card-tools { width: auto; margin-left: auto; flex: none; }
+  html[data-view="globe"] #app[data-state="result"] .globe-actions { display: flex; position: absolute; top: 0; left: 0; margin: 0; z-index: 8; }
+  html[data-view="globe"] .globe-stage .globe-tools { display: contents; }
+  html[data-view="globe"] .globe-stage .globe-tools .view-toggle { position: absolute; top: 0; right: 0; margin: 0; z-index: 8; }
+  html[data-view="globe"] .globe-stage .globe-tools .globe-caption {
+    position: absolute; left: 0; right: 0; bottom: 0; margin: 0; display: flex; justify-content: center; flex: none;
+  }
+
+  /* map: no container, fades at its edges */
+  .map-stage { position: static; height: auto; background: transparent; }
+  #map {
+    position: absolute; left: 0; right: 0; top: var(--ctl); width: auto; height: var(--viz);
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent), linear-gradient(to bottom, transparent, #000 9%, #000 74%, transparent);
+    -webkit-mask-composite: source-in;
+            mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent), linear-gradient(to bottom, transparent, #000 9%, #000 74%, transparent);
+            mask-composite: intersect;
+  }
+  .map-stage .map-hint, .map-stage .tray { display: none !important; }
+
+  /* globe in the same box */
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host {
+    position: absolute; top: var(--ctl); left: 0; right: 0; margin: 0 auto; width: var(--viz); --size: var(--viz); order: 0;
+  }
+  html[data-view="globe"] .globe-stage::after { display: none; }
+
+  /* Try this word: after the area, in both views */
+  #app[data-state="landing"] .wod-card, html[data-view="globe"] #app[data-state="landing"] .wod-card {
+    position: static; display: block; width: 100%; max-width: none; margin: 8px 0 0; left: auto; top: auto; order: 0;
+  }
+}
+@media (max-width: 960px) {
+  html[data-view="globe"] #app .globe-stage .globe-tools .globe-caption {
+    position: absolute; left: 0; right: 0; bottom: 0; top: auto; margin: 0; justify-content: center;
+  }
+}
+@media (max-width: 960px) {
+  #map { left: 0; right: auto; width: 100%; }
+  .map-card { overflow-x: clip; }
+}
+@media (max-width: 960px) {
+  html[data-view="globe"] #app .globe-stage { margin: 0 !important; padding: 0 !important; top: 0; }
+  html[data-view="globe"] #app .globe-stage .globe-tools .view-toggle { top: 0 !important; }
+  .card-head { top: 0 !important; }
+  #app .map-card { margin: 0 !important; }
+}
+@media (max-width: 960px) {
+  html[data-view] #app:is([data-state="landing"], [data-state="result"]) .stage { margin-top: 20px !important; padding-top: 0 !important; }
+}
+@media (max-width: 960px) { #app .card-head { padding: 0 !important; align-items: flex-start !important; } .card-tools { align-items: flex-start; } }
