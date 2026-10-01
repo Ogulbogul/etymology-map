@@ -155,24 +155,6 @@ export async function buildShareCard({ word, entry, points, theme = "light", lan
     ctx.quadraticCurveTo(qx, qy, x2, y2);
     ctx.stroke();
     ctx.setLineDash([]);
-    const t = Math.max(0.5, 1 - (PIN_R + 10) / len);
-    const ax = (1 - t) * (1 - t) * x1 + 2 * (1 - t) * t * qx + t * t * x2;
-    const ay = (1 - t) * (1 - t) * y1 + 2 * (1 - t) * t * qy + t * t * y2;
-    const tx = 2 * (1 - t) * (qx - x1) + 2 * t * (x2 - qx);
-    const ty = 2 * (1 - t) * (qy - y1) + 2 * t * (y2 - qy);
-    const ang = Math.atan2(ty, tx);
-    ctx.save();
-    ctx.translate(ax, ay);
-    ctx.rotate(ang);
-    ctx.strokeStyle = c.accent;
-    ctx.lineWidth = 2.4;
-    ctx.lineJoin = "round";
-    ctx.beginPath();
-    ctx.moveTo(-7, -6);
-    ctx.lineTo(3, 0);
-    ctx.lineTo(-7, 6);
-    ctx.stroke();
-    ctx.restore();
   }
 
   // Pins (stages at the same place share one badged pin)
