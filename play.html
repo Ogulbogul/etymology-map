@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Play: Guess the Word Origin | Etymology Map</title>
+<meta name="description" content="A free word-origin game. See an English word, drop pins on the map where it travelled, and score points for how close you get. A new daily word, plus unlimited practice. No sign-up." />
+<link rel="canonical" href="https://etymologymap.com/play" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Etymology Map" />
+<meta property="og:url" content="https://etymologymap.com/play" />
+<meta property="og:title" content="Play: Guess the Word Origin | Etymology Map" />
+<meta property="og:description" content="Drop pins on the map where a word travelled and score points for how close you get. A new daily word, plus unlimited practice." />
+<meta property="og:image" content="https://etymologymap.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Play: Guess the Word Origin | Etymology Map" />
+<meta name="twitter:description" content="Drop pins on the map where a word travelled and score points for how close you get. A new daily word, plus unlimited practice." />
+<meta name="twitter:image" content="https://etymologymap.com/og-image.png" />
+<meta name="twitter:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<script>
+  try {
+    var t = localStorage.getItem("etymology-map-theme");
+    if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="app.css" />
+<link rel="stylesheet" href="pages.css" />
+<link rel="stylesheet" href="game.css" />
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+</head>
+<body>
+  <div id="app">
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="Etymology Map, home">
+        <img class="brand-mark" src="favicon.svg" alt="" width="38" height="38" />
+        <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+      </a>
+      <nav class="header-actions" aria-label="Site">
+        <a class="header-link" href="about.html">About</a>
+        <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
+      </nav>
+    </header>
+
+    <main class="game-main">
+      <!-- Start -->
+      <section id="screen-start">
+        <div class="g-hero">
+          <p class="eyebrow">A word-origin game</p>
+          <h1>Guess the journey</h1>
+          <p class="g-lede">Drop pins on the map where an English word travelled. The closer you get, the more you score.</p>
+        </div>
+        <div class="g-modes">
+          <div class="g-mode">
+            <h2>Daily word</h2>
+            <p id="daily-sub">Five words, the same for everyone today. One try.</p>
+            <div id="daily-done" class="g-done" hidden></div>
+            <button id="btn-daily" class="btn btn-primary" type="button">Play today&rsquo;s game</button>
+          </div>
+          <div class="g-mode">
+            <h2>Practice</h2>
+            <p>Random words, as many games as you like.</p>
+            <button id="btn-practice" class="btn btn-outline" type="button">Start practice</button>
+          </div>
+        </div>
+        <div class="g-how">
+          <h2>How it works</h2>
+          <ol>
+            <li>You see an English word and what it means today.</li>
+            <li>Click the map to drop pins where you think the word travelled, oldest place first. Zoom in for accuracy.</li>
+            <li><b>Points come from distance, not country.</b> The closer each pin is to a real stop, the more you score, and pins in the right order earn a bonus.</li>
+            <li>Five words per game, up to 5,000 points. No sign-up, and nothing is tied to you.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Play -->
+      <section id="screen-play" hidden>
+        <div class="g-bar">
+          <span>Word <b id="g-round">1</b> of 5</span>
+          <span>Score <b id="g-score">0</b></span>
+        </div>
+        <div class="g-word">
+          <p class="eyebrow">Where did it travel?</p>
+          <h2 id="g-word"></h2>
+          <p id="g-meaning" class="g-meaning"></p>
+          <p id="g-count" class="g-count"></p>
+        </div>
+        <div id="g-pinbar" class="g-pinbar">
+          <div id="g-pins" class="g-pins"></div>
+          <div class="g-pinbtns">
+            <button id="g-undo" class="btn btn-outline" type="button" disabled>Undo</button>
+            <button id="g-reveal" class="btn btn-primary" type="button" disabled>Reveal</button>
+          </div>
+        </div>
+        <div class="g-stage" id="g-stage">
+          <div class="g-mapbox">
+            <div class="g-maptop">
+              <span id="g-country" class="g-country">&nbsp;</span>
+              <div class="g-zoom">
+                <button id="g-zoom-out" class="icon-btn small" type="button" title="Zoom out" aria-label="Zoom out">&minus;</button>
+                <button id="g-zoom-in" class="icon-btn small" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+                <button id="g-zoom-reset" class="icon-btn small" type="button" title="Reset view" aria-label="Reset view">&#8634;</button>
+              </div>
+            </div>
+            <div id="g-canvas" class="g-canvas">
+              <svg id="gmap" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map. Click to drop a pin.">
+                <g id="g-zoomlayer">
+                  <g id="g-countries"></g>
+                  <g id="g-lines"></g>
+                </g>
+                <g id="g-marks"></g>
+              </svg>
+            </div>
+            <div id="g-help" class="g-help">Closest pin wins: points come from distance, not from the country you click.</div>
+          </div>
+          <div id="g-result" class="g-result" hidden>
+            <div class="g-roundscore"><span id="g-roundpts"></span><span class="g-of">/ 1000</span></div>
+            <ol id="g-rows" class="g-rows"></ol>
+            <p id="g-extras" class="g-extras"></p>
+            <div class="g-nextbar">
+              <a id="g-storylink" class="btn btn-outline" href="#" target="_blank" rel="noopener">Read the full story</a>
+              <button id="g-next" class="btn btn-primary" type="button">Next word</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End -->
+      <section id="screen-end" hidden>
+        <div class="g-final">
+          <p class="eyebrow" id="e-label"></p>
+          <p class="g-final-score"><span id="e-score">0</span><span class="g-of"> / 5000</span></p>
+          <p id="e-emoji" class="g-emoji"></p>
+          <p id="e-pct" class="g-pct"></p>
+          <p id="e-streak" class="g-streak" hidden></p>
+          <div class="g-endbtns">
+            <button id="e-share" class="btn btn-primary" type="button">Share result</button>
+            <button id="e-practice" class="btn btn-outline" type="button">Play practice</button>
+            <a class="btn btn-outline" href="index.html">Explore the map</a>
+          </div>
+          <p id="e-status" class="g-status" hidden></p>
+        </div>
+        <ol id="e-rounds" class="g-rounds"></ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-count">Etymology Map</span>
+      <span class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </span>
+    </footer>
+  </div>
+  <script src="track.js"></script>
+  <script type="module" src="page.js"></script>
+  <script type="module" src="game.js"></script>
+</body>
+</html>

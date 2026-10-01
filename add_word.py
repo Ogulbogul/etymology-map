@@ -29,6 +29,7 @@ import build_pages
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "words"
 INDEX_PATH = ROOT / "data" / "words-index.json"
+GAME_POOL_PATH = ROOT / "data" / "game-pool.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SITE_URL = "https://etymologymap.com"
 REQUIRED_STOP_FIELDS = ("word", "lang", "era", "note", "meaning", "lat", "lon")
@@ -70,7 +71,7 @@ def write_sitemap(words):
     otherwise starves crawl priority on a site this size."""
     dates = _git_last_modified_dates()
     today = date.today().isoformat()
-    static_files = {"": "index.html", "about": "about.html", "privacy": "privacy.html"}
+    static_files = {"": "index.html", "about": "about.html", "privacy": "privacy.html", "play": "play.html"}
 
     def entry(loc, git_path):
         lastmod = dates.get(git_path, today)
@@ -91,6 +92,33 @@ def write_sitemap(words):
         "</urlset>\n"
     )
     SITEMAP_PATH.write_text(xml, encoding="utf-8")
+
+
+def _km(a, b):
+    """Great-circle distance in km between two stops."""
+    import math
+    p1, p2 = math.radians(a["lat"]), math.radians(b["lat"])
+    dl = math.radians(b["lon"] - a["lon"])
+    h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 12742 * math.asin(min(1, math.sqrt(h)))
+
+
+def write_game_pool():
+    """Words that make a good round of the /play game: at least two stops
+    before English, and at least two of them 800+ km apart (so there is a
+    real journey to guess). Written as a plain list of word keys."""
+    pool = []
+    for word_path in sorted(DATA_DIR.glob("*.json")):
+        entry = json.loads(word_path.read_text(encoding="utf-8-sig"))
+        stops = entry["stops"]
+        if str(stops[-1].get("lang", "")).startswith("English"):
+            stops = stops[:-1]
+        if len(stops) < 2:
+            continue
+        if max(_km(a, b) for i, a in enumerate(stops) for b in stops[i + 1:]) >= 800:
+            pool.append(word_path.stem)
+    GAME_POOL_PATH.write_text(json.dumps(pool, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return len(pool)
 
 
 def validate_entry(word, entry):
@@ -157,6 +185,7 @@ def main():
         encoding="utf-8",
     )
     write_sitemap(sorted_index)
+    write_game_pool()
     build_pages.generate_all(sorted_index)
 
     print(f"Saved {len(new_entries)} word(s). Collection now has {len(sorted_index)} total.")
