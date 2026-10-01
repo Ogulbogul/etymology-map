@@ -641,6 +641,8 @@ html[data-view="globe"] #app[data-state="result"] .wod-card { display: none; }
 .stop-sub { grid-column: 1 / -1; }
 .stop-meaning { display: block; font-size: 13px; font-style: italic; margin-bottom: 4px; }
 .stop-note { display: block; font-size: 13px; line-height: 1.45; color: var(--text-dim); }
+a.stop-row { color: inherit; text-decoration: none; }
+.stop-row.has-page .stop-word::after { content: " \2192"; font-weight: 400; color: var(--accent-text); }
 .stop-row:hover, .stop-row.active { border-color: var(--accent); }
 .stop-row.selected { border-color: var(--accent); background: var(--selected); }
 

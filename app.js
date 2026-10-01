@@ -782,7 +782,7 @@ function selectStop(index) {
   panelEl.querySelectorAll(".stop-row").forEach((el) => {
     const on = Number(el.dataset.idx) === selectedStop;
     el.classList.toggle("selected", on);
-    el.setAttribute("aria-pressed", on ? "true" : "false");
+    if (el.tagName === "BUTTON") el.setAttribute("aria-pressed", on ? "true" : "false");
   });
   trayEl.querySelectorAll(".tray-item").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
   pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", (el.dataset.idxs || "").split(",").includes(String(selectedStop))));
@@ -1110,7 +1110,14 @@ function setupPanZoom() {
 
   zoomInBtn.addEventListener("click", () => zoomAroundCenter(1.4));
   zoomOutBtn.addEventListener("click", () => zoomAroundCenter(1 / 1.4));
-  zoomResetBtn.addEventListener("click", () => animateViewTo({ x: 0, y: 0, k: 1 }));
+  // Reset goes back to the route-fitted view a result opens with (the whole world only when there is no result).
+  zoomResetBtn.addEventListener("click", () =>
+    animateViewTo(
+      appEl.dataset.state === "result" && lastPoints && lastEntry
+        ? computeFitView(lastPoints, { stops: lastEntry.stops })
+        : { x: 0, y: 0, k: 1 }
+    )
+  );
 }
 
 function zoomAroundCenter(factor) {
@@ -1413,11 +1420,22 @@ function renderWord(word, entry) {
   const total = entry.stops.length;
 
   entry.stops.forEach((stop, idx) => {
-    const row = document.createElement("button");
-    row.type = "button";
+    // A stage whose word has a page of its own in the collection (e.g. "bank"
+    // in the journey of "banquet") is a real link to that page; the others
+    // just select the stage on the map.
+    const stopKey = stop.word.trim().toLowerCase();
+    const pageKey = stopKey !== word.toLowerCase() && wordIndex[stopKey] ? stopKey : null;
+    const row = document.createElement(pageKey ? "a" : "button");
     row.className = "stop-row";
     row.dataset.idx = String(idx);
-    row.setAttribute("aria-pressed", "false");
+    if (pageKey) {
+      row.href = `/words/${slugify(pageKey)}`;
+      row.classList.add("has-page");
+      row.title = `Open the page for \u201c${pageKey}\u201d`;
+    } else {
+      row.type = "button";
+      row.setAttribute("aria-pressed", "false");
+    }
     row.innerHTML = `
       <span class="stop-circle">${idx + 1}</span>
       <span class="stop-body">
@@ -1432,7 +1450,18 @@ function renderWord(word, entry) {
         </span>
       </span>
     `;
-    row.addEventListener("click", () => selectStop(idx));
+    row.addEventListener("click", (e) => {
+      if (!pageKey) {
+        selectStop(idx);
+        return;
+      }
+      // Plain left click on the home page traces the word in place; modified
+      // clicks, middle clicks and word pages use the link as it is.
+      if (WORD_PAGE || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      wordInput.value = pageKey;
+      trace();
+    });
     row.addEventListener("mouseenter", () => setActive(idx, true));
     row.addEventListener("mouseleave", () => setActive(idx, false));
     panelEl.appendChild(row);

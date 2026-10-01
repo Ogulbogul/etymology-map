@@ -69,8 +69,8 @@
         Entries are reviewed for accuracy rather than published in bulk, and the project favors a smaller, carefully
         checked collection over a larger, sloppier one. Every entry in the collection has also been fact-checked
         against reference sources such as the Online Etymology Dictionary (etymonline.com) and the Oxford English
-        Dictionary, and corrected where a
-        source showed the recorded chain was wrong, incomplete, or repeated a popular but debunked folk etymology.
+        Dictionary, and corrected where a source showed the recorded chain was wrong, incomplete, or repeated a
+        popular but debunked folk etymology.
         Etymology is also a field with genuine scholarly debate in places (word origins aren't always settled
         science), so entries should be read as a reasonable, well-sourced account rather than an infallible one,
         and corrections are still welcome.
@@ -78,7 +78,12 @@
       <p id="word-count-line">The collection currently contains a number of words spanning dozens of source languages.</p>
 
       <h2>Built with</h2>
-      <p>This site is static (plain HTML, CSS, and JavaScript, no backend or build step). The world map is rendered using:</p>
+      <p>
+        Etymology Map is built with plain HTML, CSS and JavaScript and is hosted on Cloudflare Pages. Each word has its
+        own page, generated ahead of time from the collection, and there are no accounts or sign-ins. A small
+        Cloudflare function adds up the anonymous daily counts described in the <a href="privacy.html">Privacy Policy</a>.
+        The world map is rendered using:
+      </p>
       <ul>
         <li><a href="https://github.com/d3/d3-geo" target="_blank" rel="noopener">d3-geo</a>: map projections and path generation</li>
         <li><a href="https://github.com/topojson/topojson-client" target="_blank" rel="noopener">topojson-client</a>: decoding the world's coastline data</li>
