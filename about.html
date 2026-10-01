@@ -78,7 +78,12 @@
       <p id="word-count-line">The collection currently contains a number of words spanning dozens of source languages.</p>
 
       <h2>Built with</h2>
-      <p>Plain HTML, CSS and JavaScript on Cloudflare Pages. The world map is drawn with:</p>
+      <p>
+        Etymology Map is built with plain HTML, CSS and JavaScript and is hosted on Cloudflare Pages. Each word has its
+        own page, generated ahead of time from the collection, and there are no accounts or sign-ins. A small
+        Cloudflare function adds up the anonymous daily counts described in the <a href="privacy.html">Privacy Policy</a>.
+        The world map is rendered using:
+      </p>
       <ul>
         <li><a href="https://github.com/d3/d3-geo" target="_blank" rel="noopener">d3-geo</a>: map projections and path generation</li>
         <li><a href="https://github.com/topojson/topojson-client" target="_blank" rel="noopener">topojson-client</a>: decoding the world's coastline data</li>
