@@ -44,7 +44,7 @@
           <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
         </a>
         <span class="brand-sep" aria-hidden="true"></span>
-        <span class="brand-sub">The Game</span>
+        <span class="brand-sub-clip"><span class="brand-sub">The Game</span></span>
       </div>
       <nav class="header-actions" aria-label="Site">
         <a class="header-link header-play" href="play.html" aria-current="page">Play<span class="hp-long"> the Game</span></a>
@@ -133,7 +133,7 @@
         <div class="g-progress">
           <ol id="g-dots" class="g-dots" aria-label="Progress"></ol>
           <div class="g-word">
-            <p class="eyebrow">Word <b id="g-round">1</b> of 5</p>
+            <p class="eyebrow">Word <b id="g-round">1</b> of <b>5</b></p>
             <h2 id="g-word"></h2>
             <p id="g-meaning" class="g-meaning"></p>
           </div>
@@ -160,7 +160,7 @@
           </div>
           <div id="g-eq" class="g-eq"></div>
           <div class="g-sumbtns">
-            <a id="g-storylink" class="btn btn-outline" href="#" target="_blank" rel="noopener">Full story</a>
+            <button id="g-storylink" class="btn btn-outline" type="button" aria-expanded="false" aria-controls="g-story">Full story</button>
             <button id="g-next" class="btn btn-primary" type="button">Next word</button>
           </div>
         </div>
@@ -168,6 +168,10 @@
         </div>
 
         <div class="g-mapbox">
+          <div id="g-story" class="g-story" role="region" aria-label="The full story" hidden>
+            <button id="g-story-close" class="icon-btn small g-story-x" type="button" title="Close" aria-label="Close the full story">&times;</button>
+            <div id="g-story-in" class="g-story-in"></div>
+          </div>
           <div class="g-maptop">
             <span class="g-maptop-l"></span>
             <span id="g-country" class="g-country">&nbsp;</span>

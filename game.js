@@ -464,6 +464,7 @@ async function loadRound() {
   $("g-meaning").textContent = "Loading…";
   $("g-slots").textContent = "";
   $("g-count").textContent = "";
+  closeStory();
   $("g-summary").hidden = true;
   $("g-rows").hidden = true;
   $("g-pinbar").hidden = false;
@@ -588,7 +589,7 @@ function reveal() {
     nb.title = "The order bonus needs at least two pins close to their stops, placed in the right order.";
     chips.appendChild(nb);
   }
-  $("g-storylink").href = "/words/" + slugOf(data.key);
+  storyKey = data.key;
   $("g-next").textContent = game.i + 1 < ROUNDS ? "Next word" : "See my result";
 
   // One card per real stop, under the map: what it was, how far you were, points earned.
@@ -665,6 +666,100 @@ function reveal() {
   );
   rows.hidden = false;
 }
+
+// --- Full story panel -------------------------------------------------------
+// Only available after a guess. It opens over the map, the "Full story" button toggles it, and it
+// closes with the x, Esc, or by moving on. The text is the word's own page, fetched once.
+let storyKey = null;
+const storyCache = new Map();
+const storyBox = $("g-story");
+const storyBtn = $("g-storylink");
+
+function closeStory() {
+  storyBox.hidden = true;
+  storyBtn.setAttribute("aria-expanded", "false");
+}
+
+function storyEl(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+async function fetchStory(key) {
+  if (storyCache.has(key)) return storyCache.get(key);
+  const res = await fetch("/words/" + slugOf(key) + ".html");
+  if (!res.ok) throw new Error("story fetch failed");
+  const doc = new DOMParser().parseFromString(await res.text(), "text/html");
+  const text = doc.getElementById("full-story-text");
+  if (!text) throw new Error("no story");
+  const story = {
+    text: [...text.childNodes].map((n) => document.importNode(n, true)),
+    glance: [...doc.querySelectorAll("#story-glance .glance-row")].map((r) => ({
+      k: (r.querySelector(".glance-k") || {}).textContent || "",
+      v: [...((r.querySelector(".glance-v") || { childNodes: [] }).childNodes)].map((n) => document.importNode(n, true)),
+    })),
+  };
+  storyCache.set(key, story);
+  return story;
+}
+
+function paintStory(key, story) {
+  const box = $("g-story-in");
+  box.textContent = "";
+  const main = storyEl("div", "gs-main");
+  main.append(storyEl("p", "eyebrow", "The full story"), storyEl("h3", "gs-title", key));
+  const p = storyEl("p", "gs-text");
+  story.text.forEach((n) => p.appendChild(n.cloneNode(true)));
+  main.appendChild(p);
+  const more = storyEl("a", "gs-more", "Open this word\u2019s page \u2197");
+  more.href = "/words/" + slugOf(key);
+  more.target = "_blank";
+  more.rel = "noopener";
+  main.appendChild(more);
+  const body = storyEl("div", "gs-body");
+  body.appendChild(main);
+  if (story.glance.length) {
+    const aside = storyEl("aside", "gs-glance");
+    aside.appendChild(storyEl("h4", null, "At a glance"));
+    story.glance.forEach((g) => {
+      const row = storyEl("div", "gs-row");
+      row.appendChild(storyEl("span", "gs-k", g.k));
+      const v = storyEl("span", "gs-v");
+      g.v.forEach((n) => v.appendChild(n.cloneNode(true)));
+      row.appendChild(v);
+      aside.appendChild(row);
+    });
+    body.appendChild(aside);
+  }
+  box.appendChild(body);
+}
+
+async function openStory() {
+  if (!round || round.phase !== "reveal" || !storyKey) return;
+  const key = storyKey;
+  storyBox.hidden = false;
+  storyBtn.setAttribute("aria-expanded", "true");
+  $("g-story-in").replaceChildren(storyEl("p", "gs-note", "Loading\u2026"));
+  try {
+    const story = await fetchStory(key);
+    if (storyKey === key && !storyBox.hidden) paintStory(key, story);
+  } catch (err) {
+    if (storyKey !== key || storyBox.hidden) return;
+    const a = storyEl("a", "gs-more", "Open this word\u2019s page \u2197");
+    a.href = "/words/" + slugOf(key);
+    a.target = "_blank";
+    a.rel = "noopener";
+    $("g-story-in").replaceChildren(storyEl("p", "gs-note", "The story could not be loaded here."), a);
+  }
+}
+
+storyBtn.addEventListener("click", () => (storyBox.hidden ? openStory() : closeStory()));
+$("g-story-close").addEventListener("click", () => {
+  closeStory();
+  storyBtn.focus();
+});
 
 $("g-next").addEventListener("click", () => {
   if (game.i + 1 < ROUNDS) {
@@ -972,6 +1067,10 @@ shareModal.addEventListener("click", (e) => {
 });
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !shareModal.hidden) closeShare();
+  else if (e.key === "Escape" && !storyBox.hidden) {
+    closeStory();
+    storyBtn.focus();
+  }
 });
 $("share-theme-light-btn").addEventListener("click", () => setShareTheme("light"));
 $("share-theme-dark-btn").addEventListener("click", () => setShareTheme("dark"));

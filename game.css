@@ -57,7 +57,7 @@
 .g-scorechip b { margin-left: 4px; font-size: 15px; color: var(--accent-text); }
 
 .g-word { text-align: center; margin-bottom: 16px; }
-.g-word .eyebrow b { color: var(--text); }
+.g-word .eyebrow b { color: var(--text); font-weight: 700; }
 .g-word h2 { margin: 4px 0 6px; font-size: 50px; line-height: 1.1; font-weight: 600; letter-spacing: -0.02em; color: var(--accent-text); overflow-wrap: anywhere; text-transform: capitalize; }
 .g-meaning { display: inline-block; max-width: 640px; margin: 0; padding: 4px 16px; border: 1px solid var(--hair); border-radius: 99px; background: var(--card); font-size: 15px; font-style: italic; color: var(--text-dim); }
 
@@ -183,14 +183,15 @@
 }
 
 /* Header on /play: "Etymology Map | The Game". The separator and the name fade in when the page opens. */
-.brand-group { display: flex; align-items: center; gap: 16px; }
-.brand-sep, .brand-sub { opacity: 0; animation: g-fadein 0.45s ease 0.15s forwards; }
-.brand-sep { width: 1px; height: 28px; background: var(--border); }
-.brand-sub { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; color: var(--accent-text); }
-@keyframes g-fadein { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
-@media (prefers-reduced-motion: reduce) { .brand-sep, .brand-sub { animation: none; opacity: 1; } }
+.brand-group { display: flex; align-items: center; gap: 16px; --bs-gap: 16px; }
+.brand-sep { position: relative; top: 1px; width: 1px; height: 28px; background: var(--border); transform-origin: center; animation: g-sep 0.35s ease 0.1s backwards; }
+.brand-sub-clip { position: relative; top: 1.5px; display: block; margin-left: calc(var(--bs-gap) * -1); overflow: hidden; padding: 4px 6px 4px 0; margin-block: -4px; }
+.brand-sub { display: block; margin-left: var(--bs-gap); font-size: 20px; font-weight: 600; letter-spacing: -0.01em; color: var(--accent-text); white-space: nowrap; animation: g-out 0.6s cubic-bezier(0.22, 0.8, 0.25, 1) 0.4s backwards; }
+@keyframes g-sep { from { transform: scaleY(0); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes g-out { from { transform: translateX(-110%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .brand-sep, .brand-sub { animation: none; } }
 @media (max-width: 640px) {
-  .brand-group { gap: 10px; }
+  .brand-group { gap: 10px; --bs-gap: 10px; }
   .brand-sub { font-size: 15px; }
   .brand-sep { height: 22px; }
   .header-play[aria-current="page"] { display: none; }
@@ -207,8 +208,6 @@
 @media (max-width: 640px) { .g-eq { gap: 6px 12px; padding: 12px; } .g-eq-part { min-width: 0; } .g-eq-part b { font-size: 21px; } }
 
 /* ---------- Header: the separator and "The Game" sit on the same line as the name ---------- */
-.brand-sep { position: relative; top: 1px; }
-.brand-sub { position: relative; top: 1.5px; }
 
 /* ---------- Start cards ---------- */
 .g-mode { align-items: stretch; }
@@ -370,3 +369,34 @@
   .g-progress .g-dots { margin-top: 41px; }
   .g-progress .g-scorechip { margin-top: 31px; }
 }
+
+/* ---------- Full story panel, over the map ---------- */
+.g-mapbox { position: relative; }
+.g-story { position: absolute; z-index: 6; inset: 64px 14px 14px; display: flex; flex-direction: column; overflow: auto; border: 1px solid var(--border); border-radius: 14px; background: var(--card); box-shadow: 0 18px 50px var(--shadow); animation: g-story-in 0.18s ease; }
+.g-story[hidden] { display: none; }
+@keyframes g-story-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.g-story-x { position: absolute; top: 14px; right: 14px; font-size: 18px; z-index: 1; }
+.g-story-in { margin: auto 0; padding: 44px clamp(22px, 4vw, 44px) 30px; }
+.gs-main .eyebrow { margin: 0 0 4px; }
+.gs-title { margin: 0 0 16px; font-size: 30px; line-height: 1.15; font-weight: 650; letter-spacing: -0.01em; color: var(--accent-text); text-transform: capitalize; }
+.gs-body { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 40px; align-items: center; }
+.gs-text { margin: 0 0 18px; font-size: 16.5px; line-height: 1.75; color: var(--text); }
+.gs-text em { color: var(--accent-text); }
+.gs-more { font-size: 13.5px; color: var(--accent-text); text-decoration: none; }
+.gs-more:hover { text-decoration: underline; }
+.gs-note { margin: 0 0 10px; color: var(--text-dim); }
+.gs-glance { padding: 16px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg); }
+.gs-glance h4 { margin: 0 0 6px; font-size: 16px; font-weight: 650; }
+.gs-row { padding: 10px 0; border-top: 1px solid var(--hair); }
+.gs-row:first-of-type { margin-top: 6px; }
+.gs-k { display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+.gs-v { display: block; margin-top: 2px; font-weight: 600; }
+.gs-v .glance-arrow { color: var(--accent-text); }
+#g-storylink[aria-expanded="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-text); }
+@media (max-width: 900px) { .gs-body { grid-template-columns: 1fr; gap: 20px; } }
+@media (max-width: 720px) {
+  .g-story { position: fixed; z-index: 60; inset: auto 0 0 0; max-height: 80vh; border-radius: 18px 18px 0 0; border-width: 1px 0 0; }
+  .g-story-in { margin: 0; padding: 24px 20px 28px; }
+  .gs-title { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) { .g-story { animation: none; } }
