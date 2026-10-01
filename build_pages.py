@@ -205,6 +205,53 @@ def render_word_page(word, entry, word_index):
     html = re.sub(r'<meta name="twitter:title" content="[^"]*" />', f'<meta name="twitter:title" content="{esc(title)}" />', html, count=1)
     html = re.sub(r'<meta name="twitter:description" content="[^"]*" />', f'<meta name="twitter:description" content="{esc(description)}" />', html, count=1)
 
+    # --- structured data: the home page's WebSite block is swapped for this word's
+    # DefinedTerm + breadcrumb (Home > word), so Google can show the breadcrumb trail.
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": f"{canonical}#webpage",
+                "url": canonical,
+                "name": title,
+                "description": description,
+                "inLanguage": "en",
+                "about": {"@id": f"{canonical}#term"},
+                "breadcrumb": {"@id": f"{canonical}#breadcrumb"},
+            },
+            {
+                "@type": "DefinedTerm",
+                "@id": f"{canonical}#term",
+                "name": word,
+                "description": entry["current_meaning"],
+                "url": canonical,
+                "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "name": "Etymology Map word origins",
+                    "url": f"{SITE_URL}/",
+                },
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{canonical}#breadcrumb",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Etymology Map", "item": f"{SITE_URL}/"},
+                    {"@type": "ListItem", "position": 2, "name": display_word, "item": canonical},
+                ],
+            },
+        ],
+    }
+    ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+    html, n_ld = re.subn(
+        r'<script type="application/ld\+json" id="ld-json">.*?</script>',
+        lambda _m: f'<script type="application/ld+json" id="ld-json">{ld_json}</script>',
+        html,
+        count=1,
+        flags=re.S,
+    )
+    assert n_ld == 1, "index.html is missing the ld-json block"
+
     html = _absolutize(html)
 
     # --- page mode
