@@ -1,3 +1,15 @@
+# Stage pages (/words/<slug>?stop=N) show part of a journey that is already on the
+# full word page, so search engines are asked not to crawl them. Link-preview bots
+# (Facebook, X, WhatsApp, Slack...) are not listed here and can still read them.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Applebot
+User-agent: YandexBot
+User-agent: Baiduspider
+Disallow: /*?stop=
+Disallow: /*&stop=
+
 User-agent: *
 Allow: /
 
