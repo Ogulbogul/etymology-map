@@ -1501,3 +1501,14 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   -webkit-mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
           mask-image: radial-gradient(closest-side, #000 84%, transparent 100%);
 }
+
+/* Zoom buttons live in the left cluster, outside the globe's face (desktop) */
+@media (min-width: 961px) {
+  .globe-stage .globe-zoom { display: none; }
+  html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage .globe-zoom {
+    display: inline-flex; position: absolute; z-index: 8; margin: 0; gap: 8px;
+    left: calc(50% - 515px); top: calc(var(--pad) + 11px);
+  }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(50% - 515px + 157px); }
+  .globe-zoom .icon-btn { height: 36px; width: 36px; background: var(--card); }
+}

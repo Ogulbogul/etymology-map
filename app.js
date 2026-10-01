@@ -1659,7 +1659,7 @@ function setupViewToggle() {
     const paused = !(globe && globe.isPaused());
     if (globe) globe.setPaused(paused);
     globeMotionBtn.setAttribute("aria-pressed", paused ? "true" : "false");
-    globeMotionLabel.textContent = paused ? "Paused" : "Slowly rotating";
+    globeMotionLabel.textContent = paused ? "Paused" : "Rotating";
     globeMotionIcon.innerHTML = icon(paused ? "play" : "pause", 13);
   });
 }

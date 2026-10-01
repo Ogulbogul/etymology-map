@@ -392,7 +392,10 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     e.preventDefault();
     zoomTo(zoom * Math.exp(-e.deltaY * 0.01), e.clientX, e.clientY);
   }, { passive: false });
-  svg.addEventListener("dblclick", (e) => { if (!e.target.closest(".gpin")) zoomTo(zoom >= MAX_ZOOM ? 1 : zoom * 2, e.clientX, e.clientY); });
+  svg.addEventListener("dblclick", (e) => {
+    if (zoom >= MAX_ZOOM * 0.97) { zoomTo(1); return; } // at max zoom: back to the default view
+    if (!e.target.closest(".gpin")) zoomTo(zoom * 2, e.clientX, e.clientY);
+  });
   svg.addEventListener("pointerenter", () => { idleUntil = Math.max(idleUntil, performance.now() + 1500); });
   svg.addEventListener("pointermove", () => { if (!dragging) idleUntil = Math.max(idleUntil, performance.now() + 1500); });
 
