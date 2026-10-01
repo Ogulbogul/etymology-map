@@ -1030,6 +1030,7 @@ function statTile(big, small) {
   t.className = "g-stat";
   const b = document.createElement("b");
   b.textContent = big;
+  if (big.length === 1) b.className = "sym"; // a lone symbol (the infinity sign) is drawn larger
   const s = document.createElement("span");
   s.textContent = small;
   t.append(b, s);

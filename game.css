@@ -346,3 +346,27 @@
 .g-pctbox .g-gauge-fill { background: linear-gradient(90deg, color-mix(in srgb, var(--tier) 35%, transparent), var(--tier)); }
 .g-pctbox .g-gauge-knob { background: var(--tier); }
 .g-pctbox .g-pctnote b { color: var(--tier); }
+
+/* ---------- Alignment pass ---------- */
+/* stat tiles: every number sits in the same fixed-height row, every label on the same line */
+.g-stat b { display: flex; align-items: center; justify-content: center; height: 34px; line-height: 1; }
+.g-stat b.sym { font-size: 40px; }
+.g-stat span { display: block; margin-top: 6px; line-height: 1.3; }
+
+/* points sum: the + and = line up with the numbers, not with the middle of number + label */
+.g-eq { align-items: flex-start; }
+.g-eq-part b { height: 30px; line-height: 30px; }
+.g-eq-op { align-self: flex-start; height: 30px; line-height: 30px; font-size: 22px; }
+
+/* coloured top bar of the summary and the stop cards: a clipped bar instead of a curved border */
+.g-summary { position: relative; overflow: hidden; border-top: 1px solid var(--border); padding-top: 18px; }
+.g-summary::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--tier, var(--accent)); }
+.g-stop { position: relative; overflow: hidden; border-top: 1px solid var(--border); padding-top: 18px; }
+.g-stop::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--tier); }
+
+/* dots and score line up with the word itself (the big title), not with the whole block */
+@media (min-width: 901px) {
+  .g-progress { align-items: start; }
+  .g-progress .g-dots { margin-top: 41px; }
+  .g-progress .g-scorechip { margin-top: 31px; }
+}
