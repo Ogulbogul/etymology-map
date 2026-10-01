@@ -179,6 +179,9 @@ let globe = null;
 let globeUnavailable = false;
 let currentView = "map";
 let selectedStop = -1;
+// Set on a word page opened at /words/<slug>?stop=N: the journey is shown only up to
+// stage N ({ base: the page's word, total: its stage count, count: N }).
+let stagePage = null;
 let wod = null; // { word, entry }
 const VIEW_STORAGE_KEY = "etymology-map-view";
 
@@ -1400,10 +1403,72 @@ function renderStoryExtras(word, entry) {
     row("Route", route.join(' <span class="glance-arrow">&rarr;</span> ')) +
     row("Entered English", escapeHtml(last.era));
   routeChipsEl.innerHTML = stops
-    .map((s, i) => `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`)
+    .map((s, i) => {
+      const href = stageLinkFor(i, stops.length);
+      const chip = href
+        ? `<a class="route-chip" href="${href}" data-idx="${i}" title="View stage ${i + 1}: ${escapeHtml(s.word)}">${escapeHtml(s.word)}</a>`
+        : `<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`;
+      return `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}${chip}`;
+    })
     .join("");
-  routeChipsEl.querySelectorAll(".route-chip").forEach((b) => b.addEventListener("click", () => selectStop(Number(b.dataset.idx))));
+  routeChipsEl.querySelectorAll("button.route-chip").forEach((b) => b.addEventListener("click", () => selectStop(Number(b.dataset.idx))));
   routeChipsEl.hidden = false;
+}
+
+// On a word page, every stage before the one being shown opens that stage's own
+// page (/words/<slug>?stop=N: "stage N of M in the journey of <word>"). The page's
+// own last stage, and the whole home page, keep selecting the stage in place.
+function stageLinkFor(idx, shownTotal) {
+  if (!WORD_PAGE) return null;
+  const base = stagePage ? stagePage.base : document.body.dataset.word;
+  const current = stagePage ? stagePage.count : shownTotal;
+  if (!base || idx + 1 >= current) return null;
+  return `/words/${slugify(base)}?stop=${idx + 1}`;
+}
+
+// The "stage N of M" banner, headline wording and page title for a ?stop=N page.
+function applyStagePageChrome() {
+  const eyebrow = document.querySelector("#result-hero .eyebrow");
+  const old = document.getElementById("stage-notice");
+  if (old) old.remove();
+  if (!stagePage) {
+    if (eyebrow) eyebrow.textContent = "Today it means";
+    return;
+  }
+  const { base, total, count } = stagePage;
+  const stop = lastEntry.stops[count - 1];
+  if (eyebrow) eyebrow.textContent = "At this point it meant";
+  // The full-journey sentence and story describe the whole word, not this stage.
+  originSentenceEl.hidden = true;
+  fullStoryEl.hidden = true;
+
+  const notice = document.createElement("p");
+  notice.id = "stage-notice";
+  notice.className = "stage-notice";
+  notice.append(document.createTextNode(`Stage ${count} of ${total} in the journey of \u201c${base}\u201d to English. `));
+  const full = document.createElement("a");
+  full.href = `/words/${slugify(base)}`;
+  full.textContent = "See the full journey \u2192";
+  notice.append(full);
+  const ownKey = stop.word.trim().toLowerCase();
+  if (ownKey !== base && wordIndex[ownKey]) {
+    notice.append(document.createTextNode(" \u00b7 "));
+    const own = document.createElement("a");
+    own.href = `/words/${slugify(ownKey)}`;
+    own.textContent = `\u201c${ownKey}\u201d has its own page \u2192`;
+    notice.append(own);
+  }
+  resultHeroEl.insertAdjacentElement("afterend", notice);
+
+  const shown = stop.word.charAt(0).toUpperCase() + stop.word.slice(1);
+  const title = `${shown}: stage ${count} of ${total} in the journey of \u201c${base}\u201d | Etymology Map`;
+  const description = `\u201c${stop.word}\u201d (${stop.lang}, ${stop.era}): stage ${count} of ${total} in the journey of \u201c${base}\u201d to English.`;
+  document.title = title;
+  [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description],
+   ['meta[name="twitter:title"]', title], ['meta[name="twitter:description"]', description]].forEach(([sel, val]) => {
+    const m = document.querySelector(sel);
+    if (m) m.setAttribute("content", val);
+  });
 }
 
 function renderWord(word, entry) {
@@ -1423,12 +1488,16 @@ function renderWord(word, entry) {
     // A stage whose word has a page of its own in the collection (e.g. "bank"
     // in the journey of "banquet") is a real link to that page; the others
     // just select the stage on the map.
+    const stageHref = stageLinkFor(idx, total);
     const stopKey = stop.word.trim().toLowerCase();
-    const pageKey = stopKey !== word.toLowerCase() && wordIndex[stopKey] ? stopKey : null;
-    const row = document.createElement(pageKey ? "a" : "button");
+    const pageKey = !WORD_PAGE && stopKey !== word.toLowerCase() && wordIndex[stopKey] ? stopKey : null;
+    const row = document.createElement(stageHref || pageKey ? "a" : "button");
     row.className = "stop-row";
     row.dataset.idx = String(idx);
-    if (pageKey) {
+    if (stageHref) {
+      row.href = stageHref;
+      row.title = `View stage ${idx + 1}: ${stop.word}`;
+    } else if (pageKey) {
       row.href = `/words/${slugify(pageKey)}`;
       row.classList.add("has-page");
       row.title = `Open the page for \u201c${pageKey}\u201d`;
@@ -1451,6 +1520,7 @@ function renderWord(word, entry) {
       </span>
     `;
     row.addEventListener("click", (e) => {
+      if (stageHref) return; // a plain link to that stage's page
       if (!pageKey) {
         selectStop(idx);
         return;
@@ -1754,7 +1824,17 @@ async function trace(options = {}) {
     if (window.emTrack) window.emTrack.miss(raw);
     return;
   }
-  renderWord(raw, entry);
+  let shownWord = raw;
+  let shownEntry = entry;
+  stagePage = null;
+  const stopCount = options.stopCount;
+  if (WORD_PAGE && stopCount >= 1 && stopCount < entry.stops.length) {
+    shownEntry = { stops: entry.stops.slice(0, stopCount), current_meaning: entry.stops[stopCount - 1].meaning };
+    shownWord = entry.stops[stopCount - 1].word;
+    stagePage = { base: raw, total: entry.stops.length, count: stopCount };
+  }
+  renderWord(shownWord, shownEntry);
+  applyStagePageChrome();
   syncGlobeVariant();
   if (window.emTrack) window.emTrack.view(raw);
 
@@ -2332,10 +2412,9 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
     setMapView(currentView, { save: false });
     syncGlobeVariant();
     wordInput.value = document.body.dataset.word;
-    await trace({ fromUrl: true });
+    const stopParam = parseInt(new URLSearchParams(window.location.search).get("stop"), 10);
+    await trace({ fromUrl: true, stopCount: Number.isFinite(stopParam) ? stopParam : 0 });
     document.getElementById("seo-static").setAttribute("aria-hidden", "true");
-    const stop = Number(new URLSearchParams(window.location.search).get("stop"));
-    if (stop >= 1 && lastEntry && stop <= lastEntry.stops.length) selectStop(stop - 1);
     return;
   }
   renderExampleChips();
