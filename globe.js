@@ -114,6 +114,34 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   let frame = null;
   let lastDrawn = { lon: NaN, lat: NaN };
   let pxWidth = 600;
+  let zoom = 1; // 1 = the default (fully zoomed out) view; up to MAX_ZOOM
+  const MAX_ZOOM = 4;
+  const vb = { x: -60, y: -60 };
+  const vbW = () => 920 / zoom;
+  function applyViewBox() {
+    const w = vbW();
+    vb.x = Math.max(-60, Math.min(860 - w, vb.x));
+    vb.y = Math.max(-60, Math.min(860 - w, vb.y));
+    svg.setAttribute("viewBox", `${vb.x} ${vb.y} ${w} ${w}`);
+  }
+  // Zoom about a point given in client pixels (or the view centre).
+  function zoomTo(next, cx, cy) {
+    next = Math.max(1, Math.min(MAX_ZOOM, next));
+    if (next === zoom) return;
+    const r = svg.getBoundingClientRect();
+    const fx = cx === undefined ? 0.5 : (cx - r.left) / r.width;
+    const fy = cy === undefined ? 0.5 : (cy - r.top) / r.height;
+    const w0 = vbW();
+    const px = vb.x + fx * w0;
+    const py = vb.y + fy * w0;
+    zoom = next;
+    const w1 = vbW();
+    vb.x = px - fx * w1;
+    vb.y = py - fy * w1;
+    applyViewBox();
+    host.classList.toggle("is-zoomed", zoom > 1);
+    draw();
+  }
 
   function swayActive() {
     return !userPaused && !dragging && !reducedMotion.matches && !document.hidden && stops.length > 0 && performance.now() > idleUntil;
@@ -127,7 +155,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   function pinRadiusUnits(selectedPin) {
     const small = pxWidth < 520;
     const px = (selectedPin ? PIN_PX_SELECTED : PIN_PX) * (small ? 0.85 : 1);
-    return { r: px * (920 / pxWidth), px };
+    return { r: px * (vbW() / pxWidth), px };
   }
 
   function buildRoute() {
@@ -205,7 +233,7 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       if (!visible) return;
       const isSel = grp.idxs.some((k) => k === selected || k === hovered);
       const { r, px } = pinRadiusUnits(isSel);
-      const k = 920 / pxWidth;
+      const k = vbW() / pxWidth;
       const fs = Math.max(9, px * 1.3) * k;
       const multi = grp.idxs.length > 1;
       const dot = g.querySelector("circle.gpin-dot");
@@ -304,7 +332,17 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   let dragMoved = false;
   let pendingPointer = 0;
   let suppressClick = false;
+  const touches = new Map();
+  let pinchPrev = null;
   svg.addEventListener("pointerdown", (e) => {
+    touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (touches.size === 2) {
+      const [a, b] = [...touches.values()];
+      pinchPrev = Math.hypot(a.x - b.x, a.y - b.y);
+      dragging = false;
+      dragStart = null;
+      return;
+    }
     dragging = true;
     dragMoved = false;
     anim = null;
@@ -312,6 +350,14 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
     pendingPointer = e.pointerId;
   });
   svg.addEventListener("pointermove", (e) => {
+    if (touches.has(e.pointerId)) touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (touches.size === 2 && pinchPrev) {
+      const [a, b] = [...touches.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      zoomTo(zoom * (d / pinchPrev), (a.x + b.x) / 2, (a.y + b.y) / 2);
+      pinchPrev = d;
+      return;
+    }
     if (!dragging || !dragStart) return;
     if (!dragMoved && Math.hypot(e.clientX - dragStart.x, e.clientY - dragStart.y) < 4) return;
     if (!dragMoved) {
@@ -320,12 +366,13 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       svg.classList.add("is-dragging");
       host.dispatchEvent(new CustomEvent("globe-drag", { bubbles: true }));
     }
-    const k = 180 / (pxWidth * 0.8); // degrees per pixel at the sphere's centre
+    const k = 180 / (pxWidth * 0.8 * zoom); // degrees per pixel at the sphere's centre
     lon = normLon(dragStart.lon - (e.clientX - dragStart.x) * k);
     lat = Math.max(-75, Math.min(75, dragStart.lat + (e.clientY - dragStart.y) * k));
     draw();
   });
-  const endDrag = () => {
+  const endDrag = (e) => {
+    if (e && e.pointerId !== undefined) { touches.delete(e.pointerId); if (touches.size < 2) pinchPrev = null; }
     if (!dragging) return;
     dragging = false;
     dragStart = null;
@@ -339,6 +386,13 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
   };
   svg.addEventListener("pointerup", endDrag);
   svg.addEventListener("pointercancel", endDrag);
+  // Ctrl/Cmd + wheel (and trackpad pinch) zooms; plain wheel still scrolls the page.
+  svg.addEventListener("wheel", (e) => {
+    if (!e.ctrlKey && !e.metaKey) return;
+    e.preventDefault();
+    zoomTo(zoom * Math.exp(-e.deltaY * 0.01), e.clientX, e.clientY);
+  }, { passive: false });
+  svg.addEventListener("dblclick", (e) => { if (!e.target.closest(".gpin")) zoomTo(zoom >= MAX_ZOOM ? 1 : zoom * 2, e.clientX, e.clientY); });
   svg.addEventListener("pointerenter", () => { idleUntil = Math.max(idleUntil, performance.now() + 1500); });
   svg.addEventListener("pointermove", () => { if (!dragging) idleUntil = Math.max(idleUntil, performance.now() + 1500); });
 
@@ -405,6 +459,9 @@ export function createGlobe({ host, d3geo, land, onSelect, onHover }) {
       void svg.getBoundingClientRect();
       svg.classList.add("is-revealed");
     },
+    zoomBy(f) { zoomTo(zoom * f); },
+    resetZoom() { zoomTo(1); },
+    getZoom: () => zoom,
     resize(redraw = true) { measure(); if (redraw) draw(); },
   };
 }

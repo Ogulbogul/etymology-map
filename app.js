@@ -918,6 +918,7 @@ function animateViewTo(target, duration = 700) {
 
 function computeFitView(points, opts = {}) {
   if (points.length === 0) return { x: 0, y: 0, k: 1 };
+  if (!mapSvg.getBoundingClientRect().width) return { x: 0, y: 0, k: 1 }; // map is hidden: nothing to fit yet
   // The svg fills its card ("slice"), so what's visible can be a
   // sub-rectangle of the 960x500 space: fit the route inside that.
   const r = mapSvg.getBoundingClientRect();
@@ -1445,8 +1446,9 @@ function renderWord(word, entry) {
   lastPoints = points;
 
   setView({ x: 0, y: 0, k: 1 });
+  mapUserMoved = false;
   animateViewTo(computeFitView(points, { stops: entry.stops }), 1300);
-  if (globe) globe.setStops(entry.stops, { animate: true });
+  if (globe) { globe.resetZoom(); globe.setStops(entry.stops, { animate: true }); }
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
   originSentenceEl.hidden = false;
@@ -1603,6 +1605,11 @@ function applyMapView(view, { save = true } = {}) {
       globe.resize(!rolling);
       if (rolling) globe.spinIn();
     }
+    if (view === "map") {
+      // The map may have been laid out while hidden (size 0): fit the route again now it is visible.
+      if (appEl.dataset.state === "landing") applyLandingPreview();
+      else if (lastPoints && lastEntry) setView(computeFitView(lastPoints, { stops: lastEntry.stops }));
+    }
   });
 }
 
@@ -1617,8 +1624,33 @@ function setupDragHint() {
   });
 }
 
+function setupGlobeZoom() {
+  document.getElementById("globe-zoom-in").addEventListener("click", () => globe && globe.zoomBy(1.5));
+  document.getElementById("globe-zoom-out").addEventListener("click", () => globe && globe.zoomBy(1 / 1.5));
+}
+
+// Keep the route fitted if the map's size changes (window resize, rotation, late layout),
+// unless the visitor has already moved the map themselves.
+let mapUserMoved = false;
+function setupMapRefit() {
+  ["pointerdown", "wheel"].forEach((t) => mapSvg.addEventListener(t, () => { mapUserMoved = true; }, { passive: true }));
+  [zoomInBtn, zoomOutBtn, zoomResetBtn].forEach((b) => b && b.addEventListener("click", () => { mapUserMoved = true; }));
+  let lastW = 0;
+  if (!window.ResizeObserver) return;
+  new ResizeObserver(() => {
+    const w = mapSvg.getBoundingClientRect().width;
+    if (!w || Math.abs(w - lastW) < 2) { lastW = w || lastW; return; }
+    lastW = w;
+    if (mapUserMoved) return;
+    if (appEl.dataset.state === "landing") applyLandingPreview();
+    else if (lastPoints && lastEntry) setView(computeFitView(lastPoints, { stops: lastEntry.stops }));
+  }).observe(mapSvg);
+}
+
 function setupViewToggle() {
   setupDragHint();
+  setupMapRefit();
+  setupGlobeZoom();
   let saved = null;
   try { saved = localStorage.getItem(VIEW_STORAGE_KEY); } catch (err) { saved = null; }
   viewToggleButtons.forEach((b) => b.addEventListener("click", () => setMapView(b.dataset.view)));

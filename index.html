@@ -170,7 +170,11 @@
         </div>
         <div class="globe-tools">
           <div class="globe-caption">
-          <span id="globe-hint" class="globe-hint"><span data-icon="move-horizontal" data-icon-size="14"></span>Drag to rotate</span>
+          <span class="globe-zoom">
+            <button id="globe-zoom-out" class="icon-btn small" type="button" aria-label="Zoom out" title="Zoom out" data-icon="minus" data-icon-size="16"></button>
+            <button id="globe-zoom-in" class="icon-btn small" type="button" aria-label="Zoom in" title="Zoom in" data-icon="plus" data-icon-size="16"></button>
+          </span>
+          <span id="globe-hint" class="globe-hint"><span data-icon="move-horizontal" data-icon-size="14"></span>Drag to rotate &middot; pinch or Ctrl+scroll to zoom</span>
           <button id="globe-motion-btn" class="pill-btn" type="button" aria-pressed="false">
             <span id="globe-motion-label">Slowly rotating</span>
             <span id="globe-motion-icon" class="pill-icon" data-icon="pause" data-icon-size="13"></span>
