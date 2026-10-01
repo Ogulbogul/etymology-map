@@ -942,12 +942,30 @@ function computeFitView(points, opts = {}) {
     padTop = visH * (small ? 0.2 : 0.17);
     padBottom = visH * (small ? 0.3 : 0.26);
   }
-  const k = clamp(
-    Math.min((visW - 2 * padX - padLeft) / bboxW, (visH - padTop - padBottom) / bboxH),
-    minZoom(),
-    opts.maxK || MAX_ZOOM
-  );
-  const cx = (minX + maxX) / 2;
+  const availW = visW - 2 * padX - padLeft;
+  const availH = visH - padTop - padBottom;
+  const fitK = (w, h) => clamp(Math.min(availW / w, availH / h), minZoom(), opts.maxK || MAX_ZOOM);
+  let k = fitK(bboxW, bboxH);
+  // Pin labels sit beside their pins: widen the box by the labels' reach so the
+  // words themselves, not just the pins, stay in the clear middle of the map.
+  let ext = { left: 0, right: 0 };
+  if (opts.stops) {
+    const scale = mapScale() || 1;
+    const groups = groupStops(opts.stops);
+    const widths = groups.map((g) => measureLabelWidth([...new Set(g.idxs.map((i) => opts.stops[i].word))].join(" / ")));
+    for (let it = 0; it < 4; it++) {
+      const unit = scale * k; // px per map unit at this zoom
+      let lo = minX - 16 / unit;
+      let hi = maxX + 16 / unit;
+      groups.forEach((g, gi) => {
+        const px = points[g.idxs[0]][0];
+        hi = Math.max(hi, px + (widths[gi] + 22) / unit);
+      });
+      ext = { left: minX - lo, right: hi - maxX };
+      k = fitK(hi - lo, bboxH + 24 / unit);
+    }
+  }
+  const cx = (minX - ext.left + maxX + ext.right) / 2;
   const cy = (minY + maxY) / 2;
   const centreY = MAP_HEIGHT / 2 + (padTop - padBottom) / 2;
   return { x: MAP_WIDTH / 2 + padLeft / 2 - k * cx, y: centreY - k * cy, k };
@@ -1419,7 +1437,7 @@ function renderWord(word, entry) {
   lastPoints = points;
 
   setView({ x: 0, y: 0, k: 1 });
-  animateViewTo(computeFitView(points), 1300);
+  animateViewTo(computeFitView(points, { stops: entry.stops }), 1300);
   if (globe) globe.setStops(entry.stops, { animate: true });
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
@@ -1453,7 +1471,7 @@ function applyLandingPreview() {
   // Zoom in on the word's route, leaving the "Try this word" card clear.
   const phone = window.innerWidth <= 960;
   const padLeft = phone ? 0 : (338 / mapScale());
-  setView(computeFitView(points, { padLeft, maxK: 5 }));
+  setView(computeFitView(points, { padLeft, maxK: 5, stops: wod.entry.stops }));
   if (globe) globe.setStops(wod.entry.stops, { animate: false, labels: true });
 }
 
