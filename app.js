@@ -1415,15 +1415,16 @@ function renderStoryExtras(word, entry) {
   routeChipsEl.hidden = false;
 }
 
-// On a word page, every stage before the one being shown opens that stage's own
-// page (/words/<slug>?stop=N: "stage N of M in the journey of <word>"). The page's
-// own last stage, and the whole home page, keep selecting the stage in place.
+// Every stage card and route chip is a link: stages before the one being shown open
+// that stage's own page (/words/<slug>?stop=N: "stage N of M in the journey of <word>").
+let stageBase = "";
 function stageLinkFor(idx, shownTotal) {
-  if (!WORD_PAGE) return null;
-  const base = stagePage ? stagePage.base : document.body.dataset.word;
+  if (!stageBase) return null;
   const current = stagePage ? stagePage.count : shownTotal;
-  if (!base || idx + 1 >= current) return null;
-  return `/words/${slugify(base)}?stop=${idx + 1}`;
+  if (idx + 1 < current) return `/words/${slugify(stageBase)}?stop=${idx + 1}`;
+  // The last stage is the page being shown: on a word page it just selects itself,
+  // on the home page it opens the word's own page.
+  return WORD_PAGE ? null : `/words/${slugify(stageBase)}`;
 }
 
 // The "stage N of M" banner, headline wording and page title for a ?stop=N page.
@@ -1472,6 +1473,7 @@ function applyStagePageChrome() {
 }
 
 function renderWord(word, entry) {
+  stageBase = stagePage ? stagePage.base : word;
   clearResultContent();
   clearMessage();
   appEl.dataset.state = "result";
@@ -1489,18 +1491,12 @@ function renderWord(word, entry) {
     // in the journey of "banquet") is a real link to that page; the others
     // just select the stage on the map.
     const stageHref = stageLinkFor(idx, total);
-    const stopKey = stop.word.trim().toLowerCase();
-    const pageKey = !WORD_PAGE && stopKey !== word.toLowerCase() && wordIndex[stopKey] ? stopKey : null;
-    const row = document.createElement(stageHref || pageKey ? "a" : "button");
+    const row = document.createElement(stageHref ? "a" : "button");
     row.className = "stop-row";
     row.dataset.idx = String(idx);
     if (stageHref) {
       row.href = stageHref;
-      row.title = `View stage ${idx + 1}: ${stop.word}`;
-    } else if (pageKey) {
-      row.href = `/words/${slugify(pageKey)}`;
-      row.classList.add("has-page");
-      row.title = `Open the page for \u201c${pageKey}\u201d`;
+      row.title = idx + 1 < total || stagePage ? `View stage ${idx + 1}: ${stop.word}` : `Open the page for \u201c${stageBase}\u201d`;
     } else {
       row.type = "button";
       row.setAttribute("aria-pressed", "false");
@@ -1519,29 +1515,22 @@ function renderWord(word, entry) {
         </span>
       </span>
     `;
-    row.addEventListener("click", (e) => {
-      if (stageHref) return; // a plain link to that stage's page
-      if (!pageKey) {
-        selectStop(idx);
-        return;
-      }
-      // Plain left click on the home page traces the word in place; modified
-      // clicks, middle clicks and word pages use the link as it is.
-      if (WORD_PAGE || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-      e.preventDefault();
-      wordInput.value = pageKey;
-      trace();
+    row.addEventListener("click", () => {
+      if (!stageHref) selectStop(idx); // links navigate on their own
     });
     row.addEventListener("mouseenter", () => setActive(idx, true));
     row.addEventListener("mouseleave", () => setActive(idx, false));
     panelEl.appendChild(row);
 
-    const item = document.createElement("button");
-    item.type = "button";
+    const item = document.createElement(stageHref ? "a" : "button");
+    if (stageHref) item.href = stageHref;
+    else item.type = "button";
     item.className = "tray-item";
     item.dataset.idx = String(idx);
     item.innerHTML = `<span class="tray-num">${idx + 1}</span><span class="tray-word">${escapeHtml(stop.word)}</span><span class="tray-lang">${escapeHtml(shortLang(stop.lang))}</span>`;
-    item.addEventListener("click", () => selectStop(idx));
+    item.addEventListener("click", () => {
+      if (!stageHref) selectStop(idx);
+    });
     item.addEventListener("mouseenter", () => setActive(idx, true));
     item.addEventListener("mouseleave", () => setActive(idx, false));
     trayEl.appendChild(item);
