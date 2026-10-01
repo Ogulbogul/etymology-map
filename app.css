@@ -1312,4 +1312,8 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 /* Phones and tablets, globe view: "Try this word" comes after the globe, like under the map */
 @media (max-width: 960px) {
   html[data-view="globe"] #globe-stage .wod-card { order: 5; flex: 0 0 100%; width: 100% !important; max-width: none; margin-top: 8px; }
+/* Phones and tablets: show the word headline and "Today it means" line on results too
+   (the desktop-only rule above left them hidden at 960px and below). */
+@media (max-width: 960px) {
+  #app[data-state="result"] .result-hero { display: block; text-align: center; padding: 14px 16px 0; }
 }
