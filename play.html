@@ -63,14 +63,18 @@
         </div>
         <div class="g-modes">
           <div class="g-mode">
-            <h2>Daily word</h2>
+            <div class="g-mode-head">
+              <h2>Daily word</h2>
+              <span id="daily-streak" class="g-streakbadge" hidden></span>
+            </div>
             <p id="daily-sub">Five words, the same for everyone today. One try.</p>
-            <div id="daily-done" class="g-done" hidden></div>
+            <div id="daily-body" class="g-mode-body"></div>
             <button id="btn-daily" class="btn btn-primary" type="button">Play today&rsquo;s game</button>
           </div>
           <div class="g-mode">
-            <h2>Practice</h2>
+            <div class="g-mode-head"><h2>Practice</h2></div>
             <p>Random words, as many games as you like.</p>
+            <div id="practice-body" class="g-mode-body"></div>
             <button id="btn-practice" class="btn btn-outline" type="button">Start practice</button>
           </div>
         </div>
@@ -128,12 +132,12 @@
       <section id="screen-play" hidden>
         <div class="g-progress">
           <ol id="g-dots" class="g-dots" aria-label="Progress"></ol>
+          <div class="g-word">
+            <p class="eyebrow">Word <b id="g-round">1</b> of 5</p>
+            <h2 id="g-word"></h2>
+            <p id="g-meaning" class="g-meaning"></p>
+          </div>
           <span class="g-scorechip">Score <b id="g-score">0</b></span>
-        </div>
-        <div class="g-word">
-          <p class="eyebrow">Word <b id="g-round">1</b> of 5</p>
-          <h2 id="g-word"></h2>
-          <p id="g-meaning" class="g-meaning"></p>
         </div>
 
         <div class="g-controls">
@@ -164,6 +168,7 @@
 
         <div class="g-mapbox">
           <div class="g-maptop">
+            <span class="g-maptop-l"></span>
             <span id="g-country" class="g-country">&nbsp;</span>
             <div class="g-zoom">
               <button id="g-zoom-out" class="icon-btn small" type="button" title="Zoom out" aria-label="Zoom out">&minus;</button>
@@ -194,7 +199,7 @@
             <div id="e-ring" class="g-ringbox g-ringbig"></div>
             <div class="g-final-side">
               <h2 id="e-verdict" class="g-verdict"></h2>
-              <p id="e-streak" class="g-streak" hidden></p>
+              <div id="e-streak" class="g-streakbox" hidden></div>
               <div id="e-pct" class="g-pctbox"></div>
             </div>
           </div>

@@ -24,9 +24,6 @@
 .g-mode h2 { margin: 0; font-size: 21px; font-weight: 650; letter-spacing: -0.01em; }
 .g-mode p { margin: 0 0 8px; font-size: 15px; line-height: 1.5; color: var(--text-dim); }
 .g-mode .btn { margin-top: auto; }
-.g-done { width: 100%; padding: 10px 14px; border: 1px solid var(--accent); border-radius: 8px; background: var(--selected); font-size: 14px; color: var(--text); }
-.g-mini { display: inline-flex; align-items: flex-end; gap: 3px; height: 24px; margin-left: 10px; vertical-align: middle; }
-.g-mini i { display: block; width: 7px; border-radius: 2px; background: var(--tier); }
 .g-done b { font-size: 18px; color: var(--accent-text); }
 
 .g-steps { margin-top: 36px; }
@@ -80,8 +77,9 @@
 .g-pinbtns .btn:disabled { opacity: 0.45; }
 
 .g-mapbox { border: 1px solid var(--border); border-radius: 12px; background: var(--mapbg); overflow: hidden; }
-.g-maptop { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 52px; padding: 8px 12px; border-bottom: 1px solid var(--hair); background: var(--card); }
-.g-country { font-size: 13px; font-weight: 600; color: var(--text-dim); }
+.g-maptop { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; min-height: 52px; padding: 8px 12px; border-bottom: 1px solid var(--hair); background: var(--card); }
+.g-zoom { justify-self: end; }
+.g-country { min-height: 22px; font-size: 16px; font-weight: 700; letter-spacing: 0.01em; text-align: center; color: var(--accent-text); }
 .g-zoom { display: flex; gap: 8px; }
 .g-canvas { position: relative; cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none; }
 .g-canvas.dragging { cursor: grabbing; }
@@ -137,7 +135,6 @@
 .g-ringbig .g-ring-big { font-size: 26px; }
 .g-final-side { min-width: 260px; max-width: 360px; text-align: left; }
 .g-final-side .g-verdict { font-size: 30px; margin-bottom: 6px; }
-.g-streak { margin: 0 0 12px; font-size: 15px; font-weight: 600; color: var(--accent-text); }
 .g-gauge { position: relative; height: 10px; margin: 12px 0 10px; border-radius: 99px; background: var(--hair); }
 .g-gauge-fill { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--accent-soft), var(--accent)); transition: width 0.9s cubic-bezier(.2,.8,.2,1); }
 .g-gauge-knob { position: absolute; top: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border: 3px solid var(--card); border-radius: 50%; background: var(--accent); box-shadow: 0 1px 4px var(--shadow); transition: left 0.9s cubic-bezier(.2,.8,.2,1); }
@@ -210,3 +207,104 @@
 .g-eq-bonus.off b { color: var(--text-dim); }
 .g-eq-note { flex-basis: 100%; margin: 0; text-align: center; font-size: 13px; color: var(--text-dim); }
 @media (max-width: 640px) { .g-eq { gap: 6px 12px; padding: 12px; } .g-eq-part { min-width: 0; } .g-eq-part b { font-size: 21px; } }
+
+/* ---------- Header: the separator and "The Game" sit on the same line as the name ---------- */
+.brand-sep { position: relative; top: 1px; }
+.brand-sub { position: relative; top: 1.5px; }
+
+/* ---------- Start cards ---------- */
+.g-mode { align-items: stretch; }
+.g-mode-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 30px; }
+.g-mode .btn { margin-top: 0; align-self: flex-start; }
+.g-mode-body { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; gap: 14px; margin: 4px 0 6px; }
+.g-streakbadge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 8px; border: 1px solid var(--accent); border-radius: 99px; background: var(--selected); font-size: 13px; font-weight: 650; color: var(--accent-text); white-space: nowrap; }
+.g-flame { display: inline-flex; width: 18px; height: 18px; color: var(--accent); }
+.g-flame svg { width: 100%; height: 100%; fill: currentColor; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; }
+.g-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.g-stat { padding: 12px 8px; border: 1px solid var(--hair); border-radius: 10px; background: var(--bg); text-align: center; }
+.g-stat b { display: block; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent-text); }
+.g-stat span { font-size: 12px; color: var(--text-dim); }
+.g-dailyres { display: grid; grid-template-columns: 96px 1fr; align-items: center; gap: 18px; }
+.g-dailyres .g-ringbox { width: 96px; }
+.g-minirounds { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.g-minirounds li { display: grid; grid-template-columns: 14px 1fr 38px; align-items: center; gap: 10px; }
+.g-minirounds small { font-size: 12px; color: var(--text-dim); text-align: center; }
+.g-minirounds li > span { display: block; height: 8px; border-radius: 99px; background: var(--hair); overflow: hidden; }
+.g-minirounds li > span > span { display: block; height: 100%; border-radius: 99px; background: var(--tier); }
+.g-minirounds b { font-size: 13px; text-align: right; }
+
+/* The last seven days (today on the right) */
+.g-week { display: flex; justify-content: center; gap: 12px; }
+.g-wd { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.g-wd i { display: block; width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--border); background: transparent; }
+.g-wd.on i { border-color: var(--accent); background: var(--accent); }
+.g-wd.today i { box-shadow: 0 0 0 3px var(--accent-soft); }
+.g-wd small { font-size: 11px; color: var(--text-dim); }
+.g-wd.today small { color: var(--accent-text); font-weight: 700; }
+
+/* Streak on the end screen */
+.g-streakbox { margin: 0 0 12px; padding: 12px 14px; border: 1px solid var(--accent); border-radius: 12px; background: var(--selected); }
+.g-streaktop { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.g-streaktop .g-flame { width: 34px; height: 34px; flex: none; }
+.g-streaktop b { display: block; font-size: 20px; font-weight: 700; color: var(--accent-text); }
+.g-streaktop span { font-size: 13.5px; color: var(--text-dim); }
+
+/* ---------- Tighter game screen so the result, cards and points strip fit on a desktop window ---------- */
+.game-main { max-width: 1000px; margin-top: 18px; padding-bottom: 36px; }
+.g-progress { margin-bottom: 4px; }
+.g-word { margin-bottom: 10px; }
+.g-word h2 { font-size: 42px; margin: 2px 0 4px; }
+.g-meaning { padding: 3px 14px; font-size: 14.5px; }
+.g-summary { grid-template-columns: 76px 1fr auto; padding: 10px 18px; }
+.g-summary .g-ringbox { width: 76px; }
+.g-help { padding: 7px 14px; }
+.g-rows { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; margin-top: 12px; }
+.g-stop { padding: 11px 14px; gap: 5px; }
+.g-stop-head b { font-size: 18px; }
+.g-eq { padding: 10px 16px; }
+.g-eq-part b { font-size: 22px; }
+@media (max-width: 720px) { .g-controls { min-height: 196px; } .g-summary { grid-template-columns: 76px 1fr; } }
+@media (max-width: 640px) {
+  .g-stats { gap: 6px; }
+  .g-stat b { font-size: 18px; }
+  .g-dailyres { grid-template-columns: 78px 1fr; gap: 12px; }
+  .g-dailyres .g-ringbox { width: 78px; }
+  .g-week { gap: 8px; }
+}
+
+/* ---------- Compact top: dots | word | score on one row ---------- */
+.game-main { margin-top: 10px; padding-bottom: 28px; }
+.g-progress { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px; margin-bottom: 8px; }
+.g-progress .g-dots { justify-self: start; }
+.g-progress .g-scorechip { justify-self: end; }
+.g-word { margin: 0; text-align: center; }
+.g-word h2 { font-size: 38px; margin: 0 0 3px; }
+.g-word .eyebrow { margin: 0; }
+.g-meaning { padding: 2px 14px; font-size: 14px; }
+.g-controls { min-height: 104px; margin-bottom: 8px; }
+.g-summary { grid-template-columns: 62px 1fr auto; gap: 16px; padding: 8px 16px; }
+.g-summary .g-ringbox { width: 62px; }
+.g-ring-big { font-size: 28px; }
+.g-verdict { margin: 0 0 6px; font-size: 21px; }
+.g-chip2 { padding: 2px 11px; font-size: 12.5px; }
+.g-maptop { min-height: 44px; padding: 6px 12px; }
+.g-help { padding: 6px 14px; font-size: 12.5px; }
+.g-rows { margin-top: 10px; gap: 8px; }
+.g-stop { padding: 9px 12px; gap: 4px; }
+.g-stop .note { font-size: 13px; line-height: 1.4; }
+.g-stop-foot { font-size: 12.5px; }
+.g-eq { padding: 7px 16px; gap: 4px 20px; }
+.g-eq-part b { font-size: 20px; }
+.g-eq-part span { font-size: 12px; }
+.g-eq-note { font-size: 12.5px; }
+@media (max-width: 900px) {
+  .g-progress { grid-template-columns: 1fr; justify-items: center; gap: 8px; }
+  .g-progress .g-dots { justify-self: center; }
+  .g-progress .g-scorechip { justify-self: center; }
+}
+@media (max-width: 720px) { .g-controls { min-height: 196px; } .g-summary { grid-template-columns: 62px 1fr; } }
+
+/* Stop cards: one column per stop (up to four) so they share the width; the points strip spans all. */
+.g-rows { grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); }
+@media (max-width: 900px) { .g-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .g-rows { grid-template-columns: 1fr; } }

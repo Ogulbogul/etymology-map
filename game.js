@@ -18,7 +18,6 @@ const DECAY_KM = 1500; // score falls to 1/e of full marks at this distance
 const STOP_SHARE = 900; // of 1000, split across the real stops
 const ORDER_BONUS = 100;
 const DAILY_KEY = "etymap-daily";
-const STREAK_KEY = "etymap-streak";
 const SVGNS = "http://www.w3.org/2000/svg";
 
 const $ = (id) => document.getElementById(id);
@@ -79,6 +78,8 @@ const closeness = (d) => (d <= EXACT_KM ? 1 : Math.exp(-(d - EXACT_KM) / DECAY_K
 const fmtKm = (d) => (d < 10 ? "under 10" : Math.round(d).toLocaleString("en-US")) + " km";
 
 // --- Map --------------------------------------------------------------------
+let VY = 0; // top and height of the visible part of the world (user units)
+let VH = H;
 let projection = null;
 let countriesData = null;
 let d3geoMod = null;
@@ -87,7 +88,7 @@ let markList = []; // { kind: "pin" | "truth", label, lon, lat }
 
 function clampView(v) {
   const k = Math.min(14, Math.max(1, v.k));
-  return { k, x: Math.min(0, Math.max(W - W * k, v.x)), y: Math.min(0, Math.max(H - H * k, v.y)) };
+  return { k, x: Math.min(0, Math.max(W - W * k, v.x)), y: Math.min(VY, Math.max(VY + VH - H * k, v.y)) };
 }
 
 function setView(v) {
@@ -134,20 +135,34 @@ function fitReveal(truthXY, pinXY) {
     const ys = pts.map((p) => p[1]);
     return { minX: Math.min(...xs), maxX: Math.max(...xs), minY: Math.min(...ys), maxY: Math.max(...ys) };
   };
-  const zoomFor = (b, pad) => Math.min(8, Math.max(1, Math.min(W / (b.maxX - b.minX + 2 * pad), H / (b.maxY - b.minY + 2 * pad))));
+  const zoomFor = (b, pad) => Math.min(8, Math.max(1, Math.min(W / (b.maxX - b.minX + 2 * pad), VH / (b.maxY - b.minY + 2 * pad))));
   const bt = bounds(truthXY);
   const ba = bounds(truthXY.concat(pinXY));
   const kTruth = zoomFor(bt, 90);
   const kAll = zoomFor(ba, 90);
   const k = Math.max(kAll, Math.min(kTruth, REVEAL_FLOOR));
   const b = k === kAll ? ba : bt;
-  animateTo({ k, x: W / 2 - ((b.minX + b.maxX) / 2) * k, y: H / 2 - ((b.minY + b.maxY) / 2) * k });
+  animateTo({ k, x: W / 2 - ((b.minX + b.maxX) / 2) * k, y: VY + VH / 2 - ((b.minY + b.maxY) / 2) * k });
 }
 
 function svgPoint(clientX, clientY) {
+  // Screen position -> map units, whatever the frame's shape (uses the browser's own transform).
   const r = svg.getBoundingClientRect();
-  return { sx: ((clientX - r.left) / r.width) * W, sy: ((clientY - r.top) / r.height) * H, scale: W / r.width };
+  const m = svg.getScreenCTM();
+  const p = m ? new DOMPoint(clientX, clientY).matrixTransform(m.inverse()) : { x: 0, y: 0 };
+  return { sx: p.x, sy: p.y, scale: W / r.width };
 }
+
+// Wide screens show the world without its far north and south (nothing to guess there), which
+// makes the map frame about 20% shorter; phones keep the whole world.
+const wideMq = window.matchMedia("(min-width: 900px)");
+function setFrame() {
+  VY = wideMq.matches ? 40 : 0;
+  VH = wideMq.matches ? 360 : H;
+  svg.setAttribute("viewBox", `0 ${VY} ${W} ${VH}`);
+  setView(view);
+}
+wideMq.addEventListener("change", setFrame);
 
 function zoomAt(clientX, clientY, factor) {
   anim++;
@@ -281,6 +296,7 @@ async function loadMap() {
     if (f.properties && f.properties.name) p.setAttribute("data-n", f.properties.name);
     countriesLayer.appendChild(p);
   }
+  setFrame();
   setView({ k: 1, x: 0, y: 0 });
 }
 
@@ -399,23 +415,9 @@ const tierOf = tierFor;
 const VERDICTS = { hi: "Spot on!", mid: "Getting warmer", low: "Not quite, now you know" };
 const END_VERDICTS = { hi: "Etymology expert", mid: "Nicely travelled", low: "A good start" };
 
-// A tiny bar chart of a game's five rounds, coloured by band (used instead of emoji squares).
-function miniBars(rounds) {
-  const wrap = document.createElement("span");
-  wrap.className = "g-mini";
-  wrap.setAttribute("role", "img");
-  wrap.setAttribute("aria-label", "Round scores: " + rounds.map((r) => r.pts).join(", "));
-  for (const r of rounds) {
-    const bar = document.createElement("i");
-    bar.className = "tier-" + tierOf(r.pts, MAX_ROUND);
-    bar.style.height = Math.max(4, Math.round((r.pts / MAX_ROUND) * 22)) + "px";
-    wrap.appendChild(bar);
-  }
-  return wrap;
-}
 
 // A score ring: the arc fills in to show the share of the maximum earned.
-function ringSvg(frac, big, small, tier) {
+function ringSvg(frac, big, small, tier, animate = true) {
   const R = 50;
   const C = 2 * Math.PI * R;
   const svg = el("svg", { viewBox: "0 0 120 120", class: "g-ring tier-" + tier, role: "img", "aria-label": `${big} ${small}` });
@@ -425,7 +427,9 @@ function ringSvg(frac, big, small, tier) {
   svg.appendChild(arc);
   svg.appendChild(el("text", { x: 60, y: 61, class: "g-ring-big" }, big));
   svg.appendChild(el("text", { x: 60, y: 80, class: "g-ring-small" }, small));
-  requestAnimationFrame(() => requestAnimationFrame(() => (arc.style.strokeDasharray = `${C * Math.max(0.004, Math.min(1, frac))} ${C}`)));
+  const finalDash = `${C * Math.max(0.004, Math.min(1, frac))} ${C}`;
+  if (animate) setTimeout(() => (arc.style.strokeDasharray = finalDash), 40);
+  else arc.style.strokeDasharray = finalDash;
   return svg;
 }
 
@@ -580,6 +584,7 @@ function reveal() {
   // One card per real stop, under the map: what it was, how far you were, points earned.
   const rows = $("g-rows");
   rows.textContent = "";
+  rows.style.setProperty("--n", String(Math.min(data.truth.length, 4)));
   const perStop = STOP_SHARE / data.truth.length;
   res.stops.forEach((s, j) => {
     const stopTier = s.pin < 0 ? "no" : tierOf(s.pts, perStop);
@@ -609,7 +614,7 @@ function reveal() {
     fill.style.width = "0%";
     meter.appendChild(fill);
     li.appendChild(meter);
-    requestAnimationFrame(() => requestAnimationFrame(() => (fill.style.width = Math.max(2, (s.pts / perStop) * 100) + "%")));
+    setTimeout(() => (fill.style.width = Math.max(2, (s.pts / perStop) * 100) + "%"), 40);
     const foot = document.createElement("div");
     foot.className = "g-stop-foot";
     const dist = document.createElement("span");
@@ -667,19 +672,95 @@ $("g-next").addEventListener("click", () => {
 });
 
 // --- End screen -------------------------------------------------------------
-function streakAfterDaily() {
-  let s = null;
+// --- Day streak --------------------------------------------------------------
+// The days you finished the daily game are kept on this device only. A streak is the
+// run of consecutive days ending today (if you have played) or yesterday (still alive).
+const DAYS_KEY = "etymap-days";
+const dayMinus = (day, n) => new Date(Date.parse(day + "T00:00:00Z") - n * 86400000).toISOString().slice(0, 10);
+
+function readDays() {
   try {
-    s = JSON.parse(safeGet(STREAK_KEY) || "null");
+    const a = JSON.parse(safeGet(DAYS_KEY) || "[]");
+    return Array.isArray(a) ? a.filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)) : [];
   } catch (err) {
-    s = null;
+    return [];
   }
-  const yesterday = new Date(Date.parse(todayUTC + "T00:00:00Z") - 86400000).toISOString().slice(0, 10);
-  let n = 1;
-  if (s && s.last === todayUTC) n = s.n;
-  else if (s && s.last === yesterday) n = s.n + 1;
-  safeSet(STREAK_KEY, JSON.stringify({ last: todayUTC, n }));
-  return n;
+}
+
+function addDay(day) {
+  const a = readDays();
+  if (!a.includes(day)) a.push(day);
+  safeSet(DAYS_KEY, JSON.stringify(a.slice(-60)));
+}
+
+function streakInfo() {
+  const days = new Set(readDays());
+  const playedToday = days.has(todayUTC);
+  let n = 0;
+  let d = playedToday ? todayUTC : dayMinus(todayUTC, 1);
+  while (days.has(d)) {
+    n++;
+    d = dayMinus(d, 1);
+  }
+  return { n, playedToday, days };
+}
+
+const FLAME = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>';
+function flameEl() {
+  const s = document.createElement("span");
+  s.className = "g-flame";
+  s.innerHTML = FLAME; // fixed markup above, no user data
+  return s;
+}
+
+const streakLabel = (n) => `${n}-day streak`;
+
+// The last seven days, today on the right: filled = you played that day.
+function weekRow(info) {
+  const row = document.createElement("div");
+  row.className = "g-week";
+  row.setAttribute("role", "img");
+  row.setAttribute("aria-label", "Days played in the last week");
+  for (let i = 6; i >= 0; i--) {
+    const day = dayMinus(todayUTC, i);
+    const cell = document.createElement("span");
+    cell.className = "g-wd" + (info.days.has(day) ? " on" : "") + (i === 0 ? " today" : "");
+    const dot = document.createElement("i");
+    const lbl = document.createElement("small");
+    lbl.textContent = new Date(day + "T00:00:00Z").toLocaleDateString("en-US", { weekday: "narrow", timeZone: "UTC" });
+    cell.append(dot, lbl);
+    row.appendChild(cell);
+  }
+  return row;
+}
+
+function untilMidnightUTC() {
+  const now = new Date();
+  const next = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+  const mins = Math.max(1, Math.round((next - now.getTime()) / 60000));
+  const h = Math.floor(mins / 60);
+  return h > 0 ? `${h}h ${mins % 60}m` : `${mins}m`;
+}
+
+// What the end screen says about your streak.
+function renderStreakBox(box, info) {
+  box.textContent = "";
+  if (!info || info.n < 1) {
+    box.hidden = true;
+    return;
+  }
+  box.hidden = false;
+  const top = document.createElement("div");
+  top.className = "g-streaktop";
+  const text = document.createElement("div");
+  const big = document.createElement("b");
+  big.textContent = streakLabel(info.n);
+  const cap = document.createElement("span");
+  cap.textContent =
+    info.n === 1 ? "Day one is done. Come back tomorrow to make it 2." : `Day ${info.n} done. Come back tomorrow for day ${info.n + 1}.`;
+  text.append(big, cap);
+  top.append(flameEl(), text);
+  box.append(top, weekRow(info));
 }
 
 async function fetchPercentile(mode, score) {
@@ -722,10 +803,10 @@ function renderPct(mode, res) {
   b.textContent = res.pct + "%";
   p.append(document.createTextNode("You beat "), b, document.createTextNode(` of players${mode === "daily" ? " today" : " recently"}`));
   box.append(gauge, p);
-  requestAnimationFrame(() => requestAnimationFrame(() => {
+  setTimeout(() => {
     fill.style.width = res.pct + "%";
     knob.style.left = res.pct + "%";
-  }));
+  }, 40);
 }
 
 function renderEnd(data) {
@@ -736,9 +817,7 @@ function renderEnd(data) {
   ringBox.textContent = "";
   ringBox.appendChild(ringSvg(data.score / MAX_TOTAL, data.score.toLocaleString("en-US"), "/ 5,000", tier));
   $("e-verdict").textContent = END_VERDICTS[tier];
-  const st = $("e-streak");
-  st.hidden = !(data.streak && data.streak >= 2);
-  if (!st.hidden) st.textContent = `🔥 ${data.streak}-day streak`;
+  renderStreakBox($("e-streak"), data.mode === "daily" ? streakInfo() : null);
   renderPct(data.mode, data.pct);
 
   const list = $("e-rounds");
@@ -754,7 +833,7 @@ function renderEnd(data) {
     const fill = document.createElement("span");
     fill.style.width = "0%";
     bar.appendChild(fill);
-    requestAnimationFrame(() => requestAnimationFrame(() => (fill.style.width = Math.max(2, (r.pts / MAX_ROUND) * 100) + "%")));
+    setTimeout(() => (fill.style.width = Math.max(2, (r.pts / MAX_ROUND) * 100) + "%"), 40);
     const val = document.createElement("b");
     val.textContent = r.pts.toLocaleString("en-US");
     li.append(a, bar, val);
@@ -774,7 +853,10 @@ async function finish() {
     pct: null,
     streak: 0,
   };
-  if (game.mode === "daily") data.streak = streakAfterDaily();
+  if (game.mode === "daily") {
+    addDay(todayUTC);
+    data.streak = streakInfo().n;
+  }
   renderEnd(data);
   const res = await fetchPercentile(game.mode, game.total);
   data.pct = res;
@@ -911,29 +993,86 @@ function readDaily() {
   }
 }
 
+function statTile(big, small) {
+  const t = document.createElement("div");
+  t.className = "g-stat";
+  const b = document.createElement("b");
+  b.textContent = big;
+  const s = document.createElement("span");
+  s.textContent = small;
+  t.append(b, s);
+  return t;
+}
+
+let tickTimer = null;
+
 function paintStart() {
   const done = readDaily();
-  const box = $("daily-done");
+  const info = streakInfo();
   const btn = $("btn-daily");
+  const body = $("daily-body");
+  const badge = $("daily-streak");
+  const sub = $("daily-sub");
+  body.textContent = "";
+  badge.textContent = "";
+  badge.hidden = info.n < 1;
+  if (info.n >= 1) badge.append(flameEl(), document.createTextNode(streakLabel(info.n)));
+  clearInterval(tickTimer);
+
   if (done) {
-    box.hidden = false;
-    box.textContent = "";
-    const b = document.createElement("b");
-    b.textContent = done.score.toLocaleString("en-US");
-    box.appendChild(document.createTextNode("Today: "));
-    box.appendChild(b);
-    box.appendChild(document.createTextNode(` / ${MAX_TOTAL}`));
-    box.appendChild(miniBars(done.rounds));
+    // Today's result, laid out to fill the card: ring + one bar per round + the week.
+    const tier = tierOf(done.score, MAX_TOTAL);
+    sub.textContent = `You played today. New words in ${untilMidnightUTC()}.`;
+    tickTimer = setInterval(() => (sub.textContent = `You played today. New words in ${untilMidnightUTC()}.`), 60000);
+    const row = document.createElement("div");
+    row.className = "g-dailyres";
+    const ringBox = document.createElement("div");
+    ringBox.className = "g-ringbox";
+    ringBox.appendChild(ringSvg(done.score / MAX_TOTAL, done.score.toLocaleString("en-US"), "/ 5,000", tier, false));
+    const bars = document.createElement("ol");
+    bars.className = "g-minirounds";
+    done.rounds.forEach((r, i) => {
+      const li = document.createElement("li");
+      li.className = "tier-" + tierOf(r.pts, MAX_ROUND);
+      const n = document.createElement("small");
+      n.textContent = String(i + 1);
+      const bar = document.createElement("span");
+      const fill = document.createElement("span");
+      fill.style.width = Math.max(3, (r.pts / MAX_ROUND) * 100) + "%";
+      bar.appendChild(fill);
+      const v = document.createElement("b");
+      v.textContent = String(r.pts);
+      li.append(n, bar, v);
+      bars.appendChild(li);
+    });
+    row.append(ringBox, bars);
+    body.append(row, weekRow(info));
     btn.textContent = "See today’s result";
-    $("daily-sub").textContent = "You have played today. A new set of words arrives at midnight UTC.";
+  } else {
+    sub.textContent =
+      info.n >= 1 ? `Play today to keep your ${streakLabel(info.n)} going.` : "Five words, the same for everyone today. One try.";
+    const stats = document.createElement("div");
+    stats.className = "g-stats";
+    stats.append(statTile("5", "words"), statTile("1", "try a day"), statTile("5,000", "points to win"));
+    body.append(stats);
+    if (info.n >= 1) body.appendChild(weekRow(info));
+    btn.textContent = "Play today’s game";
   }
+
+  const pstats = $("practice-body");
+  pstats.textContent = "";
+  const stats2 = document.createElement("div");
+  stats2.className = "g-stats";
+  stats2.append(statTile("∞", "games"), statTile(pool.length.toLocaleString("en-US"), "words to meet"), statTile("5,000", "points a game"));
+  pstats.appendChild(stats2);
+
   btn.disabled = false;
   $("btn-practice").disabled = false;
 }
 
 $("btn-daily").addEventListener("click", () => {
   const done = readDaily();
-  if (done) renderEnd({ mode: "daily", day: done.day, score: done.score, rounds: done.rounds, pct: done.pct, streak: done.streak });
+  if (done) renderEnd({ mode: "daily", day: done.day, score: done.score, rounds: done.rounds, pct: done.pct, streak: streakInfo().n });
   else startGame("daily");
 });
 $("btn-practice").addEventListener("click", () => startGame("practice"));
