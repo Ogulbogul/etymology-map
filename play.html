@@ -43,6 +43,7 @@
         <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
       </a>
       <nav class="header-actions" aria-label="Site">
+        <a class="header-link header-play" href="play.html" aria-current="page">Play</a>
         <a class="header-link" href="about.html">About</a>
         <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
       </nav>
@@ -69,77 +70,127 @@
             <button id="btn-practice" class="btn btn-outline" type="button">Start practice</button>
           </div>
         </div>
-        <div class="g-how">
-          <h2>How it works</h2>
-          <ol>
-            <li>You see an English word and what it means today.</li>
-            <li>Click the map to drop pins where you think the word travelled, oldest place first. Zoom in for accuracy.</li>
-            <li><b>Points come from distance, not country.</b> The closer each pin is to a real stop, the more you score, and pins in the right order earn a bonus.</li>
-            <li>Five words per game, up to 5,000 points. No sign-up, and nothing is tied to you.</li>
+        <div class="g-steps">
+          <h2 class="g-steps-title">How it works</h2>
+          <ol class="g-steps-grid">
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="A word card">
+                <rect class="a-card" x="14" y="14" width="132" height="76" rx="10"/>
+                <text class="a-word" x="80" y="52" text-anchor="middle">coffee</text>
+                <rect class="a-bar" x="40" y="64" width="80" height="6" rx="3"/>
+                <rect class="a-bar" x="52" y="76" width="56" height="6" rx="3"/>
+              </svg>
+              <h3>See a word</h3>
+              <p>and what it means today</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Three numbered pins on a map joined by a dashed line">
+                <path class="a-land" d="M10 70 C 22 40, 48 26, 74 30 C 100 22, 128 34, 150 52 C 140 78, 104 92, 70 88 C 40 94, 16 86, 10 70 Z"/>
+                <path class="a-line" d="M42 66 Q 70 30 104 44 T 130 70"/>
+                <circle class="a-pin" cx="42" cy="66" r="9"/><text class="a-pint" x="42" y="66">1</text>
+                <circle class="a-pin" cx="104" cy="44" r="9"/><text class="a-pint" x="104" y="44">2</text>
+                <circle class="a-pin" cx="130" cy="70" r="9"/><text class="a-pint" x="130" y="70">3</text>
+              </svg>
+              <h3>Drop pins in order</h3>
+              <p>oldest place first</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Rings around a target: a close pin scores more than a far one">
+                <circle class="a-ring" cx="62" cy="52" r="14"/>
+                <circle class="a-ring" cx="62" cy="52" r="30"/>
+                <circle class="a-ring" cx="62" cy="52" r="46"/>
+                <circle class="a-truth" cx="62" cy="52" r="6"/>
+                <circle class="a-pin" cx="72" cy="44" r="7"/>
+                <text class="a-tag" x="86" y="40">+450</text>
+                <circle class="a-pin a-faint" cx="26" cy="86" r="7"/>
+                <text class="a-tag a-faint" x="38" y="98">+60</text>
+              </svg>
+              <h3>Closer scores more</h3>
+              <p>distance counts, not country</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Five words, up to 5,000 points">
+                <circle class="a-dot" cx="26" cy="34" r="8"/><circle class="a-dot" cx="53" cy="34" r="8"/><circle class="a-dot" cx="80" cy="34" r="8"/><circle class="a-dot" cx="107" cy="34" r="8"/><circle class="a-dot" cx="134" cy="34" r="8"/>
+                <text class="a-big" x="80" y="82" text-anchor="middle">5,000</text>
+              </svg>
+              <h3>5 words, 5,000 points</h3>
+              <p>No sign-up</p>
+            </li>
           </ol>
         </div>
       </section>
 
       <!-- Play -->
       <section id="screen-play" hidden>
-        <div class="g-bar">
-          <span>Word <b id="g-round">1</b> of 5</span>
-          <span>Score <b id="g-score">0</b></span>
+        <div class="g-progress">
+          <ol id="g-dots" class="g-dots" aria-label="Progress"></ol>
+          <span class="g-scorechip">Score <b id="g-score">0</b></span>
         </div>
         <div class="g-word">
-          <p class="eyebrow">Where did it travel?</p>
+          <p class="eyebrow">Word <b id="g-round">1</b> of 5</p>
           <h2 id="g-word"></h2>
           <p id="g-meaning" class="g-meaning"></p>
-          <p id="g-count" class="g-count"></p>
         </div>
+
         <div id="g-pinbar" class="g-pinbar">
-          <div id="g-pins" class="g-pins"></div>
+          <div class="g-slotwrap">
+            <div id="g-slots" class="g-slots" aria-label="Your pins"></div>
+            <p id="g-count" class="g-count"></p>
+          </div>
           <div class="g-pinbtns">
             <button id="g-undo" class="btn btn-outline" type="button" disabled>Undo</button>
             <button id="g-reveal" class="btn btn-primary" type="button" disabled>Reveal</button>
           </div>
         </div>
-        <div class="g-stage" id="g-stage">
-          <div class="g-mapbox">
-            <div class="g-maptop">
-              <span id="g-country" class="g-country">&nbsp;</span>
-              <div class="g-zoom">
-                <button id="g-zoom-out" class="icon-btn small" type="button" title="Zoom out" aria-label="Zoom out">&minus;</button>
-                <button id="g-zoom-in" class="icon-btn small" type="button" title="Zoom in" aria-label="Zoom in">+</button>
-                <button id="g-zoom-reset" class="icon-btn small" type="button" title="Reset view" aria-label="Reset view">&#8634;</button>
-              </div>
-            </div>
-            <div id="g-canvas" class="g-canvas">
-              <svg id="gmap" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map. Click to drop a pin.">
-                <g id="g-zoomlayer">
-                  <g id="g-countries"></g>
-                  <g id="g-lines"></g>
-                </g>
-                <g id="g-marks"></g>
-              </svg>
-            </div>
-            <div id="g-help" class="g-help">Closest pin wins: points come from distance, not from the country you click.</div>
+
+        <div id="g-summary" class="g-summary" hidden>
+          <div id="g-ring" class="g-ringbox"></div>
+          <div class="g-sumtext">
+            <h3 id="g-verdict"></h3>
+            <ul id="g-chips" class="g-chips"></ul>
           </div>
-          <div id="g-result" class="g-result" hidden>
-            <div class="g-roundscore"><span id="g-roundpts"></span><span class="g-of">/ 1000</span></div>
-            <ol id="g-rows" class="g-rows"></ol>
-            <p id="g-extras" class="g-extras"></p>
-            <div class="g-nextbar">
-              <a id="g-storylink" class="btn btn-outline" href="#" target="_blank" rel="noopener">Read the full story</a>
-              <button id="g-next" class="btn btn-primary" type="button">Next word</button>
-            </div>
+          <div class="g-sumbtns">
+            <a id="g-storylink" class="btn btn-outline" href="#" target="_blank" rel="noopener">Full story</a>
+            <button id="g-next" class="btn btn-primary" type="button">Next word</button>
           </div>
         </div>
+
+        <div class="g-mapbox">
+          <div class="g-maptop">
+            <span id="g-country" class="g-country">&nbsp;</span>
+            <div class="g-zoom">
+              <button id="g-zoom-out" class="icon-btn small" type="button" title="Zoom out" aria-label="Zoom out">&minus;</button>
+              <button id="g-zoom-in" class="icon-btn small" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+              <button id="g-zoom-reset" class="icon-btn small" type="button" title="Reset view" aria-label="Reset view">&#8634;</button>
+            </div>
+          </div>
+          <div id="g-canvas" class="g-canvas">
+            <svg id="gmap" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map. Click to drop a pin.">
+              <g id="g-zoomlayer">
+                <g id="g-countries"></g>
+                <g id="g-lines"></g>
+              </g>
+              <g id="g-marks"></g>
+            </svg>
+          </div>
+          <div id="g-help" class="g-help"><span class="g-help-dot"></span>Closest pin wins: distance counts, not country</div>
+        </div>
+
+        <ol id="g-rows" class="g-rows" hidden></ol>
       </section>
 
       <!-- End -->
       <section id="screen-end" hidden>
         <div class="g-final">
           <p class="eyebrow" id="e-label"></p>
-          <p class="g-final-score"><span id="e-score">0</span><span class="g-of"> / 5000</span></p>
-          <p id="e-emoji" class="g-emoji"></p>
-          <p id="e-pct" class="g-pct"></p>
-          <p id="e-streak" class="g-streak" hidden></p>
+          <div class="g-final-top">
+            <div id="e-ring" class="g-ringbox g-ringbig"></div>
+            <div class="g-final-side">
+              <h2 id="e-verdict" class="g-verdict"></h2>
+              <p id="e-streak" class="g-streak" hidden></p>
+              <div id="e-pct" class="g-pctbox"></div>
+            </div>
+          </div>
           <div class="g-endbtns">
             <button id="e-share" class="btn btn-primary" type="button">Share result</button>
             <button id="e-practice" class="btn btn-outline" type="button">Play practice</button>
@@ -147,7 +198,9 @@
           </div>
           <p id="e-status" class="g-status" hidden></p>
         </div>
+        <h3 class="g-roundshead">Round by round</h3>
         <ol id="e-rounds" class="g-rounds"></ol>
+        <p id="e-emoji" class="g-emoji" aria-hidden="true"></p>
       </section>
     </main>
 

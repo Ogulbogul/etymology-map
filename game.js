@@ -122,16 +122,23 @@ function animateTo(target, ms = 450) {
   requestAnimationFrame(step);
 }
 
-function fitTo(points) {
-  const xs = points.map((p) => p[0]);
-  const ys = points.map((p) => p[1]);
-  const minX = Math.min(...xs);
-  const maxX = Math.max(...xs);
-  const minY = Math.min(...ys);
-  const maxY = Math.max(...ys);
-  const pad = 70;
-  const k = Math.min(8, Math.max(1, Math.min(W / (maxX - minX + 2 * pad), H / (maxY - minY + 2 * pad))));
-  animateTo({ k, x: W / 2 - ((minX + maxX) / 2) * k, y: H / 2 - ((minY + maxY) / 2) * k });
+// After Reveal the map keeps its size and only changes zoom: it frames the real journey and
+// widens for far-off pins only down to a floor, so a wild guess never shrinks the map to a speck.
+function fitReveal(truthXY, pinXY) {
+  const REVEAL_FLOOR = 2.4;
+  const bounds = (pts) => {
+    const xs = pts.map((p) => p[0]);
+    const ys = pts.map((p) => p[1]);
+    return { minX: Math.min(...xs), maxX: Math.max(...xs), minY: Math.min(...ys), maxY: Math.max(...ys) };
+  };
+  const zoomFor = (b, pad) => Math.min(8, Math.max(1, Math.min(W / (b.maxX - b.minX + 2 * pad), H / (b.maxY - b.minY + 2 * pad))));
+  const bt = bounds(truthXY);
+  const ba = bounds(truthXY.concat(pinXY));
+  const kTruth = zoomFor(bt, 90);
+  const kAll = zoomFor(ba, 90);
+  const k = Math.max(kAll, Math.min(kTruth, REVEAL_FLOOR));
+  const b = k === kAll ? ba : bt;
+  animateTo({ k, x: W / 2 - ((b.minX + b.maxX) / 2) * k, y: H / 2 - ((b.minY + b.maxY) / 2) * k });
 }
 
 function svgPoint(clientX, clientY) {
@@ -378,10 +385,34 @@ function show(name) {
 const todayUTC = new Date().toISOString().slice(0, 10);
 let pool = [];
 let game = null; // { mode, words, i, total, rounds: [{ key, pts }] }
-let round = null; // { data, pins: [{lon,lat}], phase }
+let round = null; // { data, pins: [{lon,lat}], phase, max }
 
 function fmtDate(day) {
   return new Date(day + "T00:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+}
+
+// How a score reads at a glance: the same four bands the share squares use.
+function tierOf(pts, max) {
+  const f = pts / max;
+  return f >= 0.8 ? "hi" : f >= 0.5 ? "mid" : f >= 0.25 ? "low" : "no";
+}
+const emojiFor = (pts) => ({ hi: "🟩", mid: "🟨", low: "🟧", no: "🟥" })[tierOf(pts, MAX_ROUND)];
+const VERDICTS = { hi: "Spot on!", mid: "Great guess", low: "Getting warmer", no: "Not quite, now you know" };
+const END_VERDICTS = { hi: "Etymology expert", mid: "Nicely travelled", low: "Getting your bearings", no: "A good start" };
+
+// A score ring: the arc fills in to show the share of the maximum earned.
+function ringSvg(frac, big, small, tier) {
+  const R = 50;
+  const C = 2 * Math.PI * R;
+  const svg = el("svg", { viewBox: "0 0 120 120", class: "g-ring tier-" + tier, role: "img", "aria-label": `${big} ${small}` });
+  svg.appendChild(el("circle", { cx: 60, cy: 60, r: R, class: "g-ring-track" }));
+  const arc = el("circle", { cx: 60, cy: 60, r: R, class: "g-ring-arc", transform: "rotate(-90 60 60)" });
+  arc.style.strokeDasharray = `0 ${C}`;
+  svg.appendChild(arc);
+  svg.appendChild(el("text", { x: 60, y: 61, class: "g-ring-big" }, big));
+  svg.appendChild(el("text", { x: 60, y: 80, class: "g-ring-small" }, small));
+  requestAnimationFrame(() => requestAnimationFrame(() => (arc.style.strokeDasharray = `${C * Math.max(0.004, Math.min(1, frac))} ${C}`)));
+  return svg;
 }
 
 function startGame(mode) {
@@ -391,17 +422,30 @@ function startGame(mode) {
   loadRound();
 }
 
+function paintDots() {
+  const ol = $("g-dots");
+  ol.textContent = "";
+  for (let i = 0; i < ROUNDS; i++) {
+    const li = document.createElement("li");
+    if (i < game.rounds.length) li.className = "done tier-" + tierOf(game.rounds[i].pts, MAX_ROUND);
+    else if (i === game.i) li.className = "current";
+    ol.appendChild(li);
+  }
+}
+
 async function loadRound() {
   const key = game.words[game.i];
   $("g-round").textContent = game.i + 1;
   $("g-score").textContent = game.total.toLocaleString("en-US");
   $("g-word").textContent = key;
   $("g-meaning").textContent = "Loading…";
+  $("g-slots").textContent = "";
   $("g-count").textContent = "";
-  $("g-result").hidden = true;
-  $("g-stage").classList.remove("reveal");
+  $("g-summary").hidden = true;
+  $("g-rows").hidden = true;
   $("g-pinbar").hidden = false;
   $("g-help").hidden = false;
+  paintDots();
   linesLayer.textContent = "";
   markList = [];
   onMapClick = null;
@@ -417,9 +461,7 @@ async function loadRound() {
   if (game.words[game.i] !== key) return;
   if (game.i + 1 < ROUNDS) loadWord(game.words[game.i + 1]).catch(() => {});
   round = { data, pins: [], phase: "guess", max: Math.min(7, data.truth.length + 2) };
-  $("g-meaning").textContent = "Today it means: " + data.meaning;
-  const n = data.truth.length;
-  $("g-count").textContent = `This word made ${n} stops before it reached English. Place your pins in order, oldest first.`;
+  $("g-meaning").textContent = data.meaning;
   onMapClick = placePin;
   paintPins();
 }
@@ -430,39 +472,32 @@ function placePin(lon, lat) {
   paintPins();
 }
 
+// One slot per stop to find (solid) plus a couple of extras (dashed, they cost points):
+// each fills with its pin number as you place it; tap a filled slot to take that pin back.
 function paintPins() {
   markList = round.pins.map((p, i) => ({ kind: "pin", label: String(i + 1), lon: p.lon, lat: p.lat }));
   drawMarks();
-  const box = $("g-pins");
+  const box = $("g-slots");
   box.textContent = "";
-  if (!round.pins.length) {
-    const s = document.createElement("span");
-    s.className = "none";
-    s.textContent = "Click the map to drop your first pin.";
-    box.appendChild(s);
+  const n = round.data.truth.length;
+  for (let i = 0; i < round.max; i++) {
+    const placed = round.pins[i];
+    const slot = document.createElement(placed ? "button" : "span");
+    slot.className = "g-slot" + (placed ? " filled" : "") + (i >= n ? " extra" : "") + (!placed && i === round.pins.length ? " next" : "");
+    slot.textContent = String(i + 1);
+    if (placed) {
+      slot.type = "button";
+      slot.title = `Take back pin ${i + 1}`;
+      slot.setAttribute("aria-label", slot.title);
+      slot.addEventListener("click", () => {
+        if (round.phase !== "guess") return;
+        round.pins.splice(i, 1);
+        paintPins();
+      });
+    }
+    box.appendChild(slot);
   }
-  round.pins.forEach((p, i) => {
-    const chip = document.createElement("span");
-    chip.className = "g-chip";
-    chip.appendChild(document.createTextNode("Pin " + (i + 1)));
-    const x = document.createElement("button");
-    x.type = "button";
-    x.textContent = "×";
-    x.setAttribute("aria-label", "Remove pin " + (i + 1));
-    x.addEventListener("click", () => {
-      if (round.phase !== "guess") return;
-      round.pins.splice(i, 1);
-      paintPins();
-    });
-    chip.appendChild(x);
-    box.appendChild(chip);
-  });
-  if (round.pins.length >= round.max) {
-    const s = document.createElement("span");
-    s.className = "none";
-    s.textContent = "That is the most pins for this word.";
-    box.appendChild(s);
-  }
+  $("g-count").textContent = `Find ${n} stops, oldest first · dashed slots are extras (−${EXTRA_PIN_PENALTY} each)`;
   $("g-undo").disabled = !round.pins.length;
   $("g-reveal").disabled = !round.pins.length;
 }
@@ -476,6 +511,13 @@ $("g-undo").addEventListener("click", () => {
 
 $("g-reveal").addEventListener("click", reveal);
 
+function chip(text, kind) {
+  const li = document.createElement("li");
+  li.className = "g-chip2 " + kind;
+  li.textContent = text;
+  return li;
+}
+
 function reveal() {
   if (!round || round.phase !== "guess" || !round.pins.length) return;
   round.phase = "reveal";
@@ -485,70 +527,85 @@ function reveal() {
   game.total += res.total;
   game.rounds.push({ key: data.key, pts: res.total });
   $("g-score").textContent = game.total.toLocaleString("en-US");
+  paintDots();
 
-  // Map: real route, links from matched pins, then numbered pins + lettered stops.
+  // Map: the real route, links from matched pins, then numbered pins + lettered stops.
   linesLayer.textContent = "";
   const truthXY = data.truth.map((t) => projection([t.lon, t.lat]));
   linesLayer.appendChild(el("path", { class: "g-line-truth", d: "M" + truthXY.map((p) => p.join(" ")).join(" L") }));
-  const pts = truthXY.slice();
+  const pinXY = pins.map((p) => projection([p.lon, p.lat]));
   res.stops.forEach((s, j) => {
     if (s.pin < 0) return;
-    const a = projection([pins[s.pin].lon, pins[s.pin].lat]);
-    pts.push(a);
+    const a = pinXY[s.pin];
     linesLayer.appendChild(el("path", { class: "g-line-link", d: `M${a[0]} ${a[1]} L${truthXY[j][0]} ${truthXY[j][1]}` }));
   });
-  pins.forEach((p) => pts.push(projection([p.lon, p.lat])));
   markList = pins
     .map((p, i) => ({ kind: "pin", label: String(i + 1), lon: p.lon, lat: p.lat }))
     .concat(data.truth.map((t, j) => ({ kind: "truth", label: String.fromCharCode(65 + j), lon: t.lon, lat: t.lat })));
   drawMarks();
-  fitTo(pts);
+  fitReveal(truthXY, pinXY);
 
-  // Result panel.
+  // Summary bar: score ring, verdict, bonus chips, buttons.
+  const tier = tierOf(res.total, MAX_ROUND);
   $("g-pinbar").hidden = true;
   $("g-help").hidden = true;
-  $("g-count").textContent = `The real journey had ${data.truth.length} stops (lettered A, B, C… on the map). Your pins are numbered.`;
-  $("g-stage").classList.add("reveal");
-  $("g-result").hidden = false;
-  $("g-roundpts").textContent = res.total.toLocaleString("en-US");
+  $("g-summary").hidden = false;
+  const ringBox = $("g-ring");
+  ringBox.textContent = "";
+  ringBox.appendChild(ringSvg(res.total / MAX_ROUND, String(res.total), "/ 1000", tier));
+  $("g-verdict").textContent = VERDICTS[tier];
+  const chips = $("g-chips");
+  chips.textContent = "";
+  chips.appendChild(chip(`${res.stops.filter((s) => s.pin >= 0 && closeness(s.km) >= 0.15).length} of ${data.truth.length} stops found`, "neutral"));
+  if (res.bonus) chips.appendChild(chip(`Right order +${res.bonus}`, "good"));
+  if (res.extras) chips.appendChild(chip(`${res.extras} extra pin${res.extras > 1 ? "s" : ""} −${res.penalty}`, "bad"));
+  $("g-storylink").href = "/words/" + slugOf(data.key);
+  $("g-next").textContent = game.i + 1 < ROUNDS ? "Next word" : "See my result";
+
+  // One card per real stop, under the map: what it was, how far you were, points earned.
   const rows = $("g-rows");
   rows.textContent = "";
+  const perStop = STOP_SHARE / data.truth.length;
   res.stops.forEach((s, j) => {
+    const stopTier = s.pin < 0 ? "no" : tierOf(s.pts, perStop);
     const li = document.createElement("li");
+    li.className = "g-stop tier-" + stopTier;
+    const head = document.createElement("div");
+    head.className = "g-stop-head";
     const badge = document.createElement("span");
     badge.className = "g-badge";
     badge.textContent = String.fromCharCode(65 + j);
-    const body = document.createElement("div");
-    const b = document.createElement("b");
-    b.textContent = s.stop.word;
-    const meta = document.createElement("div");
+    const word = document.createElement("b");
+    word.textContent = s.stop.word;
+    const meta = document.createElement("span");
     meta.className = "meta";
     meta.textContent = [s.stop.lang, s.stop.era].filter(Boolean).join(" · ");
-    body.appendChild(b);
-    body.appendChild(meta);
+    head.append(badge, word, meta);
+    li.appendChild(head);
     if (s.stop.note) {
       const note = document.createElement("p");
       note.className = "note";
       note.textContent = s.stop.note;
-      body.appendChild(note);
+      li.appendChild(note);
     }
-    const pt = document.createElement("div");
-    pt.className = "pts";
-    pt.textContent = "+" + Math.round(s.pts);
-    const small = document.createElement("small");
-    small.textContent = s.pin < 0 ? "no pin used" : `pin ${s.pin + 1}: ${fmtKm(s.km)} away`;
-    pt.appendChild(small);
-    li.appendChild(badge);
-    li.appendChild(body);
-    li.appendChild(pt);
+    const meter = document.createElement("div");
+    meter.className = "g-meter";
+    const fill = document.createElement("span");
+    fill.style.width = "0%";
+    meter.appendChild(fill);
+    li.appendChild(meter);
+    requestAnimationFrame(() => requestAnimationFrame(() => (fill.style.width = Math.max(2, (s.pts / perStop) * 100) + "%")));
+    const foot = document.createElement("div");
+    foot.className = "g-stop-foot";
+    const dist = document.createElement("span");
+    dist.textContent = s.pin < 0 ? "No pin matched this stop" : `Pin ${s.pin + 1} · ${fmtKm(s.km)} away`;
+    const pts = document.createElement("b");
+    pts.textContent = `+${Math.round(s.pts)} / ${Math.round(perStop)}`;
+    foot.append(dist, pts);
+    li.appendChild(foot);
     rows.appendChild(li);
   });
-  const extra = [];
-  if (res.bonus) extra.push(`Order bonus +${res.bonus} for placing your pins in the right order.`);
-  if (res.extras) extra.push(`${res.extras} extra pin${res.extras > 1 ? "s" : ""} −${res.penalty}.`);
-  $("g-extras").textContent = extra.join(" ");
-  $("g-storylink").href = "/words/" + slugOf(data.key);
-  $("g-next").textContent = game.i + 1 < ROUNDS ? "Next word" : "See my result";
+  rows.hidden = false;
 }
 
 $("g-next").addEventListener("click", () => {
@@ -561,8 +618,6 @@ $("g-next").addEventListener("click", () => {
 });
 
 // --- End screen -------------------------------------------------------------
-const emojiFor = (pts) => (pts >= 800 ? "🟩" : pts >= 500 ? "🟨" : pts >= 250 ? "🟧" : "🟥");
-
 function streakAfterDaily() {
   let s = null;
   try {
@@ -591,32 +646,70 @@ async function fetchPercentile(mode, score) {
   }
 }
 
-function pctText(mode, res) {
-  if (!res) return "";
-  if (res.pct == null) return "You are among the first players. Percentiles appear once 10 games are in.";
-  return `You beat ${res.pct}% of players${mode === "daily" ? " today" : " recently"}.`;
+// "You beat 73% of players": a bar with a marker where you landed.
+function renderPct(mode, res) {
+  const box = $("e-pct");
+  box.textContent = "";
+  if (!res) return;
+  if (res.pct == null) {
+    const p = document.createElement("p");
+    p.className = "g-pctnote";
+    p.textContent = "You are among the first players. Percentiles appear once 10 games are in.";
+    box.appendChild(p);
+    return;
+  }
+  const gauge = document.createElement("div");
+  gauge.className = "g-gauge";
+  const fill = document.createElement("span");
+  fill.className = "g-gauge-fill";
+  fill.style.width = "0%";
+  const knob = document.createElement("span");
+  knob.className = "g-gauge-knob";
+  knob.style.left = "0%";
+  gauge.append(fill, knob);
+  const p = document.createElement("p");
+  p.className = "g-pctnote";
+  const b = document.createElement("b");
+  b.textContent = res.pct + "%";
+  p.append(document.createTextNode("You beat "), b, document.createTextNode(` of players${mode === "daily" ? " today" : " recently"}`));
+  box.append(gauge, p);
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    fill.style.width = res.pct + "%";
+    knob.style.left = res.pct + "%";
+  }));
 }
 
 function renderEnd(data) {
   show("end");
+  const tier = tierOf(data.score, MAX_TOTAL);
   $("e-label").textContent = data.mode === "daily" ? `Daily word · ${fmtDate(data.day)}` : "Practice game";
-  $("e-score").textContent = data.score.toLocaleString("en-US");
-  $("e-emoji").textContent = data.rounds.map((r) => emojiFor(r.pts)).join("");
-  $("e-pct").textContent = pctText(data.mode, data.pct);
+  const ringBox = $("e-ring");
+  ringBox.textContent = "";
+  ringBox.appendChild(ringSvg(data.score / MAX_TOTAL, data.score.toLocaleString("en-US"), "/ 5,000", tier));
+  $("e-verdict").textContent = END_VERDICTS[tier];
   const st = $("e-streak");
   st.hidden = !(data.streak && data.streak >= 2);
   if (!st.hidden) st.textContent = `🔥 ${data.streak}-day streak`;
+  renderPct(data.mode, data.pct);
+  $("e-emoji").textContent = data.rounds.map((r) => emojiFor(r.pts)).join("");
+
   const list = $("e-rounds");
   list.textContent = "";
   for (const r of data.rounds) {
     const li = document.createElement("li");
+    li.className = "tier-" + tierOf(r.pts, MAX_ROUND);
     const a = document.createElement("a");
     a.href = "/words/" + slugOf(r.key);
     a.textContent = r.key;
-    const s = document.createElement("span");
-    s.textContent = `${emojiFor(r.pts)} ${r.pts} / ${MAX_ROUND}`;
-    li.appendChild(a);
-    li.appendChild(s);
+    const bar = document.createElement("span");
+    bar.className = "g-bar2";
+    const fill = document.createElement("span");
+    fill.style.width = "0%";
+    bar.appendChild(fill);
+    requestAnimationFrame(() => requestAnimationFrame(() => (fill.style.width = Math.max(2, (r.pts / MAX_ROUND) * 100) + "%")));
+    const val = document.createElement("b");
+    val.textContent = r.pts.toLocaleString("en-US");
+    li.append(a, bar, val);
     list.appendChild(li);
   }
   $("e-status").hidden = true;
@@ -637,7 +730,7 @@ async function finish() {
   renderEnd(data);
   const res = await fetchPercentile(game.mode, game.total);
   data.pct = res;
-  if (currentEnd === data) $("e-pct").textContent = pctText(game.mode, res);
+  if (currentEnd === data) renderPct(game.mode, res);
   if (game.mode === "daily") {
     safeSet(DAILY_KEY, JSON.stringify({ day: todayUTC, score: data.score, rounds: data.rounds, pct: res, streak: data.streak }));
   }

@@ -1580,3 +1580,8 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 @media (max-width: 640px) {
   #app[data-state="result"] .hero-meaning { font-size: 13px; line-height: 1.3; }
 }
+
+/* "Play" link in the header (kept visible on phones, unlike About) */
+.header-play { color: var(--accent-text); font-weight: 600; }
+.header-play[aria-current="page"] { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }
+@media (max-width: 640px) { .header-link.header-play { display: inline-flex; font-size: 14px; } }
