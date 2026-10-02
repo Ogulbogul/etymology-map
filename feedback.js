@@ -52,7 +52,7 @@ function setup() {
     const mail = el("input", "fb-mail");
     mail.type = "email";
     mail.maxLength = 200;
-    mail.placeholder = "Your email (optional, only if you would like a reply)";
+    mail.placeholder = "Your email (optional, for a reply)";
     mail.setAttribute("aria-label", "Your email, optional");
     mail.autocomplete = "email";
     const trap = el("input", "fb-trap");
