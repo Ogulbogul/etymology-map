@@ -81,6 +81,7 @@ const fmtKm = (d) => (d < 10 ? "under 10" : Math.round(d).toLocaleString("en-US"
 // --- Map --------------------------------------------------------------------
 let VY = 0; // top and height of the visible part of the world (user units)
 let VH = H;
+let minK = 1; // smallest zoom: the frame must stay filled with map
 let projection = null;
 let countriesData = null;
 let d3geoMod = null;
@@ -88,7 +89,7 @@ let view = { x: 0, y: 0, k: 1 };
 let markList = []; // { kind: "pin" | "truth", label, lon, lat }
 
 function clampView(v) {
-  const k = Math.min(14, Math.max(1, v.k));
+  const k = Math.min(14, Math.max(minK, v.k));
   return { k, x: Math.min(0, Math.max(W - W * k, v.x)), y: Math.min(VY, Math.max(VY + VH - H * k, v.y)) };
 }
 
@@ -142,7 +143,7 @@ function fitReveal(truthXY, pinXY) {
     const ys = pts.map((p) => p[1]);
     return { minX: Math.min(...xs), maxX: Math.max(...xs), minY: Math.min(...ys), maxY: Math.max(...ys) };
   };
-  const zoomFor = (b, pad) => Math.min(8, Math.max(1, Math.min(W / (b.maxX - b.minX + 2 * pad), VH / (b.maxY - b.minY + 2 * pad))));
+  const zoomFor = (b, pad) => Math.min(8, Math.max(minK, Math.min(W / (b.maxX - b.minX + 2 * pad), VH / (b.maxY - b.minY + 2 * pad))));
   const bt = bounds(truthXY);
   const ba = bounds(truthXY.concat(pinXY));
   const kTruth = zoomFor(bt, 90);
@@ -161,22 +162,39 @@ function svgPoint(clientX, clientY) {
 }
 
 // Wide screens show the world without its far north and south (nothing to guess there), which
-// makes the map frame about 20% shorter; phones keep the whole world.
+// makes the map frame about 20% shorter. Phones get a taller frame (about 1.3 : 1) so pins are
+// easier to place: the map then starts zoomed in on Europe, Africa and the Middle East, and
+// cannot be zoomed out past the point where it still fills the frame.
 const wideMq = window.matchMedia("(min-width: 900px)");
+const tallMq = window.matchMedia("(max-width: 720px)");
 function setFrame() {
   VY = wideMq.matches ? 34 : 0;
-  VH = wideMq.matches ? 400 : H;
+  VH = wideMq.matches ? 400 : tallMq.matches ? Math.round(W / 1.3) : H;
+  minK = Math.max(1, VH / H);
   svg.setAttribute("viewBox", `0 ${VY} ${W} ${VH}`);
   setView(view);
 }
 wideMq.addEventListener("change", setFrame);
+tallMq.addEventListener("change", () => {
+  setFrame();
+  setView(homeView());
+});
+
+// Where the map rests when a round starts and after "reset": the whole world, except on
+// phones, where it is centred on the part of the world most word journeys cross.
+function homeView() {
+  if (!tallMq.matches || wideMq.matches || !projection) return { k: 1, x: 0, y: 0 };
+  const k = Math.max(minK, 1.6);
+  const p = projection([25, 38]);
+  return { k, x: W / 2 - p[0] * k, y: VY + VH / 2 - p[1] * k };
+}
 
 function zoomAt(clientX, clientY, factor) {
   anim++;
   const { sx, sy } = svgPoint(clientX, clientY);
   const wx = (sx - view.x) / view.k;
   const wy = (sy - view.y) / view.k;
-  const k = Math.min(14, Math.max(1, view.k * factor));
+  const k = Math.min(14, Math.max(minK, view.k * factor));
   setView({ k, x: sx - wx * k, y: sy - wy * k });
 }
 
@@ -218,7 +236,7 @@ canvas.addEventListener("pointermove", (e) => {
     const { sx, sy } = svgPoint(cx, cy);
     const wx = (sx - view.x) / view.k;
     const wy = (sy - view.y) / view.k;
-    const k = Math.min(14, Math.max(1, (pinch.k0 * d) / pinch.d0));
+    const k = Math.min(14, Math.max(minK, (pinch.k0 * d) / pinch.d0));
     setView({ k, x: sx - wx * k, y: sy - wy * k });
     return;
   }
@@ -272,7 +290,7 @@ canvas.addEventListener(
 );
 $("g-zoom-in").addEventListener("click", () => zoomCenter(1.6));
 $("g-zoom-out").addEventListener("click", () => zoomCenter(1 / 1.6));
-$("g-zoom-reset").addEventListener("click", () => animateTo({ k: 1, x: 0, y: 0 }));
+$("g-zoom-reset").addEventListener("click", () => animateTo(homeView()));
 
 // Country names show while hovering, but nothing lights up: scoring is by
 // distance, and highlighting a country would suggest otherwise.
@@ -304,7 +322,7 @@ async function loadMap() {
     countriesLayer.appendChild(p);
   }
   setFrame();
-  setView({ k: 1, x: 0, y: 0 });
+  setView(homeView());
 }
 
 // --- Words and scoring ------------------------------------------------------
@@ -481,7 +499,7 @@ async function loadRound() {
   linesLayer.textContent = "";
   markList = [];
   onMapClick = null;
-  animateTo({ k: 1, x: 0, y: 0 });
+  animateTo(homeView());
   drawMarks();
   let data;
   try {
