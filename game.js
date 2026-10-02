@@ -7,8 +7,8 @@
 // server call is /api/score, which adds one count to an anonymous score bucket
 // and returns the percentile. No sign-in, cookies or IDs.
 
-import "./feedback.js?v=2fc470b4";
-import { buildGameCard, tierFor } from "./gamecard.js?v=2fc470b4";
+import "./feedback.js?v=ee3b2a9f";
+import { buildGameCard, tierFor } from "./gamecard.js?v=ee3b2a9f";
 
 const W = 960;
 const H = 500;
@@ -99,21 +99,82 @@ function setView(v) {
   drawMarks();
 }
 
+// A placed pin can be taken back from the map. With a mouse, hovering shows an x and a click removes
+// it. On touch screens the first tap selects the pin (it shows the x) and a second tap removes it.
+let selectedPin = -1;
+
+function onPinTap(idx, pointerType) {
+  if (!round || round.phase !== "guess" || !round.pins[idx]) return;
+  if (pointerType === "mouse" || selectedPin === idx) {
+    selectedPin = -1;
+    round.pins.splice(idx, 1);
+    paintPins();
+  } else {
+    selectedPin = idx;
+    drawMarks();
+  }
+}
+
 function drawMarks() {
   marksLayer.textContent = "";
   // Marks are drawn in map units, so on a narrow screen they would shrink to specks: grow them
   // so a pin is never smaller than about 10px (radius) on screen.
   const w = svg.getBoundingClientRect().width;
   const s = w > 0 ? Math.max(1, (10 * W) / (11 * w)) : 1;
-  for (const m of markList) {
+  const r = 11 * s;
+  const items = markList.map((m, idx) => {
     const p = projection([m.lon, m.lat]);
-    const x = view.x + view.k * p[0];
-    const y = view.y + view.k * p[1];
-    const g = el("g", { class: "g-mark " + m.kind, transform: `translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${s.toFixed(2)})` });
-    g.appendChild(el("circle", { r: 11 }));
-    g.appendChild(el("text", {}, m.label));
-    marksLayer.appendChild(g);
+    return { m, idx, x: view.x + view.k * p[0], y: view.y + view.k * p[1] };
+  });
+  // Marks of one kind that would sit on top of each other (stops in the same place, pins placed
+  // close together) fan out side by side, joined to the shared spot by thin stems. Zooming in
+  // pulls real distances apart, so they only fan while they overlap.
+  const groups = [];
+  for (const it of items) {
+    const g = groups.find((q) => q.kind === it.m.kind && Math.hypot(q.items[0].x - it.x, q.items[0].y - it.y) < r * 1.7);
+    if (g) g.items.push(it);
+    else groups.push({ kind: it.m.kind, items: [it] });
   }
+  const removable = !!round && round.phase === "guess";
+  const stems = el("g", {});
+  const dots = el("g", {});
+  const marks = el("g", {});
+  for (const grp of groups) {
+    const n = grp.items.length;
+    const ax = grp.items.reduce((t, it) => t + it.x, 0) / n;
+    const ay = grp.items.reduce((t, it) => t + it.y, 0) / n;
+    const dir = grp.kind === "pin" ? 1 : -1; // truths fan upwards, pins downwards
+    const color = grp.kind === "pin" ? "var(--accent)" : "var(--truth)";
+    grp.items.forEach((it, i) => {
+      let x = it.x;
+      let y = it.y;
+      if (n > 1) {
+        x = ax + (i - (n - 1) / 2) * (2 * r + 3);
+        y = ay + dir * r * 1.7;
+        stems.appendChild(el("line", { x1: x.toFixed(1), y1: (y - dir * r).toFixed(1), x2: ax.toFixed(1), y2: ay.toFixed(1), stroke: color, "stroke-width": 2, "stroke-linecap": "round" }));
+      }
+      const canRemove = removable && it.m.kind === "pin";
+      const g = el("g", {
+        class: "g-mark " + it.m.kind + (canRemove ? " removable" : "") + (canRemove && selectedPin === it.idx ? " selected" : ""),
+        transform: `translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${s.toFixed(2)})`,
+      });
+      if (canRemove) g.appendChild(el("circle", { r: 17, class: "g-hit" }));
+      g.appendChild(el("circle", { r: 11, class: "g-dot" }));
+      g.appendChild(el("text", { class: "g-num" }, it.m.label));
+      if (canRemove) {
+        g.appendChild(el("text", { class: "g-x" }, "\u00d7"));
+        g.style.pointerEvents = "all";
+        g.addEventListener("pointerdown", (e) => e.stopPropagation());
+        g.addEventListener("pointerup", (e) => {
+          e.stopPropagation();
+          onPinTap(it.idx, e.pointerType);
+        });
+      }
+      marks.appendChild(g);
+    });
+    if (n > 1) dots.appendChild(el("circle", { cx: ax.toFixed(1), cy: ay.toFixed(1), r: (3.5 * s).toFixed(1), fill: color, stroke: "var(--card)", "stroke-width": 1.5 }));
+  }
+  marksLayer.append(stems, dots, marks);
 }
 
 window.addEventListener("resize", () => markList && drawMarks());
@@ -303,8 +364,8 @@ canvas.addEventListener("mouseleave", () => (countryLabel.textContent = " "));
 
 async function loadMap() {
   const [d3geo, topo, resp] = await Promise.all([
-    import("./vendor/d3-geo.js?v=2fc470b4"),
-    import("./vendor/topojson-client.js?v=2fc470b4"),
+    import("./vendor/d3-geo.js?v=ee3b2a9f"),
+    import("./vendor/topojson-client.js?v=ee3b2a9f"),
     fetch("vendor/countries-110m.json"),
   ]);
   if (!resp.ok) throw new Error("countries fetch failed");
@@ -552,23 +613,35 @@ async function loadRound() {
 }
 
 function placePin(lon, lat) {
+  if (selectedPin >= 0) {
+    selectedPin = -1;
+    drawMarks();
+  }
   if (!round || round.phase !== "guess" || round.pins.length >= round.max) return;
   round.pins.push({ lon, lat });
   paintPins();
 }
 
-// One slot per stop to find: each fills with its pin number as you place it; tap a filled
-// slot to take that pin back.
+// The route strip: one slot per stop to find, joined by arrows and ending in the English word, which
+// is already given. A slot fills with its pin number as you place it; tap a filled slot to take that
+// pin back.
+const ARROW_SVG = '<svg viewBox="0 0 22 12" aria-hidden="true"><path d="M1 6h19M15 1.5 20 6l-5 4.5"/></svg>';
+const canHover = window.matchMedia("(hover: hover) and (pointer: fine)");
+
 function paintPins() {
+  selectedPin = -1;
   markList = round.pins.map((p, i) => ({ kind: "pin", label: String(i + 1), lon: p.lon, lat: p.lat }));
   drawMarks();
   const box = $("g-slots");
   box.textContent = "";
   const n = round.data.truth.length;
+  const placedCount = round.pins.length;
+  const showEnd = !(phoneMq.matches && n > 3); // the top bar on a phone has room for the end chip only with few stops
+  box.classList.toggle("many", n >= 5);
   for (let i = 0; i < round.max; i++) {
     const placed = round.pins[i];
     const slot = document.createElement(placed ? "button" : "span");
-    slot.className = "g-slot" + (placed ? " filled" : "") + (!placed && i === round.pins.length ? " next" : "");
+    slot.className = "g-slot" + (placed ? " filled" : "") + (!placed && i === placedCount ? " next" : "");
     slot.textContent = String(i + 1);
     if (placed) {
       slot.type = "button";
@@ -581,11 +654,40 @@ function paintPins() {
       });
     }
     box.appendChild(slot);
+    const last = i === round.max - 1;
+    if (!last || showEnd) {
+      const arrow = document.createElement("span");
+      arrow.className = "g-arrow" + (i < placedCount - 1 || (last && placedCount >= round.max) ? " on" : "");
+      arrow.innerHTML = ARROW_SVG; // fixed markup, no user data
+      box.appendChild(arrow);
+    }
   }
-  $("g-count").textContent =
-    round.pins.length >= n ? "All placed. Reveal, or tap a number to take a pin back." : `Find ${n} stops, oldest first`;
-  $("g-undo").disabled = !round.pins.length;
-  $("g-reveal").disabled = !round.pins.length;
+  if (showEnd) {
+    const end = document.createElement("span");
+    end.className = "g-end";
+    const small = document.createElement("small");
+    small.textContent = "English \u00b7 given";
+    const word = document.createElement("b");
+    word.textContent = round.data.key;
+    end.append(small, word);
+    box.appendChild(end);
+  }
+  // Numbers only below, so the markup is safe.
+  const cap = $("g-count");
+  if (placedCount >= n) {
+    cap.innerHTML = canHover.matches
+      ? "All placed. Press <b>Reveal</b>, or click a pin to take it back."
+      : "All placed. Press <b>Reveal</b>, or tap a pin twice to take it back.";
+  } else if (placedCount === 0) {
+    cap.innerHTML =
+      n === 1
+        ? "Find <b>the place</b> it came from. The English stop is already given."
+        : `Find <b>${n} places</b> it passed through, oldest first. The English stop is already given.`;
+  } else {
+    cap.innerHTML = `<b>Pin ${placedCount + 1} of ${n}:</b> where did it go next?`;
+  }
+  $("g-undo").disabled = !placedCount;
+  $("g-reveal").disabled = !placedCount;
 }
 
 // On phones the numbered pin slots sit in the map's top bar (the bar above the map), not in the
@@ -597,7 +699,10 @@ function placeSlots() {
   if (phoneMq.matches) document.querySelector(".g-maptop-l").appendChild(slots);
   else slotsHome.prepend(slots);
 }
-phoneMq.addEventListener("change", placeSlots);
+phoneMq.addEventListener("change", () => {
+  placeSlots();
+  if (round && round.phase === "guess") paintPins();
+});
 placeSlots();
 
 $("g-undo").addEventListener("click", () => {
@@ -619,6 +724,7 @@ function chip(text, kind) {
 function reveal() {
   if (!round || round.phase !== "guess" || !round.pins.length) return;
   round.phase = "reveal";
+  selectedPin = -1;
   onMapClick = null;
   const { data, pins } = round;
   const res = scoreRound(pins, data.truth);
