@@ -36,16 +36,17 @@ REQUIRED_STOP_FIELDS = ("word", "lang", "era", "note", "meaning", "lat", "lon")
 
 
 def _git_last_modified_dates():
-    """Maps each tracked page path to the date of its most recent commit.
-    Pages that were regenerated but came out byte-identical never show up
-    in a commit diff, so their git history — and thus this date — only
-    moves when the page's actual content changes, not on every rebuild."""
+    """Maps each tracked path to the date of its most recent commit.
+    A word's date comes from its own data file (data/words/<word>.json), not
+    from its generated page: the pages are rewritten whenever a script or
+    style changes (version numbers), which says nothing about the word, so
+    the date only moves when the word's content actually changes."""
     try:
         out = subprocess.run(
             [
-                "git", "log", "--format=%x01%ad", "--date=short",
+                "git", "-c", "core.quotepath=off", "log", "--format=%x01%ad", "--date=short",
                 "--name-only", "--",
-                "words", "index.html", "about.html", "privacy.html",
+                "data/words", "index.html", "about.html", "privacy.html", "play.html",
             ],
             cwd=ROOT, capture_output=True, text=True, check=True,
         ).stdout
@@ -82,8 +83,8 @@ def write_sitemap(words):
         for page, git_path in static_files.items()
     ]
     entries += [
-        entry(f"{SITE_URL}/words/{slug}", f"words/{slug}.html")
-        for slug in (build_pages.slugify(word) for word in words)
+        entry(f"{SITE_URL}/words/{build_pages.slugify(word)}", f"data/words/{word}.json")
+        for word in words
     ]
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
