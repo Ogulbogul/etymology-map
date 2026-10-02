@@ -1,4 +1,4 @@
-import { buildShareCard as buildShareCardImage } from "/sharecard.js?v=85a924d9";
+import { buildShareCard as buildShareCardImage } from "/sharecard.js?v=f923f80d";
 // Standalone per-word page (words/<slug>.html, statically pre-rendered by
 // build_pages.py). The title, meta tags, and stage-by-stage content already
 // exist in the raw HTML the server sends; this script reads that same data
@@ -150,8 +150,8 @@ function slugify(word) {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("/vendor/d3-geo.js?v=85a924d9"),
-      import("/vendor/topojson-client.js?v=85a924d9"),
+      import("/vendor/d3-geo.js?v=f923f80d"),
+      import("/vendor/topojson-client.js?v=f923f80d"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");

@@ -172,13 +172,13 @@ export async function buildGameCard({ mode, label, score, max, rounds, roundMax,
     ctx.fill();
     ctx.fillStyle = c.text;
     ctx.font = `600 22px ${FONT}`;
-    ctx.fillText(`Beat ${pct}% of players`, x0, 498);
+    ctx.fillText(`Higher than ${pct}% of players`, x0, 498);
   }
 
   // Footer
   ctx.fillStyle = c.dim;
   ctx.font = `500 22px ${FONT}`;
-  ctx.fillText("Can you beat it?  etymologymap.com/play", 64, 590);
+  ctx.fillText("Can you score higher?  etymologymap.com/play", 64, 590);
 
   return new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
 }
