@@ -1,8 +1,8 @@
-import { icon, hydrateIcons } from "./icons.js?v=f923f80d";
-import "./hint.js?v=f923f80d";
-import "./feedback.js?v=f923f80d";
-import { createGlobe } from "./globe.js?v=f923f80d";
-import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=f923f80d";
+import { icon, hydrateIcons } from "./icons.js?v=0a380fdf";
+import "./hint.js?v=0a380fdf";
+import "./feedback.js?v=0a380fdf";
+import { createGlobe } from "./globe.js?v=0a380fdf";
+import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=0a380fdf";
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -580,8 +580,8 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js?v=f923f80d"),
-      import("./vendor/topojson-client.js?v=f923f80d"),
+      import("./vendor/d3-geo.js?v=0a380fdf"),
+      import("./vendor/topojson-client.js?v=0a380fdf"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
@@ -682,7 +682,10 @@ function showNotFound(displayWord, raw) {
   if (suggestions.length > 0) {
     const wrap = document.createElement("span");
     wrap.className = "message-suggestions";
-    wrap.appendChild(document.createTextNode("Did you mean "));
+    const lead = document.createElement("span");
+    lead.className = "suggest-label";
+    lead.textContent = "Did you mean";
+    wrap.appendChild(lead);
     suggestions.forEach((sg) => {
       const btn = document.createElement("button");
       btn.type = "button";

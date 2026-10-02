@@ -344,10 +344,15 @@ a { color: inherit; }
   background: var(--accent-soft); color: var(--accent-text);
 }
 .message .msg-title { display: block; margin-bottom: 6px; font-size: 20px; font-weight: 600; color: var(--text); }
-.message-suggestions { display: block; margin-top: 12px; }
-.message-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+/* "Did you mean": the label on its own line, the suggestions in one centred row, then a divider
+   and the two actions as an equal pair, so nothing sits on a ragged line. */
+.message-suggestions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; margin-top: 14px; }
+.message-suggestions .suggest-label { flex: 0 0 100%; font-size: 13px; color: var(--text-dim); }
+.message-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--hair); }
+.message-actions .btn { flex: 1 1 0; min-width: 150px; max-width: 220px; }
+@media (max-width: 640px) { .message-actions .btn { flex: 1 1 100%; max-width: none; } }
 .suggestion-link {
-  display: inline-flex; align-items: center; height: 44px; padding: 0 16px; margin: 0 4px;
+  display: inline-flex; align-items: center; justify-content: center; height: 40px; padding: 0 18px; margin: 0;
   border: 1px solid var(--accent); border-radius: 8px; background: var(--card);
   color: var(--accent-text); font: inherit; font-weight: 600; cursor: pointer;
 }

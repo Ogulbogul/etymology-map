@@ -15,8 +15,8 @@
     if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="/app.css?v=f923f80d" />
-<link rel="stylesheet" href="/pages.css?v=f923f80d" />
+<link rel="stylesheet" href="/app.css?v=0a380fdf" />
+<link rel="stylesheet" href="/pages.css?v=0a380fdf" />
 </head>
 <body>
   <div id="app">
@@ -64,8 +64,8 @@
   <script type="module">
     (async function () {
       try {
-        var d3 = await import("/vendor/d3-geo.js?v=f923f80d");
-        var tj = await import("/vendor/topojson-client.js?v=f923f80d");
+        var d3 = await import("/vendor/d3-geo.js?v=0a380fdf");
+        var tj = await import("/vendor/topojson-client.js?v=0a380fdf");
         var topo = await (await fetch("/vendor/land-110m.json")).json();
         var land = tj.feature(topo, topo.objects.land);
         var proj = d3.geoEquirectangular().fitExtent([[0, 20], [960, 480]], land);
@@ -83,11 +83,11 @@
       } catch (e) { location.href = "/index.html"; }
     });
   </script>
-  <script src="/track.js?v=f923f80d"></script>
+  <script src="/track.js?v=0a380fdf"></script>
   <script>
     if (window.emTrack) window.emTrack.notFound(location.pathname);
   </script>
-  <script type="module" src="/page.js?v=f923f80d"></script>
+  <script type="module" src="/page.js?v=0a380fdf"></script>
   <script>
     // Best-effort "did you mean" for a mistyped /words/<slug> URL: guesses
     // the intended word from the path and checks it against the real word
