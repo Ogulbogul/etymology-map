@@ -450,3 +450,28 @@
   .g-stop .note { font-size: 13px; line-height: 1.4; }
 }
 
+
+/* ---------- Alignment pass ---------- */
+/* 5: phones, end screen buttons: one full-width button, then two side by side */
+@media (max-width: 640px) {
+  .g-endbtns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .g-endbtns > :first-child { grid-column: 1 / -1; }
+  .g-endbtns .btn { width: 100%; }
+}
+/* 7: tablets (721-900px): the phone arrangement, so the map stays put on Reveal and the results line up */
+@media (min-width: 721px) and (max-width: 900px) {
+  #screen-play:not([hidden]) { display: flex; flex-direction: column; }
+  .g-progress { order: 0; grid-template-columns: 1fr auto auto 1fr; align-items: center; justify-items: center; column-gap: 12px; row-gap: 0; margin-bottom: 12px; }
+  .g-progress .g-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; margin: 0 0 18px; }
+  .g-word { display: contents; }
+  .g-word .eyebrow { grid-column: 2; grid-row: 2; margin: 0; }
+  .g-progress .g-scorechip { grid-column: 3; grid-row: 2; justify-self: center; margin: 0; padding: 3px 12px; }
+  .g-word h2 { grid-column: 1 / -1; grid-row: 3; margin: 6px 0 8px; text-align: center; }
+  .g-meaning { grid-column: 1 / -1; grid-row: 4; justify-self: center; text-align: center; }
+  .g-mapbox { order: 1; }
+  .g-controls { order: 2; min-height: 0; margin: 12px 0 0; }
+  .g-rows { order: 3; }
+  .g-summary { grid-template-columns: 76px minmax(0, 1fr); }
+  .g-eq { grid-column: 2; justify-content: flex-start; padding: 0; }
+  .g-sumbtns { grid-column: 2; justify-content: flex-start; }
+}
