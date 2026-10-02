@@ -726,12 +726,12 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
 .site-footer {
   position: relative; z-index: 3;
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
-  min-height: 64px; padding: 0 60px;
+  min-height: 65px; padding: 0 60px;
   border-top: 1px solid var(--hair);
-  font-size: 13px; color: var(--text-dim);
+  font-size: 13px; line-height: 20px; color: var(--text-dim);
 }
 .site-footer { flex-wrap: wrap; }
-.footer-about { flex: 1 1 320px; margin: 0; padding: 0; font-size: 13px; line-height: 1.5; }
+.footer-about { flex: 1 1 320px; margin: 0; padding: 0; font-size: 13px; line-height: 20px; }
 #app[data-state="result"] .footer-about { display: none; }
 .footer-links { display: flex; gap: 22px; }
 .site-footer a { color: var(--text-dim); text-decoration: none; }
@@ -1602,7 +1602,7 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 .play-tip-cta:hover { text-decoration: underline; }
 
 /* Footer "Feedback" button and its form (feedback.js) */
-.footer-feedback { padding: 0; border: 0; background: none; font: inherit; color: var(--text-dim); cursor: pointer; }
+.footer-feedback { padding: 0; border: 0; background: none; font: inherit; line-height: inherit; color: var(--text-dim); cursor: pointer; }
 .footer-feedback:hover { color: var(--accent-text); }
 .site-footer .footer-feedback { min-height: 0; }
 @media (max-width: 640px) { .site-footer .footer-feedback { display: inline-flex; align-items: center; min-height: 44px; } }
