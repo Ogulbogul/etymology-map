@@ -1598,3 +1598,20 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 .play-tip-x { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border: 0; border-radius: 50%; background: transparent; font-size: 18px; line-height: 1; color: var(--text-dim); cursor: pointer; }
 .play-tip-x:hover { background: var(--accent-soft); color: var(--accent-text); }
 @media (prefers-reduced-motion: reduce) { .play-tip { transition: none; } }
+.play-tip-cta { justify-self: start; margin-top: 8px; padding: 7px 18px; border-radius: 999px; background: var(--accent); color: var(--on-accent); font-size: 14px; font-weight: 650; text-decoration: none; transition: background 0.12s, transform 0.12s; }
+.play-tip-cta:hover { background: var(--accent-hover); transform: translateY(-1px); }
+
+/* Footer "Feedback" button and its form (feedback.js) */
+.footer-feedback { padding: 0; border: 0; background: none; font: inherit; color: var(--text-dim); cursor: pointer; }
+.footer-feedback:hover { color: var(--accent-text); }
+.site-footer .footer-feedback { min-height: 0; }
+@media (max-width: 640px) { .site-footer .footer-feedback { display: inline-flex; align-items: center; min-height: 44px; } }
+.fb-card { max-width: 480px; }
+.fb-intro { margin: 0 0 14px; color: var(--text-dim); line-height: 1.5; }
+.fb-form { display: grid; gap: 10px; position: relative; }
+.fb-text, .fb-mail { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--text); font: inherit; font-size: 15px; resize: vertical; }
+.fb-text:focus, .fb-mail:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.fb-count { justify-self: end; margin-top: -6px; font-size: 12px; color: var(--text-dim); }
+.fb-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.fb-done { padding: 6px 0 4px; }
+.fb-done .btn { margin-top: 4px; }

@@ -7,6 +7,7 @@
 // server call is /api/score, which adds one count to an anonymous score bucket
 // and returns the percentile. No sign-in, cookies or IDs.
 
+import "./feedback.js";
 import { buildGameCard, tierFor } from "./gamecard.js";
 
 const W = 960;

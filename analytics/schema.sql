@@ -9,3 +9,13 @@ CREATE TABLE IF NOT EXISTS daily_counts (
   PRIMARY KEY (day, type, key)
 );
 CREATE INDEX IF NOT EXISTS idx_daily_counts_type_day ON daily_counts (type, day);
+
+-- Messages from the "Feedback" button (functions/api/feedback.js). Only what the sender typed.
+CREATE TABLE IF NOT EXISTS feedback (
+  id      INTEGER PRIMARY KEY AUTOINCREMENT,
+  day     TEXT    NOT NULL,            -- YYYY-MM-DD (UTC)
+  page    TEXT    NOT NULL DEFAULT '', -- path the sender was on
+  message TEXT    NOT NULL,
+  contact TEXT    NOT NULL DEFAULT ''  -- optional reply-to email typed by the sender
+);
+CREATE INDEX IF NOT EXISTS idx_feedback_day ON feedback (day);

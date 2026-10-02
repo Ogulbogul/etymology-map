@@ -17,15 +17,19 @@ function run() {
   tip.className = "play-tip";
   tip.setAttribute("role", "status");
   const title = document.createElement("b");
-  title.textContent = "New: a word game";
+  title.textContent = "New: guess the journey!";
   const text = document.createElement("span");
-  text.textContent = "Guess where a word travelled, and see how close you get. A new daily word, no sign-up.";
+  text.textContent = "Where did a word really travel from? Drop pins on the map, score points and build your streak. Free, no sign-up!";
+  const cta = document.createElement("a");
+  cta.className = "play-tip-cta";
+  cta.href = pill.getAttribute("href");
+  cta.textContent = "Play now!";
   const close = document.createElement("button");
   close.type = "button";
   close.className = "play-tip-x";
   close.setAttribute("aria-label", "Dismiss");
   close.textContent = "\u00d7";
-  tip.append(title, text, close);
+  tip.append(title, text, cta, close);
 
   const place = () => {
     const r = pill.getBoundingClientRect();

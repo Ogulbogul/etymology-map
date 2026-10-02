@@ -112,6 +112,7 @@ h1{margin:0;font-size:20px;letter-spacing:-.01em}
 .jump a{flex:none;padding:6px 13px;border:1px solid var(--border);border-radius:999px;font-size:13px;font-weight:600;color:var(--text);text-decoration:none;background:var(--panel)}
 .jump a:hover{border-color:var(--accent);color:var(--accent)}
 section{scroll-margin-top:64px}
+.fblist{list-style:none;margin:0;padding:0;display:grid;gap:10px}.fblist li{padding:10px 12px;border:1px solid var(--border);border-radius:10px;white-space:pre-wrap;word-break:break-word}.fblist small{display:block;margin-top:4px;color:var(--dim);white-space:normal}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
 @media (min-width:1100px){.kpis{grid-template-columns:repeat(7,1fr);margin-top:12px}}
 .kpi{all:unset;box-sizing:border-box;cursor:pointer;background:var(--panel);border:1px solid var(--border);border-radius:calc(var(--r) - 2px);padding:10px 14px 8px;display:flex;flex-direction:column;gap:1px}
@@ -381,7 +382,7 @@ export async function onRequestGet({ request, env }) {
   const prevSince = isoDay(Date.parse(since + "T00:00:00Z") - days * 86400000);
   const q = (sql, ...args) => env.DB.prepare(sql).bind(since, until, ...args).all().then((r) => r.results);
 
-  const [daily, prevTotals, misses, views, stories, shares, times, notFound, gameRows, wordSet] = await Promise.all([
+  const [daily, prevTotals, misses, views, stories, shares, times, notFound, gameRows, wordSet, feedbackRows] = await Promise.all([
     env.DB.prepare("SELECT day, type, SUM(count) AS n, SUM(seconds) AS s FROM daily_counts WHERE day >= ?1 AND day <= ?2 GROUP BY day, type")
       .bind(chartSince, today)
       .all()
@@ -403,6 +404,10 @@ export async function onRequestGet({ request, env }) {
     q("SELECT key, SUM(count) AS n FROM daily_counts WHERE day >= ?1 AND day <= ?2 AND type = '404' GROUP BY key ORDER BY n DESC LIMIT 50"),
     q("SELECT key, SUM(count) AS n FROM daily_counts WHERE day >= ?1 AND day <= ?2 AND type = 'game' GROUP BY key"),
     loadWordSet(env, request),
+    env.DB.prepare("SELECT day, page, message, contact FROM feedback ORDER BY id DESC LIMIT 20")
+      .all()
+      .then((r) => r.results)
+      .catch(() => []),
   ]);
 
   // Zero-filled daily series, oldest first, so gaps show as gaps in the chart.
@@ -498,6 +503,17 @@ export async function onRequestGet({ request, env }) {
         .filter(([, m]) => m.n)
         .map(([label, m]) => ({ label, sub: `avg ${fmtNum(Math.round(m.sum / m.n))} points`, value: fmtNum(m.n), bar: m.n })),
     }),
+    `<section class="card" id="feedback"><header><h2>Feedback</h2><span class="hr"><span class="badge">${fmtNum(feedbackRows.length)}</span>${FOLD}</span></header>` +
+      `<p class="note">The latest 20 messages from the Feedback button.</p>` +
+      (feedbackRows.length
+        ? `<ol class="fblist">${feedbackRows
+            .map(
+              (r) =>
+                `<li>${esc(r.message)}<small>${esc(r.day)}${r.page ? " &middot; " + esc(r.page) : ""}${r.contact ? " &middot; " + esc(r.contact) : ""}</small></li>`
+            )
+            .join("")}</ol>`
+        : `<p class="empty">No feedback yet</p>`) +
+      `</section>`,
     rankCard({ id: "shares", title: "Shared", rows: shares.map((r) => ({ label: r.key, value: fmtNum(r.n), bar: r.n })) }),
     rankCard({
       id: "notfound",
@@ -565,6 +581,7 @@ export async function onRequestGet({ request, env }) {
     ["stories", "Stories"],
     ["shares", "Shares"],
     ["games", "Games"],
+    ["feedback", "Feedback"],
     ["notfound", "404s"],
   ]
     .map(([id, label]) => `<a href="#${id}">${label}</a>`)
