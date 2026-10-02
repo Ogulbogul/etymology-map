@@ -7,8 +7,8 @@
 // server call is /api/score, which adds one count to an anonymous score bucket
 // and returns the percentile. No sign-in, cookies or IDs.
 
-import "./feedback.js?v=ee3b2a9f";
-import { buildGameCard, tierFor } from "./gamecard.js?v=ee3b2a9f";
+import "./feedback.js?v=9795afd7";
+import { buildGameCard, tierFor } from "./gamecard.js?v=9795afd7";
 
 const W = 960;
 const H = 500;
@@ -162,7 +162,7 @@ function drawMarks() {
       g.appendChild(el("circle", { r: 11, class: "g-dot" }));
       g.appendChild(el("text", { class: "g-num" }, it.m.label));
       if (canRemove) {
-        g.appendChild(el("text", { class: "g-x" }, "\u00d7"));
+        g.appendChild(el("path", { class: "g-x", d: "M-4.2 -4.2L4.2 4.2M4.2 -4.2L-4.2 4.2" }));
         g.style.pointerEvents = "all";
         g.addEventListener("pointerdown", (e) => e.stopPropagation());
         g.addEventListener("pointerup", (e) => {
@@ -364,8 +364,8 @@ canvas.addEventListener("mouseleave", () => (countryLabel.textContent = " "));
 
 async function loadMap() {
   const [d3geo, topo, resp] = await Promise.all([
-    import("./vendor/d3-geo.js?v=ee3b2a9f"),
-    import("./vendor/topojson-client.js?v=ee3b2a9f"),
+    import("./vendor/d3-geo.js?v=9795afd7"),
+    import("./vendor/topojson-client.js?v=9795afd7"),
     fetch("vendor/countries-110m.json"),
   ]);
   if (!resp.ok) throw new Error("countries fetch failed");

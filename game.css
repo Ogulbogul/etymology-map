@@ -104,14 +104,14 @@
 .g-mark text { fill: var(--on-accent); font-size: 11px; font-weight: 700; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
 .g-mark.truth text { fill: #fff; }
 .g-mark.pin circle.g-hit { fill: transparent; stroke: none; }
-.g-mark text.g-x { opacity: 0; font-size: 20px; }
+.g-mark path.g-x { fill: none; stroke: var(--on-accent); stroke-width: 2.6; stroke-linecap: round; opacity: 0; }
 .g-mark.removable { cursor: pointer; }
 .g-mark.selected text.g-num { opacity: 0; }
-.g-mark.selected text.g-x { opacity: 1; }
+.g-mark.selected path.g-x { opacity: 1; }
 .g-mark.selected circle.g-dot { fill: var(--accent-hover); filter: drop-shadow(0 0 4px var(--accent)); }
 @media (hover: hover) and (pointer: fine) {
   .g-mark.removable:hover text.g-num { opacity: 0; }
-  .g-mark.removable:hover text.g-x { opacity: 1; }
+  .g-mark.removable:hover path.g-x { opacity: 1; }
   .g-mark.removable:hover circle.g-dot { fill: var(--accent-hover); filter: drop-shadow(0 0 4px var(--accent)); }
 }
 
@@ -512,3 +512,5 @@
   .g-maptop .g-end b { font-size: 13px; max-width: 86px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .g-maptop .g-slots.many .g-arrow { display: none; }
 }
+/* the caption sits a little lower under the numbers (moved, not re-laid-out, so nothing else shifts) */
+@media (min-width: 721px) { .g-count { position: relative; top: 5px; } }
