@@ -194,6 +194,7 @@ def render_word_page(word, entry, word_index):
     canonical = f"{SITE_URL}/words/{slug}"
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
+    html = re.sub(r"\?v=[0-9a-f]{8}", "", html)  # asset version numbers are added again at the end (stamp_assets)
 
     # --- head metadata
     html = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", html, count=1, flags=re.S)
@@ -387,6 +388,10 @@ def generate_all(word_index=None, quiet=False):
 
     if not quiet:
         print(f"Generated {len(written)} word page(s) under words/" + (f", removed {len(stale)} stale" if stale else ""))
+
+    # Pages were just rewritten from the template: stamp the script/style links with the asset version.
+    import stamp_assets
+    stamp_assets.stamp(quiet=quiet)
 
 
 if __name__ == "__main__":

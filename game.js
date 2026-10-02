@@ -7,8 +7,8 @@
 // server call is /api/score, which adds one count to an anonymous score bucket
 // and returns the percentile. No sign-in, cookies or IDs.
 
-import "./feedback.js";
-import { buildGameCard, tierFor } from "./gamecard.js";
+import "./feedback.js?v=55394018";
+import { buildGameCard, tierFor } from "./gamecard.js?v=55394018";
 
 const W = 960;
 const H = 500;
@@ -303,8 +303,8 @@ canvas.addEventListener("mouseleave", () => (countryLabel.textContent = " "));
 
 async function loadMap() {
   const [d3geo, topo, resp] = await Promise.all([
-    import("./vendor/d3-geo.js"),
-    import("./vendor/topojson-client.js"),
+    import("./vendor/d3-geo.js?v=55394018"),
+    import("./vendor/topojson-client.js?v=55394018"),
     fetch("vendor/countries-110m.json"),
   ]);
   if (!resp.ok) throw new Error("countries fetch failed");
