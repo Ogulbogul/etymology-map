@@ -1598,8 +1598,8 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 .play-tip-x { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border: 0; border-radius: 50%; background: transparent; font-size: 18px; line-height: 1; color: var(--text-dim); cursor: pointer; }
 .play-tip-x:hover { background: var(--accent-soft); color: var(--accent-text); }
 @media (prefers-reduced-motion: reduce) { .play-tip { transition: none; } }
-.play-tip-cta { justify-self: start; margin-top: 8px; padding: 7px 18px; border-radius: 999px; background: var(--accent); color: var(--on-accent); font-size: 14px; font-weight: 650; text-decoration: none; transition: background 0.12s, transform 0.12s; }
-.play-tip-cta:hover { background: var(--accent-hover); transform: translateY(-1px); }
+.play-tip-cta { justify-self: start; margin-top: 6px; font-size: 14.5px; font-weight: 650; color: var(--accent-text); text-decoration: none; }
+.play-tip-cta:hover { text-decoration: underline; }
 
 /* Footer "Feedback" button and its form (feedback.js) */
 .footer-feedback { padding: 0; border: 0; background: none; font: inherit; color: var(--text-dim); cursor: pointer; }

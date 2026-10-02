@@ -23,7 +23,7 @@ function run() {
   const cta = document.createElement("a");
   cta.className = "play-tip-cta";
   cta.href = pill.getAttribute("href");
-  cta.textContent = "Play now!";
+  cta.textContent = "Play now! →";
   const close = document.createElement("button");
   close.type = "button";
   close.className = "play-tip-x";
