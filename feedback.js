@@ -69,7 +69,8 @@ function setup() {
     cancel.type = "button";
     cancel.addEventListener("click", close);
     actions.append(send, cancel);
-    form.append(ta, count, mail, trap, actions, status);
+    const note = el("p", "fb-note", "We use this only to read and reply to your message.");
+    form.append(ta, count, mail, note, trap, actions, status);
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();

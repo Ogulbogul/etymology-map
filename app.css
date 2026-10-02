@@ -1613,6 +1613,7 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 .fb-text:focus, .fb-mail:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .fb-mail::placeholder, .fb-text::placeholder { font-size: 14px; }
 .fb-mail::placeholder { font-size: 13.5px; }
+.fb-note { margin: 0; font-size: 12.5px; color: var(--text-dim); }
 .fb-count { justify-self: end; margin-top: -6px; font-size: 12px; color: var(--text-dim); }
 .fb-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .fb-done { padding: 6px 0 4px; }

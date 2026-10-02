@@ -389,9 +389,17 @@ function scoreRound(pins, truth) {
 }
 
 // --- Daily word choice ------------------------------------------------------
-// Everyone gets the same five words for a UTC day without any server: each
-// pool word gets a hash of (date, word) and the five lowest win. Adding words
-// to the pool later almost never changes the day's picks.
+// Everyone gets the same five words for a UTC day without any server. Each day, every eligible
+// pool word gets a hash of (date, word) and the five lowest win, with two rules:
+//  - a word is not picked again for REPEAT_DAYS days after it was a daily word;
+//  - a word that joined the pool recently (its "since" date) is ignored for NEW_WORD_DELAY days,
+//    so adding words to the pool can never change a day that is already being played.
+// Because of the first rule, a day's words depend on the days before it, so they are worked out
+// day by day from LAUNCH_DAY. LAUNCH_DAY must never change once the game is live.
+const LAUNCH_DAY = "2026-10-01";
+const REPEAT_DAYS = 60;
+const NEW_WORD_DELAY = 2;
+
 function hash32(str) {
   let h = 0x811c9dc5;
   for (let i = 0; i < str.length; i++) {
@@ -403,12 +411,38 @@ function hash32(str) {
   h ^= h >>> 12;
   return h >>> 0;
 }
-function dailyWords(pool, day) {
-  return pool
-    .map((w) => [hash32(day + "|" + w), w])
-    .sort((a, b) => a[0] - b[0] || (a[1] < b[1] ? -1 : 1))
-    .slice(0, ROUNDS)
-    .map((x) => x[1]);
+
+// The `count` words with the lowest hash for this day (ties broken by the word itself).
+function lowestHashed(words, day, count) {
+  const best = []; // sorted [hash, word], at most `count` long
+  for (const w of words) {
+    const h = hash32(day + "|" + w);
+    if (best.length === count) {
+      const last = best[count - 1];
+      if (h > last[0] || (h === last[0] && w > last[1])) continue;
+    }
+    let i = best.length;
+    while (i > 0 && (best[i - 1][0] > h || (best[i - 1][0] === h && best[i - 1][1] > w))) i--;
+    best.splice(i, 0, [h, w]);
+    if (best.length > count) best.pop();
+  }
+  return best.map((x) => x[1]);
+}
+
+function dailyWords(pool, since, day) {
+  const lastUsed = new Map(); // word -> number of the day it was last a daily word
+  let picks = [];
+  let d = day < LAUNCH_DAY ? day : LAUNCH_DAY;
+  for (let n = 0; ; n++) {
+    const cutoff = dayMinus(d, NEW_WORD_DELAY);
+    const eligible = pool.filter((w) => !since[w] || since[w] <= cutoff);
+    let fresh = eligible.filter((w) => !lastUsed.has(w) || n - lastUsed.get(w) > REPEAT_DAYS);
+    if (fresh.length < ROUNDS) fresh = eligible; // tiny pool: repeats beat an empty game
+    picks = lowestHashed(fresh, d, ROUNDS);
+    picks.forEach((w) => lastUsed.set(w, n));
+    if (d >= day) return picks;
+    d = dayMinus(d, -1);
+  }
 }
 function practiceWords(pool) {
   const out = [];
@@ -428,6 +462,7 @@ function show(name) {
 
 const todayUTC = new Date().toISOString().slice(0, 10);
 let pool = [];
+let poolSince = {}; // word -> day it joined the pool (words from the start have none)
 let game = null; // { mode, words, i, total, rounds: [{ key, pts }] }
 let round = null; // { data, pins: [{lon,lat}], phase, max }
 
@@ -464,7 +499,7 @@ function ringSvg(frac, big, small, tier, animate = true) {
 }
 
 function startGame(mode) {
-  const words = mode === "daily" ? dailyWords(pool, todayUTC) : practiceWords(pool);
+  const words = mode === "daily" ? dailyWords(pool, poolSince, todayUTC) : practiceWords(pool);
   game = { mode, words, i: 0, total: 0, rounds: [] };
   show("play");
   loadRound();
@@ -1262,7 +1297,9 @@ $("btn-practice").addEventListener("click", () => startGame("practice"));
   try {
     const [poolRes] = await Promise.all([fetch("data/game-pool.json"), loadMap()]);
     if (!poolRes.ok) throw new Error("pool fetch failed");
-    pool = await poolRes.json();
+    const poolData = await poolRes.json();
+    pool = poolData.words;
+    poolSince = poolData.since || {};
     if (!Array.isArray(pool) || pool.length < ROUNDS) throw new Error("pool empty");
     paintStart();
   } catch (err) {

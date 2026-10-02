@@ -21,7 +21,7 @@ discover every word page without any separate manual step.
 import json
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import build_pages
@@ -103,12 +103,37 @@ def _km(a, b):
     return 12742 * math.asin(min(1, math.sqrt(h)))
 
 
+# Words that never appear in the /play game (daily or practice): slurs, and words about violence
+# or slavery that do not belong in a casual daily game. Add a word here and run add_word.py.
+# Note: removing a word that was already a daily pick can change that day's five.
+GAME_EXCLUDE = {
+    "cannibal", "coolie", "harem", "idiot", "lynch", "massacre", "savage", "slave", "torture",
+}
+
+
 def write_game_pool():
     """Words that make a good round of the /play game: at least two stops
     before English, and at least two of them 800+ km apart (so there is a
-    real journey to guess). Written as a plain list of word keys."""
-    pool = []
+    real journey to guess), minus GAME_EXCLUDE.
+
+    Written as {"words": [...], "since": {word: "YYYY-MM-DD"}}. `since` is the (UTC) day a word
+    first entered the pool, kept from one run to the next, so the daily game can ignore a word
+    for its first days and a new word can never change a set that is already being played.
+    Words that were there from the start have no entry."""
+    previous = {"words": [], "since": {}}
+    if GAME_POOL_PATH.exists():
+        old = json.loads(GAME_POOL_PATH.read_text(encoding="utf-8"))
+        if isinstance(old, list):  # first format: a plain list
+            previous = {"words": old, "since": {}}
+        else:
+            previous = {"words": old.get("words", []), "since": old.get("since", {})}
+    known = set(previous["words"])
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    words = []
     for word_path in sorted(DATA_DIR.glob("*.json")):
+        if word_path.stem in GAME_EXCLUDE:
+            continue
         entry = json.loads(word_path.read_text(encoding="utf-8-sig"))
         stops = entry["stops"]
         if str(stops[-1].get("lang", "")).startswith("English"):
@@ -116,9 +141,17 @@ def write_game_pool():
         if len(stops) < 2:
             continue
         if max(_km(a, b) for i, a in enumerate(stops) for b in stops[i + 1:]) >= 800:
-            pool.append(word_path.stem)
-    GAME_POOL_PATH.write_text(json.dumps(pool, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    return len(pool)
+            words.append(word_path.stem)
+
+    since = {}
+    for w in words:
+        if w in previous["since"]:
+            since[w] = previous["since"][w]
+        elif known and w not in known:
+            since[w] = today
+    out = {"words": words, "since": since}
+    GAME_POOL_PATH.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return len(words)
 
 
 def validate_entry(word, entry):
