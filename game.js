@@ -100,16 +100,22 @@ function setView(v) {
 
 function drawMarks() {
   marksLayer.textContent = "";
+  // Marks are drawn in map units, so on a narrow screen they would shrink to specks: grow them
+  // so a pin is never smaller than about 10px (radius) on screen.
+  const w = svg.getBoundingClientRect().width;
+  const s = w > 0 ? Math.max(1, (10 * W) / (11 * w)) : 1;
   for (const m of markList) {
     const p = projection([m.lon, m.lat]);
     const x = view.x + view.k * p[0];
     const y = view.y + view.k * p[1];
-    const g = el("g", { class: "g-mark " + m.kind, transform: `translate(${x.toFixed(1)} ${y.toFixed(1)})` });
+    const g = el("g", { class: "g-mark " + m.kind, transform: `translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${s.toFixed(2)})` });
     g.appendChild(el("circle", { r: 11 }));
     g.appendChild(el("text", {}, m.label));
     marksLayer.appendChild(g);
   }
 }
+
+window.addEventListener("resize", () => markList && drawMarks());
 
 let anim = 0;
 function animateTo(target, ms = 450) {
@@ -845,18 +851,18 @@ function flameEl() {
 
 const streakLabel = (n) => `${n}-day streak`;
 
-// The last seven days, today on the right: a dot per day you played, coloured by that day's score
-// (green / yellow / red, same bands as everywhere else); an empty ring means you did not play.
+// Today first, then the next six days: a dot for today (coloured by today's score once you have
+// played, an empty ring until then) and an empty ring for each day still to come.
 function weekRow(info) {
   const row = document.createElement("div");
   row.className = "g-week";
   row.setAttribute("role", "img");
-  row.setAttribute("aria-label", "Days played in the last week, coloured by score");
-  for (let i = 6; i >= 0; i--) {
-    const day = dayMinus(todayUTC, i);
-    const entry = info.days.get(day);
+  row.setAttribute("aria-label", "Today and the next six days");
+  for (let i = 0; i < 7; i++) {
+    const day = dayMinus(todayUTC, -i);
+    const entry = i === 0 ? info.days.get(day) : null;
     const cell = document.createElement("span");
-    cell.className = "g-wd" + (entry ? " on" : "") + (i === 0 ? " today" : "");
+    cell.className = "g-wd" + (entry ? " on" : "") + (i === 0 ? " today" : " future");
     if (entry && entry.s != null) {
       cell.classList.add("tier-" + tierOf(entry.s, MAX_TOTAL));
       cell.title = `${fmtDate(day)}: ${entry.s.toLocaleString("en-US")} points`;

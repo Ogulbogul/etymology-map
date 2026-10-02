@@ -188,7 +188,7 @@
 .brand-sub-clip { position: relative; top: 1.5px; display: block; margin-left: calc(var(--bs-gap) * -1); overflow: hidden; padding: 4px 6px 4px 0; margin-block: -4px; }
 .brand-sub { display: block; margin-left: var(--bs-gap); font-size: 20px; font-weight: 600; letter-spacing: -0.01em; color: var(--accent-text); white-space: nowrap; animation: g-out 0.6s cubic-bezier(0.22, 0.8, 0.25, 1) 0.4s backwards; }
 @keyframes g-sep { from { transform: scaleY(0); opacity: 0; } to { transform: none; opacity: 1; } }
-@keyframes g-out { from { transform: translateX(-110%); } to { transform: none; } }
+@keyframes g-out { from { transform: translateX(calc(-100% - var(--bs-gap) - 8px)); } to { transform: none; } }
 @media (prefers-reduced-motion: reduce) { .brand-sep, .brand-sub { animation: none; } }
 @media (max-width: 640px) {
   .brand-group { gap: 10px; --bs-gap: 10px; }
@@ -428,3 +428,25 @@
 }
 
 .g-slots[hidden] { display: none; }
+
+.g-wd.future i { border-style: dashed; opacity: 0.6; }
+
+/* ---------- Phones: results more compact ---------- */
+@media (max-width: 720px) {
+  .g-summary { grid-template-columns: 56px minmax(0, 1fr); gap: 8px 14px; padding: 16px 14px 12px; }
+  .g-summary .g-ringbox { width: 56px; }
+  .g-verdict { margin: 0 0 6px; font-size: 18px; }
+  .g-chips { gap: 6px; }
+  .g-chip2 { padding: 2px 9px; font-size: 12px; }
+  .g-eq { gap: 4px 6px; padding: 0; }
+  .g-eq-part { flex: 1; min-width: 0; }
+  .g-eq-part b { font-size: 18px; }
+  .g-eq-part span { font-size: 11px; line-height: 1.2; }
+  .g-eq-op { font-size: 18px; }
+  .g-sumbtns { gap: 8px; }
+  .g-sumbtns .btn { height: 40px; font-size: 14px; }
+  .g-rows { gap: 8px; margin-top: 10px; }
+  .g-stop { padding: 14px 12px 10px; gap: 4px; }
+  .g-stop .note { font-size: 13px; line-height: 1.4; }
+}
+
