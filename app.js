@@ -1,8 +1,8 @@
-import { icon, hydrateIcons } from "./icons.js?v=b36a9337";
-import "./hint.js?v=b36a9337";
-import "./feedback.js?v=b36a9337";
-import { createGlobe } from "./globe.js?v=b36a9337";
-import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=b36a9337";
+import { icon, hydrateIcons } from "./icons.js?v=2fc470b4";
+import "./hint.js?v=2fc470b4";
+import "./feedback.js?v=2fc470b4";
+import { createGlobe } from "./globe.js?v=2fc470b4";
+import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=2fc470b4";
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -416,7 +416,7 @@ function renderOriginAutocomplete() {
     li.setAttribute("role", "option");
     li.setAttribute("aria-selected", idx === originAcActiveIndex ? "true" : "false");
     if (idx === originAcActiveIndex) li.classList.add("active");
-    li.textContent = `${origin} (${originCounts.get(origin) || 0})`;
+    li.appendChild(highlightedLabel(origin, originSearchInput.value, ` (${originCounts.get(origin) || 0})`));
     li.addEventListener("pointerdown", (e) => {
       e.preventDefault();
       selectOrigin(origin);
@@ -580,8 +580,8 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js?v=b36a9337"),
-      import("./vendor/topojson-client.js?v=b36a9337"),
+      import("./vendor/d3-geo.js?v=2fc470b4"),
+      import("./vendor/topojson-client.js?v=2fc470b4"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
@@ -1884,6 +1884,24 @@ window.addEventListener("popstate", () => {
 let acMatches = [];
 let acActiveIndex = -1;
 
+// A suggestion's text with the letters the visitor typed wrapped in <mark> (bold orange). Everything sits in
+// one span so the row's flex layout keeps the word together.
+function highlightedLabel(text, query, suffix) {
+  const span = document.createElement("span");
+  const q = query.trim().toLowerCase();
+  const lower = text.toLowerCase();
+  const i = q && lower.length === text.length ? lower.indexOf(q) : -1;
+  if (i < 0) {
+    span.textContent = text;
+  } else {
+    const mark = document.createElement("mark");
+    mark.textContent = text.slice(i, i + q.length);
+    span.append(text.slice(0, i), mark, text.slice(i + q.length));
+  }
+  if (suffix) span.append(suffix);
+  return span;
+}
+
 function getAutocompleteMatches(query) {
   const q = query.trim().toLowerCase();
   if (!q) return [];
@@ -1907,7 +1925,7 @@ function renderAutocomplete() {
     li.setAttribute("role", "option");
     li.setAttribute("aria-selected", idx === acActiveIndex ? "true" : "false");
     if (idx === acActiveIndex) li.classList.add("active");
-    li.textContent = word;
+    li.appendChild(highlightedLabel(word, wordInput.value));
     li.addEventListener("pointerdown", (e) => {
       e.preventDefault();
       selectAutocomplete(word);
