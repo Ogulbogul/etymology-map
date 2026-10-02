@@ -469,6 +469,7 @@ async function loadRound() {
   $("g-summary").hidden = true;
   $("g-rows").hidden = true;
   $("g-pinbar").hidden = false;
+  $("g-slots").hidden = false;
   $("g-help").hidden = false;
   paintDots();
   linesLayer.textContent = "";
@@ -528,6 +529,18 @@ function paintPins() {
   $("g-reveal").disabled = !round.pins.length;
 }
 
+// On phones the numbered pin slots sit in the map's top bar (the bar above the map), not in the
+// controls under it. The element itself moves, so paintPins keeps working unchanged.
+const slotsHome = $("g-slots").parentElement;
+const phoneMq = window.matchMedia("(max-width: 720px)");
+function placeSlots() {
+  const slots = $("g-slots");
+  if (phoneMq.matches) document.querySelector(".g-maptop-l").appendChild(slots);
+  else slotsHome.prepend(slots);
+}
+phoneMq.addEventListener("change", placeSlots);
+placeSlots();
+
 $("g-undo").addEventListener("click", () => {
   if (round && round.phase === "guess" && round.pins.length) {
     round.pins.pop();
@@ -575,6 +588,7 @@ function reveal() {
   const tier = tierOf(res.total, MAX_ROUND);
   $("g-summary").className = "g-summary tier-" + tier;
   $("g-pinbar").hidden = true;
+  $("g-slots").hidden = true;
   $("g-help").hidden = true;
   $("g-summary").hidden = false;
   const ringBox = $("g-ring");

@@ -400,3 +400,31 @@
   .gs-title { font-size: 25px; }
 }
 @media (prefers-reduced-motion: reduce) { .g-story { animation: none; } }
+
+/* ---------- Phones: word, map (pin slots in its top bar), then controls and results ---------- */
+@media (max-width: 720px) {
+  .game-main { margin-top: 14px; padding-bottom: 28px; }
+  #screen-play:not([hidden]) { display: flex; flex-direction: column; }
+  .g-progress { order: 0; display: grid; grid-template-columns: 1fr auto auto 1fr; align-items: center; justify-items: center; column-gap: 12px; row-gap: 0; margin-bottom: 12px; }
+  .g-progress .g-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; margin: 0 0 18px; }
+  .g-word { display: contents; }
+  .g-word .eyebrow { grid-column: 2; grid-row: 2; margin: 0; }
+  .g-progress .g-scorechip { grid-column: 3; grid-row: 2; justify-self: center; margin: 0; padding: 3px 12px; }
+  .g-word h2 { grid-column: 1 / -1; grid-row: 3; margin: 6px 0 8px; font-size: 38px; text-align: center; }
+  .g-meaning { grid-column: 1 / -1; grid-row: 4; justify-self: center; text-align: center; }
+  .g-mapbox { order: 1; }
+  .g-controls { order: 2; min-height: 0; margin: 12px 0 0; }
+  .g-rows { order: 3; }
+  .g-pinbar { gap: 10px; }
+  .g-slotwrap { text-align: center; }
+  .g-count { margin: 0; }
+  .g-maptop { grid-template-columns: minmax(0, 1fr) auto; min-height: 48px; padding: 6px 10px; gap: 8px; }
+  .g-maptop .g-country { display: none; }
+  .g-maptop-l { display: block; min-width: 0; }
+  .g-maptop .g-slots { flex-wrap: nowrap; gap: 6px; }
+  .g-maptop .g-slot { width: auto; height: auto; flex: 0 1 32px; aspect-ratio: 1; min-width: 24px; font-size: 13px; border-width: 2px; }
+  .g-zoom { gap: 6px; }
+  .g-zoom .icon-btn.small { width: 34px; height: 34px; }
+}
+
+.g-slots[hidden] { display: none; }

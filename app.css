@@ -768,7 +768,7 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
   .brand-mark { width: 30px; height: 30px; border-radius: 8px; }
   .brand-name { font-size: 18px; }
   .header-link { display: none; }
-  #theme-toggle-btn { width: 44px; height: 44px; }
+  #theme-toggle-btn { width: 36px; height: 36px; }
   .hero { padding: 6px 16px 0; }
   .hero-title { font-size: 26px; }
   #app[data-state="result"] .hero-title { display: none; }
@@ -1586,7 +1586,7 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 .header-link.header-play:hover { background: var(--accent-soft); color: var(--accent-text); }
 .header-play[aria-current="page"] { background: var(--accent-soft); }
 @media (max-width: 640px) {
-  .header-link.header-play { display: inline-flex; font-size: 14px; padding: 5px 13px; }
+  .header-link.header-play { display: inline-flex; align-items: center; height: 34px; box-sizing: border-box; font-size: 14px; line-height: 1; padding: 0 14px; }
   .hp-long { display: none; }
 }
 
