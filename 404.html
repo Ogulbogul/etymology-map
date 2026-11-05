@@ -15,8 +15,8 @@
     if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="/app.css" />
-<link rel="stylesheet" href="/pages.css" />
+<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<link rel="stylesheet" href="/pages.css?v=2fb1ed6a" />
 </head>
 <body>
   <div id="app">
@@ -26,6 +26,7 @@
         <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
       </a>
       <nav class="header-actions" aria-label="Site">
+        <a class="header-link header-play" href="/play.html">Play<span class="hp-long"> the Game</span></a>
         <a class="header-link" href="/about.html">About</a>
         <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
       </nav>
@@ -63,8 +64,8 @@
   <script type="module">
     (async function () {
       try {
-        var d3 = await import("/vendor/d3-geo.js");
-        var tj = await import("/vendor/topojson-client.js");
+        var d3 = await import("/vendor/d3-geo.js?v=2fb1ed6a");
+        var tj = await import("/vendor/topojson-client.js?v=2fb1ed6a");
         var topo = await (await fetch("/vendor/land-110m.json")).json();
         var land = tj.feature(topo, topo.objects.land);
         var proj = d3.geoEquirectangular().fitExtent([[0, 20], [960, 480]], land);
@@ -82,11 +83,11 @@
       } catch (e) { location.href = "/index.html"; }
     });
   </script>
-  <script src="/track.js"></script>
+  <script src="/track.js?v=2fb1ed6a"></script>
   <script>
     if (window.emTrack) window.emTrack.notFound(location.pathname);
   </script>
-  <script type="module" src="/page.js"></script>
+  <script type="module" src="/page.js?v=2fb1ed6a"></script>
   <script>
     // Best-effort "did you mean" for a mistyped /words/<slug> URL: guesses
     // the intended word from the path and checks it against the real word

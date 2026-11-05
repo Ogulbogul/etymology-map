@@ -1,0 +1,516 @@
+/* The /play game, built on the app tokens in app.css (same header, buttons and colours as the rest of the site). */
+
+:root {
+  --truth: #2e7d4f;
+  --tier-hi: var(--truth);
+  --tier-mid: var(--theme-icon);
+  --tier-low: var(--error);
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --truth: #6fcf97; } }
+:root[data-theme="dark"] { --truth: #6fcf97; }
+.tier-hi { --tier: var(--tier-hi); }
+.tier-mid { --tier: var(--tier-mid); }
+.tier-low { --tier: var(--tier-low); }
+
+.game-main { position: relative; z-index: 2; width: 100%; max-width: 1100px; margin: 44px auto 0; padding: 0 24px 64px; flex: 1 0 auto; }
+
+/* ---------- Start ---------- */
+.g-hero { text-align: center; margin-bottom: 30px; }
+.g-hero h1 { margin: 6px 0 10px; font-size: 44px; line-height: 1.1; font-weight: 700; letter-spacing: -0.025em; color: var(--accent-text); }
+.g-lede { max-width: 520px; margin: 0 auto; font-size: 17px; line-height: 1.55; color: var(--text-dim); }
+
+.g-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.g-mode { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 24px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); }
+.g-mode h2 { margin: 0; font-size: 21px; font-weight: 650; letter-spacing: -0.01em; }
+.g-mode p { margin: 0 0 8px; font-size: 15px; line-height: 1.5; color: var(--text-dim); }
+.g-mode .btn { margin-top: auto; }
+.g-done b { font-size: 18px; color: var(--accent-text); }
+
+.g-steps { margin-top: 36px; }
+.g-steps-title { margin: 0 0 14px; text-align: center; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); }
+.g-steps-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.g-step { padding: 14px 14px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); text-align: center; }
+.g-step h3 { margin: 10px 0 2px; font-size: 16px; font-weight: 650; }
+.g-step p { margin: 0; font-size: 13.5px; color: var(--text-dim); }
+.g-art { display: block; width: 100%; height: auto; max-width: 190px; margin: 0 auto; }
+.a-card { fill: var(--bg); stroke: var(--border); stroke-width: 1.5; }
+.a-word { fill: var(--accent-text); font-size: 24px; font-weight: 650; font-family: inherit; }
+.a-bar { fill: var(--hair); }
+.a-land { fill: var(--land); stroke: var(--land-border); stroke-width: 1; }
+.a-line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-dasharray: 5 4; stroke-linecap: round; }
+.a-pin { fill: var(--accent); stroke: var(--card); stroke-width: 2; }
+.a-pint { fill: var(--on-accent); font-size: 10px; font-weight: 700; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+.a-ring { fill: none; stroke: var(--border); stroke-width: 1.5; stroke-dasharray: 3 4; }
+.a-truth { fill: var(--truth); }
+.a-tag { fill: var(--accent-text); font-size: 12px; font-weight: 700; font-family: inherit; }
+.a-faint { opacity: 0.55; }
+.a-dot { fill: var(--accent); }
+.a-big { fill: var(--accent-text); font-size: 30px; font-weight: 700; letter-spacing: -0.02em; font-family: inherit; }
+
+/* ---------- Play ---------- */
+.g-progress { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 8px; }
+.g-dots { list-style: none; margin: 0; padding: 0; display: flex; gap: 6px; }
+.g-dots li { width: 38px; height: 8px; border-radius: 99px; background: var(--hair); border: 1px solid var(--border); }
+.g-dots li.done { background: var(--tier); border-color: var(--tier); }
+.g-dots li.current { background: var(--accent-soft); border-color: var(--accent); }
+.g-scorechip { white-space: nowrap; padding: 5px 14px; border: 1px solid var(--border); border-radius: 99px; background: var(--card); font-size: 13px; color: var(--text-dim); }
+.g-scorechip b { margin-left: 4px; font-size: 15px; color: var(--accent-text); }
+
+.g-word { text-align: center; margin-bottom: 16px; }
+.g-word .eyebrow b { color: var(--text); font-weight: 700; }
+.g-word h2 { margin: 4px 0 6px; font-size: 50px; line-height: 1.1; font-weight: 600; letter-spacing: -0.02em; color: var(--accent-text); overflow-wrap: anywhere; text-transform: capitalize; }
+.g-meaning { display: inline-block; max-width: 640px; margin: 0; padding: 4px 16px; border: 1px solid var(--hair); border-radius: 99px; background: var(--card); font-size: 15px; font-style: italic; color: var(--text-dim); }
+
+.g-controls { display: flex; align-items: center; min-height: 120px; margin-bottom: 14px; }
+.g-controls > * { width: 100%; margin: 0; }
+.g-pinbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.g-slots { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-width: 0; }
+.g-slot { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border-radius: 50%; border: 0; background: color-mix(in srgb, var(--text) 10%, var(--card)); color: var(--text-dim); font: inherit; font-size: 15px; font-weight: 700; }
+.g-slot.next { background: var(--accent-soft); color: var(--accent-text); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); animation: g-pulse 1.6s ease-in-out infinite; }
+.g-slot.filled { background: var(--accent); color: var(--on-accent); cursor: pointer; }
+.g-slot.filled:hover { background: var(--accent-hover); }
+.g-slot:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@keyframes g-pulse { 0%, 100% { box-shadow: 0 0 0 0 var(--accent-soft); } 50% { box-shadow: 0 0 0 6px var(--accent-soft); } }
+@media (prefers-reduced-motion: reduce) { .g-slot.next { animation: none; } }
+.g-arrow { flex: none; display: inline-flex; color: var(--text-dim); opacity: 0.7; }
+.g-arrow svg { width: 22px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.g-arrow.on { color: var(--accent); opacity: 1; }
+.g-end { flex: none; display: inline-flex; flex-direction: column; justify-content: center; height: 44px; padding: 0 16px; border-radius: 22px; line-height: 1.15; background: color-mix(in srgb, var(--text) 7%, var(--card)); }
+.g-end small { font-size: 10px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent-text); }
+.g-end b { font-size: 15px; font-weight: 650; color: var(--text); text-transform: capitalize; }
+.g-count { margin: 0; font-size: 13.5px; color: var(--text-dim); }
+.g-count b { font-weight: 650; color: var(--accent-text); }
+.g-pinbtns { display: flex; gap: 10px; }
+.g-pinbtns .btn:disabled { opacity: 0.45; }
+.g-pinbtns .btn-outline { border-color: transparent; background: color-mix(in srgb, var(--text) 9%, var(--card)); }
+
+.g-mapbox { border: 1px solid var(--border); border-radius: 12px; background: var(--mapbg); overflow: hidden; }
+.g-maptop { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; min-height: 52px; padding: 8px 12px; border-bottom: 1px solid var(--hair); background: var(--card); }
+.g-zoom { justify-self: end; }
+.g-country { min-height: 22px; font-size: 16px; font-weight: 700; letter-spacing: 0.01em; text-align: center; color: var(--accent-text); }
+.g-zoom { display: flex; gap: 8px; }
+.g-canvas { position: relative; cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none; }
+.g-canvas.dragging { cursor: grabbing; }
+.g-canvas svg { display: block; width: 100%; height: auto; }
+.gm-land { fill: var(--land); stroke: var(--land-border); stroke-width: 0.7; vector-effect: non-scaling-stroke; }
+.g-help { display: flex; align-items: center; gap: 8px; padding: 9px 14px; border-top: 1px solid var(--hair); background: var(--card); font-size: 13px; color: var(--text-dim); }
+.g-help-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+
+.g-line-truth { fill: none; stroke: var(--truth); stroke-width: 2.5; stroke-dasharray: 6 4; vector-effect: non-scaling-stroke; opacity: 0.95; }
+.g-line-link { fill: none; stroke: var(--accent); stroke-width: 1.5; vector-effect: non-scaling-stroke; opacity: 0.75; }
+.g-mark circle { stroke: var(--card); stroke-width: 2; }
+.g-mark.pin circle { fill: var(--accent); }
+.g-mark.truth circle { fill: var(--truth); }
+.g-mark text { fill: var(--on-accent); font-size: 11px; font-weight: 700; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+.g-mark.truth text { fill: #fff; }
+.g-mark.pin circle.g-hit { fill: transparent; stroke: none; }
+.g-mark path.g-x { fill: none; stroke: var(--on-accent); stroke-width: 2.6; stroke-linecap: round; opacity: 0; }
+.g-mark.removable { cursor: pointer; }
+.g-mark.selected text.g-num { opacity: 0; }
+.g-mark.selected path.g-x { opacity: 1; }
+.g-mark.selected circle.g-dot { fill: var(--accent-hover); filter: drop-shadow(0 0 4px var(--accent)); }
+@media (hover: hover) and (pointer: fine) {
+  .g-mark.removable:hover text.g-num { opacity: 0; }
+  .g-mark.removable:hover path.g-x { opacity: 1; }
+  .g-mark.removable:hover circle.g-dot { fill: var(--accent-hover); filter: drop-shadow(0 0 4px var(--accent)); }
+}
+
+/* ---------- Score rings (round and final) ---------- */
+.gm-ring { display: block; width: 100%; height: auto; }
+.gm-ring-track { fill: none; stroke: var(--hair); stroke-width: 10; }
+.gm-ring-arc { fill: none; stroke: var(--tier); stroke-width: 10; stroke-linecap: round; transition: stroke-dasharray 0.9s cubic-bezier(.2,.8,.2,1); }
+.gm-ring-big { fill: var(--text); font-weight: 700; letter-spacing: -0.03em; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+.gm-ring-small { fill: var(--text-dim); font-size: 11px; font-weight: 500; text-anchor: middle; dominant-baseline: central; font-family: inherit; }
+@media (prefers-reduced-motion: reduce) { .gm-ring-arc { transition: none; } }
+
+/* ---------- Reveal ---------- */
+.g-summary { display: grid; grid-template-columns: 88px 1fr auto; align-items: center; gap: 20px; padding: 14px 20px; border: 1px solid var(--border); border-top: 4px solid var(--tier, var(--accent)); border-radius: 12px; background: var(--card); }
+.g-summary .g-ringbox { width: 88px; }
+.g-verdict { margin: 0 0 8px; font-size: 24px; font-weight: 650; letter-spacing: -0.01em; }
+.g-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.g-chip2 { padding: 4px 12px; border: 1px solid var(--border); border-radius: 99px; font-size: 13px; font-weight: 600; color: var(--text-dim); background: var(--bg); }
+.g-chip2.good { color: var(--truth); border-color: var(--truth); background: color-mix(in srgb, var(--truth) 12%, transparent); }
+.g-chip2.bad { color: var(--error); border-color: var(--error); background: color-mix(in srgb, var(--error) 10%, transparent); }
+.g-sumbtns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+.g-sumbtns a { text-decoration: none; }
+
+.g-rows { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.g-stop { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px 14px; border: 1px solid var(--border); border-top: 4px solid var(--tier); border-radius: 12px; background: var(--card); }
+.g-stop-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
+.g-badge { display: inline-flex; align-items: center; justify-content: center; align-self: center; width: 24px; height: 24px; border-radius: 50%; background: var(--truth); color: #fff; font-size: 12px; font-weight: 700; }
+.g-stop-head b { font-size: 20px; font-weight: 600; }
+.g-stop .meta { font-size: 13px; font-weight: 600; color: var(--accent-text); }
+.g-stop .note { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--text-dim); }
+.g-meter { height: 8px; margin-top: 4px; border-radius: 99px; background: var(--hair); overflow: hidden; }
+.g-meter span { display: block; height: 100%; border-radius: 99px; background: var(--tier); transition: width 0.9s cubic-bezier(.2,.8,.2,1); }
+.g-stop-foot { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; color: var(--text-dim); }
+.g-stop-foot b { color: var(--text); font-size: 14px; white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) { .g-meter span, .g-bar2 span, .g-gauge-fill { transition: none; } }
+
+/* ---------- End ---------- */
+.g-final { padding: 30px 24px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); text-align: center; }
+.g-final-top { display: flex; align-items: center; justify-content: center; gap: 40px; margin: 10px 0 6px; flex-wrap: wrap; }
+.g-ringbig { width: 190px; }
+.g-final-side { min-width: 260px; max-width: 360px; text-align: left; }
+.g-final-side .g-verdict { font-size: 30px; margin-bottom: 6px; }
+.g-gauge { position: relative; height: 10px; margin: 12px 0 10px; border-radius: 99px; background: var(--hair); }
+.g-gauge-fill { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--accent-soft), var(--accent)); transition: width 0.9s cubic-bezier(.2,.8,.2,1); }
+.g-gauge-knob { position: absolute; top: 50%; width: 20px; height: 20px; margin: -10px 0 0 -10px; border: 3px solid var(--card); border-radius: 50%; background: var(--accent); box-shadow: 0 1px 4px var(--shadow); transition: left 0.9s cubic-bezier(.2,.8,.2,1); }
+.g-pctnote { margin: 0; font-size: 15px; color: var(--text-dim); }
+.g-pctnote b { font-size: 20px; color: var(--accent-text); }
+.g-endbtns { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 22px; }
+.g-endbtns a { text-decoration: none; }
+.g-status { margin: 12px 0 0; font-size: 13.5px; color: var(--text-dim); }
+.g-roundshead { margin: 26px 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); text-align: center; }
+.g-rounds { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.g-rounds li { display: grid; grid-template-columns: minmax(90px, 160px) 1fr 64px; align-items: center; gap: 16px; padding: 12px 18px; border: 1px solid var(--border); border-radius: 10px; background: var(--card); }
+.g-rounds a { font-size: 17px; font-weight: 600; text-decoration: none; color: var(--text); text-transform: capitalize; overflow-wrap: anywhere; }
+.g-rounds a:hover { color: var(--accent-text); }
+.g-bar2 { height: 10px; border-radius: 99px; background: var(--hair); overflow: hidden; }
+.g-bar2 span { display: block; height: 100%; border-radius: 99px; background: var(--tier); transition: width 0.9s cubic-bezier(.2,.8,.2,1); }
+.g-rounds b { text-align: right; font-size: 16px; }
+
+@media (max-width: 900px) {
+  .g-steps-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 720px) {
+  .g-controls { min-height: 196px; }
+  .g-summary { grid-template-columns: 80px 1fr; }
+  .g-summary .g-ringbox { width: 80px; }
+  .g-sumbtns { grid-column: 1 / -1; justify-content: stretch; }
+  .g-sumbtns .btn { flex: 1; }
+}
+@media (max-width: 640px) {
+  .game-main { margin-top: 28px; padding: 0 16px 40px; }
+  .g-hero h1 { font-size: 34px; }
+  .g-lede { font-size: 15px; }
+  .g-modes { grid-template-columns: 1fr; }
+  .g-steps-grid { gap: 10px; }
+  .g-step { padding: 10px 10px 14px; }
+  .g-step h3 { font-size: 14.5px; }
+  .g-step p { font-size: 12.5px; }
+  .g-word h2 { font-size: 38px; }
+  .g-dots li { width: 28px; }
+  .g-pinbar { flex-direction: column; align-items: stretch; }
+  .g-pinbtns .btn { flex: 1; }
+  .g-final-top { gap: 18px; }
+  .g-final-side { text-align: center; min-width: 0; }
+  .g-ringbig { width: 160px; }
+  .g-rounds li { grid-template-columns: 1fr 64px; row-gap: 6px; }
+  .g-rounds .g-bar2 { grid-column: 1 / -1; grid-row: 2; }
+  .g-rows { grid-template-columns: 1fr; }
+}
+
+/* Header on /play: "Etymology Map | The Game". The separator and the name fade in when the page opens. */
+.brand-group { display: flex; align-items: center; gap: 16px; --bs-gap: 16px; }
+.brand-sep { position: relative; top: 1px; width: 1px; height: 28px; background: var(--border); transform-origin: center; animation: g-sep 0.35s ease 0.1s backwards; }
+.brand-sub-clip { position: relative; top: 1.5px; display: block; margin-left: calc(var(--bs-gap) * -1); overflow: hidden; padding: 4px 6px 4px 0; margin-block: -4px; }
+.brand-sub { display: block; margin-left: var(--bs-gap); font-size: 20px; font-weight: 600; letter-spacing: -0.01em; color: var(--accent-text); white-space: nowrap; animation: g-out 0.6s cubic-bezier(0.22, 0.8, 0.25, 1) 0.4s backwards; }
+@keyframes g-sep { from { transform: scaleY(0); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes g-out { from { transform: translateX(calc(-100% - var(--bs-gap) - 8px)); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .brand-sep, .brand-sub { animation: none; } }
+@media (max-width: 640px) {
+  .brand-group { gap: 10px; --bs-gap: 10px; }
+  .brand-sub { font-size: 15px; }
+  .brand-sep { height: 22px; }
+  .header-play[aria-current="page"] { display: none; }
+}
+
+/* Round points, added up: distance + order bonus = round total */
+.g-eq-part { text-align: center; min-width: 110px; }
+.g-eq-part b { display: block; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+.g-eq-part span { font-size: 12.5px; color: var(--text-dim); }
+.g-eq-op { font-size: 24px; font-weight: 500; color: var(--text-dim); }
+.g-eq-total b { color: var(--tier); }
+.g-eq-bonus.off b { color: var(--text-dim); }
+.g-eq-note { flex-basis: 100%; margin: 0; text-align: center; font-size: 13px; color: var(--text-dim); }
+@media (max-width: 640px) { .g-eq { gap: 6px 12px; padding: 12px; } .g-eq-part { min-width: 0; } .g-eq-part b { font-size: 21px; } }
+
+/* ---------- Header: the separator and "The Game" sit on the same line as the name ---------- */
+
+/* ---------- Start cards ---------- */
+.g-mode { align-items: stretch; }
+.g-mode-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 30px; }
+.g-mode .btn { margin-top: 0; align-self: flex-start; }
+.g-mode-body { flex: 1; display: flex; flex-direction: column; justify-content: flex-start; gap: 14px; margin: 4px 0 6px; }
+.g-streakbadge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px 4px 8px; border: 1px solid var(--accent); border-radius: 99px; background: var(--selected); font-size: 13px; font-weight: 650; color: var(--accent-text); white-space: nowrap; }
+.g-flame { display: inline-flex; width: 18px; height: 18px; color: var(--accent); }
+.g-flame svg { width: 100%; height: 100%; fill: currentColor; stroke: currentColor; stroke-width: 1.4; stroke-linejoin: round; }
+.g-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.g-stat { padding: 12px 8px; border: 1px solid var(--hair); border-radius: 10px; background: var(--bg); text-align: center; }
+.g-stat b { display: block; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: var(--accent-text); }
+.g-stat span { font-size: 12px; color: var(--text-dim); }
+.g-dailyres { display: grid; grid-template-columns: 112px 1fr; align-items: center; gap: 18px; }
+.g-dailyres .g-ringbox { width: 112px; }
+.g-minirounds { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.g-minirounds li { display: grid; grid-template-columns: 14px 1fr 38px; align-items: center; gap: 10px; }
+.g-minirounds small { font-size: 12px; color: var(--text-dim); text-align: center; }
+.g-minirounds li > span { display: block; height: 8px; border-radius: 99px; background: var(--hair); overflow: hidden; }
+.g-minirounds li > span > span { display: block; height: 100%; border-radius: 99px; background: var(--tier); }
+.g-minirounds b { font-size: 13px; text-align: right; }
+
+/* The last seven days (today on the right) */
+.g-week { display: flex; justify-content: center; gap: 12px; }
+.g-wd { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.g-wd i { display: block; width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--border); background: transparent; }
+.g-wd.on i { border-color: var(--accent); background: var(--accent); }
+.g-wd.today i { box-shadow: 0 0 0 3px var(--accent-soft); }
+.g-wd small { font-size: 11px; color: var(--text-dim); }
+.g-wd.today small { color: var(--accent-text); font-weight: 700; }
+
+/* Streak on the end screen */
+.g-streakbox { margin: 0 0 12px; padding: 12px 14px; border: 1px solid var(--accent); border-radius: 12px; background: var(--selected); }
+.g-streaktop { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.g-streaktop .g-flame { width: 34px; height: 34px; flex: none; }
+.g-streaktop b { display: block; font-size: 20px; font-weight: 700; color: var(--accent-text); }
+.g-streaktop span { font-size: 13.5px; color: var(--text-dim); }
+
+/* ---------- Tighter game screen so the result, cards and points strip fit on a desktop window ---------- */
+.game-main { max-width: 1000px; margin-top: 18px; padding-bottom: 36px; }
+.g-progress { margin-bottom: 4px; }
+.g-word { margin-bottom: 10px; }
+.g-word h2 { font-size: 42px; margin: 2px 0 4px; }
+.g-meaning { padding: 3px 14px; font-size: 14.5px; }
+.g-summary { grid-template-columns: 76px 1fr auto; padding: 10px 18px; }
+.g-summary .g-ringbox { width: 76px; }
+.g-help { padding: 7px 14px; }
+.g-rows { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; margin-top: 12px; }
+.g-stop { padding: 11px 14px; gap: 5px; }
+.g-stop-head b { font-size: 18px; }
+.g-eq { padding: 10px 16px; }
+.g-eq-part b { font-size: 22px; }
+@media (max-width: 720px) { .g-controls { min-height: 196px; } .g-summary { grid-template-columns: 76px 1fr; } }
+@media (max-width: 640px) {
+  .g-stats { gap: 6px; }
+  .g-stat b { font-size: 18px; }
+  .g-dailyres { grid-template-columns: 78px 1fr; gap: 12px; }
+  .g-dailyres .g-ringbox { width: 78px; }
+  .g-week { gap: 8px; }
+}
+
+/* ---------- Compact top: dots | word | score on one row ---------- */
+.game-main { margin-top: 10px; padding-bottom: 28px; }
+.g-progress { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 14px; margin-bottom: 8px; }
+.g-progress .g-dots { justify-self: start; }
+.g-progress .g-scorechip { justify-self: end; }
+.g-word { margin: 0; text-align: center; }
+.g-word h2 { font-size: 38px; margin: 0 0 3px; }
+.g-word .eyebrow { margin: 0; }
+.g-meaning { padding: 2px 14px; font-size: 14px; }
+.g-controls { min-height: 104px; margin-bottom: 8px; }
+.g-summary { grid-template-columns: 62px 1fr auto; gap: 16px; padding: 8px 16px; }
+.g-summary .g-ringbox { width: 62px; }
+.g-verdict { margin: 0 0 6px; font-size: 21px; }
+.g-chip2 { padding: 2px 11px; font-size: 12.5px; }
+.g-maptop { min-height: 44px; padding: 6px 12px; }
+.g-help { padding: 6px 14px; font-size: 12.5px; }
+.g-rows { margin-top: 10px; gap: 8px; }
+.g-stop { padding: 9px 12px; gap: 4px; }
+.g-stop .note { font-size: 13px; line-height: 1.4; }
+.g-stop-foot { font-size: 12.5px; }
+.g-eq { padding: 7px 16px; gap: 4px 20px; }
+.g-eq-part b { font-size: 20px; }
+.g-eq-part span { font-size: 12px; }
+.g-eq-note { font-size: 12.5px; }
+@media (max-width: 900px) {
+  .g-progress { grid-template-columns: 1fr; justify-items: center; gap: 8px; }
+  .g-progress .g-dots { justify-self: center; }
+  .g-progress .g-scorechip { justify-self: center; }
+}
+@media (max-width: 720px) { .g-controls { min-height: 196px; } .g-summary { grid-template-columns: 62px 1fr; } }
+
+/* Stop cards: one column per stop (up to four) so they share the width; the points strip spans all. */
+.g-rows { grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr)); }
+@media (max-width: 900px) { .g-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .g-rows { grid-template-columns: 1fr; } }
+
+/* ---------- Roomier game screen, bigger map ---------- */
+.game-main { max-width: 1180px; margin-top: 36px; padding-bottom: 48px; }
+.g-progress { margin-bottom: 20px; }
+.g-word h2 { font-size: 46px; margin: 4px 0 8px; }
+.g-meaning { padding: 4px 16px; font-size: 14.5px; }
+.g-controls { min-height: 122px; margin-bottom: 16px; }
+.g-maptop { min-height: 52px; padding: 8px 14px; }
+.g-help { padding: 9px 14px; font-size: 13px; }
+.g-rows { margin-top: 16px; gap: 12px; }
+.g-stop { padding: 14px 16px; gap: 6px; }
+.g-stop .note { font-size: 13.5px; line-height: 1.5; }
+.g-stop-foot { font-size: 13px; }
+
+/* Summary bar: ring | verdict | points added up | buttons */
+.g-summary { grid-template-columns: 76px minmax(0, 1fr) auto auto; gap: 24px; padding: 14px 22px; }
+.g-summary .g-ringbox { width: 76px; }
+.g-verdict { font-size: 22px; margin: 0 0 8px; }
+.g-chip2 { padding: 3px 12px; font-size: 13px; }
+.g-eq { display: flex; align-items: center; gap: 14px; padding: 0 6px; }
+.g-eq-part { min-width: 78px; text-align: center; }
+.g-eq-part b { font-size: 24px; }
+.g-eq-part span { font-size: 11.5px; line-height: 1.25; display: block; }
+@media (max-width: 1100px) { .g-summary { grid-template-columns: 76px minmax(0, 1fr) auto; } .g-sumbtns { grid-column: 1 / -1; justify-content: flex-end; } }
+@media (max-width: 900px) { .g-summary { grid-template-columns: 76px 1fr; } .g-eq { grid-column: 1 / -1; justify-content: center; } }
+@media (max-width: 720px) { .g-controls { min-height: 270px; } }
+
+/* ---------- Ring number, practice tiles that fill their card, coloured week dots and percentile ---------- */
+.gm-ring-big { text-anchor: middle; dominant-baseline: central; }
+.g-mode-body { justify-content: flex-start; }
+.g-stats { flex: 1; align-items: stretch; }
+.g-stat { display: flex; flex-direction: column; justify-content: center; padding: 14px 8px; }
+.g-stat b { font-size: 28px; }
+.g-stat span { font-size: 12.5px; }
+.g-wd.on i { border-color: var(--tier, var(--accent)); background: var(--tier, var(--accent)); }
+.g-wd.today.on i { box-shadow: 0 0 0 3px color-mix(in srgb, var(--tier, var(--accent)) 25%, transparent); }
+.g-pctchip { align-self: center; padding: 5px 14px; border: 1px solid var(--tier); border-radius: 99px; font-size: 13px; color: var(--text-dim); background: color-mix(in srgb, var(--tier) 12%, transparent); }
+.g-pctchip b { color: var(--tier); font-size: 15px; }
+.g-pctbox .g-gauge-fill { background: linear-gradient(90deg, color-mix(in srgb, var(--tier) 35%, transparent), var(--tier)); }
+.g-pctbox .g-gauge-knob { background: var(--tier); }
+.g-pctbox .g-pctnote b { color: var(--tier); }
+
+/* ---------- Alignment pass ---------- */
+/* stat tiles: every number sits in the same fixed-height row, every label on the same line */
+.g-stat b { display: flex; align-items: center; justify-content: center; height: 34px; line-height: 1; }
+.g-stat b.sym { font-size: 40px; }
+.g-stat span { display: block; margin-top: 6px; line-height: 1.3; }
+
+/* points sum: the + and = line up with the numbers, not with the middle of number + label */
+.g-eq { align-items: flex-start; }
+.g-eq-part b { height: 30px; line-height: 30px; }
+.g-eq-op { align-self: flex-start; height: 30px; line-height: 30px; font-size: 22px; }
+
+/* coloured top bar of the summary and the stop cards: a clipped bar instead of a curved border */
+.g-summary { position: relative; overflow: hidden; border-top: 1px solid var(--border); padding-top: 18px; }
+.g-summary::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--tier, var(--accent)); }
+.g-stop { position: relative; overflow: hidden; border-top: 1px solid var(--border); padding-top: 18px; }
+.g-stop::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: var(--tier); }
+
+/* dots and score line up with the word itself (the big title), not with the whole block */
+@media (min-width: 901px) {
+  .g-progress { align-items: start; }
+  .g-progress .g-dots { margin-top: 41px; }
+  .g-progress .g-scorechip { margin-top: 31px; }
+}
+
+/* ---------- Full story panel, over the map ---------- */
+.g-mapbox { position: relative; }
+.g-story { position: absolute; z-index: 6; inset: 64px 14px 14px; display: flex; flex-direction: column; overflow: auto; border: 1px solid var(--border); border-radius: 14px; background: var(--card); box-shadow: 0 18px 50px var(--shadow); animation: g-story-in 0.18s ease; }
+.g-story[hidden] { display: none; }
+@keyframes g-story-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.g-story-x { position: absolute; top: 14px; right: 14px; font-size: 18px; z-index: 1; }
+.g-story-in { margin: auto 0; padding: 44px clamp(22px, 4vw, 44px) 30px; }
+.gs-main .eyebrow { margin: 0 0 4px; }
+.gs-title { margin: 0 0 16px; font-size: 30px; line-height: 1.15; font-weight: 650; letter-spacing: -0.01em; color: var(--accent-text); text-transform: capitalize; }
+.gs-body { display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 40px; align-items: center; }
+.gs-text { margin: 0 0 18px; font-size: 16.5px; line-height: 1.75; color: var(--text); }
+.gs-text em { color: var(--accent-text); }
+.gs-more { font-size: 13.5px; color: var(--accent-text); text-decoration: none; }
+.gs-more:hover { text-decoration: underline; }
+.gs-note { margin: 0 0 10px; color: var(--text-dim); }
+.gs-glance { padding: 16px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg); }
+.gs-glance h4 { margin: 0 0 6px; font-size: 16px; font-weight: 650; }
+.gs-row { padding: 10px 0; border-top: 1px solid var(--hair); }
+.gs-row:first-of-type { margin-top: 6px; }
+.gs-k { display: block; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+.gs-v { display: block; margin-top: 2px; font-weight: 600; }
+.gs-v .glance-arrow { color: var(--accent-text); }
+#g-storylink[aria-expanded="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-text); }
+@media (max-width: 900px) { .gs-body { grid-template-columns: 1fr; gap: 20px; } }
+@media (max-width: 720px) {
+  .g-story { position: fixed; z-index: 60; inset: auto 0 0 0; max-height: 80vh; border-radius: 18px 18px 0 0; border-width: 1px 0 0; }
+  .g-story-in { margin: 0; padding: 24px 20px 28px; }
+  .gs-title { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) { .g-story { animation: none; } }
+
+/* ---------- Phones: word, map (pin slots in its top bar), then controls and results ---------- */
+@media (max-width: 720px) {
+  .game-main { margin-top: 14px; padding-bottom: 28px; }
+  #screen-play:not([hidden]) { display: flex; flex-direction: column; }
+  .g-progress { order: 0; display: grid; grid-template-columns: 1fr auto auto 1fr; align-items: center; justify-items: center; column-gap: 12px; row-gap: 0; margin-bottom: 12px; }
+  .g-progress .g-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; margin: 0 0 18px; }
+  .g-word { display: contents; }
+  .g-word .eyebrow { grid-column: 2; grid-row: 2; margin: 0; }
+  .g-progress .g-scorechip { grid-column: 3; grid-row: 2; justify-self: center; margin: 0; padding: 3px 12px; }
+  .g-word h2 { grid-column: 1 / -1; grid-row: 3; margin: 6px 0 8px; font-size: 38px; text-align: center; }
+  .g-meaning { grid-column: 1 / -1; grid-row: 4; justify-self: center; text-align: center; }
+  .g-mapbox { order: 1; }
+  .g-controls { order: 2; min-height: 0; margin: 12px 0 0; }
+  .g-rows { order: 3; }
+  .g-pinbar { gap: 10px; }
+  .g-slotwrap { text-align: center; }
+  .g-count { margin: 0; }
+  .g-maptop { grid-template-columns: minmax(0, 1fr) auto; min-height: 48px; padding: 6px 10px; gap: 8px; }
+  .g-maptop .g-country { display: none; }
+  .g-maptop-l { display: block; min-width: 0; }
+  .g-maptop .g-slots { flex-wrap: nowrap; gap: 6px; }
+  .g-maptop .g-slot { width: auto; height: auto; flex: 0 1 32px; aspect-ratio: 1; min-width: 24px; font-size: 13px; border-width: 2px; }
+  .g-zoom { gap: 6px; }
+  .g-zoom .icon-btn.small { width: 34px; height: 34px; }
+}
+
+.g-slots[hidden] { display: none; }
+
+.g-wd.future i { border-style: dashed; opacity: 0.6; }
+
+/* ---------- Phones: results more compact ---------- */
+@media (max-width: 720px) {
+  .g-summary { grid-template-columns: 56px minmax(0, 1fr); gap: 8px 14px; padding: 16px 14px 12px; }
+  .g-summary .g-ringbox { width: 56px; }
+  .g-verdict { margin: 0 0 6px; font-size: 18px; }
+  .g-chips { gap: 6px; }
+  .g-chip2 { padding: 2px 9px; font-size: 12px; }
+  .g-eq { gap: 4px 6px; padding: 0; }
+  .g-eq-part { flex: 1; min-width: 0; }
+  .g-eq-part b { font-size: 18px; }
+  .g-eq-part span { font-size: 11px; line-height: 1.2; }
+  .g-eq-op { font-size: 18px; }
+  .g-sumbtns { gap: 8px; }
+  .g-sumbtns .btn { height: 40px; font-size: 14px; }
+  .g-rows { gap: 8px; margin-top: 10px; }
+  .g-stop { padding: 14px 12px 10px; gap: 4px; }
+  .g-stop .note { font-size: 13px; line-height: 1.4; }
+}
+
+
+/* ---------- Alignment pass ---------- */
+/* 5: phones, end screen buttons: one full-width button, then two side by side */
+@media (max-width: 640px) {
+  .g-endbtns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .g-endbtns > :first-child { grid-column: 1 / -1; }
+  .g-endbtns .btn { width: 100%; }
+}
+/* 7: tablets (721-900px): the phone arrangement, so the map stays put on Reveal and the results line up */
+@media (min-width: 721px) and (max-width: 900px) {
+  #screen-play:not([hidden]) { display: flex; flex-direction: column; }
+  .g-progress { order: 0; grid-template-columns: 1fr auto auto 1fr; align-items: center; justify-items: center; column-gap: 12px; row-gap: 0; margin-bottom: 12px; }
+  .g-progress .g-dots { grid-column: 1 / -1; grid-row: 1; justify-self: center; margin: 0 0 18px; }
+  .g-word { display: contents; }
+  .g-word .eyebrow { grid-column: 2; grid-row: 2; margin: 0; }
+  .g-progress .g-scorechip { grid-column: 3; grid-row: 2; justify-self: center; margin: 0; padding: 3px 12px; }
+  .g-word h2 { grid-column: 1 / -1; grid-row: 3; margin: 6px 0 8px; text-align: center; }
+  .g-meaning { grid-column: 1 / -1; grid-row: 4; justify-self: center; text-align: center; }
+  .g-mapbox { order: 1; }
+  .g-controls { order: 2; min-height: 0; margin: 12px 0 0; }
+  .g-rows { order: 3; }
+  .g-summary { grid-template-columns: 76px minmax(0, 1fr); }
+  .g-eq { grid-column: 2; justify-content: flex-start; padding: 0; }
+  .g-sumbtns { grid-column: 2; justify-content: flex-start; }
+}
+
+/* ---------- Route strip layout ---------- */
+@media (min-width: 721px) {
+  .g-pinbar { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px 16px; }
+  .g-slotwrap { display: contents; }
+  .g-slots { grid-column: 1; grid-row: 1; }
+  .g-pinbtns { grid-column: 2; grid-row: 1; }
+  .g-count { grid-column: 1 / -1; grid-row: 2; }
+}
+@media (max-width: 720px) {
+  .g-maptop .g-slots { gap: 3px; }
+  .g-maptop .g-slot { border-width: 0; }
+  .g-maptop .g-arrow svg { width: 14px; height: 10px; }
+  .g-maptop .g-end { height: 30px; padding: 0 10px; border-radius: 15px; min-width: 0; }
+  .g-maptop .g-end small { display: none; }
+  .g-maptop .g-end b { font-size: 13px; max-width: 86px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .g-maptop .g-slots.many .g-arrow { display: none; }
+}
+/* the caption sits a little lower under the numbers (moved, not re-laid-out, so nothing else shifts) */
+@media (min-width: 721px) { .g-count { position: relative; top: 5px; } }

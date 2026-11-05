@@ -57,7 +57,7 @@ def build_origin_sentence(word, stops):
     first_html = f'{esc(first["lang"])} <em>{esc(first["word"])}</em>'
 
     if len(stops) == 2:
-        middle_html = "adopted directly into English"
+        middle_html = "and was adopted directly into English"
     else:
         langs = []
         for s in stops[1:-1]:
@@ -194,6 +194,7 @@ def render_word_page(word, entry, word_index):
     canonical = f"{SITE_URL}/words/{slug}"
 
     html = (ROOT / "index.html").read_text(encoding="utf-8")
+    html = re.sub(r"\?v=[0-9a-f]{8}", "", html)  # asset version numbers are added again at the end (stamp_assets)
 
     # --- head metadata
     html = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", html, count=1, flags=re.S)
@@ -204,6 +205,57 @@ def render_word_page(word, entry, word_index):
     html = re.sub(r'<meta property="og:description" content="[^"]*" />', f'<meta property="og:description" content="{esc(description)}" />', html, count=1)
     html = re.sub(r'<meta name="twitter:title" content="[^"]*" />', f'<meta name="twitter:title" content="{esc(title)}" />', html, count=1)
     html = re.sub(r'<meta name="twitter:description" content="[^"]*" />', f'<meta name="twitter:description" content="{esc(description)}" />', html, count=1)
+
+    # --- structured data: the home page's WebSite block is swapped for this word's
+    # DefinedTerm + breadcrumb (Home > word), so Google can show the breadcrumb trail.
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": f"{canonical}#webpage",
+                "url": canonical,
+                "name": title,
+                "description": description,
+                "inLanguage": "en",
+                "about": {"@id": f"{canonical}#term"},
+                "breadcrumb": {"@id": f"{canonical}#breadcrumb"},
+            },
+            {
+                "@type": "DefinedTerm",
+                "@id": f"{canonical}#term",
+                "name": word,
+                "description": entry["current_meaning"],
+                "url": canonical,
+                "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "name": "Etymology Map word origins",
+                    "url": f"{SITE_URL}/",
+                },
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{canonical}#breadcrumb",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Etymology Map", "item": f"{SITE_URL}/"},
+                    {"@type": "ListItem", "position": 2, "name": display_word, "item": canonical},
+                ],
+            },
+        ],
+    }
+    ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+    html, n_ld = re.subn(
+        r'<script type="application/ld\+json" id="ld-json">.*?</script>',
+        lambda _m: f'<script type="application/ld+json" id="ld-json">{ld_json}</script>',
+        html,
+        count=1,
+        flags=re.S,
+    )
+    assert n_ld == 1, "index.html is missing the ld-json block"
+
+    # the home page's descriptive footer text is not repeated on every word page
+    html, n_fa = re.subn(r'\s*<p class="footer-about">.*?</p>', "", html, count=1, flags=re.S)
+    assert n_fa == 1, "index.html is missing the footer-about paragraph"
 
     html = _absolutize(html)
 
@@ -245,25 +297,60 @@ def render_word_page(word, entry, word_index):
         1,
     )
 
-    # --- crawlable text (visually hidden once the interactive page is up)
+    # --- the story, written into the page itself (not a hidden copy)
+    # The origin sentence, "Read the full story" panel and related words are in the
+    # raw HTML, in the same elements the scripts fill in, so crawlers and visitors
+    # see exactly the same text and nothing jumps when the scripts arrive.
+    def swap(old, new):
+        nonlocal html
+        assert html.count(old) == 1, f"template marker missing: {old[:60]}"
+        html = html.replace(old, new, 1)
+
     stage_items = "".join(
-        f"<li><strong>{esc(s['word'])}</strong> ({esc(s['lang'])}, {esc(s['era'])}): &quot;{esc(s['meaning'])}&quot;. {esc(s['note'])}</li>"
-        for s in stops
+        f'<li><span class="ss-label">Stage {i + 1} &middot; {esc(s["lang"])} &middot; {esc(s["era"])}</span>\n'
+        f'        <span class="ss-word">{esc(s["word"])}</span>\n'
+        f'        <span class="ss-text"><em>"{esc(s["meaning"])}"</em>, {esc(s["note"])}.</span></li>'
+        for i, s in enumerate(stops)
+    )
+    glance_row = lambda k, v: f'<div class="glance-row"><span class="glance-k">{k}</span><span class="glance-v">{v}</span></div>'
+    glance = (
+        "<h3>At a glance</h3>"
+        + glance_row("Origin", esc(stops[0]["lang"]))
+        + glance_row("Earliest form", esc(stops[0]["word"]))
+        + glance_row("Route", ' <span class="glance-arrow">&rarr;</span> '.join(esc(s["lang"]) for s in stops))
+        + glance_row("Entered English", esc(stops[-1]["era"]))
     )
     candidates = sorted(k for k, v in word_index.items() if k != word and v == origin_lang)[:8]
-    related = "".join(f'<a href="/words/{slugify(w)}">{esc(w)}</a> ' for w in candidates)
-    seo = f"""<div class="seo-static" id="seo-static">
-    <p>{build_origin_sentence(word, stops)}</p>
-    <ol>{stage_items}</ol>
-    <p>{build_narrative(word, stops, entry["current_meaning"])}</p>
-    {f'<p>More words from {esc(origin_lang)}: {related}</p>' if candidates else ''}
-  </div>
-  """
+    related = "".join(f'<a class="related-word-item" href="/words/{slugify(w)}">{esc(w)}</a>' for w in candidates)
+
+    swap('<div id="result-area" class="result-area" hidden>', '<div id="result-area" class="result-area">')
+    swap(
+        '<p id="origin-sentence" class="origin-sentence" hidden></p>',
+        f'<p id="origin-sentence" class="origin-sentence">{build_origin_sentence(word, stops)}</p>',
+    )
+    swap('<details id="full-story" class="full-story" hidden>', '<details id="full-story" class="full-story">')
+    swap(
+        '<p id="story-question" class="story-question"></p>',
+        f'<p id="story-question" class="story-question">{build_origin_sentence(word, stops)}</p>',
+    )
+    swap('<p id="full-story-text"></p>', f'<p id="full-story-text">{build_narrative(word, stops, entry["current_meaning"])}</p>')
+    swap('<ol id="story-stages" class="story-stages"></ol>', f'<ol id="story-stages" class="story-stages">{stage_items}</ol>')
+    swap(
+        '<aside id="story-glance" class="story-glance" aria-label="At a glance"></aside>',
+        f'<aside id="story-glance" class="story-glance" aria-label="At a glance">{glance}</aside>',
+    )
+    if candidates:
+        swap('<section id="related-words" class="related-words" hidden>', '<section id="related-words" class="related-words">')
+        swap('<span id="related-words-lang"></span>', f'<span id="related-words-lang">{esc(origin_lang)}</span>')
+        swap(
+            '<div id="related-words-grid" class="related-words-grid"></div>',
+            f'<div id="related-words-grid" class="related-words-grid">{related}</div>',
+        )
+
     word_json = json.dumps({"word": word, **entry}, ensure_ascii=False).replace("</", "<\\/")
-    html = html.replace(
+    swap(
         '<script src="/track.js"></script>',
-        f'{seo}<script type="application/json" id="word-data">{word_json}</script>\n  <script src="/track.js"></script>',
-        1,
+        f'<script type="application/json" id="word-data">{word_json}</script>\n  <script src="/track.js"></script>',
     )
     return html
 
@@ -301,6 +388,10 @@ def generate_all(word_index=None, quiet=False):
 
     if not quiet:
         print(f"Generated {len(written)} word page(s) under words/" + (f", removed {len(stale)} stale" if stale else ""))
+
+    # Pages were just rewritten from the template: stamp the script/style links with the asset version.
+    import stamp_assets
+    stamp_assets.stamp(quiet=quiet)
 
 
 if __name__ == "__main__":

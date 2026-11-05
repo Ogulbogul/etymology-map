@@ -21,7 +21,7 @@ discover every word page without any separate manual step.
 import json
 import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import build_pages
@@ -29,22 +29,24 @@ import build_pages
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "words"
 INDEX_PATH = ROOT / "data" / "words-index.json"
+GAME_POOL_PATH = ROOT / "data" / "game-pool.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 SITE_URL = "https://etymologymap.com"
 REQUIRED_STOP_FIELDS = ("word", "lang", "era", "note", "meaning", "lat", "lon")
 
 
 def _git_last_modified_dates():
-    """Maps each tracked page path to the date of its most recent commit.
-    Pages that were regenerated but came out byte-identical never show up
-    in a commit diff, so their git history — and thus this date — only
-    moves when the page's actual content changes, not on every rebuild."""
+    """Maps each tracked path to the date of its most recent commit.
+    A word's date comes from its own data file (data/words/<word>.json), not
+    from its generated page: the pages are rewritten whenever a script or
+    style changes (version numbers), which says nothing about the word, so
+    the date only moves when the word's content actually changes."""
     try:
         out = subprocess.run(
             [
-                "git", "log", "--format=%x01%ad", "--date=short",
+                "git", "-c", "core.quotepath=off", "log", "--format=%x01%ad", "--date=short",
                 "--name-only", "--",
-                "words", "index.html", "about.html", "privacy.html",
+                "data/words", "index.html", "about.html", "privacy.html", "play.html",
             ],
             cwd=ROOT, capture_output=True, text=True, check=True,
         ).stdout
@@ -70,7 +72,7 @@ def write_sitemap(words):
     otherwise starves crawl priority on a site this size."""
     dates = _git_last_modified_dates()
     today = date.today().isoformat()
-    static_files = {"": "index.html", "about": "about.html", "privacy": "privacy.html"}
+    static_files = {"": "index.html", "about": "about.html", "privacy": "privacy.html", "play": "play.html"}
 
     def entry(loc, git_path):
         lastmod = dates.get(git_path, today)
@@ -81,8 +83,8 @@ def write_sitemap(words):
         for page, git_path in static_files.items()
     ]
     entries += [
-        entry(f"{SITE_URL}/words/{slug}", f"words/{slug}.html")
-        for slug in (build_pages.slugify(word) for word in words)
+        entry(f"{SITE_URL}/words/{build_pages.slugify(word)}", f"data/words/{word}.json")
+        for word in words
     ]
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -91,6 +93,66 @@ def write_sitemap(words):
         "</urlset>\n"
     )
     SITEMAP_PATH.write_text(xml, encoding="utf-8")
+
+
+def _km(a, b):
+    """Great-circle distance in km between two stops."""
+    import math
+    p1, p2 = math.radians(a["lat"]), math.radians(b["lat"])
+    dl = math.radians(b["lon"] - a["lon"])
+    h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 12742 * math.asin(min(1, math.sqrt(h)))
+
+
+# Words that never appear in the /play game (daily or practice): slurs, and words about violence
+# or slavery that do not belong in a casual daily game. Add a word here and run add_word.py.
+# Note: removing a word that was already a daily pick can change that day's five.
+GAME_EXCLUDE = {
+    "cannibal", "coolie", "harem", "idiot", "lynch", "massacre", "savage", "slave", "torture",
+}
+
+
+def write_game_pool():
+    """Words that make a good round of the /play game: at least two stops
+    before English, and at least two of them 800+ km apart (so there is a
+    real journey to guess), minus GAME_EXCLUDE.
+
+    Written as {"words": [...], "since": {word: "YYYY-MM-DD"}}. `since` is the (UTC) day a word
+    first entered the pool, kept from one run to the next, so the daily game can ignore a word
+    for its first days and a new word can never change a set that is already being played.
+    Words that were there from the start have no entry."""
+    previous = {"words": [], "since": {}}
+    if GAME_POOL_PATH.exists():
+        old = json.loads(GAME_POOL_PATH.read_text(encoding="utf-8"))
+        if isinstance(old, list):  # first format: a plain list
+            previous = {"words": old, "since": {}}
+        else:
+            previous = {"words": old.get("words", []), "since": old.get("since", {})}
+    known = set(previous["words"])
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    words = []
+    for word_path in sorted(DATA_DIR.glob("*.json")):
+        if word_path.stem in GAME_EXCLUDE:
+            continue
+        entry = json.loads(word_path.read_text(encoding="utf-8-sig"))
+        stops = entry["stops"]
+        if str(stops[-1].get("lang", "")).startswith("English"):
+            stops = stops[:-1]
+        if len(stops) < 2:
+            continue
+        if max(_km(a, b) for i, a in enumerate(stops) for b in stops[i + 1:]) >= 800:
+            words.append(word_path.stem)
+
+    since = {}
+    for w in words:
+        if w in previous["since"]:
+            since[w] = previous["since"][w]
+        elif known and w not in known:
+            since[w] = today
+    out = {"words": words, "since": since}
+    GAME_POOL_PATH.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return len(words)
 
 
 def validate_entry(word, entry):
@@ -157,6 +219,7 @@ def main():
         encoding="utf-8",
     )
     write_sitemap(sorted_index)
+    write_game_pool()
     build_pages.generate_all(sorted_index)
 
     print(f"Saved {len(new_entries)} word(s). Collection now has {len(sorted_index)} total.")

@@ -344,10 +344,17 @@ a { color: inherit; }
   background: var(--accent-soft); color: var(--accent-text);
 }
 .message .msg-title { display: block; margin-bottom: 6px; font-size: 20px; font-weight: 600; color: var(--text); }
-.message-suggestions { display: block; margin-top: 12px; }
-.message-actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 14px; }
+/* "Did you mean": the label on its own line, the suggestions and the two actions in one two-column grid, so
+   every button has the same width and height and the left and right edges line up. */
+.message-suggestions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 440px; margin: 14px auto 0; }
+.message-suggestions .suggest-label { grid-column: 1 / -1; font-size: 13px; color: var(--text-dim); }
+.suggestion-link:last-child:nth-child(even) { grid-column: 1 / -1; }
+.message-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 440px; margin: 18px auto 0; padding-top: 18px; border-top: 1px solid var(--hair); }
+.message-actions .btn { width: 100%; min-width: 0; }
+.message-actions .btn:only-child { grid-column: 1 / -1; }
+@media (max-width: 640px) { .message-actions { grid-template-columns: 1fr; } }
 .suggestion-link {
-  display: inline-flex; align-items: center; height: 44px; padding: 0 16px; margin: 0 4px;
+  display: inline-flex; align-items: center; justify-content: center; height: 44px; padding: 0 12px; margin: 0; min-width: 0;
   border: 1px solid var(--accent); border-radius: 8px; background: var(--card);
   color: var(--accent-text); font: inherit; font-weight: 600; cursor: pointer;
 }
@@ -368,6 +375,7 @@ a { color: inherit; }
   box-shadow: 0 14px 40px var(--shadow);
   text-align: left;
 }
+@media (min-width: 641px) { .wordlist-panel { width: 100%; } }
 .sheet-handle, .sheet-title { display: none; }
 .wordlist-filter {
   display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
@@ -641,6 +649,12 @@ html[data-view="globe"] #app[data-state="result"] .wod-card { display: none; }
 .stop-sub { grid-column: 1 / -1; }
 .stop-meaning { display: block; font-size: 13px; font-style: italic; margin-bottom: 4px; }
 .stop-note { display: block; font-size: 13px; line-height: 1.45; color: var(--text-dim); }
+a.stop-row { color: inherit; text-decoration: none; }
+a.route-chip, a.tray-item { text-decoration: none; color: inherit; }
+a.route-chip { display: inline-flex; align-items: center; justify-content: center; }
+.stage-notice { margin: 10px auto 0; max-width: 560px; font-size: 14px; line-height: 1.5; color: var(--text-dim); text-align: center; pointer-events: auto; }
+.stage-notice a { color: var(--accent-text); font-weight: 600; text-decoration: none; }
+.stage-notice a:hover { text-decoration: underline; }
 .stop-row:hover, .stop-row.active { border-color: var(--accent); }
 .stop-row.selected { border-color: var(--accent); background: var(--selected); }
 
@@ -714,16 +728,24 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
 #share-preview { display: block; width: 100%; height: auto; }
 .modal-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .modal-status { margin: 12px 0 0; font-size: 13px; color: var(--text-dim); }
+.modal-status:empty { display: none; }
+@media (max-width: 640px) {
+  #share-modal .modal-actions { display: grid; grid-template-columns: 1fr 1fr; }
+  #share-modal .modal-actions .btn:first-child { grid-column: 1 / -1; }
+}
 
 /* ---------- Footer ---------- */
 
 .site-footer {
   position: relative; z-index: 3;
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
-  min-height: 64px; padding: 0 60px;
+  min-height: 65px; padding: 0 60px;
   border-top: 1px solid var(--hair);
-  font-size: 13px; color: var(--text-dim);
+  font-size: 13px; line-height: 20px; color: var(--text-dim);
 }
+.site-footer { flex-wrap: wrap; }
+.footer-about { flex: 1 1 320px; margin: 0; padding: 0; font-size: 13px; line-height: 20px; }
+#app[data-state="result"] .footer-about { display: none; }
 .footer-links { display: flex; gap: 22px; }
 .site-footer a { color: var(--text-dim); text-decoration: none; }
 .site-footer a:hover { color: var(--accent-text); }
@@ -759,7 +781,7 @@ html[data-view="globe"] .globe-actions { display: flex; flex-wrap: wrap; }
   .brand-mark { width: 30px; height: 30px; border-radius: 8px; }
   .brand-name { font-size: 18px; }
   .header-link { display: none; }
-  #theme-toggle-btn { width: 44px; height: 44px; }
+  #theme-toggle-btn { width: 36px; height: 36px; }
   .hero { padding: 6px 16px 0; }
   .hero-title { font-size: 26px; }
   #app[data-state="result"] .hero-title { display: none; }
@@ -1114,7 +1136,7 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 
   /* the map home: map on top, the suggestion card underneath */
   #app[data-state="landing"] .map-stage { height: auto; display: flex; flex-direction: column; }
-  #app[data-state="landing"] #map { height: 230px; flex: none; }
+  #app[data-state="landing"] #map { height: var(--viz); flex: none; }
   #app[data-state="landing"] .map-stage .wod-card {
     position: static; width: auto !important; margin: 12px; left: auto; top: auto;
   }
@@ -1195,9 +1217,9 @@ html[data-view="globe"] .globe-stage .globe-tools { flex-wrap: wrap; }
 /* Desktop: globe controls sit exactly where the map card's controls are */
 @media (min-width: 961px) {
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-tools {
-    top: 76px; right: calc(50% - 515px);
+    top: 76px; right: max(16px, calc(50% - 538px));
   }
-  html[data-view="globe"] #app[data-state="result"] .globe-actions { top: 76px; left: calc(50% - 515px); }
+  html[data-view="globe"] #app[data-state="result"] .globe-actions { top: 76px; left: max(16px, calc(50% - 538px)); }
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-host { position: relative; top: 10px; }
   html[data-view="globe"] #app[data-state="result"] .related-words,
   html[data-view="globe"] #app[data-state="result"] #result-area { position: relative; z-index: 10; }
@@ -1256,7 +1278,7 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
   /* Map: no card, the map fades out at its limits */
   .map-card { border: 0; background: transparent; border-radius: 0; overflow: visible; height: 520px; position: relative; }
   .card-head {
-    position: absolute; top: 11px; left: calc(50% - 515px); right: calc(50% - 515px); z-index: 8;
+    position: absolute; top: 11px; left: max(16px, calc(50% - 538px)); right: max(16px, calc(50% - 538px)); z-index: 8;
     min-height: 0; padding: 0; border: 0; background: transparent; justify-content: space-between; gap: 12px;
   }
   #app[data-state="landing"] .card-head { justify-content: flex-end; }
@@ -1291,7 +1313,7 @@ html.view-leaving-globe #globe-stage .globe-host { animation: globe-out 0.42s cu
 @media (min-width: 961px) {
   #app[data-state="landing"] .wod-card,
   html[data-view="globe"] #app[data-state="landing"] .wod-card {
-    position: absolute; left: max(24px, calc(50% - 600px)); top: 76px; z-index: 9;
+    position: absolute; left: max(16px, calc(50% - 538px)); top: 76px; z-index: 9;
   }
 }
 /* Map drag: never select text or light up pins */
@@ -1521,9 +1543,9 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   .globe-stage .globe-zoom { display: none; }
   html[data-view="globe"] #app:is([data-state="landing"], [data-state="result"]) .globe-stage .globe-zoom {
     display: inline-flex; position: absolute; z-index: 8; margin: 0; gap: 8px;
-    left: calc(50% - 515px); top: calc(var(--pad) + 11px);
+    left: max(16px, calc(50% - 538px)); top: calc(var(--pad) + 11px);
   }
-  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(50% - 515px + 157px); }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(max(16px, calc(50% - 538px)) + 157px); }
   .globe-zoom .icon-btn { height: 36px; width: 36px; background: var(--card); }
 }
 
@@ -1545,7 +1567,7 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
   }
   #app[data-state="result"] #map-card .zoom-controls { left: 156px; }
   #map-card .zoom-controls .icon-btn.small, .globe-zoom .icon-btn { width: 36px; height: 36px; background: var(--card); }
-  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(50% - 515px + 156px); }
+  html[data-view="globe"] #app[data-state="result"] .globe-stage .globe-zoom { left: calc(max(16px, calc(50% - 538px)) + 156px); }
   .globe-zoom { gap: 8px; }
 }
 .head-actions, .globe-actions { gap: 8px !important; }
@@ -1562,9 +1584,51 @@ html.view-leaving-map #map, html.view-to-map #map { will-change: opacity; }
 [data-page="word"] .hero { padding-top: 24px; }
 [data-page="word"] #result-hero { display: block; }
 @media (max-width: 960px) { [data-page="word"] .hero { padding-top: 14px; } }
-.seo-static { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+/* The "where does the word come from" sentence opens the full story on desktop, where the line under the
+   map is hidden; on phones and tablets the line under the map is the one shown. */
+.story-question { margin: 0 0 14px; font-size: 16px; line-height: 1.6; color: var(--text); }
+.story-question .origin-question { color: var(--accent-text); font-weight: 600; }
+@media (max-width: 960px) { .story-question { display: none; } }
+[data-page="word"] #panel:empty { min-height: 160px; } /* holds the stage cards' place until they are drawn */
 @media (max-width: 640px) {
   #app[data-state="result"] .hero-meaning { font-size: 13px; line-height: 1.3; }
 }
 
 #app:not(.is-ready) .site-footer { visibility: hidden; }
+/* "Play the Game" in the header: an outlined pill so it reads as an action, not a plain link */
+.header-link.header-play { padding: 6px 15px; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent-text); font-weight: 600; transition: background 0.12s, color 0.12s; }
+.header-link.header-play:hover { background: var(--accent-soft); color: var(--accent-text); }
+.header-play[aria-current="page"] { background: var(--accent-soft); }
+@media (max-width: 640px) {
+  .header-link.header-play { display: inline-flex; align-items: center; height: 34px; box-sizing: border-box; font-size: 14px; line-height: 1; padding: 0 14px; }
+  .hp-long { display: none; }
+}
+
+/* One-time tip under the "Play the Game" button (hint.js) */
+.play-tip { position: absolute; z-index: 20; width: min(290px, calc(100vw - 24px)); padding: 14px 34px 14px 16px; border: 1px solid var(--accent); border-radius: 14px; background: var(--card); box-shadow: 0 14px 40px var(--shadow); display: grid; gap: 3px; font-size: 14px; line-height: 1.45; color: var(--text-dim); opacity: 0; transform: translateY(-6px); transition: opacity 0.25s ease, transform 0.25s ease; pointer-events: none; }
+.play-tip.show { opacity: 1; transform: none; pointer-events: auto; }
+.play-tip b { font-size: 15px; font-weight: 650; color: var(--accent-text); }
+.play-tip::before { content: ""; position: absolute; top: -7px; right: var(--arrow, 24px); width: 12px; height: 12px; background: var(--card); border-top: 1px solid var(--accent); border-left: 1px solid var(--accent); transform: rotate(45deg); }
+.play-tip-x { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border: 0; border-radius: 50%; background: transparent; font-size: 18px; line-height: 1; color: var(--text-dim); cursor: pointer; }
+.play-tip-x:hover { background: var(--accent-soft); color: var(--accent-text); }
+@media (prefers-reduced-motion: reduce) { .play-tip { transition: none; } }
+.play-tip-cta { justify-self: start; margin-top: 6px; font-size: 14.5px; font-weight: 650; color: var(--accent-text); text-decoration: none; }
+.play-tip-cta:hover { text-decoration: underline; }
+
+/* Footer "Feedback" button and its form (feedback.js) */
+.footer-feedback { padding: 0; border: 0; background: none; font: inherit; line-height: inherit; color: var(--text-dim); cursor: pointer; }
+.footer-feedback:hover { color: var(--accent-text); }
+.site-footer .footer-feedback { min-height: 0; }
+@media (max-width: 640px) { .site-footer .footer-feedback { display: inline-flex; align-items: center; min-height: 44px; } }
+.fb-card { max-width: 480px; }
+.fb-intro { margin: 0 0 14px; color: var(--text-dim); line-height: 1.5; }
+.fb-form { display: grid; gap: 10px; position: relative; }
+.fb-text, .fb-mail { width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--text); font: inherit; font-size: 15px; resize: vertical; }
+.fb-text:focus, .fb-mail:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.fb-mail::placeholder, .fb-text::placeholder { font-size: 14px; }
+.fb-mail::placeholder { font-size: 13.5px; }
+.fb-note { margin: 0; font-size: 12.5px; color: var(--text-dim); }
+.fb-count { justify-self: end; margin-top: -6px; font-size: 12px; color: var(--text-dim); }
+.fb-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.fb-done { padding: 6px 0 4px; }
+.fb-done .btn { margin-top: 4px; }

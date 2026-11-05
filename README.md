@@ -27,6 +27,10 @@ to be served over HTTP.)
 - `new_word_template.json` — a blank entry to copy when adding a word by hand
 - `add_word.py` — a helper script that validates new entries, writes each to
   its own file under `data/words/`, and regenerates `data/words-index.json`
+- `stamp_assets.py` — adds a version number (`app.js?v=1a2b3c4d`) to every script and
+  stylesheet link in the pages and in the scripts' own imports, so a changed file is fetched
+  again right away instead of coming from a browser cache. **Run it after editing any .js or
+  .css file** (`python3 stamp_assets.py`); `build_pages.py` and `add_word.py` run it too.
 
 Each word's full journey lives in its own small file (`data/words/coffee.json`,
 for example) rather than one giant dataset, so a single word's page only ever

@@ -6,6 +6,20 @@
 <title>Privacy Policy | Etymology Map</title>
 <meta name="description" content="What data Etymology Map collects (and doesn't), how local storage is used, and how third-party services including advertising may be involved." />
 <link rel="canonical" href="https://etymologymap.com/privacy" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Etymology Map" />
+<meta property="og:url" content="https://etymologymap.com/privacy" />
+<meta property="og:title" content="Privacy Policy | Etymology Map" />
+<meta property="og:description" content="What data Etymology Map collects (and doesn't), how local storage is used, and how third-party services including advertising may be involved." />
+<meta property="og:image" content="https://etymologymap.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Privacy Policy | Etymology Map" />
+<meta name="twitter:description" content="What data Etymology Map collects (and doesn't), how local storage is used, and how third-party services including advertising may be involved." />
+<meta name="twitter:image" content="https://etymologymap.com/og-image.png" />
+<meta name="twitter:image:alt" content="Etymology Map: trace the journey of words across a world map" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png" />
@@ -16,8 +30,8 @@
     if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="app.css" />
-<link rel="stylesheet" href="pages.css" />
+<link rel="stylesheet" href="app.css?v=2fb1ed6a" />
+<link rel="stylesheet" href="pages.css?v=2fb1ed6a" />
 </head>
 <body>
   <div id="app">
@@ -27,6 +41,7 @@
         <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
       </a>
       <nav class="header-actions" aria-label="Site">
+        <a class="header-link header-play" href="play.html">Play<span class="hp-long"> the Game</span></a>
         <a class="header-link" href="about.html">About</a>
         <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
       </nav>
@@ -42,7 +57,7 @@
       <h2>Overview</h2>
       <p>
         Etymology Map is a static website with no user accounts. This policy explains the little data that is
-        involved in using the site: one display preference kept in your browser, and anonymous usage totals that
+        involved in using the site: a few preferences kept in your browser, and anonymous usage totals that
         help us decide which words to add next. It also explains what may change if the site starts showing
         advertising.
       </p>
@@ -51,8 +66,10 @@
       <p>
         The site saves one small preference (whether you've chosen light or dark mode) using your
         browser's local storage. This stays on your device, is never transmitted anywhere, and is used solely to
-        remember your preference on your next visit. You can clear it at any time by clearing your browser's site
-        data for this page.
+        remember your preference on your next visit. If you play the word game, your browser also remembers whether
+        you have played today's daily game, your result and your day streak, the same way. A tip about the game is shown
+        once on your first visit, and your browser remembers that it has been shown. You can clear all of it at
+        any time by clearing your browser's site data for this page.
       </p>
 
       <h2>Anonymous usage statistics</h2>
@@ -66,7 +83,8 @@
         <li>which words' pages are viewed, and roughly how long they stay on screen;</li>
         <li>searches for words that aren't in the collection yet;</li>
         <li>how often the "Read the full story" section is opened and the Share button is used;</li>
-        <li>visits to pages that don't exist, so we can fix broken links.</li>
+        <li>visits to pages that don't exist, so we can fix broken links;</li>
+        <li>finished games of the word game on the Play page, as a score range only (for example "800 to 849 points"), so we can tell you what share of players you beat.</li>
       </ul>
       <p>
         These events are added straight into daily totals, such as "the word <em>coffee</em> was viewed 40 times on
@@ -89,8 +107,18 @@
 
       <h2>What we don't collect</h2>
       <p>
-        We don't require sign-in and we don't collect personal information. There are no accounts, no forms that
-        collect personal data, no tracking cookies and no third-party analytics or tracking scripts on the site.
+        We don't require sign-in and we don't collect personal information. There are no accounts, no tracking
+        cookies and no third-party analytics or tracking scripts on the site. The only form is the optional
+        Feedback form described below.
+      </p>
+
+      <h2>Feedback</h2>
+      <p>
+        The Feedback link in the footer sends us a message. We receive what you type, the page you were on and,
+        only if you choose to give one, your email address so we can reply. We use it to improve the site and to
+        answer you, and we don't share it or add it to anything else. Messages are stored with our hosting provider,
+        Cloudflare, and may be forwarded to us by email through the email service Resend. We don't store your IP
+        address with the message.
       </p>
 
       <h2>Third-party content delivery</h2>
@@ -137,6 +165,6 @@
     </footer>
   </div>
 
-  <script type="module" src="page.js"></script>
+  <script type="module" src="page.js?v=2fb1ed6a"></script>
 </body>
 </html>

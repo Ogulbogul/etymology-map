@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Play: Guess the Word Origin | Etymology Map</title>
+<meta name="description" content="A free word-origin game. See an English word, drop pins on the map where it travelled, and score points for how close you get. A new daily word, plus unlimited practice. No sign-up." />
+<link rel="canonical" href="https://etymologymap.com/play" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Etymology Map" />
+<meta property="og:url" content="https://etymologymap.com/play" />
+<meta property="og:title" content="Play: Guess the Word Origin | Etymology Map" />
+<meta property="og:description" content="Drop pins on the map where a word travelled and score points for how close you get. A new daily word, plus unlimited practice." />
+<meta property="og:image" content="https://etymologymap.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Play: Guess the Word Origin | Etymology Map" />
+<meta name="twitter:description" content="Drop pins on the map where a word travelled and score points for how close you get. A new daily word, plus unlimited practice." />
+<meta name="twitter:image" content="https://etymologymap.com/og-image.png" />
+<meta name="twitter:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<script>
+  try {
+    var t = localStorage.getItem("etymology-map-theme");
+    if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="app.css?v=2fb1ed6a" />
+<link rel="stylesheet" href="pages.css?v=2fb1ed6a" />
+<link rel="stylesheet" href="game.css?v=2fb1ed6a" />
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+</head>
+<body>
+  <div id="app">
+    <header class="site-header">
+      <div class="brand-group">
+        <a href="index.html" class="brand" aria-label="Etymology Map, home">
+          <img class="brand-mark" src="favicon.svg" alt="" width="38" height="38" />
+          <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
+        </a>
+        <span class="brand-sep" aria-hidden="true"></span>
+        <span class="brand-sub-clip"><span class="brand-sub">The Game</span></span>
+      </div>
+      <nav class="header-actions" aria-label="Site">
+        <a class="header-link header-play" href="play.html" aria-current="page">Play<span class="hp-long"> the Game</span></a>
+        <a class="header-link" href="about.html">About</a>
+        <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
+      </nav>
+    </header>
+
+    <main class="game-main">
+      <!-- Start -->
+      <section id="screen-start">
+        <div class="g-hero">
+          <p class="eyebrow">A word-origin game</p>
+          <h1>Guess the journey</h1>
+          <p class="g-lede">Drop pins on the map where an English word travelled. The closer you get, the more you score.</p>
+        </div>
+        <div class="g-modes">
+          <div class="g-mode">
+            <div class="g-mode-head">
+              <h2>Daily word</h2>
+              <span id="daily-streak" class="g-streakbadge" hidden></span>
+            </div>
+            <p id="daily-sub">Five words, the same for everyone today. One try.</p>
+            <div id="daily-body" class="g-mode-body"></div>
+            <button id="btn-daily" class="btn btn-primary" type="button">Play today&rsquo;s game</button>
+          </div>
+          <div class="g-mode">
+            <div class="g-mode-head"><h2>Practice</h2></div>
+            <p>Random words, as many games as you like.</p>
+            <div id="practice-body" class="g-mode-body"></div>
+            <button id="btn-practice" class="btn btn-outline" type="button">Start practice</button>
+          </div>
+        </div>
+        <div class="g-steps">
+          <h2 class="g-steps-title">How it works</h2>
+          <ol class="g-steps-grid">
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="A word card">
+                <rect class="a-card" x="14" y="14" width="132" height="76" rx="10"/>
+                <text class="a-word" x="80" y="52" text-anchor="middle">coffee</text>
+                <rect class="a-bar" x="40" y="64" width="80" height="6" rx="3"/>
+                <rect class="a-bar" x="52" y="76" width="56" height="6" rx="3"/>
+              </svg>
+              <h3>See a word</h3>
+              <p>and what it means today</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Three numbered pins on a map joined by a dashed line">
+                <path class="a-land" d="M10 70 C 22 40, 48 26, 74 30 C 100 22, 128 34, 150 52 C 140 78, 104 92, 70 88 C 40 94, 16 86, 10 70 Z"/>
+                <path class="a-line" d="M42 66 Q 70 30 104 44 T 130 70"/>
+                <circle class="a-pin" cx="42" cy="66" r="9"/><text class="a-pint" x="42" y="66">1</text>
+                <circle class="a-pin" cx="104" cy="44" r="9"/><text class="a-pint" x="104" y="44">2</text>
+                <circle class="a-pin" cx="130" cy="70" r="9"/><text class="a-pint" x="130" y="70">3</text>
+              </svg>
+              <h3>Drop pins in order</h3>
+              <p>oldest place first</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Rings around a target: a close pin scores more than a far one">
+                <circle class="a-ring" cx="62" cy="52" r="14"/>
+                <circle class="a-ring" cx="62" cy="52" r="30"/>
+                <circle class="a-ring" cx="62" cy="52" r="46"/>
+                <circle class="a-truth" cx="62" cy="52" r="6"/>
+                <circle class="a-pin" cx="72" cy="44" r="7"/>
+                <text class="a-tag" x="86" y="40">+450</text>
+                <circle class="a-pin a-faint" cx="26" cy="86" r="7"/>
+                <text class="a-tag a-faint" x="38" y="98">+60</text>
+              </svg>
+              <h3>Closer scores more</h3>
+              <p>distance counts, not country</p>
+            </li>
+            <li class="g-step">
+              <svg class="g-art" viewBox="0 0 160 104" role="img" aria-label="Five words, up to 5,000 points">
+                <circle class="a-dot" cx="26" cy="34" r="8"/><circle class="a-dot" cx="53" cy="34" r="8"/><circle class="a-dot" cx="80" cy="34" r="8"/><circle class="a-dot" cx="107" cy="34" r="8"/><circle class="a-dot" cx="134" cy="34" r="8"/>
+                <text class="a-big" x="80" y="82" text-anchor="middle">5,000</text>
+              </svg>
+              <h3>5 words, 5,000 points</h3>
+              <p>No sign-up</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Play -->
+      <section id="screen-play" hidden>
+        <div class="g-progress">
+          <ol id="g-dots" class="g-dots" aria-label="Progress"></ol>
+          <div class="g-word">
+            <p class="eyebrow">Word <b id="g-round">1</b> of <b>5</b></p>
+            <h2 id="g-word"></h2>
+            <p id="g-meaning" class="g-meaning"></p>
+          </div>
+          <span class="g-scorechip">Score <b id="g-score">0</b></span>
+        </div>
+
+        <div class="g-controls">
+        <div id="g-pinbar" class="g-pinbar">
+          <div class="g-slotwrap">
+            <div id="g-slots" class="g-slots" aria-label="Your pins"></div>
+            <p id="g-count" class="g-count"></p>
+          </div>
+          <div class="g-pinbtns">
+            <button id="g-undo" class="btn btn-outline" type="button" disabled>Undo</button>
+            <button id="g-reveal" class="btn btn-primary" type="button" disabled>Reveal</button>
+          </div>
+        </div>
+
+        <div id="g-summary" class="g-summary" hidden>
+          <div id="g-ring" class="g-ringbox"></div>
+          <div class="g-sumtext">
+            <h3 id="g-verdict"></h3>
+            <ul id="g-chips" class="g-chips"></ul>
+          </div>
+          <div id="g-eq" class="g-eq"></div>
+          <div class="g-sumbtns">
+            <button id="g-storylink" class="btn btn-outline" type="button" aria-expanded="false" aria-controls="g-story">Full story</button>
+            <button id="g-next" class="btn btn-primary" type="button">Next word</button>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="g-mapbox">
+          <div id="g-story" class="g-story" role="region" aria-label="The full story" hidden>
+            <button id="g-story-close" class="icon-btn small g-story-x" type="button" title="Close" aria-label="Close the full story">&times;</button>
+            <div id="g-story-in" class="g-story-in"></div>
+          </div>
+          <div class="g-maptop">
+            <span class="g-maptop-l"></span>
+            <span id="g-country" class="g-country">&nbsp;</span>
+            <div class="g-zoom">
+              <button id="g-zoom-out" class="icon-btn small" type="button" title="Zoom out" aria-label="Zoom out">&minus;</button>
+              <button id="g-zoom-in" class="icon-btn small" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+              <button id="g-zoom-reset" class="icon-btn small" type="button" title="Reset view" aria-label="Reset view">&#8634;</button>
+            </div>
+          </div>
+          <div id="g-canvas" class="g-canvas">
+            <svg id="gmap" viewBox="0 0 960 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map. Click to drop a pin.">
+              <g id="g-zoomlayer">
+                <g id="g-countries"></g>
+                <g id="g-lines"></g>
+              </g>
+              <g id="g-marks"></g>
+            </svg>
+          </div>
+          <div id="g-help" class="g-help"><span class="g-help-dot"></span>Closest pin wins: distance counts, not country</div>
+        </div>
+
+        <ol id="g-rows" class="g-rows" hidden></ol>
+      </section>
+
+      <!-- End -->
+      <section id="screen-end" hidden>
+        <div class="g-final">
+          <p class="eyebrow" id="e-label"></p>
+          <div class="g-final-top">
+            <div id="e-ring" class="g-ringbox g-ringbig"></div>
+            <div class="g-final-side">
+              <h2 id="e-verdict" class="g-verdict"></h2>
+              <div id="e-streak" class="g-streakbox" hidden></div>
+              <div id="e-pct" class="g-pctbox"></div>
+            </div>
+          </div>
+          <div class="g-endbtns">
+            <button id="e-share" class="btn btn-primary" type="button">Share result</button>
+            <button id="e-practice" class="btn btn-outline" type="button">Play practice</button>
+            <a class="btn btn-outline" href="index.html">Explore the map</a>
+          </div>
+          <p id="e-status" class="g-status" hidden></p>
+        </div>
+        <h3 class="g-roundshead">Round by round</h3>
+        <ol id="e-rounds" class="g-rounds"></ol>
+      </section>
+    </main>
+
+    <div id="share-modal" class="modal-overlay" hidden>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-label="Share your result">
+        <button id="share-close-btn" class="icon-btn modal-close" type="button" aria-label="Close">&times;</button>
+        <h3 class="modal-title">Share your result</h3>
+        <div class="modal-theme-toggle" role="group" aria-label="Card style">
+          <button id="share-theme-light-btn" class="modal-theme-btn" type="button" aria-pressed="false">Light</button>
+          <button id="share-theme-dark-btn" class="modal-theme-btn" type="button" aria-pressed="true">Dark</button>
+        </div>
+        <div class="modal-preview-wrap">
+          <img id="share-preview" alt="Your result card" />
+        </div>
+        <div class="modal-actions">
+          <button id="share-download-btn" class="btn btn-primary" type="button">Download image</button>
+          <button id="share-copy-btn" class="btn btn-outline" type="button">Copy image</button>
+          <button id="share-native-btn" class="btn btn-outline" type="button">Share&hellip;</button>
+        </div>
+        <p id="share-status" class="modal-status" hidden></p>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <span class="footer-count">Etymology Map</span>
+      <span class="footer-links">
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </span>
+    </footer>
+  </div>
+  <script src="track.js?v=2fb1ed6a"></script>
+  <script type="module" src="page.js?v=2fb1ed6a"></script>
+  <script type="module" src="game.js?v=2fb1ed6a"></script>
+</body>
+</html>

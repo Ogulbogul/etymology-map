@@ -1,6 +1,8 @@
-import { icon, hydrateIcons } from "./icons.js";
-import { createGlobe } from "./globe.js";
-import { buildShareCard as buildShareCardImage } from "./sharecard.js";
+import { icon, hydrateIcons } from "./icons.js?v=2fb1ed6a";
+import "./hint.js?v=2fb1ed6a";
+import "./feedback.js?v=2fb1ed6a";
+import { createGlobe } from "./globe.js?v=2fb1ed6a";
+import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=2fb1ed6a";
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -103,6 +105,7 @@ const pinLayer = document.getElementById("pin-layer");
 const originSentenceEl = document.getElementById("origin-sentence");
 const fullStoryEl = document.getElementById("full-story");
 const fullStoryTextEl = document.getElementById("full-story-text");
+const storyQuestionEl = document.getElementById("story-question");
 const globeHintEl = document.getElementById("globe-hint");
 const routeChipsEl = document.getElementById("route-chips");
 const storyStagesEl = document.getElementById("story-stages");
@@ -179,6 +182,9 @@ let globe = null;
 let globeUnavailable = false;
 let currentView = "map";
 let selectedStop = -1;
+// Set on a word page opened at /words/<slug>?stop=N: the journey is shown only up to
+// stage N ({ base: the page's word, total: its stage count, count: N }).
+let stagePage = null;
 let wod = null; // { word, entry }
 const VIEW_STORAGE_KEY = "etymology-map-view";
 
@@ -410,7 +416,7 @@ function renderOriginAutocomplete() {
     li.setAttribute("role", "option");
     li.setAttribute("aria-selected", idx === originAcActiveIndex ? "true" : "false");
     if (idx === originAcActiveIndex) li.classList.add("active");
-    li.textContent = `${origin} (${originCounts.get(origin) || 0})`;
+    li.appendChild(highlightedLabel(origin, originSearchInput.value, ` (${originCounts.get(origin) || 0})`));
     li.addEventListener("pointerdown", (e) => {
       e.preventDefault();
       selectOrigin(origin);
@@ -574,8 +580,8 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js"),
-      import("./vendor/topojson-client.js"),
+      import("./vendor/d3-geo.js?v=2fb1ed6a"),
+      import("./vendor/topojson-client.js?v=2fb1ed6a"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
@@ -676,7 +682,10 @@ function showNotFound(displayWord, raw) {
   if (suggestions.length > 0) {
     const wrap = document.createElement("span");
     wrap.className = "message-suggestions";
-    wrap.appendChild(document.createTextNode("Did you mean "));
+    const lead = document.createElement("span");
+    lead.className = "suggest-label";
+    lead.textContent = "Did you mean";
+    wrap.appendChild(lead);
     suggestions.forEach((sg) => {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -745,12 +754,16 @@ function clearResultContent() {
   fullStoryEl.hidden = true;
   fullStoryEl.open = false;
   fullStoryTextEl.innerHTML = "";
+  storyQuestionEl.innerHTML = "";
   storyStagesEl.innerHTML = "";
   storyGlanceEl.innerHTML = "";
   routeChipsEl.innerHTML = "";
   routeChipsEl.hidden = true;
-  relatedWordsEl.hidden = true;
-  relatedWordsGridEl.innerHTML = "";
+  if (!WORD_PAGE) {
+    // (a word page's related words come with the page; see renderRelatedWords)
+    relatedWordsEl.hidden = true;
+    relatedWordsGridEl.innerHTML = "";
+  }
   resultAreaEl.hidden = true;
   selectedStop = -1;
   if (globe) globe.clearRoute();
@@ -782,7 +795,7 @@ function selectStop(index) {
   panelEl.querySelectorAll(".stop-row").forEach((el) => {
     const on = Number(el.dataset.idx) === selectedStop;
     el.classList.toggle("selected", on);
-    el.setAttribute("aria-pressed", on ? "true" : "false");
+    if (el.tagName === "BUTTON") el.setAttribute("aria-pressed", on ? "true" : "false");
   });
   trayEl.querySelectorAll(".tray-item").forEach((el) => el.classList.toggle("selected", Number(el.dataset.idx) === selectedStop));
   pinLayer.querySelectorAll(".pin-group").forEach((el) => el.classList.toggle("selected", (el.dataset.idxs || "").split(",").includes(String(selectedStop))));
@@ -1110,7 +1123,14 @@ function setupPanZoom() {
 
   zoomInBtn.addEventListener("click", () => zoomAroundCenter(1.4));
   zoomOutBtn.addEventListener("click", () => zoomAroundCenter(1 / 1.4));
-  zoomResetBtn.addEventListener("click", () => animateViewTo({ x: 0, y: 0, k: 1 }));
+  // Reset goes back to the route-fitted view a result opens with (the whole world only when there is no result).
+  zoomResetBtn.addEventListener("click", () =>
+    animateViewTo(
+      appEl.dataset.state === "result" && lastPoints && lastEntry
+        ? computeFitView(lastPoints, { stops: lastEntry.stops })
+        : { x: 0, y: 0, k: 1 }
+    )
+  );
 }
 
 function zoomAroundCenter(factor) {
@@ -1243,6 +1263,10 @@ function pickRandom(arr, n) {
 // the results as its static permalink page does, instead of only having
 // discovery tools (word list, autocomplete, surprise me) up at the top.
 function renderRelatedWords(baseWord, originLang) {
+  if (WORD_PAGE && relatedWordsGridEl.children.length) {
+    relatedWordsEl.hidden = false; // already in the page's HTML
+    return;
+  }
   const candidates = Object.keys(wordIndex).filter(
     (key) => key !== baseWord && wordIndex[key] === originLang
   );
@@ -1393,13 +1417,77 @@ function renderStoryExtras(word, entry) {
     row("Route", route.join(' <span class="glance-arrow">&rarr;</span> ')) +
     row("Entered English", escapeHtml(last.era));
   routeChipsEl.innerHTML = stops
-    .map((s, i) => `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`)
+    .map((s, i) => {
+      const href = stageLinkFor(i, stops.length);
+      const chip = href
+        ? `<a class="route-chip" href="${href}" target="_blank" rel="noopener" data-idx="${i}" title="View stage ${i + 1}: ${escapeHtml(s.word)}">${escapeHtml(s.word)}</a>`
+        : `<button type="button" class="route-chip" data-idx="${i}">${escapeHtml(s.word)}</button>`;
+      return `${i ? '<span class="chip-arrow" aria-hidden="true">&rarr;</span>' : ""}${chip}`;
+    })
     .join("");
-  routeChipsEl.querySelectorAll(".route-chip").forEach((b) => b.addEventListener("click", () => selectStop(Number(b.dataset.idx))));
+  routeChipsEl.querySelectorAll("button.route-chip").forEach((b) => b.addEventListener("click", () => selectStop(Number(b.dataset.idx))));
   routeChipsEl.hidden = false;
 }
 
+// Every stage card and route chip is a link: stages before the one being shown open
+// that stage's own page (/words/<slug>?stop=N: "stage N of M in the journey of <word>").
+let stageBase = "";
+function stageLinkFor(idx, shownTotal) {
+  if (!stageBase) return null;
+  const current = stagePage ? stagePage.count : shownTotal;
+  if (idx + 1 < current) return `/words/${slugify(stageBase)}?stop=${idx + 1}`;
+  // The last stage is the page being shown: on a word page it just selects itself,
+  // on the home page it opens the word's own page.
+  return WORD_PAGE ? null : `/words/${slugify(stageBase)}`;
+}
+
+// The "stage N of M" banner, headline wording and page title for a ?stop=N page.
+function applyStagePageChrome() {
+  const eyebrow = document.querySelector("#result-hero .eyebrow");
+  const old = document.getElementById("stage-notice");
+  if (old) old.remove();
+  if (!stagePage) {
+    if (eyebrow) eyebrow.textContent = "Today it means";
+    return;
+  }
+  const { base, total, count } = stagePage;
+  const stop = lastEntry.stops[count - 1];
+  if (eyebrow) eyebrow.textContent = "At this point it meant";
+  // The full-journey sentence and story describe the whole word, not this stage.
+  originSentenceEl.hidden = true;
+  fullStoryEl.hidden = true;
+
+  const notice = document.createElement("p");
+  notice.id = "stage-notice";
+  notice.className = "stage-notice";
+  notice.append(document.createTextNode(`Stage ${count} of ${total} in the journey of \u201c${base}\u201d to English. `));
+  const full = document.createElement("a");
+  full.href = `/words/${slugify(base)}`;
+  full.textContent = "See the full journey \u2192";
+  notice.append(full);
+  const ownKey = stop.word.trim().toLowerCase();
+  if (ownKey !== base && wordIndex[ownKey]) {
+    notice.append(document.createTextNode(" \u00b7 "));
+    const own = document.createElement("a");
+    own.href = `/words/${slugify(ownKey)}`;
+    own.textContent = `\u201c${ownKey}\u201d has its own page \u2192`;
+    notice.append(own);
+  }
+  resultHeroEl.insertAdjacentElement("afterend", notice);
+
+  const shown = stop.word.charAt(0).toUpperCase() + stop.word.slice(1);
+  const title = `${shown}: stage ${count} of ${total} in the journey of \u201c${base}\u201d | Etymology Map`;
+  const description = `\u201c${stop.word}\u201d (${stop.lang}, ${stop.era}): stage ${count} of ${total} in the journey of \u201c${base}\u201d to English.`;
+  document.title = title;
+  [['meta[name="description"]', description], ['meta[property="og:title"]', title], ['meta[property="og:description"]', description],
+   ['meta[name="twitter:title"]', title], ['meta[name="twitter:description"]', description]].forEach(([sel, val]) => {
+    const m = document.querySelector(sel);
+    if (m) m.setAttribute("content", val);
+  });
+}
+
 function renderWord(word, entry) {
+  stageBase = stagePage ? stagePage.base : word;
   clearResultContent();
   clearMessage();
   appEl.dataset.state = "result";
@@ -1413,11 +1501,22 @@ function renderWord(word, entry) {
   const total = entry.stops.length;
 
   entry.stops.forEach((stop, idx) => {
-    const row = document.createElement("button");
-    row.type = "button";
+    // A stage whose word has a page of its own in the collection (e.g. "bank"
+    // in the journey of "banquet") is a real link to that page; the others
+    // just select the stage on the map.
+    const stageHref = stageLinkFor(idx, total);
+    const row = document.createElement(stageHref ? "a" : "button");
     row.className = "stop-row";
     row.dataset.idx = String(idx);
-    row.setAttribute("aria-pressed", "false");
+    if (stageHref) {
+      row.href = stageHref;
+      row.target = "_blank"; // a stage opens in its own tab, so the journey you are looking at stays put
+      row.rel = "noopener";
+      row.title = idx + 1 < total || stagePage ? `View stage ${idx + 1}: ${stop.word}` : `Open the page for \u201c${stageBase}\u201d`;
+    } else {
+      row.type = "button";
+      row.setAttribute("aria-pressed", "false");
+    }
     row.innerHTML = `
       <span class="stop-circle">${idx + 1}</span>
       <span class="stop-body">
@@ -1432,17 +1531,25 @@ function renderWord(word, entry) {
         </span>
       </span>
     `;
-    row.addEventListener("click", () => selectStop(idx));
+    row.addEventListener("click", () => {
+      if (!stageHref) selectStop(idx); // links navigate on their own
+    });
     row.addEventListener("mouseenter", () => setActive(idx, true));
     row.addEventListener("mouseleave", () => setActive(idx, false));
     panelEl.appendChild(row);
 
-    const item = document.createElement("button");
-    item.type = "button";
+    const item = document.createElement(stageHref ? "a" : "button");
+    if (stageHref) {
+      item.href = stageHref;
+      item.target = "_blank";
+      item.rel = "noopener";
+    } else item.type = "button";
     item.className = "tray-item";
     item.dataset.idx = String(idx);
     item.innerHTML = `<span class="tray-num">${idx + 1}</span><span class="tray-word">${escapeHtml(stop.word)}</span><span class="tray-lang">${escapeHtml(shortLang(stop.lang))}</span>`;
-    item.addEventListener("click", () => selectStop(idx));
+    item.addEventListener("click", () => {
+      if (!stageHref) selectStop(idx);
+    });
     item.addEventListener("mouseenter", () => setActive(idx, true));
     item.addEventListener("mouseleave", () => setActive(idx, false));
     trayEl.appendChild(item);
@@ -1461,6 +1568,8 @@ function renderWord(word, entry) {
 
   originSentenceEl.innerHTML = buildOriginSentence(word, entry.stops);
   originSentenceEl.hidden = false;
+  // The same sentence opens the full story; the stylesheet shows whichever copy fits the screen (see .story-question).
+  storyQuestionEl.innerHTML = originSentenceEl.innerHTML;
   fullStoryTextEl.innerHTML = buildNarrative(word, entry.stops, entry.current_meaning);
   fullStoryEl.hidden = false;
   renderStoryExtras(word, entry);
@@ -1725,7 +1834,17 @@ async function trace(options = {}) {
     if (window.emTrack) window.emTrack.miss(raw);
     return;
   }
-  renderWord(raw, entry);
+  let shownWord = raw;
+  let shownEntry = entry;
+  stagePage = null;
+  const stopCount = options.stopCount;
+  if (WORD_PAGE && stopCount >= 1 && stopCount < entry.stops.length) {
+    shownEntry = { stops: entry.stops.slice(0, stopCount), current_meaning: entry.stops[stopCount - 1].meaning };
+    shownWord = entry.stops[stopCount - 1].word;
+    stagePage = { base: raw, total: entry.stops.length, count: stopCount };
+  }
+  renderWord(shownWord, shownEntry);
+  applyStagePageChrome();
   syncGlobeVariant();
   if (window.emTrack) window.emTrack.view(raw);
 
@@ -1765,6 +1884,24 @@ window.addEventListener("popstate", () => {
 let acMatches = [];
 let acActiveIndex = -1;
 
+// A suggestion's text with the letters the visitor typed wrapped in <mark> (bold orange). Everything sits in
+// one span so the row's flex layout keeps the word together.
+function highlightedLabel(text, query, suffix) {
+  const span = document.createElement("span");
+  const q = query.trim().toLowerCase();
+  const lower = text.toLowerCase();
+  const i = q && lower.length === text.length ? lower.indexOf(q) : -1;
+  if (i < 0) {
+    span.textContent = text;
+  } else {
+    const mark = document.createElement("mark");
+    mark.textContent = text.slice(i, i + q.length);
+    span.append(text.slice(0, i), mark, text.slice(i + q.length));
+  }
+  if (suffix) span.append(suffix);
+  return span;
+}
+
 function getAutocompleteMatches(query) {
   const q = query.trim().toLowerCase();
   if (!q) return [];
@@ -1788,7 +1925,7 @@ function renderAutocomplete() {
     li.setAttribute("role", "option");
     li.setAttribute("aria-selected", idx === acActiveIndex ? "true" : "false");
     if (idx === acActiveIndex) li.classList.add("active");
-    li.textContent = word;
+    li.appendChild(highlightedLabel(word, wordInput.value));
     li.addEventListener("pointerdown", (e) => {
       e.preventDefault();
       selectAutocomplete(word);
@@ -2306,11 +2443,9 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
     setMapView(currentView, { save: false });
     syncGlobeVariant();
     wordInput.value = document.body.dataset.word;
-    await trace({ fromUrl: true });
+    const stopParam = parseInt(new URLSearchParams(window.location.search).get("stop"), 10);
+    await trace({ fromUrl: true, stopCount: Number.isFinite(stopParam) ? stopParam : 0 });
     showFooter();
-    document.getElementById("seo-static").setAttribute("aria-hidden", "true");
-    const stop = Number(new URLSearchParams(window.location.search).get("stop"));
-    if (stop >= 1 && lastEntry && stop <= lastEntry.stops.length) selectStop(stop - 1);
     return;
   }
   renderExampleChips();

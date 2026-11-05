@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Etymology Map</title>
+<title>Etymology Map: Trace the Journey of English Words</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
 <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png" />
@@ -11,12 +11,20 @@
 <meta name="description" content="Trace any English word back through the languages it traveled on its way here, plotted stage by stage on a real world map. Explore 3,000+ word origins." />
 <link rel="canonical" href="https://etymologymap.com/" />
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="Etymology Map" />
+<meta property="og:image" content="https://etymologymap.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Etymology Map: trace the journey of words across a world map" />
 <meta property="og:url" content="https://etymologymap.com/" />
-<meta property="og:title" content="Etymology Map" />
+<meta property="og:title" content="Etymology Map: Trace the Journey of English Words" />
 <meta property="og:description" content="Trace any English word back through the languages it traveled on its way here, plotted stage by stage on a real world map." />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Etymology Map" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Etymology Map: Trace the Journey of English Words" />
 <meta name="twitter:description" content="Trace any English word back through the languages it traveled on its way here, plotted stage by stage on a real world map." />
+<meta name="twitter:image" content="https://etymologymap.com/og-image.png" />
+<meta name="twitter:image:alt" content="Etymology Map: trace the journey of words across a world map" />
+<script type="application/ld+json" id="ld-json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://etymologymap.com/#website","url":"https://etymologymap.com/","name":"Etymology Map","description":"Trace any English word back through the languages it travelled on its way here, plotted stage by stage on a real world map.","inLanguage":"en"}</script>
 <script>
   // Apply the saved theme before first paint so there is no flash.
   // No saved choice means the page follows the system setting.
@@ -29,7 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="app.css" />
+<link rel="stylesheet" href="app.css?v=2fb1ed6a" />
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="modulepreload" href="app.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="icons.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="globe.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="sharecard.js?v=2fb1ed6a" />
+<link rel="preload" href="data/words-index.json" as="fetch" crossorigin />
 </head>
 <body>
   <div id="app" data-state="landing">
@@ -40,6 +54,7 @@
         <span class="brand-name">Etymology<span class="brand-accent">Map</span></span>
       </a>
       <nav class="header-actions" aria-label="Site">
+        <a class="header-link header-play" href="play.html">Play<span class="hp-long"> the Game</span></a>
         <a class="header-link" href="about.html">About</a>
         <button id="theme-toggle-btn" class="icon-btn" type="button" aria-label="Switch to dark mode"></button>
       </nav>
@@ -222,6 +237,7 @@
           <summary><span>Read the full story</span><span class="summary-chevron" data-icon="chevron-right" data-icon-size="16"></span></summary>
           <div class="story-grid">
             <div class="story-main">
+              <p id="story-question" class="story-question"></p>
               <p id="full-story-text"></p>
               <ol id="story-stages" class="story-stages"></ol>
             </div>
@@ -263,13 +279,14 @@
 
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
+      <p class="footer-about">Etymology Map is a free word-origin explorer. Trace any English word through the languages it travelled.</p>
       <span class="footer-links">
         <a href="about.html">About</a>
         <a href="privacy.html">Privacy Policy</a>
       </span>
     </footer>
   </div>
-  <script src="track.js"></script>
-  <script type="module" src="app.js"></script>
+  <script src="track.js?v=2fb1ed6a"></script>
+  <script type="module" src="app.js?v=2fb1ed6a"></script>
 </body>
 </html>
