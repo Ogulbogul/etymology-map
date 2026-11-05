@@ -1,4 +1,11 @@
+# Content signals: search results and AI answers are welcome; model training is not.
+# See https://contentsignals.org/
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
+
+# Huawei's Petal Search crawler: heavy traffic, no readers for this site.
+User-agent: PetalBot
+Disallow: /
 
 Sitemap: https://etymologymap.com/sitemap.xml
