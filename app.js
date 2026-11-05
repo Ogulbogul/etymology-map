@@ -1737,11 +1737,11 @@ function syncGlobeVariant() {
   globe.setVariant(rise ? "rise" : "full", false);
 }
 
-function initFromUrl() {
+async function initFromUrl() {
   const word = new URLSearchParams(window.location.search).get("word");
   if (!word) return;
   wordInput.value = word;
-  trace({ fromUrl: true });
+  await trace({ fromUrl: true });
 }
 
 window.addEventListener("popstate", () => {
@@ -2292,6 +2292,9 @@ setupViewToggle();
 if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observe(mapSvg);
 
 (async function init() {
+  // The footer stays hidden until the page has its content, so it never visibly jumps.
+  const showFooter = () => appEl.classList.add("is-ready");
+  setTimeout(showFooter, 5000);
   // Inter must be ready before labels are measured, or pin-label widths come out wrong.
   try { await document.fonts.load('600 15px "Inter"'); } catch (err) { /* system font is fine */ }
   await Promise.all([loadWordIndex(), loadMap()]);
@@ -2304,6 +2307,7 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
     syncGlobeVariant();
     wordInput.value = document.body.dataset.word;
     await trace({ fromUrl: true });
+    showFooter();
     document.getElementById("seo-static").setAttribute("aria-hidden", "true");
     const stop = Number(new URLSearchParams(window.location.search).get("stop"));
     if (stop >= 1 && lastEntry && stop <= lastEntry.stops.length) selectStop(stop - 1);
@@ -2313,5 +2317,6 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
   setMapView(currentView, { save: false });
   syncGlobeVariant();
   await pickDailyWod();
-  initFromUrl();
+  await initFromUrl();
+  showFooter();
 })();
