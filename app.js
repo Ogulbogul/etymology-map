@@ -1,8 +1,8 @@
-import { icon, hydrateIcons } from "./icons.js?v=9795afd7";
-import "./hint.js?v=9795afd7";
-import "./feedback.js?v=9795afd7";
-import { createGlobe } from "./globe.js?v=9795afd7";
-import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=9795afd7";
+import { icon, hydrateIcons } from "./icons.js?v=b4288cac";
+import "./hint.js?v=b4288cac";
+import "./feedback.js?v=b4288cac";
+import { createGlobe } from "./globe.js?v=b4288cac";
+import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=b4288cac";
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -580,8 +580,8 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js?v=9795afd7"),
-      import("./vendor/topojson-client.js?v=9795afd7"),
+      import("./vendor/d3-geo.js?v=b4288cac"),
+      import("./vendor/topojson-client.js?v=b4288cac"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");
@@ -1856,11 +1856,11 @@ function syncGlobeVariant() {
   globe.setVariant(rise ? "rise" : "full", false);
 }
 
-function initFromUrl() {
+async function initFromUrl() {
   const word = new URLSearchParams(window.location.search).get("word");
   if (!word) return;
   wordInput.value = word;
-  trace({ fromUrl: true });
+  await trace({ fromUrl: true });
 }
 
 window.addEventListener("popstate", () => {
@@ -2429,6 +2429,9 @@ setupViewToggle();
 if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observe(mapSvg);
 
 (async function init() {
+  // The footer stays hidden until the page has its content, so it never visibly jumps.
+  const showFooter = () => appEl.classList.add("is-ready");
+  setTimeout(showFooter, 5000);
   // Inter must be ready before labels are measured, or pin-label widths come out wrong.
   try { await document.fonts.load('600 15px "Inter"'); } catch (err) { /* system font is fine */ }
   await Promise.all([loadWordIndex(), loadMap()]);
@@ -2442,11 +2445,13 @@ if (window.ResizeObserver) new ResizeObserver(() => updatePinPositions()).observ
     wordInput.value = document.body.dataset.word;
     const stopParam = parseInt(new URLSearchParams(window.location.search).get("stop"), 10);
     await trace({ fromUrl: true, stopCount: Number.isFinite(stopParam) ? stopParam : 0 });
+    showFooter();
     return;
   }
   renderExampleChips();
   setMapView(currentView, { save: false });
   syncGlobeVariant();
   await pickDailyWod();
-  initFromUrl();
+  await initFromUrl();
+  showFooter();
 })();
