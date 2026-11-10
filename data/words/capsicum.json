@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "capsa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a box or case, perhaps the root of the pod's name",
+      "meaning": "box, case",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "Capsicum",
+      "lang": "Modern Latin",
+      "era": "1500s",
+      "note": "coined by botanists in the 1500s for the New World peppers brought to Europe by Spanish explorers",
+      "meaning": "pepper genus",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "capsicum",
+      "lang": "English",
+      "era": "1660s",
+      "note": "used for chilli peppers and sweet peppers alike, especially in British and Australian English",
+      "meaning": "pepper",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a plant of the pepper family, or its fruit"
+}

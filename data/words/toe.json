@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "taihwǭ",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "perhaps from a root meaning to point or show, like Latin 'digitus'",
+      "meaning": "toe",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "tā",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "its plural was 'tān'",
+      "meaning": "toe",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "toe",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'tiptoe' is recorded from the 1300s",
+      "meaning": "toe",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "one of the digits of the foot"
+}

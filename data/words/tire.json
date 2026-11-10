@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "atirier",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to equip or arrange",
+      "meaning": "to equip",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "tire",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "short for 'attire': equipment, dress",
+      "meaning": "dress, equipment",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "tire",
+      "lang": "English",
+      "era": "1480s",
+      "note": "the iron rim was the wheel's 'attire'; rubber tyres followed in the 1800s, when Britain revived the spelling 'tyre'",
+      "meaning": "wheel rim",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a rubber covering fitted round a wheel"
+}

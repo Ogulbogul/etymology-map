@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "nāvis + agere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'ship' plus 'to drive'; 'navy', 'naval', 'nave' (a church ship-shape) and 'nausea' come from 'nāvis'",
+      "meaning": "to drive a ship",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "navigate",
+      "lang": "English",
+      "era": "1580s",
+      "note": "the verb came with the Age of Discovery, when navigation became a science",
+      "meaning": "to sail, steer",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to plan and direct the course of a ship or vehicle"
+}

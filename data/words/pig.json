@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "picga",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "recorded only in the compound 'picbrēd', pig-bread, meaning acorns; the usual word was 'swīn'; its origin is unknown",
+      "meaning": "young pig",
+      "lat": 54.98,
+      "lon": -1.49
+    },
+    {
+      "word": "pigge",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "meant a young pig",
+      "meaning": "young pig",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "pig",
+      "lang": "English",
+      "era": "1500s",
+      "note": "spread from 'young pig' to the animal of any age",
+      "meaning": "pig",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a domesticated animal kept for its meat"
+}

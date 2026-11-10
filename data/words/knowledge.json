@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "cnāwan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "to know, cognate with Latin 'gnōscere' and Greek 'gignōskein'",
+      "meaning": "to know",
+      "lat": 54.98,
+      "lon": -1.49
+    },
+    {
+      "word": "knowleche",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "formed around 1200 with an obscure ending, perhaps the '-lock' of 'wedlock'",
+      "meaning": "acknowledgement, knowing",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "knowledge",
+      "lang": "English",
+      "era": "1500s",
+      "note": "London taxi drivers must pass 'the Knowledge', a test of the city's streets, begun in 1865",
+      "meaning": "what is known",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "facts, information and skills acquired through experience"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "akraną",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "'fruit of the open land', related to 'acre'",
+      "meaning": "wild fruit",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "æcern",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "meant the nuts of forest trees in general, the food of pigs",
+      "meaning": "tree nut",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "acorn",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the spelling was reshaped by a false link with 'oak' and 'corn'",
+      "meaning": "oak nut",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the nut of the oak tree"
+}

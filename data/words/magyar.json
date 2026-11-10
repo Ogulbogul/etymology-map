@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "magyar",
+      "lang": "Hungarian",
+      "era": "medieval",
+      "note": "the people's own name, perhaps from an old tribal name; the tribes entered the Carpathian Basin around 895 under Árpád",
+      "meaning": "Magyar",
+      "lat": 47.5,
+      "lon": 19.04
+    },
+    {
+      "word": "Magyar",
+      "lang": "English",
+      "era": "1800s",
+      "note": "used in English as Hungarian nationalism grew, especially in the 1848 revolution",
+      "meaning": "Hungarian person or language",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a member of the main ethnic group of Hungary; the Hungarian language"
+}

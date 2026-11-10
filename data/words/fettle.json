@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "fetel",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "a belt or girdle",
+      "meaning": "belt",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "fettlen",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "to gird oneself, make ready; a northern, especially Lancashire, word",
+      "meaning": "to make ready",
+      "lat": 53.76,
+      "lon": -2.7
+    },
+    {
+      "word": "fettle",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'in fine fettle' spread from northern dialect in the 1800s",
+      "meaning": "condition",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "condition, as in 'in fine fettle'"
+}

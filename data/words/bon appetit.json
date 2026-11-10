@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bon appétit",
+      "lang": "French",
+      "era": "1800s",
+      "note": "'good appetite', from Latin 'bonus', good, and 'appetītus', desire",
+      "meaning": "good appetite",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "bon appétit",
+      "lang": "English",
+      "era": "1800s",
+      "note": "made familiar to Americans by Julia Child's sign-off on 'The French Chef' from 1963",
+      "meaning": "enjoy your meal",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a wish for someone to enjoy their meal"
+}

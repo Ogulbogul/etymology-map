@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "forgiefan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "built from 'for-', completely, and 'giefan', to give, as a part-for-part translation of Latin 'perdōnāre', the source of 'pardon'",
+      "meaning": "to give up, pardon",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "forgive",
+      "lang": "English",
+      "era": "1500s",
+      "note": "German 'vergeben' was formed the same way",
+      "meaning": "to pardon",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to stop feeling angry at someone for an offence"
+}

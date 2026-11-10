@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "magnanimus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'great-souled', from 'magnus', great, and 'animus', soul, a Latin rendering of Aristotle's ideal of greatness of spirit",
+      "meaning": "great-souled",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "magnanimous",
+      "lang": "English",
+      "era": "1580s",
+      "note": "used in Renaissance writing on virtue and honour",
+      "meaning": "noble-minded",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "generous and forgiving, especially towards a rival"
+}

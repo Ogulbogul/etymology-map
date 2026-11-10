@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "porter + manteau",
+      "lang": "French",
+      "era": "1500s",
+      "note": "'to carry' plus 'cloak': a bag for carrying clothes, once a court officer's cloak-bearer",
+      "meaning": "cloak-carrier",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "portmanteau",
+      "lang": "English",
+      "era": "1550s",
+      "note": "the sense 'word blending two others' was coined in 1871 by Lewis Carroll's Humpty Dumpty in 'Through the Looking-Glass', who said such words pack two meanings into one",
+      "meaning": "travelling bag; blended word",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a blend of two words; a large travelling bag"
+}

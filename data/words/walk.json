@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "wealcan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "meant to roll or toss, as waves do",
+      "meaning": "to roll, toss",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "walken",
+      "lang": "Middle English",
+      "era": "1100s-1400s",
+      "note": "shifted to mean travelling on foot around 1200",
+      "meaning": "to go on foot",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "walk",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a 'walker' cleaned cloth by treading on it, which gave the surname Walker",
+      "meaning": "to go on foot",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to move on foot at a regular pace"
+}

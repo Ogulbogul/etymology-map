@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kaka",
+      "lang": "Old Norse",
+      "era": "medieval",
+      "note": "a cake; Viking settlers gave English the word",
+      "meaning": "cake",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    {
+      "word": "pancake",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "'pan' plus 'cake'",
+      "meaning": "pancake",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "pancake",
+      "lang": "English",
+      "era": "1500s",
+      "note": "Shrove Tuesday became 'Pancake Day', for using up eggs and fat before Lent",
+      "meaning": "pancake",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a thin flat cake of batter fried in a pan"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "pāx",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "peace; 'Pax Romana' named the long peace under Augustus",
+      "meaning": "peace",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "pax",
+      "lang": "English",
+      "era": "1400s",
+      "note": "the tablet kissed in church at the 'kiss of peace'; British schoolboys later cried 'pax!' to call a truce, and 'Pax Americana' followed 'Pax Britannica' in the 1900s",
+      "meaning": "peace",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "peace; a kiss of peace; a call for truce"
+}

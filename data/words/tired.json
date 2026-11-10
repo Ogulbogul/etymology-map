@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tēorian",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "to fail, cease or grow weary; of unknown origin",
+      "meaning": "to fail, weary",
+      "lat": 54.98,
+      "lon": -1.49
+    },
+    {
+      "word": "tired",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the adjective 'tired' dates from the 1400s",
+      "meaning": "weary",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "in need of rest"
+}

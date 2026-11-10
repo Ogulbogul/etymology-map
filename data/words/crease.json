@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "crista",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a tuft or crest",
+      "meaning": "crest",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "creste",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a crest or ridge",
+      "meaning": "ridge",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "crease",
+      "lang": "English",
+      "era": "1570s",
+      "note": "altered from 'creaste': the ridge made by a fold; cricket's 'crease' dates from the 1750s",
+      "meaning": "fold line",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a line made by folding or pressing"
+}

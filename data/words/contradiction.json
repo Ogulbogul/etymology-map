@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "contrādīcere",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to speak against, from 'contrā', against, and 'dīcere', to say",
+      "meaning": "to speak against",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "contradiction",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "opposition; Aristotle's law of non-contradiction, that something cannot be and not be, shaped later logic",
+      "meaning": "opposition",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "contradiction",
+      "lang": "English",
+      "era": "1300s",
+      "note": "taken into scholastic debate",
+      "meaning": "conflict of statements",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a statement or situation that conflicts with another"
+}
