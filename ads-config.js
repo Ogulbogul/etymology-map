@@ -29,12 +29,12 @@
   });
   C.preview = /[?&]adspreview=1(&|$)/.test(location.search);
   var live = !!C.publisher;
-  if (C.preview && !live) document.documentElement.classList.add("ad-preview");
+  if (C.preview && !live) document.documentElement.classList.add("sl-demo");
   function use(cls, id) {
     if (live ? id : C.preview) document.documentElement.classList.add(cls);
   }
-  use("ad-bottom-m", C.slots.bottomMobile);
-  use("ad-bottom-d", C.slots.bottomDesktop);
-  use("ad-side", C.slots.side);
-  use("ad-sticky", C.slots.sticky);
+  use("sl-bm", C.slots.bottomMobile);
+  use("sl-bd", C.slots.bottomDesktop);
+  use("sl-rail", C.slots.side);
+  use("sl-bar", C.slots.sticky);
 })();

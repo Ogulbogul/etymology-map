@@ -6,7 +6,7 @@
   "use strict";
   var C = window.EM_ADS;
   var root = document.documentElement;
-  if (!C || !/\bad-(bottom-m|bottom-d|side|sticky)\b/.test(root.className)) return;
+  if (!C || !/\bsl-(bm|bd|rail|bar)\b/.test(root.className)) return;
 
   var KEY = "em-ad-consent"; // "all" | "limited"
   var loaded = false;

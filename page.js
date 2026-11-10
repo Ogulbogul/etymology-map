@@ -1,7 +1,7 @@
 // Shared by the About, Privacy and 404 pages: light/dark toggle in the new header.
-import { icon } from "./icons.js?v=5cecacdd";
-import "./hint.js?v=5cecacdd";
-import "./feedback.js?v=5cecacdd";
+import { icon } from "./icons.js?v=39bd4f16";
+import "./hint.js?v=39bd4f16";
+import "./feedback.js?v=39bd4f16";
 
 const THEME_KEY = "etymology-map-theme";
 const btn = document.getElementById("theme-toggle-btn");
