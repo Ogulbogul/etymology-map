@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "hurlen",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "to rush or throw violently",
+      "meaning": "to throw hard",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "hurling",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the English name for the ancient Irish game 'iománaíocht'",
+      "meaning": "hurling",
+      "lat": 53.35,
+      "lon": -6.26
+    },
+    {
+      "word": "hurley",
+      "lang": "English",
+      "era": "1820s",
+      "note": "the stick, called a 'camán' in Irish",
+      "meaning": "hurling stick",
+      "lat": 53.35,
+      "lon": -6.26
+    }
+  ],
+  "current_meaning": "the stick used in the Irish game of hurling"
+}

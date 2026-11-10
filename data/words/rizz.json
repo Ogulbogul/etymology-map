@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kharisma",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a divine gift or favour, from 'kharis', grace",
+      "meaning": "gift of grace",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "charisma",
+      "lang": "English",
+      "era": "1930s",
+      "note": "the sociologist Max Weber's sense of magnetic personal authority reached English through translations",
+      "meaning": "personal magnetism",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "rizz",
+      "lang": "American English",
+      "era": "2020s",
+      "note": "clipped from the middle of 'charisma'; popularized by the streamer Kai Cenat and named Oxford's Word of the Year for 2023",
+      "meaning": "romantic charm",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "charm, especially in attracting a romantic partner"
+}

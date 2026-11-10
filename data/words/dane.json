@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Danir",
+      "lang": "Old Norse",
+      "era": "800s-1000s",
+      "note": "the people's own name; Denmark is the 'march', borderland, of the Danes",
+      "meaning": "the Danes",
+      "lat": 55.75,
+      "lon": 9.42
+    },
+    {
+      "word": "Dene",
+      "lang": "Old English",
+      "era": "800s-1000s",
+      "note": "the 'Danelaw' was the part of England under Danish law after the Viking settlements",
+      "meaning": "the Danes",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "Dane",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the Great Dane dog is a German breed, misnamed in the 1700s",
+      "meaning": "Dane",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a native of Denmark"
+}

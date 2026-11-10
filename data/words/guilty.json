@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "gyltig",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "from 'gylt', a crime, sin or debt, of unknown origin",
+      "meaning": "culpable",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "guilty",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'guilt' as a feeling of remorse is recorded only from the 1600s",
+      "meaning": "culpable",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "responsible for a wrongdoing"
+}

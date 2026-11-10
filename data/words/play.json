@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "plegan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "to exercise, frolic or make music; a stage 'play' was already 'plega' in Old English",
+      "meaning": "to frolic, perform",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "play",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'playwright' uses 'wright', a maker, as in 'wheelwright'",
+      "meaning": "to amuse oneself",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to engage in activity for enjoyment"
+}

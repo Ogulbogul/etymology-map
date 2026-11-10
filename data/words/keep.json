@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "cēpan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "to seize, hold or observe; of unknown origin, with no relatives elsewhere",
+      "meaning": "to seize, observe",
+      "lat": 52.63,
+      "lon": -1.69
+    },
+    {
+      "word": "keep",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a castle's 'keep', its strongest tower, dates from the 1580s",
+      "meaning": "to retain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to have or retain possession of"
+}

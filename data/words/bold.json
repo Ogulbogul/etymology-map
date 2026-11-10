@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "balþaz",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "found in names such as Baldwin, 'bold friend'",
+      "meaning": "bold",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "beald",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "meant brave, confident, strong",
+      "meaning": "brave",
+      "lat": 54.98,
+      "lon": -1.49
+    },
+    {
+      "word": "bold",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'bold' type, with thick strokes, dates from the 1800s",
+      "meaning": "brave",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "brave and confident"
+}

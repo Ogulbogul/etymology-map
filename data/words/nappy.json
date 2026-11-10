@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "mappa",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a cloth; also the source of 'map', and of 'apron', once 'a napron'",
+      "meaning": "cloth, napkin",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "nappe",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "a tablecloth",
+      "meaning": "tablecloth",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "napkin",
+      "lang": "Middle English",
+      "era": "1400s",
+      "note": "'nape' plus the diminutive '-kin': a little cloth",
+      "meaning": "small cloth",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "nappy",
+      "lang": "English",
+      "era": "1920s",
+      "note": "British nursery short form of 'napkin'; Americans say 'diaper'",
+      "meaning": "baby's diaper",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a baby's diaper"
+}

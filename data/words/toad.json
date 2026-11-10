@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "tādige",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "of unknown origin, with no relatives in other languages",
+      "meaning": "toad",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "toad",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a 'toady' was first a 'toad-eater', a quack's assistant who pretended to swallow toads so his master could 'cure' him",
+      "meaning": "toad",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a tailless amphibian with dry warty skin"
+}

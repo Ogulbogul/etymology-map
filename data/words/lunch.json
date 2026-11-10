@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "lunch",
+      "lang": "English",
+      "era": "1580s",
+      "note": "a thick piece or hunk, as of bread or cheese; perhaps from 'lump'",
+      "meaning": "hunk",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "luncheon",
+      "lang": "English",
+      "era": "1650s",
+      "note": "a light meal between breakfast and dinner",
+      "meaning": "light meal",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    {
+      "word": "lunch",
+      "lang": "English",
+      "era": "1820s",
+      "note": "shortened from 'luncheon' as dinner moved to the evening",
+      "meaning": "midday meal",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a meal eaten in the middle of the day"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "dump",
+      "lang": "Low German",
+      "era": "medieval",
+      "note": "damp, heavy; a possible source, though the origin is uncertain",
+      "meaning": "damp, heavy",
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    {
+      "word": "dumpling",
+      "lang": "English",
+      "era": "1600",
+      "note": "first recorded in Norfolk, still famous for its dumplings",
+      "meaning": "dough ball",
+      "lat": 52.63,
+      "lon": 1.3
+    }
+  ],
+  "current_meaning": "a small ball of dough, boiled, steamed or fried"
+}

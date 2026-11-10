@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lasce",
+      "lang": "Middle English",
+      "era": "1300s",
+      "note": "a northern word of uncertain origin, perhaps Scandinavian",
+      "meaning": "girl",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "lass",
+      "lang": "English",
+      "era": "1500s",
+      "note": "still everyday speech in Scotland and northern England",
+      "meaning": "girl",
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  ],
+  "current_meaning": "a girl or young woman"
+}

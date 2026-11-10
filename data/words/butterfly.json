@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "buttorflēoge",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "'butter' plus 'fly'; perhaps for the yellow of common species, or an old belief that they stole butter and milk",
+      "meaning": "butterfly",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "butterfly",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the swimming stroke was named in the 1930s",
+      "meaning": "butterfly",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "an insect with large colourful wings"
+}

@@ -1,0 +1,41 @@
+{
+  "stops": [
+    {
+      "word": "sonus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a noise, the root of 'sonic' and 'sonata'",
+      "meaning": "sound",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "son",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "sound",
+      "meaning": "sound",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "soun",
+      "lang": "Middle English",
+      "era": "1200s",
+      "note": "borrowed after the Norman Conquest",
+      "meaning": "sound",
+      "lat": 51.75,
+      "lon": -1.26
+    },
+    {
+      "word": "sound",
+      "lang": "English",
+      "era": "1400s",
+      "note": "a 'd' crept onto the end in the 1400s",
+      "meaning": "sound",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "vibrations that can be heard"
+}

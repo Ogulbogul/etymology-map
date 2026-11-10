@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "lǣdere",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "from 'lǣdan', to make go, the causative of 'līðan', to travel",
+      "meaning": "one who leads",
+      "lat": 51.28,
+      "lon": 1.08
+    },
+    {
+      "word": "leader",
+      "lang": "English",
+      "era": "1500s",
+      "note": "a newspaper's 'leader', its main editorial, dates from the 1800s",
+      "meaning": "one who leads",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a person who leads a group"
+}

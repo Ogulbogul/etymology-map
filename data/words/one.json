@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ainaz",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "cognate with Latin 'ūnus'",
+      "meaning": "one",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "ān",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "'a' and 'an' are worn-down forms of it; 'only', 'alone' and 'atone' (at one) contain it",
+      "meaning": "one",
+      "lat": 51.06,
+      "lon": -1.31
+    },
+    {
+      "word": "one",
+      "lang": "English",
+      "era": "1500s",
+      "note": "the 'w' sound in its pronunciation spread from a south-western dialect in the 1400s",
+      "meaning": "one",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the number 1"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "tunken",
+      "lang": "German",
+      "era": "medieval",
+      "note": "to dip",
+      "meaning": "to dip",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "dunke",
+      "lang": "Pennsylvania German",
+      "era": "1700s",
+      "note": "the dialect of German settlers in Pennsylvania; the 'Dunkers' were a sect who baptized by full immersion",
+      "meaning": "to dip",
+      "lat": 40.04,
+      "lon": -76.31
+    },
+    {
+      "word": "dunk",
+      "lang": "American English",
+      "era": "1910s",
+      "note": "first of dipping doughnuts in coffee; the basketball 'dunk shot' dates from the 1930s",
+      "meaning": "to dip",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "to dip food into a drink; to push a basketball down through the hoop"
+}
