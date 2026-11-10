@@ -1,8 +1,8 @@
-import { icon, hydrateIcons } from "./icons.js?v=b4288cac";
-import "./hint.js?v=b4288cac";
-import "./feedback.js?v=b4288cac";
-import { createGlobe } from "./globe.js?v=b4288cac";
-import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=b4288cac";
+import { icon, hydrateIcons } from "./icons.js?v=5cecacdd";
+import "./hint.js?v=5cecacdd";
+import "./feedback.js?v=5cecacdd";
+import { createGlobe } from "./globe.js?v=5cecacdd";
+import { buildShareCard as buildShareCardImage } from "./sharecard.js?v=5cecacdd";
 
 const MAP_WIDTH = 960;
 const MAP_HEIGHT = 500;
@@ -580,8 +580,8 @@ function setupSurprise() {
 async function loadMap() {
   try {
     const [d3geo, topojsonClient, landResp] = await Promise.all([
-      import("./vendor/d3-geo.js?v=b4288cac"),
-      import("./vendor/topojson-client.js?v=b4288cac"),
+      import("./vendor/d3-geo.js?v=5cecacdd"),
+      import("./vendor/topojson-client.js?v=5cecacdd"),
       fetch("/vendor/land-110m.json"),
     ]);
     if (!landResp.ok) throw new Error("land topology fetch failed");

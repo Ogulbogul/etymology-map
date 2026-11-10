@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent
 ASSETS = [
     "app.css", "pages.css", "game.css", "style.css",
     "app.js", "page.js", "game.js", "hint.js", "feedback.js", "gamecard.js",
-    "icons.js", "globe.js", "sharecard.js", "track.js", "word.js",
+    "icons.js", "globe.js", "sharecard.js", "track.js", "word.js", "ads-config.js", "ads.js",
     "vendor/d3-geo.js", "vendor/topojson-client.js",
 ]
 

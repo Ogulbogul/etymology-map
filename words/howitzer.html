@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=b4288cac" />
+<script src="/ads-config.js?v=5cecacdd"></script>
+<link rel="stylesheet" href="/app.css?v=5cecacdd" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=b4288cac" />
-<link rel="modulepreload" href="/icons.js?v=b4288cac" />
-<link rel="modulepreload" href="/globe.js?v=b4288cac" />
-<link rel="modulepreload" href="/sharecard.js?v=b4288cac" />
+<link rel="modulepreload" href="/app.js?v=5cecacdd" />
+<link rel="modulepreload" href="/icons.js?v=5cecacdd" />
+<link rel="modulepreload" href="/globe.js?v=5cecacdd" />
+<link rel="modulepreload" href="/sharecard.js?v=5cecacdd" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="howitzer" data-slug="howitzer">
@@ -284,16 +285,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "howitzer", "stops": [{"word": "houfnice", "lang": "Czech", "era": "medieval", "note": "meaning \"a catapult\" or \"sling\", later applied to cannons", "meaning": "a catapult, a type of cannon", "lat": 50.09, "lon": 14.42}, {"word": "Haubitze", "lang": "German", "era": "1600s", "note": "adopted for a short cannon firing at a high angle", "meaning": "a short-barreled cannon", "lat": 52.52, "lon": 13.4}, {"word": "howitzer", "lang": "English", "era": "1700s", "note": "Czech 'houfnice', a stone-sling, used by Hussite armies in the 1420s", "meaning": "a short cannon that fires shells in a high arc", "lat": 51.51, "lon": -0.13}], "current_meaning": "a short cannon that fires shells at a steep angle"}</script>
-  <script src="/track.js?v=b4288cac"></script>
-  <script type="module" src="/app.js?v=b4288cac"></script>
+  <script src="/track.js?v=5cecacdd"></script>
+  <script src="/ads.js?v=5cecacdd" defer></script>
+  <script type="module" src="/app.js?v=5cecacdd"></script>
 </body>
 </html>

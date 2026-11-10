@@ -1,0 +1,3 @@
+# Etymology Map: authorized digital sellers (IAB ads.txt).
+# Google AdSense publisher, as given in the AdSense site verification step.
+google.com, pub-7145862083376260, DIRECT, f08c47fec0942fa0

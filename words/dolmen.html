@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=b4288cac" />
+<script src="/ads-config.js?v=5cecacdd"></script>
+<link rel="stylesheet" href="/app.css?v=5cecacdd" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=b4288cac" />
-<link rel="modulepreload" href="/icons.js?v=b4288cac" />
-<link rel="modulepreload" href="/globe.js?v=b4288cac" />
-<link rel="modulepreload" href="/sharecard.js?v=b4288cac" />
+<link rel="modulepreload" href="/app.js?v=5cecacdd" />
+<link rel="modulepreload" href="/icons.js?v=5cecacdd" />
+<link rel="modulepreload" href="/globe.js?v=5cecacdd" />
+<link rel="modulepreload" href="/sharecard.js?v=5cecacdd" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="dolmen" data-slug="dolmen">
@@ -284,16 +285,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "dolmen", "stops": [{"word": "tolmen", "lang": "Cornish", "era": "medieval", "note": "'hole of stone', used for holed stones such as the Men-an-Tol in west Cornwall; one proposed source of 'dolmen'", "meaning": "holed stone", "lat": 50.16, "lon": -5.6}, {"word": "dolmen", "lang": "French", "era": "1796", "note": "used by Théophile-Malo de La Tour d'Auvergne, a Breton-born officer and antiquary, for megalithic 'stone tables', perhaps also thinking of Breton taol 'table' + men 'stone'", "meaning": "megalithic tomb", "lat": 48.28, "lon": -3.57}, {"word": "dolmen", "lang": "English", "era": "1850s", "note": "taken from French archaeology; Ireland's Poulnabrone dolmen in the Burren is over 5,000 years old", "meaning": "prehistoric stone tomb", "lat": 51.51, "lon": -0.13}], "current_meaning": "a prehistoric tomb of upright stones capped by a large flat stone"}</script>
-  <script src="/track.js?v=b4288cac"></script>
-  <script type="module" src="/app.js?v=b4288cac"></script>
+  <script src="/track.js?v=5cecacdd"></script>
+  <script src="/ads.js?v=5cecacdd" defer></script>
+  <script type="module" src="/app.js?v=5cecacdd"></script>
 </body>
 </html>

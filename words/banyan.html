@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=b4288cac" />
+<script src="/ads-config.js?v=5cecacdd"></script>
+<link rel="stylesheet" href="/app.css?v=5cecacdd" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=b4288cac" />
-<link rel="modulepreload" href="/icons.js?v=b4288cac" />
-<link rel="modulepreload" href="/globe.js?v=b4288cac" />
-<link rel="modulepreload" href="/sharecard.js?v=b4288cac" />
+<link rel="modulepreload" href="/app.js?v=5cecacdd" />
+<link rel="modulepreload" href="/icons.js?v=5cecacdd" />
+<link rel="modulepreload" href="/globe.js?v=5cecacdd" />
+<link rel="modulepreload" href="/sharecard.js?v=5cecacdd" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="banyan" data-slug="banyan">
@@ -288,16 +289,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "banyan", "stops": [{"word": "vanij", "lang": "Sanskrit", "era": "ancient", "note": "meant 'merchant, trader'", "meaning": "a merchant", "lat": 25.32, "lon": 82.97}, {"word": "vaniyo", "lang": "Gujarati", "era": "medieval", "note": "named the Gujarati merchant caste", "meaning": "a member of the trading caste", "lat": 23.02, "lon": 72.57}, {"word": "baniyan", "lang": "Arabic", "era": "medieval", "note": "Arab traders adopted the word for the Hindu merchants they dealt with", "meaning": "a Hindu merchant", "lat": 33.31, "lon": 44.36}, {"word": "baniano", "lang": "Portuguese", "era": "16th c.", "note": "Portuguese traders at Persian Gulf ports used the term", "meaning": "a Hindu merchant", "lat": 38.72, "lon": -9.14}, {"word": "banyan", "lang": "English", "era": "1630s", "note": "applied first to the merchants, then to the fig tree they traded and sheltered beneath at a Gulf port", "meaning": "the sacred fig tree with aerial roots", "lat": 51.51, "lon": -0.13}], "current_meaning": "A large fig tree native to India that grows aerial roots from its branches, forming multiple trunks."}</script>
-  <script src="/track.js?v=b4288cac"></script>
-  <script type="module" src="/app.js?v=b4288cac"></script>
+  <script src="/track.js?v=5cecacdd"></script>
+  <script src="/ads.js?v=5cecacdd" defer></script>
+  <script type="module" src="/app.js?v=5cecacdd"></script>
 </body>
 </html>

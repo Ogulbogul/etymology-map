@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=b4288cac" />
+<script src="/ads-config.js?v=5cecacdd"></script>
+<link rel="stylesheet" href="/app.css?v=5cecacdd" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=b4288cac" />
-<link rel="modulepreload" href="/icons.js?v=b4288cac" />
-<link rel="modulepreload" href="/globe.js?v=b4288cac" />
-<link rel="modulepreload" href="/sharecard.js?v=b4288cac" />
+<link rel="modulepreload" href="/app.js?v=5cecacdd" />
+<link rel="modulepreload" href="/icons.js?v=5cecacdd" />
+<link rel="modulepreload" href="/globe.js?v=5cecacdd" />
+<link rel="modulepreload" href="/sharecard.js?v=5cecacdd" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="kaiser" data-slug="kaiser">
@@ -286,16 +287,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "kaiser", "stops": [{"word": "Caesar", "lang": "Latin", "era": "ancient", "note": "the family name of Julius Caesar, which became an imperial title", "meaning": "Caesar", "lat": 41.9, "lon": 12.5}, {"word": "kaisar", "lang": "Gothic", "era": "ancient", "note": "borrowed very early by Germanic peoples in contact with Rome", "meaning": "emperor", "lat": 45.0, "lon": 28.0}, {"word": "Kaiser", "lang": "German", "era": "medieval", "note": "the title of the Holy Roman Emperors and later of Germany's and Austria's emperors", "meaning": "emperor", "lat": 48.21, "lon": 16.37}, {"word": "kaiser", "lang": "English", "era": "1850s", "note": "used above all for Kaiser Wilhelm II of the First World War", "meaning": "German emperor", "lat": 51.51, "lon": -0.13}], "current_meaning": "a German or Austrian emperor"}</script>
-  <script src="/track.js?v=b4288cac"></script>
-  <script type="module" src="/app.js?v=b4288cac"></script>
+  <script src="/track.js?v=5cecacdd"></script>
+  <script src="/ads.js?v=5cecacdd" defer></script>
+  <script type="module" src="/app.js?v=5cecacdd"></script>
 </body>
 </html>
