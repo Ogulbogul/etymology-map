@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "kratēr",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a large bowl for mixing wine with water at a feast",
+      "meaning": "mixing bowl",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "crātēr",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "Roman writers extended it to a volcano's mouth, as of Etna and Vesuvius",
+      "meaning": "bowl; volcano mouth",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "crater",
+      "lang": "English",
+      "era": "1610s",
+      "note": "later applied to hollows made by meteorites and shells, and to the moon's craters, which Galileo's telescope first revealed in 1609",
+      "meaning": "volcanic bowl; hollow",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a bowl-shaped hollow, especially at the mouth of a volcano"
+}

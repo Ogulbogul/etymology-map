@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Marx",
+      "lang": "German",
+      "era": "1800s",
+      "note": "the surname of Karl Marx, born in Trier in 1818",
+      "meaning": "surname of Karl Marx",
+      "lat": 49.75,
+      "lon": 6.64
+    },
+    {
+      "word": "Marxismus",
+      "lang": "German",
+      "era": "1880s",
+      "note": "coined in the 1880s, around the time Marx died in London in 1883",
+      "meaning": "Marx's theory",
+      "lat": 52.52,
+      "lon": 13.4
+    },
+    {
+      "word": "Marxism",
+      "lang": "English",
+      "era": "1880s",
+      "note": "Marx and Engels published 'The Communist Manifesto' in London in 1848",
+      "meaning": "Marx's theory",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the political and economic theory developed from the work of Karl Marx"
+}

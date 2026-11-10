@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "merak",
+      "lang": "Turkish",
+      "era": "medieval",
+      "note": "curiosity, enthusiasm or passion for something",
+      "meaning": "passion, keenness",
+      "lat": 41.01,
+      "lon": 28.98
+    },
+    {
+      "word": "meráki",
+      "lang": "Greek",
+      "era": "1800s",
+      "note": "Greeks took the Turkish word for devotion to one's work, especially cooking and music",
+      "meaning": "love of doing",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "meraki",
+      "lang": "English",
+      "era": "2010s",
+      "note": "spread through Greek restaurants, social media and brand names",
+      "meaning": "creative devotion",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "doing something with soul, creativity or love"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "chair cuite",
+      "lang": "French",
+      "era": "medieval",
+      "note": "'cooked flesh', from 'chair', flesh, and 'cuite', cooked",
+      "meaning": "cooked flesh",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "charcuterie",
+      "lang": "French",
+      "era": "1500s",
+      "note": "Paris had its own guild of 'charcutiers', sellers of cooked pork, separate from the butchers, by the late 1400s",
+      "meaning": "pork-butchery",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "charcuterie",
+      "lang": "English",
+      "era": "1850s",
+      "note": "borrowed for French delicatessens; 'charcuterie board' dates from the 2010s",
+      "meaning": "cured meats",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "cooked and cured meats such as sausage, pâté and ham"
+}

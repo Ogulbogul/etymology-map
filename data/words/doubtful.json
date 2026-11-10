@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "dubitāre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to waver between two choices, from 'duo', two",
+      "meaning": "to waver",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "douter",
+      "lang": "Old French",
+      "era": "medieval",
+      "note": "to fear or doubt",
+      "meaning": "to doubt",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "doubtful",
+      "lang": "English",
+      "era": "1300s",
+      "note": "the silent 'b' of 'doubt' was added in the 1500s by scholars copying the Latin",
+      "meaning": "uncertain",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "feeling uncertain; open to question"
+}

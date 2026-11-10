@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "radiāre",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "to shine, to give off rays, from 'radius', ray",
+      "meaning": "to emit rays",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "radiator",
+      "lang": "English",
+      "era": "1830s",
+      "note": "a hot-water radiator for heating buildings was devised by Franz San Galli in St Petersburg in 1855, and the word spread with central heating",
+      "meaning": "heater; cooler",
+      "lat": 59.93,
+      "lon": 30.34
+    }
+  ],
+  "current_meaning": "a device that gives off heat, such as a heater or a car's cooling unit"
+}

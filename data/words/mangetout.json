@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "manger + tout",
+      "lang": "French",
+      "era": "1800s",
+      "note": "'eat all': one eats the pod as well as the peas",
+      "meaning": "eat all",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "mangetout",
+      "lang": "English",
+      "era": "1800s",
+      "note": "borrowed from French gardening and cookery; Americans say 'snow pea'",
+      "meaning": "edible-podded pea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a pea eaten whole, pod and all"
+}

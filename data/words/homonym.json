@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "homōnymos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'having the same name', from 'homos', same, and 'onyma', name",
+      "meaning": "same-named",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "homonymus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "used by grammarians",
+      "meaning": "same-named",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "homonym",
+      "lang": "English",
+      "era": "1600s",
+      "note": "taken up by grammarians to describe words like 'bank', river edge and money house",
+      "meaning": "homonym",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a word with the same spelling or sound as another but a different meaning"
+}
