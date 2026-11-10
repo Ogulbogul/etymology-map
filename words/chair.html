@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<script src="/ads-config.js?v=ec7dd945"></script>
+<link rel="stylesheet" href="/app.css?v=ec7dd945" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/icons.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/globe.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/sharecard.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="/app.js?v=ec7dd945" />
+<link rel="modulepreload" href="/icons.js?v=ec7dd945" />
+<link rel="modulepreload" href="/globe.js?v=ec7dd945" />
+<link rel="modulepreload" href="/sharecard.js?v=ec7dd945" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="chair" data-slug="chair">
@@ -286,16 +287,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "chair", "stops": [{"word": "kathedra", "lang": "Greek", "era": "ancient", "note": "'kata', down, plus 'hedra', seat; a bishop's throne gave 'cathedral'", "meaning": "seat", "lat": 37.98, "lon": 23.73}, {"word": "cathedra", "lang": "Latin", "era": "ancient", "note": "a chair of authority, especially a teacher's", "meaning": "armchair, teacher's chair", "lat": 41.9, "lon": 12.5}, {"word": "chaere", "lang": "Old French", "era": "medieval", "note": "the 'th' sound wore away; a parallel form became French 'chaise'", "meaning": "seat", "lat": 48.85, "lon": 2.35}, {"word": "chair", "lang": "English", "era": "1200s", "note": "also names the person presiding over a meeting, from where they sat", "meaning": "a seat with a back", "lat": 51.51, "lon": -0.13}], "current_meaning": "a seat for one person with a back; the person leading a meeting"}</script>
-  <script src="/track.js?v=2fb1ed6a"></script>
-  <script type="module" src="/app.js?v=2fb1ed6a"></script>
+  <script src="/track.js?v=ec7dd945"></script>
+  <script src="/ads.js?v=ec7dd945" defer></script>
+  <script type="module" src="/app.js?v=ec7dd945"></script>
 </body>
 </html>

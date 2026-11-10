@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<script src="/ads-config.js?v=ec7dd945"></script>
+<link rel="stylesheet" href="/app.css?v=ec7dd945" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/icons.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/globe.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/sharecard.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="/app.js?v=ec7dd945" />
+<link rel="modulepreload" href="/icons.js?v=ec7dd945" />
+<link rel="modulepreload" href="/globe.js?v=ec7dd945" />
+<link rel="modulepreload" href="/sharecard.js?v=ec7dd945" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="cilantro" data-slug="cilantro">
@@ -286,16 +287,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "cilantro", "stops": [{"word": "koriannon", "lang": "Greek", "era": "ancient", "note": "coriander", "meaning": "coriander", "lat": 37.98, "lon": 23.73}, {"word": "coriandrum", "lang": "Latin", "era": "ancient", "note": "coriander", "meaning": "coriander", "lat": 41.9, "lon": 12.5}, {"word": "cilantro", "lang": "Spanish", "era": "medieval", "note": "sounds shifted from 'coriandro' to 'culantro' and 'cilantro'", "meaning": "coriander", "lat": 40.42, "lon": -3.7}, {"word": "cilantro", "lang": "American English", "era": "1920s", "note": "Americans use 'cilantro' for the leaves, while British English calls both leaves and seeds 'coriander'", "meaning": "coriander leaves", "lat": 29.42, "lon": -98.49}], "current_meaning": "the leaves of the coriander plant used as a herb"}</script>
-  <script src="/track.js?v=2fb1ed6a"></script>
-  <script type="module" src="/app.js?v=2fb1ed6a"></script>
+  <script src="/track.js?v=ec7dd945"></script>
+  <script src="/ads.js?v=ec7dd945" defer></script>
+  <script type="module" src="/app.js?v=ec7dd945"></script>
 </body>
 </html>

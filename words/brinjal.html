@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<script src="/ads-config.js?v=ec7dd945"></script>
+<link rel="stylesheet" href="/app.css?v=ec7dd945" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/icons.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/globe.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/sharecard.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="/app.js?v=ec7dd945" />
+<link rel="modulepreload" href="/icons.js?v=ec7dd945" />
+<link rel="modulepreload" href="/globe.js?v=ec7dd945" />
+<link rel="modulepreload" href="/sharecard.js?v=ec7dd945" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="brinjal" data-slug="brinjal">
@@ -286,16 +287,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "brinjal", "stops": [{"word": "vātiṅgaṇa", "lang": "Sanskrit", "era": "ancient", "note": "the eggplant was domesticated in South or Southeast Asia; some scholars trace the Sanskrit name further back to a Dravidian word", "meaning": "eggplant", "lat": 23.18, "lon": 75.78}, {"word": "bādhinjān", "lang": "Arabic", "era": "medieval", "note": "reached Arabic through Persian bādingān; Ibn Sayyar al-Warraq's 10th-century Baghdad cookbook includes būrāniyya, an eggplant dish named after Būrān, wife of Caliph al-Ma'mun", "meaning": "eggplant", "lat": 33.31, "lon": 44.36}, {"word": "beringela", "lang": "Portuguese", "era": "1500s", "note": "inherited from the Arabic of al-Andalus, then carried to Portugal's Indian trading posts such as Goa, captured in 1510", "meaning": "eggplant", "lat": 38.72, "lon": -9.14}, {"word": "brinjal", "lang": "English", "era": "1600s", "note": "Anglo-Indian English took the Portuguese word; Bombay itself passed from Portugal to England in 1661 as part of Catherine of Braganza's dowry, and brinjal is still the everyday word in India and South Africa", "meaning": "eggplant", "lat": 18.94, "lon": 72.83}], "current_meaning": "an eggplant or aubergine (in South Asian and South African English)"}</script>
-  <script src="/track.js?v=2fb1ed6a"></script>
-  <script type="module" src="/app.js?v=2fb1ed6a"></script>
+  <script src="/track.js?v=ec7dd945"></script>
+  <script src="/ads.js?v=ec7dd945" defer></script>
+  <script type="module" src="/app.js?v=ec7dd945"></script>
 </body>
 </html>

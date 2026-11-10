@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<script src="/ads-config.js?v=ec7dd945"></script>
+<link rel="stylesheet" href="/app.css?v=ec7dd945" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/icons.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/globe.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/sharecard.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="/app.js?v=ec7dd945" />
+<link rel="modulepreload" href="/icons.js?v=ec7dd945" />
+<link rel="modulepreload" href="/globe.js?v=ec7dd945" />
+<link rel="modulepreload" href="/sharecard.js?v=ec7dd945" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="kumpir" data-slug="kumpir">
@@ -286,16 +287,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "kumpir", "stops": [{"word": "Grundbirne", "lang": "German", "era": "1600s", "note": "'ground pear', an old southern German name for the potato", "meaning": "potato", "lat": 48.21, "lon": 16.37}, {"word": "krumpir", "lang": "Croatian", "era": "1700s", "note": "Habsburg rule brought the potato and its German name to the Balkans", "meaning": "potato", "lat": 45.81, "lon": 15.98}, {"word": "kumpir", "lang": "Turkish", "era": "1900s", "note": "Balkan immigrants brought the word to Turkey; stuffed kumpir became the famous street food of Istanbul's Ortaköy", "meaning": "stuffed baked potato", "lat": 41.03, "lon": 29.03}, {"word": "kumpir", "lang": "English", "era": "2000s", "note": "entered English through Turkish street food stalls", "meaning": "stuffed baked potato", "lat": 51.51, "lon": -0.13}], "current_meaning": "a large baked potato stuffed with butter, cheese and many toppings"}</script>
-  <script src="/track.js?v=2fb1ed6a"></script>
-  <script type="module" src="/app.js?v=2fb1ed6a"></script>
+  <script src="/track.js?v=ec7dd945"></script>
+  <script src="/ads.js?v=ec7dd945" defer></script>
+  <script type="module" src="/app.js?v=ec7dd945"></script>
 </body>
 </html>

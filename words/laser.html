@@ -37,12 +37,13 @@
     document.documentElement.setAttribute("data-view", "map");
   }
 </script>
-<link rel="stylesheet" href="/app.css?v=2fb1ed6a" />
+<script src="/ads-config.js?v=ec7dd945"></script>
+<link rel="stylesheet" href="/app.css?v=ec7dd945" />
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="modulepreload" href="/app.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/icons.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/globe.js?v=2fb1ed6a" />
-<link rel="modulepreload" href="/sharecard.js?v=2fb1ed6a" />
+<link rel="modulepreload" href="/app.js?v=ec7dd945" />
+<link rel="modulepreload" href="/icons.js?v=ec7dd945" />
+<link rel="modulepreload" href="/globe.js?v=ec7dd945" />
+<link rel="modulepreload" href="/sharecard.js?v=ec7dd945" />
 <link rel="preload" href="/data/words-index.json" as="fetch" crossorigin />
 </head>
 <body data-page="word" data-word="laser" data-slug="laser">
@@ -282,16 +283,26 @@
       </div>
     </div>
 
+    <aside class="ad-slot ad-bottom" aria-label="Advertisement">
+      <div class="ad-unit ad-unit-m"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomMobile" data-w="300" data-h="250"></div></div>
+      <div class="ad-unit ad-unit-d"><span class="ad-label">Advertisement</span><div class="ad-box" data-slot="bottomDesktop" data-w="728" data-h="90"></div></div>
+    </aside>
+
     <footer class="site-footer">
       <span id="footer-count" class="footer-count"></span>
       <span class="footer-links">
         <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy Policy</a>
+        <button type="button" class="ad-choices">Ad choices</button>
       </span>
     </footer>
+    <aside class="ad-slot ad-side ad-side-l" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-side ad-side-r" aria-label="Advertisement"><div class="ad-box" data-slot="side" data-w="160" data-h="600"></div></aside>
+    <aside class="ad-slot ad-sticky" aria-label="Advertisement"><div class="ad-box" data-slot="sticky" data-w="320" data-h="50"></div></aside>
   </div>
   <script type="application/json" id="word-data">{"word": "laser", "stops": [{"word": "maser", "lang": "American English", "era": "1954", "note": "Microwave Amplification by Stimulated Emission of Radiation; Charles Townes and colleagues built the first maser at Columbia University in 1954, on principles Einstein described in 1917", "meaning": "microwave amplifier", "lat": 40.81, "lon": -73.96}, {"word": "laser", "lang": "American English", "era": "1960", "note": "Light Amplification by Stimulated Emission of Radiation, a term Gordon Gould wrote in his notebook in 1957; Theodore Maiman fired the first working laser at Hughes Research Laboratories in Malibu on 16 May 1960", "meaning": "coherent light beam device", "lat": 34.03, "lon": -118.78}], "current_meaning": "a device that emits an intense narrow beam of coherent light"}</script>
-  <script src="/track.js?v=2fb1ed6a"></script>
-  <script type="module" src="/app.js?v=2fb1ed6a"></script>
+  <script src="/track.js?v=ec7dd945"></script>
+  <script src="/ads.js?v=ec7dd945" defer></script>
+  <script type="module" src="/app.js?v=ec7dd945"></script>
 </body>
 </html>
