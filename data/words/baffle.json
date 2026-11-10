@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "bafouer",
+      "lang": "French",
+      "era": "1500s",
+      "note": "to ridicule; the likeliest source, though Scots 'bauchle', to disgrace, is also proposed",
+      "meaning": "to ridicule",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "baffle",
+      "lang": "English",
+      "era": "1540s",
+      "note": "first meant to disgrace a perjured knight publicly; 'to bewilder' dates from the 1640s",
+      "meaning": "to bewilder",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to bewilder or perplex"
+}

@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "trias",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "a group of three, from 'treis', three",
+      "meaning": "set of three",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "triad",
+      "lang": "English",
+      "era": "1540s",
+      "note": "Chinese secret societies were named 'Triads' by the British in the 1800s, from the triangle symbol linking heaven, earth and humankind",
+      "meaning": "set of three",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a group or set of three"
+}

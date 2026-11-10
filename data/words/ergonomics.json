@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "ergon + nomos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'work' plus 'law', the root of 'energy' and 'economy'",
+      "meaning": "laws of work",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ergonomja",
+      "lang": "Polish",
+      "era": "1857",
+      "note": "coined by Wojciech Jastrzębowski, who wrote about the 'science of work'; the word was little known abroad",
+      "meaning": "science of work",
+      "lat": 52.23,
+      "lon": 21.01
+    },
+    {
+      "word": "ergonomics",
+      "lang": "English",
+      "era": "1949",
+      "note": "coined again independently by K. F. H. Murrell in Britain in 1949",
+      "meaning": "study of work design",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "the study of designing equipment and work to suit people"
+}

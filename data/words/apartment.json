@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "appartare",
+      "lang": "Italian",
+      "era": "medieval",
+      "note": "to separate, from 'a parte', apart",
+      "meaning": "to set apart",
+      "lat": 43.77,
+      "lon": 11.26
+    },
+    {
+      "word": "appartement",
+      "lang": "French",
+      "era": "1600s",
+      "note": "a suite of rooms in a palace",
+      "meaning": "suite of rooms",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "apartment",
+      "lang": "English",
+      "era": "1640s",
+      "note": "the flat-sense arrived in America in the 1800s, when the Stuyvesant Apartments (1869) brought Parisian-style living to New York",
+      "meaning": "suite of rooms; flat",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a set of rooms forming one residence in a larger building"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "azaleos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "dry, from 'azein', to dry up",
+      "meaning": "dry",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "Azalea",
+      "lang": "Modern Latin",
+      "era": "1753",
+      "note": "Linnaeus named the genus in Uppsala, believing the shrubs liked dry soil",
+      "meaning": "genus Azalea",
+      "lat": 59.86,
+      "lon": 17.64
+    },
+    {
+      "word": "azalea",
+      "lang": "English",
+      "era": "1750s",
+      "note": "taken into English gardening; the name is now misleading, since many azaleas like moist, acid soil",
+      "meaning": "azalea",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a flowering shrub of the rhododendron family"
+}

@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "quwi",
+      "lang": "Quechua",
+      "era": "pre-1500s",
+      "note": "the Andean name, an imitation of its squeak; the Inca kept cuy for food, as many Andean families still do",
+      "meaning": "guinea pig",
+      "lat": -13.52,
+      "lon": -71.97
+    },
+    {
+      "word": "cuy",
+      "lang": "Spanish",
+      "era": "1500s",
+      "note": "Spanish colonists adopted the Quechua word and also called it 'conejillo de Indias', little rabbit of the Indies",
+      "meaning": "guinea pig",
+      "lat": 37.39,
+      "lon": -5.98
+    },
+    {
+      "word": "guinea pig",
+      "lang": "English",
+      "era": "1660s",
+      "note": "neither from Guinea nor a pig: its name may come from Guiana or the slave-trade route via Guinea; 'guinea pig', a test subject, dates from the 1920s",
+      "meaning": "small rodent",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a small South American rodent kept as a pet or used in experiments"
+}

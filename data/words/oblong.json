@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "oblongus",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "'rather long', from 'ob-' and 'longus', long",
+      "meaning": "somewhat long",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "oblong",
+      "lang": "English",
+      "era": "1400s",
+      "note": "used in geometry for a rectangle with unequal sides",
+      "meaning": "longer than wide",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "longer than it is wide; a rectangle that is not a square"
+}

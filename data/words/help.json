@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "helpaną",
+      "lang": "Proto-Germanic",
+      "era": "ancient",
+      "note": "German 'helfen' is a cousin",
+      "meaning": "to help",
+      "lat": 52.5,
+      "lon": 9.5
+    },
+    {
+      "word": "helpan",
+      "lang": "Old English",
+      "era": "700s-1000s",
+      "note": "its old past forms 'holp' and 'holpen' survive in the King James Bible",
+      "meaning": "to help",
+      "lat": 53.96,
+      "lon": -1.08
+    },
+    {
+      "word": "help",
+      "lang": "English",
+      "era": "1500s",
+      "note": "'helpmate' grew from a misreading of 'an help meet for him' in Genesis",
+      "meaning": "to assist",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "to make it easier for someone to do something"
+}

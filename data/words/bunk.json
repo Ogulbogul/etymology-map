@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Buncombe",
+      "lang": "American English",
+      "era": "1820",
+      "note": "Felix Walker, congressman for Buncombe County, North Carolina, insisted on making a long pointless speech 'for Buncombe'",
+      "meaning": "Buncombe County",
+      "lat": 35.6,
+      "lon": -82.55
+    },
+    {
+      "word": "bunkum",
+      "lang": "American English",
+      "era": "1840s",
+      "note": "political claptrap",
+      "meaning": "claptrap",
+      "lat": 38.9,
+      "lon": -77.04
+    },
+    {
+      "word": "bunk",
+      "lang": "American English",
+      "era": "1900",
+      "note": "shortened from 'bunkum'; 'debunk' was coined in 1923 by the novelist William Woodward",
+      "meaning": "nonsense",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "nonsense"
+}

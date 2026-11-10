@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "Schwyz",
+      "lang": "Middle High German",
+      "era": "1291",
+      "note": "one of the three cantons that founded the Swiss Confederation in 1291; its name spread to the whole country",
+      "meaning": "Schwyz",
+      "lat": 47.02,
+      "lon": 8.65
+    },
+    {
+      "word": "Suisse",
+      "lang": "French",
+      "era": "1400s",
+      "note": "Swiss mercenaries served the French kings",
+      "meaning": "Swiss",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "Swiss",
+      "lang": "English",
+      "era": "1510s",
+      "note": "the Vatican's Swiss Guard dates from 1506",
+      "meaning": "Swiss",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "relating to Switzerland"
+}

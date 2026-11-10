@@ -1,0 +1,23 @@
+{
+  "stops": [
+    {
+      "word": "ergon + nomos",
+      "lang": "Greek",
+      "era": "ancient",
+      "note": "'work' plus 'law'",
+      "meaning": "laws of work",
+      "lat": 37.98,
+      "lon": 23.73
+    },
+    {
+      "word": "ergonomic",
+      "lang": "English",
+      "era": "1950s",
+      "note": "the adjective followed the science of 'ergonomics' (1949); ergonomic chairs and keyboards spread with office computers from the 1980s",
+      "meaning": "designed for human use",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "designed for comfort and efficiency in use"
+}

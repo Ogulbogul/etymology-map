@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "penna",
+      "lang": "Latin",
+      "era": "ancient",
+      "note": "a feather or quill, the root of 'pen'",
+      "meaning": "feather, quill",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "word": "penne",
+      "lang": "Italian",
+      "era": "1800s",
+      "note": "'quills', plural of 'penna', for the diagonal cut; a Ligurian pasta maker is said to have invented the cutting machine in 1865",
+      "meaning": "quills",
+      "lat": 44.41,
+      "lon": 8.93
+    },
+    {
+      "word": "penne",
+      "lang": "English",
+      "era": "1950s",
+      "note": "spread with Italian restaurants and the pasta boom",
+      "meaning": "quill-shaped pasta",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "tubes of pasta cut at a slant"
+}

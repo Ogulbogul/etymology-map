@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "carosello",
+      "lang": "Italian",
+      "era": "1500s",
+      "note": "a cavalry tournament, perhaps from a Neapolitan word for a clay ball used in the game",
+      "meaning": "horsemen's tournament",
+      "lat": 40.85,
+      "lon": 14.27
+    },
+    {
+      "word": "carrousel",
+      "lang": "French",
+      "era": "1600s",
+      "note": "Louis XIV's Carrousel of 1662 gave Paris its Place du Carrousel",
+      "meaning": "equestrian pageant",
+      "lat": 48.85,
+      "lon": 2.35
+    },
+    {
+      "word": "carousel",
+      "lang": "English",
+      "era": "1650s",
+      "note": "the merry-go-round sense began as the wooden horses used in training knights; airport baggage carousels date from the 1960s",
+      "meaning": "merry-go-round",
+      "lat": 51.51,
+      "lon": -0.13
+    }
+  ],
+  "current_meaning": "a merry-go-round; a rotating conveyor, as for luggage"
+}

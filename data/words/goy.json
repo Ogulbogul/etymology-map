@@ -1,0 +1,32 @@
+{
+  "stops": [
+    {
+      "word": "gōy",
+      "lang": "Hebrew",
+      "era": "ancient",
+      "note": "'nation' or 'people'; the Bible calls Israel itself a 'goy qadosh', a holy nation",
+      "meaning": "nation, people",
+      "lat": 31.77,
+      "lon": 35.21
+    },
+    {
+      "word": "goy",
+      "lang": "Yiddish",
+      "era": "1800s",
+      "note": "came to mean a non-Jew in the speech of Jewish communities across Europe",
+      "meaning": "non-Jew",
+      "lat": 50.06,
+      "lon": 19.94
+    },
+    {
+      "word": "goy",
+      "lang": "English",
+      "era": "1830s",
+      "note": "borrowed from Yiddish, often now regarded as derogatory depending on tone",
+      "meaning": "non-Jew",
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  ],
+  "current_meaning": "a non-Jewish person"
+}
